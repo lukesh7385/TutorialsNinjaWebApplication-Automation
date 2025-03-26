@@ -224,3 +224,8 @@ Commands:
     
     allure serve ./reportallure/
 """
+
+# To Run Specific Test
+"""
+pytest -v -s testCases -k "test_logout_functionality_002"
+"""

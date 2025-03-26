@@ -2495,3 +2495,9 @@ Stacktrace:
 03/27/2025 03:49:08 AM |      INFO | test_logout.py:47 | ***************** End of Logout Functionality 001 ********************
 03/27/2025 03:49:12 AM |      INFO | test_logout.py:118 | ********* Test Logout Functionality 004 is Passed **********
 03/27/2025 03:49:12 AM |      INFO | test_logout.py:127 | ********** End Of Test Logout Functionality 004 ***************
+03/27/2025 04:23:15 AM |      INFO | test_logout.py:52 | *************** Logout Functionality 002 Test Start ****************
+03/27/2025 04:23:19 AM |      INFO | test_logout.py:61 | **************** Login is Successful ******************
+03/27/2025 04:23:22 AM |      INFO | test_logout.py:66 | ************ Logout is successful *****************
+03/27/2025 04:23:22 AM |      INFO | test_logout.py:67 | ************ Verifying logout functionality **************
+03/27/2025 04:23:22 AM |      INFO | test_logout.py:72 | **************** Test Logout Functionality is Passed ****************
+03/27/2025 04:23:22 AM |      INFO | test_logout.py:79 | ***************** End of Logout Functionality 002 ********************
