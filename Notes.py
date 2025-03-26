@@ -197,4 +197,30 @@ git push -u origin main
 git remote add origin https://github.com/lukesh7385/TutorialsNinjaWebApplication-Automation.git
 git branch -M main
 git push -u origin main
+
+git pull --> pull all the files from github to local
+
+2nd Round
+---------
+git status
+git add -A -> add all the files in to staging/indexing area
+git commit -m "commit"
+git push -u origin master
+"""
+
+# 14: Run Tests using Jenkins
+"""
+
+"""
+
+# 15 Allure Reports
+"""
+Commands:
+
+    --alluredir=reportallure  -> To create a allure report
+    allure serve .\reportallure\  -> To generate the allure html report
+    
+    pytest -s -v -m "sanity or regression" --alluredir=reportallure .\testCases\ --browser chrome
+    
+    allure serve ./reportallure/
 """
