@@ -2501,3 +2501,192 @@ Stacktrace:
 03/27/2025 04:23:22 AM |      INFO | test_logout.py:67 | ************ Verifying logout functionality **************
 03/27/2025 04:23:22 AM |      INFO | test_logout.py:72 | **************** Test Logout Functionality is Passed ****************
 03/27/2025 04:23:22 AM |      INFO | test_logout.py:79 | ***************** End of Logout Functionality 002 ********************
+03/27/2025 02:58:21 PM |      INFO | test_login_params.py:12 | ********** Test Login Params is Started *********
+03/27/2025 02:58:25 PM |      INFO | test_login_params.py:15 | Invoking browser
+03/27/2025 02:58:25 PM |      INFO | test_login_params.py:16 | Navigating to URL
+03/27/2025 02:58:38 PM |      INFO | test_login_params.py:12 | ********** Test Login Params is Started *********
+03/27/2025 02:58:40 PM |      INFO | test_login_params.py:15 | Invoking browser
+03/27/2025 02:58:40 PM |      INFO | test_login_params.py:16 | Navigating to URL
+03/27/2025 02:58:54 PM |      INFO | test_login_params.py:12 | ********** Test Login Params is Started *********
+03/27/2025 02:58:56 PM |      INFO | test_login_params.py:15 | Invoking browser
+03/27/2025 02:58:56 PM |      INFO | test_login_params.py:16 | Navigating to URL
+03/27/2025 02:59:10 PM |      INFO | test_login_params.py:12 | ********** Test Login Params is Started *********
+03/27/2025 02:59:12 PM |      INFO | test_login_params.py:15 | Invoking browser
+03/27/2025 02:59:12 PM |      INFO | test_login_params.py:16 | Navigating to URL
+03/27/2025 03:04:18 PM |      INFO | test_login_params.py:12 | ********** Test Login Params is Started *********
+03/27/2025 03:04:19 PM |      INFO | test_login_params.py:15 | Invoking browser
+03/27/2025 03:04:19 PM |      INFO | test_login_params.py:16 | Navigating to URL
+03/27/2025 03:04:32 PM |      INFO | test_login_params.py:12 | ********** Test Login Params is Started *********
+03/27/2025 03:04:33 PM |      INFO | test_login_params.py:15 | Invoking browser
+03/27/2025 03:04:33 PM |      INFO | test_login_params.py:16 | Navigating to URL
+03/27/2025 03:04:46 PM |      INFO | test_login_params.py:12 | ********** Test Login Params is Started *********
+03/27/2025 03:04:47 PM |      INFO | test_login_params.py:15 | Invoking browser
+03/27/2025 03:04:47 PM |      INFO | test_login_params.py:16 | Navigating to URL
+03/27/2025 03:05:00 PM |      INFO | test_login_params.py:12 | ********** Test Login Params is Started *********
+03/27/2025 03:05:01 PM |      INFO | test_login_params.py:15 | Invoking browser
+03/27/2025 03:05:01 PM |      INFO | test_login_params.py:16 | Navigating to URL
+03/27/2025 03:08:48 PM |      INFO | test_login_params.py:12 | ********** Test Login Params is Started *********
+03/27/2025 03:08:50 PM |      INFO | test_login_params.py:15 | Invoking browser
+03/27/2025 03:08:50 PM |      INFO | test_login_params.py:16 | Navigating to URL
+03/27/2025 03:08:53 PM |      INFO | test_login_params.py:26 | test_login_params is passed
+03/27/2025 03:08:53 PM |      INFO | test_login_params.py:39 | test_login_params is Completed
+03/27/2025 03:08:55 PM |      INFO | test_login_params.py:12 | ********** Test Login Params is Started *********
+03/27/2025 03:08:56 PM |      INFO | test_login_params.py:15 | Invoking browser
+03/27/2025 03:08:56 PM |      INFO | test_login_params.py:16 | Navigating to URL
+03/27/2025 03:08:57 PM |      INFO | test_login_params.py:39 | test_login_params is Completed
+03/27/2025 03:08:58 PM |      INFO | test_login_params.py:12 | ********** Test Login Params is Started *********
+03/27/2025 03:08:59 PM |      INFO | test_login_params.py:15 | Invoking browser
+03/27/2025 03:08:59 PM |      INFO | test_login_params.py:16 | Navigating to URL
+03/27/2025 03:09:00 PM |      INFO | test_login_params.py:39 | test_login_params is Completed
+03/27/2025 03:09:02 PM |      INFO | test_login_params.py:12 | ********** Test Login Params is Started *********
+03/27/2025 03:09:03 PM |      INFO | test_login_params.py:15 | Invoking browser
+03/27/2025 03:09:03 PM |      INFO | test_login_params.py:16 | Navigating to URL
+03/27/2025 03:09:03 PM |      INFO | test_login_params.py:39 | test_login_params is Completed
+03/27/2025 03:12:31 PM |      INFO | test_login_params.py:12 | ********** Test Login Params is Started *********
+03/27/2025 03:12:32 PM |      INFO | test_login_params.py:15 | Invoking browser
+03/27/2025 03:12:32 PM |      INFO | test_login_params.py:16 | Navigating to URL
+03/27/2025 03:12:34 PM |      INFO | test_login_params.py:26 | test_login_params is passed
+03/27/2025 03:12:34 PM |      INFO | test_login_params.py:39 | test_login_params is Completed
+03/27/2025 03:12:36 PM |      INFO | test_login_params.py:12 | ********** Test Login Params is Started *********
+03/27/2025 03:12:36 PM |      INFO | test_login_params.py:15 | Invoking browser
+03/27/2025 03:12:36 PM |      INFO | test_login_params.py:16 | Navigating to URL
+03/27/2025 03:12:38 PM |      INFO | test_login_params.py:39 | test_login_params is Completed
+03/27/2025 03:12:39 PM |      INFO | test_login_params.py:12 | ********** Test Login Params is Started *********
+03/27/2025 03:12:40 PM |      INFO | test_login_params.py:15 | Invoking browser
+03/27/2025 03:12:40 PM |      INFO | test_login_params.py:16 | Navigating to URL
+03/27/2025 03:12:41 PM |      INFO | test_login_params.py:39 | test_login_params is Completed
+03/27/2025 03:12:43 PM |      INFO | test_login_params.py:12 | ********** Test Login Params is Started *********
+03/27/2025 03:12:44 PM |      INFO | test_login_params.py:15 | Invoking browser
+03/27/2025 03:12:44 PM |      INFO | test_login_params.py:16 | Navigating to URL
+03/27/2025 03:12:44 PM |      INFO | test_login_params.py:39 | test_login_params is Completed
+03/27/2025 03:19:50 PM |      INFO | test_login_params.py:12 | ********** Test Login Params is Started *********
+03/27/2025 03:19:51 PM |      INFO | test_login_params.py:15 | Invoking browser
+03/27/2025 03:19:51 PM |      INFO | test_login_params.py:16 | Navigating to URL
+03/27/2025 03:19:51 PM |      INFO | test_login_params.py:19 | Clicking on my account
+03/27/2025 03:19:52 PM |      INFO | test_login_params.py:21 | Clicking on login link
+03/27/2025 03:19:52 PM |      INFO | test_login_params.py:23 | Entering username: adelukesh@gmail.com
+03/27/2025 03:19:52 PM |      INFO | test_login_params.py:25 | Entering password: 12345
+03/27/2025 03:19:52 PM |      INFO | test_login_params.py:27 | Clicking on login button
+03/27/2025 03:19:52 PM |      INFO | test_login_params.py:28 | ************* Verifying test_login_params *************
+03/27/2025 03:19:52 PM |      INFO | test_login_params.py:32 | test_login_params is passed
+03/27/2025 03:19:52 PM |      INFO | test_login_params.py:45 | test_login_params is Completed
+03/27/2025 03:19:52 PM |      INFO | test_login_params.py:46 | ************* End of test_login_params *************
+03/27/2025 03:19:54 PM |      INFO | test_login_params.py:12 | ********** Test Login Params is Started *********
+03/27/2025 03:19:55 PM |      INFO | test_login_params.py:15 | Invoking browser
+03/27/2025 03:19:55 PM |      INFO | test_login_params.py:16 | Navigating to URL
+03/27/2025 03:19:55 PM |      INFO | test_login_params.py:19 | Clicking on my account
+03/27/2025 03:19:55 PM |      INFO | test_login_params.py:21 | Clicking on login link
+03/27/2025 03:19:55 PM |      INFO | test_login_params.py:23 | Entering username: adelukesh1@gmail.com
+03/27/2025 03:19:55 PM |      INFO | test_login_params.py:25 | Entering password: 12345
+03/27/2025 03:19:55 PM |      INFO | test_login_params.py:27 | Clicking on login button
+03/27/2025 03:19:55 PM |      INFO | test_login_params.py:28 | ************* Verifying test_login_params *************
+03/27/2025 03:19:55 PM |      INFO | test_login_params.py:45 | test_login_params is Completed
+03/27/2025 03:19:55 PM |      INFO | test_login_params.py:46 | ************* End of test_login_params *************
+03/27/2025 03:19:57 PM |      INFO | test_login_params.py:12 | ********** Test Login Params is Started *********
+03/27/2025 03:19:58 PM |      INFO | test_login_params.py:15 | Invoking browser
+03/27/2025 03:19:58 PM |      INFO | test_login_params.py:16 | Navigating to URL
+03/27/2025 03:19:58 PM |      INFO | test_login_params.py:19 | Clicking on my account
+03/27/2025 03:19:58 PM |      INFO | test_login_params.py:21 | Clicking on login link
+03/27/2025 03:19:58 PM |      INFO | test_login_params.py:23 | Entering username: adelukesh@gmail.com
+03/27/2025 03:19:58 PM |      INFO | test_login_params.py:25 | Entering password: 48465
+03/27/2025 03:19:58 PM |      INFO | test_login_params.py:27 | Clicking on login button
+03/27/2025 03:19:58 PM |      INFO | test_login_params.py:28 | ************* Verifying test_login_params *************
+03/27/2025 03:19:59 PM |      INFO | test_login_params.py:45 | test_login_params is Completed
+03/27/2025 03:19:59 PM |      INFO | test_login_params.py:46 | ************* End of test_login_params *************
+03/27/2025 03:20:00 PM |      INFO | test_login_params.py:12 | ********** Test Login Params is Started *********
+03/27/2025 03:20:01 PM |      INFO | test_login_params.py:15 | Invoking browser
+03/27/2025 03:20:01 PM |      INFO | test_login_params.py:16 | Navigating to URL
+03/27/2025 03:20:01 PM |      INFO | test_login_params.py:19 | Clicking on my account
+03/27/2025 03:20:01 PM |      INFO | test_login_params.py:21 | Clicking on login link
+03/27/2025 03:20:01 PM |      INFO | test_login_params.py:23 | Entering username: adelukesh24@gmail.com
+03/27/2025 03:20:02 PM |      INFO | test_login_params.py:25 | Entering password: 54851
+03/27/2025 03:20:02 PM |      INFO | test_login_params.py:27 | Clicking on login button
+03/27/2025 03:20:02 PM |      INFO | test_login_params.py:28 | ************* Verifying test_login_params *************
+03/27/2025 03:20:02 PM |      INFO | test_login_params.py:45 | test_login_params is Completed
+03/27/2025 03:20:02 PM |      INFO | test_login_params.py:46 | ************* End of test_login_params *************
+03/27/2025 03:20:40 PM |      INFO | test_login_params.py:12 | ********** Test Login Params is Started *********
+03/27/2025 03:20:41 PM |      INFO | test_login_params.py:15 | Invoking browser
+03/27/2025 03:20:41 PM |      INFO | test_login_params.py:16 | Navigating to URL
+03/27/2025 03:20:41 PM |      INFO | test_login_params.py:19 | Clicking on my account
+03/27/2025 03:20:41 PM |      INFO | test_login_params.py:21 | Clicking on login link
+03/27/2025 03:20:41 PM |      INFO | test_login_params.py:23 | Entering username: adelukesh@gmail.com
+03/27/2025 03:20:41 PM |      INFO | test_login_params.py:25 | Entering password: 12345
+03/27/2025 03:20:42 PM |      INFO | test_login_params.py:27 | Clicking on login button
+03/27/2025 03:20:42 PM |      INFO | test_login_params.py:28 | ************* Verifying test_login_params *************
+03/27/2025 03:20:42 PM |      INFO | test_login_params.py:45 | test_login_params is Completed
+03/27/2025 03:20:42 PM |      INFO | test_login_params.py:46 | ************* End of test_login_params *************
+03/27/2025 03:20:44 PM |      INFO | test_login_params.py:12 | ********** Test Login Params is Started *********
+03/27/2025 03:20:44 PM |      INFO | test_login_params.py:15 | Invoking browser
+03/27/2025 03:20:44 PM |      INFO | test_login_params.py:16 | Navigating to URL
+03/27/2025 03:20:45 PM |      INFO | test_login_params.py:19 | Clicking on my account
+03/27/2025 03:20:45 PM |      INFO | test_login_params.py:21 | Clicking on login link
+03/27/2025 03:20:45 PM |      INFO | test_login_params.py:23 | Entering username: adelukesh1@gmail.com
+03/27/2025 03:20:45 PM |      INFO | test_login_params.py:25 | Entering password: 12345
+03/27/2025 03:20:45 PM |      INFO | test_login_params.py:27 | Clicking on login button
+03/27/2025 03:20:45 PM |      INFO | test_login_params.py:28 | ************* Verifying test_login_params *************
+03/27/2025 03:20:45 PM |      INFO | test_login_params.py:41 | test_login_params is Failed
+03/27/2025 03:20:47 PM |      INFO | test_login_params.py:12 | ********** Test Login Params is Started *********
+03/27/2025 03:20:48 PM |      INFO | test_login_params.py:15 | Invoking browser
+03/27/2025 03:20:48 PM |      INFO | test_login_params.py:16 | Navigating to URL
+03/27/2025 03:20:48 PM |      INFO | test_login_params.py:19 | Clicking on my account
+03/27/2025 03:20:48 PM |      INFO | test_login_params.py:21 | Clicking on login link
+03/27/2025 03:20:48 PM |      INFO | test_login_params.py:23 | Entering username: adelukesh@gmail.com
+03/27/2025 03:20:48 PM |      INFO | test_login_params.py:25 | Entering password: 48465
+03/27/2025 03:20:49 PM |      INFO | test_login_params.py:27 | Clicking on login button
+03/27/2025 03:20:49 PM |      INFO | test_login_params.py:28 | ************* Verifying test_login_params *************
+03/27/2025 03:20:49 PM |      INFO | test_login_params.py:41 | test_login_params is Failed
+03/27/2025 03:20:51 PM |      INFO | test_login_params.py:12 | ********** Test Login Params is Started *********
+03/27/2025 03:20:51 PM |      INFO | test_login_params.py:15 | Invoking browser
+03/27/2025 03:20:51 PM |      INFO | test_login_params.py:16 | Navigating to URL
+03/27/2025 03:20:51 PM |      INFO | test_login_params.py:19 | Clicking on my account
+03/27/2025 03:20:52 PM |      INFO | test_login_params.py:21 | Clicking on login link
+03/27/2025 03:20:52 PM |      INFO | test_login_params.py:23 | Entering username: adelukesh24@gmail.com
+03/27/2025 03:20:52 PM |      INFO | test_login_params.py:25 | Entering password: 54851
+03/27/2025 03:20:52 PM |      INFO | test_login_params.py:27 | Clicking on login button
+03/27/2025 03:20:52 PM |      INFO | test_login_params.py:28 | ************* Verifying test_login_params *************
+03/27/2025 03:20:52 PM |      INFO | test_login_params.py:41 | test_login_params is Failed
+03/27/2025 03:22:46 PM |      INFO | test_login_params.py:12 | ********** Test Login Params is Started *********
+03/27/2025 03:22:47 PM |      INFO | test_login_params.py:15 | Invoking browser
+03/27/2025 03:22:47 PM |      INFO | test_login_params.py:16 | Navigating to URL
+03/27/2025 03:22:47 PM |      INFO | test_login_params.py:19 | Clicking on my account
+03/27/2025 03:22:48 PM |      INFO | test_login_params.py:21 | Clicking on login link
+03/27/2025 03:22:48 PM |      INFO | test_login_params.py:23 | Entering username: adelukesh@gmail.com
+03/27/2025 03:22:48 PM |      INFO | test_login_params.py:25 | Entering password: 12345
+03/27/2025 03:22:48 PM |      INFO | test_login_params.py:27 | Clicking on login button
+03/27/2025 03:22:48 PM |      INFO | test_login_params.py:28 | ************* Verifying test_login_params *************
+03/27/2025 03:22:48 PM |      INFO | test_login_params.py:32 | test_login_params is passed
+03/27/2025 03:22:48 PM |      INFO | test_login_params.py:45 | test_login_params is Completed
+03/27/2025 03:22:48 PM |      INFO | test_login_params.py:46 | ************* End of test_login_params *************
+03/27/2025 03:22:50 PM |      INFO | test_login_params.py:12 | ********** Test Login Params is Started *********
+03/27/2025 03:22:51 PM |      INFO | test_login_params.py:15 | Invoking browser
+03/27/2025 03:22:51 PM |      INFO | test_login_params.py:16 | Navigating to URL
+03/27/2025 03:22:51 PM |      INFO | test_login_params.py:19 | Clicking on my account
+03/27/2025 03:22:51 PM |      INFO | test_login_params.py:21 | Clicking on login link
+03/27/2025 03:22:51 PM |      INFO | test_login_params.py:23 | Entering username: adelukesh1@gmail.com
+03/27/2025 03:22:51 PM |      INFO | test_login_params.py:25 | Entering password: 12345
+03/27/2025 03:22:51 PM |      INFO | test_login_params.py:27 | Clicking on login button
+03/27/2025 03:22:51 PM |      INFO | test_login_params.py:28 | ************* Verifying test_login_params *************
+03/27/2025 03:22:52 PM |      INFO | test_login_params.py:45 | test_login_params is Completed
+03/27/2025 03:22:52 PM |      INFO | test_login_params.py:46 | ************* End of test_login_params *************
+03/27/2025 03:22:53 PM |      INFO | test_login_params.py:12 | ********** Test Login Params is Started *********
+03/27/2025 03:22:54 PM |      INFO | test_login_params.py:15 | Invoking browser
+03/27/2025 03:22:54 PM |      INFO | test_login_params.py:16 | Navigating to URL
+03/27/2025 03:22:54 PM |      INFO | test_login_params.py:19 | Clicking on my account
+03/27/2025 03:22:55 PM |      INFO | test_login_params.py:21 | Clicking on login link
+03/27/2025 03:22:55 PM |      INFO | test_login_params.py:23 | Entering username: adelukesh@gmail.com
+03/27/2025 03:22:55 PM |      INFO | test_login_params.py:25 | Entering password: 48465
+03/27/2025 03:22:55 PM |      INFO | test_login_params.py:27 | Clicking on login button
+03/27/2025 03:22:55 PM |      INFO | test_login_params.py:28 | ************* Verifying test_login_params *************
+03/27/2025 03:22:55 PM |      INFO | test_login_params.py:45 | test_login_params is Completed
+03/27/2025 03:22:55 PM |      INFO | test_login_params.py:46 | ************* End of test_login_params *************
+03/27/2025 03:22:57 PM |      INFO | test_login_params.py:12 | ********** Test Login Params is Started *********
+03/27/2025 03:22:58 PM |      INFO | test_login_params.py:15 | Invoking browser
+03/27/2025 03:22:58 PM |      INFO | test_login_params.py:16 | Navigating to URL
+03/27/2025 03:22:58 PM |      INFO | test_login_params.py:19 | Clicking on my account
+03/27/2025 03:22:58 PM |      INFO | test_login_params.py:21 | Clicking on login link
+03/27/2025 03:22:58 PM |      INFO | test_login_params.py:23 | Entering username: adelukesh24@gmail.com
+03/27/2025 03:22:58 PM |      INFO | test_login_params.py:25 | Entering password: 54851
+03/27/2025 03:22:58 PM |      INFO | test_login_params.py:27 | Clicking on login button
+03/27/2025 03:22:58 PM |      INFO | test_login_params.py:28 | ************* Verifying test_login_params *************
+03/27/2025 03:22:58 PM |      INFO | test_login_params.py:45 | test_login_params is Completed
+03/27/2025 03:22:58 PM |      INFO | test_login_params.py:46 | ************* End of test_login_params *************
