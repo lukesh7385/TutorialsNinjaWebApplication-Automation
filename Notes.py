@@ -229,3 +229,12 @@ Commands:
 """
 pytest -v -s testCases -k "test_logout_functionality_002"
 """
+
+# To check webDriver version
+"""
+Run this command in cmd
+    Syntax:
+        path of your webDrivers --version
+    ex:
+        C:\Drivers\chromedriver.exe --version
+"""

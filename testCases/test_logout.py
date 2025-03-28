@@ -4,6 +4,7 @@ import pytest
 from selenium.common import NoSuchElementException
 from selenium.webdriver.common.by import By
 from pageObjects.LoginPage import LoginPage
+from pageObjects.LogoutPage import LogoutPage
 from utilities.customLogger import LogGen
 from utilities.readProperties import ReadConfig
 
@@ -27,24 +28,24 @@ class Test_003_Logout_Functionality:
         self.lp.set_password(self.password)
         self.lp.click_on_login_button()
         self.logger.info("**************** Login is Successful ******************")
-        time.sleep(1)
         self.lp.click_on_my_account()
-        self.lp.click_on_logout_link()
-        self.lp.click_on_logout_continue()
+        self.lg = LogoutPage(self.driver)
+        self.lg.click_on_logout_link()
+        self.lg.click_on_logout_continue()
         self.logger.info("************ Logout is successful *****************")
-        self.logger.info("************ Verifying logout functionality **************")
         self.lp.click_on_my_account()
-        self.loginOption = self.driver.find_element(By.XPATH, "//a[text() = 'Login']")
-        if self.loginOption.is_displayed() and self.driver.title == "Your Store":
+        self.logger.info("clicking on my account")
+        self.loginOption = self.driver.find_element(*LoginPage.link_login_PARTIAL_LINK_TEXT).is_displayed()
+        self.logger.info("************ Verifying logout functionality 001 **************")
+        if self.loginOption and self.driver.title == "Your Store":
             assert True
             self.logger.info("**************** Test Logout Functionality is Passed ****************")
-            self.driver.close()
         else:
             self.driver.save_screenshot(".\\Screenshots\\" + "test_logout_functionality_001.png")
             self.logger.info("************** Test Logout Functionality is Failed *******************")
-            self.driver.close()
             assert False
         self.logger.info("***************** End of Logout Functionality 001 ********************")
+        self.driver.close()
 
     @pytest.mark.sanity
     @pytest.mark.regression
@@ -62,7 +63,8 @@ class Test_003_Logout_Functionality:
         time.sleep(1)
         self.lp.click_on_my_account()
         self.driver.find_element(By.XPATH, "//a[@class='list-group-item'][normalize-space()='Logout']").click()
-        self.lp.click_on_logout_continue()
+        self.lg = LogoutPage(self.driver)
+        self.lg.click_on_logout_continue()
         self.logger.info("************ Logout is successful *****************")
         self.logger.info("************ Verifying logout functionality **************")
         self.lp.click_on_my_account()
@@ -93,7 +95,8 @@ class Test_003_Logout_Functionality:
         self.logger.info("**************** Login is Successful ******************")
         time.sleep(1)
         self.lp.click_on_my_account()
-        self.lp.click_on_logout_link()
+        self.lg = LogoutPage(self.driver)
+        self.lg.click_on_logout_link()
         self.driver.back()
         time.sleep(2)
         self.driver.refresh()

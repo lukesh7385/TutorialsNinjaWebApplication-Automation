@@ -1,7 +1,6 @@
 import time
-
 import pytest
-
+from pageObjects.LogoutPage import LogoutPage
 from utilities import ExcelUtils
 from pageObjects.LoginPage import LoginPage
 from utilities.readProperties import ReadConfig
@@ -38,7 +37,7 @@ class Test_002_DDT_Login:
             self.logger.info("clicking on the login button")
             self.lp.click_on_login_button()
             time.sleep(1)
-
+            self.lg = LogoutPage(self.driver)
             act_title = self.driver.title
             exp_title = "My Account"
 
@@ -46,14 +45,14 @@ class Test_002_DDT_Login:
                 if self.exp == "Pass":
                     self.logger.info("*** Passed")
                     self.lp.click_on_my_account()
-                    self.lp.click_on_logout_link()
-                    self.lp.click_on_logout_continue()
+                    self.lg.click_on_logout_link()
+                    self.lg.click_on_logout_continue()
                     lst_status.append("Pass")
                 elif self.exp == "Fail":
                     self.logger.info("*** Passed")
                     self.lp.click_on_my_account()
-                    self.lp.click_on_logout_link()
-                    self.lp.click_on_logout_continue()
+                    self.lg.click_on_logout_link()
+                    self.lg.click_on_logout_continue()
                     lst_status.append("Fail")
             elif act_title != exp_title:
                 if self.exp == "Pass":

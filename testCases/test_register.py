@@ -52,10 +52,9 @@ class Test_001_Register_Functionality:
             self.logger.info("**********  Register Functionality Test Failed **********")
             assert False
         self.logger.info("********** End Of Test Register Functionality 001 **********")
+        self.driver.close()
 def random_generator(size=8, chars=string.ascii_lowercase + string.digits):
     return ''.join(random.choice(chars) for _ in range(size))
-
-
 
 
 

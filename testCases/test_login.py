@@ -21,13 +21,12 @@ class Test_002_Login_Functionality:
         act_title = self.driver.title
         if act_title == "Your Store":
             assert True
-            self.driver.close()
             self.logger.info("************** Home page title test is passed ************")
         else:
             self.driver.save_screenshot(".\\Screenshots\\" + "test_home_page_title.png")
-            self.driver.close()
             self.logger.error("************** Home page title test is failed ************")
             assert False
+        self.driver.close()
 
     @pytest.mark.sanity
     @pytest.mark.regression
@@ -53,9 +52,8 @@ class Test_002_Login_Functionality:
         if act_title == "My Account":
             assert True
             self.logger.info("************** Login test is passed ************")
-            self.driver.close()
         else:
             self.driver.save_screenshot(".\\Screenshots\\" + "test_login.png")
-            self.driver.close()
             self.logger.error("************** Login test is failed ************")
             assert False
+        self.driver.close()
