@@ -45,11 +45,13 @@ class Test_001_Register_Functionality:
             else:
                 self.logger.info("**********  Test Register Functionality 001 is Failed **********")
                 self.driver.save_screenshot(".\\Screenshots\\" + "test_register_functionality_001.png")
+                self.driver.close()
                 assert False
             assert True
         else:
             self.driver.save_screenshot(".\\Screenshots\\" + "test_register_functionality_001.png")
             self.logger.info("**********  Register Functionality Test Failed **********")
+            self.driver.close()
             assert False
         self.logger.info("********** End Of Test Register Functionality 001 **********")
         self.driver.close()

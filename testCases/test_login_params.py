@@ -34,14 +34,14 @@ class TestLoginParams:
                 assert True
                 self.logger.info("test_login_params is passed")
             else:
-                self.logger.info("test_login_params is failed")
+                self.logger.error("test_login_params is failed")
                 self.driver.save_screenshot(".\\Screenshots\\" + "test_login_params_failed.png")
                 assert False
         else:
             if data_for_login[2] == "Fail":
                 assert True
             else:
-                self.logger.info("test_login_params is Failed")
+                self.logger.error("test_login_params is Failed")
                 self.driver.save_screenshot(".\\Screenshots\\" + "test_login_params_failed.png")
                 assert False
         self.driver.close()

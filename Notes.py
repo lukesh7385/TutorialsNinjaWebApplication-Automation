@@ -227,7 +227,7 @@ Commands:
 
 # To Run Specific Test
 """
-pytest -v -s testCases -k "test_logout_functionality_002"
+pytest -v -s testCases -k "test_logout_functionality_002 or test_login_functionality_001"
 """
 
 # To check webDriver version

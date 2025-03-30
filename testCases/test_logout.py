@@ -41,7 +41,7 @@ class Test_003_Logout_Functionality:
             assert True
             self.logger.info("**************** Test Logout Functionality is Passed ****************")
         else:
-            self.driver.save_screenshot(".\\Screenshots\\" + "test_logout_functionality_001.png")
+            # self.driver.save_screenshot(".\\Screenshots\\" + "test_logout_functionality_001.png")
             self.logger.info("************** Test Logout Functionality is Failed *******************")
             assert False
         self.logger.info("***************** End of Logout Functionality 001 ********************")

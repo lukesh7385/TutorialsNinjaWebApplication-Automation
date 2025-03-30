@@ -1,8 +1,0 @@
-[32mINFO    [0m Test_001_Register_Functionality:test_register.py:16 ******** Test Register Functionality 001 is Started *********
-[32mINFO    [0m Test_001_Register_Functionality:test_register.py:18 Navigating to the url
-[32mINFO    [0m Test_001_Register_Functionality:test_register.py:21 clicking on myAccount drop menu
-[32mINFO    [0m Test_001_Register_Functionality:test_register.py:24 clicking on register link
-[32mINFO    [0m Test_001_Register_Functionality:test_register.py:26 *************** Providing Registration Details ***************
-[32mINFO    [0m Test_001_Register_Functionality:test_register.py:37 *************** Register Functionality validation started ***************
-[32mINFO    [0m Test_001_Register_Functionality:test_register.py:44 ******* Test Register Functionality is Passed ********
-[32mINFO    [0m Test_001_Register_Functionality:test_register.py:54 ********** End Of Test Register Functionality 001 **********

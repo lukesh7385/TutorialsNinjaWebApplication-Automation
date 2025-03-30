@@ -1,9 +1,0 @@
-[32mINFO    [0m Test_002_Login_Functionality:test_login.py:34 ************** Login test is started ************
-[32mINFO    [0m Test_002_Login_Functionality:test_login.py:36 navigating to the url
-[32mINFO    [0m Test_002_Login_Functionality:test_login.py:39 clicking on myAccount drop menu
-[32mINFO    [0m Test_002_Login_Functionality:test_login.py:41 clicking on login link
-[32mINFO    [0m Test_002_Login_Functionality:test_login.py:43 passing the username
-[32mINFO    [0m Test_002_Login_Functionality:test_login.py:45 passing the password
-[32mINFO    [0m Test_002_Login_Functionality:test_login.py:47 clicking on the login button
-[32mINFO    [0m Test_002_Login_Functionality:test_login.py:51 ************** Verifying Login test ************
-[32mINFO    [0m Test_002_Login_Functionality:test_login.py:54 ************** Login test is passed ************

@@ -1,2 +1,0 @@
-[32mINFO    [0m Test_003_Logout_Functionality:test_logout.py:20 *************** Logout Functionality 001 Test Start ****************
-[32mINFO    [0m Test_003_Logout_Functionality:test_logout.py:29 **************** Login is Successful ******************
