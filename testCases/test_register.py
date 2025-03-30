@@ -1,11 +1,14 @@
 import random
 import string
 import pytest
+import allure
 from pageObjects.RegisterPage import RegisterPage
 from utilities.readProperties import ReadConfig
 from utilities.customLogger import LogGen
 from pageObjects.LoginPage import LoginPage
 
+@pytest.mark.usefixtures("setup", "log_on_failure")
+@allure.severity(allure.severity_level.BLOCKER)
 class Test_001_Register_Functionality:
     baseURL = ReadConfig.get_application_url()
     logger = LogGen.loggen()

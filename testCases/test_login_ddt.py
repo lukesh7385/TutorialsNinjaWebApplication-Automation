@@ -1,4 +1,5 @@
 import time
+import allure
 import pytest
 from pageObjects.LogoutPage import LogoutPage
 from utilities import ExcelUtils
@@ -6,6 +7,8 @@ from pageObjects.LoginPage import LoginPage
 from utilities.readProperties import ReadConfig
 from utilities.customLogger import LogGen
 
+@pytest.mark.usefixtures("setup", "log_on_failure")
+@allure.severity(allure.severity_level.CRITICAL)
 class Test_002_DDT_Login:
     baseURL = ReadConfig.get_application_url()
     path = ".//TestData/LoginData.xlsx"

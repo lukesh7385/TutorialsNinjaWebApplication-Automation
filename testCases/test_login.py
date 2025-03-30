@@ -25,7 +25,7 @@ class Test_002_Login_Functionality:
         self.driver = setup
         self.driver.get(self.baseURL)
         act_title = self.driver.title
-        if act_title == "Your Storee":
+        if act_title == "Your Store":
             assert True
             self.logger.info("************** Home page title test is passed ************")
         else:

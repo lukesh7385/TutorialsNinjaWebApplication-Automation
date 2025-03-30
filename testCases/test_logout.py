@@ -1,5 +1,5 @@
 import time
-
+import allure
 import pytest
 from selenium.common import NoSuchElementException
 from selenium.webdriver.common.by import By
@@ -9,6 +9,8 @@ from utilities.customLogger import LogGen
 from utilities.readProperties import ReadConfig
 
 
+@pytest.mark.usefixtures("setup", "log_on_failure")
+@allure.severity(allure.severity_level.NORMAL)
 class Test_003_Logout_Functionality:
     baseURL = ReadConfig.get_application_url()
     username = ReadConfig.get_user_email()

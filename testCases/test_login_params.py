@@ -1,10 +1,12 @@
 import pytest
-
+import allure
 from pageObjects.LoginPage import LoginPage
 from utilities.customLogger import LogGen
 from utilities.readProperties import ReadConfig
 
 
+@pytest.mark.usefixtures("setup", "log_on_failure")
+@allure.severity(allure.severity_level.CRITICAL)
 class TestLoginParams:
     logger = LogGen.loggen()
     baseURL = ReadConfig.get_application_url()

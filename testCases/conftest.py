@@ -87,6 +87,15 @@ def pytest_addoption(parser):
     """
     parser.addoption("--browser", action="store", default="chrome")
 
+@pytest.fixture(params=[
+    ("adelukesh@gmail.com", "12345", "Pass"),
+    ("adelukesh1@gmail.com", "12345", "Fail"),
+    ("adelukesh@gmail.com", "48465", "Fail"),
+    ("adelukesh24@gmail.com", "54851", "Fail")
+])
+def data_for_login(request):
+    return request.param
+
 
 def pytest_html_report_title(report):
     """

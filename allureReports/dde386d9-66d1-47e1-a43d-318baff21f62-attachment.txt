@@ -1,0 +1,13 @@
+[32mINFO    [0m Test_002_Login_Functionality:test_login.py:40 ************** Login test is started ************
+[32mINFO    [0m Test_002_Login_Functionality:test_login.py:42 navigating to the url
+[32mINFO    [0m Test_002_Login_Functionality:test_login.py:45 clicking on myAccount drop menu
+[32mINFO    [0m Test_002_Login_Functionality:test_login.py:47 clicking on login link
+[32mINFO    [0m Test_002_Login_Functionality:test_login.py:49 passing the username
+[32mINFO    [0m Test_002_Login_Functionality:test_login.py:51 passing the password
+[32mINFO    [0m Test_002_Login_Functionality:test_login.py:53 clicking on the login button
+[32mINFO    [0m Test_002_Login_Functionality:test_login.py:56 ************** Verifying Login test ************
+[32mINFO    [0m Test_002_Login_Functionality:test_login.py:63 ************** Verifying Login test ************
+[32mINFO    [0m Test_002_Login_Functionality:test_login.py:67 ************** Login test is passed ************
+[33mWARNING [0m urllib3.connectionpool:connectionpool.py:868 Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000187713ED810>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/4ac7d5e712db120b86149b0ac72b9a6c
+[33mWARNING [0m urllib3.connectionpool:connectionpool.py:868 Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001877129AFD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/4ac7d5e712db120b86149b0ac72b9a6c
+[33mWARNING [0m urllib3.connectionpool:connectionpool.py:868 Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001877129BE10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/4ac7d5e712db120b86149b0ac72b9a6c
