@@ -11,9 +11,9 @@ rem Run regression tests
 rem pytest -s -v -m "regression" --html=./Reports/report.html .\testCases\ --browser %BROWSER%
 
 rem Run tests marked as both sanity and regression
-pytest -s -v -m "sanity and regression" --html=./Reports/report.html .\testCases\ --browser %BROWSER%
+rem pytest -s -v -m "sanity and regression" --html=./Reports/report.html .\testCases\ --browser %BROWSER%
 
 rem Run tests marked as either sanity or regression
-rem pytest -s -v -m "sanity or regression" --html=./Reports/report.html .\testCases\ --browser %BROWSER%
+pytest -s -v -m "sanity or regression" --html=./Reports/report.html .\testCases\ --browser %BROWSER%
 
 cmd /k
