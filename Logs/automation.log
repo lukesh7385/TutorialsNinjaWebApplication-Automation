@@ -7854,3 +7854,668 @@ Stacktrace:
 03/30/2025 03:34:07 PM |      INFO | test_register.py:59 | ********** End Of Test Register Functionality 001 **********
 03/30/2025 03:34:12 PM |      INFO | test_logout.py:123 | ********* Test Logout Functionality 004 is Passed **********
 03/30/2025 03:34:13 PM |      INFO | test_logout.py:132 | ********** End Of Test Logout Functionality 004 ***************
+03/31/2025 12:59:12 AM |      INFO | test_login_ddt.py:19 | ************** Test_002_DDT_Login ***************
+03/31/2025 12:59:12 AM |      INFO | test_login_ddt.py:20 | ************** Verifying Login Test ************
+03/31/2025 12:59:12 AM |      INFO | test_login_ddt.py:22 | navigating to the url
+03/31/2025 12:59:15 AM |      INFO | test_login_ddt.py:32 | clicking on myAccount drop menu
+03/31/2025 12:59:15 AM |      INFO | test_login_ddt.py:34 | clicking on login link
+03/31/2025 12:59:15 AM |      INFO | test_login_ddt.py:36 | passing the username
+03/31/2025 12:59:15 AM |      INFO | test_login_ddt.py:38 | passing the password
+03/31/2025 12:59:15 AM |      INFO | test_login_ddt.py:40 | clicking on the login button
+03/31/2025 12:59:17 AM |      INFO | test_login_ddt.py:49 | *** Passed
+03/31/2025 12:59:18 AM |      INFO | test_login_ddt.py:32 | clicking on myAccount drop menu
+03/31/2025 12:59:18 AM |      INFO | test_login_ddt.py:34 | clicking on login link
+03/31/2025 12:59:18 AM |      INFO | test_login_ddt.py:36 | passing the username
+03/31/2025 12:59:18 AM |      INFO | test_login_ddt.py:38 | passing the password
+03/31/2025 12:59:18 AM |      INFO | test_login_ddt.py:40 | clicking on the login button
+03/31/2025 12:59:20 AM |      INFO | test_login_ddt.py:65 | *** Passed
+03/31/2025 12:59:20 AM |      INFO | test_login_ddt.py:32 | clicking on myAccount drop menu
+03/31/2025 12:59:20 AM |      INFO | test_login_ddt.py:34 | clicking on login link
+03/31/2025 12:59:20 AM |      INFO | test_login_ddt.py:36 | passing the username
+03/31/2025 12:59:20 AM |      INFO | test_login_ddt.py:38 | passing the password
+03/31/2025 12:59:20 AM |      INFO | test_login_ddt.py:40 | clicking on the login button
+03/31/2025 12:59:22 AM |      INFO | test_login_ddt.py:65 | *** Passed
+03/31/2025 12:59:22 AM |      INFO | test_login_ddt.py:32 | clicking on myAccount drop menu
+03/31/2025 12:59:22 AM |      INFO | test_login_ddt.py:34 | clicking on login link
+03/31/2025 12:59:22 AM |      INFO | test_login_ddt.py:36 | passing the username
+03/31/2025 12:59:22 AM |      INFO | test_login_ddt.py:38 | passing the password
+03/31/2025 12:59:23 AM |      INFO | test_login_ddt.py:40 | clicking on the login button
+03/31/2025 12:59:24 AM |      INFO | test_login_ddt.py:65 | *** Passed
+03/31/2025 12:59:24 AM |      INFO | test_login_ddt.py:32 | clicking on myAccount drop menu
+03/31/2025 12:59:24 AM |      INFO | test_login_ddt.py:34 | clicking on login link
+03/31/2025 12:59:24 AM |      INFO | test_login_ddt.py:36 | passing the username
+03/31/2025 01:03:02 AM |      INFO | test_login_ddt.py:19 | ************** Test_002_DDT_Login ***************
+03/31/2025 01:03:02 AM |      INFO | test_login_ddt.py:20 | ************** Verifying Login Test ************
+03/31/2025 01:03:02 AM |      INFO | test_login_ddt.py:22 | navigating to the url
+03/31/2025 01:03:04 AM |      INFO | test_login_ddt.py:32 | clicking on myAccount drop menu
+03/31/2025 01:03:04 AM |      INFO | test_login_ddt.py:34 | clicking on login link
+03/31/2025 01:03:05 AM |      INFO | test_login_ddt.py:36 | passing the username
+03/31/2025 01:03:05 AM |      INFO | test_login_ddt.py:38 | passing the password
+03/31/2025 01:03:05 AM |      INFO | test_login_ddt.py:40 | clicking on the login button
+03/31/2025 01:03:07 AM |      INFO | test_login_ddt.py:49 | *** Passed
+03/31/2025 01:03:09 AM |      INFO | test_login_ddt.py:32 | clicking on myAccount drop menu
+03/31/2025 01:03:09 AM |      INFO | test_login_ddt.py:34 | clicking on login link
+03/31/2025 01:03:09 AM |      INFO | test_login_ddt.py:36 | passing the username
+03/31/2025 01:03:09 AM |      INFO | test_login_ddt.py:38 | passing the password
+03/31/2025 01:03:09 AM |      INFO | test_login_ddt.py:40 | clicking on the login button
+03/31/2025 01:03:10 AM |      INFO | test_login_ddt.py:65 | *** Passed
+03/31/2025 01:03:10 AM |      INFO | test_login_ddt.py:32 | clicking on myAccount drop menu
+03/31/2025 01:03:11 AM |      INFO | test_login_ddt.py:34 | clicking on login link
+03/31/2025 01:03:11 AM |      INFO | test_login_ddt.py:36 | passing the username
+03/31/2025 01:03:11 AM |      INFO | test_login_ddt.py:38 | passing the password
+03/31/2025 01:03:11 AM |      INFO | test_login_ddt.py:40 | clicking on the login button
+03/31/2025 01:03:12 AM |      INFO | test_login_ddt.py:65 | *** Passed
+03/31/2025 01:03:12 AM |      INFO | test_login_ddt.py:32 | clicking on myAccount drop menu
+03/31/2025 01:03:12 AM |      INFO | test_login_ddt.py:34 | clicking on login link
+03/31/2025 01:03:13 AM |      INFO | test_login_ddt.py:36 | passing the username
+03/31/2025 01:03:13 AM |      INFO | test_login_ddt.py:38 | passing the password
+03/31/2025 01:03:13 AM |      INFO | test_login_ddt.py:40 | clicking on the login button
+03/31/2025 01:03:14 AM |      INFO | test_login_ddt.py:65 | *** Passed
+03/31/2025 01:03:14 AM |      INFO | test_login_ddt.py:32 | clicking on myAccount drop menu
+03/31/2025 01:03:14 AM |      INFO | test_login_ddt.py:34 | clicking on login link
+03/31/2025 01:03:14 AM |      INFO | test_login_ddt.py:36 | passing the username
+03/31/2025 01:03:14 AM |      INFO | test_login_ddt.py:38 | passing the password
+03/31/2025 01:03:15 AM |      INFO | test_login_ddt.py:40 | clicking on the login button
+03/31/2025 01:03:16 AM |      INFO | test_login_ddt.py:65 | *** Passed
+03/31/2025 01:03:16 AM |      INFO | test_login_ddt.py:69 | *********** Login DDT test passed ***********
+03/31/2025 01:03:16 AM |      INFO | test_login_ddt.py:76 | ****** End of the Login DDT Test *******
+03/31/2025 01:03:16 AM |      INFO | test_login_ddt.py:77 | ******************** Completed TC_LoginDDT_002 ********************
+03/31/2025 01:10:11 AM |      INFO | test_login_ddt.py:19 | ************** Test_002_DDT_Login ***************
+03/31/2025 01:10:11 AM |      INFO | test_login_ddt.py:20 | ************** Verifying Login Test ************
+03/31/2025 01:10:11 AM |      INFO | test_login_ddt.py:22 | navigating to the url
+03/31/2025 01:10:13 AM |      INFO | test_login_ddt.py:32 | clicking on myAccount drop menu
+03/31/2025 01:10:13 AM |      INFO | test_login_ddt.py:34 | clicking on login link
+03/31/2025 01:10:14 AM |      INFO | test_login_ddt.py:36 | passing the username
+03/31/2025 01:10:14 AM |      INFO | test_login_ddt.py:38 | passing the password
+03/31/2025 01:10:14 AM |      INFO | test_login_ddt.py:40 | clicking on the login button
+03/31/2025 01:10:15 AM |      INFO | test_login_ddt.py:49 | *** Passed
+03/31/2025 01:10:17 AM |      INFO | test_login_ddt.py:32 | clicking on myAccount drop menu
+03/31/2025 01:10:17 AM |      INFO | test_login_ddt.py:34 | clicking on login link
+03/31/2025 01:10:17 AM |      INFO | test_login_ddt.py:36 | passing the username
+03/31/2025 01:10:17 AM |      INFO | test_login_ddt.py:38 | passing the password
+03/31/2025 01:10:17 AM |      INFO | test_login_ddt.py:40 | clicking on the login button
+03/31/2025 01:10:19 AM |      INFO | test_login_ddt.py:65 | *** Passed
+03/31/2025 01:10:19 AM |      INFO | test_login_ddt.py:32 | clicking on myAccount drop menu
+03/31/2025 01:10:19 AM |      INFO | test_login_ddt.py:34 | clicking on login link
+03/31/2025 01:10:19 AM |      INFO | test_login_ddt.py:36 | passing the username
+03/31/2025 01:10:19 AM |      INFO | test_login_ddt.py:38 | passing the password
+03/31/2025 01:10:19 AM |      INFO | test_login_ddt.py:40 | clicking on the login button
+03/31/2025 01:10:20 AM |      INFO | test_login_ddt.py:65 | *** Passed
+03/31/2025 01:10:20 AM |      INFO | test_login_ddt.py:32 | clicking on myAccount drop menu
+03/31/2025 01:10:20 AM |      INFO | test_login_ddt.py:34 | clicking on login link
+03/31/2025 01:10:21 AM |      INFO | test_login_ddt.py:36 | passing the username
+03/31/2025 01:10:21 AM |      INFO | test_login_ddt.py:38 | passing the password
+03/31/2025 01:10:21 AM |      INFO | test_login_ddt.py:40 | clicking on the login button
+03/31/2025 01:10:23 AM |      INFO | test_login_ddt.py:65 | *** Passed
+03/31/2025 01:10:23 AM |      INFO | test_login_ddt.py:32 | clicking on myAccount drop menu
+03/31/2025 01:10:23 AM |      INFO | test_login_ddt.py:34 | clicking on login link
+03/31/2025 01:10:23 AM |      INFO | test_login_ddt.py:36 | passing the username
+03/31/2025 01:10:23 AM |      INFO | test_login_ddt.py:38 | passing the password
+03/31/2025 01:10:23 AM |      INFO | test_login_ddt.py:40 | clicking on the login button
+03/31/2025 01:10:25 AM |      INFO | test_login_ddt.py:65 | *** Passed
+03/31/2025 01:10:25 AM |      INFO | test_login_ddt.py:69 | *********** Login DDT test passed ***********
+03/31/2025 01:10:25 AM |      INFO | test_login_ddt.py:76 | ****** End of the Login DDT Test *******
+03/31/2025 01:10:25 AM |      INFO | test_login_ddt.py:77 | ******************** Completed TC_LoginDDT_002 ********************
+03/31/2025 01:11:20 AM |      INFO | test_login_ddt.py:19 | ************** Test_002_DDT_Login ***************
+03/31/2025 01:11:20 AM |      INFO | test_login_ddt.py:20 | ************** Verifying Login Test ************
+03/31/2025 01:11:20 AM |      INFO | test_login_ddt.py:22 | navigating to the url
+03/31/2025 01:11:22 AM |      INFO | test_login_ddt.py:32 | clicking on myAccount drop menu
+03/31/2025 01:11:23 AM |      INFO | test_login_ddt.py:34 | clicking on login link
+03/31/2025 01:11:23 AM |      INFO | test_login_ddt.py:36 | passing the username
+03/31/2025 01:11:23 AM |      INFO | test_login_ddt.py:38 | passing the password
+03/31/2025 01:11:23 AM |      INFO | test_login_ddt.py:40 | clicking on the login button
+03/31/2025 01:11:25 AM |      INFO | test_login_ddt.py:49 | *** Passed
+03/31/2025 01:11:27 AM |      INFO | test_login_ddt.py:32 | clicking on myAccount drop menu
+03/31/2025 01:11:27 AM |      INFO | test_login_ddt.py:34 | clicking on login link
+03/31/2025 01:11:27 AM |      INFO | test_login_ddt.py:36 | passing the username
+03/31/2025 01:11:27 AM |      INFO | test_login_ddt.py:38 | passing the password
+03/31/2025 01:11:27 AM |      INFO | test_login_ddt.py:40 | clicking on the login button
+03/31/2025 01:11:29 AM |      INFO | test_login_ddt.py:65 | *** Passed
+03/31/2025 01:11:29 AM |      INFO | test_login_ddt.py:32 | clicking on myAccount drop menu
+03/31/2025 01:11:29 AM |      INFO | test_login_ddt.py:34 | clicking on login link
+03/31/2025 01:11:29 AM |      INFO | test_login_ddt.py:36 | passing the username
+03/31/2025 01:11:29 AM |      INFO | test_login_ddt.py:38 | passing the password
+03/31/2025 01:11:29 AM |      INFO | test_login_ddt.py:40 | clicking on the login button
+03/31/2025 01:11:31 AM |      INFO | test_login_ddt.py:65 | *** Passed
+03/31/2025 01:11:31 AM |      INFO | test_login_ddt.py:32 | clicking on myAccount drop menu
+03/31/2025 01:11:31 AM |      INFO | test_login_ddt.py:34 | clicking on login link
+03/31/2025 01:11:31 AM |      INFO | test_login_ddt.py:36 | passing the username
+03/31/2025 01:11:31 AM |      INFO | test_login_ddt.py:38 | passing the password
+03/31/2025 01:11:31 AM |      INFO | test_login_ddt.py:40 | clicking on the login button
+03/31/2025 01:11:32 AM |      INFO | test_login_ddt.py:65 | *** Passed
+03/31/2025 01:11:32 AM |      INFO | test_login_ddt.py:32 | clicking on myAccount drop menu
+03/31/2025 01:11:33 AM |      INFO | test_login_ddt.py:34 | clicking on login link
+03/31/2025 01:11:33 AM |      INFO | test_login_ddt.py:36 | passing the username
+03/31/2025 01:11:33 AM |      INFO | test_login_ddt.py:38 | passing the password
+03/31/2025 01:11:33 AM |      INFO | test_login_ddt.py:40 | clicking on the login button
+03/31/2025 01:11:35 AM |      INFO | test_login_ddt.py:65 | *** Passed
+03/31/2025 01:11:35 AM |      INFO | test_login_ddt.py:69 | *********** Login DDT test passed ***********
+03/31/2025 01:11:35 AM |      INFO | test_login_ddt.py:76 | ****** End of the Login DDT Test *******
+03/31/2025 01:11:35 AM |      INFO | test_login_ddt.py:77 | ******************** Completed TC_LoginDDT_002 ********************
+03/31/2025 01:12:07 AM |      INFO | test_login_ddt.py:19 | ************** Test_002_DDT_Login ***************
+03/31/2025 01:12:07 AM |      INFO | test_login_ddt.py:20 | ************** Verifying Login Test ************
+03/31/2025 01:12:07 AM |      INFO | test_login_ddt.py:22 | navigating to the url
+03/31/2025 01:12:10 AM |      INFO | test_login_ddt.py:32 | clicking on myAccount drop menu
+03/31/2025 01:12:10 AM |      INFO | test_login_ddt.py:34 | clicking on login link
+03/31/2025 01:12:10 AM |      INFO | test_login_ddt.py:36 | passing the username
+03/31/2025 01:12:10 AM |      INFO | test_login_ddt.py:38 | passing the password
+03/31/2025 01:12:10 AM |      INFO | test_login_ddt.py:40 | clicking on the login button
+03/31/2025 01:12:11 AM |      INFO | test_login_ddt.py:49 | *** Passed
+03/31/2025 01:12:13 AM |      INFO | test_login_ddt.py:32 | clicking on myAccount drop menu
+03/31/2025 01:12:13 AM |      INFO | test_login_ddt.py:34 | clicking on login link
+03/31/2025 01:12:13 AM |      INFO | test_login_ddt.py:36 | passing the username
+03/31/2025 01:12:13 AM |      INFO | test_login_ddt.py:38 | passing the password
+03/31/2025 01:12:13 AM |      INFO | test_login_ddt.py:40 | clicking on the login button
+03/31/2025 01:12:15 AM |      INFO | test_login_ddt.py:65 | *** Passed
+03/31/2025 01:12:15 AM |      INFO | test_login_ddt.py:32 | clicking on myAccount drop menu
+03/31/2025 01:12:15 AM |      INFO | test_login_ddt.py:34 | clicking on login link
+03/31/2025 01:12:16 AM |      INFO | test_login_ddt.py:36 | passing the username
+03/31/2025 01:12:16 AM |      INFO | test_login_ddt.py:38 | passing the password
+03/31/2025 01:12:16 AM |      INFO | test_login_ddt.py:40 | clicking on the login button
+03/31/2025 01:12:17 AM |      INFO | test_login_ddt.py:65 | *** Passed
+03/31/2025 01:12:17 AM |      INFO | test_login_ddt.py:32 | clicking on myAccount drop menu
+03/31/2025 01:12:17 AM |      INFO | test_login_ddt.py:34 | clicking on login link
+03/31/2025 01:12:17 AM |      INFO | test_login_ddt.py:36 | passing the username
+03/31/2025 01:12:17 AM |      INFO | test_login_ddt.py:38 | passing the password
+03/31/2025 01:12:17 AM |      INFO | test_login_ddt.py:40 | clicking on the login button
+03/31/2025 01:12:19 AM |      INFO | test_login_ddt.py:65 | *** Passed
+03/31/2025 01:12:19 AM |      INFO | test_login_ddt.py:32 | clicking on myAccount drop menu
+03/31/2025 01:12:19 AM |      INFO | test_login_ddt.py:34 | clicking on login link
+03/31/2025 01:12:20 AM |      INFO | test_login_ddt.py:36 | passing the username
+03/31/2025 01:25:51 AM |      INFO | test_login_params.py:17 | ********** Test Login Params is Started *********
+03/31/2025 01:25:54 AM |      INFO | test_login_params.py:20 | Invoking browser
+03/31/2025 01:25:54 AM |      INFO | test_login_params.py:21 | Navigating to URL
+03/31/2025 01:25:54 AM |      INFO | test_login_params.py:24 | Clicking on my account
+03/31/2025 01:25:55 AM |      INFO | test_login_params.py:26 | Clicking on login link
+03/31/2025 01:25:55 AM |      INFO | test_login_params.py:28 | Entering username: adelukesh@gmail.com
+03/31/2025 01:25:55 AM |      INFO | test_login_params.py:30 | Entering password: 12345
+03/31/2025 01:25:57 AM |      INFO | test_login_params.py:32 | Clicking on login button
+03/31/2025 01:25:57 AM |      INFO | test_login_params.py:33 | ************* Verifying test_login_params *************
+03/31/2025 01:25:57 AM |      INFO | test_login_params.py:37 | test_login_params is passed
+03/31/2025 01:25:57 AM |      INFO | test_login_params.py:50 | test_login_params is Completed
+03/31/2025 01:25:57 AM |      INFO | test_login_params.py:51 | ************* End of test_login_params *************
+03/31/2025 01:26:00 AM |      INFO | test_login_params.py:17 | ********** Test Login Params is Started *********
+03/31/2025 01:26:03 AM |      INFO | test_login_params.py:20 | Invoking browser
+03/31/2025 01:26:03 AM |      INFO | test_login_params.py:21 | Navigating to URL
+03/31/2025 01:26:03 AM |      INFO | test_login_params.py:24 | Clicking on my account
+03/31/2025 01:26:03 AM |      INFO | test_login_params.py:26 | Clicking on login link
+03/31/2025 01:26:04 AM |      INFO | test_login_params.py:28 | Entering username: adelukesh1@gmail.com
+03/31/2025 01:26:04 AM |      INFO | test_login_params.py:30 | Entering password: 12345
+03/31/2025 01:26:04 AM |      INFO | test_login_params.py:32 | Clicking on login button
+03/31/2025 01:26:04 AM |      INFO | test_login_params.py:33 | ************* Verifying test_login_params *************
+03/31/2025 01:26:05 AM |      INFO | test_login_params.py:50 | test_login_params is Completed
+03/31/2025 01:26:05 AM |      INFO | test_login_params.py:51 | ************* End of test_login_params *************
+03/31/2025 01:26:08 AM |      INFO | test_login_params.py:17 | ********** Test Login Params is Started *********
+03/31/2025 01:26:10 AM |      INFO | test_login_params.py:20 | Invoking browser
+03/31/2025 01:26:10 AM |      INFO | test_login_params.py:21 | Navigating to URL
+03/31/2025 01:26:11 AM |      INFO | test_login_params.py:24 | Clicking on my account
+03/31/2025 01:26:11 AM |      INFO | test_login_params.py:26 | Clicking on login link
+03/31/2025 01:26:11 AM |      INFO | test_login_params.py:28 | Entering username: adelukesh@gmail.com
+03/31/2025 01:26:11 AM |      INFO | test_login_params.py:30 | Entering password: 48465
+03/31/2025 01:26:12 AM |      INFO | test_login_params.py:32 | Clicking on login button
+03/31/2025 01:26:12 AM |      INFO | test_login_params.py:33 | ************* Verifying test_login_params *************
+03/31/2025 01:26:12 AM |      INFO | test_login_params.py:50 | test_login_params is Completed
+03/31/2025 01:26:12 AM |      INFO | test_login_params.py:51 | ************* End of test_login_params *************
+03/31/2025 01:26:16 AM |      INFO | test_login_params.py:17 | ********** Test Login Params is Started *********
+03/31/2025 01:26:18 AM |      INFO | test_login_params.py:20 | Invoking browser
+03/31/2025 01:26:18 AM |      INFO | test_login_params.py:21 | Navigating to URL
+03/31/2025 01:26:18 AM |      INFO | test_login_params.py:24 | Clicking on my account
+03/31/2025 01:26:19 AM |      INFO | test_login_params.py:26 | Clicking on login link
+03/31/2025 01:26:19 AM |      INFO | test_login_params.py:28 | Entering username: adelukesh24@gmail.com
+03/31/2025 01:26:19 AM |      INFO | test_login_params.py:30 | Entering password: 54851
+03/31/2025 01:26:20 AM |      INFO | test_login_params.py:32 | Clicking on login button
+03/31/2025 01:26:20 AM |      INFO | test_login_params.py:33 | ************* Verifying test_login_params *************
+03/31/2025 01:26:20 AM |      INFO | test_login_params.py:50 | test_login_params is Completed
+03/31/2025 01:26:20 AM |      INFO | test_login_params.py:51 | ************* End of test_login_params *************
+03/31/2025 01:26:23 AM |      INFO | test_login_params.py:17 | ********** Test Login Params is Started *********
+03/31/2025 01:26:24 AM |      INFO | test_login_params.py:20 | Invoking browser
+03/31/2025 01:26:24 AM |      INFO | test_login_params.py:21 | Navigating to URL
+03/31/2025 01:26:26 AM |      INFO | test_login_params.py:24 | Clicking on my account
+03/31/2025 01:26:26 AM |      INFO | test_login_params.py:26 | Clicking on login link
+03/31/2025 01:26:26 AM |      INFO | test_login_params.py:28 | Entering username: 
+03/31/2025 01:26:26 AM |      INFO | test_login_params.py:30 | Entering password: 
+03/31/2025 01:26:27 AM |      INFO | test_login_params.py:32 | Clicking on login button
+03/31/2025 01:26:27 AM |      INFO | test_login_params.py:33 | ************* Verifying test_login_params *************
+03/31/2025 01:26:27 AM |      INFO | test_login_params.py:50 | test_login_params is Completed
+03/31/2025 01:26:27 AM |      INFO | test_login_params.py:51 | ************* End of test_login_params *************
+03/31/2025 01:29:54 AM |      INFO | test_login.py:23 | ****************** Test_Login_001 ***************
+03/31/2025 01:29:54 AM |      INFO | test_login.py:24 | ***************** Verifying Home Page Title **************
+03/31/2025 01:29:57 AM |      INFO | test_login.py:30 | ************** Home page title test is passed ************
+03/31/2025 01:30:00 AM |      INFO | test_login.py:40 | ************** Login test is started ************
+03/31/2025 01:30:00 AM |      INFO | test_login.py:42 | navigating to the url
+03/31/2025 01:30:04 AM |      INFO | test_login.py:45 | clicking on myAccount drop menu
+03/31/2025 01:30:04 AM |      INFO | test_login.py:47 | clicking on login link
+03/31/2025 01:30:04 AM |      INFO | test_login.py:49 | passing the username
+03/31/2025 01:30:04 AM |      INFO | test_login.py:51 | passing the password
+03/31/2025 01:30:05 AM |      INFO | test_login.py:53 | clicking on the login button
+03/31/2025 01:30:07 AM |      INFO | test_login.py:56 | ************** Verifying Login test ************
+03/31/2025 01:30:07 AM |      INFO | test_login.py:63 | ************** Verifying Login test ************
+03/31/2025 01:30:07 AM |      INFO | test_login.py:67 | ************** Login test is passed ************
+03/31/2025 01:30:31 AM |      INFO | test_login_ddt.py:19 | ************** Test_002_DDT_Login ***************
+03/31/2025 01:30:31 AM |      INFO | test_login_ddt.py:20 | ************** Verifying Login Test ************
+03/31/2025 01:30:31 AM |      INFO | test_login_ddt.py:22 | navigating to the url
+03/31/2025 01:30:33 AM |      INFO | test_login_ddt.py:32 | clicking on myAccount drop menu
+03/31/2025 01:30:33 AM |      INFO | test_login_ddt.py:34 | clicking on login link
+03/31/2025 01:30:34 AM |      INFO | test_login_ddt.py:36 | passing the username
+03/31/2025 01:30:34 AM |      INFO | test_login_ddt.py:38 | passing the password
+03/31/2025 01:30:34 AM |      INFO | test_login_ddt.py:40 | clicking on the login button
+03/31/2025 01:30:36 AM |      INFO | test_login_ddt.py:49 | *** Passed
+03/31/2025 01:30:38 AM |      INFO | test_login_ddt.py:32 | clicking on myAccount drop menu
+03/31/2025 01:30:38 AM |      INFO | test_login_ddt.py:34 | clicking on login link
+03/31/2025 01:30:38 AM |      INFO | test_login_ddt.py:36 | passing the username
+03/31/2025 01:30:39 AM |      INFO | test_login_ddt.py:38 | passing the password
+03/31/2025 01:30:39 AM |      INFO | test_login_ddt.py:40 | clicking on the login button
+03/31/2025 01:30:40 AM |      INFO | test_login_ddt.py:65 | *** Passed
+03/31/2025 01:30:40 AM |      INFO | test_login_ddt.py:32 | clicking on myAccount drop menu
+03/31/2025 01:30:40 AM |      INFO | test_login_ddt.py:34 | clicking on login link
+03/31/2025 01:30:40 AM |      INFO | test_login_ddt.py:36 | passing the username
+03/31/2025 01:30:40 AM |      INFO | test_login_ddt.py:38 | passing the password
+03/31/2025 01:30:41 AM |      INFO | test_login_ddt.py:40 | clicking on the login button
+03/31/2025 01:30:42 AM |      INFO | test_login_ddt.py:65 | *** Passed
+03/31/2025 01:30:42 AM |      INFO | test_login_ddt.py:32 | clicking on myAccount drop menu
+03/31/2025 01:30:43 AM |      INFO | test_login_ddt.py:34 | clicking on login link
+03/31/2025 01:30:43 AM |      INFO | test_login_ddt.py:36 | passing the username
+03/31/2025 01:30:43 AM |      INFO | test_login_ddt.py:38 | passing the password
+03/31/2025 01:30:43 AM |      INFO | test_login_ddt.py:40 | clicking on the login button
+03/31/2025 01:30:45 AM |      INFO | test_login_ddt.py:65 | *** Passed
+03/31/2025 01:30:45 AM |      INFO | test_login_ddt.py:69 | *********** Login DDT test passed ***********
+03/31/2025 01:30:45 AM |      INFO | test_login_ddt.py:76 | ****** End of the Login DDT Test *******
+03/31/2025 01:30:45 AM |      INFO | test_login_ddt.py:77 | ******************** Completed TC_LoginDDT_002 ********************
+03/31/2025 01:30:49 AM |      INFO | test_login_params.py:17 | ********** Test Login Params is Started *********
+03/31/2025 01:30:51 AM |      INFO | test_login_params.py:20 | Invoking browser
+03/31/2025 01:30:51 AM |      INFO | test_login_params.py:21 | Navigating to URL
+03/31/2025 01:30:51 AM |      INFO | test_login_params.py:24 | Clicking on my account
+03/31/2025 01:30:52 AM |      INFO | test_login_params.py:26 | Clicking on login link
+03/31/2025 01:30:52 AM |      INFO | test_login_params.py:28 | Entering username: adelukesh@gmail.com
+03/31/2025 01:30:52 AM |      INFO | test_login_params.py:30 | Entering password: 12345
+03/31/2025 01:30:53 AM |      INFO | test_login_params.py:32 | Clicking on login button
+03/31/2025 01:30:53 AM |      INFO | test_login_params.py:33 | ************* Verifying test_login_params *************
+03/31/2025 01:30:53 AM |      INFO | test_login_params.py:37 | test_login_params is passed
+03/31/2025 01:30:53 AM |      INFO | test_login_params.py:50 | test_login_params is Completed
+03/31/2025 01:30:53 AM |      INFO | test_login_params.py:51 | ************* End of test_login_params *************
+03/31/2025 01:30:57 AM |      INFO | test_login_params.py:17 | ********** Test Login Params is Started *********
+03/31/2025 01:30:59 AM |      INFO | test_login_params.py:20 | Invoking browser
+03/31/2025 01:30:59 AM |      INFO | test_login_params.py:21 | Navigating to URL
+03/31/2025 01:30:59 AM |      INFO | test_login_params.py:24 | Clicking on my account
+03/31/2025 01:31:00 AM |      INFO | test_login_params.py:26 | Clicking on login link
+03/31/2025 01:31:00 AM |      INFO | test_login_params.py:28 | Entering username: adelukesh1@gmail.com
+03/31/2025 01:31:00 AM |      INFO | test_login_params.py:30 | Entering password: 12345
+03/31/2025 01:31:01 AM |      INFO | test_login_params.py:32 | Clicking on login button
+03/31/2025 01:31:01 AM |      INFO | test_login_params.py:33 | ************* Verifying test_login_params *************
+03/31/2025 01:31:01 AM |      INFO | test_login_params.py:50 | test_login_params is Completed
+03/31/2025 01:31:01 AM |      INFO | test_login_params.py:51 | ************* End of test_login_params *************
+03/31/2025 01:31:04 AM |      INFO | test_login_params.py:17 | ********** Test Login Params is Started *********
+03/31/2025 01:31:07 AM |      INFO | test_login_params.py:20 | Invoking browser
+03/31/2025 01:31:07 AM |      INFO | test_login_params.py:21 | Navigating to URL
+03/31/2025 01:31:07 AM |      INFO | test_login_params.py:24 | Clicking on my account
+03/31/2025 01:31:07 AM |      INFO | test_login_params.py:26 | Clicking on login link
+03/31/2025 01:31:07 AM |      INFO | test_login_params.py:28 | Entering username: adelukesh@gmail.com
+03/31/2025 01:31:07 AM |      INFO | test_login_params.py:30 | Entering password: 48465
+03/31/2025 01:31:08 AM |      INFO | test_login_params.py:32 | Clicking on login button
+03/31/2025 01:31:08 AM |      INFO | test_login_params.py:33 | ************* Verifying test_login_params *************
+03/31/2025 01:31:08 AM |      INFO | test_login_params.py:50 | test_login_params is Completed
+03/31/2025 01:31:08 AM |      INFO | test_login_params.py:51 | ************* End of test_login_params *************
+03/31/2025 01:31:11 AM |      INFO | test_login_params.py:17 | ********** Test Login Params is Started *********
+03/31/2025 01:31:13 AM |      INFO | test_login_params.py:20 | Invoking browser
+03/31/2025 01:31:13 AM |      INFO | test_login_params.py:21 | Navigating to URL
+03/31/2025 01:31:14 AM |      INFO | test_login_params.py:24 | Clicking on my account
+03/31/2025 01:31:14 AM |      INFO | test_login_params.py:26 | Clicking on login link
+03/31/2025 01:31:14 AM |      INFO | test_login_params.py:28 | Entering username: adelukesh24@gmail.com
+03/31/2025 01:31:14 AM |      INFO | test_login_params.py:30 | Entering password: 54851
+03/31/2025 01:31:15 AM |      INFO | test_login_params.py:32 | Clicking on login button
+03/31/2025 01:31:15 AM |      INFO | test_login_params.py:33 | ************* Verifying test_login_params *************
+03/31/2025 01:31:15 AM |      INFO | test_login_params.py:50 | test_login_params is Completed
+03/31/2025 01:31:15 AM |      INFO | test_login_params.py:51 | ************* End of test_login_params *************
+03/31/2025 01:31:19 AM |      INFO | test_login_params.py:17 | ********** Test Login Params is Started *********
+03/31/2025 01:31:21 AM |      INFO | test_login_params.py:20 | Invoking browser
+03/31/2025 01:31:21 AM |      INFO | test_login_params.py:21 | Navigating to URL
+03/31/2025 01:31:21 AM |      INFO | test_login_params.py:24 | Clicking on my account
+03/31/2025 01:31:22 AM |      INFO | test_login_params.py:26 | Clicking on login link
+03/31/2025 01:31:22 AM |      INFO | test_login_params.py:28 | Entering username: 
+03/31/2025 01:31:22 AM |      INFO | test_login_params.py:30 | Entering password: 
+03/31/2025 01:31:22 AM |      INFO | test_login_params.py:32 | Clicking on login button
+03/31/2025 01:31:22 AM |      INFO | test_login_params.py:33 | ************* Verifying test_login_params *************
+03/31/2025 01:31:23 AM |      INFO | test_login_params.py:50 | test_login_params is Completed
+03/31/2025 01:31:23 AM |      INFO | test_login_params.py:51 | ************* End of test_login_params *************
+03/31/2025 01:31:26 AM |      INFO | test_logout.py:23 | *************** Logout Functionality 001 Test Start ****************
+03/31/2025 01:31:31 AM |      INFO | test_logout.py:32 | **************** Login is Successful ******************
+03/31/2025 01:31:32 AM |      INFO | test_logout.py:37 | ************ Logout is successful *****************
+03/31/2025 01:31:32 AM |      INFO | test_logout.py:39 | clicking on my account
+03/31/2025 01:31:32 AM |      INFO | test_logout.py:41 | ************ Verifying logout functionality 001 **************
+03/31/2025 01:31:32 AM |      INFO | test_logout.py:44 | **************** Test Logout Functionality is Passed ****************
+03/31/2025 01:31:32 AM |      INFO | test_logout.py:49 | ***************** End of Logout Functionality 001 ********************
+03/31/2025 01:31:36 AM |      INFO | test_logout.py:55 | *************** Logout Functionality 002 Test Start ****************
+03/31/2025 01:31:40 AM |      INFO | test_logout.py:64 | **************** Login is Successful ******************
+03/31/2025 01:31:42 AM |      INFO | test_logout.py:70 | ************ Logout is successful *****************
+03/31/2025 01:31:42 AM |      INFO | test_logout.py:71 | ************ Verifying logout functionality **************
+03/31/2025 01:31:43 AM |      INFO | test_logout.py:76 | **************** Test Logout Functionality is Passed ****************
+03/31/2025 01:31:43 AM |      INFO | test_logout.py:83 | ***************** End of Logout Functionality 002 ********************
+03/31/2025 01:31:46 AM |      INFO | test_logout.py:88 | *************** Logout Functionality 004 Test Start ****************
+03/31/2025 01:31:50 AM |      INFO | test_logout.py:97 | **************** Login is Successful ******************
+03/31/2025 01:31:56 AM |      INFO | test_logout.py:107 | ******** Verifying Test Logout Functionality 004 ***********
+03/31/2025 01:32:06 AM |      INFO | test_logout.py:123 | ********* Test Logout Functionality 004 is Passed **********
+03/31/2025 01:32:07 AM |      INFO | test_logout.py:132 | ********** End Of Test Logout Functionality 004 ***************
+03/31/2025 01:32:10 AM |      INFO | test_register.py:19 | ******** Test Register Functionality 001 is Started *********
+03/31/2025 01:32:10 AM |      INFO | test_register.py:21 | Navigating to the url
+03/31/2025 01:32:12 AM |      INFO | test_register.py:24 | clicking on myAccount drop menu
+03/31/2025 01:32:13 AM |      INFO | test_register.py:27 | clicking on register link
+03/31/2025 01:32:13 AM |      INFO | test_register.py:29 | *************** Providing Registration Details ***************
+03/31/2025 01:32:16 AM |      INFO | test_register.py:40 | *************** Register Functionality validation started ***************
+03/31/2025 01:32:16 AM |      INFO | test_register.py:47 | ******* Test Register Functionality is Passed ********
+03/31/2025 01:32:16 AM |      INFO | test_register.py:59 | ********** End Of Test Register Functionality 001 **********
+03/31/2025 01:37:27 AM |      INFO | test_login.py:23 | ****************** Test_Login_001 ***************
+03/31/2025 01:37:27 AM |      INFO | test_login.py:24 | ***************** Verifying Home Page Title **************
+03/31/2025 01:37:30 AM |      INFO | test_login.py:30 | ************** Home page title test is passed ************
+03/31/2025 01:37:34 AM |      INFO | test_login.py:40 | ************** Login test is started ************
+03/31/2025 01:37:34 AM |      INFO | test_login.py:42 | navigating to the url
+03/31/2025 01:37:36 AM |      INFO | test_login.py:45 | clicking on myAccount drop menu
+03/31/2025 01:37:36 AM |      INFO | test_login.py:47 | clicking on login link
+03/31/2025 01:37:37 AM |      INFO | test_login.py:49 | passing the username
+03/31/2025 01:37:37 AM |      INFO | test_login.py:51 | passing the password
+03/31/2025 01:37:37 AM |      INFO | test_login.py:53 | clicking on the login button
+03/31/2025 01:37:39 AM |      INFO | test_login.py:56 | ************** Verifying Login test ************
+03/31/2025 01:37:39 AM |      INFO | test_login.py:63 | ************** Verifying Login test ************
+03/31/2025 01:37:39 AM |      INFO | test_login.py:67 | ************** Login test is passed ************
+03/31/2025 01:38:03 AM |      INFO | test_login_ddt.py:19 | ************** Test_002_DDT_Login ***************
+03/31/2025 01:38:03 AM |      INFO | test_login_ddt.py:20 | ************** Verifying Login Test ************
+03/31/2025 01:38:03 AM |      INFO | test_login_ddt.py:22 | navigating to the url
+03/31/2025 01:38:08 AM |      INFO | test_login_ddt.py:32 | clicking on myAccount drop menu
+03/31/2025 01:38:09 AM |      INFO | test_login_ddt.py:34 | clicking on login link
+03/31/2025 01:38:09 AM |      INFO | test_login_ddt.py:36 | passing the username
+03/31/2025 01:38:09 AM |      INFO | test_login_ddt.py:38 | passing the password
+03/31/2025 01:38:09 AM |      INFO | test_login_ddt.py:40 | clicking on the login button
+03/31/2025 01:38:11 AM |      INFO | test_login_ddt.py:49 | *** Passed
+03/31/2025 01:38:13 AM |      INFO | test_login_ddt.py:32 | clicking on myAccount drop menu
+03/31/2025 01:38:13 AM |      INFO | test_login_ddt.py:34 | clicking on login link
+03/31/2025 01:38:13 AM |      INFO | test_login_ddt.py:36 | passing the username
+03/31/2025 01:38:14 AM |      INFO | test_login_ddt.py:38 | passing the password
+03/31/2025 01:38:14 AM |      INFO | test_login_ddt.py:40 | clicking on the login button
+03/31/2025 01:38:15 AM |      INFO | test_login_ddt.py:65 | *** Passed
+03/31/2025 01:38:15 AM |      INFO | test_login_ddt.py:32 | clicking on myAccount drop menu
+03/31/2025 01:38:16 AM |      INFO | test_login_ddt.py:34 | clicking on login link
+03/31/2025 01:38:16 AM |      INFO | test_login_ddt.py:36 | passing the username
+03/31/2025 01:38:16 AM |      INFO | test_login_ddt.py:38 | passing the password
+03/31/2025 01:38:16 AM |      INFO | test_login_ddt.py:40 | clicking on the login button
+03/31/2025 01:38:17 AM |      INFO | test_login_ddt.py:65 | *** Passed
+03/31/2025 01:38:17 AM |      INFO | test_login_ddt.py:32 | clicking on myAccount drop menu
+03/31/2025 01:38:17 AM |      INFO | test_login_ddt.py:34 | clicking on login link
+03/31/2025 01:38:18 AM |      INFO | test_login_ddt.py:36 | passing the username
+03/31/2025 01:38:18 AM |      INFO | test_login_ddt.py:38 | passing the password
+03/31/2025 01:38:18 AM |      INFO | test_login_ddt.py:40 | clicking on the login button
+03/31/2025 01:38:19 AM |      INFO | test_login_ddt.py:65 | *** Passed
+03/31/2025 01:38:19 AM |      INFO | test_login_ddt.py:69 | *********** Login DDT test passed ***********
+03/31/2025 01:38:19 AM |      INFO | test_login_ddt.py:76 | ****** End of the Login DDT Test *******
+03/31/2025 01:38:19 AM |      INFO | test_login_ddt.py:77 | ******************** Completed TC_LoginDDT_002 ********************
+03/31/2025 01:38:23 AM |      INFO | test_login_params.py:17 | ********** Test Login Params is Started *********
+03/31/2025 01:38:25 AM |      INFO | test_login_params.py:20 | Invoking browser
+03/31/2025 01:38:25 AM |      INFO | test_login_params.py:21 | Navigating to URL
+03/31/2025 01:38:25 AM |      INFO | test_login_params.py:24 | Clicking on my account
+03/31/2025 01:38:26 AM |      INFO | test_login_params.py:26 | Clicking on login link
+03/31/2025 01:38:26 AM |      INFO | test_login_params.py:28 | Entering username: adelukesh@gmail.com
+03/31/2025 01:38:26 AM |      INFO | test_login_params.py:30 | Entering password: 12345
+03/31/2025 01:38:27 AM |      INFO | test_login_params.py:32 | Clicking on login button
+03/31/2025 01:38:27 AM |      INFO | test_login_params.py:33 | ************* Verifying test_login_params *************
+03/31/2025 01:38:27 AM |      INFO | test_login_params.py:37 | test_login_params is passed
+03/31/2025 01:38:27 AM |      INFO | test_login_params.py:50 | test_login_params is Completed
+03/31/2025 01:38:27 AM |      INFO | test_login_params.py:51 | ************* End of test_login_params *************
+03/31/2025 01:38:31 AM |      INFO | test_login_params.py:17 | ********** Test Login Params is Started *********
+03/31/2025 01:38:33 AM |      INFO | test_login_params.py:20 | Invoking browser
+03/31/2025 01:38:33 AM |      INFO | test_login_params.py:21 | Navigating to URL
+03/31/2025 01:38:33 AM |      INFO | test_login_params.py:24 | Clicking on my account
+03/31/2025 01:38:34 AM |      INFO | test_login_params.py:26 | Clicking on login link
+03/31/2025 01:38:34 AM |      INFO | test_login_params.py:28 | Entering username: adelukesh1@gmail.com
+03/31/2025 01:38:34 AM |      INFO | test_login_params.py:30 | Entering password: 12345
+03/31/2025 01:38:34 AM |      INFO | test_login_params.py:32 | Clicking on login button
+03/31/2025 01:38:34 AM |      INFO | test_login_params.py:33 | ************* Verifying test_login_params *************
+03/31/2025 01:38:34 AM |      INFO | test_login_params.py:50 | test_login_params is Completed
+03/31/2025 01:38:34 AM |      INFO | test_login_params.py:51 | ************* End of test_login_params *************
+03/31/2025 01:38:38 AM |      INFO | test_login_params.py:17 | ********** Test Login Params is Started *********
+03/31/2025 01:38:40 AM |      INFO | test_login_params.py:20 | Invoking browser
+03/31/2025 01:38:40 AM |      INFO | test_login_params.py:21 | Navigating to URL
+03/31/2025 01:38:40 AM |      INFO | test_login_params.py:24 | Clicking on my account
+03/31/2025 01:38:41 AM |      INFO | test_login_params.py:26 | Clicking on login link
+03/31/2025 01:38:41 AM |      INFO | test_login_params.py:28 | Entering username: adelukesh@gmail.com
+03/31/2025 01:38:41 AM |      INFO | test_login_params.py:30 | Entering password: 48465
+03/31/2025 01:38:42 AM |      INFO | test_login_params.py:32 | Clicking on login button
+03/31/2025 01:38:42 AM |      INFO | test_login_params.py:33 | ************* Verifying test_login_params *************
+03/31/2025 01:38:42 AM |      INFO | test_login_params.py:50 | test_login_params is Completed
+03/31/2025 01:38:42 AM |      INFO | test_login_params.py:51 | ************* End of test_login_params *************
+03/31/2025 01:38:45 AM |      INFO | test_login_params.py:17 | ********** Test Login Params is Started *********
+03/31/2025 01:38:48 AM |      INFO | test_login_params.py:20 | Invoking browser
+03/31/2025 01:38:48 AM |      INFO | test_login_params.py:21 | Navigating to URL
+03/31/2025 01:38:48 AM |      INFO | test_login_params.py:24 | Clicking on my account
+03/31/2025 01:38:48 AM |      INFO | test_login_params.py:26 | Clicking on login link
+03/31/2025 01:38:48 AM |      INFO | test_login_params.py:28 | Entering username: adelukesh24@gmail.com
+03/31/2025 01:38:49 AM |      INFO | test_login_params.py:30 | Entering password: 54851
+03/31/2025 01:38:49 AM |      INFO | test_login_params.py:32 | Clicking on login button
+03/31/2025 01:38:49 AM |      INFO | test_login_params.py:33 | ************* Verifying test_login_params *************
+03/31/2025 01:38:50 AM |      INFO | test_login_params.py:50 | test_login_params is Completed
+03/31/2025 01:38:50 AM |      INFO | test_login_params.py:51 | ************* End of test_login_params *************
+03/31/2025 01:38:53 AM |      INFO | test_login_params.py:17 | ********** Test Login Params is Started *********
+03/31/2025 01:38:56 AM |      INFO | test_login_params.py:20 | Invoking browser
+03/31/2025 01:38:56 AM |      INFO | test_login_params.py:21 | Navigating to URL
+03/31/2025 01:38:56 AM |      INFO | test_login_params.py:24 | Clicking on my account
+03/31/2025 01:38:56 AM |      INFO | test_login_params.py:26 | Clicking on login link
+03/31/2025 01:38:56 AM |      INFO | test_login_params.py:28 | Entering username: 
+03/31/2025 01:38:56 AM |      INFO | test_login_params.py:30 | Entering password: 
+03/31/2025 01:38:57 AM |      INFO | test_login_params.py:32 | Clicking on login button
+03/31/2025 01:38:57 AM |      INFO | test_login_params.py:33 | ************* Verifying test_login_params *************
+03/31/2025 01:38:57 AM |      INFO | test_login_params.py:50 | test_login_params is Completed
+03/31/2025 01:38:57 AM |      INFO | test_login_params.py:51 | ************* End of test_login_params *************
+03/31/2025 01:39:01 AM |      INFO | test_logout.py:23 | *************** Logout Functionality 001 Test Start ****************
+03/31/2025 01:39:05 AM |      INFO | test_logout.py:32 | **************** Login is Successful ******************
+03/31/2025 01:39:07 AM |      INFO | test_logout.py:37 | ************ Logout is successful *****************
+03/31/2025 01:39:07 AM |      INFO | test_logout.py:39 | clicking on my account
+03/31/2025 01:39:07 AM |      INFO | test_logout.py:41 | ************ Verifying logout functionality 001 **************
+03/31/2025 01:39:07 AM |      INFO | test_logout.py:44 | **************** Test Logout Functionality is Passed ****************
+03/31/2025 01:39:07 AM |      INFO | test_logout.py:49 | ***************** End of Logout Functionality 001 ********************
+03/31/2025 01:39:11 AM |      INFO | test_logout.py:55 | *************** Logout Functionality 002 Test Start ****************
+03/31/2025 01:39:15 AM |      INFO | test_logout.py:64 | **************** Login is Successful ******************
+03/31/2025 01:39:18 AM |      INFO | test_logout.py:70 | ************ Logout is successful *****************
+03/31/2025 01:39:18 AM |      INFO | test_logout.py:71 | ************ Verifying logout functionality **************
+03/31/2025 01:39:18 AM |      INFO | test_logout.py:76 | **************** Test Logout Functionality is Passed ****************
+03/31/2025 01:39:18 AM |      INFO | test_logout.py:83 | ***************** End of Logout Functionality 002 ********************
+03/31/2025 01:39:21 AM |      INFO | test_logout.py:88 | *************** Logout Functionality 004 Test Start ****************
+03/31/2025 01:39:26 AM |      INFO | test_logout.py:97 | **************** Login is Successful ******************
+03/31/2025 01:39:33 AM |      INFO | test_logout.py:107 | ******** Verifying Test Logout Functionality 004 ***********
+03/31/2025 01:39:43 AM |      INFO | test_logout.py:123 | ********* Test Logout Functionality 004 is Passed **********
+03/31/2025 01:39:43 AM |      INFO | test_logout.py:132 | ********** End Of Test Logout Functionality 004 ***************
+03/31/2025 01:39:47 AM |      INFO | test_register.py:19 | ******** Test Register Functionality 001 is Started *********
+03/31/2025 01:39:47 AM |      INFO | test_register.py:21 | Navigating to the url
+03/31/2025 01:39:49 AM |      INFO | test_register.py:24 | clicking on myAccount drop menu
+03/31/2025 01:39:49 AM |      INFO | test_register.py:27 | clicking on register link
+03/31/2025 01:39:50 AM |      INFO | test_register.py:29 | *************** Providing Registration Details ***************
+03/31/2025 01:39:52 AM |      INFO | test_register.py:40 | *************** Register Functionality validation started ***************
+03/31/2025 01:39:52 AM |      INFO | test_register.py:47 | ******* Test Register Functionality is Passed ********
+03/31/2025 01:39:52 AM |      INFO | test_register.py:59 | ********** End Of Test Register Functionality 001 **********
+03/31/2025 01:45:25 AM |      INFO | test_login_params.py:17 | ********** Test Login Params is Started *********
+03/31/2025 01:45:25 AM |      INFO | test_login.py:23 | ****************** Test_Login_001 ***************
+03/31/2025 01:45:25 AM |      INFO | test_login.py:24 | ***************** Verifying Home Page Title **************
+03/31/2025 01:45:25 AM |      INFO | test_login_params.py:17 | ********** Test Login Params is Started *********
+03/31/2025 01:45:25 AM |      INFO | test_login_ddt.py:19 | ************** Test_002_DDT_Login ***************
+03/31/2025 01:45:25 AM |      INFO | test_login_ddt.py:20 | ************** Verifying Login Test ************
+03/31/2025 01:45:25 AM |      INFO | test_login_ddt.py:22 | navigating to the url
+03/31/2025 01:45:26 AM |      INFO | test_login_params.py:20 | Invoking browser
+03/31/2025 01:45:26 AM |      INFO | test_login_params.py:21 | Navigating to URL
+03/31/2025 01:45:27 AM |      INFO | test_login_ddt.py:32 | clicking on myAccount drop menu
+03/31/2025 01:45:28 AM |      INFO | test_login.py:30 | ************** Home page title test is passed ************
+03/31/2025 01:45:28 AM |      INFO | test_login_params.py:20 | Invoking browser
+03/31/2025 01:45:28 AM |      INFO | test_login_params.py:21 | Navigating to URL
+03/31/2025 01:45:28 AM |      INFO | test_login_params.py:24 | Clicking on my account
+03/31/2025 01:45:29 AM |      INFO | test_login_params.py:24 | Clicking on my account
+03/31/2025 01:45:29 AM |      INFO | test_login_ddt.py:34 | clicking on login link
+03/31/2025 01:45:29 AM |      INFO | test_login_params.py:26 | Clicking on login link
+03/31/2025 01:45:29 AM |      INFO | test_login_params.py:26 | Clicking on login link
+03/31/2025 01:45:29 AM |      INFO | test_login_params.py:28 | Entering username: adelukesh1@gmail.com
+03/31/2025 01:45:29 AM |      INFO | test_login_params.py:28 | Entering username: adelukesh24@gmail.com
+03/31/2025 01:45:30 AM |      INFO | test_login_params.py:30 | Entering password: 12345
+03/31/2025 01:45:30 AM |      INFO | test_login_params.py:30 | Entering password: 54851
+03/31/2025 01:45:30 AM |      INFO | test_login_ddt.py:36 | passing the username
+03/31/2025 01:45:30 AM |      INFO | test_login_ddt.py:38 | passing the password
+03/31/2025 01:45:30 AM |      INFO | test_login_ddt.py:40 | clicking on the login button
+03/31/2025 01:45:31 AM |      INFO | test_login_params.py:32 | Clicking on login button
+03/31/2025 01:45:31 AM |      INFO | test_login_params.py:33 | ************* Verifying test_login_params *************
+03/31/2025 01:45:31 AM |      INFO | test_login_params.py:32 | Clicking on login button
+03/31/2025 01:45:31 AM |      INFO | test_login_params.py:33 | ************* Verifying test_login_params *************
+03/31/2025 01:45:31 AM |      INFO | test_login_params.py:50 | test_login_params is Completed
+03/31/2025 01:45:31 AM |      INFO | test_login_params.py:51 | ************* End of test_login_params *************
+03/31/2025 01:45:31 AM |      INFO | test_login_params.py:50 | test_login_params is Completed
+03/31/2025 01:45:31 AM |      INFO | test_login_params.py:51 | ************* End of test_login_params *************
+03/31/2025 01:45:31 AM |      INFO | test_login_ddt.py:49 | *** Passed
+03/31/2025 01:45:32 AM |      INFO | test_login.py:40 | ************** Login test is started ************
+03/31/2025 01:45:32 AM |      INFO | test_login.py:42 | navigating to the url
+03/31/2025 01:45:33 AM |      INFO | test_login_ddt.py:32 | clicking on myAccount drop menu
+03/31/2025 01:45:33 AM |      INFO | test_login_ddt.py:34 | clicking on login link
+03/31/2025 01:45:33 AM |      INFO | test_login_ddt.py:36 | passing the username
+03/31/2025 01:45:33 AM |      INFO | test_login_ddt.py:38 | passing the password
+03/31/2025 01:45:34 AM |      INFO | test_login_ddt.py:40 | clicking on the login button
+03/31/2025 01:45:35 AM |      INFO | test_login_params.py:17 | ********** Test Login Params is Started *********
+03/31/2025 01:45:35 AM |      INFO | test_login_params.py:17 | ********** Test Login Params is Started *********
+03/31/2025 01:45:35 AM |      INFO | test_login.py:45 | clicking on myAccount drop menu
+03/31/2025 01:45:35 AM |      INFO | test_login.py:47 | clicking on login link
+03/31/2025 01:45:36 AM |      INFO | test_login_ddt.py:65 | *** Passed
+03/31/2025 01:45:36 AM |      INFO | test_login_ddt.py:32 | clicking on myAccount drop menu
+03/31/2025 01:45:36 AM |      INFO | test_login_ddt.py:34 | clicking on login link
+03/31/2025 01:45:36 AM |      INFO | test_login.py:49 | passing the username
+03/31/2025 01:45:36 AM |      INFO | test_login.py:51 | passing the password
+03/31/2025 01:45:36 AM |      INFO | test_login.py:53 | clicking on the login button
+03/31/2025 01:45:36 AM |      INFO | test_login_ddt.py:36 | passing the username
+03/31/2025 01:45:36 AM |      INFO | test_login_ddt.py:38 | passing the password
+03/31/2025 01:45:36 AM |      INFO | test_login_ddt.py:40 | clicking on the login button
+03/31/2025 01:45:37 AM |      INFO | test_login.py:56 | ************** Verifying Login test ************
+03/31/2025 01:45:37 AM |      INFO | test_login.py:63 | ************** Verifying Login test ************
+03/31/2025 01:45:37 AM |      INFO | test_login.py:67 | ************** Login test is passed ************
+03/31/2025 01:45:37 AM |      INFO | test_login_ddt.py:65 | *** Passed
+03/31/2025 01:45:37 AM |      INFO | test_login_ddt.py:32 | clicking on myAccount drop menu
+03/31/2025 01:45:38 AM |      INFO | test_login_ddt.py:34 | clicking on login link
+03/31/2025 01:45:38 AM |      INFO | test_login_params.py:20 | Invoking browser
+03/31/2025 01:45:38 AM |      INFO | test_login_params.py:21 | Navigating to URL
+03/31/2025 01:45:38 AM |      INFO | test_login_params.py:24 | Clicking on my account
+03/31/2025 01:45:38 AM |      INFO | test_login_params.py:20 | Invoking browser
+03/31/2025 01:45:38 AM |      INFO | test_login_params.py:21 | Navigating to URL
+03/31/2025 01:45:38 AM |      INFO | test_login_params.py:24 | Clicking on my account
+03/31/2025 01:45:38 AM |      INFO | test_login_ddt.py:36 | passing the username
+03/31/2025 01:45:38 AM |      INFO | test_login_ddt.py:38 | passing the password
+03/31/2025 01:45:38 AM |      INFO | test_login_params.py:26 | Clicking on login link
+03/31/2025 01:45:38 AM |      INFO | test_login_ddt.py:40 | clicking on the login button
+03/31/2025 01:45:38 AM |      INFO | test_login_params.py:28 | Entering username: adelukesh@gmail.com
+03/31/2025 01:45:38 AM |      INFO | test_login_params.py:26 | Clicking on login link
+03/31/2025 01:45:38 AM |      INFO | test_login_params.py:30 | Entering password: 48465
+03/31/2025 01:45:38 AM |      INFO | test_login_params.py:28 | Entering username: 
+03/31/2025 01:45:38 AM |      INFO | test_login_params.py:30 | Entering password: 
+03/31/2025 01:45:39 AM |      INFO | test_login_params.py:32 | Clicking on login button
+03/31/2025 01:45:39 AM |      INFO | test_login_params.py:33 | ************* Verifying test_login_params *************
+03/31/2025 01:45:39 AM |      INFO | test_login_params.py:50 | test_login_params is Completed
+03/31/2025 01:45:39 AM |      INFO | test_login_params.py:51 | ************* End of test_login_params *************
+03/31/2025 01:45:40 AM |      INFO | test_login_params.py:32 | Clicking on login button
+03/31/2025 01:45:40 AM |      INFO | test_login_params.py:33 | ************* Verifying test_login_params *************
+03/31/2025 01:45:40 AM |      INFO | test_login_params.py:50 | test_login_params is Completed
+03/31/2025 01:45:40 AM |      INFO | test_login_params.py:51 | ************* End of test_login_params *************
+03/31/2025 01:45:40 AM |      INFO | test_login_ddt.py:65 | *** Passed
+03/31/2025 01:45:40 AM |      INFO | test_login_ddt.py:69 | *********** Login DDT test passed ***********
+03/31/2025 01:45:40 AM |      INFO | test_login_ddt.py:76 | ****** End of the Login DDT Test *******
+03/31/2025 01:45:40 AM |      INFO | test_login_ddt.py:77 | ******************** Completed TC_LoginDDT_002 ********************
+03/31/2025 01:45:43 AM |      INFO | test_logout.py:55 | *************** Logout Functionality 002 Test Start ****************
+03/31/2025 01:45:44 AM |      INFO | test_logout.py:88 | *************** Logout Functionality 004 Test Start ****************
+03/31/2025 01:45:44 AM |      INFO | test_login_params.py:17 | ********** Test Login Params is Started *********
+03/31/2025 01:45:47 AM |      INFO | test_login_params.py:20 | Invoking browser
+03/31/2025 01:45:47 AM |      INFO | test_login_params.py:21 | Navigating to URL
+03/31/2025 01:45:47 AM |      INFO | test_login_params.py:24 | Clicking on my account
+03/31/2025 01:45:48 AM |      INFO | test_login_params.py:26 | Clicking on login link
+03/31/2025 01:45:48 AM |      INFO | test_logout.py:64 | **************** Login is Successful ******************
+03/31/2025 01:45:48 AM |      INFO | test_login_params.py:28 | Entering username: adelukesh@gmail.com
+03/31/2025 01:45:48 AM |      INFO | test_login_params.py:30 | Entering password: 12345
+03/31/2025 01:45:48 AM |      INFO | test_logout.py:97 | **************** Login is Successful ******************
+03/31/2025 01:45:49 AM |      INFO | test_login_params.py:32 | Clicking on login button
+03/31/2025 01:45:49 AM |      INFO | test_login_params.py:33 | ************* Verifying test_login_params *************
+03/31/2025 01:45:49 AM |      INFO | test_login_params.py:37 | test_login_params is passed
+03/31/2025 01:45:49 AM |      INFO | test_login_params.py:50 | test_login_params is Completed
+03/31/2025 01:45:49 AM |      INFO | test_login_params.py:51 | ************* End of test_login_params *************
+03/31/2025 01:45:50 AM |      INFO | test_logout.py:70 | ************ Logout is successful *****************
+03/31/2025 01:45:50 AM |      INFO | test_logout.py:71 | ************ Verifying logout functionality **************
+03/31/2025 01:45:50 AM |      INFO | test_logout.py:76 | **************** Test Logout Functionality is Passed ****************
+03/31/2025 01:45:50 AM |      INFO | test_logout.py:83 | ***************** End of Logout Functionality 002 ********************
+03/31/2025 01:45:54 AM |      INFO | test_register.py:19 | ******** Test Register Functionality 001 is Started *********
+03/31/2025 01:45:54 AM |      INFO | test_register.py:21 | Navigating to the url
+03/31/2025 01:45:55 AM |      INFO | test_logout.py:107 | ******** Verifying Test Logout Functionality 004 ***********
+03/31/2025 01:45:56 AM |      INFO | test_register.py:24 | clicking on myAccount drop menu
+03/31/2025 01:45:56 AM |      INFO | test_register.py:27 | clicking on register link
+
+03/31/2025 01:45:57 AM |      INFO | test_register.py:29 | *************** Providing Registration Details ***************
+03/31/2025 01:45:59 AM |      INFO | test_register.py:40 | *************** Register Functionality validation started ***************
+03/31/2025 01:45:59 AM |      INFO | test_register.py:47 | ******* Test Register Functionality is Passed ********
+03/31/2025 01:45:59 AM |      INFO | test_register.py:59 | ********** End Of Test Register Functionality 001 **********
+03/31/2025 01:46:01 AM |      INFO | test_logout.py:23 | *************** Logout Functionality 001 Test Start ****************
+03/31/2025 01:46:05 AM |      INFO | test_logout.py:32 | **************** Login is Successful ******************
+03/31/2025 01:46:05 AM |      INFO | test_logout.py:123 | ********* Test Logout Functionality 004 is Passed **********
+03/31/2025 01:46:05 AM |      INFO | test_logout.py:132 | ********** End Of Test Logout Functionality 004 ***************
+03/31/2025 01:55:57 AM |      INFO | test_logout.py:23 | *************** Logout Functionality 001 Test Start ****************
+03/31/2025 01:56:01 AM |      INFO | test_logout.py:32 | **************** Login is Successful ******************
+03/31/2025 01:56:03 AM |      INFO | test_logout.py:37 | ************ Logout is successful *****************
+03/31/2025 01:56:03 AM |      INFO | test_logout.py:39 | clicking on my account
+03/31/2025 01:56:03 AM |      INFO | test_logout.py:41 | ************ Verifying logout functionality 001 **************
+03/31/2025 01:56:03 AM |      INFO | test_logout.py:44 | **************** Test Logout Functionality is Passed ****************
+03/31/2025 01:56:03 AM |      INFO | test_logout.py:49 | ***************** End of Logout Functionality 001 ********************
+03/31/2025 01:58:19 AM |      INFO | test_logout.py:23 | *************** Logout Functionality 001 Test Start ****************
+03/31/2025 01:58:26 AM |      INFO | test_logout.py:32 | **************** Login is Successful ******************
+03/31/2025 01:58:27 AM |      INFO | test_logout.py:37 | ************ Logout is successful *****************
+03/31/2025 01:58:27 AM |      INFO | test_logout.py:39 | clicking on my account
+03/31/2025 01:58:27 AM |      INFO | test_logout.py:41 | ************ Verifying logout functionality 001 **************
+03/31/2025 01:58:27 AM |      INFO | test_logout.py:44 | **************** Test Logout Functionality is Passed ****************
+03/31/2025 01:58:27 AM |      INFO | test_logout.py:49 | ***************** End of Logout Functionality 001 ********************
+03/31/2025 01:58:31 AM |      INFO | test_logout.py:55 | *************** Logout Functionality 002 Test Start ****************
+03/31/2025 01:58:35 AM |      INFO | test_logout.py:64 | **************** Login is Successful ******************
+03/31/2025 01:58:38 AM |      INFO | test_logout.py:70 | ************ Logout is successful *****************
+03/31/2025 01:58:38 AM |      INFO | test_logout.py:71 | ************ Verifying logout functionality **************
+03/31/2025 01:58:38 AM |      INFO | test_logout.py:76 | **************** Test Logout Functionality is Passed ****************
+03/31/2025 01:58:39 AM |      INFO | test_logout.py:83 | ***************** End of Logout Functionality 002 ********************
+03/31/2025 01:58:52 AM |      INFO | test_logout.py:23 | *************** Logout Functionality 001 Test Start ****************
+03/31/2025 01:58:57 AM |      INFO | test_logout.py:32 | **************** Login is Successful ******************
+03/31/2025 01:58:58 AM |      INFO | test_logout.py:37 | ************ Logout is successful *****************
+03/31/2025 01:59:01 AM |      INFO | test_logout.py:55 | *************** Logout Functionality 002 Test Start ****************
+03/31/2025 01:59:30 AM |      INFO | test_logout.py:23 | *************** Logout Functionality 001 Test Start ****************
+03/31/2025 01:59:34 AM |      INFO | test_logout.py:32 | **************** Login is Successful ******************
+03/31/2025 01:59:39 AM |      INFO | test_logout.py:55 | *************** Logout Functionality 002 Test Start ****************
+03/31/2025 01:59:43 AM |      INFO | test_logout.py:64 | **************** Login is Successful ******************
+03/31/2025 01:59:45 AM |      INFO | test_logout.py:70 | ************ Logout is successful *****************
+03/31/2025 01:59:45 AM |      INFO | test_logout.py:71 | ************ Verifying logout functionality **************
+03/31/2025 01:59:45 AM |      INFO | test_logout.py:76 | **************** Test Logout Functionality is Passed ****************
+03/31/2025 01:59:46 AM |      INFO | test_logout.py:83 | ***************** End of Logout Functionality 002 ********************
+03/31/2025 01:59:49 AM |      INFO | test_logout.py:88 | *************** Logout Functionality 004 Test Start ****************
+03/31/2025 01:59:53 AM |      INFO | test_logout.py:97 | **************** Login is Successful ******************
+03/31/2025 02:00:00 AM |      INFO | test_logout.py:107 | ******** Verifying Test Logout Functionality 004 ***********
+03/31/2025 02:00:10 AM |      INFO | test_logout.py:123 | ********* Test Logout Functionality 004 is Passed **********
+03/31/2025 02:00:10 AM |      INFO | test_logout.py:132 | ********** End Of Test Logout Functionality 004 ***************
+03/31/2025 02:01:31 AM |      INFO | test_logout.py:23 | *************** Logout Functionality 001 Test Start ****************
+03/31/2025 02:01:35 AM |      INFO | test_logout.py:32 | **************** Login is Successful ******************
+03/31/2025 02:01:36 AM |      INFO | test_logout.py:37 | ************ Logout is successful *****************
+03/31/2025 02:01:36 AM |      INFO | test_logout.py:39 | clicking on my account
+03/31/2025 02:01:36 AM |      INFO | test_logout.py:41 | ************ Verifying logout functionality 001 **************
+03/31/2025 02:01:36 AM |      INFO | test_logout.py:44 | **************** Test Logout Functionality is Passed ****************
+03/31/2025 02:01:36 AM |      INFO | test_logout.py:49 | ***************** End of Logout Functionality 001 ********************
+03/31/2025 02:01:40 AM |      INFO | test_logout.py:55 | *************** Logout Functionality 002 Test Start ****************
+03/31/2025 02:01:44 AM |      INFO | test_logout.py:64 | **************** Login is Successful ******************
+03/31/2025 02:01:47 AM |      INFO | test_logout.py:70 | ************ Logout is successful *****************
+03/31/2025 02:01:47 AM |      INFO | test_logout.py:71 | ************ Verifying logout functionality **************
+03/31/2025 02:01:47 AM |      INFO | test_logout.py:76 | **************** Test Logout Functionality is Passed ****************
+03/31/2025 02:01:47 AM |      INFO | test_logout.py:83 | ***************** End of Logout Functionality 002 ********************
+03/31/2025 02:01:51 AM |      INFO | test_logout.py:88 | *************** Logout Functionality 004 Test Start ****************
+03/31/2025 02:01:54 AM |      INFO | test_logout.py:97 | **************** Login is Successful ******************
+03/31/2025 02:02:01 AM |      INFO | test_logout.py:107 | ******** Verifying Test Logout Functionality 004 ***********
+03/31/2025 02:02:11 AM |      INFO | test_logout.py:123 | ********* Test Logout Functionality 004 is Passed **********
+03/31/2025 02:02:11 AM |      INFO | test_logout.py:132 | ********** End Of Test Logout Functionality 004 ***************
+03/31/2025 02:22:17 AM |      INFO | test_logout.py:87 | *************** Logout Functionality 004 Test Start ****************
+03/31/2025 02:22:22 AM |      INFO | test_logout.py:96 | **************** Login is Successful ******************
+03/31/2025 02:22:24 AM |      INFO | test_logout.py:103 | ******** Verifying Test Logout Functionality 004 ***********
+03/31/2025 02:22:24 AM |      INFO | test_logout.py:106 | ********* Test Logout Functionality 004 is Passed **********
+03/31/2025 02:22:24 AM |      INFO | test_logout.py:113 | ********** End Of Test Logout Functionality 004 ***************
+03/31/2025 02:22:42 AM |      INFO | test_logout.py:87 | *************** Logout Functionality 004 Test Start ****************
+03/31/2025 02:22:46 AM |      INFO | test_logout.py:96 | **************** Login is Successful ******************
+03/31/2025 02:22:48 AM |      INFO | test_logout.py:103 | ******** Verifying Test Logout Functionality 004 ***********
+03/31/2025 02:22:48 AM |      INFO | test_logout.py:106 | ********* Test Logout Functionality 004 is Passed **********
+03/31/2025 02:22:48 AM |      INFO | test_logout.py:113 | ********** End Of Test Logout Functionality 004 ***************
+03/31/2025 02:23:19 AM |      INFO | test_logout.py:87 | *************** Logout Functionality 004 Test Start ****************
+03/31/2025 02:23:24 AM |      INFO | test_logout.py:96 | **************** Login is Successful ******************
+03/31/2025 02:23:26 AM |      INFO | test_logout.py:103 | ******** Verifying Test Logout Functionality 004 ***********
+03/31/2025 02:23:31 AM |      INFO | test_logout.py:107 | ********* Test Logout Functionality 004 is Passed **********
+03/31/2025 02:23:31 AM |      INFO | test_logout.py:114 | ********** End Of Test Logout Functionality 004 ***************

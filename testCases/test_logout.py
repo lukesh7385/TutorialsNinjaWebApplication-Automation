@@ -1,7 +1,6 @@
 import time
 import allure
 import pytest
-from selenium.common import NoSuchElementException
 from selenium.webdriver.common.by import By
 from pageObjects.LoginPage import LoginPage
 from pageObjects.LogoutPage import LogoutPage
@@ -43,7 +42,7 @@ class Test_003_Logout_Functionality:
             assert True
             self.logger.info("**************** Test Logout Functionality is Passed ****************")
         else:
-            # self.driver.save_screenshot(".\\Screenshots\\" + "test_logout_functionality_001.png")
+            self.driver.save_screenshot(".\\Screenshots\\" + "test_logout_functionality_001.png")
             self.logger.info("************** Test Logout Functionality is Failed *******************")
             assert False
         self.logger.info("***************** End of Logout Functionality 001 ********************")
@@ -95,41 +94,25 @@ class Test_003_Logout_Functionality:
         self.lp.set_password(self.password)
         self.lp.click_on_login_button()
         self.logger.info("**************** Login is Successful ******************")
-        time.sleep(1)
         self.lp.click_on_my_account()
         self.lg = LogoutPage(self.driver)
         self.lg.click_on_logout_link()
         self.driver.back()
-        time.sleep(2)
         self.driver.refresh()
-        time.sleep(2)
         self.lp.click_on_my_account()
         self.logger.info("******** Verifying Test Logout Functionality 004 ***********")
-
-        # Verification
-        try:
-            # Locate the "Logout" option
-            self.logoutOption = self.driver.find_element(By.XPATH, "//a[text()='Logout']")
-            # Check if the "Logout" option is displayed (it shouldn't be)
-            if self.logoutOption.is_displayed():
-                self.driver.save_screenshot(".\\Screenshots\\" + "test_logout_functionality_004_Failed.png")
-                self.logger.error("************ Test Logout Functionality 004 is Failed *************")
-                assert False
-            else:
-                self.logger.info("********* Test Logout Functionality 004 is Passed **********")
-                assert True
-        except NoSuchElementException:
-            # If the element is not found, it meets the expected result
+        time.sleep(5)
+        self.loginOption = self.driver.find_element(By.LINK_TEXT, "Login").is_displayed()
+        if self.loginOption:
             self.logger.info("********* Test Logout Functionality 004 is Passed **********")
             assert True
-        except Exception as e:
-            # Handle any other exceptions gracefully
-            self.logger.error(f"Test failed due to unexpected exception: {e}")
-            self.driver.save_screenshot(".\\Screenshots\\" + "test_logout_functionality_004_Error.png")
+        else:
+            self.driver.save_screenshot(".\\Screenshots\\" + "test_logout_functionality_004_Failed.png")
+            self.logger.error("************ Test Logout Functionality 004 is Failed *************")
             assert False
-        finally:
-            self.driver.close()
-            self.logger.info("********** End Of Test Logout Functionality 004 ***************")
+        self.driver.close()
+        self.logger.info("********** End Of Test Logout Functionality 004 ***************")
+
 
 
 

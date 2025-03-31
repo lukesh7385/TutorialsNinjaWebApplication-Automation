@@ -91,7 +91,8 @@ def pytest_addoption(parser):
     ("adelukesh@gmail.com", "12345", "Pass"),
     ("adelukesh1@gmail.com", "12345", "Fail"),
     ("adelukesh@gmail.com", "48465", "Fail"),
-    ("adelukesh24@gmail.com", "54851", "Fail")
+    ("adelukesh24@gmail.com", "54851", "Fail"),
+    ("", "", "Fail")
 ])
 def data_for_login(request):
     return request.param
