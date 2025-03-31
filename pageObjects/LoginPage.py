@@ -2,7 +2,7 @@ from selenium.webdriver.common.by import By
 
 
 class LoginPage:
-    link_myAccount_CSS_SELECTOR = (By.CSS_SELECTOR, "a[title='My Account']")
+    link_myAccount_xpath = (By.XPATH, "//span[normalize-space()='My Account']")
     link_login_PARTIAL_LINK_TEXT = (By.PARTIAL_LINK_TEXT, "Login")
     textbox_username_name = (By.NAME, "email")
     textbox_password_name = (By.NAME, "password")
@@ -13,7 +13,7 @@ class LoginPage:
         self.driver = driver
 
     def click_on_my_account(self):
-        self.driver.find_element(*LoginPage.link_myAccount_CSS_SELECTOR).click()
+        self.driver.find_element(*LoginPage.link_myAccount_xpath).click()
 
     def click_on_login_link(self):
         self.driver.find_element(*LoginPage.link_login_PARTIAL_LINK_TEXT).click()

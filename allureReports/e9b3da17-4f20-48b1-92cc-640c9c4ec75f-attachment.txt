@@ -1,0 +1,13 @@
+[32mINFO    [0m Test_001_Register_Functionality:test_register.py:107 ******** Test Register Functionality 002 is Started *********
+[32mINFO    [0m Test_001_Register_Functionality:test_register.py:110 Navigating to the url
+[32mINFO    [0m Test_001_Register_Functionality:test_register.py:113 clicking on myAccount drop menu
+[32mINFO    [0m Test_001_Register_Functionality:test_register.py:116 clicking on register link
+[32mINFO    [0m Test_001_Register_Functionality:test_register.py:118 clicking on continue button
+[32mINFO    [0m Test_001_Register_Functionality:test_register.py:119 *********** Verifying Test Register Functionality 003 ***********
+[32mINFO    [0m Test_001_Register_Functionality:test_register.py:141 Test Register Functionality 003 Passed.
+[32mINFO    [0m Test_001_Register_Functionality:test_register.py:141 Test Register Functionality 003 Passed.
+[32mINFO    [0m Test_001_Register_Functionality:test_register.py:141 Test Register Functionality 003 Passed.
+[32mINFO    [0m Test_001_Register_Functionality:test_register.py:141 Test Register Functionality 003 Passed.
+[32mINFO    [0m Test_001_Register_Functionality:test_register.py:141 Test Register Functionality 003 Passed.
+[32mINFO    [0m Test_001_Register_Functionality:test_register.py:145 Actual_message: Warning: You must agree to the Privacy Policy! Expected_message: Warning: You must agree to the Privacy Policy
+[1m[31mERROR   [0m Test_001_Register_Functionality:test_register.py:146 Test Register Functionality 003 Failed

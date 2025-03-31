@@ -1,5 +1,6 @@
 from selenium.webdriver.common.by import By
-
+import random
+import string
 
 class RegisterPage:
     link_Register_linkText = "Register"
@@ -49,4 +50,8 @@ class RegisterPage:
 
     def click_on_continue_button2(self):
         self.driver.find_element(By.LINK_TEXT, self.Button2_continue_linkText).click()
+
+    @staticmethod
+    def random_generator(size=8, chars=string.ascii_lowercase + string.digits):
+        return ''.join(random.choice(chars) for _ in range(size))
 
