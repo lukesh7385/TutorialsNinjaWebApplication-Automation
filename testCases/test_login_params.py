@@ -1,3 +1,5 @@
+import time
+
 import pytest
 import allure
 from pageObjects.LoginPage import LoginPage
@@ -30,6 +32,7 @@ class TestLoginParams:
         self.logger.info("Entering password: " + data_for_login[1])
         self.lp.click_on_login_button()
         self.logger.info("Clicking on login button")
+        time.sleep(1)
         self.logger.info("************* Verifying test_login_params *************")
         if self.driver.title == "My Account":
             if data_for_login[2] == "Pass":
