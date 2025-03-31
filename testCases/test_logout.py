@@ -34,6 +34,7 @@ class Test_003_Logout_Functionality:
         self.lg.click_on_logout_link()
         self.lg.click_on_logout_continue()
         self.logger.info("************ Logout is successful *****************")
+        time.sleep(1)
         self.lp.click_on_my_account()
         self.logger.info("clicking on my account")
         self.loginOption = self.driver.find_element(*LoginPage.link_login_PARTIAL_LINK_TEXT).is_displayed()
