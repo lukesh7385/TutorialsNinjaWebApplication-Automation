@@ -79,7 +79,6 @@ class Test_001_Register_Functionality:
         self.rf.set_phone_no("1234567890")
         self.rf.set_password("12345")
         self.rf.set_confirm_password("12345")
-        self.rf.click_on_radiobutton_newsletter_yes()
         self.rf.click_on_checkbox_privacy_policy()
         self.rf.click_on_continue_button()
         self.logger.info("*************** Register Functionality validation started ***************")
@@ -105,6 +104,7 @@ class Test_001_Register_Functionality:
         self.logger.info("********** End Of Test Register Functionality 002 **********")
 
     @pytest.mark.sanity
+    @pytest.mark.regression
     def test_register_functionality_003(self, setup):
         self.logger.info("******** Test Register Functionality 002 is Started *********")
         self.driver = setup
@@ -147,6 +147,66 @@ class Test_001_Register_Functionality:
                 self.logger.info(f"Actual_message: {actual} Expected_message: {expected}")
                 self.logger.error(f"Test Register Functionality 003 Failed")
                 assert False
+
+    @pytest.mark.sanity
+    @pytest.mark.regression
+    def test_register_functionality_004(self, setup):
+        self.logger.info("******** Test Register Functionality 004 is Started *********")
+        self.driver = setup
+        self.logger.info("Navigating to the url")
+        self.driver.get(self.baseURL)
+        self.lp = LoginPage(self.driver)
+        self.logger.info("clicking on myAccount drop menu")
+        self.lp.click_on_my_account()
+        self.rf = RegisterPage(self.driver)
+        self.logger.info("clicking on register link")
+        self.rf.click_on_register_link()
+        self.logger.info("*************** Providing Registration Details ***************")
+        self.rf.set_firstname("Lukesh")
+        self.rf.set_lastname("Ade")
+        self.email = self.rf.random_generator() + "@gmail.com"
+        self.rf.set_email(self.email)
+        self.rf.set_phone_no("1234567890")
+        self.rf.set_password("12345")
+        self.rf.set_confirm_password("12345")
+        self.rf.click_on_radiobutton_newsletter_yes()
+        self.rf.click_on_checkbox_privacy_policy()
+        self.rf.click_on_continue_button()
+        self.logger.info("*************** Register Functionality validation started ***************")
+        exp_title = "Your Account Has Been Created!"
+        if self.driver.title == exp_title:
+            self.rf.click_on_continue_button2()
+            exp_title = "My Account"
+            if self.driver.title == exp_title:
+                self.rf.clicking_on_news_letter_option()
+                if self.driver.find_element(By.XPATH, "//input[@value='1']").is_selected():
+                    self.driver.find_element(By.XPATH, "//div[@class='pull-right']").click()
+                    success_message = self.driver.find_element(By.XPATH, "//div[@class='alert alert-success alert-dismissible']").text
+                    if success_message == "Success: Your newsletter subscription has been successfully updated!":
+                        assert True
+                        self.logger.info("******* Test Register Functionality 004 is Passed ********")
+                    else:
+                        self.logger.info("******* Test Register Functionality 004 is Failed ********")
+                        self.driver.save_screenshot(".\\Screenshots\\test_register_functionality_004_failed.png")
+                        assert False
+                else:
+                    self.logger.info("******* Test Register Functionality 004 is Failed ********")
+                    self.driver.save_screenshot(".\\Screenshots\\test_register_functionality_004_failed.png")
+                    assert False
+            else:
+                self.logger.info("**********  Test Register Functionality 004 is Failed **********")
+                self.driver.save_screenshot(".\\Screenshots\\" + "test_register_functionality_001.png")
+                self.driver.close()
+                assert False
+
+        else:
+            self.driver.save_screenshot(".\\Screenshots\\" + "test_register_functionality_004_failed.png")
+            self.logger.info("**********  Test Register Functionality 004 Failed **********")
+            self.driver.close()
+            assert False
+        self.driver.close()
+        self.logger.info("********** End Of Test Register Functionality 004 **********")
+
 
 
 

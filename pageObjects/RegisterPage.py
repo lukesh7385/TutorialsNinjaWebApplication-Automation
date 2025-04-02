@@ -14,6 +14,7 @@ class RegisterPage:
     checkbox_privacyPolicy_name = "agree"
     button_continue_xpath = "//input[@value='Continue']"
     Button2_continue_linkText = "Continue"
+    newsLetterOption_xpath = "//a[normalize-space()='Subscribe / unsubscribe to newsletter']"
 
     def __init__(self, driver):
         self.driver = driver
@@ -50,6 +51,9 @@ class RegisterPage:
 
     def click_on_continue_button2(self):
         self.driver.find_element(By.LINK_TEXT, self.Button2_continue_linkText).click()
+
+    def clicking_on_news_letter_option(self):
+        self.driver.find_element(By.XPATH, self.newsLetterOption_xpath).click()
 
     @staticmethod
     def random_generator(size=8, chars=string.ascii_lowercase + string.digits):
