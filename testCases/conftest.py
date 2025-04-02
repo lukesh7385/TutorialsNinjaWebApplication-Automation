@@ -1,4 +1,3 @@
-import os
 import allure
 import pytest
 from selenium import webdriver
@@ -10,36 +9,33 @@ from selenium.webdriver.edge.service import Service as EdgeService
 
 @pytest.fixture(scope="function")
 def setup(browser):
-    # WebDriver setup for the specified browser
     if browser == "chrome":
-        service = Service(os.getenv("CHROME_DRIVER_PATH", default="C:\\Drivers\\chromedriver.exe"))
+        service = Service("C:\\Drivers\\chromedriver.exe")
         options = webdriver.ChromeOptions()
         options.add_experimental_option("detach", True)
         options.add_argument("--disable-notifications")
         driver = webdriver.Chrome(service=service, options=options)
         print("Launching Chrome browser")
     elif browser == "firefox":
-        service = FirefoxService(os.getenv("FIREFOX_DRIVER_PATH", default="C:\\Drivers\\geckodriver.exe"))
+        service = FirefoxService("C:\\Drivers\\geckodriver.exe")
         options = webdriver.FirefoxOptions()
-        options.binary_location = os.getenv("FIREFOX_BINARY_PATH", default="C:\\Program Files\\Mozilla Firefox\\firefox.exe")
+        options.binary_location = "C:\\Program Files\\Mozilla Firefox\\firefox.exe"
         driver = webdriver.Firefox(service=service, options=options)
         print("Launching Firefox browser")
     elif browser == "edge":
-        service = EdgeService(os.getenv("EDGE_DRIVER_PATH", default="C:\\Drivers\\msedgedriver.exe"))
+        service = EdgeService("C:\\Drivers\\msedgedriver.exe")
         options = webdriver.EdgeOptions()
         driver = webdriver.Edge(service=service, options=options)
         print("Launching Edge browser")
     else:
-        service = Service(os.getenv("CHROME_DRIVER_PATH", default="C:\\Drivers\\chromedriver.exe"))
+        service = Service("C:\\Drivers\\chromedriver.exe")
         options = webdriver.ChromeOptions()
         options.add_argument("--headless")
         driver = webdriver.Chrome(service=service, options=options)
 
     driver.implicitly_wait(10)
     driver.maximize_window()
-
     yield driver  # Return the driver instance to the test
-
     driver.quit()  # Ensure the browser is closed after the test
 
 
