@@ -10227,3 +10227,140 @@ assert 'Telephone mu...2 characters!' == 'elephone mus...2 characters!'
 04/04/2025 05:19:32 PM |      INFO | test_register.py:282 | *************** Verifying Register Functionality 006  ***************
 04/04/2025 05:19:33 PM |      INFO | test_register.py:292 | **********  Test Register Functionality 006 Failed **********
 04/04/2025 05:19:33 PM |      INFO | test_register.py:311 | ********** End Of Test Register Functionality 006 **********
+04/05/2025 12:57:25 AM |      INFO | test_forgot_password.py:17 | ************ Test Forgot Password 001 Start ************
+04/05/2025 12:57:26 AM |      INFO | test_forgot_password.py:19 | Navigating to the url
+04/05/2025 12:57:26 AM |      INFO | test_forgot_password.py:22 | clicking on my account
+04/05/2025 12:57:26 AM |      INFO | test_forgot_password.py:24 | clicking on login link
+04/05/2025 12:57:27 AM |      INFO | test_forgot_password.py:27 | clicking on forgot password link
+04/05/2025 01:00:23 AM |      INFO | test_forgot_password.py:17 | ************ Test Forgot Password 001 Start ************
+04/05/2025 01:00:25 AM |      INFO | test_forgot_password.py:19 | Navigating to the url
+04/05/2025 01:00:25 AM |      INFO | test_forgot_password.py:22 | clicking on my account
+04/05/2025 01:00:25 AM |      INFO | test_forgot_password.py:24 | clicking on login link
+04/05/2025 01:00:26 AM |      INFO | test_forgot_password.py:27 | clicking on forgot password link
+04/05/2025 01:02:38 AM |      INFO | test_forgot_password.py:18 | ************ Test Forgot Password 001 Start ************
+04/05/2025 01:02:39 AM |      INFO | test_forgot_password.py:20 | Navigating to the url
+04/05/2025 01:02:39 AM |      INFO | test_forgot_password.py:23 | clicking on my account
+04/05/2025 01:02:40 AM |      INFO | test_forgot_password.py:25 | clicking on login link
+04/05/2025 01:02:40 AM |      INFO | test_forgot_password.py:28 | clicking on forgot password link
+04/05/2025 01:03:19 AM |      INFO | test_forgot_password.py:18 | ************ Test Forgot Password 001 Start ************
+04/05/2025 01:03:20 AM |      INFO | test_forgot_password.py:20 | Navigating to the url
+04/05/2025 01:03:20 AM |      INFO | test_forgot_password.py:23 | clicking on my account
+04/05/2025 01:03:20 AM |      INFO | test_forgot_password.py:25 | clicking on login link
+04/05/2025 01:03:20 AM |      INFO | test_forgot_password.py:28 | clicking on forgot password link
+04/05/2025 01:14:47 AM |      INFO | test_forgot_password.py:18 | ************ Test Forgot Password 001 Start ************
+04/05/2025 01:14:51 AM |      INFO | test_forgot_password.py:20 | Navigating to the url
+04/05/2025 01:14:51 AM |      INFO | test_forgot_password.py:23 | clicking on my account
+04/05/2025 01:14:51 AM |      INFO | test_forgot_password.py:25 | clicking on login link
+04/05/2025 01:14:51 AM |      INFO | test_forgot_password.py:28 | clicking on forgot password link
+04/05/2025 01:16:12 AM |      INFO | test_forgot_password.py:18 | ************ Test Forgot Password 001 Start ************
+04/05/2025 01:16:14 AM |      INFO | test_forgot_password.py:20 | Navigating to the url
+04/05/2025 01:16:14 AM |      INFO | test_forgot_password.py:23 | clicking on my account
+04/05/2025 01:16:14 AM |      INFO | test_forgot_password.py:25 | clicking on login link
+04/05/2025 01:16:15 AM |      INFO | test_forgot_password.py:28 | clicking on forgot password link
+04/05/2025 01:17:13 AM |      INFO | test_forgot_password.py:18 | ************ Test Forgot Password 001 Start ************
+04/05/2025 01:17:15 AM |      INFO | test_forgot_password.py:20 | Navigating to the url
+04/05/2025 01:17:15 AM |      INFO | test_forgot_password.py:23 | clicking on my account
+04/05/2025 01:17:15 AM |      INFO | test_forgot_password.py:25 | clicking on login link
+04/05/2025 01:17:16 AM |      INFO | test_forgot_password.py:28 | clicking on forgot password link
+04/05/2025 01:17:16 AM |      INFO | test_forgot_password.py:35 | ************* Test Forgot Password 001 Passed ***************
+04/05/2025 01:17:46 AM |      INFO | test_forgot_password.py:18 | ************ Test Forgot Password 001 Start ************
+04/05/2025 01:17:47 AM |      INFO | test_forgot_password.py:20 | Navigating to the url
+04/05/2025 01:17:47 AM |      INFO | test_forgot_password.py:23 | clicking on my account
+04/05/2025 01:17:47 AM |      INFO | test_forgot_password.py:25 | clicking on login link
+04/05/2025 01:17:48 AM |      INFO | test_forgot_password.py:28 | clicking on forgot password link
+04/05/2025 01:17:48 AM |      INFO | test_forgot_password.py:38 | ************* Test Forgot Password 001 Failed ***************
+04/05/2025 01:20:28 AM |      INFO | test_forgot_password.py:18 | ************ Test Forgot Password 001 Start ************
+04/05/2025 01:20:30 AM |      INFO | test_forgot_password.py:20 | Navigating to the url
+04/05/2025 01:20:30 AM |      INFO | test_forgot_password.py:23 | clicking on my account
+04/05/2025 01:20:30 AM |      INFO | test_forgot_password.py:25 | clicking on login link
+04/05/2025 01:20:30 AM |      INFO | test_forgot_password.py:28 | clicking on forgot password link
+04/05/2025 01:20:31 AM |      INFO | test_forgot_password.py:36 | ************* Test Forgot Password 001 Passed ***************
+04/05/2025 01:27:03 AM |      INFO | test_forgot_password.py:19 | ************ Test Forgot Password 001 Start ************
+04/05/2025 01:27:05 AM |      INFO | test_forgot_password.py:21 | Navigating to the url
+04/05/2025 01:27:05 AM |      INFO | test_forgot_password.py:24 | clicking on my account
+04/05/2025 01:27:06 AM |      INFO | test_forgot_password.py:26 | clicking on login link
+04/05/2025 01:27:06 AM |      INFO | test_forgot_password.py:29 | clicking on forgot password link
+04/05/2025 01:27:06 AM |      INFO | test_forgot_password.py:32 | Entering the not existing email
+04/05/2025 01:29:07 AM |      INFO | test_forgot_password.py:19 | ************ Test Forgot Password 001 Start ************
+04/05/2025 01:29:10 AM |      INFO | test_forgot_password.py:21 | Navigating to the url
+04/05/2025 01:29:10 AM |      INFO | test_forgot_password.py:24 | clicking on my account
+04/05/2025 01:29:10 AM |      INFO | test_forgot_password.py:26 | clicking on login link
+04/05/2025 01:29:10 AM |      INFO | test_forgot_password.py:29 | clicking on forgot password link
+04/05/2025 01:29:10 AM |      INFO | test_forgot_password.py:32 | Entering the not existing email
+04/05/2025 01:32:48 AM |      INFO | test_forgot_password.py:19 | ************ Test Forgot Password 001 Start ************
+04/05/2025 01:32:51 AM |      INFO | test_forgot_password.py:21 | Navigating to the url
+04/05/2025 01:32:51 AM |      INFO | test_forgot_password.py:24 | clicking on my account
+04/05/2025 01:32:51 AM |      INFO | test_forgot_password.py:26 | clicking on login link
+04/05/2025 01:32:52 AM |      INFO | test_forgot_password.py:29 | clicking on forgot password link
+04/05/2025 01:32:52 AM |      INFO | test_forgot_password.py:32 | Entering the non existing email
+04/05/2025 01:32:52 AM |      INFO | test_forgot_password.py:37 | ************* Test Forgot Password 001 Passed ***************
+04/05/2025 01:32:52 AM |      INFO | test_forgot_password.py:38 | Warning: The E-Mail Address was not found in our records, please try again!
+04/05/2025 01:43:39 AM |      INFO | test_forgot_password.py:48 | ************ Test Forgot Password 001 Start ************
+04/05/2025 01:43:41 AM |      INFO | test_forgot_password.py:50 | Navigating to the url
+04/05/2025 01:43:41 AM |      INFO | test_forgot_password.py:53 | clicking on my account
+04/05/2025 01:43:41 AM |      INFO | test_forgot_password.py:55 | clicking on login link
+04/05/2025 01:43:41 AM |      INFO | test_forgot_password.py:58 | clicking on forgot password link
+04/05/2025 01:44:02 AM |      INFO | test_forgot_password.py:50 | ************ Test Forgot Password 001 Start ************
+04/05/2025 01:44:03 AM |      INFO | test_forgot_password.py:52 | Navigating to the url
+04/05/2025 01:44:03 AM |      INFO | test_forgot_password.py:55 | clicking on my account
+04/05/2025 01:44:03 AM |      INFO | test_forgot_password.py:57 | clicking on login link
+04/05/2025 01:44:04 AM |      INFO | test_forgot_password.py:60 | clicking on forgot password link
+04/05/2025 02:04:25 AM |      INFO | test_forgot_password.py:69 | ************ Test Forgot Password 003 Start ************
+04/05/2025 02:04:28 AM |      INFO | test_forgot_password.py:71 | Navigating to the url
+04/05/2025 02:04:28 AM |      INFO | test_forgot_password.py:74 | clicking on my account
+04/05/2025 02:04:28 AM |      INFO | test_forgot_password.py:76 | clicking on login link
+04/05/2025 02:04:29 AM |      INFO | test_forgot_password.py:79 | clicking on forgot password link
+04/05/2025 02:04:29 AM |      INFO | test_forgot_password.py:80 | ************ Verifying Test Forgot Password 003 ************
+04/05/2025 02:04:59 AM |      INFO | test_forgot_password.py:69 | ************ Test Forgot Password 003 Start ************
+04/05/2025 02:05:00 AM |      INFO | test_forgot_password.py:71 | Navigating to the url
+04/05/2025 02:05:00 AM |      INFO | test_forgot_password.py:74 | clicking on my account
+04/05/2025 02:05:00 AM |      INFO | test_forgot_password.py:76 | clicking on login link
+04/05/2025 02:05:00 AM |      INFO | test_forgot_password.py:79 | clicking on forgot password link
+04/05/2025 02:05:00 AM |      INFO | test_forgot_password.py:80 | ************ Verifying Test Forgot Password 003 ************
+04/05/2025 02:05:41 AM |      INFO | test_forgot_password.py:69 | ************ Test Forgot Password 003 Start ************
+04/05/2025 02:05:41 AM |      INFO | test_forgot_password.py:71 | Navigating to the url
+04/05/2025 02:05:42 AM |      INFO | test_forgot_password.py:74 | clicking on my account
+04/05/2025 02:05:42 AM |      INFO | test_forgot_password.py:76 | clicking on login link
+04/05/2025 02:05:42 AM |      INFO | test_forgot_password.py:79 | clicking on forgot password link
+04/05/2025 02:05:42 AM |      INFO | test_forgot_password.py:80 | ************ Verifying Test Forgot Password 003 ************
+04/05/2025 02:05:42 AM |     ERROR | test_forgot_password.py:87 | *********** Test Forgot Password 003 Failed *************
+04/05/2025 02:05:45 AM |      INFO | test_forgot_password.py:89 | ************** End of Test Forgot Password 003 ********************
+04/05/2025 02:06:21 AM |      INFO | test_forgot_password.py:69 | ************ Test Forgot Password 003 Start ************
+04/05/2025 02:06:22 AM |      INFO | test_forgot_password.py:71 | Navigating to the url
+04/05/2025 02:06:22 AM |      INFO | test_forgot_password.py:74 | clicking on my account
+04/05/2025 02:06:22 AM |      INFO | test_forgot_password.py:76 | clicking on login link
+04/05/2025 02:06:22 AM |      INFO | test_forgot_password.py:79 | clicking on forgot password link
+04/05/2025 02:06:22 AM |      INFO | test_forgot_password.py:80 | ************ Verifying Test Forgot Password 003 ************
+04/05/2025 02:06:23 AM |     ERROR | test_forgot_password.py:88 | *********** Test Forgot Password 003 Failed *************
+04/05/2025 02:06:25 AM |      INFO | test_forgot_password.py:90 | ************** End of Test Forgot Password 003 ********************
+04/05/2025 02:07:00 AM |      INFO | test_forgot_password.py:69 | ************ Test Forgot Password 003 Start ************
+04/05/2025 02:07:01 AM |      INFO | test_forgot_password.py:71 | Navigating to the url
+04/05/2025 02:07:01 AM |      INFO | test_forgot_password.py:74 | clicking on my account
+04/05/2025 02:07:02 AM |      INFO | test_forgot_password.py:76 | clicking on login link
+04/05/2025 02:07:02 AM |      INFO | test_forgot_password.py:79 | clicking on forgot password link
+04/05/2025 02:07:02 AM |      INFO | test_forgot_password.py:80 | ************ Verifying Test Forgot Password 003 ************
+04/05/2025 02:07:02 AM |     ERROR | test_forgot_password.py:88 | *********** Test Forgot Password 003 Failed *************
+04/05/2025 02:07:04 AM |      INFO | test_forgot_password.py:90 | ************** End of Test Forgot Password 003 ********************
+04/05/2025 02:10:31 AM |      INFO | test_forgot_password.py:69 | ************ Test Forgot Password 003 Start ************
+04/05/2025 02:10:33 AM |      INFO | test_forgot_password.py:71 | Navigating to the url
+04/05/2025 02:10:33 AM |      INFO | test_forgot_password.py:74 | clicking on my account
+04/05/2025 02:10:33 AM |      INFO | test_forgot_password.py:76 | clicking on login link
+04/05/2025 02:10:34 AM |      INFO | test_forgot_password.py:79 | clicking on forgot password link
+04/05/2025 02:10:34 AM |      INFO | test_forgot_password.py:80 | ************ Verifying Test Forgot Password 003 ************
+04/05/2025 02:10:34 AM |     ERROR | test_forgot_password.py:88 | *********** Test Forgot Password 003 Failed *************
+04/05/2025 02:16:42 AM |      INFO | test_forgot_password.py:68 | ************ Test Forgot Password 003 Start ************
+04/05/2025 02:16:44 AM |      INFO | test_forgot_password.py:70 | Navigating to the url
+04/05/2025 02:16:44 AM |      INFO | test_forgot_password.py:73 | clicking on my account
+04/05/2025 02:16:45 AM |      INFO | test_forgot_password.py:75 | clicking on login link
+04/05/2025 02:16:45 AM |      INFO | test_forgot_password.py:78 | clicking on forgot password link
+04/05/2025 02:16:45 AM |      INFO | test_forgot_password.py:79 | ************ Verifying Test Forgot Password 003 ************
+04/05/2025 02:16:45 AM |     ERROR | test_forgot_password.py:87 | *********** Test Forgot Password 003 Failed *************
+04/05/2025 02:19:13 AM |      INFO | test_forgot_password.py:68 | ************ Test Forgot Password 003 Start ************
+04/05/2025 02:19:15 AM |      INFO | test_forgot_password.py:70 | Navigating to the url
+04/05/2025 02:19:15 AM |      INFO | test_forgot_password.py:73 | clicking on my account
+04/05/2025 02:19:15 AM |      INFO | test_forgot_password.py:75 | clicking on login link
+04/05/2025 02:19:16 AM |      INFO | test_forgot_password.py:78 | clicking on forgot password link
+04/05/2025 02:19:16 AM |      INFO | test_forgot_password.py:79 | ************ Verifying Test Forgot Password 003 ************
+04/05/2025 02:19:16 AM |      INFO | test_forgot_password.py:82 | E-Mail Address
+04/05/2025 02:19:16 AM |      INFO | test_forgot_password.py:84 | *********** Test Forgot Password 003 Passed *************
+04/05/2025 02:19:18 AM |      INFO | test_forgot_password.py:90 | ************** End of Test Forgot Password 003 ********************
