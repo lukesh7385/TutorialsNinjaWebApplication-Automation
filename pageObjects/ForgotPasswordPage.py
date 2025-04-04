@@ -6,8 +6,6 @@ class ForgotPasswordPage:
     inputTextBox_emailAddress_xpath = (By.XPATH, "//input[@id='input-email']")
     button_continue_xpath = (By.XPATH, "//input[@value='Continue']")
 
-
-
     def __init__(self, driver):
         self.driver = driver
 
@@ -19,4 +17,3 @@ class ForgotPasswordPage:
 
     def clicking_on_continue_button(self):
         self.driver.find_element(*ForgotPasswordPage.button_continue_xpath).click()
-

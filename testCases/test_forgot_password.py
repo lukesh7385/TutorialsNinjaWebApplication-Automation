@@ -63,6 +63,7 @@ class Test_004_Forgot_Password:
         self.fp.clicking_on_continue_button()
         assert False
 
+    @pytest.mark.sanity
     def test_forgot_password_003(self, setup):
         self.driver = setup
         self.logger.info("************ Test Forgot Password 003 Start ************")

@@ -1,0 +1,5 @@
+[32mINFO    [0m Test_004_Forgot_Password:test_forgot_password.py:51 ************ Test Forgot Password 002 Start ************
+[32mINFO    [0m Test_004_Forgot_Password:test_forgot_password.py:53 Navigating to the url
+[32mINFO    [0m Test_004_Forgot_Password:test_forgot_password.py:56 clicking on my account
+[32mINFO    [0m Test_004_Forgot_Password:test_forgot_password.py:58 clicking on login link
+[32mINFO    [0m Test_004_Forgot_Password:test_forgot_password.py:61 clicking on forgot password link

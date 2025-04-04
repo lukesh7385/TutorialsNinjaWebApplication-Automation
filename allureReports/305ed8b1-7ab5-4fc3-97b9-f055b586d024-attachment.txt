@@ -1,0 +1,12 @@
+[32mINFO    [0m TestLoginParams:test_login_params.py:19 ********** Test Login Params is Started *********
+[32mINFO    [0m TestLoginParams:test_login_params.py:22 Invoking browser
+[32mINFO    [0m TestLoginParams:test_login_params.py:23 Navigating to URL
+[32mINFO    [0m TestLoginParams:test_login_params.py:26 Clicking on my account
+[32mINFO    [0m TestLoginParams:test_login_params.py:28 Clicking on login link
+[32mINFO    [0m TestLoginParams:test_login_params.py:30 Entering username: adelukesh@gmail.com
+[32mINFO    [0m TestLoginParams:test_login_params.py:32 Entering password: 12345
+[32mINFO    [0m TestLoginParams:test_login_params.py:34 Clicking on login button
+[32mINFO    [0m TestLoginParams:test_login_params.py:36 ************* Verifying test_login_params *************
+[32mINFO    [0m TestLoginParams:test_login_params.py:40 test_login_params is passed
+[32mINFO    [0m TestLoginParams:test_login_params.py:53 test_login_params is Completed
+[32mINFO    [0m TestLoginParams:test_login_params.py:54 ************* End of test_login_params *************
