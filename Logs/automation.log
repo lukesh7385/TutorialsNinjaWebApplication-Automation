@@ -10037,3 +10037,25 @@ assert 'Telephone mu...2 characters!' == 'elephone mus...2 characters!'
 04/02/2025 04:02:49 PM |      INFO | test_register.py:164 | *************** Providing Registration Details ***************
 04/02/2025 04:02:50 PM |      INFO | test_register.py:175 | *************** Register Functionality validation started ***************
 04/02/2025 04:02:51 PM |      INFO | test_register.py:189 | ******* Test Register Functionality 004 is Failed ********
+04/04/2025 04:38:40 PM |      INFO | test_register.py:213 | ******** Test Register Functionality 004 is Started *********
+04/04/2025 04:38:40 PM |      INFO | test_register.py:215 | Navigating to the url
+04/04/2025 04:38:41 PM |      INFO | test_register.py:218 | clicking on myAccount drop menu
+04/04/2025 04:38:41 PM |      INFO | test_register.py:221 | clicking on register link
+04/04/2025 04:38:41 PM |      INFO | test_register.py:223 | *************** Providing Registration Details ***************
+04/04/2025 04:38:43 PM |      INFO | test_register.py:233 | *************** Register Functionality validation started ***************
+04/04/2025 04:38:54 PM |      INFO | test_register.py:253 | ******* Test Register Functionality 004 is Failed ********
+04/04/2025 04:43:04 PM |      INFO | test_register.py:213 | ******** Test Register Functionality 004 is Started *********
+04/04/2025 04:43:04 PM |      INFO | test_register.py:215 | Navigating to the url
+04/04/2025 04:43:05 PM |      INFO | test_register.py:218 | clicking on myAccount drop menu
+04/04/2025 04:43:05 PM |      INFO | test_register.py:221 | clicking on register link
+04/04/2025 04:43:06 PM |      INFO | test_register.py:223 | *************** Providing Registration Details ***************
+04/04/2025 04:43:08 PM |      INFO | test_register.py:233 | *************** Register Functionality validation started ***************
+04/04/2025 04:43:19 PM |      INFO | test_register.py:247 | ******* Test Register Functionality 004 is Passed ********
+04/04/2025 04:43:19 PM |      INFO | test_register.py:268 | ********** End Of Test Register Functionality 004 **********
+04/04/2025 05:13:39 PM |      INFO | test_register.py:272 | ******** Test Register Functionality 006 is Started *********
+04/04/2025 05:13:40 PM |      INFO | test_register.py:275 | Navigating to the url
+04/04/2025 05:13:40 PM |      INFO | test_register.py:278 | clicking on myAccount drop menu
+04/04/2025 05:13:41 PM |      INFO | test_register.py:281 | clicking on register link
+04/04/2025 05:13:41 PM |      INFO | test_register.py:282 | *************** Register Functionality validation started ***************
+04/04/2025 05:13:42 PM |      INFO | test_register.py:293 | **********  Test Register Functionality 006 Failed **********
+04/04/2025 05:13:42 PM |      INFO | test_register.py:312 | ********** End Of Test Register Functionality 006 **********

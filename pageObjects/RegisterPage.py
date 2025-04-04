@@ -15,6 +15,7 @@ class RegisterPage:
     button_continue_xpath = "//input[@value='Continue']"
     Button2_continue_linkText = "Continue"
     newsLetterOption_xpath = "//a[normalize-space()='Subscribe / unsubscribe to newsletter']"
+    link_Register_xpath = "//a[@class='list-group-item'][normalize-space()='Register']"
 
     def __init__(self, driver):
         self.driver = driver
@@ -54,6 +55,9 @@ class RegisterPage:
 
     def clicking_on_news_letter_option(self):
         self.driver.find_element(By.XPATH, self.newsLetterOption_xpath).click()
+
+    def click_on_right_column_register_link(self):
+        self.driver.find_element(By.XPATH, self.link_Register_xpath).click()
 
     @staticmethod
     def random_generator(size=8, chars=string.ascii_lowercase + string.digits):
