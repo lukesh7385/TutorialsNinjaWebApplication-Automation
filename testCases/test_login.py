@@ -52,8 +52,7 @@ class Test_002_Login_Functionality:
         self.lp.set_password(self.password)
         self.logger.info("clicking on the login button")
         self.lp.click_on_login_button()
-        time.sleep(1)
-        self.logger.info("************** Verifying Login test ************")
+
         # Wait for the title to be updated
         try:
             WebDriverWait(self.driver, 10, poll_frequency=2).until(
@@ -61,14 +60,13 @@ class Test_002_Login_Functionality:
             )
             act_title = self.driver.title
             self.logger.info("************** Verifying Login test ************")
-
             if act_title == "My Account":
                 assert True
                 self.logger.info("************** Login test is passed ************")
             else:
                 raise AssertionError("Page title does not match!")
         except Exception as e:
-            self.driver.save_screenshot(".\\Screenshots\\test_login_functionality_001.png")
+            self.driver.save_screenshot(".\\Screenshots\\test_login_functionality_001_failed.png")
             self.logger.error("************** Login test is failed ************")
             self.logger.error(f"Error: {str(e)}")
             assert False
