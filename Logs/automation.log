@@ -11498,3 +11498,67 @@ rt ************
 04/05/2025 03:01:03 AM |      INFO | test_register.py:208 | ********** End Of Test Register Functionality 004 **********
 04/05/2025 03:01:03 AM |      INFO | test_register.py:246 | ******* Test Register Functionality 005 is Passed ********
 04/05/2025 03:01:03 AM |      INFO | test_register.py:267 | ********** End Of Test Register Functionality 005 **********
+04/06/2025 04:49:27 PM |      INFO | test_search.py:13 | **************** Test Search Functionality 001 Started ******************
+04/06/2025 04:49:29 PM |      INFO | test_search.py:15 | Navigating to the URL
+04/06/2025 04:49:30 PM |      INFO | test_search.py:18 | Searching iMac
+04/06/2025 04:49:30 PM |      INFO | test_search.py:20 | Clicking on search button
+04/06/2025 04:49:30 PM |      INFO | test_search.py:24 | ********** Test Search Functionality 001 is Passed ***********
+04/06/2025 04:49:55 PM |      INFO | test_search.py:15 | **************** Test Search Functionality 001 Started ******************
+04/06/2025 04:49:58 PM |      INFO | test_search.py:17 | Navigating to the URL
+04/06/2025 04:49:58 PM |      INFO | test_search.py:20 | Searching iMac
+04/06/2025 04:49:58 PM |      INFO | test_search.py:22 | Clicking on search button
+04/06/2025 04:50:03 PM |      INFO | test_search.py:27 | ********** Test Search Functionality 001 is Passed ***********
+04/06/2025 04:57:32 PM |      INFO | test_search.py:18 | **************** Test Search Functionality 001 Started ******************
+04/06/2025 04:57:34 PM |      INFO | test_search.py:20 | Navigating to the URL
+04/06/2025 04:57:34 PM |      INFO | test_search.py:23 | Searching iMac
+04/06/2025 04:57:35 PM |      INFO | test_search.py:25 | Clicking on search button
+04/06/2025 04:57:35 PM |      INFO | test_search.py:26 | *********** Verifying Test Search functionality 001 ************
+04/06/2025 04:57:35 PM |      INFO | test_search.py:30 | ********** Test Search Functionality 001 is Passed ***********
+04/06/2025 04:57:37 PM |      INFO | test_search.py:36 | ***************** End Of Test Search Functionality 001 ******************
+04/06/2025 04:59:35 PM |      INFO | test_search.py:18 | **************** Test Search Functionality 001 Started ******************
+04/06/2025 04:59:37 PM |      INFO | test_search.py:20 | Navigating to the URL
+04/06/2025 04:59:37 PM |      INFO | test_search.py:23 | Searching iMac
+04/06/2025 04:59:38 PM |      INFO | test_search.py:25 | Clicking on search button
+04/06/2025 04:59:38 PM |      INFO | test_search.py:27 | *********** Verifying Test Search functionality 001 ************
+04/06/2025 04:59:38 PM |      INFO | test_search.py:30 | iMac
+04/06/2025 04:59:38 PM |      INFO | test_search.py:32 | ********** Test Search Functionality 001 is Passed ***********
+04/06/2025 04:59:38 PM |      INFO | test_search.py:37 | ***************** End Of Test Search Functionality 001 ******************
+04/06/2025 05:03:49 PM |      INFO | test_search.py:43 | **************** Test Search Functionality 001 Started ******************
+04/06/2025 05:03:56 PM |      INFO | test_search.py:45 | Navigating to the URL
+04/06/2025 05:03:56 PM |      INFO | test_search.py:48 | Searching Fitbit
+04/06/2025 05:03:57 PM |      INFO | test_search.py:50 | Clicking on search button
+04/06/2025 05:03:57 PM |      INFO | test_search.py:52 | *********** Verifying Test Search functionality 001 ************
+04/06/2025 05:08:44 PM |      INFO | test_search.py:43 | **************** Test Search Functionality 002 Started ******************
+04/06/2025 05:09:06 PM |      INFO | test_search.py:45 | Navigating to the URL
+04/06/2025 05:09:20 PM |      INFO | test_search.py:43 | **************** Test Search Functionality 002 Started ******************
+04/06/2025 05:09:26 PM |      INFO | test_search.py:45 | Navigating to the URL
+04/06/2025 05:09:26 PM |      INFO | test_search.py:48 | Searching Fitbit
+04/06/2025 05:09:26 PM |      INFO | test_search.py:50 | Clicking on search button
+04/06/2025 05:09:26 PM |      INFO | test_search.py:52 | *********** Verifying Test Search functionality 002 ************
+04/06/2025 05:09:27 PM |     ERROR | test_search.py:60 | ********** Test Search Functionality 002 is Failed ***********
+04/06/2025 05:10:33 PM |      INFO | test_search.py:43 | **************** Test Search Functionality 002 Started ******************
+04/06/2025 05:10:35 PM |      INFO | test_search.py:45 | Navigating to the URL
+04/06/2025 05:10:38 PM |      INFO | test_search.py:48 | Searching Fitbit
+04/06/2025 05:10:38 PM |      INFO | test_search.py:50 | Clicking on search button
+04/06/2025 05:10:38 PM |      INFO | test_search.py:52 | *********** Verifying Test Search functionality 002 ************
+04/06/2025 05:10:39 PM |     ERROR | test_search.py:59 | ********** Test Search Functionality 002 is Failed ***********
+04/06/2025 05:12:44 PM |      INFO | test_search.py:43 | **************** Test Search Functionality 002 Started ******************
+04/06/2025 05:12:46 PM |      INFO | test_search.py:45 | Navigating to the URL
+04/06/2025 05:12:46 PM |      INFO | test_search.py:48 | Searching Fitbit
+04/06/2025 05:12:47 PM |      INFO | test_search.py:50 | Clicking on search button
+04/06/2025 05:12:47 PM |      INFO | test_search.py:52 | *********** Verifying Test Search functionality 002 ************
+04/06/2025 05:12:47 PM |      INFO | test_search.py:57 | ********** Test Search Functionality 002 is Passed ***********
+04/06/2025 05:12:47 PM |      INFO | test_search.py:62 | There is no product that matches the search criteria.
+04/06/2025 05:12:47 PM |      INFO | test_search.py:63 | ***************** End Of Test Search Functionality 002 ******************
+04/06/2025 05:16:26 PM |      INFO | test_search.py:68 | **************** Test Search Functionality 003 Started ******************
+04/06/2025 05:16:39 PM |      INFO | test_search.py:70 | Navigating to the URL
+04/06/2025 05:16:39 PM |      INFO | test_search.py:73 | Clicking on search button
+04/06/2025 05:16:39 PM |      INFO | test_search.py:74 | *********** Verifying Test Search functionality 003 ************
+04/06/2025 05:16:39 PM |      INFO | test_search.py:79 | ********** Test Search Functionality 003 is Passed ***********
+04/06/2025 05:16:39 PM |      INFO | test_search.py:84 | ***************** End Of Test Search Functionality 003 ******************
+04/06/2025 05:17:23 PM |      INFO | test_search.py:70 | **************** Test Search Functionality 003 Started ******************
+04/06/2025 05:17:25 PM |      INFO | test_search.py:72 | Navigating to the URL
+04/06/2025 05:17:26 PM |      INFO | test_search.py:75 | Clicking on search button
+04/06/2025 05:17:26 PM |      INFO | test_search.py:76 | *********** Verifying Test Search functionality 003 ************
+04/06/2025 05:17:31 PM |      INFO | test_search.py:82 | ********** Test Search Functionality 003 is Passed ***********
+04/06/2025 05:17:31 PM |      INFO | test_search.py:87 | ***************** End Of Test Search Functionality 003 ******************

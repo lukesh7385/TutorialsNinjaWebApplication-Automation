@@ -90,4 +90,8 @@ class Test_004_Forgot_Password:
         self.driver.quit()
         self.logger.info("************** End of Test Forgot Password 003 ********************")
 
+    @pytest.mark.sanity
+    def test_forgot_password_004(self, setup):
+        pass
+
 
