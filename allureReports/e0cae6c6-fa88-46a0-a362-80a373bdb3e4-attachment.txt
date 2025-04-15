@@ -1,0 +1,11 @@
+[32mINFO    [0m Test_005_Search_Functionality:test_search.py:23 **************** Test Search Functionality 001 Started ******************
+[32mINFO    [0m Test_005_Search_Functionality:test_search.py:25 Navigating to the URL
+[32mINFO    [0m Test_005_Search_Functionality:test_search.py:28 Searching iMac
+[32mINFO    [0m Test_005_Search_Functionality:test_search.py:30 Clicking on search button
+[32mINFO    [0m Test_005_Search_Functionality:test_search.py:32 *********** Verifying Test Search functionality 001 ************
+[32mINFO    [0m Test_005_Search_Functionality:test_search.py:35 iMac
+[32mINFO    [0m Test_005_Search_Functionality:test_search.py:37 ********** Test Search Functionality 001 is Passed ***********
+[32mINFO    [0m Test_005_Search_Functionality:test_search.py:42 ***************** End Of Test Search Functionality 001 ******************
+[33mWARNING [0m urllib3.connectionpool:connectionpool.py:868 Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002453C6A08D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/f8db96f6bda74b5072df4e8ce532e986
+[33mWARNING [0m urllib3.connectionpool:connectionpool.py:868 Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002453C6A1480>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/f8db96f6bda74b5072df4e8ce532e986
+[33mWARNING [0m urllib3.connectionpool:connectionpool.py:868 Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002453C6A18C0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/f8db96f6bda74b5072df4e8ce532e986

@@ -1,3 +1,4 @@
+import time
 
 import allure
 import pytest
@@ -5,12 +6,15 @@ from selenium.webdriver.common.by import By
 from pageObjects.SearchPage import SearchPage
 from utilities.readProperties import ReadConfig
 from utilities.customLogger import LogGen
+from pageObjects.LoginPage import LoginPage
 
 
 @pytest.mark.usefixtures('setup', 'log_on_failure')
 @allure.severity(allure.severity_level.CRITICAL)
 class Test_005_Search_Functionality:
     baseURL = ReadConfig.get_application_url()
+    username = ReadConfig.get_user_email()
+    password = ReadConfig.get_user_password()
     logger = LogGen.loggen()
 
     @pytest.mark.sanity
@@ -83,4 +87,33 @@ class Test_005_Search_Functionality:
             self.logger.error("********** Test Search Functionality 003 is Failed ***********")
             assert False
         self.logger.info("***************** End Of Test Search Functionality 003 ******************")
+        self.driver.quit()
+
+    @pytest.mark.sanity
+    def test_search_functionality_004(self, setup):
+        self.driver = setup
+        self.logger.info("**************** Test Search Functionality 004 Start ****************")
+        self.driver.get(self.baseURL)
+        self.logger.info("Navigating to the URL")
+        self.lp = LoginPage(self.driver)
+        self.lp.click_on_my_account()
+        self.lp.click_on_login_link()
+        self.lp.set_username(self.username)
+        self.lp.set_password(self.password)
+        self.lp.click_on_login_button()
+        self.logger.info("***************** Login is Successful *********************")
+        self.sf = SearchPage(self.driver)
+        self.sf.search_product("iMac")
+        self.sf.click_on_search_button()
+        self.logger.info("****************** Verifying Test Search Functionality 004 ***************")
+        self.result = self.driver.find_element(By.LINK_TEXT, "iMac").text
+        if self.result == "iMac":
+            self.logger.info(f"{self.result}")
+            assert True
+            self.logger.info("********** Test Search Functionality 004 is Passed ***********")
+        else:
+            self.driver.save_screenshot(".\\Screenshots\\test_search_functionality_004_failed.png")
+            self.logger.error("********** Test Search Functionality 004 is Failed ***********")
+            assert False
+        self.logger.info("***************** End Of Test Search Functionality 004 ******************")
         self.driver.quit()

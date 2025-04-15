@@ -1,0 +1,3 @@
+[32mINFO    [0m Test_002_DDT_Login:test_login_ddt.py:19 ************** Test_002_DDT_Login ***************
+[32mINFO    [0m Test_002_DDT_Login:test_login_ddt.py:20 ************** Verifying Login Test ************
+[32mINFO    [0m Test_002_DDT_Login:test_login_ddt.py:22 navigating to the url

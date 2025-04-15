@@ -1,0 +1,3 @@
+[32mINFO    [0m Test_002_Login_Functionality:test_login.py:40 ************** Login test is started ************
+[32mINFO    [0m Test_002_Login_Functionality:test_login.py:42 navigating to the url
+[32mINFO    [0m Test_002_Login_Functionality:test_login.py:45 clicking on myAccount drop menu

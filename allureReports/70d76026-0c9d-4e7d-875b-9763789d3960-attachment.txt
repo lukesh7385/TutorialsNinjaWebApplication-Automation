@@ -1,0 +1,1 @@
+[32mINFO    [0m Test_003_Logout_Functionality:test_logout.py:22 *************** Logout Functionality 001 Test Start ****************

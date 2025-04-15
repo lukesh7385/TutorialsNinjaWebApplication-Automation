@@ -1,0 +1,2 @@
+[32mINFO    [0m Test_005_Search_Functionality:test_search.py:19 **************** Test Search Functionality 001 Started ******************
+[32mINFO    [0m Test_005_Search_Functionality:test_search.py:21 Navigating to the URL

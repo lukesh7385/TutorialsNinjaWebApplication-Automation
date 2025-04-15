@@ -1,0 +1,1 @@
+[32mINFO    [0m Test_004_Forgot_Password:test_forgot_password.py:20 ************ Test Forgot Password 001 Start ************
