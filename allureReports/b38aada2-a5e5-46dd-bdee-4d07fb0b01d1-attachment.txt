@@ -1,0 +1,10 @@
+[32mINFO    [0m Test_005_Search_Functionality:test_search.py:48 **************** Test Search Functionality 002 Started ******************
+[32mINFO    [0m Test_005_Search_Functionality:test_search.py:50 Navigating to the URL
+[32mINFO    [0m Test_005_Search_Functionality:test_search.py:53 Searching Fitbit
+[32mINFO    [0m Test_005_Search_Functionality:test_search.py:55 Clicking on search button
+[32mINFO    [0m Test_005_Search_Functionality:test_search.py:57 *********** Verifying Test Search functionality 002 ************
+[32mINFO    [0m Test_005_Search_Functionality:test_search.py:62 ********** Test Search Functionality 002 is Passed ***********
+[32mINFO    [0m Test_005_Search_Functionality:test_search.py:67 ***************** End Of Test Search Functionality 002 ******************
+[33mWARNING [0m urllib3.connectionpool:connectionpool.py:868 Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002C3A05CC8D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/667bc5218b2f5fba8db11cdab80dd88a
+[33mWARNING [0m urllib3.connectionpool:connectionpool.py:868 Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002C3A05CECF0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/667bc5218b2f5fba8db11cdab80dd88a
+[33mWARNING [0m urllib3.connectionpool:connectionpool.py:868 Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002C3A044F680>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/667bc5218b2f5fba8db11cdab80dd88a
