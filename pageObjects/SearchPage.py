@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 class SearchPage:
 
     textBox_searchField = (By.XPATH, "//input[@name='search' and @type='text']")
-    button_search = (By.XPATH, "//button[@class='btn btn-default btn-lg']")
+    button_search = (By.XPATH, "//button[@class='btn btn-default btn-lg' and @type='button']")
 
     def __init__(self, driver):
         self.driver = driver

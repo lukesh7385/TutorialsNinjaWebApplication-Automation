@@ -1,3 +1,5 @@
+import time
+
 import allure
 import pytest
 from selenium.webdriver.common.by import By
@@ -100,6 +102,7 @@ class Test_005_Search_Functionality:
         self.lp.set_password(self.password)
         self.lp.click_on_login_button()
         self.logger.info("***************** Login is Successful *********************")
+        time.sleep(1)
         self.sf = SearchPage(self.driver)
         self.sf.search_product("iMac")
         self.sf.click_on_search_button()
