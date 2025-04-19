@@ -1,5 +1,6 @@
 @echo off
-set BROWSER=chrome
+set BROWSER=headless
+@REM set BROWSER=chrome
 rem set BROWSER=edge
 rem set BROWSER=firefox
 
@@ -20,6 +21,6 @@ rem pytest -s -v -m "sanity or regression" --html=./Reports/report.html .\testCa
 rem pytest -s -v -m "sanity" --alluredir=allureReports .\testCases\ --browser %BROWSER%
 rem pytest -s -v -m "regression" --alluredir=allureReports .\testCases\ --browser %BROWSER%
 rem pytest -s -v -m "sanity and regression" --alluredir=allureReports .\testCases\ --browser %BROWSER%
-pytest -s -v -m "sanity or regression" --alluredir=allureReports .\testCases\ --browser %BROWSER%
+pytest -s -v -n=3 -m "sanity or regression" --alluredir=allureReports .\testCases\ --browser %BROWSER%
 
 cmd /k
