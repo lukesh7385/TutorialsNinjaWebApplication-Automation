@@ -12619,3 +12619,32 @@ rt ************
 04/19/2025 01:49:57 PM |      INFO | test_search.py:112 | iMac
 04/19/2025 01:49:57 PM |      INFO | test_search.py:114 | ********** Test Search Functionality 004 is Passed ***********
 04/19/2025 01:49:57 PM |      INFO | test_search.py:119 | ***************** End Of Test Search Functionality 004 ******************
+04/19/2025 02:33:03 PM |      INFO | test_search.py:121 | ****************** Test Search Functionality 005 Is Started ***************
+04/19/2025 02:33:49 PM |      INFO | test_search.py:122 | ****************** Test Search Functionality 005 Is Started ***************
+04/19/2025 02:33:50 PM |      INFO | test_search.py:124 | Navigating to the base URL
+04/19/2025 02:34:38 PM |      INFO | test_search.py:122 | ****************** Test Search Functionality 005 Is Started ***************
+04/19/2025 02:34:39 PM |      INFO | test_search.py:124 | Navigating to the base URL
+04/19/2025 02:34:39 PM |      INFO | test_search.py:128 | *************** Verifying Test Search Functionality 005 ****************
+04/19/2025 02:34:39 PM |      INFO | test_search.py:133 | ************ Test Search Functionality 005 is Passed *************
+04/19/2025 02:34:39 PM |      INFO | test_search.py:133 | ************ Test Search Functionality 005 is Passed *************
+04/19/2025 02:34:39 PM |      INFO | test_search.py:133 | ************ Test Search Functionality 005 is Passed *************
+04/19/2025 02:34:39 PM |      INFO | test_search.py:133 | ************ Test Search Functionality 005 is Passed *************
+04/19/2025 02:34:39 PM |      INFO | test_search.py:138 | **************** End Of Test Search Functionality 005 ******************
+04/19/2025 02:36:17 PM |      INFO | test_search.py:124 | ****************** Test Search Functionality 005 Is Started ***************
+04/19/2025 02:36:18 PM |      INFO | test_search.py:126 | Navigating to the base URL
+04/19/2025 02:36:19 PM |      INFO | test_search.py:130 | *************** Verifying Test Search Functionality 005 ****************
+04/19/2025 02:36:29 PM |      INFO | test_search.py:136 | ************ Test Search Functionality 005 is Passed *************
+04/19/2025 02:36:29 PM |      INFO | test_search.py:136 | ************ Test Search Functionality 005 is Passed *************
+04/19/2025 02:36:29 PM |      INFO | test_search.py:136 | ************ Test Search Functionality 005 is Passed *************
+04/19/2025 02:36:29 PM |      INFO | test_search.py:136 | ************ Test Search Functionality 005 is Passed *************
+04/19/2025 02:36:29 PM |      INFO | test_search.py:141 | **************** End Of Test Search Functionality 005 ******************
+04/19/2025 02:39:37 PM |      INFO | test_search.py:124 | ****************** Test Search Functionality 005 Is Started ***************
+04/19/2025 02:39:37 PM |      INFO | test_search.py:126 | Navigating to the base URL
+04/19/2025 02:39:38 PM |      INFO | test_search.py:129 | Entering the search text 'Mac' 
+04/19/2025 02:39:38 PM |      INFO | test_search.py:131 | Clicking on search button
+04/19/2025 02:39:38 PM |      INFO | test_search.py:132 | *************** Verifying Test Search Functionality 005 ****************
+04/19/2025 02:39:48 PM |      INFO | test_search.py:138 | ************ Test Search Functionality 005 is Passed *************
+04/19/2025 02:39:48 PM |      INFO | test_search.py:138 | ************ Test Search Functionality 005 is Passed *************
+04/19/2025 02:39:48 PM |      INFO | test_search.py:138 | ************ Test Search Functionality 005 is Passed *************
+04/19/2025 02:39:48 PM |      INFO | test_search.py:138 | ************ Test Search Functionality 005 is Passed *************
+04/19/2025 02:39:48 PM |      INFO | test_search.py:144 | **************** End Of Test Search Functionality 005 ******************

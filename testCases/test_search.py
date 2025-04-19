@@ -1,12 +1,11 @@
 import time
-
 import allure
 import pytest
 from selenium.webdriver.common.by import By
-from pageObjects.SearchPage import SearchPage
-from utilities.readProperties import ReadConfig
-from utilities.customLogger import LogGen
 from pageObjects.LoginPage import LoginPage
+from pageObjects.SearchPage import SearchPage
+from utilities.customLogger import LogGen
+from utilities.readProperties import ReadConfig
 
 
 @pytest.mark.usefixtures('setup', 'log_on_failure')
@@ -117,3 +116,27 @@ class Test_005_Search_Functionality:
             assert False
         self.logger.info("***************** End Of Test Search Functionality 004 ******************")
         self.driver.quit()
+
+    @pytest.mark.sanity
+    def test_search_functionality_005(self, setup):
+        self.driver = setup
+        self.logger.info("****************** Test Search Functionality 005 Is Started ***************")
+        self.driver.get(self.baseURL)
+        self.logger.info("Navigating to the base URL")
+        self.sf = SearchPage(self.driver)
+        self.sf.search_product("Mac")
+        self.logger.info("Entering the search text 'Mac' ")
+        self.sf.click_on_search_button()
+        self.logger.info("Clicking on search button")
+        self.logger.info("*************** Verifying Test Search Functionality 005 ****************")
+        self.listOfProducts = self.driver.find_elements(By.XPATH, "//div[@class='product-layout product-grid col-lg-3 col-md-3 col-sm-6 col-xs-12']/div/div[2]/div/h4/a")
+        for product in self.listOfProducts:
+            if len(self.listOfProducts)>1 and product.text.__contains__('Mac'):
+                assert True
+                self.logger.info("************ Test Search Functionality 005 is Passed *************")
+            else:
+                self.logger.error("************ Test Search Functionality 005 is Failed *************")
+                self.driver.save_screenshot(".\\Screenshots\\test_search_functionality_005_failed.png")
+        self.driver.close()
+        self.logger.info("**************** End Of Test Search Functionality 005 ******************")
+
