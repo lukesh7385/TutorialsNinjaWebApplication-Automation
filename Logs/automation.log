@@ -12603,3 +12603,19 @@ rt ************
 04/19/2025 01:24:17 PM |      INFO | test_search.py:111 | iMac
 04/19/2025 01:24:17 PM |      INFO | test_search.py:113 | ********** Test Search Functionality 004 is Passed ***********
 04/19/2025 01:24:17 PM |      INFO | test_search.py:118 | ***************** End Of Test Search Functionality 004 ******************
+04/19/2025 01:41:44 PM |      INFO | test_search.py:95 | **************** Test Search Functionality 004 Start ****************
+04/19/2025 01:41:45 PM |      INFO | test_search.py:97 | Navigating to the URL
+04/19/2025 01:41:46 PM |      INFO | test_search.py:104 | ***************** Login is Successful *********************
+04/19/2025 01:45:28 PM |      INFO | test_search.py:95 | **************** Test Search Functionality 004 Start ****************
+04/19/2025 01:45:29 PM |      INFO | test_search.py:97 | Navigating to the URL
+04/19/2025 01:45:30 PM |      INFO | test_search.py:104 | ***************** Login is Successful *********************
+04/19/2025 01:46:01 PM |      INFO | test_search.py:95 | **************** Test Search Functionality 004 Start ****************
+04/19/2025 01:46:01 PM |      INFO | test_search.py:97 | Navigating to the URL
+04/19/2025 01:46:02 PM |      INFO | test_search.py:104 | ***************** Login is Successful *********************
+04/19/2025 01:49:40 PM |      INFO | test_search.py:95 | **************** Test Search Functionality 004 Start ****************
+04/19/2025 01:49:41 PM |      INFO | test_search.py:97 | Navigating to the URL
+04/19/2025 01:49:42 PM |      INFO | test_search.py:104 | ***************** Login is Successful *********************
+04/19/2025 01:49:57 PM |      INFO | test_search.py:109 | ****************** Verifying Test Search Functionality 004 ***************
+04/19/2025 01:49:57 PM |      INFO | test_search.py:112 | iMac
+04/19/2025 01:49:57 PM |      INFO | test_search.py:114 | ********** Test Search Functionality 004 is Passed ***********
+04/19/2025 01:49:57 PM |      INFO | test_search.py:119 | ***************** End Of Test Search Functionality 004 ******************
