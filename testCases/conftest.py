@@ -27,11 +27,22 @@ def setup(browser):
         options = webdriver.EdgeOptions()
         driver = webdriver.Edge(service=service, options=options)
         print("Launching Edge browser")
+    elif browser == "headless":
+        service = Service("C:\\Drivers\\chromedriver.exe")
+        options = webdriver.ChromeOptions()
+        options.add_argument("--headless=new")  # Updated headless option
+        options.add_argument("--disable-notifications")
+        options.add_argument("--disable-gpu")
+        options.add_argument("--disable-dev-shm-usage")
+        driver = webdriver.Chrome(service=service, options=options)
+        print("Launching Headless mode (Chrome)")
     else:
         service = Service("C:\\Drivers\\chromedriver.exe")
         options = webdriver.ChromeOptions()
-        options.add_argument("--headless")
+        options.add_experimental_option("detach", True)
+        options.add_argument("--disable-notifications")
         driver = webdriver.Chrome(service=service, options=options)
+        print("Launching Chrome browser")
 
     driver.implicitly_wait(10)
     driver.maximize_window()

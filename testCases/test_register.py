@@ -36,23 +36,23 @@ class Test_001_Register_Functionality:
         self.rf.set_confirm_password("12345")
         self.rf.click_on_checkbox_privacy_policy()
         self.rf.click_on_continue_button()
-        self.logger.info("*************** Register Functionality validation started ***************")
+        self.logger.info("*************** Verifying Register Functionality 001  ***************")
         exp_title = "Your Account Has Been Created!"
         if self.driver.title == exp_title:
             self.rf.click_on_continue_button2()
             exp_title = "My Account"
             if self.driver.title == exp_title:
                 assert True
-                self.logger.info("******* Test Register Functionality is Passed ********")
+                self.logger.info("******* Test Register Functionality 001 is Passed ********")
             else:
                 self.logger.info("**********  Test Register Functionality 001 is Failed **********")
-                self.driver.save_screenshot(".\\Screenshots\\" + "test_register_functionality_001.png")
+                self.driver.save_screenshot(".\\Screenshots\\" + "test_register_functionality_001_failed.png")
                 self.driver.close()
                 assert False
             assert True
         else:
-            self.driver.save_screenshot(".\\Screenshots\\" + "test_register_functionality_001.png")
-            self.logger.info("**********  Register Functionality Test Failed **********")
+            self.driver.save_screenshot(".\\Screenshots\\" + "test_register_functionality_001_failed.png")
+            self.logger.info("**********  Register Functionality 001 Test Failed **********")
             self.driver.close()
             assert False
         self.logger.info("********** End Of Test Register Functionality 001 **********")
@@ -81,23 +81,23 @@ class Test_001_Register_Functionality:
         self.rf.set_confirm_password("12345")
         self.rf.click_on_checkbox_privacy_policy()
         self.rf.click_on_continue_button()
-        self.logger.info("*************** Register Functionality validation started ***************")
+        self.logger.info("*************** Verifying Register Functionality 002  ***************")
         exp_title = "Your Account Has Been Created!"
         if self.driver.title == exp_title:
             self.rf.click_on_continue_button2()
             exp_title = "My Account"
             if self.driver.title == exp_title:
                 assert True
-                self.logger.info("******* Test Register Functionality is Passed ********")
+                self.logger.info("******* Test Register Functionality 002 is Passed ********")
             else:
                 self.logger.info("**********  Test Register Functionality 002 is Failed **********")
-                self.driver.save_screenshot(".\\Screenshots\\" + "test_register_functionality_002.png")
+                self.driver.save_screenshot(".\\Screenshots\\" + "test_register_functionality_002_failed.png")
                 self.driver.close()
                 assert False
             assert True
         else:
-            self.driver.save_screenshot(".\\Screenshots\\" + "test_register_functionality_001.png")
-            self.logger.info("**********  Register Functionality Test Failed **********")
+            self.driver.save_screenshot(".\\Screenshots\\" + "test_register_functionality_002.png")
+            self.logger.info("**********  Register Functionality 002 Test Failed **********")
             self.driver.close()
             assert False
         self.driver.close()
@@ -145,7 +145,7 @@ class Test_001_Register_Functionality:
                 timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
                 self.driver.save_screenshot(f".\\Screenshots\\test_register_functionality_003_failed_{timestamp}.png")
                 self.logger.info(f"Actual_message: {actual} Expected_message: {expected}")
-                self.logger.error(f"Test Register Functionality 003 Failed")
+                self.logger.error("Test Register Functionality 003 Failed")
                 assert False
 
     @pytest.mark.sanity
@@ -172,7 +172,7 @@ class Test_001_Register_Functionality:
         self.rf.click_on_radiobutton_newsletter_yes()
         self.rf.click_on_checkbox_privacy_policy()
         self.rf.click_on_continue_button()
-        self.logger.info("*************** Register Functionality validation started ***************")
+        self.logger.info("*************** Verifying Register Functionality 004  ***************")
         exp_title = "Your Account Has Been Created!"
         if self.driver.title == exp_title:
             self.rf.click_on_continue_button2()
@@ -198,7 +198,6 @@ class Test_001_Register_Functionality:
                 self.driver.save_screenshot(".\\Screenshots\\" + "test_register_functionality_001.png")
                 self.driver.close()
                 assert False
-
         else:
             self.driver.save_screenshot(".\\Screenshots\\" + "test_register_functionality_004_failed.png")
             self.logger.info("**********  Test Register Functionality 004 Failed **********")
@@ -230,7 +229,7 @@ class Test_001_Register_Functionality:
         self.rf.set_confirm_password("12345")
         self.rf.click_on_checkbox_privacy_policy()
         self.rf.click_on_continue_button()
-        self.logger.info("*************** Register Functionality validation started ***************")
+        self.logger.info("*************** Verifying Register Functionality 005 ***************")
         exp_title = "Your Account Has Been Created!"
         if self.driver.title == exp_title:
             self.rf.click_on_continue_button2()
@@ -249,7 +248,7 @@ class Test_001_Register_Functionality:
                         self.driver.save_screenshot(".\\Screenshots\\test_register_functionality_005_failed.png")
                         assert False
                 else:
-                    self.logger.info("******* Test Register Functionality 004 is Failed ********")
+                    self.logger.info("******* Test Register Functionality 005 is Failed ********")
                     self.driver.save_screenshot(".\\Screenshots\\test_register_functionality_005_failed.png")
                     assert False
             else:
