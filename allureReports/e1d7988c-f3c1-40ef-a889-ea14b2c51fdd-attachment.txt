@@ -1,3 +1,0 @@
-[32mINFO    [0m Test_005_Search_Functionality:test_search.py:95 **************** Test Search Functionality 004 Start ****************
-[32mINFO    [0m Test_005_Search_Functionality:test_search.py:97 Navigating to the URL
-[32mINFO    [0m Test_005_Search_Functionality:test_search.py:104 ***************** Login is Successful *********************

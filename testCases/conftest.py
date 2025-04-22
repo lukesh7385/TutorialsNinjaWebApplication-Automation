@@ -1,5 +1,9 @@
+import os
+from datetime import datetime
 import allure
 import pytest
+import pytest_html
+from pytest_html import extras
 from selenium import webdriver
 from allure_commons.types import AttachmentType
 from selenium.webdriver.chrome.service import Service
@@ -9,6 +13,7 @@ from selenium.webdriver.edge.service import Service as EdgeService
 
 @pytest.fixture(scope="function")
 def setup(browser):
+    global driver
     if browser == "chrome":
         service = Service("C:\\Drivers\\chromedriver.exe")
         options = webdriver.ChromeOptions()
@@ -77,8 +82,30 @@ def pytest_runtest_makereport(item, call):
     outcome = yield
     rep = outcome.get_result()
     setattr(item, f"rep_{rep.when}", rep)
-    return rep
+    extra = getattr(rep, "extras", [])
+    if rep.when == "call":
+        # Always add a URL to the report
+        extra.append(pytest_html.extras.url("http://www.example.com/"))
+        xfail = hasattr(rep, "wasxfail")
+        if (rep.skipped and xfail) or (rep.failed and not xfail):
+            # Set up the Screenshots folder
+            screenshots_folder = os.path.join(os.getcwd(), "Screenshots")
+            os.makedirs(screenshots_folder, exist_ok=True)
 
+            # Generate a full file path
+            file_name = f"{item.name}_{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}.png"
+            file_path = os.path.join(screenshots_folder, file_name)
+
+            # Save the screenshot using Selenium
+            driver.get_screenshot_as_file(file_path)  # Replace 'driver' with your Selenium WebDriver instance
+
+            # Attach the screenshot to an HTML report
+            extra_html = '<div><img src="%s" style="width:250px;height:200px;" ' \
+                         'onclick="window.open(this.src)" align="right"/></div>' % file_path
+            extra.append(pytest_html.extras.html(extra_html))
+
+        rep.extra = extra
+    return rep
 
 @pytest.fixture()
 def browser(request):

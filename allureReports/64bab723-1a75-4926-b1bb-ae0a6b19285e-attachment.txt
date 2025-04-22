@@ -1,3 +1,0 @@
-[32mINFO    [0m Test_001_Register_Functionality:test_register.py:64 ******** Test Register Functionality 002 is Started *********
-[32mINFO    [0m Test_001_Register_Functionality:test_register.py:66 Navigating to the url
-[32mINFO    [0m Test_001_Register_Functionality:test_register.py:69 clicking on myAccount drop menu

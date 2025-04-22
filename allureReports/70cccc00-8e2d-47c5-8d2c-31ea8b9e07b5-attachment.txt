@@ -1,1 +1,0 @@
-[32mINFO    [0m Test_001_Register_Functionality:test_register.py:109 ******** Test Register Functionality 003 is Started *********
