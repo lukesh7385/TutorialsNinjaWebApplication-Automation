@@ -13164,3 +13164,33 @@ rt ************
 04/22/2025 03:47:17 PM |      INFO | test_login.py:23 | ****************** Test_Login_001 ***************
 04/22/2025 03:47:17 PM |      INFO | test_login.py:24 | ***************** Verifying Home Page Title **************
 04/22/2025 03:47:19 PM |      INFO | test_login.py:30 | ************** Home page title test is passed ************
+04/22/2025 05:14:01 PM |      INFO | test_forgot_password.py:96 | ***************** Test Forgot Password 004 Is Start *****************
+04/22/2025 05:14:03 PM |      INFO | test_forgot_password.py:101 | clicking on my account
+04/22/2025 05:14:03 PM |      INFO | test_forgot_password.py:103 | clicking on login link
+04/22/2025 05:14:03 PM |      INFO | test_forgot_password.py:106 | clicking on forgot password link
+04/22/2025 05:38:08 PM |      INFO | test_forgot_password.py:96 | ***************** Test Forgot Password 004 Is Start *****************
+04/22/2025 05:38:10 PM |      INFO | test_forgot_password.py:101 | clicking on my account
+04/22/2025 05:38:10 PM |      INFO | test_forgot_password.py:103 | clicking on login link
+04/22/2025 05:38:10 PM |      INFO | test_forgot_password.py:106 | clicking on forgot password link
+04/22/2025 05:38:10 PM |      INFO | test_forgot_password.py:107 | ************* Verifying Test Forgot Password 004 **************
+04/22/2025 05:38:10 PM |      INFO | test_forgot_password.py:111 | *********** Test Forgot Password 004 Is Passed *********
+04/22/2025 05:53:07 PM |      INFO | test_forgot_password.py:96 | ***************** Test Forgot Password 004 Is Start *****************
+04/22/2025 05:53:08 PM |      INFO | test_forgot_password.py:101 | clicking on my account
+04/22/2025 05:53:08 PM |      INFO | test_forgot_password.py:103 | clicking on login link
+04/22/2025 05:53:08 PM |      INFO | test_forgot_password.py:106 | clicking on forgot password link
+04/22/2025 05:53:08 PM |      INFO | test_forgot_password.py:107 | ************* Verifying Test Forgot Password 004 **************
+04/22/2025 05:53:08 PM |      INFO | test_forgot_password.py:111 | *********** Test Forgot Password 004 Is Passed *********
+04/22/2025 05:53:09 PM |      INFO | test_forgot_password.py:117 | Clicking on continue button
+04/22/2025 06:03:36 PM |      INFO | test_forgot_password.py:96 | ***************** Test Forgot Password 004 Is Start *****************
+04/22/2025 06:04:04 PM |      INFO | test_forgot_password.py:101 | clicking on my account
+04/22/2025 06:04:05 PM |      INFO | test_forgot_password.py:103 | clicking on login link
+04/22/2025 06:04:05 PM |      INFO | test_forgot_password.py:106 | clicking on forgot password link
+04/22/2025 06:04:05 PM |      INFO | test_forgot_password.py:107 | ************* Verifying Test Forgot Password 004 **************
+04/22/2025 06:18:57 PM |      INFO | test_forgot_password.py:96 | ***************** Test Forgot Password 004 Is Start *****************
+04/22/2025 06:24:14 PM |      INFO | test_forgot_password.py:96 | ***************** Test Forgot Password 004 Is Start *****************
+04/22/2025 06:24:15 PM |      INFO | test_forgot_password.py:101 | clicking on my account
+04/22/2025 06:24:16 PM |      INFO | test_forgot_password.py:103 | clicking on login link
+04/22/2025 06:24:16 PM |      INFO | test_forgot_password.py:106 | clicking on forgot password link
+04/22/2025 06:24:16 PM |      INFO | test_forgot_password.py:108 | Clicking on continue button
+04/22/2025 06:24:16 PM |      INFO | test_forgot_password.py:109 | ************* Verifying Test Forgot Password 004 **************
+04/22/2025 06:24:16 PM |      INFO | test_forgot_password.py:113 | *********** Test Forgot Password 004 Is Passed *********
