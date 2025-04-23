@@ -13194,3 +13194,528 @@ rt ************
 04/22/2025 06:24:16 PM |      INFO | test_forgot_password.py:108 | Clicking on continue button
 04/22/2025 06:24:16 PM |      INFO | test_forgot_password.py:109 | ************* Verifying Test Forgot Password 004 **************
 04/22/2025 06:24:16 PM |      INFO | test_forgot_password.py:113 | *********** Test Forgot Password 004 Is Passed *********
+04/23/2025 12:42:37 AM |      INFO | test_product_compare.py:16 | ***************** Test Product Compare 001 Is Start *****************
+04/23/2025 12:42:37 AM |      INFO | test_product_compare.py:18 | Navigating to the url
+04/23/2025 12:42:37 AM |      INFO | test_product_compare.py:21 | Entering iMac product for search
+04/23/2025 12:42:38 AM |      INFO | test_product_compare.py:23 | clicking on search button
+04/23/2025 12:42:39 AM |      INFO | test_product_compare.py:26 | Clicking on the Product displayed in the Search results
+04/23/2025 12:45:48 AM |      INFO | test_product_compare.py:16 | ***************** Test Product Compare 001 Is Start *****************
+04/23/2025 12:45:49 AM |      INFO | test_product_compare.py:18 | Navigating to the url
+04/23/2025 12:45:49 AM |      INFO | test_product_compare.py:21 | Entering iMac product for search
+04/23/2025 12:45:49 AM |      INFO | test_product_compare.py:23 | clicking on search button
+04/23/2025 12:45:49 AM |      INFO | test_product_compare.py:26 | Clicking on the Product displayed in the Search results
+04/23/2025 12:45:49 AM |     ERROR | test_product_compare.py:43 | ********** Test Product Compare 001 is Failed ***********
+04/23/2025 12:49:03 AM |      INFO | test_product_compare.py:16 | ***************** Test Product Compare 001 Is Start *****************
+04/23/2025 12:49:04 AM |      INFO | test_product_compare.py:18 | Navigating to the url
+04/23/2025 12:49:04 AM |      INFO | test_product_compare.py:21 | Entering iMac product for search
+04/23/2025 12:49:04 AM |      INFO | test_product_compare.py:23 | clicking on search button
+04/23/2025 12:49:05 AM |      INFO | test_product_compare.py:26 | Clicking on the Product displayed in the Search results
+04/23/2025 12:49:05 AM |     ERROR | test_product_compare.py:45 | ********** Test Product Compare 001 is Failed ***********
+04/23/2025 12:52:13 AM |      INFO | test_product_compare.py:16 | ***************** Test Product Compare 001 Is Start *****************
+04/23/2025 12:52:13 AM |      INFO | test_product_compare.py:18 | Navigating to the url
+04/23/2025 12:52:13 AM |      INFO | test_product_compare.py:21 | Entering iMac product for search
+04/23/2025 12:52:14 AM |      INFO | test_product_compare.py:23 | clicking on search button
+04/23/2025 12:52:14 AM |      INFO | test_product_compare.py:26 | Clicking on the Product displayed in the Search results
+04/23/2025 12:52:14 AM |     ERROR | test_product_compare.py:45 | ********** Test Product Compare 001 is Failed ***********
+04/23/2025 12:59:05 AM |      INFO | test_product_compare.py:16 | ***************** Test Product Compare 001 Is Start *****************
+04/23/2025 12:59:06 AM |      INFO | test_product_compare.py:18 | Navigating to the url
+04/23/2025 12:59:06 AM |      INFO | test_product_compare.py:21 | Entering iMac product for search
+04/23/2025 12:59:06 AM |      INFO | test_product_compare.py:23 | clicking on search button
+04/23/2025 12:59:07 AM |      INFO | test_product_compare.py:26 | Clicking on the Product displayed in the Search results
+04/23/2025 12:59:07 AM |     ERROR | test_product_compare.py:45 | ********** Test Product Compare 001 is Failed ***********
+04/23/2025 01:05:27 AM |      INFO | test_product_compare.py:17 | ***************** Test Product Compare 001 Is Start *****************
+04/23/2025 01:05:28 AM |      INFO | test_product_compare.py:19 | Navigating to the url
+04/23/2025 01:05:28 AM |      INFO | test_product_compare.py:22 | Entering iMac product for search
+04/23/2025 01:05:28 AM |      INFO | test_product_compare.py:24 | clicking on search button
+04/23/2025 01:05:28 AM |      INFO | test_product_compare.py:27 | Clicking on the Product displayed in the Search results
+04/23/2025 01:06:36 AM |      INFO | test_product_compare.py:17 | ***************** Test Product Compare 001 Is Start *****************
+04/23/2025 01:06:37 AM |      INFO | test_product_compare.py:19 | Navigating to the url
+04/23/2025 01:06:37 AM |      INFO | test_product_compare.py:22 | Entering iMac product for search
+04/23/2025 01:06:37 AM |      INFO | test_product_compare.py:24 | clicking on search button
+04/23/2025 01:06:37 AM |      INFO | test_product_compare.py:27 | Clicking on the Product displayed in the Search results
+04/23/2025 01:09:40 AM |      INFO | test_product_compare.py:19 | ***************** Test Product Compare 001 Is Start *****************
+04/23/2025 01:09:41 AM |      INFO | test_product_compare.py:21 | Navigating to the url
+04/23/2025 01:09:41 AM |      INFO | test_product_compare.py:24 | Entering iMac product for search
+04/23/2025 01:09:42 AM |      INFO | test_product_compare.py:26 | clicking on search button
+04/23/2025 01:09:42 AM |      INFO | test_product_compare.py:29 | Clicking on the Product displayed in the Search results
+04/23/2025 01:12:15 AM |      INFO | test_product_compare.py:19 | ***************** Test Product Compare 001 Is Start *****************
+04/23/2025 01:12:16 AM |      INFO | test_product_compare.py:21 | Navigating to the url
+04/23/2025 01:12:16 AM |      INFO | test_product_compare.py:24 | Entering iMac product for search
+04/23/2025 01:12:16 AM |      INFO | test_product_compare.py:26 | clicking on search button
+04/23/2025 01:12:17 AM |      INFO | test_product_compare.py:29 | Clicking on the Product displayed in the Search results
+04/23/2025 01:14:41 AM |      INFO | test_product_compare.py:19 | ***************** Test Product Compare 001 Is Start *****************
+04/23/2025 01:14:42 AM |      INFO | test_product_compare.py:21 | Navigating to the url
+04/23/2025 01:14:42 AM |      INFO | test_product_compare.py:24 | Entering iMac product for search
+04/23/2025 01:14:42 AM |      INFO | test_product_compare.py:26 | clicking on search button
+04/23/2025 01:14:43 AM |      INFO | test_product_compare.py:29 | Clicking on the Product displayed in the Search results
+04/23/2025 01:16:10 AM |      INFO | test_product_compare.py:19 | ***************** Test Product Compare 001 Is Start *****************
+04/23/2025 01:16:11 AM |      INFO | test_product_compare.py:21 | Navigating to the url
+04/23/2025 01:16:11 AM |      INFO | test_product_compare.py:24 | Entering iMac product for search
+04/23/2025 01:16:12 AM |      INFO | test_product_compare.py:26 | clicking on search button
+04/23/2025 01:16:12 AM |      INFO | test_product_compare.py:29 | Clicking on the Product displayed in the Search results
+04/23/2025 01:17:10 AM |      INFO | test_product_compare.py:19 | ***************** Test Product Compare 001 Is Start *****************
+04/23/2025 01:17:11 AM |      INFO | test_product_compare.py:21 | Navigating to the url
+04/23/2025 01:17:11 AM |      INFO | test_product_compare.py:24 | Entering iMac product for search
+04/23/2025 01:17:11 AM |      INFO | test_product_compare.py:26 | clicking on search button
+04/23/2025 01:17:12 AM |      INFO | test_product_compare.py:29 | Clicking on the Product displayed in the Search results
+04/23/2025 01:17:29 AM |      INFO | test_product_compare.py:19 | ***************** Test Product Compare 001 Is Start *****************
+04/23/2025 01:17:30 AM |      INFO | test_product_compare.py:21 | Navigating to the url
+04/23/2025 01:17:30 AM |      INFO | test_product_compare.py:24 | Entering iMac product for search
+04/23/2025 01:17:30 AM |      INFO | test_product_compare.py:26 | clicking on search button
+04/23/2025 01:17:30 AM |      INFO | test_product_compare.py:29 | Clicking on the Product displayed in the Search results
+04/23/2025 01:20:45 AM |      INFO | test_product_compare.py:19 | ***************** Test Product Compare 001 Is Start *****************
+04/23/2025 01:20:46 AM |      INFO | test_product_compare.py:21 | Navigating to the url
+04/23/2025 01:20:46 AM |      INFO | test_product_compare.py:24 | Entering iMac product for search
+04/23/2025 01:20:46 AM |      INFO | test_product_compare.py:26 | clicking on search button
+04/23/2025 01:20:47 AM |      INFO | test_product_compare.py:29 | Clicking on the Product displayed in the Search results
+04/23/2025 01:24:54 AM |      INFO | test_product_compare.py:19 | ***************** Test Product Compare 001 Is Start *****************
+04/23/2025 01:24:55 AM |      INFO | test_product_compare.py:21 | Navigating to the url
+04/23/2025 01:24:55 AM |      INFO | test_product_compare.py:24 | Entering iMac product for search
+04/23/2025 01:24:55 AM |      INFO | test_product_compare.py:26 | clicking on search button
+04/23/2025 01:24:55 AM |      INFO | test_product_compare.py:29 | Clicking on the Product displayed in the Search results
+04/23/2025 01:27:08 AM |      INFO | test_product_compare.py:20 | ***************** Test Product Compare 001 Is Start *****************
+04/23/2025 01:27:09 AM |      INFO | test_product_compare.py:22 | Navigating to the url
+04/23/2025 01:27:09 AM |      INFO | test_product_compare.py:25 | Entering iMac product for search
+04/23/2025 01:27:09 AM |      INFO | test_product_compare.py:27 | clicking on search button
+04/23/2025 01:27:10 AM |      INFO | test_product_compare.py:30 | Clicking on the Product displayed in the Search results
+04/23/2025 01:28:29 AM |      INFO | test_product_compare.py:20 | ***************** Test Product Compare 001 Is Start *****************
+04/23/2025 01:28:30 AM |      INFO | test_product_compare.py:22 | Navigating to the url
+04/23/2025 01:28:30 AM |      INFO | test_product_compare.py:25 | Entering iMac product for search
+04/23/2025 01:28:30 AM |      INFO | test_product_compare.py:27 | clicking on search button
+04/23/2025 01:28:31 AM |      INFO | test_product_compare.py:30 | Clicking on the Product displayed in the Search results
+04/23/2025 01:29:50 AM |      INFO | test_product_compare.py:20 | ***************** Test Product Compare 001 Is Start *****************
+04/23/2025 01:29:51 AM |      INFO | test_product_compare.py:22 | Navigating to the url
+04/23/2025 01:29:51 AM |      INFO | test_product_compare.py:25 | Entering iMac product for search
+04/23/2025 01:29:52 AM |      INFO | test_product_compare.py:27 | clicking on search button
+04/23/2025 01:29:52 AM |      INFO | test_product_compare.py:30 | Clicking on the Product displayed in the Search results
+04/23/2025 01:30:25 AM |      INFO | test_product_compare.py:20 | ***************** Test Product Compare 001 Is Start *****************
+04/23/2025 01:30:26 AM |      INFO | test_product_compare.py:22 | Navigating to the url
+04/23/2025 01:30:26 AM |      INFO | test_product_compare.py:25 | Entering iMac product for search
+04/23/2025 01:30:26 AM |      INFO | test_product_compare.py:27 | clicking on search button
+04/23/2025 01:30:27 AM |      INFO | test_product_compare.py:30 | Clicking on the Product displayed in the Search results
+04/23/2025 01:30:27 AM |     ERROR | test_product_compare.py:50 | ********** Test Product Compare 001 is Failed ***********
+04/23/2025 01:31:25 AM |      INFO | test_product_compare.py:20 | ***************** Test Product Compare 001 Is Start *****************
+04/23/2025 01:31:27 AM |      INFO | test_product_compare.py:22 | Navigating to the url
+04/23/2025 01:31:27 AM |      INFO | test_product_compare.py:25 | Entering iMac product for search
+04/23/2025 01:31:28 AM |      INFO | test_product_compare.py:27 | clicking on search button
+04/23/2025 01:31:28 AM |      INFO | test_product_compare.py:30 | Clicking on the Product displayed in the Search results
+04/23/2025 01:31:28 AM |     ERROR | test_product_compare.py:50 | ********** Test Product Compare 001 is Failed ***********
+04/23/2025 01:33:45 AM |      INFO | test_product_compare.py:20 | ***************** Test Product Compare 001 Is Start *****************
+04/23/2025 01:33:45 AM |      INFO | test_product_compare.py:22 | Navigating to the url
+04/23/2025 01:33:46 AM |      INFO | test_product_compare.py:25 | Entering iMac product for search
+04/23/2025 01:33:46 AM |      INFO | test_product_compare.py:27 | clicking on search button
+04/23/2025 01:33:46 AM |      INFO | test_product_compare.py:30 | Clicking on the Product displayed in the Search results
+04/23/2025 01:33:46 AM |     ERROR | test_product_compare.py:50 | ********** Test Product Compare 001 is Failed ***********
+04/23/2025 01:34:33 AM |      INFO | test_product_compare.py:20 | ***************** Test Product Compare 001 Is Start *****************
+04/23/2025 01:34:34 AM |      INFO | test_product_compare.py:22 | Navigating to the url
+04/23/2025 01:34:34 AM |      INFO | test_product_compare.py:25 | Entering iMac product for search
+04/23/2025 01:34:34 AM |      INFO | test_product_compare.py:27 | clicking on search button
+04/23/2025 01:34:35 AM |      INFO | test_product_compare.py:30 | Clicking on the Product displayed in the Search results
+04/23/2025 01:34:35 AM |      INFO | test_product_compare.py:49 | None
+04/23/2025 01:34:35 AM |     ERROR | test_product_compare.py:50 | ********** Test Product Compare 001 is Failed ***********
+04/23/2025 01:36:54 AM |      INFO | test_product_compare.py:20 | ***************** Test Product Compare 001 Is Start *****************
+04/23/2025 01:36:55 AM |      INFO | test_product_compare.py:22 | Navigating to the url
+04/23/2025 01:36:55 AM |      INFO | test_product_compare.py:25 | Entering iMac product for search
+04/23/2025 01:36:55 AM |      INFO | test_product_compare.py:27 | clicking on search button
+04/23/2025 01:36:56 AM |      INFO | test_product_compare.py:30 | Clicking on the Product displayed in the Search results
+04/23/2025 01:38:01 AM |      INFO | test_product_compare.py:20 | ***************** Test Product Compare 001 Is Start *****************
+04/23/2025 01:38:02 AM |      INFO | test_product_compare.py:22 | Navigating to the url
+04/23/2025 01:38:02 AM |      INFO | test_product_compare.py:25 | Entering iMac product for search
+04/23/2025 01:38:02 AM |      INFO | test_product_compare.py:27 | clicking on search button
+04/23/2025 01:38:02 AM |      INFO | test_product_compare.py:30 | Clicking on the Product displayed in the Search results
+04/23/2025 01:39:29 AM |      INFO | test_product_compare.py:20 | ***************** Test Product Compare 001 Is Start *****************
+04/23/2025 01:39:30 AM |      INFO | test_product_compare.py:22 | Navigating to the url
+04/23/2025 01:39:30 AM |      INFO | test_product_compare.py:25 | Entering iMac product for search
+04/23/2025 01:39:30 AM |      INFO | test_product_compare.py:27 | clicking on search button
+04/23/2025 01:39:31 AM |      INFO | test_product_compare.py:30 | Clicking on the Product displayed in the Search results
+04/23/2025 01:40:16 AM |      INFO | test_product_compare.py:20 | ***************** Test Product Compare 001 Is Start *****************
+04/23/2025 01:40:17 AM |      INFO | test_product_compare.py:22 | Navigating to the url
+04/23/2025 01:40:17 AM |      INFO | test_product_compare.py:25 | Entering iMac product for search
+04/23/2025 01:40:17 AM |      INFO | test_product_compare.py:27 | clicking on search button
+04/23/2025 01:40:18 AM |      INFO | test_product_compare.py:30 | Clicking on the Product displayed in the Search results
+04/23/2025 01:44:20 AM |      INFO | test_product_compare.py:16 | ***************** Test Product Compare 001 Is Start *****************
+04/23/2025 01:44:21 AM |      INFO | test_product_compare.py:18 | Navigating to the url
+04/23/2025 01:44:21 AM |      INFO | test_product_compare.py:21 | Entering iMac product for search
+04/23/2025 01:44:21 AM |      INFO | test_product_compare.py:23 | clicking on search button
+04/23/2025 01:44:22 AM |      INFO | test_product_compare.py:26 | Clicking on the Product displayed in the Search results
+04/23/2025 01:45:55 AM |      INFO | test_product_compare.py:16 | ***************** Test Product Compare 001 Is Start *****************
+04/23/2025 01:45:56 AM |      INFO | test_product_compare.py:18 | Navigating to the url
+04/23/2025 01:45:56 AM |      INFO | test_product_compare.py:21 | Entering iMac product for search
+04/23/2025 01:45:57 AM |      INFO | test_product_compare.py:23 | clicking on search button
+04/23/2025 01:45:57 AM |      INFO | test_product_compare.py:26 | Clicking on the Product displayed in the Search results
+04/23/2025 01:48:17 AM |      INFO | test_product_compare.py:16 | ***************** Test Product Compare 001 Is Start *****************
+04/23/2025 01:48:18 AM |      INFO | test_product_compare.py:18 | Navigating to the url
+04/23/2025 01:48:18 AM |      INFO | test_product_compare.py:21 | Entering iMac product for search
+04/23/2025 01:48:19 AM |      INFO | test_product_compare.py:23 | clicking on search button
+04/23/2025 01:48:19 AM |      INFO | test_product_compare.py:26 | Clicking on the Product displayed in the Search results
+04/23/2025 04:57:25 PM |      INFO | test_product_compare.py:16 | ***************** Test Product Compare 001 Is Start *****************
+04/23/2025 04:57:27 PM |      INFO | test_product_compare.py:18 | Navigating to the url
+04/23/2025 04:57:27 PM |      INFO | test_product_compare.py:21 | Entering iMac product for search
+04/23/2025 04:57:27 PM |      INFO | test_product_compare.py:23 | clicking on search button
+04/23/2025 04:57:28 PM |      INFO | test_product_compare.py:26 | Clicking on the Product displayed in the Search results
+04/23/2025 04:57:28 PM |      INFO | test_product_compare.py:45 | None
+04/23/2025 04:57:28 PM |     ERROR | test_product_compare.py:46 | ********** Test Product Compare 001 is Failed ***********
+04/23/2025 04:59:02 PM |      INFO | test_product_compare.py:16 | ***************** Test Product Compare 001 Is Start *****************
+04/23/2025 04:59:05 PM |      INFO | test_product_compare.py:18 | Navigating to the url
+04/23/2025 04:59:05 PM |      INFO | test_product_compare.py:21 | Entering iMac product for search
+04/23/2025 04:59:06 PM |      INFO | test_product_compare.py:23 | clicking on search button
+04/23/2025 04:59:06 PM |      INFO | test_product_compare.py:26 | Clicking on the Product displayed in the Search results
+04/23/2025 04:59:06 PM |      INFO | test_product_compare.py:45 | None
+04/23/2025 04:59:06 PM |     ERROR | test_product_compare.py:46 | ********** Test Product Compare 001 is Failed ***********
+04/23/2025 05:03:47 PM |      INFO | test_product_compare.py:16 | ***************** Test Product Compare 001 Is Start *****************
+04/23/2025 05:03:51 PM |      INFO | test_product_compare.py:18 | Navigating to the url
+04/23/2025 05:03:51 PM |      INFO | test_product_compare.py:21 | Entering iMac product for search
+04/23/2025 05:03:51 PM |      INFO | test_product_compare.py:23 | clicking on search button
+04/23/2025 05:03:52 PM |      INFO | test_product_compare.py:26 | Clicking on the Product displayed in the Search results
+04/23/2025 05:03:52 PM |      INFO | test_product_compare.py:45 | Add to Wish List
+04/23/2025 05:03:52 PM |     ERROR | test_product_compare.py:46 | ********** Test Product Compare 001 is Failed ***********
+04/23/2025 05:10:34 PM |      INFO | test_product_compare.py:16 | ***************** Test Product Compare 001 Is Start *****************
+04/23/2025 05:10:36 PM |      INFO | test_product_compare.py:18 | Navigating to the url
+04/23/2025 05:10:37 PM |      INFO | test_product_compare.py:21 | Entering iMac product for search
+04/23/2025 05:10:37 PM |      INFO | test_product_compare.py:23 | clicking on search button
+04/23/2025 05:10:38 PM |      INFO | test_product_compare.py:26 | Clicking on the Product displayed in the Search results
+04/23/2025 05:13:49 PM |      INFO | test_product_compare.py:16 | ***************** Test Product Compare 001 Is Start *****************
+04/23/2025 05:13:52 PM |      INFO | test_product_compare.py:18 | Navigating to the url
+04/23/2025 05:13:52 PM |      INFO | test_product_compare.py:21 | Entering iMac product for search
+04/23/2025 05:13:53 PM |      INFO | test_product_compare.py:23 | clicking on search button
+04/23/2025 05:13:53 PM |      INFO | test_product_compare.py:26 | Clicking on the Product displayed in the Search results
+04/23/2025 05:15:29 PM |      INFO | test_product_compare.py:16 | ***************** Test Product Compare 001 Is Start *****************
+04/23/2025 05:15:32 PM |      INFO | test_product_compare.py:18 | Navigating to the url
+04/23/2025 05:15:32 PM |      INFO | test_product_compare.py:21 | Entering iMac product for search
+04/23/2025 05:15:33 PM |      INFO | test_product_compare.py:23 | clicking on search button
+04/23/2025 05:15:34 PM |      INFO | test_product_compare.py:26 | Clicking on the Product displayed in the Search results
+04/23/2025 05:15:56 PM |      INFO | test_product_compare.py:16 | ***************** Test Product Compare 001 Is Start *****************
+04/23/2025 05:16:00 PM |      INFO | test_product_compare.py:18 | Navigating to the url
+04/23/2025 05:16:00 PM |      INFO | test_product_compare.py:21 | Entering iMac product for search
+04/23/2025 05:16:00 PM |      INFO | test_product_compare.py:23 | clicking on search button
+04/23/2025 05:16:01 PM |      INFO | test_product_compare.py:26 | Clicking on the Product displayed in the Search results
+04/23/2025 05:24:12 PM |      INFO | test_product_compare.py:16 | ***************** Test Product Compare 001 Is Start *****************
+04/23/2025 05:25:40 PM |      INFO | test_product_compare.py:18 | Navigating to the url
+04/23/2025 05:25:40 PM |      INFO | test_product_compare.py:21 | Entering iMac product for search
+04/23/2025 05:25:41 PM |      INFO | test_product_compare.py:23 | clicking on search button
+04/23/2025 05:25:42 PM |      INFO | test_product_compare.py:26 | Clicking on the Product displayed in the Search results
+04/23/2025 05:52:50 PM |      INFO | test_product_compare.py:16 | ***************** Test Product Compare 001 Is Start *****************
+04/23/2025 05:52:52 PM |      INFO | test_product_compare.py:18 | Navigating to the url
+04/23/2025 05:52:52 PM |      INFO | test_product_compare.py:21 | Entering iMac product for search
+04/23/2025 05:52:52 PM |      INFO | test_product_compare.py:23 | clicking on search button
+04/23/2025 05:52:53 PM |      INFO | test_product_compare.py:26 | Clicking on the Product displayed in the Search results
+04/23/2025 06:06:44 PM |      INFO | test_product_compare.py:16 | ***************** Test Product Compare 001 Is Start *****************
+04/23/2025 06:06:45 PM |      INFO | test_product_compare.py:18 | Navigating to the url
+04/23/2025 06:06:45 PM |      INFO | test_product_compare.py:21 | Entering iMac product for search
+04/23/2025 06:06:46 PM |      INFO | test_product_compare.py:23 | clicking on search button
+04/23/2025 06:06:46 PM |      INFO | test_product_compare.py:26 | Clicking on the Product displayed in the Search results
+04/23/2025 06:15:47 PM |      INFO | test_product_compare.py:16 | ***************** Test Product Compare 001 Is Start *****************
+04/23/2025 06:15:49 PM |      INFO | test_product_compare.py:18 | Navigating to the url
+04/23/2025 06:15:49 PM |      INFO | test_product_compare.py:21 | Entering iMac product for search
+04/23/2025 06:15:49 PM |      INFO | test_product_compare.py:23 | clicking on search button
+04/23/2025 06:15:50 PM |      INFO | test_product_compare.py:26 | Clicking on the Product displayed in the Search results
+04/23/2025 06:24:54 PM |      INFO | test_product_compare.py:16 | ***************** Test Product Compare 001 Is Start *****************
+04/23/2025 06:24:55 PM |      INFO | test_product_compare.py:18 | Navigating to the url
+04/23/2025 06:24:55 PM |      INFO | test_product_compare.py:21 | Entering iMac product for search
+04/23/2025 06:24:55 PM |      INFO | test_product_compare.py:23 | clicking on search button
+04/23/2025 06:24:56 PM |      INFO | test_product_compare.py:26 | Clicking on the Product displayed in the Search results
+04/23/2025 06:26:32 PM |      INFO | test_product_compare.py:16 | ***************** Test Product Compare 001 Is Start *****************
+04/23/2025 06:26:33 PM |      INFO | test_product_compare.py:18 | Navigating to the url
+04/23/2025 06:26:33 PM |      INFO | test_product_compare.py:21 | Entering iMac product for search
+04/23/2025 06:26:34 PM |      INFO | test_product_compare.py:23 | clicking on search button
+04/23/2025 06:26:34 PM |      INFO | test_product_compare.py:26 | Clicking on the Product displayed in the Search results
+04/24/2025 02:19:17 AM |      INFO | test_product_compare.py:17 | ***************** Test Product Compare 001 Is Start *****************
+04/24/2025 02:19:20 AM |      INFO | test_product_compare.py:19 | Navigating to the url
+04/24/2025 02:19:20 AM |      INFO | test_product_compare.py:22 | Entering iMac product for search
+04/24/2025 02:19:21 AM |      INFO | test_product_compare.py:24 | clicking on search button
+04/24/2025 02:19:22 AM |      INFO | test_product_compare.py:27 | Clicking on the Product displayed in the Search results
+04/24/2025 02:19:22 AM |      INFO | test_product_compare.py:28 | *************** Verifying Test Product Compare 001 ****************
+04/24/2025 02:23:26 AM |      INFO | test_product_compare.py:17 | ***************** Test Product Compare 001 Is Start *****************
+04/24/2025 02:23:29 AM |      INFO | test_product_compare.py:19 | Navigating to the url
+04/24/2025 02:23:29 AM |      INFO | test_product_compare.py:22 | Entering iMac product for search
+04/24/2025 02:23:30 AM |      INFO | test_product_compare.py:24 | clicking on search button
+04/24/2025 02:23:31 AM |      INFO | test_product_compare.py:27 | Clicking on the Product displayed in the Search results
+04/24/2025 02:23:31 AM |      INFO | test_product_compare.py:28 | *************** Verifying Test Product Compare 001 ****************
+04/24/2025 02:24:38 AM |      INFO | test_product_compare.py:17 | ***************** Test Product Compare 001 Is Start *****************
+04/24/2025 02:24:41 AM |      INFO | test_product_compare.py:19 | Navigating to the url
+04/24/2025 02:24:41 AM |      INFO | test_product_compare.py:22 | Entering iMac product for search
+04/24/2025 02:24:42 AM |      INFO | test_product_compare.py:24 | clicking on search button
+04/24/2025 02:24:43 AM |      INFO | test_product_compare.py:27 | Clicking on the Product displayed in the Search results
+04/24/2025 02:24:43 AM |      INFO | test_product_compare.py:28 | *************** Verifying Test Product Compare 001 ****************
+04/24/2025 02:25:39 AM |      INFO | test_product_compare.py:17 | ***************** Test Product Compare 001 Is Start *****************
+04/24/2025 02:25:41 AM |      INFO | test_product_compare.py:19 | Navigating to the url
+04/24/2025 02:25:41 AM |      INFO | test_product_compare.py:22 | Entering iMac product for search
+04/24/2025 02:25:43 AM |      INFO | test_product_compare.py:24 | clicking on search button
+04/24/2025 02:25:44 AM |      INFO | test_product_compare.py:27 | Clicking on the Product displayed in the Search results
+04/24/2025 02:25:44 AM |      INFO | test_product_compare.py:28 | *************** Verifying Test Product Compare 001 ****************
+04/24/2025 02:25:59 AM |      INFO | test_product_compare.py:17 | ***************** Test Product Compare 001 Is Start *****************
+04/24/2025 02:26:03 AM |      INFO | test_product_compare.py:19 | Navigating to the url
+04/24/2025 02:26:03 AM |      INFO | test_product_compare.py:22 | Entering iMac product for search
+04/24/2025 02:26:04 AM |      INFO | test_product_compare.py:24 | clicking on search button
+04/24/2025 02:26:05 AM |      INFO | test_product_compare.py:27 | Clicking on the Product displayed in the Search results
+04/24/2025 02:26:05 AM |      INFO | test_product_compare.py:28 | *************** Verifying Test Product Compare 001 ****************
+04/24/2025 02:26:58 AM |      INFO | test_product_compare.py:17 | ***************** Test Product Compare 001 Is Start *****************
+04/24/2025 02:27:05 AM |      INFO | test_product_compare.py:19 | Navigating to the url
+04/24/2025 02:27:05 AM |      INFO | test_product_compare.py:22 | Entering iMac product for search
+04/24/2025 02:27:06 AM |      INFO | test_product_compare.py:24 | clicking on search button
+04/24/2025 02:27:08 AM |      INFO | test_product_compare.py:27 | Clicking on the Product displayed in the Search results
+04/24/2025 02:27:08 AM |      INFO | test_product_compare.py:28 | *************** Verifying Test Product Compare 001 ****************
+04/24/2025 02:28:20 AM |      INFO | test_product_compare.py:17 | ***************** Test Product Compare 001 Is Start *****************
+04/24/2025 02:28:22 AM |      INFO | test_product_compare.py:19 | Navigating to the url
+04/24/2025 02:28:22 AM |      INFO | test_product_compare.py:22 | Entering iMac product for search
+04/24/2025 02:28:23 AM |      INFO | test_product_compare.py:24 | clicking on search button
+04/24/2025 02:28:25 AM |      INFO | test_product_compare.py:27 | Clicking on the Product displayed in the Search results
+04/24/2025 02:28:25 AM |      INFO | test_product_compare.py:28 | *************** Verifying Test Product Compare 001 ****************
+04/24/2025 02:29:06 AM |      INFO | test_product_compare.py:17 | ***************** Test Product Compare 001 Is Start *****************
+04/24/2025 02:29:13 AM |      INFO | test_product_compare.py:19 | Navigating to the url
+04/24/2025 02:29:13 AM |      INFO | test_product_compare.py:22 | Entering iMac product for search
+04/24/2025 02:29:14 AM |      INFO | test_product_compare.py:24 | clicking on search button
+04/24/2025 02:29:15 AM |      INFO | test_product_compare.py:27 | Clicking on the Product displayed in the Search results
+04/24/2025 02:29:15 AM |      INFO | test_product_compare.py:28 | *************** Verifying Test Product Compare 001 ****************
+04/24/2025 02:31:17 AM |      INFO | test_product_compare.py:17 | ***************** Test Product Compare 001 Is Start *****************
+04/24/2025 02:31:25 AM |      INFO | test_product_compare.py:19 | Navigating to the url
+04/24/2025 02:31:25 AM |      INFO | test_product_compare.py:22 | Entering iMac product for search
+04/24/2025 02:31:26 AM |      INFO | test_product_compare.py:24 | clicking on search button
+04/24/2025 02:31:28 AM |      INFO | test_product_compare.py:27 | Clicking on the Product displayed in the Search results
+04/24/2025 02:31:28 AM |      INFO | test_product_compare.py:28 | *************** Verifying Test Product Compare 001 ****************
+04/24/2025 02:31:28 AM |      INFO | test_product_compare.py:33 | clicking on compare this product option
+04/24/2025 02:35:02 AM |      INFO | test_product_compare.py:17 | ***************** Test Product Compare 001 Is Start *****************
+04/24/2025 02:35:07 AM |      INFO | test_product_compare.py:19 | Navigating to the url
+04/24/2025 02:35:07 AM |      INFO | test_product_compare.py:22 | Entering iMac product for search
+04/24/2025 02:35:08 AM |      INFO | test_product_compare.py:24 | clicking on search button
+04/24/2025 02:35:09 AM |      INFO | test_product_compare.py:27 | Clicking on the Product displayed in the Search results
+04/24/2025 02:35:09 AM |      INFO | test_product_compare.py:28 | *************** Verifying Test Product Compare 001 ****************
+04/24/2025 02:35:09 AM |      INFO | test_product_compare.py:33 | clicking on compare this product option
+04/24/2025 02:37:12 AM |      INFO | test_product_compare.py:17 | ***************** Test Product Compare 001 Is Start *****************
+04/24/2025 02:37:16 AM |      INFO | test_product_compare.py:19 | Navigating to the url
+04/24/2025 02:37:16 AM |      INFO | test_product_compare.py:22 | Entering iMac product for search
+04/24/2025 02:37:16 AM |      INFO | test_product_compare.py:24 | clicking on search button
+04/24/2025 02:37:17 AM |      INFO | test_product_compare.py:27 | Clicking on the Product displayed in the Search results
+04/24/2025 02:37:17 AM |      INFO | test_product_compare.py:28 | *************** Verifying Test Product Compare 001 ****************
+04/24/2025 02:37:17 AM |      INFO | test_product_compare.py:33 | clicking on compare this product option
+04/24/2025 02:37:58 AM |      INFO | test_product_compare.py:17 | ***************** Test Product Compare 001 Is Start *****************
+04/24/2025 02:37:58 AM |      INFO | test_product_compare.py:19 | Navigating to the url
+04/24/2025 02:38:00 AM |      INFO | test_product_compare.py:22 | Entering iMac product for search
+04/24/2025 02:38:01 AM |      INFO | test_product_compare.py:24 | clicking on search button
+04/24/2025 02:38:01 AM |      INFO | test_product_compare.py:27 | Clicking on the Product displayed in the Search results
+04/24/2025 02:38:01 AM |      INFO | test_product_compare.py:28 | *************** Verifying Test Product Compare 001 ****************
+04/24/2025 02:38:01 AM |      INFO | test_product_compare.py:33 | clicking on compare this product option
+04/24/2025 03:01:51 AM |      INFO | test_product_compare.py:17 | ***************** Test Product Compare 001 Is Start *****************
+04/24/2025 03:02:00 AM |      INFO | test_product_compare.py:19 | Navigating to the url
+04/24/2025 03:02:00 AM |      INFO | test_product_compare.py:22 | Entering iMac product for search
+04/24/2025 03:02:00 AM |      INFO | test_product_compare.py:24 | clicking on search button
+04/24/2025 03:02:02 AM |      INFO | test_product_compare.py:27 | Clicking on the Product displayed in the Search results
+04/24/2025 03:02:02 AM |      INFO | test_product_compare.py:28 | *************** Verifying Test Product Compare 001 ****************
+04/24/2025 03:02:02 AM |      INFO | test_product_compare.py:33 | clicking on compare this product option
+04/24/2025 03:05:51 AM |      INFO | test_product_compare.py:17 | ***************** Test Product Compare 001 Is Start *****************
+04/24/2025 03:05:59 AM |      INFO | test_product_compare.py:19 | Navigating to the url
+04/24/2025 03:05:59 AM |      INFO | test_product_compare.py:22 | Entering iMac product for search
+04/24/2025 03:05:59 AM |      INFO | test_product_compare.py:24 | clicking on search button
+04/24/2025 03:06:01 AM |      INFO | test_product_compare.py:27 | Clicking on the Product displayed in the Search results
+04/24/2025 03:06:01 AM |      INFO | test_product_compare.py:28 | *************** Verifying Test Product Compare 001 ****************
+04/24/2025 03:06:01 AM |      INFO | test_product_compare.py:33 | clicking on compare this product option
+04/24/2025 03:06:48 AM |      INFO | test_product_compare.py:17 | ***************** Test Product Compare 001 Is Start *****************
+04/24/2025 03:06:50 AM |      INFO | test_product_compare.py:19 | Navigating to the url
+04/24/2025 03:06:50 AM |      INFO | test_product_compare.py:22 | Entering iMac product for search
+04/24/2025 03:06:51 AM |      INFO | test_product_compare.py:24 | clicking on search button
+04/24/2025 03:06:52 AM |      INFO | test_product_compare.py:27 | Clicking on the Product displayed in the Search results
+04/24/2025 03:06:52 AM |      INFO | test_product_compare.py:28 | *************** Verifying Test Product Compare 001 ****************
+04/24/2025 03:06:52 AM |      INFO | test_product_compare.py:33 | clicking on compare this product option
+04/24/2025 03:13:06 AM |      INFO | test_product_compare.py:17 | ***************** Test Product Compare 001 Is Start *****************
+04/24/2025 03:13:09 AM |      INFO | test_product_compare.py:19 | Navigating to the url
+04/24/2025 03:13:09 AM |      INFO | test_product_compare.py:22 | Entering iMac product for search
+04/24/2025 03:13:09 AM |      INFO | test_product_compare.py:24 | clicking on search button
+04/24/2025 03:13:10 AM |      INFO | test_product_compare.py:27 | Clicking on the Product displayed in the Search results
+04/24/2025 03:13:10 AM |      INFO | test_product_compare.py:28 | *************** Verifying Test Product Compare 001 ****************
+04/24/2025 03:13:10 AM |      INFO | test_product_compare.py:33 | clicking on compare this product option
+04/24/2025 03:13:11 AM |     ERROR | test_product_compare.py:44 | ********** Test Product Compare 001 is Failed ***********
+04/24/2025 03:16:25 AM |      INFO | test_product_compare.py:17 | ***************** Test Product Compare 001 Is Start *****************
+04/24/2025 03:16:31 AM |      INFO | test_product_compare.py:19 | Navigating to the url
+04/24/2025 03:16:31 AM |      INFO | test_product_compare.py:22 | Entering iMac product for search
+04/24/2025 03:16:31 AM |      INFO | test_product_compare.py:24 | clicking on search button
+04/24/2025 03:16:33 AM |      INFO | test_product_compare.py:27 | Clicking on the Product displayed in the Search results
+04/24/2025 03:16:33 AM |      INFO | test_product_compare.py:28 | *************** Verifying Test Product Compare 001 ****************
+04/24/2025 03:16:33 AM |      INFO | test_product_compare.py:33 | clicking on compare this product option
+04/24/2025 03:16:33 AM |     ERROR | test_product_compare.py:44 | ********** Test Product Compare 001 is Failed ***********
+04/24/2025 03:17:36 AM |      INFO | test_product_compare.py:17 | ***************** Test Product Compare 001 Is Start *****************
+04/24/2025 03:17:39 AM |      INFO | test_product_compare.py:19 | Navigating to the url
+04/24/2025 03:17:39 AM |      INFO | test_product_compare.py:22 | Entering iMac product for search
+04/24/2025 03:17:40 AM |      INFO | test_product_compare.py:24 | clicking on search button
+04/24/2025 03:17:41 AM |      INFO | test_product_compare.py:27 | Clicking on the Product displayed in the Search results
+04/24/2025 03:17:41 AM |      INFO | test_product_compare.py:28 | *************** Verifying Test Product Compare 001 ****************
+04/24/2025 03:17:41 AM |      INFO | test_product_compare.py:33 | clicking on compare this product option
+04/24/2025 03:17:42 AM |     ERROR | test_product_compare.py:44 | ********** Test Product Compare 001 is Failed ***********
+04/24/2025 03:23:18 AM |      INFO | test_product_compare.py:17 | ***************** Test Product Compare 001 Is Start *****************
+04/24/2025 03:23:22 AM |      INFO | test_product_compare.py:19 | Navigating to the url
+04/24/2025 03:23:22 AM |      INFO | test_product_compare.py:22 | Entering iMac product for search
+04/24/2025 03:23:22 AM |      INFO | test_product_compare.py:24 | clicking on search button
+04/24/2025 03:23:23 AM |      INFO | test_product_compare.py:27 | Clicking on the Product displayed in the Search results
+04/24/2025 03:23:23 AM |      INFO | test_product_compare.py:28 | *************** Verifying Test Product Compare 001 ****************
+04/24/2025 03:23:23 AM |      INFO | test_product_compare.py:33 | clicking on compare this product option
+04/24/2025 03:23:24 AM |     ERROR | test_product_compare.py:45 | ********** Test Product Compare 001 is Failed ***********
+04/24/2025 03:25:38 AM |      INFO | test_product_compare.py:17 | ***************** Test Product Compare 001 Is Start *****************
+04/24/2025 03:25:40 AM |      INFO | test_product_compare.py:19 | Navigating to the url
+04/24/2025 03:25:40 AM |      INFO | test_product_compare.py:22 | Entering iMac product for search
+04/24/2025 03:25:41 AM |      INFO | test_product_compare.py:24 | clicking on search button
+04/24/2025 03:25:42 AM |      INFO | test_product_compare.py:27 | Clicking on the Product displayed in the Search results
+04/24/2025 03:25:42 AM |      INFO | test_product_compare.py:28 | *************** Verifying Test Product Compare 001 ****************
+04/24/2025 03:25:42 AM |      INFO | test_product_compare.py:33 | clicking on compare this product option
+04/24/2025 03:25:43 AM |     ERROR | test_product_compare.py:45 | ********** Test Product Compare 001 is Failed ***********
+04/24/2025 03:27:10 AM |      INFO | test_product_compare.py:17 | ***************** Test Product Compare 001 Is Start *****************
+04/24/2025 03:27:13 AM |      INFO | test_product_compare.py:19 | Navigating to the url
+04/24/2025 03:27:13 AM |      INFO | test_product_compare.py:22 | Entering iMac product for search
+04/24/2025 03:27:14 AM |      INFO | test_product_compare.py:24 | clicking on search button
+04/24/2025 03:27:15 AM |      INFO | test_product_compare.py:27 | Clicking on the Product displayed in the Search results
+04/24/2025 03:27:15 AM |      INFO | test_product_compare.py:28 | *************** Verifying Test Product Compare 001 ****************
+04/24/2025 03:27:15 AM |      INFO | test_product_compare.py:33 | clicking on compare this product option
+04/24/2025 03:27:15 AM |     ERROR | test_product_compare.py:45 | ********** Test Product Compare 001 is Failed ***********
+04/24/2025 03:29:57 AM |      INFO | test_product_compare.py:19 | ***************** Test Product Compare 001 Is Start *****************
+04/24/2025 03:30:02 AM |      INFO | test_product_compare.py:21 | Navigating to the url
+04/24/2025 03:30:02 AM |      INFO | test_product_compare.py:24 | Entering iMac product for search
+04/24/2025 03:30:03 AM |      INFO | test_product_compare.py:26 | clicking on search button
+04/24/2025 03:30:05 AM |      INFO | test_product_compare.py:29 | Clicking on the Product displayed in the Search results
+04/24/2025 03:30:05 AM |      INFO | test_product_compare.py:30 | *************** Verifying Test Product Compare 001 ****************
+04/24/2025 03:30:05 AM |      INFO | test_product_compare.py:35 | clicking on compare this product option
+04/24/2025 03:30:05 AM |     ERROR | test_product_compare.py:48 | ********** Test Product Compare 001 is Failed ***********
+04/24/2025 03:32:49 AM |      INFO | test_product_compare.py:19 | ***************** Test Product Compare 001 Is Start *****************
+04/24/2025 03:32:52 AM |      INFO | test_product_compare.py:21 | Navigating to the url
+04/24/2025 03:32:53 AM |      INFO | test_product_compare.py:24 | Entering iMac product for search
+04/24/2025 03:32:53 AM |      INFO | test_product_compare.py:26 | clicking on search button
+04/24/2025 03:32:55 AM |      INFO | test_product_compare.py:29 | Clicking on the Product displayed in the Search results
+04/24/2025 03:32:55 AM |      INFO | test_product_compare.py:30 | *************** Verifying Test Product Compare 001 ****************
+04/24/2025 03:32:55 AM |      INFO | test_product_compare.py:35 | clicking on compare this product option
+04/24/2025 03:32:55 AM |     ERROR | test_product_compare.py:48 | ********** Test Product Compare 001 is Failed ***********
+04/24/2025 03:34:40 AM |      INFO | test_product_compare.py:19 | ***************** Test Product Compare 001 Is Start *****************
+04/24/2025 03:34:48 AM |      INFO | test_product_compare.py:21 | Navigating to the url
+04/24/2025 03:34:48 AM |      INFO | test_product_compare.py:24 | Entering iMac product for search
+04/24/2025 03:34:49 AM |      INFO | test_product_compare.py:26 | clicking on search button
+04/24/2025 03:34:50 AM |      INFO | test_product_compare.py:29 | Clicking on the Product displayed in the Search results
+04/24/2025 03:34:50 AM |      INFO | test_product_compare.py:30 | *************** Verifying Test Product Compare 001 ****************
+04/24/2025 03:34:50 AM |      INFO | test_product_compare.py:35 | clicking on compare this product option
+04/24/2025 03:34:51 AM |     ERROR | test_product_compare.py:49 | ********** Test Product Compare 001 is Failed ***********
+04/24/2025 03:37:48 AM |      INFO | test_product_compare.py:19 | ***************** Test Product Compare 001 Is Start *****************
+04/24/2025 03:37:54 AM |      INFO | test_product_compare.py:21 | Navigating to the url
+04/24/2025 03:37:54 AM |      INFO | test_product_compare.py:24 | Entering iMac product for search
+04/24/2025 03:37:55 AM |      INFO | test_product_compare.py:26 | clicking on search button
+04/24/2025 03:37:56 AM |      INFO | test_product_compare.py:29 | Clicking on the Product displayed in the Search results
+04/24/2025 03:37:56 AM |      INFO | test_product_compare.py:30 | *************** Verifying Test Product Compare 001 ****************
+04/24/2025 03:37:56 AM |      INFO | test_product_compare.py:35 | clicking on compare this product option
+04/24/2025 03:37:57 AM |     ERROR | test_product_compare.py:49 | ********** Test Product Compare 001 is Failed ***********
+04/24/2025 03:40:07 AM |      INFO | test_product_compare.py:19 | ***************** Test Product Compare 001 Is Start *****************
+04/24/2025 03:40:10 AM |      INFO | test_product_compare.py:21 | Navigating to the url
+04/24/2025 03:40:10 AM |      INFO | test_product_compare.py:24 | Entering iMac product for search
+04/24/2025 03:40:11 AM |      INFO | test_product_compare.py:26 | clicking on search button
+04/24/2025 03:40:12 AM |      INFO | test_product_compare.py:29 | Clicking on the Product displayed in the Search results
+04/24/2025 03:40:12 AM |      INFO | test_product_compare.py:30 | *************** Verifying Test Product Compare 001 ****************
+04/24/2025 03:40:12 AM |      INFO | test_product_compare.py:35 | clicking on compare this product option
+04/24/2025 03:40:12 AM |     ERROR | test_product_compare.py:49 | ********** Test Product Compare 001 is Failed ***********
+04/24/2025 03:41:46 AM |      INFO | test_product_compare.py:19 | ***************** Test Product Compare 001 Is Start *****************
+04/24/2025 03:41:49 AM |      INFO | test_product_compare.py:21 | Navigating to the url
+04/24/2025 03:41:49 AM |      INFO | test_product_compare.py:24 | Entering iMac product for search
+04/24/2025 03:41:50 AM |      INFO | test_product_compare.py:26 | clicking on search button
+04/24/2025 03:41:51 AM |      INFO | test_product_compare.py:29 | Clicking on the Product displayed in the Search results
+04/24/2025 03:41:51 AM |      INFO | test_product_compare.py:30 | *************** Verifying Test Product Compare 001 ****************
+04/24/2025 03:41:51 AM |      INFO | test_product_compare.py:35 | clicking on compare this product option
+04/24/2025 03:41:51 AM |     ERROR | test_product_compare.py:49 | ********** Test Product Compare 001 is Failed ***********
+04/24/2025 03:42:35 AM |      INFO | test_product_compare.py:19 | ***************** Test Product Compare 001 Is Start *****************
+04/24/2025 03:42:41 AM |      INFO | test_product_compare.py:21 | Navigating to the url
+04/24/2025 03:42:41 AM |      INFO | test_product_compare.py:24 | Entering iMac product for search
+04/24/2025 03:42:42 AM |      INFO | test_product_compare.py:26 | clicking on search button
+04/24/2025 03:42:44 AM |      INFO | test_product_compare.py:29 | Clicking on the Product displayed in the Search results
+04/24/2025 03:42:44 AM |      INFO | test_product_compare.py:30 | *************** Verifying Test Product Compare 001 ****************
+04/24/2025 03:42:44 AM |      INFO | test_product_compare.py:35 | clicking on compare this product option
+04/24/2025 03:42:44 AM |     ERROR | test_product_compare.py:49 | ********** Test Product Compare 001 is Failed ***********
+04/24/2025 03:50:52 AM |      INFO | test_product_compare.py:19 | ***************** Test Product Compare 001 Is Start *****************
+04/24/2025 03:50:56 AM |      INFO | test_product_compare.py:21 | Navigating to the url
+04/24/2025 03:50:56 AM |      INFO | test_product_compare.py:24 | Entering iMac product for search
+04/24/2025 03:50:56 AM |      INFO | test_product_compare.py:26 | clicking on search button
+04/24/2025 03:50:57 AM |      INFO | test_product_compare.py:29 | Clicking on the Product displayed in the Search results
+04/24/2025 03:50:57 AM |      INFO | test_product_compare.py:30 | *************** Verifying Test Product Compare 001 ****************
+04/24/2025 03:50:58 AM |      INFO | test_product_compare.py:35 | clicking on compare this product option
+04/24/2025 03:51:19 AM |      INFO | test_product_compare.py:19 | ***************** Test Product Compare 001 Is Start *****************
+04/24/2025 03:51:22 AM |      INFO | test_product_compare.py:21 | Navigating to the url
+04/24/2025 03:51:22 AM |      INFO | test_product_compare.py:24 | Entering iMac product for search
+04/24/2025 03:51:23 AM |      INFO | test_product_compare.py:26 | clicking on search button
+04/24/2025 03:51:24 AM |      INFO | test_product_compare.py:29 | Clicking on the Product displayed in the Search results
+04/24/2025 03:51:24 AM |      INFO | test_product_compare.py:30 | *************** Verifying Test Product Compare 001 ****************
+04/24/2025 03:51:24 AM |      INFO | test_product_compare.py:35 | clicking on compare this product option
+04/24/2025 03:57:21 AM |      INFO | test_product_compare.py:19 | ***************** Test Product Compare 001 Is Start *****************
+04/24/2025 03:57:29 AM |      INFO | test_product_compare.py:21 | Navigating to the url
+04/24/2025 03:57:29 AM |      INFO | test_product_compare.py:24 | Entering iMac product for search
+04/24/2025 03:57:30 AM |      INFO | test_product_compare.py:26 | clicking on search button
+04/24/2025 03:57:32 AM |      INFO | test_product_compare.py:29 | Clicking on the Product displayed in the Search results
+04/24/2025 03:57:32 AM |      INFO | test_product_compare.py:30 | *************** Verifying Test Product Compare 001 ****************
+04/24/2025 03:57:32 AM |      INFO | test_product_compare.py:35 | clicking on compare this product option
+04/24/2025 03:58:28 AM |      INFO | test_product_compare.py:19 | ***************** Test Product Compare 001 Is Start *****************
+04/24/2025 03:58:31 AM |      INFO | test_product_compare.py:21 | Navigating to the url
+04/24/2025 03:58:31 AM |      INFO | test_product_compare.py:24 | Entering iMac product for search
+04/24/2025 03:58:31 AM |      INFO | test_product_compare.py:26 | clicking on search button
+04/24/2025 03:58:32 AM |      INFO | test_product_compare.py:29 | Clicking on the Product displayed in the Search results
+04/24/2025 03:58:32 AM |      INFO | test_product_compare.py:30 | *************** Verifying Test Product Compare 001 ****************
+04/24/2025 03:58:32 AM |      INFO | test_product_compare.py:35 | clicking on compare this product option
+04/24/2025 04:01:01 AM |      INFO | test_product_compare.py:19 | ***************** Test Product Compare 001 Is Start *****************
+04/24/2025 04:01:10 AM |      INFO | test_product_compare.py:21 | Navigating to the url
+04/24/2025 04:01:10 AM |      INFO | test_product_compare.py:24 | Entering iMac product for search
+04/24/2025 04:01:11 AM |      INFO | test_product_compare.py:26 | clicking on search button
+04/24/2025 04:01:12 AM |      INFO | test_product_compare.py:29 | Clicking on the Product displayed in the Search results
+04/24/2025 04:01:12 AM |      INFO | test_product_compare.py:30 | *************** Verifying Test Product Compare 001 ****************
+04/24/2025 04:01:12 AM |      INFO | test_product_compare.py:35 | clicking on compare this product option
+04/24/2025 04:01:12 AM |     ERROR | test_product_compare.py:49 | ********** Test Product Compare 001 is Failed ***********
+04/24/2025 04:03:26 AM |      INFO | test_product_compare.py:19 | ***************** Test Product Compare 001 Is Start *****************
+04/24/2025 04:03:29 AM |      INFO | test_product_compare.py:21 | Navigating to the url
+04/24/2025 04:03:29 AM |      INFO | test_product_compare.py:24 | Entering iMac product for search
+04/24/2025 04:03:30 AM |      INFO | test_product_compare.py:26 | clicking on search button
+04/24/2025 04:03:31 AM |      INFO | test_product_compare.py:29 | Clicking on the Product displayed in the Search results
+04/24/2025 04:03:31 AM |      INFO | test_product_compare.py:30 | *************** Verifying Test Product Compare 001 ****************
+04/24/2025 04:03:31 AM |      INFO | test_product_compare.py:35 | clicking on compare this product option
+04/24/2025 04:03:32 AM |     ERROR | test_product_compare.py:49 | ********** Test Product Compare 001 is Failed ***********
+04/24/2025 04:04:45 AM |      INFO | test_product_compare.py:19 | ***************** Test Product Compare 001 Is Start *****************
+04/24/2025 04:04:48 AM |      INFO | test_product_compare.py:21 | Navigating to the url
+04/24/2025 04:04:48 AM |      INFO | test_product_compare.py:24 | Entering iMac product for search
+04/24/2025 04:04:49 AM |      INFO | test_product_compare.py:26 | clicking on search button
+04/24/2025 04:04:50 AM |      INFO | test_product_compare.py:29 | Clicking on the Product displayed in the Search results
+04/24/2025 04:04:50 AM |      INFO | test_product_compare.py:30 | *************** Verifying Test Product Compare 001 ****************
+04/24/2025 04:04:50 AM |      INFO | test_product_compare.py:35 | clicking on compare this product option
+04/24/2025 04:04:51 AM |     ERROR | test_product_compare.py:49 | ********** Test Product Compare 001 is Failed ***********
+04/24/2025 04:11:55 AM |      INFO | test_product_compare.py:19 | ***************** Test Product Compare 001 Is Start *****************
+04/24/2025 04:11:58 AM |      INFO | test_product_compare.py:21 | Navigating to the url
+04/24/2025 04:11:58 AM |      INFO | test_product_compare.py:24 | Entering iMac product for search
+04/24/2025 04:11:59 AM |      INFO | test_product_compare.py:26 | clicking on search button
+04/24/2025 04:12:00 AM |      INFO | test_product_compare.py:29 | Clicking on the Product displayed in the Search results
+04/24/2025 04:12:00 AM |      INFO | test_product_compare.py:30 | *************** Verifying Test Product Compare 001 ****************
+04/24/2025 04:12:00 AM |      INFO | test_product_compare.py:35 | clicking on compare this product option
+04/24/2025 04:12:21 AM |      INFO | test_product_compare.py:39 | clicking on product comparison link
+04/24/2025 04:12:21 AM |      INFO | test_product_compare.py:42 | *********** Test Product Compare 001 is Passed ***********
+04/24/2025 04:12:24 AM |      INFO | test_product_compare.py:55 | ********************* End Test Product Compare 001 *************************
+04/24/2025 04:15:18 AM |      INFO | test_product_compare.py:19 | ***************** Test Product Compare 001 Is Start *****************
+04/24/2025 04:15:22 AM |      INFO | test_product_compare.py:21 | Navigating to the url
+04/24/2025 04:15:22 AM |      INFO | test_product_compare.py:24 | Entering iMac product for search
+04/24/2025 04:15:23 AM |      INFO | test_product_compare.py:26 | clicking on search button
+04/24/2025 04:15:24 AM |      INFO | test_product_compare.py:29 | Clicking on the Product displayed in the Search results
+04/24/2025 04:15:24 AM |      INFO | test_product_compare.py:30 | *************** Verifying Test Product Compare 001 ****************
+04/24/2025 04:15:24 AM |      INFO | test_product_compare.py:35 | clicking on compare this product option
+04/24/2025 04:15:25 AM |      INFO | test_product_compare.py:38 | clicking on product comparison link
+04/24/2025 04:15:25 AM |      INFO | test_product_compare.py:41 | *********** Test Product Compare 001 is Passed ***********
+04/24/2025 04:15:28 AM |      INFO | test_product_compare.py:52 | ********************* End Test Product Compare 001 *************************
+04/24/2025 04:16:08 AM |      INFO | test_product_compare.py:19 | ***************** Test Product Compare 001 Is Start *****************
+04/24/2025 04:16:15 AM |      INFO | test_product_compare.py:21 | Navigating to the url
+04/24/2025 04:16:15 AM |      INFO | test_product_compare.py:24 | Entering iMac product for search
+04/24/2025 04:16:16 AM |      INFO | test_product_compare.py:26 | clicking on search button
+04/24/2025 04:16:18 AM |      INFO | test_product_compare.py:29 | Clicking on the Product displayed in the Search results
+04/24/2025 04:16:18 AM |      INFO | test_product_compare.py:30 | *************** Verifying Test Product Compare 001 ****************
+04/24/2025 04:16:18 AM |      INFO | test_product_compare.py:35 | clicking on compare this product option
+04/24/2025 04:16:19 AM |      INFO | test_product_compare.py:38 | clicking on product comparison link
+04/24/2025 04:16:19 AM |      INFO | test_product_compare.py:41 | *********** Test Product Compare 001 is Passed ***********
+04/24/2025 04:16:21 AM |      INFO | test_product_compare.py:52 | ********************* End Test Product Compare 001 *************************
+04/24/2025 04:21:41 AM |      INFO | test_product_compare.py:19 | ***************** Test Product Compare 001 Is Start *****************
+04/24/2025 04:21:47 AM |      INFO | test_product_compare.py:21 | Navigating to the url
+04/24/2025 04:21:47 AM |      INFO | test_product_compare.py:24 | Entering iMac product for search
+04/24/2025 04:21:48 AM |      INFO | test_product_compare.py:26 | clicking on search button
+04/24/2025 04:21:49 AM |      INFO | test_product_compare.py:29 | Clicking on the Product displayed in the Search results
+04/24/2025 04:21:49 AM |      INFO | test_product_compare.py:30 | *************** Verifying Test Product Compare 001 ****************
+04/24/2025 04:21:49 AM |     ERROR | test_product_compare.py:47 | ********** Test Product Compare 001 is Failed ***********
+04/24/2025 04:27:27 AM |      INFO | test_product_compare.py:19 | ***************** Test Product Compare 001 Is Start *****************
+04/24/2025 04:27:34 AM |      INFO | test_product_compare.py:21 | Navigating to the url
+04/24/2025 04:27:34 AM |      INFO | test_product_compare.py:24 | Entering iMac product for search
+04/24/2025 04:27:35 AM |      INFO | test_product_compare.py:26 | clicking on search button
+04/24/2025 04:27:37 AM |      INFO | test_product_compare.py:29 | Clicking on the Product displayed in the Search results
+04/24/2025 04:27:37 AM |      INFO | test_product_compare.py:30 | *************** Verifying Test Product Compare 001 ****************
+04/24/2025 04:27:37 AM |      INFO | test_product_compare.py:35 | clicking on compare this product option
+04/24/2025 04:27:39 AM |      INFO | test_product_compare.py:38 | clicking on product comparison link
+04/24/2025 04:27:39 AM |      INFO | test_product_compare.py:41 | *********** Test Product Compare 001 is Passed ***********
+04/24/2025 04:27:41 AM |      INFO | test_product_compare.py:52 | ********************* End Test Product Compare 001 *************************
