@@ -1,8 +1,8 @@
 import pytest
 from selenium.webdriver.common.by import By
-from utilities.customLogger import LogGen
-from pageObjects.SearchPage import SearchPage
 from pageObjects.ProductComparePage import ProductComparePage
+from pageObjects.SearchPage import SearchPage
+from utilities.customLogger import LogGen
 from utilities.readProperties import ReadConfig
 
 
@@ -48,3 +48,43 @@ class Test_006_Product_Compare:
             assert False
         self.driver.quit()
         self.logger.info("********************* End Test Product Compare 001 *************************")
+
+    @pytest.mark.sanity
+    def test_product_compare_002(self, setup):
+        self.driver = setup
+        self.logger.info("***************** Test Product Compare 002 Is Start *****************")
+        self.driver.get(self.baseURL)
+        self.logger.info("Navigating to the url")
+        self.sp = SearchPage(self.driver)
+        self.sp.search_product("iMac")
+        self.logger.info("Entering iMac product for search")
+        self.sp.click_on_search_button()
+        self.logger.info("clicking on search button")
+        self.pc = ProductComparePage(self.driver)
+        self.pc.click_on_list_view_button()
+        self.logger.info("Clicking on list view button")
+        self.logger.info("*************** Verifying Test Product Compare 001 ****************")
+
+        self.tooltip_text = self.driver.find_element(By.XPATH,
+                                                     "//button[3][contains(@data-original-title,'Compare this Product')]")
+        if self.tooltip_text.get_attribute("data-original-title") == "Compare this Product":
+            self.pc.compare_this_product_option_available_on_the_product()
+            self.logger.info("clicking on compare this product option available on the Product that is displayed in the Search")
+            if self.pc.success_message().__contains__("Success: You have added iMac to your product comparison!"):
+                self.pc.click_on_product_comparison_link()
+                self.logger.info("clicking on product comparison link")
+                if self.driver.title == "Product Comparison":
+                    assert True
+                    self.logger.info("*********** Test Product Compare 002 is Passed ***********")
+                else:
+                    self.logger.error("********** Test Product Compare 002 is Failed ***********")
+                    assert False
+            else:
+                self.logger.error("********** Test Product Compare 002 is Failed ***********")
+                assert False
+        else:
+            print(self.tooltip_text.get_attribute("data-original-title"))
+            self.logger.error("********** Test Product Compare 002 is Failed ***********")
+            assert False
+        self.driver.quit()
+        self.logger.info("********************* End Test Product Compare 002 *************************")
