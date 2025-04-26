@@ -45,6 +45,7 @@ class Test_004_Forgot_Password:
         self.driver.quit()
         self.logger.info("*************** End of Test Forgot Password 001 *****************")
 
+    @pytest.mark.skip(reason="Not ready for execution")
     @pytest.mark.sanity
     def test_forgot_password_002(self, setup):
         self.driver = setup

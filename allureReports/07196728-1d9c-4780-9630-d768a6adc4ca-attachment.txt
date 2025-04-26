@@ -1,0 +1,10 @@
+[32mINFO    [0m Test_005_Search_Functionality:test_search.py:124 ****************** Test Search Functionality 005 Is Started ***************
+[32mINFO    [0m Test_005_Search_Functionality:test_search.py:126 Navigating to the base URL
+[32mINFO    [0m Test_005_Search_Functionality:test_search.py:129 Entering the search text 'Mac' 
+[32mINFO    [0m Test_005_Search_Functionality:test_search.py:131 Clicking on search button
+[32mINFO    [0m Test_005_Search_Functionality:test_search.py:132 *************** Verifying Test Search Functionality 005 ****************
+[32mINFO    [0m Test_005_Search_Functionality:test_search.py:137 ************ Test Search Functionality 005 is Passed *************
+[32mINFO    [0m Test_005_Search_Functionality:test_search.py:137 ************ Test Search Functionality 005 is Passed *************
+[32mINFO    [0m Test_005_Search_Functionality:test_search.py:137 ************ Test Search Functionality 005 is Passed *************
+[32mINFO    [0m Test_005_Search_Functionality:test_search.py:137 ************ Test Search Functionality 005 is Passed *************
+[32mINFO    [0m Test_005_Search_Functionality:test_search.py:142 **************** End Of Test Search Functionality 005 ******************

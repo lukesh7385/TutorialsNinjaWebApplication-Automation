@@ -1,12 +1,18 @@
+from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support.wait import WebDriverWait
+
 
 class ProductComparePage:
     iMacProduct = (By.XPATH, "//img[@title='iMac']")
     compareThisProductOption = (By.XPATH, "/html/body/div[2]/div/div/div[1]/div[2]/div[1]/button[2]")
     compareThisProductOptionOnProduct = (By.XPATH, "//button[3][contains(@data-original-title,'Compare this Product')]")
     successMessage = (By.XPATH, "//div[@class='alert alert-success alert-dismissible']")
-    linkProductComparison = (By.LINK_TEXT, "product comparison")
+    linkProductComparison = (By.PARTIAL_LINK_TEXT, "comparison")
     btnListView = (By.XPATH, "//i[@class='fa fa-th-list']")
+    btnGridView = (By.XPATH, "//button[@id='grid-view']")
+    desktopsOption = (By.LINK_TEXT, "Desktops")
+    showAllDesktopsOption = (By.XPATH, "//a[normalize-space()='Show AllDesktops']")
 
 
     def __init__(self, driver):
@@ -23,11 +29,24 @@ class ProductComparePage:
         return success_message
 
     def click_on_product_comparison_link(self):
-        self.driver.find_element(*ProductComparePage.linkProductComparison).click()
+        product_comparison_link = WebDriverWait(self.driver, 10, poll_frequency=2).until(
+            EC.element_to_be_clickable((By.LINK_TEXT, "product comparison"))
+        )
+        product_comparison_link.click()
 
     def click_on_list_view_button(self):
         self.driver.find_element(*ProductComparePage.btnListView).click()
 
+    def click_on_grid_view_button(self):
+        self.driver.find_element(*ProductComparePage.btnGridView).click()
+
     def compare_this_product_option_available_on_the_product(self):
         self.driver.find_element(*ProductComparePage.compareThisProductOptionOnProduct).click()
+
+    def hover_on_desktops_option(self):
+        return self.driver.find_element(*ProductComparePage.desktopsOption)
+
+    def clicking_on_show_all_desktops_option(self):
+        return self.driver.find_element(*ProductComparePage.showAllDesktopsOption)
+
 

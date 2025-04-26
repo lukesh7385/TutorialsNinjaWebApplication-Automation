@@ -22,7 +22,7 @@ Phases:
 
         100 TC's
         ---------
-        Re-test cases(test data)
+        Re-test cases (test data)
         Regression test cases
         TC's can be automatable
 
@@ -240,3 +240,22 @@ Run this command in cmd
 """
 
 
+# how to run failed test cases
+"""
+Use pytest-rerunfailures: This plugin allows automatic re-execution of failed test cases. Install it by running:
+    pip install pytest-rerunfailures
+    
+Then add the --reruns option while executing your tests. For example:
+    pytest --reruns 3
+    This retries failed tests three times before marking them as final failures.
+    
+Mark Failed Tests for Retesting: You can use the pytest --lf flag to re-run only failed test cases from the last execution:
+    pytest --lf
+    This is particularly useful when debugging specific test failures
+    
+Generate Reports: Combine this with Allure or pytest-html reporting to easily identify and isolate failed cases for retrying.
+Parallel Execution for Efficiency: If you have numerous failed test cases, you can pair this setup with pytest-xdist for parallel execution:
+    pytest --lf -n 4
+    Here, -n 4 distributes the tests across four cores.
+
+"""
