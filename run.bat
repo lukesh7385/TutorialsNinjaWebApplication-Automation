@@ -18,9 +18,10 @@ rem Run tests marked as either sanity or regression
 rem pytest -s -v -m "sanity or regression" --html=./Reports/report.html .\testCases\ --browser %BROWSER%
 
 
-rem pytest -s -v -m "sanity" --alluredir=allureReports .\testCases\ --browser %BROWSER%
-rem pytest -s -v -m "regression" --alluredir=allureReports .\testCases\ --browser %BROWSER%
-rem pytest -s -v -m "sanity and regression" --alluredir=allureReports .\testCases\ --browser %BROWSER%
-@REM pytest -s -v -n=3 -m "sanity or regression" --alluredir=allureReports .\testCases\ --browser %BROWSER%
-pytest -s -v -n=3 --alluredir=allureReports --html=./Reports/report.html .\testCases\ --browser headless
+rem pytest -s -v -m "sanity" --alluredir=allureReports --html=./Reports/report.html .\testCases\ --browser %BROWSER%
+rem pytest -s -v -m "regression" --alluredir=allureReports --html=./Reports/report.html .\testCases\ --browser %BROWSER%
+rem pytest -s -v -m "sanity and regression" --alluredir=allureReports --html=./Reports/report.html .\testCases\ --browser %BROWSER%
+@REM pytest -s -v -n=3 -m "sanity or regression" --alluredir=allureReports --html=./Reports/report.html .\testCases\ --browser %BROWSER%
+pytest -s -v -n=3 --alluredir=allureReports --html=./Reports/report.html .\testCases\ --browser  %BROWSER%
+
 cmd /k
