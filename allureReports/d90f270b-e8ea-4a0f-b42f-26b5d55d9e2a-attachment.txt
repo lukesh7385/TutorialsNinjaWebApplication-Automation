@@ -1,0 +1,10 @@
+[32mINFO    [0m Test_004_Forgot_Password:test_forgot_password.py:97 ***************** Test Forgot Password 004 Is Start *****************
+[32mINFO    [0m Test_004_Forgot_Password:test_forgot_password.py:102 clicking on my account
+[32mINFO    [0m Test_004_Forgot_Password:test_forgot_password.py:104 clicking on login link
+[32mINFO    [0m Test_004_Forgot_Password:test_forgot_password.py:107 clicking on forgot password link
+[32mINFO    [0m Test_004_Forgot_Password:test_forgot_password.py:109 Clicking on continue button
+[32mINFO    [0m Test_004_Forgot_Password:test_forgot_password.py:110 ************* Verifying Test Forgot Password 004 **************
+[32mINFO    [0m Test_004_Forgot_Password:test_forgot_password.py:114 *********** Test Forgot Password 004 Is Passed *********
+[33mWARNING [0m urllib3.connectionpool:connectionpool.py:868 Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002408E9C1590>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/9818aa6f848fced28a8761fb2c052bb0
+[33mWARNING [0m urllib3.connectionpool:connectionpool.py:868 Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002408E9C3350>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/9818aa6f848fced28a8761fb2c052bb0
+[33mWARNING [0m urllib3.connectionpool:connectionpool.py:868 Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002408E832140>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/9818aa6f848fced28a8761fb2c052bb0
