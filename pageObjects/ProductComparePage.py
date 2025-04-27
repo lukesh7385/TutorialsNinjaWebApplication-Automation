@@ -30,7 +30,7 @@ class ProductComparePage:
 
     def click_on_product_comparison_link(self):
         product_comparison_link = WebDriverWait(self.driver, 20, poll_frequency=5).until(
-            EC.element_to_be_clickable((By.PARTIAL_LINK_TEXT, "product comparison"))
+            EC.element_to_be_clickable((By.LINK_TEXT, "product comparison"))
         )
         product_comparison_link.click()
 
