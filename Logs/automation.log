@@ -15073,3 +15073,23 @@ rt ************
 04/27/2025 02:29:45 PM |      INFO | test_search.py:137 | ************ Test Search Functionality 005 is Passed *************
 04/27/2025 02:29:45 PM |      INFO | test_search.py:137 | ************ Test Search Functionality 005 is Passed *************
 04/27/2025 02:29:45 PM |      INFO | test_search.py:142 | **************** End Of Test Search Functionality 005 ******************
+04/27/2025 03:08:30 PM |      INFO | test_search.py:124 | ****************** Test Search Functionality 005 Is Started ***************
+04/27/2025 03:08:31 PM |      INFO | test_search.py:126 | Navigating to the base URL
+04/27/2025 03:08:31 PM |      INFO | test_search.py:129 | Entering the search text 'Mac' 
+04/27/2025 03:08:32 PM |      INFO | test_search.py:131 | Clicking on search button
+04/27/2025 03:08:32 PM |      INFO | test_search.py:132 | *************** Verifying Test Search Functionality 005 ****************
+04/27/2025 03:08:32 PM |      INFO | test_search.py:138 | ************ Test Search Functionality 005 is Passed *************
+04/27/2025 03:08:32 PM |      INFO | test_search.py:144 | **************** End Of Test Search Functionality 005 ******************
+04/27/2025 03:09:33 PM |      INFO | test_search.py:124 | ****************** Test Search Functionality 005 Is Started ***************
+04/27/2025 03:09:35 PM |      INFO | test_search.py:126 | Navigating to the base URL
+04/27/2025 03:09:36 PM |      INFO | test_search.py:129 | Entering the search text 'Mac' 
+04/27/2025 03:09:37 PM |      INFO | test_search.py:131 | Clicking on search button
+04/27/2025 03:09:37 PM |      INFO | test_search.py:132 | *************** Verifying Test Search Functionality 005 ****************
+04/27/2025 03:09:37 PM |     ERROR | test_search.py:140 | ************ Test Search Functionality 005 is Failed *************
+04/27/2025 03:12:41 PM |      INFO | test_search.py:124 | ****************** Test Search Functionality 005 Is Started ***************
+04/27/2025 03:12:45 PM |      INFO | test_search.py:126 | Navigating to the base URL
+04/27/2025 03:12:45 PM |      INFO | test_search.py:129 | Entering the search text 'Mac' 
+04/27/2025 03:12:45 PM |      INFO | test_search.py:131 | Clicking on search button
+04/27/2025 03:12:45 PM |      INFO | test_search.py:132 | *************** Verifying Test Search Functionality 005 ****************
+04/27/2025 03:12:45 PM |      INFO | test_search.py:138 | ************ Test Search Functionality 005 is Passed *************
+04/27/2025 03:12:45 PM |      INFO | test_search.py:143 | **************** End Of Test Search Functionality 005 ******************
