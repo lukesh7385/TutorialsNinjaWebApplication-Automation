@@ -40,7 +40,7 @@ class ProductComparePage:
     def click_on_grid_view_button(self):
         self.driver.find_element(*ProductComparePage.btnGridView).click()
 
-    def compare_this_product_option_available_on_the_product(self):
+    def click_on_compare_this_product_option_available_on_the_product(self):
         self.driver.find_element(*ProductComparePage.compareThisProductOptionOnProduct).click()
 
     def hover_on_desktops_option(self):
