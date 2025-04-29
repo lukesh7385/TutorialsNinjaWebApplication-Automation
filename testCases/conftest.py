@@ -136,7 +136,7 @@ def pytest_html_report_title(report):
     """
     Customizes the HTML report title.
     """
-    report.title = "TutorialsNinja Web Application - Automation HTML Reports"
+    report.title = "TutorialsNinja Web Application - Test Automation HTML Reports"
 
 
 def pytest_configure(config):
@@ -147,6 +147,7 @@ def pytest_configure(config):
     config.stash[metadata_key]["Project Name"] = "TutorialsNinja Web Application - Automation"
     config.stash[metadata_key]["Module Name"] = "Register, Login, Logout, Forgot Password, Search, Product Compare"
     config.stash[metadata_key]["Tester Name"] = "Lukesh Ade"
+
 
 
 @pytest.hookimpl(optionalhook=True)

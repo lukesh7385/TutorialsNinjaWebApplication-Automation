@@ -257,6 +257,44 @@ class Test_006_Product_Compare:
         self.driver.quit()
         self.logger.info("********************* End Test Product Compare 006 *************************")
 
+    @pytest.mark.sanity
+    def test_product_compare_007(self, setup):
+        self.driver = setup
+        self.logger.info("******************* Test Product Compare 007 Is Start ********************")
+        self.driver.get(self.baseURL)
+        self.logger.info("Navigating to the base url")
+        self.logger.info("*************** Verifying Test Product Compare 007 ****************")
+        self.pc = ProductComparePage(self.driver)
+        self.tooltip_text = self.driver.find_element(By.XPATH,
+                                                     "//div[@id='content']//div[1]//div[1]//div[3]//button[3]")
+        if self.tooltip_text.get_attribute("data-original-title") == "Compare this Product":
+            self.pc.click_on_compare_this_option_of_product_displayed_in_the_featured_section_of_home_page()
+            self.logger.info(
+                "clicking on compare this product option available on the Product that is displayed in the Product Category page")
+            time.sleep(1)
+            if self.pc.success_message().__contains__('Success: You have added MacBook to your product comparison!'):
+                self.pc.click_on_product_comparison_link()
+                self.logger.info("clicking on product comparison link")
+                if self.driver.title == "Product Comparison":
+                    assert True
+                    self.logger.info("*********** Test Product Compare 007 is Passed ***********")
+                else:
+                    self.logger.info(f"{self.driver.title}")
+                    self.logger.error("********** Test Product Compare 007 is Failed ***********")
+                    assert False
+            else:
+                self.logger.info(f"{self.pc.success_message()}")
+                self.logger.error("********** Test Product Compare 007 is Failed ***********")
+                assert False
+        else:
+            self.logger.info(f"{self.tooltip_text.get_attribute("data-original-title")}")
+            self.logger.error("********** Test Product Compare 007 is Failed ***********")
+            assert False
+        self.driver.quit()
+        self.logger.info("********************* End Test Product Compare 007 *************************")
+
+
+
 
 
 
