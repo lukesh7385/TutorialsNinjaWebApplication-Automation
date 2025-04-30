@@ -1,14 +1,11 @@
 import time
-
 import pytest
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.by import By
-
 from pageObjects.ProductComparePage import ProductComparePage
 from pageObjects.SearchPage import SearchPage
 from utilities.customLogger import LogGen
 from utilities.readProperties import ReadConfig
-
 
 @pytest.mark.usefixtures('setup', 'log_on_failure')
 class Test_006_Product_Compare:
