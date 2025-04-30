@@ -14,6 +14,7 @@ class ProductComparePage:
     desktopsOption = (By.LINK_TEXT, "Desktops")
     showAllDesktopsOption = (By.XPATH, "//a[normalize-space()='Show AllDesktops']")
     compareThisProductOptionOnHomePage = (By.XPATH, "//div[@id='content']//div[1]//div[1]//div[3]//button[3]")
+    productCompareLinkOnSearchResultPage = (By.LINK_TEXT, "Product Compare (0)")
 
 
     def __init__(self, driver):
@@ -52,5 +53,8 @@ class ProductComparePage:
 
     def click_on_compare_this_option_of_product_displayed_in_the_featured_section_of_home_page(self):
         self.driver.find_element(*ProductComparePage.compareThisProductOptionOnHomePage).click()
+
+    def click_on_product_compare_link_on_search_result_page(self):
+        self.driver.find_element(*ProductComparePage.productCompareLinkOnSearchResultPage).click()
 
 

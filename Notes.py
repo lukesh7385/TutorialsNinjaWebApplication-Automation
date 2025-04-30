@@ -259,3 +259,19 @@ Parallel Execution for Efficiency: If you have numerous failed test cases, you c
     Here, -n 4 distributes the tests across four cores.
 
 """
+
+# How to block warnings
+"""
+Command-line option
+    pytest -p no:warnings
+    
+Modifying pytest.ini
+    [pytest]
+    filterwarnings =
+        ignore::UserWarning
+
+Using Python warnings module in test files:
+    import warnings
+    warnings.filterwarnings("ignore")
+
+"""

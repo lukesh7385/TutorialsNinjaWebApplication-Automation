@@ -293,6 +293,79 @@ class Test_006_Product_Compare:
         self.driver.quit()
         self.logger.info("********************* End Test Product Compare 007 *************************")
 
+    @pytest.mark.sanity
+    def test_product_compare_008(self, setup):
+        self.driver = setup
+        self.logger.info("******************** Test Product Compare 008 Is Start ********************")
+        self.driver.get(self.baseURL)
+        self.logger.info("Navigating to the base url")
+        self.sf = SearchPage(self.driver)
+        self.sf.search_product("iMac")
+        self.logger.info("Entering iMac product to search")
+        self.sf.click_on_search_button()
+        self.logger.info("Clicking on search button")
+        self.pc = ProductComparePage(self.driver)
+        self.pc.click_on_product_compare_link_on_search_result_page()
+        self.logger.info("Clicking on product compare link on search result page")
+        self.logger.info("*************** Verifying Test Product Compare 008 ***************")
+        if self.driver.title == "Product Comparison":
+            assert True
+            self.logger.info("************ Test Product Compare 008 Is Passed ***********")
+        else:
+            self.logger.error("************ Test Product Compare 008 Is Failed ***********")
+            assert False
+        self.driver.quit()
+        self.logger.info("********************** End of Test Product Compare 008 ***********************")
+
+    @pytest.mark.sanity
+    def test_product_compare_009(self, setup):
+        self.driver = setup
+        self.logger.info("******************** Test Product Compare 009 Is Start ********************")
+        self.driver.get(self.baseURL)
+        self.logger.info("Navigating to the base url")
+        self.pc = ProductComparePage(self.driver)
+        act = ActionChains(self.driver)
+        act.move_to_element(self.pc.hover_on_desktops_option()).move_to_element(
+            self.pc.clicking_on_show_all_desktops_option()).click().perform()
+        self.logger.info("Hovering mouse on desktop option and Clicking on show all desktop option")
+        self.pc.click_on_product_compare_link_on_search_result_page()
+        self.logger.info("Clicking on product compare link on search result page")
+        self.logger.info("******************* Verifying Test Product Compare 009 *********************")
+        if self.driver.title == "Product Comparison":
+            assert True
+            self.logger.info("*********** Test Product Compare 009 Is Passed ***********")
+        else:
+            self.logger.error("*********** Test Product Compare 009 Is Failed ***********")
+            assert False
+        self.driver.quit()
+        self.logger.info("*********************** End Of Test Product Compare 009 *************************")
+
+    @pytest.mark.sanity
+    def test_product_compare_010(self, setup):
+        self.driver = setup
+        self.logger.info("******************** Test Product Compare 010 Is Start ********************")
+        self.driver.get(self.baseURL)
+        self.logger.info("Navigating to the base url")
+        self.pc = ProductComparePage(self.driver)
+        act = ActionChains(self.driver)
+        act.move_to_element(self.pc.hover_on_desktops_option()).move_to_element(
+            self.pc.clicking_on_show_all_desktops_option()).click().perform()
+        self.logger.info("Hovering mouse on desktop option and Clicking on show all desktop option")
+        self.pc.click_on_product_compare_link_on_search_result_page()
+        self.logger.info("Clicking on product compare link on search result page")
+        self.logger.info("******************* Verifying Test Product Compare 010 *********************")
+        self.textMessage = self.driver.find_element(By.XPATH, "//p[normalize-space()='You have not chosen any products to compare.']").text
+        if self.textMessage == "You have not chosen any products to compare.":
+            assert True
+            self.logger.info("********** Test Product Compare 010 is Passed **********")
+        else:
+            self.logger.info("********** Test Product Compare 010 is Failed **********")
+            assert False
+        self.driver.quit()
+        self.logger.info("******************** End Test Product Compare 010 ************************")
+
+
+
 
 
 
