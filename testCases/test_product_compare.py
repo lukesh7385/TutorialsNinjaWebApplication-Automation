@@ -2,6 +2,8 @@ import time
 import pytest
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support.wait import WebDriverWait
+
 from pageObjects.ProductComparePage import ProductComparePage
 from pageObjects.SearchPage import SearchPage
 from utilities.customLogger import LogGen
@@ -404,6 +406,7 @@ class Test_006_Product_Compare:
         if self.driver.title == "Product Comparison":
             self.pc.click_on_home_page_link_on_breadcrumb()
             self.logger.info("Clicking on the home page link available on the breadcrumb")
+            WebDriverWait(self.driver, 10, poll_frequency=2).until(lambda driver: "Your Store" in driver.title)
             if self.driver.title == "Your Store":
                 assert True
                 self.logger.error("********** Test Product Compare 012 Is Passed **********")
