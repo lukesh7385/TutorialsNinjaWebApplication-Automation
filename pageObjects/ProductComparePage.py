@@ -15,6 +15,8 @@ class ProductComparePage:
     showAllDesktopsOption = (By.XPATH, "//a[normalize-space()='Show AllDesktops']")
     compareThisProductOptionOnHomePage = (By.XPATH, "//div[@id='content']//div[1]//div[1]//div[3]//button[3]")
     productCompareLinkOnSearchResultPage = (By.LINK_TEXT, "Product Compare (0)")
+    btnContinue = (By.LINK_TEXT, "Continue")
+    homePageLink = (By.XPATH, "/html/body/div[2]/ul/li[1]/a")
 
 
     def __init__(self, driver):
@@ -56,5 +58,17 @@ class ProductComparePage:
 
     def click_on_product_compare_link_on_search_result_page(self):
         self.driver.find_element(*ProductComparePage.productCompareLinkOnSearchResultPage).click()
+
+    def click_on_continue_button(self):
+        self.driver.find_element(*ProductComparePage.btnContinue).click()
+
+    def click_on_home_page_link_on_breadcrumb(self):
+        element = WebDriverWait(self.driver, 10, poll_frequency=2).until(
+            EC.element_to_be_clickable(self.homePageLink)
+        )
+        self.driver.execute_script("arguments[0].scrollIntoView();", element)
+        element.click()
+
+
 
 

@@ -361,6 +361,65 @@ class Test_006_Product_Compare:
         self.driver.quit()
         self.logger.info("******************** End Test Product Compare 010 ************************")
 
+    @pytest.mark.sanity
+    def test_product_compare_011(self, setup):
+        self.driver = setup
+        self.logger.info("************************** Test Product Compare 011 Is Start **************************")
+        self.driver.get(self.baseURL)
+        self.logger.info("Navigating to the base url")
+        self.pc = ProductComparePage(self.driver)
+        act = ActionChains(self.driver)
+        act.move_to_element(self.pc.hover_on_desktops_option()).move_to_element(
+            self.pc.clicking_on_show_all_desktops_option()).click().perform()
+        self.logger.info("Hovering on the desktop option and clicking on the show all desktop option")
+        self.pc.click_on_product_compare_link_on_search_result_page()
+        self.logger.info("Clicking on the product compare link on search result page")
+        self.pc.click_on_continue_button()
+        self.logger.info("Clicking on the Continue button")
+        self.logger.info("********************** Verifying Test Product Compare 011 **************************")
+        if self.driver.title == "Your Store":
+            assert True
+            self.logger.info("*********** Test Product Compare 011 Is Passed ***********")
+        else:
+            self.logger.error("************ Test Product Compare 011 Is Failed *************")
+            assert False
+        self.driver.quit()
+        self.logger.info("*********************** End Test Product Compare 011 ***********************")
+
+    @pytest.mark.sanity
+    def test_product_compare_012(self, setup):
+        self.driver = setup
+        self.logger.info("************************ Test Product Compare 012 Is Start **************************")
+        self.driver.get(self.baseURL)
+        self.logger.info("Navigating to the base url")
+        self.pc = ProductComparePage(self.driver)
+        act = ActionChains(self.driver)
+        act.move_to_element(self.pc.hover_on_desktops_option()).move_to_element(
+            self.pc.clicking_on_show_all_desktops_option()
+        ).click().perform()
+        self.logger.info("Hovering on the desktop option and Clicking on the show all desktop option")
+        self.pc.click_on_product_compare_link_on_search_result_page()
+        self.logger.info("Clicking on the product compare link on the search result page")
+        self.logger.info("************************* Verifying Test Product Compare 012 ****************************")
+        if self.driver.title == "Product Comparison":
+            self.pc.click_on_home_page_link_on_breadcrumb()
+            self.logger.info("Clicking on the home page link available on the breadcrumb")
+            if self.driver.title == "Your Store":
+                assert True
+                self.logger.error("********** Test Product Compare 012 Is Passed **********")
+            else:
+                self.logger.error("********** Test Product Compare 012 Is Failed **********")
+                assert False
+        else:
+            self.logger.info("********** Test Product Compare 012 Is Failed **********")
+            assert False
+        self.driver.quit()
+        self.logger.info("************************ End Of Test Product Compare 012 **************************")
+
+
+
+
+
 
 
 
