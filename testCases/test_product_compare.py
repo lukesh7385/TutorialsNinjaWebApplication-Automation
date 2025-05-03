@@ -4,7 +4,6 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
-
 from pageObjects.ProductComparePage import ProductComparePage
 from pageObjects.SearchPage import SearchPage
 from utilities.customLogger import LogGen
@@ -460,6 +459,72 @@ class Test_006_Product_Compare:
             assert False
         self.driver.quit()
         self.logger.info("**************************** End Test Product Compare 013 ***************************")
+
+    @pytest.mark.sanity
+    def test_product_compare_014(self, setup):
+        self.driver = setup
+        self.logger.info("*************************** Test Product Compare 014 is Start **************************")
+        self.driver.get(self.baseURL)
+        self.logger.info("Navigating to the base url")
+        self.sf = SearchPage(self.driver)
+        self.sf.search_product("iMac")
+        self.logger.info("Entering iMac product to search")
+        self.sf.click_on_search_button()
+        self.logger.info("Clicking on search button")
+        self.pc = ProductComparePage(self.driver)
+        self.pc.click_on_imac_product()
+        self.logger.info("Clicking on product displayed in the search result")
+        self.pc.click_on_compare_this_product_option()
+        self.logger.info("Clicking on compare this product option")
+        self.pc.click_on_product_comparison_link()
+        self.logger.info("Clicking on the product comparison link")
+        self.logger.info("*************************** Verifying Test Product Compare 014 **************************")
+        self.productName = self.driver.find_element(By.LINK_TEXT, 'iMac').text
+        self.productPrice = self.driver.find_element(By.XPATH, "//td[normalize-space()='$122.00']").text
+        self.productModel = self.driver.find_element(By.XPATH, "//td[normalize-space()='Product 14']").text
+        self.productBrand = self.driver.find_element(By.XPATH, "//td[normalize-space()='Apple']").text
+        self.productWeight = self.driver.find_element(By.XPATH, "//td[normalize-space()='5.00kg']").text
+        self.addToCartButton = self.driver.find_element(By.XPATH, "//tbody[2]/tr[1]/td[1]")
+        self.removeButton = self.driver.find_element(By.XPATH, "//a[normalize-space()='Remove']")
+
+        if self.productName == 'iMac':
+            if self.productPrice == '$122.00':
+                if self.productModel == 'Product 14':
+                    if self.productBrand == 'Apple':
+                        if self.productWeight == '5.00kg':
+                            if self.addToCartButton.is_displayed():
+                                if self.removeButton.is_displayed():
+                                    assert True
+                                else:
+                                    self.logger.info("************ Test Product Compare 014 is Failed ***********")
+                                    assert False
+                            else:
+                                self.logger.info("************ Test Product Compare 014 is Failed ***********")
+                                assert False
+                            self.logger.info("************ Test Product Compare 014 is Passed ***********")
+                        else:
+                            self.logger.info("************ Test Product Compare 014 is Failed ***********")
+                            assert False
+                    else:
+                        self.logger.info("************ Test Product Compare 014 is Failed ***********")
+                        assert False
+                else:
+                    self.logger.info("************ Test Product Compare 014 is Failed ***********")
+                    assert False
+            else:
+                self.logger.info("************ Test Product Compare 014 is Failed ***********")
+                assert False
+        else:
+            self.logger.info("************ Test Product Compare 014 is Failed ***********")
+            assert False
+        time.sleep(1)
+        self.driver.quit()
+        self.logger.info("*************************** End Test Product Compare 014 **************************")
+
+
+
+
+
 
 
 

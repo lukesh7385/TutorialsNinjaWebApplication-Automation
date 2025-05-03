@@ -19740,3 +19740,53 @@ rt ************
 05/04/2025 01:13:30 AM |      INFO | test_product_compare.py:447 | Clicking on the product comparison link
 05/04/2025 01:13:30 AM |      INFO | test_product_compare.py:451 | ********** Test Product Compare 013 is Passed *********
 05/04/2025 01:13:32 AM |      INFO | test_product_compare.py:462 | **************************** End Test Product Compare 013 ***************************
+05/04/2025 01:54:47 AM |      INFO | test_product_compare.py:466 | *************************** Test Product Compare 014 is Start **************************
+05/04/2025 01:54:48 AM |      INFO | test_product_compare.py:468 | Navigating to the base url
+05/04/2025 01:54:49 AM |      INFO | test_product_compare.py:471 | Entering iMac product to search
+05/04/2025 01:54:49 AM |      INFO | test_product_compare.py:473 | Clicking on search button
+05/04/2025 01:54:50 AM |      INFO | test_product_compare.py:476 | Clicking on product displayed in the search result
+05/04/2025 01:54:50 AM |      INFO | test_product_compare.py:478 | Clicking on compare this product option
+05/04/2025 01:54:50 AM |      INFO | test_product_compare.py:480 | Clicking on the product comparison link
+05/04/2025 01:54:50 AM |      INFO | test_product_compare.py:481 | *************************** Verifying Test Product Compare 014 **************************
+05/04/2025 01:54:51 AM |      INFO | test_product_compare.py:496 | ************ Test Product Compare 014 is Passed ***********
+05/04/2025 01:54:53 AM |      INFO | test_product_compare.py:513 | *************************** End Test Product Compare 014 **************************
+05/04/2025 01:58:49 AM |      INFO | test_product_compare.py:466 | *************************** Test Product Compare 014 is Start **************************
+05/04/2025 01:58:52 AM |      INFO | test_product_compare.py:468 | Navigating to the base url
+05/04/2025 01:58:52 AM |      INFO | test_product_compare.py:471 | Entering iMac product to search
+05/04/2025 01:58:52 AM |      INFO | test_product_compare.py:473 | Clicking on search button
+05/04/2025 01:58:53 AM |      INFO | test_product_compare.py:476 | Clicking on product displayed in the search result
+05/04/2025 01:58:53 AM |      INFO | test_product_compare.py:478 | Clicking on compare this product option
+05/04/2025 01:58:54 AM |      INFO | test_product_compare.py:480 | Clicking on the product comparison link
+05/04/2025 01:58:54 AM |      INFO | test_product_compare.py:481 | *************************** Verifying Test Product Compare 014 **************************
+05/04/2025 01:58:54 AM |      INFO | test_product_compare.py:504 | ************ Test Product Compare 014 is Passed ***********
+05/04/2025 01:58:56 AM |      INFO | test_product_compare.py:521 | *************************** End Test Product Compare 014 **************************
+05/04/2025 01:59:39 AM |      INFO | test_product_compare.py:466 | *************************** Test Product Compare 014 is Start **************************
+05/04/2025 01:59:42 AM |      INFO | test_product_compare.py:468 | Navigating to the base url
+05/04/2025 01:59:42 AM |      INFO | test_product_compare.py:471 | Entering iMac product to search
+05/04/2025 01:59:43 AM |      INFO | test_product_compare.py:473 | Clicking on search button
+05/04/2025 01:59:44 AM |      INFO | test_product_compare.py:476 | Clicking on product displayed in the search result
+05/04/2025 01:59:44 AM |      INFO | test_product_compare.py:478 | Clicking on compare this product option
+05/04/2025 01:59:44 AM |      INFO | test_product_compare.py:480 | Clicking on the product comparison link
+05/04/2025 01:59:44 AM |      INFO | test_product_compare.py:481 | *************************** Verifying Test Product Compare 014 **************************
+05/04/2025 01:59:44 AM |      INFO | test_product_compare.py:504 | ************ Test Product Compare 014 is Passed ***********
+05/04/2025 01:59:52 AM |      INFO | test_product_compare.py:522 | *************************** End Test Product Compare 014 **************************
+05/04/2025 02:00:36 AM |      INFO | test_product_compare.py:466 | *************************** Test Product Compare 014 is Start **************************
+05/04/2025 02:00:38 AM |      INFO | test_product_compare.py:468 | Navigating to the base url
+05/04/2025 02:00:38 AM |      INFO | test_product_compare.py:471 | Entering iMac product to search
+05/04/2025 02:00:39 AM |      INFO | test_product_compare.py:473 | Clicking on search button
+05/04/2025 02:00:39 AM |      INFO | test_product_compare.py:476 | Clicking on product displayed in the search result
+05/04/2025 02:00:39 AM |      INFO | test_product_compare.py:478 | Clicking on compare this product option
+05/04/2025 02:00:40 AM |      INFO | test_product_compare.py:480 | Clicking on the product comparison link
+05/04/2025 02:00:40 AM |      INFO | test_product_compare.py:481 | *************************** Verifying Test Product Compare 014 **************************
+05/04/2025 02:00:40 AM |      INFO | test_product_compare.py:504 | ************ Test Product Compare 014 is Passed ***********
+05/04/2025 02:00:42 AM |      INFO | test_product_compare.py:522 | *************************** End Test Product Compare 014 **************************
+05/04/2025 02:01:08 AM |      INFO | test_product_compare.py:466 | *************************** Test Product Compare 014 is Start **************************
+05/04/2025 02:01:10 AM |      INFO | test_product_compare.py:468 | Navigating to the base url
+05/04/2025 02:01:10 AM |      INFO | test_product_compare.py:471 | Entering iMac product to search
+05/04/2025 02:01:10 AM |      INFO | test_product_compare.py:473 | Clicking on search button
+05/04/2025 02:01:11 AM |      INFO | test_product_compare.py:476 | Clicking on product displayed in the search result
+05/04/2025 02:01:11 AM |      INFO | test_product_compare.py:478 | Clicking on compare this product option
+05/04/2025 02:01:12 AM |      INFO | test_product_compare.py:480 | Clicking on the product comparison link
+05/04/2025 02:01:12 AM |      INFO | test_product_compare.py:481 | *************************** Verifying Test Product Compare 014 **************************
+05/04/2025 02:01:12 AM |      INFO | test_product_compare.py:504 | ************ Test Product Compare 014 is Passed ***********
+05/04/2025 02:01:15 AM |      INFO | test_product_compare.py:522 | *************************** End Test Product Compare 014 **************************
