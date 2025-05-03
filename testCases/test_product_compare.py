@@ -1,5 +1,6 @@
 import time
 import pytest
+from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
@@ -418,6 +419,54 @@ class Test_006_Product_Compare:
             assert False
         self.driver.quit()
         self.logger.info("************************ End Of Test Product Compare 012 **************************")
+
+    @pytest.mark.sanity
+    def test_product_compare_013(self, setup):
+        self.driver = setup
+        self.logger.info("**************************** Test Product Compare 013 ***************************")
+        self.driver.get(self.baseURL)
+        self.logger.info("Navigating to the base url")
+        self.sf = SearchPage(self.driver)
+        self.sf.search_product("iMac")
+        self.logger.info("Entering product iMac to the search")
+        self.sf.click_on_search_button()
+        self.logger.info("Clicking on search button")
+        self.pc = ProductComparePage(self.driver)
+        self.pc.click_on_imac_product()
+        self.logger.info("Clicking on product displayed in the search result")
+        self.pc.click_on_compare_this_product_option()
+        self.logger.info("Clicking on the compare this product option")
+        self.logger.info("********************** Verifying Test Product Compare 013 ************************")
+        if self.pc.success_message().__contains__("Success: You have added iMac to your product comparison!"):
+            self.pc.click_on_imac_product_on_success_message()
+            WebDriverWait(self.driver, 10, poll_frequency=2).until(EC.title_is("iMac"))
+            if self.driver.title == "iMac":
+                self.pc.click_on_compare_this_product_option()
+                self.logger.info("Clicking on the compare this product option")
+                self.pc.click_on_product_comparison_link()
+                self.logger.info("Clicking on the product comparison link")
+                WebDriverWait(self.driver, 10, poll_frequency=2).until(EC.title_is("Product Comparison"))
+                if self.driver.title == "Product Comparison":
+                    assert True
+                    self.logger.info("********** Test Product Compare 013 is Passed *********")
+                else:
+                    self.logger.error("********** Test Product Compare 013 is Failed *********")
+                    assert False
+            else:
+                self.logger.error("********** Test Product Compare 013 is Failed *********")
+                assert False
+        else:
+            self.logger.error("********** Test Product Compare 013 is Failed *********")
+            assert False
+        self.driver.quit()
+        self.logger.info("**************************** End Test Product Compare 013 ***************************")
+
+
+
+
+
+
+
 
 
 

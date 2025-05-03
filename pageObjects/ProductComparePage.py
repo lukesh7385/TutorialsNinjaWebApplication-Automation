@@ -8,7 +8,7 @@ class ProductComparePage:
     compareThisProductOption = (By.XPATH, "/html/body/div[2]/div/div/div[1]/div[2]/div[1]/button[2]")
     compareThisProductOptionOnProduct = (By.XPATH, "//button[3][contains(@data-original-title,'Compare this Product')]")
     successMessage = (By.XPATH, "//div[@class='alert alert-success alert-dismissible']")
-    linkProductComparison = (By.XPATH, "//a[2]")
+    linkProductComparison = (By.XPATH, "//a[normalize-space()='product comparison']")
     btnListView = (By.XPATH, "//i[@class='fa fa-th-list']")
     btnGridView = (By.XPATH, "//button[@id='grid-view']")
     desktopsOption = (By.LINK_TEXT, "Desktops")
@@ -17,6 +17,9 @@ class ProductComparePage:
     productCompareLinkOnSearchResultPage = (By.LINK_TEXT, "Product Compare (0)")
     btnContinue = (By.LINK_TEXT, "Continue")
     homePageLink = (By.XPATH, "/html/body/div[2]/ul/li[1]/a")
+    iMacProductLinkOnSuccessMessage = (By.LINK_TEXT, "iMac")
+
+
 
 
     def __init__(self, driver):
@@ -26,7 +29,10 @@ class ProductComparePage:
         self.driver.find_element(*ProductComparePage.iMacProduct).click()
 
     def click_on_compare_this_product_option(self):
-        self.driver.find_element(*ProductComparePage.compareThisProductOption).click()
+        compare_this_product_option = WebDriverWait(self.driver, 10).until(
+            EC.element_to_be_clickable(self.compareThisProductOption)
+        )
+        compare_this_product_option.click()
 
     def success_message(self):
         success_message = self.driver.find_element(*ProductComparePage.successMessage).text
@@ -36,7 +42,7 @@ class ProductComparePage:
         product_comparison_link = WebDriverWait(self.driver, 10, poll_frequency=2).until(
             EC.element_to_be_clickable(self.linkProductComparison)
         )
-        product_comparison_link.click()
+        self.driver.execute_script("arguments[0].click();", product_comparison_link)
 
     def click_on_list_view_button(self):
         self.driver.find_element(*ProductComparePage.btnListView).click()
@@ -67,6 +73,13 @@ class ProductComparePage:
             EC.element_to_be_clickable(self.homePageLink)
         )
         self.driver.execute_script("arguments[0].click();", element)
+
+    def click_on_imac_product_on_success_message(self):
+        element = WebDriverWait(self.driver, 10, poll_frequency=2).until(
+            EC.element_to_be_clickable(self.iMacProductLinkOnSuccessMessage)
+        )
+        self.driver.execute_script("arguments[0].click();", element)
+
 
 
 
