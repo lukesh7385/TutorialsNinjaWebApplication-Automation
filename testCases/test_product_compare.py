@@ -484,15 +484,14 @@ class Test_006_Product_Compare:
         self.productModel = self.driver.find_element(By.XPATH, "//td[normalize-space()='Product 14']").text
         self.productBrand = self.driver.find_element(By.XPATH, "//td[normalize-space()='Apple']").text
         self.productWeight = self.driver.find_element(By.XPATH, "//td[normalize-space()='5.00kg']").text
-        self.addToCartButton = self.driver.find_element(By.XPATH, "//tbody[2]/tr[1]/td[1]")
         self.removeButton = self.driver.find_element(By.XPATH, "//a[normalize-space()='Remove']")
         if self.productName == 'iMac':
             if self.productPrice == '$122.00':
                 if self.productModel == 'Product 14':
                     if self.productBrand == 'Apple':
                         if self.productWeight == '5.00kg':
-                            if self.addToCartButton.is_displayed():
-                                if self.removeButton.is_displayed():
+                            if self.pc.add_to_cart_button().is_displayed():
+                                if self.pc.remove_button().is_displayed():
                                     assert True
                                 else:
                                     self.logger.info("************ Test Product Compare 014 is Failed ***********")
@@ -564,14 +563,85 @@ class Test_006_Product_Compare:
 
         if l1 == expected_values:
             print("expected list: ", l1)
-            self.logger.info("********* Test Product Compare 015 is Passed *********")
-            assert True
+            if self.pc.add_to_cart_button().is_displayed():
+                if self.pc.remove_button().is_displayed():
+                    self.logger.info("********* Test Product Compare 015 is Passed *********")
+                    assert True
+                else:
+                    self.logger.info("********* Test Product Compare 015 is Failed *********")
+            else:
+                self.logger.info("********* Test Product Compare 015 is Failed *********")
         else:
             print(f"Mismatch: {l1}")
             self.logger.info("********* Test Product Compare 015 is Failed *********")
             assert False
         self.driver.quit()
         self.logger.info("*************************** End Test Product Compare 015 *****************************")
+
+    @pytest.mark.sanity
+    def test_product_compare_016(self, setup):
+        self.driver = setup
+        self.logger.info("************************** Test Product Compare 016 is Start **************************")
+        self.driver.get(self.baseURL)
+        self.logger.info("Navigating to the base url")
+        self.sf = SearchPage(self.driver)
+        self.sf.search_product("iMac")
+        self.logger.info("Entering the iMac product to the search")
+        self.sf.click_on_search_button()
+        self.logger.info("Clicking on the search button")
+        self.pc = ProductComparePage(self.driver)
+        self.pc.click_on_compare_this_product_option_available_on_the_product()
+        self.logger.info("Clicking on the compare this product option")
+        self.sf.search_product("iMac")
+        self.logger.info("Entering the iMac product to the search")
+        self.sf.click_on_search_button()
+        self.logger.info("Clicking on the search button")
+        self.pc.click_on_compare_this_product_option_available_on_the_product()
+        self.logger.info("Clicking on the compare this product option")
+        self.pc.click_on_product_comparison_link()
+        self.logger.info("Clicking on the product comparison link")
+        self.logger.info("************************** Verifying Test Product Compare 016 **************************")
+        self.cols = len(self.driver.find_elements(By.XPATH, "//table/tbody[1]/tr[1]/td"))
+        self.rows = len(self.driver.find_elements(By.XPATH, "//table/tbody[1]/tr"))
+        l1 = []
+        valid_entries =["iMac", "$122.00", "Product 14", "Apple"] # Define valid entries
+
+        for r in range(1, self.rows + 1):
+            for c in range(2, self.cols + 1):  # Ensure column indexing consistency
+                xpath = f"//tbody[1]/tr[{r}]/td[{c}]"
+                self.data = self.driver.find_element(By.XPATH, xpath)
+
+                # Append only the valid text (filter out extra info)
+                if self.data.text.strip() in valid_entries:
+                    l1.append(self.data.text.strip())
+
+        expected_values = ["iMac", "$122.00", "Product 14", "Apple"]
+
+        if self.cols == 2:
+            if l1 == expected_values:
+                print("expected list: ", l1)
+                if self.pc.add_to_cart_button().is_displayed():
+                    if self.pc.remove_button().is_displayed():
+                        self.logger.info("********* Test Product Compare 016 is Passed *********")
+                        assert True
+                    else:
+                        self.logger.info("********* Test Product Compare 016 is Failed *********")
+                        assert False
+                else:
+                    self.logger.info("********* Test Product Compare 016 is Failed *********")
+                    assert False
+            else:
+                print(f"Mismatch: {l1}")
+                self.logger.info("********* Test Product Compare 016 is Failed *********")
+                assert False
+        else:
+            self.logger.info("********* Test Product Compare 016 is Failed *********")
+            assert False
+        self.driver.quit()
+        self.logger.info("*************************** End Test Product Compare 016 *****************************")
+
+
+
 
 
 

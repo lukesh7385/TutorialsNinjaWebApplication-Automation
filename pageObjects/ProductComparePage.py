@@ -18,6 +18,8 @@ class ProductComparePage:
     btnContinue = (By.LINK_TEXT, "Continue")
     homePageLink = (By.XPATH, "/html/body/div[2]/ul/li[1]/a")
     iMacProductLinkOnSuccessMessage = (By.LINK_TEXT, "iMac")
+    addToCartButton = (By.XPATH, "//tbody[2]/tr[1]/td[1]")
+    removeButton = (By.XPATH, "//a[normalize-space()='Remove']")
 
 
 
@@ -79,6 +81,13 @@ class ProductComparePage:
             EC.element_to_be_clickable(self.iMacProductLinkOnSuccessMessage)
         )
         self.driver.execute_script("arguments[0].click();", element)
+
+    def add_to_cart_button(self):
+        return self.driver.find_element(*ProductComparePage.addToCartButton)
+
+    def remove_button(self):
+        return self.driver.find_element(*ProductComparePage.removeButton)
+
 
 
 
