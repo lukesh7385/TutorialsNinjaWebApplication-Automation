@@ -640,6 +640,80 @@ class Test_006_Product_Compare:
         self.driver.quit()
         self.logger.info("*************************** End Test Product Compare 016 *****************************")
 
+    @pytest.mark.sanity
+    def test_product_compare_017(self, setup):
+        self.driver = setup
+        self.logger.info("***************************** Test Product Compare is Start ***************************")
+        self.driver.get(self.baseURL)
+        self.logger.info("Navigating to the base url")
+        self.sf = SearchPage(self.driver)
+        self.sf.search_product("iMac")
+        self.logger.info("Entering iMac product to the search")
+        self.sf.click_on_search_button()
+        self.logger.info("Clicking on the search button")
+        self.pc = ProductComparePage(self.driver)
+        self.pc.click_on_compare_this_product_option_available_on_the_product()
+        self.logger.info("Clicking on the compare this option")
+        self.sf.search_product("iphone")
+        self.logger.info("Entering iMac product to the search")
+        self.sf.click_on_search_button()
+        self.logger.info("Clicking on the search button")
+        self.pc.click_on_compare_this_product_option_available_on_the_product()
+        self.logger.info("Clicking on the compare this option")
+        self.sf.search_product("MacBook Air")
+        self.logger.info("Entering iMac product to the search")
+        self.sf.click_on_search_button()
+        self.logger.info("Clicking on the search button")
+        self.pc.click_on_compare_this_product_option_available_on_the_product()
+        self.logger.info("Clicking on the compare this option")
+        self.pc.click_on_product_comparison_link()
+        self.logger.info("Clicking on the product comparison link")
+
+        self.logger.info("***************************** Verifying Test Product Compare 017 ***************************")
+
+        self.cols = len(self.driver.find_elements(By.XPATH, "//table/tbody[1]/tr[1]/td"))
+        self.rows = len(self.driver.find_elements(By.XPATH, "//table/tbody[1]/tr"))
+
+        l1 = []
+        valid_entries = ["iMac", "iPhone", "MacBook Air", "$122.00", "$123.20",
+                         "$1,202.00", "Product 14", "product 11", "Product 17", "Apple", "Apple", "Apple"]  # Define valid entries
+        time.sleep(3)
+        for r in range(1, self.rows + 1):
+            for c in range(2, self.cols + 1):  # Ensure column indexing consistency
+                xpath = f"//tbody[1]/tr[{r}]/td[{c}]"
+                self.data = self.driver.find_element(By.XPATH, xpath)
+
+                # Append only the valid text (filter out extra info)
+                if self.data.text.strip() in valid_entries:
+                    l1.append(self.data.text.strip())
+
+        expected_values = ["iMac", "iPhone", "MacBook Air", "$122.00", "$123.20",
+                         "$1,202.00", "Product 14", "product 11", "Product 17", "Apple", "Apple", "Apple"]
+
+        if self.cols == 4:
+            if l1 == expected_values:
+                print("expected list: ", l1)
+                if self.pc.add_to_cart_button().is_displayed():
+                    if self.pc.remove_button().is_displayed():
+                        self.logger.info("********* Test Product Compare 017 is Passed *********")
+                        assert True
+                    else:
+                        self.logger.info("********* Test Product Compare 017 is Failed *********")
+                        assert False
+                else:
+                    self.logger.info("********* Test Product Compare 017 is Failed *********")
+                    assert False
+            else:
+                print(f"Mismatch: {l1}")
+                self.logger.info("********* Test Product Compare 017 is Failed *********")
+                assert False
+        else:
+            self.logger.info("********* Test Product Compare 017 is Failed *********")
+            assert False
+        self.driver.quit()
+        self.logger.info("*************************** End Test Product Compare 017 *****************************")
+
+
 
 
 
