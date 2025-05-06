@@ -668,9 +668,7 @@ class Test_006_Product_Compare:
         self.logger.info("Clicking on the compare this option")
         self.pc.click_on_product_comparison_link()
         self.logger.info("Clicking on the product comparison link")
-
         self.logger.info("***************************** Verifying Test Product Compare 017 ***************************")
-
         self.cols = len(self.driver.find_elements(By.XPATH, "//table/tbody[1]/tr[1]/td"))
         self.rows = len(self.driver.find_elements(By.XPATH, "//table/tbody[1]/tr"))
 
@@ -698,17 +696,17 @@ class Test_006_Product_Compare:
                         self.logger.info("********* Test Product Compare 017 is Passed *********")
                         assert True
                     else:
-                        self.logger.info("********* Test Product Compare 017 is Failed *********")
+                        self.logger.error("********* Test Product Compare 017 is Failed *********")
                         assert False
                 else:
-                    self.logger.info("********* Test Product Compare 017 is Failed *********")
+                    self.logger.error("********* Test Product Compare 017 is Failed *********")
                     assert False
             else:
                 print(f"Mismatch: {l1}")
-                self.logger.info("********* Test Product Compare 017 is Failed *********")
+                self.logger.error("********* Test Product Compare 017 is Failed *********")
                 assert False
         else:
-            self.logger.info("********* Test Product Compare 017 is Failed *********")
+            self.logger.error("********* Test Product Compare 017 is Failed *********")
             assert False
         self.driver.quit()
         self.logger.info("*************************** End Test Product Compare 017 *****************************")
