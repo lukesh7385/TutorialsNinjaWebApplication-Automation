@@ -872,6 +872,66 @@ class Test_006_Product_Compare:
         self.driver.quit()
         self.logger.info("*************************** End Test Product Compare 019 *****************************")
 
+    @pytest.mark.sanity
+    def test_product_compare_020(self, setup):
+        self.driver = setup
+        self.logger.info("*************************** Test Product Compare 020 is Start *****************************")
+        self.driver.get(self.baseURL)
+        self.logger.info("Navigating to the base url")
+        self.sf = SearchPage(self.driver)
+        self.sf.search_product("iMac")
+        self.logger.info("Entering iMac product to search")
+        self.sf.click_on_search_button()
+        self.logger.info("Clicking on search button")
+        self.pc = ProductComparePage(self.driver)
+        self.pc.click_on_compare_this_product_option_available_on_the_product()
+        self.logger.info("Clicking on compare this product option")
+        self.sf.search_product("iphone")
+        self.logger.info("Entering iphone product to the search")
+        self.sf.click_on_search_button()
+        self.logger.info("Clicking on the search button")
+        self.pc.click_on_compare_this_product_option_available_on_the_product()
+        self.logger.info("Clicking on the compare this option")
+        self.sf.search_product("MacBook Air")
+        self.logger.info("Entering MacBook Air product to the search")
+        self.sf.click_on_search_button()
+        self.logger.info("Clicking on the search button")
+        self.pc.click_on_compare_this_product_option_available_on_the_product()
+        self.logger.info("Clicking on the compare this option")
+        self.sf.search_product("MacBook")
+        self.logger.info("Entering MacBook product to the search")
+        self.sf.click_on_search_button()
+        self.logger.info("Clicking on the search button")
+        self.pc.click_on_compare_this_product_option_available_on_the_product()
+        self.logger.info("Clicking on the compare this option")
+        self.pc.click_on_product_comparison_link()
+        self.logger.info("Clicking on product comparison link")
+        self.pc.click_on_add_to_cart_button()
+        self.logger.info("Clicking on add to cart button")
+        self.pc.click_on_shopping_cart_link()
+        self.logger.info("Clicking on shopping cart link")
+        self.logger.info("*************************** Verifying Test Product Compare 020 *****************************")
+        product_name = self.driver.find_element(By.LINK_TEXT, "iMac").text
+        try:
+            if product_name == "iMac":
+                if self.driver.title == "Shopping Cart":
+                    self.logger.info("************ Test Product Compare 020 is Passed *************")
+                    assert True
+                else:
+                    print(f"Actual title mismatch: {self.driver.title}")
+                    self.logger.info("************ Test Product Compare 020 is Failed *************")
+                    assert False
+            else:
+                self.logger.info("************ Test Product Compare 020 is Failed *************")
+                assert False
+        finally:
+            self.driver.quit()
+            self.logger.info("*************************** End Test Product Compare 020 *****************************")
+
+
+
+
+
 
 
 

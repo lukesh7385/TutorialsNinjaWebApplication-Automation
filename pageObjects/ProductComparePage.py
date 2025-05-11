@@ -20,6 +20,8 @@ class ProductComparePage:
     iMacProductLinkOnSuccessMessage = (By.LINK_TEXT, "iMac")
     addToCartButton = (By.XPATH, "//tbody[2]/tr[1]/td[1]")
     removeButton = (By.XPATH, "//a[normalize-space()='Remove']")
+    btnAddToCart = (By.XPATH, "//tbody/tr/td[2]/input[1]")
+    shoppingCartLink = (By.LINK_TEXT, "shopping cart")
 
 
 
@@ -87,6 +89,15 @@ class ProductComparePage:
 
     def remove_button(self):
         return self.driver.find_element(*ProductComparePage.removeButton)
+
+    def click_on_add_to_cart_button(self):
+       self.driver.find_element(*ProductComparePage.btnAddToCart).click()
+
+    def click_on_shopping_cart_link(self):
+        shopping_cart_link = WebDriverWait(self.driver, 10, poll_frequency=2).until(
+            EC.element_to_be_clickable(self.shoppingCartLink)
+        )
+        self.driver.execute_script("arguments[0].click();", shopping_cart_link)
 
 
 
