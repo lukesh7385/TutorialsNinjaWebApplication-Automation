@@ -1,0 +1,21 @@
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:716 ***************************** Test Product Compare 018 is Start ***************************
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:718 Navigating to the base url
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:721 Entering iMac product to the search
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:723 Clicking on the search button
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:726 Clicking on the compare this option
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:728 Entering iphone product to the search
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:730 Clicking on the search button
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:732 Clicking on the compare this option
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:734 Entering MacBook Air product to the search
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:736 Clicking on the search button
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:738 Clicking on the compare this option
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:740 Entering MacBook product to the search
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:742 Clicking on the search button
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:744 Clicking on the compare this option
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:746 Clicking on the product comparison link
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:747 ***************************** Verifying Test Product Compare 018 ***************************
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:773 ********* Test Product Compare 018 is Passed *********
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:789 *************************** End Test Product Compare 018 *****************************
+[33mWARNING [0m urllib3.connectionpool:connectionpool.py:868 Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022A6BB4E360>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/8036a79d6665ed5d65fefadc06265db8
+[33mWARNING [0m urllib3.connectionpool:connectionpool.py:868 Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022A6BB4F240>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/8036a79d6665ed5d65fefadc06265db8
+[33mWARNING [0m urllib3.connectionpool:connectionpool.py:868 Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022A6BB4EAD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/8036a79d6665ed5d65fefadc06265db8
