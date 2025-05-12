@@ -2645,3 +2645,12 @@
 05/12/2025 12:55:39 PM |      INFO | test_product_compare.py:970 | Title is Passed
 05/12/2025 12:55:41 PM |      INFO | test_product_compare.py:973 | *********** Test Product Compare 021 is Passed ************
 05/12/2025 12:55:43 PM |      INFO | test_product_compare.py:983 | *************************** End Of Test Product Compare 021 *****************************
+05/12/2025 01:15:16 PM |      INFO | test_product_compare.py:988 | ********************** Test Product Compare 022 is Start ***********************
+05/12/2025 01:15:17 PM |      INFO | test_product_compare.py:990 | Navigating to the base url
+05/12/2025 01:15:17 PM |      INFO | test_product_compare.py:993 | Entering iMac product to the search
+05/12/2025 01:15:18 PM |      INFO | test_product_compare.py:995 | Clicking on the search button
+05/12/2025 01:15:18 PM |      INFO | test_product_compare.py:998 | Clicking on the compare this product option
+05/12/2025 01:15:19 PM |      INFO | test_product_compare.py:1000 | Clicking on the product comparison link
+05/12/2025 01:15:19 PM |      INFO | test_product_compare.py:1001 | ********************** Verifying Test Product Compare 022 ***********************
+05/12/2025 01:15:19 PM |      INFO | test_product_compare.py:1007 | *********** Test Product Compare 022 is Passed **********
+05/12/2025 01:15:21 PM |      INFO | test_product_compare.py:1015 | ********************** End Of Test Product Compare 022 ***********************

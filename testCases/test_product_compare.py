@@ -982,6 +982,37 @@ class Test_006_Product_Compare:
         self.driver.quit()
         self.logger.info("*************************** End Of Test Product Compare 021 *****************************")
 
+    @pytest.mark.sanity
+    def test_product_compare_022(self, setup):
+        self.driver = setup
+        self.logger.info("********************** Test Product Compare 022 is Start ***********************")
+        self.driver.get(self.baseURL)
+        self.logger.info("Navigating to the base url")
+        self.sf = SearchPage(self.driver)
+        self.sf.search_product("iMac")
+        self.logger.info("Entering iMac product to the search")
+        self.sf.click_on_search_button()
+        self.logger.info("Clicking on the search button")
+        self.pc = ProductComparePage(self.driver)
+        self.pc.click_on_compare_this_product_option_available_on_the_product()
+        self.logger.info("Clicking on the compare this product option")
+        self.pc.click_on_product_comparison_link()
+        self.logger.info("Clicking on the product comparison link")
+        self.logger.info("********************** Verifying Test Product Compare 022 ***********************")
+        page_heading = self.driver.find_element(By.XPATH, "//h1[normalize-space()='Product Comparison']").text
+        if self.driver.title == "Product Comparison":
+            if page_heading == "Product Comparison":
+                if self.driver.current_url == "https://tutorialsninja.com/demo/index.php?route=product/compare":
+                    assert True
+                    self.logger.info("*********** Test Product Compare 022 is Passed **********")
+                else:
+                    self.logger.error("*********** Test Product Compare 022 is Failed **********")
+            else:
+                self.logger.error("*********** Test Product Compare 022 is Failed **********")
+        else:
+            self.logger.error("*********** Test Product Compare 022 is Failed **********")
+        self.driver.quit()
+        self.logger.info("********************** End Of Test Product Compare 022 ***********************")
 
 
 
