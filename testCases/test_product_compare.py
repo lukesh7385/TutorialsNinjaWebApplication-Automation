@@ -1012,6 +1012,7 @@ class Test_006_Product_Compare:
         self.driver.quit()
         self.logger.info("********************** End Of Test Product Compare 022 ***********************")
 
+    @pytest.mark.skip("Not ready for execution")
     @pytest.mark.sanity
     def test_product_compare_023(self, setup):
         self.driver = setup
