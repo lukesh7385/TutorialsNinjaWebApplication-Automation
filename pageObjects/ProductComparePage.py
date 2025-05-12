@@ -1,3 +1,4 @@
+from selenium.common import StaleElementReferenceException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
@@ -19,7 +20,7 @@ class ProductComparePage:
     homePageLink = (By.XPATH, "/html/body/div[2]/ul/li[1]/a")
     iMacProductLinkOnSuccessMessage = (By.LINK_TEXT, "iMac")
     addToCartButton = (By.XPATH, "//tbody[2]/tr[1]/td[1]")
-    removeButton = (By.XPATH, "//a[normalize-space()='Remove']")
+    removeButton = (By.XPATH, "//tbody/tr/td/a[contains(.,'Remove')]")
     btnAddToCart = (By.XPATH, "//tbody/tr/td[2]/input[1]")
     shoppingCartLink = (By.LINK_TEXT, "shopping cart")
 
@@ -98,6 +99,15 @@ class ProductComparePage:
             EC.element_to_be_clickable(self.shoppingCartLink)
         )
         self.driver.execute_script("arguments[0].click();", shopping_cart_link)
+
+    def click_on_remove_button(self):
+        remove_button = self.driver.find_elements(*self.removeButton)
+        for button in remove_button:
+            try:
+                button.click()
+            except StaleElementReferenceException:
+                button = self.driver.find_element(*self.removeButton)
+                button.click()
 
 
 

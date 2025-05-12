@@ -2100,3 +2100,548 @@
 05/12/2025 02:45:02 AM |      INFO | test_search.py:111 | iMac
 05/12/2025 02:45:02 AM |      INFO | test_search.py:113 | ********** Test Search Functionality 004 is Passed ***********
 05/12/2025 02:45:02 AM |      INFO | test_search.py:118 | ***************** End Of Test Search Functionality 004 ******************
+05/12/2025 11:35:59 AM |      INFO | test_product_compare.py:934 | *************************** Test Product Compare 021 is Start *****************************
+05/12/2025 11:36:05 AM |      INFO | test_product_compare.py:936 | Navigating to the base url
+05/12/2025 11:36:06 AM |      INFO | test_product_compare.py:939 | Entering iMac product to search
+05/12/2025 11:36:08 AM |      INFO | test_product_compare.py:941 | Clicking on search button
+05/12/2025 11:36:08 AM |      INFO | test_product_compare.py:944 | Clicking on compare this product option
+05/12/2025 11:36:08 AM |      INFO | test_product_compare.py:946 | Entering iphone product to the search
+05/12/2025 11:36:08 AM |      INFO | test_product_compare.py:948 | Clicking on the search button
+05/12/2025 11:36:08 AM |      INFO | test_product_compare.py:950 | Clicking on the compare this option
+05/12/2025 11:36:08 AM |      INFO | test_product_compare.py:952 | Entering MacBook Air product to the search
+05/12/2025 11:36:09 AM |      INFO | test_product_compare.py:954 | Clicking on the search button
+05/12/2025 11:36:09 AM |      INFO | test_product_compare.py:956 | Clicking on the compare this option
+05/12/2025 11:36:09 AM |      INFO | test_product_compare.py:958 | Entering MacBook product to the search
+05/12/2025 11:36:12 AM |      INFO | test_product_compare.py:960 | Clicking on the search button
+05/12/2025 11:36:12 AM |      INFO | test_product_compare.py:962 | Clicking on the compare this option
+05/12/2025 11:36:14 AM |      INFO | test_product_compare.py:964 | Clicking on product comparison link
+05/12/2025 11:36:14 AM |      INFO | test_product_compare.py:965 | *************************** Verifying Test Product Compare 021 *****************************
+05/12/2025 11:37:06 AM |      INFO | test_product_compare.py:934 | *************************** Test Product Compare 021 is Start *****************************
+05/12/2025 11:37:27 AM |      INFO | test_product_compare.py:936 | Navigating to the base url
+05/12/2025 11:37:31 AM |      INFO | test_product_compare.py:939 | Entering iMac product to search
+05/12/2025 11:37:32 AM |      INFO | test_product_compare.py:941 | Clicking on search button
+05/12/2025 11:37:32 AM |      INFO | test_product_compare.py:944 | Clicking on compare this product option
+05/12/2025 11:37:32 AM |      INFO | test_product_compare.py:946 | Entering iphone product to the search
+05/12/2025 11:37:33 AM |      INFO | test_product_compare.py:948 | Clicking on the search button
+05/12/2025 11:37:33 AM |      INFO | test_product_compare.py:950 | Clicking on the compare this option
+05/12/2025 11:37:33 AM |      INFO | test_product_compare.py:952 | Entering MacBook Air product to the search
+05/12/2025 11:37:34 AM |      INFO | test_product_compare.py:954 | Clicking on the search button
+05/12/2025 11:37:34 AM |      INFO | test_product_compare.py:956 | Clicking on the compare this option
+05/12/2025 11:37:35 AM |      INFO | test_product_compare.py:958 | Entering MacBook product to the search
+05/12/2025 11:37:35 AM |      INFO | test_product_compare.py:960 | Clicking on the search button
+05/12/2025 11:37:35 AM |      INFO | test_product_compare.py:962 | Clicking on the compare this option
+05/12/2025 11:37:36 AM |      INFO | test_product_compare.py:964 | Clicking on product comparison link
+05/12/2025 11:37:36 AM |      INFO | test_product_compare.py:965 | *************************** Verifying Test Product Compare 021 *****************************
+05/12/2025 11:38:18 AM |      INFO | test_product_compare.py:934 | *************************** Test Product Compare 021 is Start *****************************
+05/12/2025 11:38:20 AM |      INFO | test_product_compare.py:936 | Navigating to the base url
+05/12/2025 11:38:20 AM |      INFO | test_product_compare.py:939 | Entering iMac product to search
+05/12/2025 11:38:22 AM |      INFO | test_product_compare.py:941 | Clicking on search button
+05/12/2025 11:38:22 AM |      INFO | test_product_compare.py:944 | Clicking on compare this product option
+05/12/2025 11:38:22 AM |      INFO | test_product_compare.py:946 | Entering iphone product to the search
+05/12/2025 11:38:23 AM |      INFO | test_product_compare.py:948 | Clicking on the search button
+05/12/2025 11:38:23 AM |      INFO | test_product_compare.py:950 | Clicking on the compare this option
+05/12/2025 11:38:23 AM |      INFO | test_product_compare.py:952 | Entering MacBook Air product to the search
+05/12/2025 11:38:24 AM |      INFO | test_product_compare.py:954 | Clicking on the search button
+05/12/2025 11:38:24 AM |      INFO | test_product_compare.py:956 | Clicking on the compare this option
+05/12/2025 11:38:25 AM |      INFO | test_product_compare.py:958 | Entering MacBook product to the search
+05/12/2025 11:38:25 AM |      INFO | test_product_compare.py:960 | Clicking on the search button
+05/12/2025 11:38:25 AM |      INFO | test_product_compare.py:962 | Clicking on the compare this option
+05/12/2025 11:38:26 AM |      INFO | test_product_compare.py:964 | Clicking on product comparison link
+05/12/2025 11:38:26 AM |      INFO | test_product_compare.py:965 | *************************** Verifying Test Product Compare 021 *****************************
+05/12/2025 11:41:36 AM |      INFO | test_product_compare.py:934 | *************************** Test Product Compare 021 is Start *****************************
+05/12/2025 11:41:40 AM |      INFO | test_product_compare.py:936 | Navigating to the base url
+05/12/2025 11:41:40 AM |      INFO | test_product_compare.py:939 | Entering iMac product to search
+05/12/2025 11:41:41 AM |      INFO | test_product_compare.py:941 | Clicking on search button
+05/12/2025 11:41:41 AM |      INFO | test_product_compare.py:944 | Clicking on compare this product option
+05/12/2025 11:41:41 AM |      INFO | test_product_compare.py:946 | Entering iphone product to the search
+05/12/2025 11:41:41 AM |      INFO | test_product_compare.py:948 | Clicking on the search button
+05/12/2025 11:41:41 AM |      INFO | test_product_compare.py:950 | Clicking on the compare this option
+05/12/2025 11:41:41 AM |      INFO | test_product_compare.py:952 | Entering MacBook Air product to the search
+05/12/2025 11:41:42 AM |      INFO | test_product_compare.py:954 | Clicking on the search button
+05/12/2025 11:41:42 AM |      INFO | test_product_compare.py:956 | Clicking on the compare this option
+05/12/2025 11:41:42 AM |      INFO | test_product_compare.py:958 | Entering MacBook product to the search
+05/12/2025 11:41:43 AM |      INFO | test_product_compare.py:960 | Clicking on the search button
+05/12/2025 11:41:43 AM |      INFO | test_product_compare.py:962 | Clicking on the compare this option
+05/12/2025 11:41:43 AM |      INFO | test_product_compare.py:964 | Clicking on product comparison link
+05/12/2025 11:41:43 AM |      INFO | test_product_compare.py:965 | *************************** Verifying Test Product Compare 021 *****************************
+05/12/2025 11:44:16 AM |      INFO | test_product_compare.py:934 | *************************** Test Product Compare 021 is Start *****************************
+05/12/2025 11:44:22 AM |      INFO | test_product_compare.py:936 | Navigating to the base url
+05/12/2025 11:44:22 AM |      INFO | test_product_compare.py:939 | Entering iMac product to search
+05/12/2025 11:44:23 AM |      INFO | test_product_compare.py:941 | Clicking on search button
+05/12/2025 11:44:23 AM |      INFO | test_product_compare.py:944 | Clicking on compare this product option
+05/12/2025 11:44:23 AM |      INFO | test_product_compare.py:946 | Entering iphone product to the search
+05/12/2025 11:44:24 AM |      INFO | test_product_compare.py:948 | Clicking on the search button
+05/12/2025 11:44:24 AM |      INFO | test_product_compare.py:950 | Clicking on the compare this option
+05/12/2025 11:44:24 AM |      INFO | test_product_compare.py:952 | Entering MacBook Air product to the search
+05/12/2025 11:44:26 AM |      INFO | test_product_compare.py:954 | Clicking on the search button
+05/12/2025 11:44:26 AM |      INFO | test_product_compare.py:956 | Clicking on the compare this option
+05/12/2025 11:44:26 AM |      INFO | test_product_compare.py:958 | Entering MacBook product to the search
+05/12/2025 11:44:29 AM |      INFO | test_product_compare.py:960 | Clicking on the search button
+05/12/2025 11:44:29 AM |      INFO | test_product_compare.py:962 | Clicking on the compare this option
+05/12/2025 11:44:30 AM |      INFO | test_product_compare.py:964 | Clicking on product comparison link
+05/12/2025 11:44:30 AM |      INFO | test_product_compare.py:965 | *************************** Verifying Test Product Compare 021 *****************************
+05/12/2025 11:46:11 AM |      INFO | test_product_compare.py:934 | *************************** Test Product Compare 021 is Start *****************************
+05/12/2025 11:47:02 AM |      INFO | test_product_compare.py:936 | Navigating to the base url
+05/12/2025 11:47:02 AM |      INFO | test_product_compare.py:939 | Entering iMac product to search
+05/12/2025 11:47:02 AM |      INFO | test_product_compare.py:941 | Clicking on search button
+05/12/2025 11:47:02 AM |      INFO | test_product_compare.py:944 | Clicking on compare this product option
+05/12/2025 11:47:02 AM |      INFO | test_product_compare.py:946 | Entering iphone product to the search
+05/12/2025 11:47:03 AM |      INFO | test_product_compare.py:948 | Clicking on the search button
+05/12/2025 11:47:03 AM |      INFO | test_product_compare.py:950 | Clicking on the compare this option
+05/12/2025 11:47:03 AM |      INFO | test_product_compare.py:952 | Entering MacBook Air product to the search
+05/12/2025 11:47:05 AM |      INFO | test_product_compare.py:954 | Clicking on the search button
+05/12/2025 11:47:05 AM |      INFO | test_product_compare.py:956 | Clicking on the compare this option
+05/12/2025 11:47:05 AM |      INFO | test_product_compare.py:958 | Entering MacBook product to the search
+05/12/2025 11:47:06 AM |      INFO | test_product_compare.py:960 | Clicking on the search button
+05/12/2025 11:47:06 AM |      INFO | test_product_compare.py:962 | Clicking on the compare this option
+05/12/2025 11:47:07 AM |      INFO | test_product_compare.py:964 | Clicking on product comparison link
+05/12/2025 11:47:07 AM |      INFO | test_product_compare.py:965 | *************************** Verifying Test Product Compare 021 *****************************
+05/12/2025 11:50:05 AM |      INFO | test_product_compare.py:934 | *************************** Test Product Compare 021 is Start *****************************
+05/12/2025 11:50:08 AM |      INFO | test_product_compare.py:936 | Navigating to the base url
+05/12/2025 11:50:08 AM |      INFO | test_product_compare.py:939 | Entering iMac product to search
+05/12/2025 11:50:08 AM |      INFO | test_product_compare.py:941 | Clicking on search button
+05/12/2025 11:50:08 AM |      INFO | test_product_compare.py:944 | Clicking on compare this product option
+05/12/2025 11:50:08 AM |      INFO | test_product_compare.py:946 | Entering iphone product to the search
+05/12/2025 11:50:09 AM |      INFO | test_product_compare.py:948 | Clicking on the search button
+05/12/2025 11:50:09 AM |      INFO | test_product_compare.py:950 | Clicking on the compare this option
+05/12/2025 11:50:09 AM |      INFO | test_product_compare.py:952 | Entering MacBook Air product to the search
+05/12/2025 11:50:11 AM |      INFO | test_product_compare.py:954 | Clicking on the search button
+05/12/2025 11:50:11 AM |      INFO | test_product_compare.py:956 | Clicking on the compare this option
+05/12/2025 11:50:11 AM |      INFO | test_product_compare.py:958 | Entering MacBook product to the search
+05/12/2025 11:50:12 AM |      INFO | test_product_compare.py:960 | Clicking on the search button
+05/12/2025 11:50:12 AM |      INFO | test_product_compare.py:962 | Clicking on the compare this option
+05/12/2025 11:50:13 AM |      INFO | test_product_compare.py:964 | Clicking on product comparison link
+05/12/2025 11:50:13 AM |      INFO | test_product_compare.py:965 | *************************** Verifying Test Product Compare 021 *****************************
+05/12/2025 11:50:41 AM |      INFO | test_product_compare.py:934 | *************************** Test Product Compare 021 is Start *****************************
+05/12/2025 11:50:45 AM |      INFO | test_product_compare.py:936 | Navigating to the base url
+05/12/2025 11:50:45 AM |      INFO | test_product_compare.py:939 | Entering iMac product to search
+05/12/2025 11:50:45 AM |      INFO | test_product_compare.py:941 | Clicking on search button
+05/12/2025 11:50:45 AM |      INFO | test_product_compare.py:944 | Clicking on compare this product option
+05/12/2025 11:50:46 AM |      INFO | test_product_compare.py:946 | Entering iphone product to the search
+05/12/2025 11:50:48 AM |      INFO | test_product_compare.py:948 | Clicking on the search button
+05/12/2025 11:50:48 AM |      INFO | test_product_compare.py:950 | Clicking on the compare this option
+05/12/2025 11:50:48 AM |      INFO | test_product_compare.py:952 | Entering MacBook Air product to the search
+05/12/2025 11:50:48 AM |      INFO | test_product_compare.py:954 | Clicking on the search button
+05/12/2025 11:50:48 AM |      INFO | test_product_compare.py:956 | Clicking on the compare this option
+05/12/2025 11:50:48 AM |      INFO | test_product_compare.py:958 | Entering MacBook product to the search
+05/12/2025 11:50:50 AM |      INFO | test_product_compare.py:960 | Clicking on the search button
+05/12/2025 11:50:50 AM |      INFO | test_product_compare.py:962 | Clicking on the compare this option
+05/12/2025 11:50:51 AM |      INFO | test_product_compare.py:964 | Clicking on product comparison link
+05/12/2025 11:50:56 AM |      INFO | test_product_compare.py:966 | *************************** Verifying Test Product Compare 021 *****************************
+05/12/2025 11:51:34 AM |      INFO | test_product_compare.py:934 | *************************** Test Product Compare 021 is Start *****************************
+05/12/2025 11:51:42 AM |      INFO | test_product_compare.py:936 | Navigating to the base url
+05/12/2025 11:51:42 AM |      INFO | test_product_compare.py:939 | Entering iMac product to search
+05/12/2025 11:51:43 AM |      INFO | test_product_compare.py:941 | Clicking on search button
+05/12/2025 11:51:43 AM |      INFO | test_product_compare.py:944 | Clicking on compare this product option
+05/12/2025 11:51:43 AM |      INFO | test_product_compare.py:946 | Entering iphone product to the search
+05/12/2025 11:51:44 AM |      INFO | test_product_compare.py:948 | Clicking on the search button
+05/12/2025 11:51:44 AM |      INFO | test_product_compare.py:950 | Clicking on the compare this option
+05/12/2025 11:51:44 AM |      INFO | test_product_compare.py:952 | Entering MacBook Air product to the search
+05/12/2025 11:51:45 AM |      INFO | test_product_compare.py:954 | Clicking on the search button
+05/12/2025 11:51:45 AM |      INFO | test_product_compare.py:956 | Clicking on the compare this option
+05/12/2025 11:51:45 AM |      INFO | test_product_compare.py:958 | Entering MacBook product to the search
+05/12/2025 11:51:47 AM |      INFO | test_product_compare.py:960 | Clicking on the search button
+05/12/2025 11:51:47 AM |      INFO | test_product_compare.py:962 | Clicking on the compare this option
+05/12/2025 11:51:48 AM |      INFO | test_product_compare.py:964 | Clicking on product comparison link
+05/12/2025 11:51:53 AM |      INFO | test_product_compare.py:966 | *************************** Verifying Test Product Compare 021 *****************************
+05/12/2025 11:56:29 AM |      INFO | test_product_compare.py:934 | *************************** Test Product Compare 021 is Start *****************************
+05/12/2025 11:56:34 AM |      INFO | test_product_compare.py:936 | Navigating to the base url
+05/12/2025 11:56:34 AM |      INFO | test_product_compare.py:939 | Entering iMac product to search
+05/12/2025 11:56:35 AM |      INFO | test_product_compare.py:941 | Clicking on search button
+05/12/2025 11:56:36 AM |      INFO | test_product_compare.py:944 | Clicking on compare this product option
+05/12/2025 11:56:36 AM |      INFO | test_product_compare.py:946 | Entering iphone product to the search
+05/12/2025 11:56:36 AM |      INFO | test_product_compare.py:948 | Clicking on the search button
+05/12/2025 11:56:36 AM |      INFO | test_product_compare.py:950 | Clicking on the compare this option
+05/12/2025 11:56:36 AM |      INFO | test_product_compare.py:952 | Entering MacBook Air product to the search
+05/12/2025 11:56:37 AM |      INFO | test_product_compare.py:954 | Clicking on the search button
+05/12/2025 11:56:37 AM |      INFO | test_product_compare.py:956 | Clicking on the compare this option
+05/12/2025 11:56:37 AM |      INFO | test_product_compare.py:958 | Entering MacBook product to the search
+05/12/2025 11:56:38 AM |      INFO | test_product_compare.py:960 | Clicking on the search button
+05/12/2025 11:56:38 AM |      INFO | test_product_compare.py:962 | Clicking on the compare this option
+05/12/2025 11:56:39 AM |      INFO | test_product_compare.py:964 | Clicking on product comparison link
+05/12/2025 11:56:44 AM |      INFO | test_product_compare.py:966 | *************************** Verifying Test Product Compare 021 *****************************
+05/12/2025 12:00:02 PM |      INFO | test_product_compare.py:934 | *************************** Test Product Compare 021 is Start *****************************
+05/12/2025 12:00:08 PM |      INFO | test_product_compare.py:936 | Navigating to the base url
+05/12/2025 12:00:08 PM |      INFO | test_product_compare.py:939 | Entering iMac product to search
+05/12/2025 12:00:09 PM |      INFO | test_product_compare.py:941 | Clicking on search button
+05/12/2025 12:00:09 PM |      INFO | test_product_compare.py:944 | Clicking on compare this product option
+05/12/2025 12:00:09 PM |      INFO | test_product_compare.py:946 | Entering iphone product to the search
+05/12/2025 12:00:10 PM |      INFO | test_product_compare.py:948 | Clicking on the search button
+05/12/2025 12:00:10 PM |      INFO | test_product_compare.py:950 | Clicking on the compare this option
+05/12/2025 12:00:10 PM |      INFO | test_product_compare.py:952 | Entering MacBook Air product to the search
+05/12/2025 12:00:10 PM |      INFO | test_product_compare.py:954 | Clicking on the search button
+05/12/2025 12:00:10 PM |      INFO | test_product_compare.py:956 | Clicking on the compare this option
+05/12/2025 12:00:10 PM |      INFO | test_product_compare.py:958 | Entering MacBook product to the search
+05/12/2025 12:00:11 PM |      INFO | test_product_compare.py:960 | Clicking on the search button
+05/12/2025 12:00:11 PM |      INFO | test_product_compare.py:962 | Clicking on the compare this option
+05/12/2025 12:00:12 PM |      INFO | test_product_compare.py:964 | Clicking on product comparison link
+05/12/2025 12:00:17 PM |      INFO | test_product_compare.py:966 | *************************** Verifying Test Product Compare 021 *****************************
+05/12/2025 12:02:10 PM |      INFO | test_product_compare.py:934 | *************************** Test Product Compare 021 is Start *****************************
+05/12/2025 12:02:41 PM |      INFO | test_product_compare.py:936 | Navigating to the base url
+05/12/2025 12:03:53 PM |      INFO | test_product_compare.py:934 | *************************** Test Product Compare 021 is Start *****************************
+05/12/2025 12:04:52 PM |      INFO | test_product_compare.py:936 | Navigating to the base url
+05/12/2025 12:04:52 PM |      INFO | test_product_compare.py:939 | Entering iMac product to search
+05/12/2025 12:05:16 PM |      INFO | test_product_compare.py:941 | Clicking on search button
+05/12/2025 12:05:16 PM |      INFO | test_product_compare.py:944 | Clicking on compare this product option
+05/12/2025 12:05:16 PM |      INFO | test_product_compare.py:946 | Entering iphone product to the search
+05/12/2025 12:05:22 PM |      INFO | test_product_compare.py:948 | Clicking on the search button
+05/12/2025 12:05:22 PM |      INFO | test_product_compare.py:950 | Clicking on the compare this option
+05/12/2025 12:05:22 PM |      INFO | test_product_compare.py:952 | Entering MacBook Air product to the search
+05/12/2025 12:05:49 PM |      INFO | test_product_compare.py:954 | Clicking on the search button
+05/12/2025 12:05:49 PM |      INFO | test_product_compare.py:956 | Clicking on the compare this option
+05/12/2025 12:05:49 PM |      INFO | test_product_compare.py:958 | Entering MacBook product to the search
+05/12/2025 12:05:54 PM |      INFO | test_product_compare.py:960 | Clicking on the search button
+05/12/2025 12:05:54 PM |      INFO | test_product_compare.py:962 | Clicking on the compare this option
+05/12/2025 12:06:27 PM |      INFO | test_product_compare.py:964 | Clicking on product comparison link
+05/12/2025 12:06:32 PM |      INFO | test_product_compare.py:966 | *************************** Verifying Test Product Compare 021 *****************************
+05/12/2025 12:07:17 PM |      INFO | test_product_compare.py:934 | *************************** Test Product Compare 021 is Start *****************************
+05/12/2025 12:07:19 PM |      INFO | test_product_compare.py:936 | Navigating to the base url
+05/12/2025 12:07:29 PM |      INFO | test_product_compare.py:939 | Entering iMac product to search
+05/12/2025 12:07:31 PM |      INFO | test_product_compare.py:941 | Clicking on search button
+05/12/2025 12:07:31 PM |      INFO | test_product_compare.py:944 | Clicking on compare this product option
+05/12/2025 12:07:31 PM |      INFO | test_product_compare.py:946 | Entering iphone product to the search
+05/12/2025 12:07:31 PM |      INFO | test_product_compare.py:948 | Clicking on the search button
+05/12/2025 12:07:31 PM |      INFO | test_product_compare.py:950 | Clicking on the compare this option
+05/12/2025 12:07:32 PM |      INFO | test_product_compare.py:952 | Entering MacBook Air product to the search
+05/12/2025 12:07:33 PM |      INFO | test_product_compare.py:954 | Clicking on the search button
+05/12/2025 12:07:33 PM |      INFO | test_product_compare.py:956 | Clicking on the compare this option
+05/12/2025 12:07:33 PM |      INFO | test_product_compare.py:958 | Entering MacBook product to the search
+05/12/2025 12:07:34 PM |      INFO | test_product_compare.py:960 | Clicking on the search button
+05/12/2025 12:07:34 PM |      INFO | test_product_compare.py:962 | Clicking on the compare this option
+05/12/2025 12:07:35 PM |      INFO | test_product_compare.py:964 | Clicking on product comparison link
+05/12/2025 12:07:40 PM |      INFO | test_product_compare.py:966 | *************************** Verifying Test Product Compare 021 *****************************
+05/12/2025 12:09:12 PM |      INFO | test_product_compare.py:934 | *************************** Test Product Compare 021 is Start *****************************
+05/12/2025 12:09:14 PM |      INFO | test_product_compare.py:936 | Navigating to the base url
+05/12/2025 12:09:14 PM |      INFO | test_product_compare.py:939 | Entering iMac product to search
+05/12/2025 12:09:14 PM |      INFO | test_product_compare.py:941 | Clicking on search button
+05/12/2025 12:09:14 PM |      INFO | test_product_compare.py:944 | Clicking on compare this product option
+05/12/2025 12:09:14 PM |      INFO | test_product_compare.py:946 | Entering iphone product to the search
+05/12/2025 12:09:15 PM |      INFO | test_product_compare.py:948 | Clicking on the search button
+05/12/2025 12:09:15 PM |      INFO | test_product_compare.py:950 | Clicking on the compare this option
+05/12/2025 12:09:15 PM |      INFO | test_product_compare.py:952 | Entering MacBook Air product to the search
+05/12/2025 12:09:16 PM |      INFO | test_product_compare.py:954 | Clicking on the search button
+05/12/2025 12:09:16 PM |      INFO | test_product_compare.py:956 | Clicking on the compare this option
+05/12/2025 12:09:16 PM |      INFO | test_product_compare.py:958 | Entering MacBook product to the search
+05/12/2025 12:09:16 PM |      INFO | test_product_compare.py:960 | Clicking on the search button
+05/12/2025 12:09:17 PM |      INFO | test_product_compare.py:962 | Clicking on the compare this option
+05/12/2025 12:09:17 PM |      INFO | test_product_compare.py:964 | Clicking on product comparison link
+05/12/2025 12:09:22 PM |      INFO | test_product_compare.py:966 | *************************** Verifying Test Product Compare 021 *****************************
+05/12/2025 12:10:28 PM |      INFO | test_product_compare.py:934 | *************************** Test Product Compare 021 is Start *****************************
+05/12/2025 12:10:51 PM |      INFO | test_product_compare.py:936 | Navigating to the base url
+05/12/2025 12:10:52 PM |      INFO | test_product_compare.py:939 | Entering iMac product to search
+05/12/2025 12:10:52 PM |      INFO | test_product_compare.py:941 | Clicking on search button
+05/12/2025 12:10:52 PM |      INFO | test_product_compare.py:944 | Clicking on compare this product option
+05/12/2025 12:10:52 PM |      INFO | test_product_compare.py:946 | Entering iphone product to the search
+05/12/2025 12:10:56 PM |      INFO | test_product_compare.py:948 | Clicking on the search button
+05/12/2025 12:10:56 PM |      INFO | test_product_compare.py:950 | Clicking on the compare this option
+05/12/2025 12:10:56 PM |      INFO | test_product_compare.py:952 | Entering MacBook Air product to the search
+05/12/2025 12:10:56 PM |      INFO | test_product_compare.py:954 | Clicking on the search button
+05/12/2025 12:10:56 PM |      INFO | test_product_compare.py:956 | Clicking on the compare this option
+05/12/2025 12:10:56 PM |      INFO | test_product_compare.py:958 | Entering MacBook product to the search
+05/12/2025 12:10:58 PM |      INFO | test_product_compare.py:960 | Clicking on the search button
+05/12/2025 12:10:58 PM |      INFO | test_product_compare.py:962 | Clicking on the compare this option
+05/12/2025 12:10:59 PM |      INFO | test_product_compare.py:964 | Clicking on product comparison link
+05/12/2025 12:11:04 PM |      INFO | test_product_compare.py:966 | *************************** Verifying Test Product Compare 021 *****************************
+05/12/2025 12:13:03 PM |      INFO | test_product_compare.py:934 | *************************** Test Product Compare 021 is Start *****************************
+05/12/2025 12:13:07 PM |      INFO | test_product_compare.py:936 | Navigating to the base url
+05/12/2025 12:13:07 PM |      INFO | test_product_compare.py:939 | Entering iMac product to search
+05/12/2025 12:13:07 PM |      INFO | test_product_compare.py:941 | Clicking on search button
+05/12/2025 12:13:07 PM |      INFO | test_product_compare.py:944 | Clicking on compare this product option
+05/12/2025 12:13:08 PM |      INFO | test_product_compare.py:946 | Entering iphone product to the search
+05/12/2025 12:13:09 PM |      INFO | test_product_compare.py:948 | Clicking on the search button
+05/12/2025 12:13:09 PM |      INFO | test_product_compare.py:950 | Clicking on the compare this option
+05/12/2025 12:13:09 PM |      INFO | test_product_compare.py:952 | Entering MacBook Air product to the search
+05/12/2025 12:13:10 PM |      INFO | test_product_compare.py:954 | Clicking on the search button
+05/12/2025 12:13:10 PM |      INFO | test_product_compare.py:956 | Clicking on the compare this option
+05/12/2025 12:13:10 PM |      INFO | test_product_compare.py:958 | Entering MacBook product to the search
+05/12/2025 12:13:12 PM |      INFO | test_product_compare.py:960 | Clicking on the search button
+05/12/2025 12:13:13 PM |      INFO | test_product_compare.py:962 | Clicking on the compare this option
+05/12/2025 12:13:14 PM |      INFO | test_product_compare.py:964 | Clicking on product comparison link
+05/12/2025 12:13:19 PM |      INFO | test_product_compare.py:966 | *************************** Verifying Test Product Compare 021 *****************************
+05/12/2025 12:13:19 PM |      INFO | test_product_compare.py:970 | Title is Passed
+05/12/2025 12:14:41 PM |      INFO | test_product_compare.py:934 | *************************** Test Product Compare 021 is Start *****************************
+05/12/2025 12:14:44 PM |      INFO | test_product_compare.py:936 | Navigating to the base url
+05/12/2025 12:14:45 PM |      INFO | test_product_compare.py:939 | Entering iMac product to search
+05/12/2025 12:14:45 PM |      INFO | test_product_compare.py:941 | Clicking on search button
+05/12/2025 12:14:45 PM |      INFO | test_product_compare.py:944 | Clicking on compare this product option
+05/12/2025 12:14:45 PM |      INFO | test_product_compare.py:946 | Entering iphone product to the search
+05/12/2025 12:14:46 PM |      INFO | test_product_compare.py:948 | Clicking on the search button
+05/12/2025 12:14:46 PM |      INFO | test_product_compare.py:950 | Clicking on the compare this option
+05/12/2025 12:14:46 PM |      INFO | test_product_compare.py:952 | Entering MacBook Air product to the search
+05/12/2025 12:14:47 PM |      INFO | test_product_compare.py:954 | Clicking on the search button
+05/12/2025 12:14:47 PM |      INFO | test_product_compare.py:956 | Clicking on the compare this option
+05/12/2025 12:14:47 PM |      INFO | test_product_compare.py:958 | Entering MacBook product to the search
+05/12/2025 12:14:47 PM |      INFO | test_product_compare.py:960 | Clicking on the search button
+05/12/2025 12:14:48 PM |      INFO | test_product_compare.py:962 | Clicking on the compare this option
+05/12/2025 12:14:48 PM |      INFO | test_product_compare.py:964 | Clicking on product comparison link
+05/12/2025 12:14:53 PM |      INFO | test_product_compare.py:966 | *************************** Verifying Test Product Compare 021 *****************************
+05/12/2025 12:14:53 PM |      INFO | test_product_compare.py:970 | Title is Passed
+05/12/2025 12:14:55 PM |      INFO | test_product_compare.py:974 | *********** Test Product Compare is Passed ************
+05/12/2025 12:16:54 PM |      INFO | test_product_compare.py:934 | *************************** Test Product Compare 021 is Start *****************************
+05/12/2025 12:16:56 PM |      INFO | test_product_compare.py:936 | Navigating to the base url
+05/12/2025 12:16:57 PM |      INFO | test_product_compare.py:939 | Entering iMac product to search
+05/12/2025 12:16:57 PM |      INFO | test_product_compare.py:941 | Clicking on search button
+05/12/2025 12:16:57 PM |      INFO | test_product_compare.py:944 | Clicking on compare this product option
+05/12/2025 12:16:57 PM |      INFO | test_product_compare.py:946 | Entering iphone product to the search
+05/12/2025 12:16:58 PM |      INFO | test_product_compare.py:948 | Clicking on the search button
+05/12/2025 12:16:58 PM |      INFO | test_product_compare.py:950 | Clicking on the compare this option
+05/12/2025 12:16:58 PM |      INFO | test_product_compare.py:952 | Entering MacBook Air product to the search
+05/12/2025 12:16:58 PM |      INFO | test_product_compare.py:954 | Clicking on the search button
+05/12/2025 12:16:58 PM |      INFO | test_product_compare.py:956 | Clicking on the compare this option
+05/12/2025 12:16:59 PM |      INFO | test_product_compare.py:958 | Entering MacBook product to the search
+05/12/2025 12:17:00 PM |      INFO | test_product_compare.py:960 | Clicking on the search button
+05/12/2025 12:17:00 PM |      INFO | test_product_compare.py:962 | Clicking on the compare this option
+05/12/2025 12:17:01 PM |      INFO | test_product_compare.py:964 | Clicking on product comparison link
+05/12/2025 12:17:06 PM |      INFO | test_product_compare.py:966 | *************************** Verifying Test Product Compare 021 *****************************
+05/12/2025 12:17:06 PM |      INFO | test_product_compare.py:970 | Title is Passed
+05/12/2025 12:18:06 PM |      INFO | test_product_compare.py:934 | *************************** Test Product Compare 021 is Start *****************************
+05/12/2025 12:18:09 PM |      INFO | test_product_compare.py:936 | Navigating to the base url
+05/12/2025 12:18:09 PM |      INFO | test_product_compare.py:939 | Entering iMac product to search
+05/12/2025 12:18:10 PM |      INFO | test_product_compare.py:941 | Clicking on search button
+05/12/2025 12:18:10 PM |      INFO | test_product_compare.py:944 | Clicking on compare this product option
+05/12/2025 12:18:10 PM |      INFO | test_product_compare.py:946 | Entering iphone product to the search
+05/12/2025 12:18:11 PM |      INFO | test_product_compare.py:948 | Clicking on the search button
+05/12/2025 12:18:11 PM |      INFO | test_product_compare.py:950 | Clicking on the compare this option
+05/12/2025 12:18:11 PM |      INFO | test_product_compare.py:952 | Entering MacBook Air product to the search
+05/12/2025 12:18:12 PM |      INFO | test_product_compare.py:954 | Clicking on the search button
+05/12/2025 12:18:12 PM |      INFO | test_product_compare.py:956 | Clicking on the compare this option
+05/12/2025 12:18:12 PM |      INFO | test_product_compare.py:958 | Entering MacBook product to the search
+05/12/2025 12:18:13 PM |      INFO | test_product_compare.py:960 | Clicking on the search button
+05/12/2025 12:18:13 PM |      INFO | test_product_compare.py:962 | Clicking on the compare this option
+05/12/2025 12:18:16 PM |      INFO | test_product_compare.py:964 | Clicking on product comparison link
+05/12/2025 12:18:21 PM |      INFO | test_product_compare.py:966 | *************************** Verifying Test Product Compare 021 *****************************
+05/12/2025 12:18:21 PM |      INFO | test_product_compare.py:970 | Title is Passed
+05/12/2025 12:19:35 PM |      INFO | test_product_compare.py:934 | *************************** Test Product Compare 021 is Start *****************************
+05/12/2025 12:20:02 PM |      INFO | test_product_compare.py:936 | Navigating to the base url
+05/12/2025 12:20:02 PM |      INFO | test_product_compare.py:939 | Entering iMac product to search
+05/12/2025 12:20:03 PM |      INFO | test_product_compare.py:941 | Clicking on search button
+05/12/2025 12:20:03 PM |      INFO | test_product_compare.py:944 | Clicking on compare this product option
+05/12/2025 12:20:04 PM |      INFO | test_product_compare.py:946 | Entering iphone product to the search
+05/12/2025 12:20:05 PM |      INFO | test_product_compare.py:948 | Clicking on the search button
+05/12/2025 12:20:05 PM |      INFO | test_product_compare.py:950 | Clicking on the compare this option
+05/12/2025 12:20:05 PM |      INFO | test_product_compare.py:952 | Entering MacBook Air product to the search
+05/12/2025 12:20:06 PM |      INFO | test_product_compare.py:954 | Clicking on the search button
+05/12/2025 12:20:06 PM |      INFO | test_product_compare.py:956 | Clicking on the compare this option
+05/12/2025 12:20:06 PM |      INFO | test_product_compare.py:958 | Entering MacBook product to the search
+05/12/2025 12:20:08 PM |      INFO | test_product_compare.py:960 | Clicking on the search button
+05/12/2025 12:20:08 PM |      INFO | test_product_compare.py:962 | Clicking on the compare this option
+05/12/2025 12:20:09 PM |      INFO | test_product_compare.py:964 | Clicking on product comparison link
+05/12/2025 12:20:14 PM |      INFO | test_product_compare.py:966 | *************************** Verifying Test Product Compare 021 *****************************
+05/12/2025 12:20:14 PM |      INFO | test_product_compare.py:970 | Title is Passed
+05/12/2025 12:22:08 PM |      INFO | test_product_compare.py:934 | *************************** Test Product Compare 021 is Start *****************************
+05/12/2025 12:22:19 PM |      INFO | test_product_compare.py:936 | Navigating to the base url
+05/12/2025 12:22:19 PM |      INFO | test_product_compare.py:939 | Entering iMac product to search
+05/12/2025 12:22:20 PM |      INFO | test_product_compare.py:941 | Clicking on search button
+05/12/2025 12:22:20 PM |      INFO | test_product_compare.py:944 | Clicking on compare this product option
+05/12/2025 12:22:20 PM |      INFO | test_product_compare.py:946 | Entering iphone product to the search
+05/12/2025 12:22:22 PM |      INFO | test_product_compare.py:948 | Clicking on the search button
+05/12/2025 12:22:22 PM |      INFO | test_product_compare.py:950 | Clicking on the compare this option
+05/12/2025 12:22:22 PM |      INFO | test_product_compare.py:952 | Entering MacBook Air product to the search
+05/12/2025 12:22:23 PM |      INFO | test_product_compare.py:954 | Clicking on the search button
+05/12/2025 12:22:23 PM |      INFO | test_product_compare.py:956 | Clicking on the compare this option
+05/12/2025 12:22:23 PM |      INFO | test_product_compare.py:958 | Entering MacBook product to the search
+05/12/2025 12:22:25 PM |      INFO | test_product_compare.py:960 | Clicking on the search button
+05/12/2025 12:22:25 PM |      INFO | test_product_compare.py:962 | Clicking on the compare this option
+05/12/2025 12:22:26 PM |      INFO | test_product_compare.py:964 | Clicking on product comparison link
+05/12/2025 12:22:31 PM |      INFO | test_product_compare.py:966 | *************************** Verifying Test Product Compare 021 *****************************
+05/12/2025 12:22:31 PM |      INFO | test_product_compare.py:969 | Title is Passed
+05/12/2025 12:27:40 PM |      INFO | test_product_compare.py:934 | *************************** Test Product Compare 021 is Start *****************************
+05/12/2025 12:27:47 PM |      INFO | test_product_compare.py:936 | Navigating to the base url
+05/12/2025 12:27:47 PM |      INFO | test_product_compare.py:939 | Entering iMac product to search
+05/12/2025 12:27:48 PM |      INFO | test_product_compare.py:941 | Clicking on search button
+05/12/2025 12:27:48 PM |      INFO | test_product_compare.py:944 | Clicking on compare this product option
+05/12/2025 12:27:48 PM |      INFO | test_product_compare.py:946 | Entering iphone product to the search
+05/12/2025 12:27:49 PM |      INFO | test_product_compare.py:948 | Clicking on the search button
+05/12/2025 12:27:49 PM |      INFO | test_product_compare.py:950 | Clicking on the compare this option
+05/12/2025 12:27:50 PM |      INFO | test_product_compare.py:952 | Entering MacBook Air product to the search
+05/12/2025 12:27:50 PM |      INFO | test_product_compare.py:954 | Clicking on the search button
+05/12/2025 12:27:50 PM |      INFO | test_product_compare.py:956 | Clicking on the compare this option
+05/12/2025 12:27:50 PM |      INFO | test_product_compare.py:958 | Entering MacBook product to the search
+05/12/2025 12:27:51 PM |      INFO | test_product_compare.py:960 | Clicking on the search button
+05/12/2025 12:27:51 PM |      INFO | test_product_compare.py:962 | Clicking on the compare this option
+05/12/2025 12:27:55 PM |      INFO | test_product_compare.py:964 | Clicking on product comparison link
+05/12/2025 12:28:00 PM |      INFO | test_product_compare.py:966 | *************************** Verifying Test Product Compare 021 *****************************
+05/12/2025 12:28:00 PM |      INFO | test_product_compare.py:969 | Title is Passed
+05/12/2025 12:29:22 PM |      INFO | test_product_compare.py:934 | *************************** Test Product Compare 021 is Start *****************************
+05/12/2025 12:29:26 PM |      INFO | test_product_compare.py:936 | Navigating to the base url
+05/12/2025 12:29:26 PM |      INFO | test_product_compare.py:939 | Entering iMac product to search
+05/12/2025 12:29:27 PM |      INFO | test_product_compare.py:941 | Clicking on search button
+05/12/2025 12:29:27 PM |      INFO | test_product_compare.py:944 | Clicking on compare this product option
+05/12/2025 12:29:27 PM |      INFO | test_product_compare.py:946 | Entering iphone product to the search
+05/12/2025 12:29:28 PM |      INFO | test_product_compare.py:948 | Clicking on the search button
+05/12/2025 12:29:28 PM |      INFO | test_product_compare.py:950 | Clicking on the compare this option
+05/12/2025 12:29:28 PM |      INFO | test_product_compare.py:952 | Entering MacBook Air product to the search
+05/12/2025 12:29:28 PM |      INFO | test_product_compare.py:954 | Clicking on the search button
+05/12/2025 12:29:28 PM |      INFO | test_product_compare.py:956 | Clicking on the compare this option
+05/12/2025 12:29:29 PM |      INFO | test_product_compare.py:958 | Entering MacBook product to the search
+05/12/2025 12:29:29 PM |      INFO | test_product_compare.py:960 | Clicking on the search button
+05/12/2025 12:29:29 PM |      INFO | test_product_compare.py:962 | Clicking on the compare this option
+05/12/2025 12:29:30 PM |      INFO | test_product_compare.py:964 | Clicking on product comparison link
+05/12/2025 12:29:35 PM |      INFO | test_product_compare.py:966 | *************************** Verifying Test Product Compare 021 *****************************
+05/12/2025 12:29:35 PM |      INFO | test_product_compare.py:969 | Title is Passed
+05/12/2025 12:31:24 PM |      INFO | test_product_compare.py:934 | *************************** Test Product Compare 021 is Start *****************************
+05/12/2025 12:31:28 PM |      INFO | test_product_compare.py:936 | Navigating to the base url
+05/12/2025 12:31:28 PM |      INFO | test_product_compare.py:939 | Entering iMac product to search
+05/12/2025 12:31:29 PM |      INFO | test_product_compare.py:941 | Clicking on search button
+05/12/2025 12:31:29 PM |      INFO | test_product_compare.py:944 | Clicking on compare this product option
+05/12/2025 12:31:29 PM |      INFO | test_product_compare.py:946 | Entering iphone product to the search
+05/12/2025 12:31:31 PM |      INFO | test_product_compare.py:948 | Clicking on the search button
+05/12/2025 12:31:31 PM |      INFO | test_product_compare.py:950 | Clicking on the compare this option
+05/12/2025 12:31:31 PM |      INFO | test_product_compare.py:952 | Entering MacBook Air product to the search
+05/12/2025 12:31:32 PM |      INFO | test_product_compare.py:954 | Clicking on the search button
+05/12/2025 12:31:33 PM |      INFO | test_product_compare.py:956 | Clicking on the compare this option
+05/12/2025 12:31:33 PM |      INFO | test_product_compare.py:958 | Entering MacBook product to the search
+05/12/2025 12:31:33 PM |      INFO | test_product_compare.py:960 | Clicking on the search button
+05/12/2025 12:31:33 PM |      INFO | test_product_compare.py:962 | Clicking on the compare this option
+05/12/2025 12:31:35 PM |      INFO | test_product_compare.py:964 | Clicking on product comparison link
+05/12/2025 12:31:40 PM |      INFO | test_product_compare.py:966 | *************************** Verifying Test Product Compare 021 *****************************
+05/12/2025 12:31:40 PM |      INFO | test_product_compare.py:969 | Title is Passed
+05/12/2025 12:31:57 PM |      INFO | test_product_compare.py:934 | *************************** Test Product Compare 021 is Start *****************************
+05/12/2025 12:32:04 PM |      INFO | test_product_compare.py:936 | Navigating to the base url
+05/12/2025 12:32:04 PM |      INFO | test_product_compare.py:939 | Entering iMac product to search
+05/12/2025 12:32:05 PM |      INFO | test_product_compare.py:941 | Clicking on search button
+05/12/2025 12:32:05 PM |      INFO | test_product_compare.py:944 | Clicking on compare this product option
+05/12/2025 12:32:05 PM |      INFO | test_product_compare.py:946 | Entering iphone product to the search
+05/12/2025 12:32:06 PM |      INFO | test_product_compare.py:948 | Clicking on the search button
+05/12/2025 12:32:06 PM |      INFO | test_product_compare.py:950 | Clicking on the compare this option
+05/12/2025 12:32:06 PM |      INFO | test_product_compare.py:952 | Entering MacBook Air product to the search
+05/12/2025 12:32:07 PM |      INFO | test_product_compare.py:954 | Clicking on the search button
+05/12/2025 12:32:07 PM |      INFO | test_product_compare.py:956 | Clicking on the compare this option
+05/12/2025 12:32:07 PM |      INFO | test_product_compare.py:958 | Entering MacBook product to the search
+05/12/2025 12:32:08 PM |      INFO | test_product_compare.py:960 | Clicking on the search button
+05/12/2025 12:32:08 PM |      INFO | test_product_compare.py:962 | Clicking on the compare this option
+05/12/2025 12:32:08 PM |      INFO | test_product_compare.py:964 | Clicking on product comparison link
+05/12/2025 12:32:08 PM |      INFO | test_product_compare.py:965 | *************************** Verifying Test Product Compare 021 *****************************
+05/12/2025 12:32:08 PM |      INFO | test_product_compare.py:968 | Title is Passed
+05/12/2025 12:39:41 PM |      INFO | test_product_compare.py:934 | *************************** Test Product Compare 021 is Start *****************************
+05/12/2025 12:40:18 PM |      INFO | test_product_compare.py:936 | Navigating to the base url
+05/12/2025 12:40:18 PM |      INFO | test_product_compare.py:939 | Entering iMac product to search
+05/12/2025 12:40:18 PM |      INFO | test_product_compare.py:941 | Clicking on search button
+05/12/2025 12:40:19 PM |      INFO | test_product_compare.py:944 | Clicking on compare this product option
+05/12/2025 12:40:19 PM |      INFO | test_product_compare.py:946 | Entering iphone product to the search
+05/12/2025 12:40:20 PM |      INFO | test_product_compare.py:948 | Clicking on the search button
+05/12/2025 12:40:20 PM |      INFO | test_product_compare.py:950 | Clicking on the compare this option
+05/12/2025 12:40:20 PM |      INFO | test_product_compare.py:952 | Entering MacBook Air product to the search
+05/12/2025 12:40:21 PM |      INFO | test_product_compare.py:954 | Clicking on the search button
+05/12/2025 12:40:21 PM |      INFO | test_product_compare.py:956 | Clicking on the compare this option
+05/12/2025 12:40:21 PM |      INFO | test_product_compare.py:958 | Entering MacBook product to the search
+05/12/2025 12:40:23 PM |      INFO | test_product_compare.py:960 | Clicking on the search button
+05/12/2025 12:40:24 PM |      INFO | test_product_compare.py:962 | Clicking on the compare this option
+05/12/2025 12:40:25 PM |      INFO | test_product_compare.py:964 | Clicking on product comparison link
+05/12/2025 12:40:25 PM |      INFO | test_product_compare.py:965 | *************************** Verifying Test Product Compare 021 *****************************
+05/12/2025 12:40:25 PM |      INFO | test_product_compare.py:968 | Title is Passed
+05/12/2025 12:44:43 PM |      INFO | test_product_compare.py:935 | *************************** Test Product Compare 021 is Start *****************************
+05/12/2025 12:44:50 PM |      INFO | test_product_compare.py:937 | Navigating to the base url
+05/12/2025 12:44:50 PM |      INFO | test_product_compare.py:940 | Entering iMac product to search
+05/12/2025 12:44:51 PM |      INFO | test_product_compare.py:942 | Clicking on search button
+05/12/2025 12:44:51 PM |      INFO | test_product_compare.py:945 | Clicking on compare this product option
+05/12/2025 12:44:51 PM |      INFO | test_product_compare.py:947 | Entering iphone product to the search
+05/12/2025 12:44:51 PM |      INFO | test_product_compare.py:949 | Clicking on the search button
+05/12/2025 12:44:51 PM |      INFO | test_product_compare.py:951 | Clicking on the compare this option
+05/12/2025 12:44:51 PM |      INFO | test_product_compare.py:953 | Entering MacBook Air product to the search
+05/12/2025 12:44:52 PM |      INFO | test_product_compare.py:955 | Clicking on the search button
+05/12/2025 12:44:52 PM |      INFO | test_product_compare.py:957 | Clicking on the compare this option
+05/12/2025 12:44:52 PM |      INFO | test_product_compare.py:959 | Entering MacBook product to the search
+05/12/2025 12:44:53 PM |      INFO | test_product_compare.py:961 | Clicking on the search button
+05/12/2025 12:44:53 PM |      INFO | test_product_compare.py:963 | Clicking on the compare this option
+05/12/2025 12:44:54 PM |      INFO | test_product_compare.py:965 | Clicking on product comparison link
+05/12/2025 12:44:54 PM |      INFO | test_product_compare.py:966 | *************************** Verifying Test Product Compare 021 *****************************
+05/12/2025 12:44:54 PM |      INFO | test_product_compare.py:969 | Title is Passed
+05/12/2025 12:44:57 PM |      INFO | test_product_compare.py:979 | *********** Test Product Compare is Passed ************
+05/12/2025 12:45:00 PM |      INFO | test_product_compare.py:988 | *************************** End Of Test Product Compare 021 *****************************
+05/12/2025 12:46:55 PM |      INFO | test_product_compare.py:935 | *************************** Test Product Compare 021 is Start *****************************
+05/12/2025 12:46:58 PM |      INFO | test_product_compare.py:937 | Navigating to the base url
+05/12/2025 12:46:58 PM |      INFO | test_product_compare.py:940 | Entering iMac product to search
+05/12/2025 12:47:00 PM |      INFO | test_product_compare.py:942 | Clicking on search button
+05/12/2025 12:47:00 PM |      INFO | test_product_compare.py:945 | Clicking on compare this product option
+05/12/2025 12:47:00 PM |      INFO | test_product_compare.py:947 | Entering iphone product to the search
+05/12/2025 12:47:02 PM |      INFO | test_product_compare.py:949 | Clicking on the search button
+05/12/2025 12:47:02 PM |      INFO | test_product_compare.py:951 | Clicking on the compare this option
+05/12/2025 12:47:02 PM |      INFO | test_product_compare.py:953 | Entering MacBook Air product to the search
+05/12/2025 12:47:03 PM |      INFO | test_product_compare.py:955 | Clicking on the search button
+05/12/2025 12:47:03 PM |      INFO | test_product_compare.py:957 | Clicking on the compare this option
+05/12/2025 12:47:03 PM |      INFO | test_product_compare.py:959 | Entering MacBook product to the search
+05/12/2025 12:47:04 PM |      INFO | test_product_compare.py:961 | Clicking on the search button
+05/12/2025 12:47:04 PM |      INFO | test_product_compare.py:963 | Clicking on the compare this option
+05/12/2025 12:47:04 PM |      INFO | test_product_compare.py:965 | Clicking on product comparison link
+05/12/2025 12:47:04 PM |      INFO | test_product_compare.py:966 | *************************** Verifying Test Product Compare 021 *****************************
+05/12/2025 12:47:05 PM |      INFO | test_product_compare.py:969 | Title is Passed
+05/12/2025 12:47:08 PM |      INFO | test_product_compare.py:972 | *********** Test Product Compare is Passed ************
+05/12/2025 12:47:11 PM |      INFO | test_product_compare.py:981 | *************************** End Of Test Product Compare 021 *****************************
+05/12/2025 12:47:56 PM |      INFO | test_product_compare.py:935 | *************************** Test Product Compare 021 is Start *****************************
+05/12/2025 12:48:00 PM |      INFO | test_product_compare.py:937 | Navigating to the base url
+05/12/2025 12:48:01 PM |      INFO | test_product_compare.py:940 | Entering iMac product to search
+05/12/2025 12:48:01 PM |      INFO | test_product_compare.py:942 | Clicking on search button
+05/12/2025 12:48:01 PM |      INFO | test_product_compare.py:945 | Clicking on compare this product option
+05/12/2025 12:48:01 PM |      INFO | test_product_compare.py:947 | Entering iphone product to the search
+05/12/2025 12:48:02 PM |      INFO | test_product_compare.py:949 | Clicking on the search button
+05/12/2025 12:48:02 PM |      INFO | test_product_compare.py:951 | Clicking on the compare this option
+05/12/2025 12:48:02 PM |      INFO | test_product_compare.py:953 | Entering MacBook Air product to the search
+05/12/2025 12:48:03 PM |      INFO | test_product_compare.py:955 | Clicking on the search button
+05/12/2025 12:48:03 PM |      INFO | test_product_compare.py:957 | Clicking on the compare this option
+05/12/2025 12:48:03 PM |      INFO | test_product_compare.py:959 | Entering MacBook product to the search
+05/12/2025 12:48:04 PM |      INFO | test_product_compare.py:961 | Clicking on the search button
+05/12/2025 12:48:04 PM |      INFO | test_product_compare.py:963 | Clicking on the compare this option
+05/12/2025 12:48:04 PM |      INFO | test_product_compare.py:965 | Clicking on product comparison link
+05/12/2025 12:48:04 PM |      INFO | test_product_compare.py:966 | *************************** Verifying Test Product Compare 021 *****************************
+05/12/2025 12:48:04 PM |      INFO | test_product_compare.py:969 | Title is Passed
+05/12/2025 12:48:13 PM |      INFO | test_product_compare.py:972 | *********** Test Product Compare is Passed ************
+05/12/2025 12:48:16 PM |      INFO | test_product_compare.py:981 | *************************** End Of Test Product Compare 021 *****************************
+05/12/2025 12:49:04 PM |      INFO | test_product_compare.py:937 | *************************** Test Product Compare 021 is Start *****************************
+05/12/2025 12:49:05 PM |      INFO | test_product_compare.py:939 | Navigating to the base url
+05/12/2025 12:49:09 PM |      INFO | test_product_compare.py:942 | Entering iMac product to search
+05/12/2025 12:49:09 PM |      INFO | test_product_compare.py:944 | Clicking on search button
+05/12/2025 12:49:09 PM |      INFO | test_product_compare.py:947 | Clicking on compare this product option
+05/12/2025 12:49:10 PM |      INFO | test_product_compare.py:949 | Entering iphone product to the search
+05/12/2025 12:49:10 PM |      INFO | test_product_compare.py:951 | Clicking on the search button
+05/12/2025 12:49:10 PM |      INFO | test_product_compare.py:953 | Clicking on the compare this option
+05/12/2025 12:49:10 PM |      INFO | test_product_compare.py:955 | Entering MacBook Air product to the search
+05/12/2025 12:49:11 PM |      INFO | test_product_compare.py:957 | Clicking on the search button
+05/12/2025 12:49:11 PM |      INFO | test_product_compare.py:959 | Clicking on the compare this option
+05/12/2025 12:49:11 PM |      INFO | test_product_compare.py:961 | Entering MacBook product to the search
+05/12/2025 12:49:11 PM |      INFO | test_product_compare.py:963 | Clicking on the search button
+05/12/2025 12:49:12 PM |      INFO | test_product_compare.py:965 | Clicking on the compare this option
+05/12/2025 12:49:12 PM |      INFO | test_product_compare.py:967 | Clicking on product comparison link
+05/12/2025 12:49:12 PM |      INFO | test_product_compare.py:968 | *************************** Verifying Test Product Compare 021 *****************************
+05/12/2025 12:49:12 PM |      INFO | test_product_compare.py:970 | Title is Passed
+05/12/2025 12:49:15 PM |      INFO | test_product_compare.py:973 | *********** Test Product Compare is Passed ************
+05/12/2025 12:49:17 PM |      INFO | test_product_compare.py:982 | *************************** End Of Test Product Compare 021 *****************************
+05/12/2025 12:52:13 PM |      INFO | test_product_compare.py:937 | *************************** Test Product Compare 021 is Start *****************************
+05/12/2025 12:52:14 PM |      INFO | test_product_compare.py:939 | Navigating to the base url
+05/12/2025 12:52:14 PM |      INFO | test_product_compare.py:942 | Entering iMac product to search
+05/12/2025 12:52:14 PM |      INFO | test_product_compare.py:944 | Clicking on search button
+05/12/2025 12:52:14 PM |      INFO | test_product_compare.py:947 | Clicking on compare this product option
+05/12/2025 12:52:15 PM |      INFO | test_product_compare.py:949 | Entering iphone product to the search
+05/12/2025 12:52:15 PM |      INFO | test_product_compare.py:951 | Clicking on the search button
+05/12/2025 12:52:15 PM |      INFO | test_product_compare.py:953 | Clicking on the compare this option
+05/12/2025 12:52:15 PM |      INFO | test_product_compare.py:955 | Entering MacBook Air product to the search
+05/12/2025 12:52:16 PM |      INFO | test_product_compare.py:957 | Clicking on the search button
+05/12/2025 12:52:16 PM |      INFO | test_product_compare.py:959 | Clicking on the compare this option
+05/12/2025 12:52:16 PM |      INFO | test_product_compare.py:961 | Entering MacBook product to the search
+05/12/2025 12:52:16 PM |      INFO | test_product_compare.py:963 | Clicking on the search button
+05/12/2025 12:52:16 PM |      INFO | test_product_compare.py:965 | Clicking on the compare this option
+05/12/2025 12:52:17 PM |      INFO | test_product_compare.py:967 | Clicking on product comparison link
+05/12/2025 12:52:17 PM |      INFO | test_product_compare.py:968 | *************************** Verifying Test Product Compare 021 *****************************
+05/12/2025 12:52:17 PM |      INFO | test_product_compare.py:970 | Title is Passed
+05/12/2025 12:52:19 PM |      INFO | test_product_compare.py:973 | *********** Test Product Compare is Passed ************
+05/12/2025 12:52:19 PM |      INFO | test_product_compare.py:974 | Success message after remove product: Success: You have modified your product comparison!
+05/12/2025 12:52:21 PM |      INFO | test_product_compare.py:984 | *************************** End Of Test Product Compare 021 *****************************
+05/12/2025 12:55:35 PM |      INFO | test_product_compare.py:937 | *************************** Test Product Compare 021 is Start *****************************
+05/12/2025 12:55:36 PM |      INFO | test_product_compare.py:939 | Navigating to the base url
+05/12/2025 12:55:36 PM |      INFO | test_product_compare.py:942 | Entering iMac product to search
+05/12/2025 12:55:37 PM |      INFO | test_product_compare.py:944 | Clicking on search button
+05/12/2025 12:55:37 PM |      INFO | test_product_compare.py:947 | Clicking on compare this product option
+05/12/2025 12:55:37 PM |      INFO | test_product_compare.py:949 | Entering iphone product to the search
+05/12/2025 12:55:37 PM |      INFO | test_product_compare.py:951 | Clicking on the search button
+05/12/2025 12:55:37 PM |      INFO | test_product_compare.py:953 | Clicking on the compare this option
+05/12/2025 12:55:38 PM |      INFO | test_product_compare.py:955 | Entering MacBook Air product to the search
+05/12/2025 12:55:38 PM |      INFO | test_product_compare.py:957 | Clicking on the search button
+05/12/2025 12:55:38 PM |      INFO | test_product_compare.py:959 | Clicking on the compare this option
+05/12/2025 12:55:38 PM |      INFO | test_product_compare.py:961 | Entering MacBook product to the search
+05/12/2025 12:55:38 PM |      INFO | test_product_compare.py:963 | Clicking on the search button
+05/12/2025 12:55:38 PM |      INFO | test_product_compare.py:965 | Clicking on the compare this option
+05/12/2025 12:55:39 PM |      INFO | test_product_compare.py:967 | Clicking on product comparison link
+05/12/2025 12:55:39 PM |      INFO | test_product_compare.py:968 | *************************** Verifying Test Product Compare 021 *****************************
+05/12/2025 12:55:39 PM |      INFO | test_product_compare.py:970 | Title is Passed
+05/12/2025 12:55:41 PM |      INFO | test_product_compare.py:973 | *********** Test Product Compare 021 is Passed ************
+05/12/2025 12:55:43 PM |      INFO | test_product_compare.py:983 | *************************** End Of Test Product Compare 021 *****************************

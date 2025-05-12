@@ -1,13 +1,16 @@
 import time
+
 import pytest
-from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
+
 from pageObjects.ProductComparePage import ProductComparePage
 from pageObjects.SearchPage import SearchPage
 from utilities.customLogger import LogGen
 from utilities.readProperties import ReadConfig
+
 
 @pytest.mark.usefixtures('setup', 'log_on_failure')
 class Test_006_Product_Compare:
@@ -927,6 +930,62 @@ class Test_006_Product_Compare:
         finally:
             self.driver.quit()
             self.logger.info("*************************** End Test Product Compare 020 *****************************")
+
+    @pytest.mark.sanity
+    def test_product_compare_021(self, setup):
+        self.driver = setup
+        self.logger.info("*************************** Test Product Compare 021 is Start *****************************")
+        self.driver.get(self.baseURL)
+        self.logger.info("Navigating to the base url")
+        self.sf = SearchPage(self.driver)
+        self.sf.search_product("iMac")
+        self.logger.info("Entering iMac product to search")
+        self.sf.click_on_search_button()
+        self.logger.info("Clicking on search button")
+        self.pc = ProductComparePage(self.driver)
+        self.pc.click_on_compare_this_product_option_available_on_the_product()
+        self.logger.info("Clicking on compare this product option")
+        self.sf.search_product("iphone")
+        self.logger.info("Entering iphone product to the search")
+        self.sf.click_on_search_button()
+        self.logger.info("Clicking on the search button")
+        self.pc.click_on_compare_this_product_option_available_on_the_product()
+        self.logger.info("Clicking on the compare this option")
+        self.sf.search_product("MacBook Air")
+        self.logger.info("Entering MacBook Air product to the search")
+        self.sf.click_on_search_button()
+        self.logger.info("Clicking on the search button")
+        self.pc.click_on_compare_this_product_option_available_on_the_product()
+        self.logger.info("Clicking on the compare this option")
+        self.sf.search_product("MacBook")
+        self.logger.info("Entering MacBook product to the search")
+        self.sf.click_on_search_button()
+        self.logger.info("Clicking on the search button")
+        self.pc.click_on_compare_this_product_option_available_on_the_product()
+        self.logger.info("Clicking on the compare this option")
+        self.pc.click_on_product_comparison_link()
+        self.logger.info("Clicking on product comparison link")
+        self.logger.info("*************************** Verifying Test Product Compare 021 *****************************")
+        if self.driver.title == "Product Comparison":
+            self.logger.info("Title is Passed")
+            self.pc.click_on_remove_button()
+            if self.pc.success_message().__contains__("Success: You have modified your product comparison!"):
+                self.logger.info("*********** Test Product Compare 021 is Passed ************")
+                assert True
+            else:
+                self.logger.error(f"Success message after remove product: {self.pc.success_message()}")
+                self.logger.error("*********** Test Product Compare 021 is Failed ************")
+                assert False
+        else:
+            self.logger.error("*********** Test Product Compare 021 is Failed ************")
+            assert False
+        self.driver.quit()
+        self.logger.info("*************************** End Of Test Product Compare 021 *****************************")
+
+
+
+
+
 
 
 
