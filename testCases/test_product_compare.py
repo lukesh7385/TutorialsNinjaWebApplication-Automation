@@ -1,11 +1,9 @@
 import time
-
 import pytest
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
-
 from pageObjects.ProductComparePage import ProductComparePage
 from pageObjects.SearchPage import SearchPage
 from utilities.customLogger import LogGen
