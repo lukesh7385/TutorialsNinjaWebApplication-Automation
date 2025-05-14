@@ -3514,3 +3514,21 @@
 05/12/2025 01:37:49 PM |      INFO | test_search.py:111 | iMac
 05/12/2025 01:37:49 PM |      INFO | test_search.py:113 | ********** Test Search Functionality 004 is Passed ***********
 05/12/2025 01:37:49 PM |      INFO | test_search.py:118 | ***************** End Of Test Search Functionality 004 ******************
+05/14/2025 11:14:23 PM |      INFO | test_product_compare.py:1018 | ************************** Test Product Compare 023 is Start *************************
+05/14/2025 11:14:25 PM |      INFO | test_product_compare.py:1020 | Navigating to the base url
+05/14/2025 11:14:26 PM |      INFO | test_product_compare.py:1023 | Entering iMac product to the search box field 
+05/14/2025 11:14:26 PM |      INFO | test_product_compare.py:1025 | Clicking on the search button
+05/14/2025 11:14:26 PM |      INFO | test_product_compare.py:1031 | clicking on compare this product option available on the Product that is displayed in the Search
+05/14/2025 11:14:27 PM |      INFO | test_product_compare.py:1035 | clicking on product comparison link
+05/14/2025 11:14:27 PM |      INFO | test_product_compare.py:1038 | *********** Test Product Compare 023 is Passed ***********
+05/14/2025 11:14:29 PM |      INFO | test_product_compare.py:1050 | ********************* End Test Product Compare 023 *************************
+05/14/2025 11:14:29 PM |      INFO | test_product_compare.py:1052 | ************************** Verifying Test Product Compare 023 *************************
+05/14/2025 11:14:57 PM |      INFO | test_product_compare.py:1018 | ************************** Test Product Compare 023 is Start *************************
+05/14/2025 11:14:58 PM |      INFO | test_product_compare.py:1020 | Navigating to the base url
+05/14/2025 11:14:59 PM |      INFO | test_product_compare.py:1023 | Entering iMac product to the search box field 
+05/14/2025 11:14:59 PM |      INFO | test_product_compare.py:1025 | Clicking on the search button
+05/14/2025 11:14:59 PM |      INFO | test_product_compare.py:1031 | clicking on compare this product option available on the Product that is displayed in the Search
+05/14/2025 11:15:00 PM |      INFO | test_product_compare.py:1035 | clicking on product comparison link
+05/14/2025 11:15:00 PM |      INFO | test_product_compare.py:1038 | *********** Test Product Compare 023 is Passed ***********
+05/14/2025 11:15:02 PM |      INFO | test_product_compare.py:1050 | ********************* End Test Product Compare 023 *************************
+05/14/2025 11:15:02 PM |      INFO | test_product_compare.py:1052 | ************************** Verifying Test Product Compare 023 *************************
