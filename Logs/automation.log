@@ -3532,3 +3532,357 @@
 05/14/2025 11:15:00 PM |      INFO | test_product_compare.py:1038 | *********** Test Product Compare 023 is Passed ***********
 05/14/2025 11:15:02 PM |      INFO | test_product_compare.py:1050 | ********************* End Test Product Compare 023 *************************
 05/14/2025 11:15:02 PM |      INFO | test_product_compare.py:1052 | ************************** Verifying Test Product Compare 023 *************************
+05/17/2025 04:20:41 PM |      INFO | test_product_display.py:15 | ********************** Test Product Display 001 is Start *********************
+05/17/2025 04:21:42 PM |      INFO | test_product_display.py:15 | ********************** Test Product Display 001 is Start *********************
+05/17/2025 04:21:44 PM |      INFO | test_product_display.py:17 | Navigating to the base url
+05/17/2025 04:21:44 PM |      INFO | test_product_display.py:20 | Entering iMac product to search text field
+05/17/2025 04:21:44 PM |      INFO | test_product_display.py:22 | Clicking on the search button
+05/17/2025 04:21:48 PM |      INFO | test_product_display.py:25 | Clicking on the product displayed in the Search results
+05/17/2025 04:21:48 PM |      INFO | test_product_display.py:28 | Clicking on the main bigger sized Thumbnail image
+05/17/2025 04:21:48 PM |      INFO | test_product_display.py:29 | ********************** Verifying Test Product Display 001 *********************
+05/17/2025 04:23:01 PM |      INFO | test_product_display.py:15 | ********************** Test Product Display 001 is Start *********************
+05/17/2025 04:23:02 PM |      INFO | test_product_display.py:17 | Navigating to the base url
+05/17/2025 04:23:09 PM |      INFO | test_product_display.py:20 | Entering iMac product to search text field
+05/17/2025 04:23:10 PM |      INFO | test_product_display.py:22 | Clicking on the search button
+05/17/2025 04:23:13 PM |      INFO | test_product_display.py:25 | Clicking on the product displayed in the Search results
+05/17/2025 04:23:13 PM |      INFO | test_product_display.py:28 | Clicking on the main bigger sized Thumbnail image
+05/17/2025 04:23:13 PM |      INFO | test_product_display.py:29 | ********************** Verifying Test Product Display 001 *********************
+05/17/2025 04:23:13 PM |      INFO | test_product_display.py:48 | ********** Test Product Display 001 is Failed **********
+05/17/2025 04:24:28 PM |      INFO | test_product_display.py:15 | ********************** Test Product Display 001 is Start *********************
+05/17/2025 04:24:31 PM |      INFO | test_product_display.py:17 | Navigating to the base url
+05/17/2025 04:24:32 PM |      INFO | test_product_display.py:20 | Entering iMac product to search text field
+05/17/2025 04:24:33 PM |      INFO | test_product_display.py:22 | Clicking on the search button
+05/17/2025 04:24:34 PM |      INFO | test_product_display.py:25 | Clicking on the product displayed in the Search results
+05/17/2025 04:24:34 PM |      INFO | test_product_display.py:28 | Clicking on the main bigger sized Thumbnail image
+05/17/2025 04:24:34 PM |      INFO | test_product_display.py:29 | ********************** Verifying Test Product Display 001 *********************
+05/17/2025 04:24:35 PM |      INFO | test_product_display.py:48 | ********** Test Product Display 001 is Failed **********
+05/17/2025 04:26:29 PM |      INFO | test_product_display.py:17 | ********************** Test Product Display 001 is Start *********************
+05/17/2025 04:26:31 PM |      INFO | test_product_display.py:19 | Navigating to the base url
+05/17/2025 04:26:32 PM |      INFO | test_product_display.py:22 | Entering iMac product to search text field
+05/17/2025 04:26:32 PM |      INFO | test_product_display.py:24 | Clicking on the search button
+05/17/2025 04:26:33 PM |      INFO | test_product_display.py:27 | Clicking on the product displayed in the Search results
+05/17/2025 04:26:33 PM |      INFO | test_product_display.py:30 | Clicking on the main bigger sized Thumbnail image
+05/17/2025 04:26:38 PM |      INFO | test_product_display.py:32 | ********************** Verifying Test Product Display 001 *********************
+05/17/2025 04:26:38 PM |      INFO | test_product_display.py:51 | ********** Test Product Display 001 is Failed **********
+05/17/2025 04:30:54 PM |      INFO | test_product_display.py:15 | ********************** Test Product Display 001 is Start *********************
+05/17/2025 04:30:55 PM |      INFO | test_product_display.py:17 | Navigating to the base url
+05/17/2025 04:30:55 PM |      INFO | test_product_display.py:20 | Entering iMac product to search text field
+05/17/2025 04:30:56 PM |      INFO | test_product_display.py:22 | Clicking on the search button
+05/17/2025 04:30:56 PM |      INFO | test_product_display.py:25 | Clicking on the product displayed in the Search results
+05/17/2025 04:30:56 PM |      INFO | test_product_display.py:28 | Clicking on the main bigger sized Thumbnail image
+05/17/2025 04:31:01 PM |      INFO | test_product_display.py:30 | ********************** Verifying Test Product Display 001 *********************
+05/17/2025 04:31:01 PM |      INFO | test_product_display.py:57 | ********** Test Product Display 001 is Failed **********
+05/17/2025 04:59:36 PM |      INFO | test_product_display.py:15 | ********************** Test Product Display 001 is Start *********************
+05/17/2025 04:59:38 PM |      INFO | test_product_display.py:17 | Navigating to the base url
+05/17/2025 04:59:38 PM |      INFO | test_product_display.py:20 | Entering iMac product to search text field
+05/17/2025 04:59:38 PM |      INFO | test_product_display.py:22 | Clicking on the search button
+05/17/2025 04:59:39 PM |      INFO | test_product_display.py:25 | Clicking on the product displayed in the Search results
+05/17/2025 04:59:39 PM |      INFO | test_product_display.py:28 | Clicking on the main bigger sized Thumbnail image
+05/17/2025 04:59:44 PM |      INFO | test_product_display.py:30 | ********************** Verifying Test Product Display 001 *********************
+05/17/2025 04:59:44 PM |      INFO | test_product_display.py:57 | ********** Test Product Display 001 is Failed **********
+05/17/2025 05:11:21 PM |      INFO | test_product_display.py:15 | ********************** Test Product Display 001 is Start *********************
+05/17/2025 05:11:25 PM |      INFO | test_product_display.py:17 | Navigating to the base url
+05/17/2025 05:11:25 PM |      INFO | test_product_display.py:20 | Entering iMac product to search text field
+05/17/2025 05:11:26 PM |      INFO | test_product_display.py:22 | Clicking on the search button
+05/17/2025 05:11:28 PM |      INFO | test_product_display.py:25 | Clicking on the product displayed in the Search results
+05/17/2025 05:11:28 PM |      INFO | test_product_display.py:28 | Clicking on the main bigger sized Thumbnail image
+05/17/2025 05:11:33 PM |      INFO | test_product_display.py:30 | ********************** Verifying Test Product Display 001 *********************
+05/17/2025 05:15:52 PM |      INFO | test_product_display.py:15 | ********************** Test Product Display 001 is Start *********************
+05/17/2025 05:15:57 PM |      INFO | test_product_display.py:17 | Navigating to the base url
+05/17/2025 05:15:58 PM |      INFO | test_product_display.py:20 | Entering iMac product to search text field
+05/17/2025 05:15:58 PM |      INFO | test_product_display.py:22 | Clicking on the search button
+05/17/2025 05:16:00 PM |      INFO | test_product_display.py:25 | Clicking on the product displayed in the Search results
+05/17/2025 05:16:00 PM |      INFO | test_product_display.py:28 | Clicking on the main bigger sized Thumbnail image
+05/17/2025 05:16:05 PM |      INFO | test_product_display.py:30 | ********************** Verifying Test Product Display 001 *********************
+05/17/2025 05:18:41 PM |      INFO | test_product_display.py:18 | ********************** Test Product Display 001 is Start *********************
+05/17/2025 05:18:43 PM |      INFO | test_product_display.py:20 | Navigating to the base url
+05/17/2025 05:18:43 PM |      INFO | test_product_display.py:23 | Entering iMac product to search text field
+05/17/2025 05:18:44 PM |      INFO | test_product_display.py:25 | Clicking on the search button
+05/17/2025 05:18:46 PM |      INFO | test_product_display.py:28 | Clicking on the product displayed in the Search results
+05/17/2025 05:18:46 PM |      INFO | test_product_display.py:31 | Clicking on the main bigger sized Thumbnail image
+05/17/2025 05:18:51 PM |      INFO | test_product_display.py:33 | ********************** Verifying Test Product Display 001 *********************
+05/18/2025 12:00:30 AM |      INFO | test_product_display.py:18 | ********************** Test Product Display 001 is Start *********************
+05/18/2025 12:00:31 AM |      INFO | test_product_display.py:20 | Navigating to the base url
+05/18/2025 12:00:31 AM |      INFO | test_product_display.py:23 | Entering iMac product to search text field
+05/18/2025 12:00:32 AM |      INFO | test_product_display.py:25 | Clicking on the search button
+05/18/2025 12:00:32 AM |      INFO | test_product_display.py:28 | Clicking on the product displayed in the Search results
+05/18/2025 12:00:33 AM |      INFO | test_product_display.py:31 | Clicking on the main bigger sized Thumbnail image
+05/18/2025 12:00:33 AM |      INFO | test_product_display.py:32 | ********************** Verifying Test Product Display 001 *********************
+05/18/2025 12:01:43 AM |      INFO | test_product_display.py:18 | ********************** Test Product Display 001 is Start *********************
+05/18/2025 12:01:44 AM |      INFO | test_product_display.py:20 | Navigating to the base url
+05/18/2025 12:01:44 AM |      INFO | test_product_display.py:23 | Entering iMac product to search text field
+05/18/2025 12:01:44 AM |      INFO | test_product_display.py:25 | Clicking on the search button
+05/18/2025 12:01:45 AM |      INFO | test_product_display.py:28 | Clicking on the product displayed in the Search results
+05/18/2025 12:01:45 AM |      INFO | test_product_display.py:31 | Clicking on the main bigger sized Thumbnail image
+05/18/2025 12:01:45 AM |      INFO | test_product_display.py:32 | ********************** Verifying Test Product Display 001 *********************
+05/18/2025 12:01:46 AM |      INFO | test_product_display.py:59 | ********** Test Product Display 001 is Failed **********
+05/18/2025 12:05:47 AM |      INFO | test_product_display.py:18 | ********************** Test Product Display 001 is Start *********************
+05/18/2025 12:05:49 AM |      INFO | test_product_display.py:20 | Navigating to the base url
+05/18/2025 12:05:49 AM |      INFO | test_product_display.py:23 | Entering iMac product to search text field
+05/18/2025 12:05:49 AM |      INFO | test_product_display.py:25 | Clicking on the search button
+05/18/2025 12:05:50 AM |      INFO | test_product_display.py:28 | Clicking on the product displayed in the Search results
+05/18/2025 12:05:50 AM |      INFO | test_product_display.py:31 | Clicking on the main bigger sized Thumbnail image
+05/18/2025 12:05:50 AM |      INFO | test_product_display.py:32 | ********************** Verifying Test Product Display 001 *********************
+05/18/2025 12:05:51 AM |      INFO | test_product_display.py:62 | ********** Test Product Display 001 is Failed **********
+05/18/2025 12:06:05 AM |      INFO | test_product_display.py:18 | ********************** Test Product Display 001 is Start *********************
+05/18/2025 12:06:06 AM |      INFO | test_product_display.py:20 | Navigating to the base url
+05/18/2025 12:06:06 AM |      INFO | test_product_display.py:23 | Entering iMac product to search text field
+05/18/2025 12:06:06 AM |      INFO | test_product_display.py:25 | Clicking on the search button
+05/18/2025 12:06:07 AM |      INFO | test_product_display.py:28 | Clicking on the product displayed in the Search results
+05/18/2025 12:06:07 AM |      INFO | test_product_display.py:31 | Clicking on the main bigger sized Thumbnail image
+05/18/2025 12:06:07 AM |      INFO | test_product_display.py:32 | ********************** Verifying Test Product Display 001 *********************
+05/18/2025 12:06:08 AM |      INFO | test_product_display.py:62 | ********** Test Product Display 001 is Failed **********
+05/18/2025 12:06:49 AM |      INFO | test_product_display.py:18 | ********************** Test Product Display 001 is Start *********************
+05/18/2025 12:06:50 AM |      INFO | test_product_display.py:20 | Navigating to the base url
+05/18/2025 12:06:50 AM |      INFO | test_product_display.py:23 | Entering iMac product to search text field
+05/18/2025 12:06:51 AM |      INFO | test_product_display.py:25 | Clicking on the search button
+05/18/2025 12:06:51 AM |      INFO | test_product_display.py:28 | Clicking on the product displayed in the Search results
+05/18/2025 12:06:51 AM |      INFO | test_product_display.py:31 | Clicking on the main bigger sized Thumbnail image
+05/18/2025 12:06:51 AM |      INFO | test_product_display.py:32 | ********************** Verifying Test Product Display 001 *********************
+05/18/2025 12:06:52 AM |      INFO | test_product_display.py:63 | ********** Test Product Display 001 is Failed **********
+05/18/2025 12:12:05 AM |      INFO | test_product_display.py:18 | ********************** Test Product Display 001 is Start *********************
+05/18/2025 12:12:06 AM |      INFO | test_product_display.py:20 | Navigating to the base url
+05/18/2025 12:12:06 AM |      INFO | test_product_display.py:23 | Entering iMac product to search text field
+05/18/2025 12:12:07 AM |      INFO | test_product_display.py:25 | Clicking on the search button
+05/18/2025 12:12:07 AM |      INFO | test_product_display.py:28 | Clicking on the product displayed in the Search results
+05/18/2025 12:12:07 AM |      INFO | test_product_display.py:31 | Clicking on the main bigger sized Thumbnail image
+05/18/2025 12:12:07 AM |      INFO | test_product_display.py:32 | ********************** Verifying Test Product Display 001 *********************
+05/18/2025 12:13:05 AM |      INFO | test_product_display.py:18 | ********************** Test Product Display 001 is Start *********************
+05/18/2025 12:13:07 AM |      INFO | test_product_display.py:20 | Navigating to the base url
+05/18/2025 12:13:07 AM |      INFO | test_product_display.py:23 | Entering iMac product to search text field
+05/18/2025 12:13:07 AM |      INFO | test_product_display.py:25 | Clicking on the search button
+05/18/2025 12:13:08 AM |      INFO | test_product_display.py:28 | Clicking on the product displayed in the Search results
+05/18/2025 12:13:08 AM |      INFO | test_product_display.py:31 | Clicking on the main bigger sized Thumbnail image
+05/18/2025 12:13:08 AM |      INFO | test_product_display.py:32 | ********************** Verifying Test Product Display 001 *********************
+05/18/2025 12:14:03 AM |      INFO | test_product_display.py:18 | ********************** Test Product Display 001 is Start *********************
+05/18/2025 12:14:05 AM |      INFO | test_product_display.py:20 | Navigating to the base url
+05/18/2025 12:14:05 AM |      INFO | test_product_display.py:23 | Entering iMac product to search text field
+05/18/2025 12:14:06 AM |      INFO | test_product_display.py:25 | Clicking on the search button
+05/18/2025 12:14:06 AM |      INFO | test_product_display.py:28 | Clicking on the product displayed in the Search results
+05/18/2025 12:14:06 AM |      INFO | test_product_display.py:31 | Clicking on the main bigger sized Thumbnail image
+05/18/2025 12:14:06 AM |      INFO | test_product_display.py:32 | ********************** Verifying Test Product Display 001 *********************
+05/18/2025 12:15:52 AM |      INFO | test_product_display.py:18 | ********************** Test Product Display 001 is Start *********************
+05/18/2025 12:15:53 AM |      INFO | test_product_display.py:20 | Navigating to the base url
+05/18/2025 12:15:53 AM |      INFO | test_product_display.py:23 | Entering iMac product to search text field
+05/18/2025 12:15:53 AM |      INFO | test_product_display.py:25 | Clicking on the search button
+05/18/2025 12:15:54 AM |      INFO | test_product_display.py:28 | Clicking on the product displayed in the Search results
+05/18/2025 12:15:54 AM |      INFO | test_product_display.py:31 | Clicking on the main bigger sized Thumbnail image
+05/18/2025 12:15:54 AM |      INFO | test_product_display.py:32 | ********************** Verifying Test Product Display 001 *********************
+05/18/2025 12:16:34 AM |      INFO | test_product_display.py:18 | ********************** Test Product Display 001 is Start *********************
+05/18/2025 12:16:35 AM |      INFO | test_product_display.py:20 | Navigating to the base url
+05/18/2025 12:16:35 AM |      INFO | test_product_display.py:23 | Entering iMac product to search text field
+05/18/2025 12:16:35 AM |      INFO | test_product_display.py:25 | Clicking on the search button
+05/18/2025 12:16:36 AM |      INFO | test_product_display.py:28 | Clicking on the product displayed in the Search results
+05/18/2025 12:16:36 AM |      INFO | test_product_display.py:31 | Clicking on the main bigger sized Thumbnail image
+05/18/2025 12:16:36 AM |      INFO | test_product_display.py:32 | ********************** Verifying Test Product Display 001 *********************
+05/18/2025 12:16:56 AM |      INFO | test_product_display.py:18 | ********************** Test Product Display 001 is Start *********************
+05/18/2025 12:16:57 AM |      INFO | test_product_display.py:20 | Navigating to the base url
+05/18/2025 12:16:57 AM |      INFO | test_product_display.py:23 | Entering iMac product to search text field
+05/18/2025 12:16:57 AM |      INFO | test_product_display.py:25 | Clicking on the search button
+05/18/2025 12:16:58 AM |      INFO | test_product_display.py:28 | Clicking on the product displayed in the Search results
+05/18/2025 12:16:58 AM |      INFO | test_product_display.py:31 | Clicking on the main bigger sized Thumbnail image
+05/18/2025 12:16:58 AM |      INFO | test_product_display.py:32 | ********************** Verifying Test Product Display 001 *********************
+05/18/2025 12:16:59 AM |      INFO | test_product_display.py:64 | ********** Test Product Display 001 is Failed **********
+05/18/2025 12:17:35 AM |      INFO | test_product_display.py:18 | ********************** Test Product Display 001 is Start *********************
+05/18/2025 12:17:36 AM |      INFO | test_product_display.py:20 | Navigating to the base url
+05/18/2025 12:17:37 AM |      INFO | test_product_display.py:23 | Entering iMac product to search text field
+05/18/2025 12:17:37 AM |      INFO | test_product_display.py:25 | Clicking on the search button
+05/18/2025 12:17:37 AM |      INFO | test_product_display.py:28 | Clicking on the product displayed in the Search results
+05/18/2025 12:17:38 AM |      INFO | test_product_display.py:31 | Clicking on the main bigger sized Thumbnail image
+05/18/2025 12:17:38 AM |      INFO | test_product_display.py:32 | ********************** Verifying Test Product Display 001 *********************
+05/18/2025 12:23:10 AM |      INFO | test_product_display.py:18 | ********************** Test Product Display 001 is Start *********************
+05/18/2025 12:23:11 AM |      INFO | test_product_display.py:20 | Navigating to the base url
+05/18/2025 12:23:12 AM |      INFO | test_product_display.py:23 | Entering iMac product to search text field
+05/18/2025 12:23:12 AM |      INFO | test_product_display.py:25 | Clicking on the search button
+05/18/2025 12:23:13 AM |      INFO | test_product_display.py:28 | Clicking on the product displayed in the Search results
+05/18/2025 12:23:13 AM |      INFO | test_product_display.py:31 | Clicking on the main bigger sized Thumbnail image
+05/18/2025 12:23:13 AM |      INFO | test_product_display.py:32 | ********************** Verifying Test Product Display 001 *********************
+05/18/2025 12:23:13 AM |      INFO | test_product_display.py:63 | ********** Test Product Display 001 is Failed **********
+05/18/2025 12:27:11 AM |      INFO | test_product_display.py:18 | ********************** Test Product Display 001 is Start *********************
+05/18/2025 12:27:12 AM |      INFO | test_product_display.py:20 | Navigating to the base url
+05/18/2025 12:27:12 AM |      INFO | test_product_display.py:23 | Entering iMac product to search text field
+05/18/2025 12:27:12 AM |      INFO | test_product_display.py:25 | Clicking on the search button
+05/18/2025 12:27:13 AM |      INFO | test_product_display.py:28 | Clicking on the product displayed in the Search results
+05/18/2025 12:27:13 AM |      INFO | test_product_display.py:31 | Clicking on the main bigger sized Thumbnail image
+05/18/2025 12:27:13 AM |      INFO | test_product_display.py:32 | ********************** Verifying Test Product Display 001 *********************
+05/18/2025 12:28:15 AM |      INFO | test_product_display.py:18 | ********************** Test Product Display 001 is Start *********************
+05/18/2025 12:28:17 AM |      INFO | test_product_display.py:20 | Navigating to the base url
+05/18/2025 12:28:17 AM |      INFO | test_product_display.py:23 | Entering iMac product to search text field
+05/18/2025 12:28:17 AM |      INFO | test_product_display.py:25 | Clicking on the search button
+05/18/2025 12:28:17 AM |      INFO | test_product_display.py:28 | Clicking on the product displayed in the Search results
+05/18/2025 12:28:18 AM |      INFO | test_product_display.py:31 | Clicking on the main bigger sized Thumbnail image
+05/18/2025 12:28:18 AM |      INFO | test_product_display.py:32 | ********************** Verifying Test Product Display 001 *********************
+05/18/2025 12:28:40 AM |      INFO | test_product_display.py:18 | ********************** Test Product Display 001 is Start *********************
+05/18/2025 12:28:41 AM |      INFO | test_product_display.py:20 | Navigating to the base url
+05/18/2025 12:28:41 AM |      INFO | test_product_display.py:23 | Entering iMac product to search text field
+05/18/2025 12:28:41 AM |      INFO | test_product_display.py:25 | Clicking on the search button
+05/18/2025 12:28:42 AM |      INFO | test_product_display.py:28 | Clicking on the product displayed in the Search results
+05/18/2025 12:28:42 AM |      INFO | test_product_display.py:31 | Clicking on the main bigger sized Thumbnail image
+05/18/2025 12:28:42 AM |      INFO | test_product_display.py:32 | ********************** Verifying Test Product Display 001 *********************
+05/18/2025 12:28:42 AM |      INFO | test_product_display.py:63 | ********** Test Product Display 001 is Failed **********
+05/18/2025 12:30:43 AM |      INFO | test_product_display.py:18 | ********************** Test Product Display 001 is Start *********************
+05/18/2025 12:30:44 AM |      INFO | test_product_display.py:20 | Navigating to the base url
+05/18/2025 12:30:45 AM |      INFO | test_product_display.py:23 | Entering iMac product to search text field
+05/18/2025 12:30:45 AM |      INFO | test_product_display.py:25 | Clicking on the search button
+05/18/2025 12:30:45 AM |      INFO | test_product_display.py:28 | Clicking on the product displayed in the Search results
+05/18/2025 12:30:45 AM |      INFO | test_product_display.py:31 | Clicking on the main bigger sized Thumbnail image
+05/18/2025 12:30:45 AM |      INFO | test_product_display.py:32 | ********************** Verifying Test Product Display 001 *********************
+05/18/2025 12:30:46 AM |      INFO | test_product_display.py:59 | ********** Test Product Display 001 is Failed **********
+05/18/2025 12:36:54 AM |      INFO | test_product_display.py:18 | ********************** Test Product Display 001 is Start *********************
+05/18/2025 12:36:56 AM |      INFO | test_product_display.py:20 | Navigating to the base url
+05/18/2025 12:36:57 AM |      INFO | test_product_display.py:23 | Entering iMac product to search text field
+05/18/2025 12:36:57 AM |      INFO | test_product_display.py:25 | Clicking on the search button
+05/18/2025 12:36:58 AM |      INFO | test_product_display.py:28 | Clicking on the product displayed in the Search results
+05/18/2025 12:36:58 AM |      INFO | test_product_display.py:31 | Clicking on the main bigger sized Thumbnail image
+05/18/2025 12:36:58 AM |      INFO | test_product_display.py:32 | ********************** Verifying Test Product Display 001 *********************
+05/18/2025 12:36:58 AM |      INFO | test_product_display.py:59 | ********** Test Product Display 001 is Failed **********
+05/18/2025 12:38:48 AM |      INFO | test_product_display.py:18 | ********************** Test Product Display 001 is Start *********************
+05/18/2025 12:38:49 AM |      INFO | test_product_display.py:20 | Navigating to the base url
+05/18/2025 12:38:49 AM |      INFO | test_product_display.py:23 | Entering iMac product to search text field
+05/18/2025 12:38:50 AM |      INFO | test_product_display.py:25 | Clicking on the search button
+05/18/2025 12:38:50 AM |      INFO | test_product_display.py:28 | Clicking on the product displayed in the Search results
+05/18/2025 12:38:50 AM |      INFO | test_product_display.py:31 | Clicking on the main bigger sized Thumbnail image
+05/18/2025 12:38:50 AM |      INFO | test_product_display.py:32 | ********************** Verifying Test Product Display 001 *********************
+05/18/2025 12:38:51 AM |      INFO | test_product_display.py:59 | ********** Test Product Display 001 is Failed **********
+05/18/2025 12:40:39 AM |      INFO | test_product_display.py:18 | ********************** Test Product Display 001 is Start *********************
+05/18/2025 12:40:40 AM |      INFO | test_product_display.py:20 | Navigating to the base url
+05/18/2025 12:40:40 AM |      INFO | test_product_display.py:23 | Entering iMac product to search text field
+05/18/2025 12:40:41 AM |      INFO | test_product_display.py:25 | Clicking on the search button
+05/18/2025 12:40:41 AM |      INFO | test_product_display.py:28 | Clicking on the product displayed in the Search results
+05/18/2025 12:40:42 AM |      INFO | test_product_display.py:31 | Clicking on the main bigger sized Thumbnail image
+05/18/2025 12:40:42 AM |      INFO | test_product_display.py:32 | ********************** Verifying Test Product Display 001 *********************
+05/18/2025 12:40:42 AM |      INFO | test_product_display.py:59 | ********** Test Product Display 001 is Failed **********
+05/18/2025 12:42:59 AM |      INFO | test_product_display.py:18 | ********************** Test Product Display 001 is Start *********************
+05/18/2025 12:43:00 AM |      INFO | test_product_display.py:20 | Navigating to the base url
+05/18/2025 12:43:01 AM |      INFO | test_product_display.py:23 | Entering iMac product to search text field
+05/18/2025 12:43:01 AM |      INFO | test_product_display.py:25 | Clicking on the search button
+05/18/2025 12:43:02 AM |      INFO | test_product_display.py:28 | Clicking on the product displayed in the Search results
+05/18/2025 12:43:02 AM |      INFO | test_product_display.py:31 | Clicking on the main bigger sized Thumbnail image
+05/18/2025 12:43:02 AM |      INFO | test_product_display.py:32 | ********************** Verifying Test Product Display 001 *********************
+05/18/2025 12:45:22 AM |      INFO | test_product_display.py:14 | ********************** Test Product Display 001 is Start *********************
+05/18/2025 12:45:23 AM |      INFO | test_product_display.py:16 | Navigating to the base url
+05/18/2025 12:45:23 AM |      INFO | test_product_display.py:19 | Entering iMac product to search text field
+05/18/2025 12:45:24 AM |      INFO | test_product_display.py:21 | Clicking on the search button
+05/18/2025 12:45:24 AM |      INFO | test_product_display.py:24 | Clicking on the product displayed in the Search results
+05/18/2025 12:45:24 AM |      INFO | test_product_display.py:27 | Clicking on the main bigger sized Thumbnail image
+05/18/2025 12:45:24 AM |      INFO | test_product_display.py:28 | ********************** Verifying Test Product Display 001 *********************
+05/18/2025 12:46:45 AM |      INFO | test_product_display.py:14 | ********************** Test Product Display 001 is Start *********************
+05/18/2025 12:46:46 AM |      INFO | test_product_display.py:16 | Navigating to the base url
+05/18/2025 12:46:46 AM |      INFO | test_product_display.py:19 | Entering iMac product to search text field
+05/18/2025 12:46:47 AM |      INFO | test_product_display.py:21 | Clicking on the search button
+05/18/2025 12:46:47 AM |      INFO | test_product_display.py:24 | Clicking on the product displayed in the Search results
+05/18/2025 12:46:47 AM |      INFO | test_product_display.py:27 | Clicking on the main bigger sized Thumbnail image
+05/18/2025 12:46:47 AM |      INFO | test_product_display.py:28 | ********************** Verifying Test Product Display 001 *********************
+05/18/2025 12:48:49 AM |      INFO | test_product_display.py:14 | ********************** Test Product Display 001 is Start *********************
+05/18/2025 12:48:50 AM |      INFO | test_product_display.py:16 | Navigating to the base url
+05/18/2025 12:48:50 AM |      INFO | test_product_display.py:19 | Entering iMac product to search text field
+05/18/2025 12:48:50 AM |      INFO | test_product_display.py:21 | Clicking on the search button
+05/18/2025 12:48:51 AM |      INFO | test_product_display.py:24 | Clicking on the product displayed in the Search results
+05/18/2025 12:48:51 AM |      INFO | test_product_display.py:27 | Clicking on the main bigger sized Thumbnail image
+05/18/2025 12:48:51 AM |      INFO | test_product_display.py:28 | ********************** Verifying Test Product Display 001 *********************
+05/18/2025 12:51:18 AM |      INFO | test_product_display.py:14 | ********************** Test Product Display 001 is Start *********************
+05/18/2025 12:51:19 AM |      INFO | test_product_display.py:16 | Navigating to the base url
+05/18/2025 12:51:19 AM |      INFO | test_product_display.py:19 | Entering iMac product to search text field
+05/18/2025 12:51:20 AM |      INFO | test_product_display.py:21 | Clicking on the search button
+05/18/2025 12:51:20 AM |      INFO | test_product_display.py:24 | Clicking on the product displayed in the Search results
+05/18/2025 12:51:20 AM |      INFO | test_product_display.py:27 | Clicking on the main bigger sized Thumbnail image
+05/18/2025 12:51:20 AM |      INFO | test_product_display.py:28 | ********************** Verifying Test Product Display 001 *********************
+05/18/2025 12:51:31 AM |      INFO | test_product_display.py:55 | ********** Test Product Display 001 is Failed **********
+05/18/2025 12:53:08 AM |      INFO | test_product_display.py:14 | ********************** Test Product Display 001 is Start *********************
+05/18/2025 12:53:09 AM |      INFO | test_product_display.py:16 | Navigating to the base url
+05/18/2025 12:53:09 AM |      INFO | test_product_display.py:19 | Entering iMac product to search text field
+05/18/2025 12:53:09 AM |      INFO | test_product_display.py:21 | Clicking on the search button
+05/18/2025 12:53:09 AM |      INFO | test_product_display.py:24 | Clicking on the product displayed in the Search results
+05/18/2025 12:53:09 AM |      INFO | test_product_display.py:27 | Clicking on the main bigger sized Thumbnail image
+05/18/2025 12:53:09 AM |      INFO | test_product_display.py:28 | ********************** Verifying Test Product Display 001 *********************
+05/18/2025 12:53:20 AM |      INFO | test_product_display.py:55 | ********** Test Product Display 001 is Failed **********
+05/18/2025 12:56:03 AM |      INFO | test_product_display.py:14 | ********************** Test Product Display 001 is Start *********************
+05/18/2025 12:56:04 AM |      INFO | test_product_display.py:16 | Navigating to the base url
+05/18/2025 12:56:04 AM |      INFO | test_product_display.py:19 | Entering iMac product to search text field
+05/18/2025 12:56:05 AM |      INFO | test_product_display.py:21 | Clicking on the search button
+05/18/2025 12:56:05 AM |      INFO | test_product_display.py:24 | Clicking on the product displayed in the Search results
+05/18/2025 12:56:05 AM |      INFO | test_product_display.py:27 | Clicking on the main bigger sized Thumbnail image
+05/18/2025 12:56:05 AM |      INFO | test_product_display.py:28 | ********************** Verifying Test Product Display 001 *********************
+05/18/2025 12:56:06 AM |      INFO | test_product_display.py:36 | Clicking on the next arrow button
+05/18/2025 12:56:06 AM |      INFO | test_product_display.py:39 | Clicking on the back arrow button
+05/18/2025 12:58:17 AM |      INFO | test_product_display.py:14 | ********************** Test Product Display 001 is Start *********************
+05/18/2025 12:58:18 AM |      INFO | test_product_display.py:16 | Navigating to the base url
+05/18/2025 12:58:18 AM |      INFO | test_product_display.py:19 | Entering iMac product to search text field
+05/18/2025 12:58:19 AM |      INFO | test_product_display.py:21 | Clicking on the search button
+05/18/2025 12:58:19 AM |      INFO | test_product_display.py:24 | Clicking on the product displayed in the Search results
+05/18/2025 12:58:19 AM |      INFO | test_product_display.py:27 | Clicking on the main bigger sized Thumbnail image
+05/18/2025 12:58:19 AM |      INFO | test_product_display.py:28 | ********************** Verifying Test Product Display 001 *********************
+05/18/2025 12:58:20 AM |      INFO | test_product_display.py:36 | Clicking on the next arrow button
+05/18/2025 12:58:20 AM |      INFO | test_product_display.py:39 | Clicking on the back arrow button
+05/18/2025 12:59:33 AM |      INFO | test_product_display.py:14 | ********************** Test Product Display 001 is Start *********************
+05/18/2025 12:59:34 AM |      INFO | test_product_display.py:16 | Navigating to the base url
+05/18/2025 12:59:34 AM |      INFO | test_product_display.py:19 | Entering iMac product to search text field
+05/18/2025 12:59:35 AM |      INFO | test_product_display.py:21 | Clicking on the search button
+05/18/2025 12:59:35 AM |      INFO | test_product_display.py:24 | Clicking on the product displayed in the Search results
+05/18/2025 12:59:35 AM |      INFO | test_product_display.py:27 | Clicking on the main bigger sized Thumbnail image
+05/18/2025 12:59:35 AM |      INFO | test_product_display.py:28 | ********************** Verifying Test Product Display 001 *********************
+05/18/2025 12:59:36 AM |      INFO | test_product_display.py:36 | Clicking on the next arrow button
+05/18/2025 12:59:36 AM |      INFO | test_product_display.py:39 | Clicking on the back arrow button
+05/18/2025 12:59:36 AM |      INFO | test_product_display.py:42 | Clicking on the cross option
+05/18/2025 12:59:36 AM |      INFO | test_product_display.py:44 | ********** Test Product Display 001 is Passed **********
+05/18/2025 12:59:38 AM |      INFO | test_product_display.py:62 | ********************** End Test Product Display 001 *********************
+05/18/2025 01:01:26 AM |      INFO | test_product_display.py:14 | ********************** Test Product Display 001 is Start *********************
+05/18/2025 01:01:27 AM |      INFO | test_product_display.py:16 | Navigating to the base url
+05/18/2025 01:01:28 AM |      INFO | test_product_display.py:19 | Entering iMac product to search text field
+05/18/2025 01:01:28 AM |      INFO | test_product_display.py:21 | Clicking on the search button
+05/18/2025 01:01:28 AM |      INFO | test_product_display.py:24 | Clicking on the product displayed in the Search results
+05/18/2025 01:01:28 AM |      INFO | test_product_display.py:27 | Clicking on the main bigger sized Thumbnail image
+05/18/2025 01:01:28 AM |      INFO | test_product_display.py:28 | ********************** Verifying Test Product Display 001 *********************
+05/18/2025 01:01:29 AM |      INFO | test_product_display.py:33 | Clicking on the next arrow button
+05/18/2025 01:01:29 AM |      INFO | test_product_display.py:36 | Clicking on the back arrow button
+05/18/2025 01:01:29 AM |      INFO | test_product_display.py:39 | Clicking on the cross option
+05/18/2025 01:01:29 AM |      INFO | test_product_display.py:41 | ********** Test Product Display 001 is Passed **********
+05/18/2025 01:01:31 AM |      INFO | test_product_display.py:59 | ********************** End Test Product Display 001 *********************
+05/18/2025 01:03:05 AM |      INFO | test_product_display.py:14 | ********************** Test Product Display 001 is Start *********************
+05/18/2025 01:03:06 AM |      INFO | test_product_display.py:16 | Navigating to the base url
+05/18/2025 01:03:06 AM |      INFO | test_product_display.py:19 | Entering iMac product to search text field
+05/18/2025 01:03:06 AM |      INFO | test_product_display.py:21 | Clicking on the search button
+05/18/2025 01:03:07 AM |      INFO | test_product_display.py:24 | Clicking on the product displayed in the Search results
+05/18/2025 01:03:07 AM |      INFO | test_product_display.py:27 | Clicking on the main bigger sized Thumbnail image
+05/18/2025 01:03:07 AM |      INFO | test_product_display.py:28 | ********************** Verifying Test Product Display 001 *********************
+05/18/2025 01:03:07 AM |      INFO | test_product_display.py:33 | Clicking on the next arrow button
+05/18/2025 01:03:07 AM |      INFO | test_product_display.py:36 | Clicking on the back arrow button
+05/18/2025 01:03:08 AM |      INFO | test_product_display.py:39 | Clicking on the cross option
+05/18/2025 01:03:08 AM |      INFO | test_product_display.py:41 | ********** Test Product Display 001 is Passed **********
+05/18/2025 01:03:10 AM |      INFO | test_product_display.py:59 | ********************** End Test Product Display 001 *********************
+05/18/2025 01:08:40 AM |      INFO | test_product_display.py:14 | ********************** Test Product Display 001 is Start *********************
+05/18/2025 01:08:41 AM |      INFO | test_product_display.py:16 | Navigating to the base url
+05/18/2025 01:08:41 AM |      INFO | test_product_display.py:19 | Entering iMac product to search text field
+05/18/2025 01:08:41 AM |      INFO | test_product_display.py:21 | Clicking on the search button
+05/18/2025 01:08:42 AM |      INFO | test_product_display.py:24 | Clicking on the product displayed in the Search results
+05/18/2025 01:08:42 AM |      INFO | test_product_display.py:27 | Clicking on the main bigger sized Thumbnail image
+05/18/2025 01:08:42 AM |      INFO | test_product_display.py:28 | ********************** Verifying Test Product Display 001 *********************
+05/18/2025 01:08:42 AM |      INFO | test_product_display.py:33 | Clicking on the next arrow button
+05/18/2025 01:08:42 AM |      INFO | test_product_display.py:36 | Clicking on the back arrow button
+05/18/2025 01:08:42 AM |      INFO | test_product_display.py:39 | Clicking on the cross option
+05/18/2025 01:08:42 AM |      INFO | test_product_display.py:41 | ********** Test Product Display 001 is Passed **********
+05/18/2025 01:08:43 AM |      INFO | test_product_display.py:58 | Clicking on the main bigger sized Thumbnail image
+05/18/2025 01:08:43 AM |      INFO | test_product_display.py:59 | ********************** Again Verifying Test Product Display 001 *********************
+05/18/2025 01:08:43 AM |      INFO | test_product_display.py:64 | Clicking on the next arrow button
+05/18/2025 01:08:43 AM |      INFO | test_product_display.py:67 | Clicking on the back arrow button
+05/18/2025 01:08:43 AM |      INFO | test_product_display.py:70 | Clicking on the cross option
+05/18/2025 01:08:43 AM |      INFO | test_product_display.py:72 | ********** Test Product Display 001 is Passed **********
+05/18/2025 01:08:45 AM |      INFO | test_product_display.py:89 | ********************** End Test Product Display 001 *********************
+05/18/2025 01:09:10 AM |      INFO | test_product_display.py:16 | ********************** Test Product Display 001 is Start *********************
+05/18/2025 01:09:12 AM |      INFO | test_product_display.py:18 | Navigating to the base url
+05/18/2025 01:09:12 AM |      INFO | test_product_display.py:21 | Entering iMac product to search text field
+05/18/2025 01:09:12 AM |      INFO | test_product_display.py:23 | Clicking on the search button
+05/18/2025 01:09:13 AM |      INFO | test_product_display.py:26 | Clicking on the product displayed in the Search results
+05/18/2025 01:09:13 AM |      INFO | test_product_display.py:29 | Clicking on the main bigger sized Thumbnail image
+05/18/2025 01:09:13 AM |      INFO | test_product_display.py:30 | ********************** Verifying Test Product Display 001 *********************
+05/18/2025 01:09:14 AM |      INFO | test_product_display.py:35 | Clicking on the next arrow button
+05/18/2025 01:09:14 AM |      INFO | test_product_display.py:38 | Clicking on the back arrow button
+05/18/2025 01:09:14 AM |      INFO | test_product_display.py:41 | Clicking on the cross option
+05/18/2025 01:09:14 AM |      INFO | test_product_display.py:43 | ********** Test Product Display 001 is Passed **********
+05/18/2025 01:09:14 AM |      INFO | test_product_display.py:60 | Clicking on the main bigger sized Thumbnail image
+05/18/2025 01:09:17 AM |      INFO | test_product_display.py:62 | ********************** Again Verifying Test Product Display 001 *********************
+05/18/2025 01:09:17 AM |      INFO | test_product_display.py:67 | Clicking on the next arrow button
+05/18/2025 01:09:17 AM |      INFO | test_product_display.py:70 | Clicking on the back arrow button
+05/18/2025 01:09:17 AM |      INFO | test_product_display.py:73 | Clicking on the cross option
+05/18/2025 01:09:17 AM |      INFO | test_product_display.py:75 | ********** Test Product Display 001 is Passed **********
+05/18/2025 01:09:19 AM |      INFO | test_product_display.py:92 | ********************** End Test Product Display 001 *********************
