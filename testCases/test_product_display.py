@@ -1,15 +1,16 @@
-import time
+import pytest
 from pageObjects.ProductComparePage import ProductComparePage
 from pageObjects.ProductDisplayPage import ProductDisplayPage
 from pageObjects.SearchPage import SearchPage
 from utilities.customLogger import LogGen
 from utilities.readProperties import ReadConfig
 
-
+@pytest.mark.usefixtures('setup', 'log_on_failure')
 class Test_007_Product_Display:
     baseURL = ReadConfig.get_application_url()
     logger = LogGen.loggen()
 
+    @pytest.mark.sanity
     def test_product_display_001(self, setup):
         self.driver = setup
         self.logger.info("********************** Test Product Display 001 is Start *********************")
