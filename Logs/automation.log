@@ -3904,3 +3904,21 @@
 05/18/2025 01:13:38 AM |      INFO | test_product_display.py:72 | Clicking on the cross option
 05/18/2025 01:13:38 AM |      INFO | test_product_display.py:74 | ********** Test Product Display 001 is Passed **********
 05/18/2025 01:13:40 AM |      INFO | test_product_display.py:91 | ********************** End Test Product Display 001 *********************
+05/18/2025 01:28:04 AM |      INFO | test_product_display.py:16 | ********************** Test Product Display 001 is Start *********************
+05/18/2025 01:28:05 AM |      INFO | test_product_display.py:18 | Navigating to the base url
+05/18/2025 01:28:05 AM |      INFO | test_product_display.py:21 | Entering iMac product to search text field
+05/18/2025 01:28:06 AM |      INFO | test_product_display.py:23 | Clicking on the search button
+05/18/2025 01:28:07 AM |      INFO | test_product_display.py:26 | Clicking on the product displayed in the Search results
+05/18/2025 01:28:07 AM |      INFO | test_product_display.py:29 | Clicking on the main bigger sized Thumbnail image
+05/18/2025 01:28:07 AM |      INFO | test_product_display.py:30 | ********************** Verifying Test Product Display 001 *********************
+05/18/2025 01:28:08 AM |      INFO | test_product_display.py:35 | Clicking on the next arrow button
+05/18/2025 01:28:08 AM |      INFO | test_product_display.py:38 | Clicking on the back arrow button
+05/18/2025 01:28:08 AM |      INFO | test_product_display.py:41 | Clicking on the cross option
+05/18/2025 01:28:08 AM |      INFO | test_product_display.py:44 | ********** Test Product Display 001 is Passed **********
+05/18/2025 01:28:08 AM |      INFO | test_product_display.py:64 | Clicking on the main bigger sized Thumbnail image
+05/18/2025 01:28:08 AM |      INFO | test_product_display.py:65 | ********************** Again Verifying Test Product Display 001 *********************
+05/18/2025 01:28:08 AM |      INFO | test_product_display.py:70 | Clicking on the next arrow button
+05/18/2025 01:28:08 AM |      INFO | test_product_display.py:73 | Clicking on the back arrow button
+05/18/2025 01:28:08 AM |      INFO | test_product_display.py:76 | Clicking on the cross option
+05/18/2025 01:28:08 AM |      INFO | test_product_display.py:79 | ********** Test Product Display 001 is Passed **********
+05/18/2025 01:28:10 AM |      INFO | test_product_display.py:99 | ********************** End Test Product Display 001 *********************

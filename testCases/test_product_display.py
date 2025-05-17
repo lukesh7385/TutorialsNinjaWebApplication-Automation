@@ -39,8 +39,12 @@ class Test_007_Product_Display:
                         if self.pd.first_thumbnail_image_in_light_view_is_display():
                             self.pd.click_on_cross_option()
                             self.logger.info("Clicking on the cross option")
-                            assert True
-                            self.logger.info("********** Test Product Display 001 is Passed **********")
+                            if self.driver.title == "iMac":
+                                assert True
+                                self.logger.info("********** Test Product Display 001 is Passed **********")
+                            else:
+                                self.logger.info("********** Test Product Display 001 is Failed **********")
+                                assert False
                         else:
                             self.logger.info("********** Test Product Display 001 is Failed **********")
                             assert False
@@ -70,8 +74,12 @@ class Test_007_Product_Display:
                         if self.pd.first_thumbnail_image_in_light_view_is_display():
                             self.pd.click_on_cross_option()
                             self.logger.info("Clicking on the cross option")
-                            assert True
-                            self.logger.info("********** Test Product Display 001 is Passed **********")
+                            if self.driver.title == "iMac":
+                                assert True
+                                self.logger.info("********** Test Product Display 001 is Passed **********")
+                            else:
+                                self.logger.info("********** Test Product Display 001 is Failed **********")
+                                assert False
                         else:
                             self.logger.info("********** Test Product Display 001 is Failed **********")
                             assert False
