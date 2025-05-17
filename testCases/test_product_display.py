@@ -1,5 +1,4 @@
 import time
-
 from pageObjects.ProductComparePage import ProductComparePage
 from pageObjects.ProductDisplayPage import ProductDisplayPage
 from pageObjects.SearchPage import SearchPage
