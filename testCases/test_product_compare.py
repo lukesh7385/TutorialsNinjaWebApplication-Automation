@@ -1051,8 +1051,12 @@ class Test_006_Product_Compare:
 
         self.logger.info("************************** Verifying Test Product Compare 023 *************************")
 
+    pytest.mark.skip("Not ready for execution")
+    @pytest.mark.sanity
+    def test_product_compare_024(self, setup):
+        self.driver = setup
 
-
+        
 
 
 
