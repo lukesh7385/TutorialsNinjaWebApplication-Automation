@@ -1,6 +1,5 @@
 import pytest
 from selenium.webdriver.common.by import By
-
 from pageObjects.ProductComparePage import ProductComparePage
 from pageObjects.ProductDisplayPage import ProductDisplayPage
 from pageObjects.SearchPage import SearchPage
@@ -45,22 +44,22 @@ class Test_007_Product_Display:
                                 assert True
                                 self.logger.info("********** Test Product Display 001 is Passed **********")
                             else:
-                                self.logger.info("********** Test Product Display 001 is Failed **********")
+                                self.logger.error("********** Test Product Display 001 is Failed **********")
                                 assert False
                         else:
-                            self.logger.info("********** Test Product Display 001 is Failed **********")
+                            self.logger.error("********** Test Product Display 001 is Failed **********")
                             assert False
                     else:
-                        self.logger.info("********** Test Product Display 001 is Failed **********")
+                        self.logger.error("********** Test Product Display 001 is Failed **********")
                         assert False
                 else:
-                    self.logger.info("********** Test Product Display 001 is Failed **********")
+                    self.logger.error("********** Test Product Display 001 is Failed **********")
                     assert False
             else:
-                self.logger.info("********** Test Product Display 001 is Failed **********")
+                self.logger.error("********** Test Product Display 001 is Failed **********")
                 assert False
         else:
-            self.logger.info("********** Test Product Display 001 is Failed **********")
+            self.logger.error("********** Test Product Display 001 is Failed **********")
             assert False
         self.pd.click_on_thumbnail_image()
         self.logger.info("Clicking on the main bigger sized Thumbnail image")
@@ -80,22 +79,22 @@ class Test_007_Product_Display:
                                 assert True
                                 self.logger.info("********** Test Product Display 001 is Passed **********")
                             else:
-                                self.logger.info("********** Test Product Display 001 is Failed **********")
+                                self.logger.error("********** Test Product Display 001 is Failed **********")
                                 assert False
                         else:
-                            self.logger.info("********** Test Product Display 001 is Failed **********")
+                            self.logger.error("********** Test Product Display 001 is Failed **********")
                             assert False
                     else:
-                        self.logger.info("********** Test Product Display 001 is Failed **********")
+                        self.logger.error("********** Test Product Display 001 is Failed **********")
                         assert False
                 else:
-                    self.logger.info("********** Test Product Display 001 is Failed **********")
+                    self.logger.error("********** Test Product Display 001 is Failed **********")
                     assert False
             else:
-                self.logger.info("********** Test Product Display 001 is Failed **********")
+                self.logger.error("********** Test Product Display 001 is Failed **********")
                 assert False
         else:
-            self.logger.info("********** Test Product Display 001 is Failed **********")
+            self.logger.error("********** Test Product Display 001 is Failed **********")
             assert False
         self.driver.quit()
         self.logger.info("********************** End Test Product Display 001 *********************")
@@ -124,13 +123,13 @@ class Test_007_Product_Display:
                     assert True
                     self.logger.info("************ Test Product Display 002 is Passed ***********")
                 else:
-                    self.logger.info("************ Test Product Display 002 is Failed ***********")
+                    self.logger.error("************ Test Product Display 002 is Failed ***********")
                     assert False
             else:
-                self.logger.info("************ Test Product Display 002 is Failed ***********")
+                self.logger.error("************ Test Product Display 002 is Failed ***********")
                 assert False
         else:
-            self.logger.info("************ Test Product Display 002 is Failed ***********")
+            self.logger.error("************ Test Product Display 002 is Failed ***********")
             assert False
         self.driver.quit()
         self.logger.info("*********************** End Test Product Display 002 ************************")
