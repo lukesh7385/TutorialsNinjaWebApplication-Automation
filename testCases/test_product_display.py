@@ -1,4 +1,6 @@
 import pytest
+from selenium.webdriver.common.by import By
+
 from pageObjects.ProductComparePage import ProductComparePage
 from pageObjects.ProductDisplayPage import ProductDisplayPage
 from pageObjects.SearchPage import SearchPage
@@ -97,5 +99,44 @@ class Test_007_Product_Display:
             assert False
         self.driver.quit()
         self.logger.info("********************** End Test Product Display 001 *********************")
+
+    @pytest.mark.sanity
+    def test_product_display_002(self, setup):
+        self.driver = setup
+        self.logger.info("*********************** Test Product Display 002 is Start ************************")
+        self.driver.get(self.baseURL)
+        self.logger.info("Navigating to the base url")
+        self.sf = SearchPage(self.driver)
+        self.sf.search_product("iMac")
+        self.logger.info("Entering iMac product to search text field")
+        self.sf.click_on_search_button()
+        self.logger.info("Clicking on the search icon button")
+        self.pc = ProductComparePage(self.driver)
+        self.pc.click_on_imac_product()
+        self.logger.info("Clicking on the iMac product")
+        product_name = self.driver.find_element(By.XPATH, "//h1[normalize-space()='iMac']").text
+        brand = self.driver.find_element(By.LINK_TEXT, "Apple").text
+        product_code = self.driver.find_element(By.XPATH, "//li[normalize-space()='Product Code:Product 14']").text
+        self.logger.info("*********************** Verifying Test Product Display 002 ************************")
+        if product_name == "iMac":
+            if brand == "Apple":
+                if product_code == "Product Code:Product 14":
+                    assert True
+                    self.logger.info("************ Test Product Display 002 is Passed ***********")
+                else:
+                    self.logger.info("************ Test Product Display 002 is Failed ***********")
+                    assert False
+            else:
+                self.logger.info("************ Test Product Display 002 is Failed ***********")
+                assert False
+        else:
+            self.logger.info("************ Test Product Display 002 is Failed ***********")
+            assert False
+        self.driver.quit()
+        self.logger.info("*********************** End Test Product Display 002 ************************")
+
+
+
+
 
 

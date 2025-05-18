@@ -3922,3 +3922,11 @@
 05/18/2025 01:28:08 AM |      INFO | test_product_display.py:76 | Clicking on the cross option
 05/18/2025 01:28:08 AM |      INFO | test_product_display.py:79 | ********** Test Product Display 001 is Passed **********
 05/18/2025 01:28:10 AM |      INFO | test_product_display.py:99 | ********************** End Test Product Display 001 *********************
+05/18/2025 06:32:45 PM |      INFO | test_product_display.py:106 | *********************** Test Product Display 002 is Start ************************
+05/18/2025 06:32:47 PM |      INFO | test_product_display.py:108 | Navigating to the base url
+05/18/2025 06:32:47 PM |      INFO | test_product_display.py:111 | Entering iMac product to search text field
+05/18/2025 06:32:47 PM |      INFO | test_product_display.py:113 | Clicking on the search icon button
+05/18/2025 06:32:48 PM |      INFO | test_product_display.py:116 | Clicking on the iMac product
+05/18/2025 06:32:48 PM |      INFO | test_product_display.py:120 | *********************** Verifying Test Product Display 002 ************************
+05/18/2025 06:32:48 PM |      INFO | test_product_display.py:125 | ************ Test Product Display 002 is Passed ***********
+05/18/2025 06:32:50 PM |      INFO | test_product_display.py:136 | *********************** End Test Product Display 002 ************************
