@@ -11,6 +11,9 @@ class ProductDisplayPage:
     firstThumbnailImage = (By.CSS_SELECTOR, ".mfp-img")
     secondThumbnailImage = (By.XPATH, "/html/body/div[2]/div/div[1]/div/figure/img")
     crossOption = (By.XPATH, "/html/body/div[2]/div/div[1]/div/button")
+    quantityTextBox = (By.ID, "input-quantity")
+    addToCartBtn = (By.XPATH, "//button[@id='button-cart']")
+    updatedQuantity =(By.CSS_SELECTOR, "input[value='3']")
 
 
     def __init__(self, driver):
@@ -85,3 +88,19 @@ class ProductDisplayPage:
             cross_button.click()
         except TimeoutException:
             print("Cross option button was not found within the timeout!")
+
+    def set_product_quantity(self, quantity):
+        quantity_input_box = self.driver.find_element(*ProductDisplayPage.quantityTextBox)
+        quantity_input_box.clear()
+        quantity_input_box.send_keys(quantity)
+
+    def click_on_add_to_cart_button_on_product_display_page(self):
+        add_to_cart_button = WebDriverWait(self.driver, 10, poll_frequency=2).until(
+            EC.element_to_be_clickable(ProductDisplayPage.addToCartBtn)  # Removed unpacking
+        )
+        self.driver.execute_script("arguments[0].click();", add_to_cart_button)
+
+
+
+
+
