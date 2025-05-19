@@ -97,7 +97,7 @@ class Test_007_Product_Display:
             self.logger.error("********** Test Product Display 001 is Failed **********")
             assert False
         self.driver.quit()
-        self.logger.info("********************** End Test Product Display 001 *********************")
+        self.logger.info("********************** End Of Test Product Display 001 *********************")
 
     @pytest.mark.sanity
     def test_product_display_002(self, setup):
@@ -132,7 +132,7 @@ class Test_007_Product_Display:
             self.logger.error("************ Test Product Display 002 is Failed ***********")
             assert False
         self.driver.quit()
-        self.logger.info("*********************** End Test Product Display 002 ************************")
+        self.logger.info("*********************** End Of Test Product Display 002 ************************")
 
     @pytest.mark.sanity
     def test_product_display_003(self, setup):
@@ -155,13 +155,48 @@ class Test_007_Product_Display:
                 assert True
                 self.logger.info("*********** Test Product Display 003 is Passed ************")
             else:
-                self.logger.info("*********** Test Product Display 003 is Failed ************")
+                self.logger.error("*********** Test Product Display 003 is Failed ************")
                 assert False
         else:
-            self.logger.info("*********** Test Product Display 003 is Failed ************")
+            self.logger.error("*********** Test Product Display 003 is Failed ************")
             assert False
         self.driver.quit()
-        self.logger.info("************************* End Test Product Display 003 *************************")
+        self.logger.info("************************* End Of Test Product Display 003 *************************")
+
+    @pytest.mark.sanity
+    def test_product_display_004(self, setup):
+        self.driver = setup
+        self.logger.info("************************* Test Product Display 004 is Start *************************")
+        self.driver.get(self.baseURL)
+        self.logger.info("Navigating to the base url")
+        self.sf = SearchPage(self.driver)
+        self.sf.search_product("iMac")
+        self.logger.info("Entering iMac product to the search text box field")
+        self.sf.click_on_search_button()
+        self.logger.info("Clicking on the search icon button")
+        self.pc = ProductComparePage(self.driver)
+        self.pc.click_on_imac_product()
+        self.logger.info("Clicking on the product display in the search result")
+        price_with_tax = self.driver.find_element(By.XPATH, "//h2[normalize-space()='$122.00']").text
+        price_without_tax = self.driver.find_element(By.XPATH, "//li[normalize-space()='Ex Tax:$100.00']").text
+        self.logger.info("************************* Verifying Test Product Display 004 *************************")
+        if self.driver.title == "iMac":
+            if price_with_tax == "$122.00":
+                if price_without_tax == "Ex Tax:$100.00":
+                    assert True
+                    self.logger.info("************* Test Product Display 004 is Passed ************")
+                else:
+                    self.logger.error("************* Test Product Display 004 is Failed ************")
+                    assert False
+            else:
+                self.logger.error("************* Test Product Display 004 is Failed ************")
+                assert False
+        else:
+            self.logger.error("************* Test Product Display 004 is Failed ************")
+            assert False
+        self.driver.quit()
+        self.logger.info("************************* End Of Test Product Display 004 *************************")
+
 
 
 
