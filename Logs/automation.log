@@ -3930,3 +3930,11 @@
 05/18/2025 06:32:48 PM |      INFO | test_product_display.py:120 | *********************** Verifying Test Product Display 002 ************************
 05/18/2025 06:32:48 PM |      INFO | test_product_display.py:125 | ************ Test Product Display 002 is Passed ***********
 05/18/2025 06:32:50 PM |      INFO | test_product_display.py:136 | *********************** End Test Product Display 002 ************************
+05/19/2025 11:54:31 AM |      INFO | test_product_display.py:140 | ************************* Test Product Display 003 is Start *************************
+05/19/2025 11:54:34 AM |      INFO | test_product_display.py:142 | Navigating to the base url
+05/19/2025 11:54:34 AM |      INFO | test_product_display.py:145 | Entering iMac product to the search text box field
+05/19/2025 11:54:35 AM |      INFO | test_product_display.py:147 | Clicking on the search icon button
+05/19/2025 11:54:36 AM |      INFO | test_product_display.py:150 | Clicking on the product display in the search result
+05/19/2025 11:54:36 AM |      INFO | test_product_display.py:152 | ************************* Verifying Test Product Display 003 *************************
+05/19/2025 11:54:36 AM |      INFO | test_product_display.py:156 | *********** Test Product Display 003 is Passed ************
+05/19/2025 11:54:38 AM |      INFO | test_product_display.py:164 | ************************* End Test Product Display 003 *************************
