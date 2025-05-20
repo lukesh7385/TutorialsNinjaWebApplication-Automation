@@ -1,5 +1,7 @@
 import pytest
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.wait import WebDriverWait
 from pageObjects.ProductComparePage import ProductComparePage
 from pageObjects.ProductDisplayPage import ProductDisplayPage
 from pageObjects.SearchPage import SearchPage
@@ -215,7 +217,7 @@ class Test_007_Product_Display:
         self.logger.info("************************* Verifying Test Product Display 005 *************************")
         self.pd = ProductDisplayPage(self.driver)
         if self.driver.title == "iMac":
-            if self.pd.get_product_quantity() == "1":
+            if self.pd.get_default_product_quantity() == "1":
                 self.pd.set_product_quantity("3")
                 self.logger.info("Updating quantity by 3")
                 self.pd.click_on_add_to_cart_button_on_product_display_page()
@@ -224,7 +226,7 @@ class Test_007_Product_Display:
                     self.pc.click_on_shopping_cart_link()
                     self.logger.info("Clicking on the shopping cart link")
                     if self.driver.title == "Shopping Cart":
-                        if self.pd.get_updated_quantity() == "3":
+                        if self.pd.get_updated_product_quantity() == "3":
                             assert True
                             self.logger.info("************** Test Product Display 005 is Passed **************")
                         else:
@@ -244,6 +246,50 @@ class Test_007_Product_Display:
             assert False
         self.driver.quit()
         self.logger.info("************************* End Of Test Product Display 005 *************************")
+
+    @pytest.mark.sanity
+    def test_product_display_006(self, setup):
+        self.driver = setup
+        self.logger.info("************************* Test Product Display 006 is Start *************************")
+        self.driver.get(self.baseURL)
+        self.logger.info("Navigating to the base url")
+        self.sf = SearchPage(self.driver)
+        self.sf.search_product("iMac")
+        self.logger.info("Entering iMac product to the search text box field")
+        self.sf.click_on_search_button()
+        self.logger.info("Clicking on the search icon button")
+        self.pc = ProductComparePage(self.driver)
+        self.pc.click_on_imac_product()
+        self.logger.info("Clicking on the product display in the search result")
+        self.logger.info("************************* Verifying Test Product Display 006 *************************")
+        self.pd = ProductDisplayPage(self.driver)
+        if self.pd.get_default_product_quantity() == "1":
+            self.pd.set_product_quantity("-1")
+            self.logger.info("Updating the product quantity to -1")
+            self.pd.click_on_add_to_cart_button_on_product_display_page()
+            self.logger.info("Clicking on the add to cart button")
+
+            WebDriverWait(self.driver, 10).until(
+                lambda driver: driver.execute_script("return document.readyState") == "complete"
+            )
+            self.logger.info("Page has fully loaded")
+
+            if self.pd.get_default_product_quantity() == "1":
+                assert True
+                self.logger.info("*********** Test Product Display 006 is Passed ***********")
+            else:
+                self.logger.error(f"{self.pd.get_default_product_quantity()}")
+                self.logger.error("*********** Test Product Display 006 is Failed ***********")
+                assert False
+        else:
+            self.logger.error("*********** Test Product Display 006 is Failed ***********")
+            assert False
+        self.driver.quit()
+        self.logger.info("************************* End Test Product Display 006 *************************")
+
+
+
+
 
 
 

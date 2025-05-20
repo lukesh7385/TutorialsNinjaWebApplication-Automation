@@ -4333,3 +4333,75 @@
 05/20/2025 11:55:17 AM |      INFO | test_product_display.py:227 | Clicking on the shopping cart link
 05/20/2025 11:55:17 AM |      INFO | test_product_display.py:231 | ************** Test Product Display 005 is Passed **************
 05/20/2025 11:55:20 AM |      INFO | test_product_display.py:248 | ************************* End Of Test Product Display 005 *************************
+05/20/2025 02:08:30 PM |      INFO | test_product_display.py:251 | ************************* Test Product Display 006 is Start *************************
+05/20/2025 02:08:33 PM |      INFO | test_product_display.py:253 | Navigating to the base url
+05/20/2025 02:08:33 PM |      INFO | test_product_display.py:256 | Entering iMac product to the search text box field
+05/20/2025 02:08:34 PM |      INFO | test_product_display.py:258 | Clicking on the search icon button
+05/20/2025 02:08:35 PM |      INFO | test_product_display.py:261 | Clicking on the product display in the search result
+05/20/2025 02:08:35 PM |      INFO | test_product_display.py:262 | ************************* Verifying Test Product Display 006 *************************
+05/20/2025 02:08:35 PM |      INFO | test_product_display.py:266 | Updating the product quantity to -1
+05/20/2025 02:08:35 PM |     ERROR | test_product_display.py:268 | *********** Test Product Display 006 is Failed ***********
+05/20/2025 02:14:45 PM |      INFO | test_product_display.py:251 | ************************* Test Product Display 006 is Start *************************
+05/20/2025 02:14:54 PM |      INFO | test_product_display.py:253 | Navigating to the base url
+05/20/2025 02:14:54 PM |      INFO | test_product_display.py:257 | Entering iMac product in the search box
+05/20/2025 02:14:55 PM |      INFO | test_product_display.py:259 | Clicking on the search icon button
+05/20/2025 02:14:58 PM |      INFO | test_product_display.py:263 | Clicking on the product display in the search result
+05/20/2025 02:14:58 PM |      INFO | test_product_display.py:265 | ************************* Verifying Test Product Display 006 *************************
+05/20/2025 02:14:58 PM |      INFO | test_product_display.py:274 | Trying to update the product quantity to -1
+05/20/2025 02:14:58 PM |     ERROR | test_product_display.py:284 | *********** Test Product Display 006 is Failed ***********
+05/20/2025 02:19:21 PM |      INFO | test_product_display.py:251 | ************************* Test Product Display 006 is Start *************************
+05/20/2025 02:19:28 PM |      INFO | test_product_display.py:253 | Navigating to the base url
+05/20/2025 02:19:28 PM |      INFO | test_product_display.py:256 | Entering iMac product to the search text box field
+05/20/2025 02:19:29 PM |      INFO | test_product_display.py:258 | Clicking on the search icon button
+05/20/2025 02:19:30 PM |      INFO | test_product_display.py:261 | Clicking on the product display in the search result
+05/20/2025 02:19:30 PM |      INFO | test_product_display.py:262 | ************************* Verifying Test Product Display 006 *************************
+05/20/2025 02:19:30 PM |      INFO | test_product_display.py:266 | Updating the product quantity to -1
+05/20/2025 02:19:30 PM |     ERROR | test_product_display.py:271 | *********** Test Product Display 006 is Failed ***********
+05/20/2025 02:22:24 PM |      INFO | test_product_display.py:251 | ************************* Test Product Display 006 is Start *************************
+05/20/2025 02:22:28 PM |      INFO | test_product_display.py:253 | Navigating to the base url
+05/20/2025 02:22:28 PM |      INFO | test_product_display.py:256 | Entering iMac product to the search text box field
+05/20/2025 02:22:29 PM |      INFO | test_product_display.py:258 | Clicking on the search icon button
+05/20/2025 02:22:30 PM |      INFO | test_product_display.py:261 | Clicking on the product display in the search result
+05/20/2025 02:22:30 PM |      INFO | test_product_display.py:262 | ************************* Verifying Test Product Display 006 *************************
+05/20/2025 02:22:30 PM |      INFO | test_product_display.py:266 | Updating the product quantity to -1
+05/20/2025 02:22:30 PM |      INFO | test_product_display.py:268 | Clicking on the add to cart button
+05/20/2025 02:22:31 PM |     ERROR | test_product_display.py:273 | *********** Test Product Display 006 is Failed ***********
+05/20/2025 02:29:15 PM |      INFO | test_product_display.py:254 | ************************* Test Product Display 006 is Start *************************
+05/20/2025 02:29:19 PM |      INFO | test_product_display.py:256 | Navigating to the base url
+05/20/2025 02:29:20 PM |      INFO | test_product_display.py:259 | Entering iMac product to the search text box field
+05/20/2025 02:29:57 PM |      INFO | test_product_display.py:261 | Clicking on the search icon button
+05/20/2025 02:29:58 PM |      INFO | test_product_display.py:264 | Clicking on the product display in the search result
+05/20/2025 02:29:58 PM |      INFO | test_product_display.py:265 | ************************* Verifying Test Product Display 006 *************************
+05/20/2025 02:29:58 PM |      INFO | test_product_display.py:269 | Updating the product quantity to -1
+05/20/2025 02:29:58 PM |      INFO | test_product_display.py:271 | Clicking on the add to cart button
+05/20/2025 02:29:58 PM |      INFO | test_product_display.py:274 | Page title contains 'iMac'
+05/20/2025 02:29:58 PM |     ERROR | test_product_display.py:280 | *********** Test Product Display 006 is Failed ***********
+05/20/2025 02:34:26 PM |      INFO | test_product_display.py:253 | ************************* Test Product Display 006 is Start *************************
+05/20/2025 02:34:34 PM |      INFO | test_product_display.py:255 | Navigating to the base url
+05/20/2025 02:34:34 PM |      INFO | test_product_display.py:258 | Entering iMac product to the search text box field
+05/20/2025 02:34:37 PM |      INFO | test_product_display.py:260 | Clicking on the search icon button
+05/20/2025 02:34:45 PM |      INFO | test_product_display.py:263 | Clicking on the product display in the search result
+05/20/2025 02:34:45 PM |      INFO | test_product_display.py:264 | ************************* Verifying Test Product Display 006 *************************
+05/20/2025 02:34:45 PM |      INFO | test_product_display.py:268 | Updating the product quantity to -1
+05/20/2025 02:34:45 PM |      INFO | test_product_display.py:270 | Clicking on the add to cart button
+05/20/2025 02:37:12 PM |      INFO | test_product_display.py:253 | ************************* Test Product Display 006 is Start *************************
+05/20/2025 02:37:17 PM |      INFO | test_product_display.py:255 | Navigating to the base url
+05/20/2025 02:37:17 PM |      INFO | test_product_display.py:258 | Entering iMac product to the search text box field
+05/20/2025 02:37:18 PM |      INFO | test_product_display.py:260 | Clicking on the search icon button
+05/20/2025 02:37:19 PM |      INFO | test_product_display.py:263 | Clicking on the product display in the search result
+05/20/2025 02:37:19 PM |      INFO | test_product_display.py:264 | ************************* Verifying Test Product Display 006 *************************
+05/20/2025 02:37:19 PM |      INFO | test_product_display.py:268 | Updating the product quantity to -1
+05/20/2025 02:37:19 PM |      INFO | test_product_display.py:270 | Clicking on the add to cart button
+05/20/2025 02:37:19 PM |      INFO | test_product_display.py:275 | Page has fully loaded
+05/20/2025 02:37:19 PM |     ERROR | test_product_display.py:281 | *********** Test Product Display 006 is Failed ***********
+05/20/2025 02:40:04 PM |      INFO | test_product_display.py:253 | ************************* Test Product Display 006 is Start *************************
+05/20/2025 02:40:07 PM |      INFO | test_product_display.py:255 | Navigating to the base url
+05/20/2025 02:40:07 PM |      INFO | test_product_display.py:258 | Entering iMac product to the search text box field
+05/20/2025 02:40:07 PM |      INFO | test_product_display.py:260 | Clicking on the search icon button
+05/20/2025 02:40:08 PM |      INFO | test_product_display.py:263 | Clicking on the product display in the search result
+05/20/2025 02:40:08 PM |      INFO | test_product_display.py:264 | ************************* Verifying Test Product Display 006 *************************
+05/20/2025 02:40:08 PM |      INFO | test_product_display.py:268 | Updating the product quantity to -1
+05/20/2025 02:40:08 PM |      INFO | test_product_display.py:270 | Clicking on the add to cart button
+05/20/2025 02:40:08 PM |      INFO | test_product_display.py:275 | Page has fully loaded
+05/20/2025 02:40:08 PM |     ERROR | test_product_display.py:281 | -1
+05/20/2025 02:40:08 PM |     ERROR | test_product_display.py:282 | *********** Test Product Display 006 is Failed ***********
