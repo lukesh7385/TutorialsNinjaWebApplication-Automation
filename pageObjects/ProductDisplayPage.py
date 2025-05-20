@@ -100,6 +100,15 @@ class ProductDisplayPage:
         )
         self.driver.execute_script("arguments[0].click();", add_to_cart_button)
 
+    def get_product_quantity(self):
+        default_quantity = self.driver.find_element(*ProductDisplayPage.quantityTextBox)
+        return default_quantity.get_attribute("value")
+
+    def get_updated_quantity(self, timeout=10, poll_frequency=2):
+        return WebDriverWait(self.driver, timeout, poll_frequency).until(
+            EC.visibility_of_element_located(self.updatedQuantity)
+        ).get_attribute("value")
+
 
 
 

@@ -216,9 +216,8 @@ class Test_007_Product_Display:
         self.logger.info("Clicking on the product display in the search result")
         self.logger.info("************************* Verifying Test Product Display 005 *************************")
         self.pd = ProductDisplayPage(self.driver)
-        default_quantity = self.driver.find_element(*ProductDisplayPage.quantityTextBox)
         if self.driver.title == "iMac":
-            if default_quantity.get_attribute("value") == "1":
+            if self.pd.get_product_quantity() == "1":
                 self.pd.set_product_quantity("3")
                 self.logger.info("Updating quantity by 3")
                 self.pd.click_on_add_to_cart_button_on_product_display_page()
@@ -226,11 +225,8 @@ class Test_007_Product_Display:
                 if self.pc.success_message().__contains__("Success: You have added iMac to your shopping cart!"):
                     self.pc.click_on_shopping_cart_link()
                     self.logger.info("Clicking on the shopping cart link")
-                    updated_quantity = WebDriverWait(self.driver, 10, poll_frequency=2).until(
-                        EC.visibility_of_element_located(ProductDisplayPage.updatedQuantity)
-                    ).get_attribute("value")
                     if self.driver.title == "Shopping Cart":
-                        if updated_quantity == "3":
+                        if self.pd.get_updated_quantity() == "3":
                             assert True
                             self.logger.info("************** Test Product Display 005 is Passed **************")
                         else:
