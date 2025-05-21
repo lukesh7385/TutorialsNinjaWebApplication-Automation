@@ -5,7 +5,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 
 
 class ProductComparePage:
-    iMacProduct = (By.XPATH, "//img[@title='iMac']")
+    product = (By.XPATH, "//img[@class='img-responsive']")
     compareThisProductOption = (By.XPATH, "/html/body/div[2]/div/div/div[1]/div[2]/div[1]/button[2]")
     compareThisProductOptionOnProduct = (By.XPATH, "//button[3][contains(@data-original-title,'Compare this Product')]")
     successMessage = (By.XPATH, "//div[@class='alert alert-success alert-dismissible']")
@@ -27,11 +27,12 @@ class ProductComparePage:
 
 
 
+
     def __init__(self, driver):
         self.driver = driver
 
-    def click_on_imac_product(self):
-        self.driver.find_element(*ProductComparePage.iMacProduct).click()
+    def click_on_the_product_display_in_search_result(self):
+        self.driver.find_element(*ProductComparePage.product).click()
 
     def click_on_compare_this_product_option(self):
         compare_this_product_option = WebDriverWait(self.driver, 10).until(
@@ -108,6 +109,7 @@ class ProductComparePage:
             except StaleElementReferenceException:
                 button = self.driver.find_element(*self.removeButton)
                 button.click()
+
 
 
 

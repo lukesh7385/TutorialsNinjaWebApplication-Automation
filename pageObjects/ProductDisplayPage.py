@@ -1,5 +1,6 @@
 from selenium.common import TimeoutException
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support.select import Select
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
@@ -14,6 +15,20 @@ class ProductDisplayPage:
     quantityTextBox = (By.ID, "input-quantity")
     addToCartBtn = (By.XPATH, "//button[@id='button-cart']")
     updatedQuantity =(By.CSS_SELECTOR, "input[value='3']")
+    informationText = (By.XPATH, "//div[@class='alert alert-info']")
+
+    radioButton = (By.ID, "input-option218")
+    checkBox1 = (By.XPATH, "//input[@value='10']")
+    checkBox2 = (By.XPATH, "//input[@value='11']")
+    inputTextField = (By.ID, "input-option208")
+    dropDown = (By.XPATH, "//select[@id='input-option217']")
+    textArea = (By.ID, "input-option209")
+    uploadFile = (By.ID, "button-upload222")
+    inputDate = (By.ID, "input-option219")
+    inputTime = (By.ID, "input-option221")
+    inputDateAndTime = (By.ID, "input-option220")
+
+
 
 
     def __init__(self, driver):
@@ -109,7 +124,50 @@ class ProductDisplayPage:
             EC.visibility_of_element_located(self.updatedQuantity)
         ).get_attribute("value")
 
+    def get_information_text(self):
+        information_text = self.driver.find_element(*ProductDisplayPage.informationText).text
+        return information_text
 
+    def click_on_radio_button(self):
+        element = WebDriverWait(self.driver, 10, poll_frequency=2).until(
+            EC.presence_of_element_located(*ProductDisplayPage.radioButton)
+        )
+        self.driver.execute_script("arguments[0].click();", element)
+
+    def click_on_check_box1(self):
+        self.driver.find_element(*ProductDisplayPage.checkBox1).click()
+
+    def click_on_check_box2(self):
+        self.driver.find_element(*ProductDisplayPage.checkBox2).click()
+
+    def enter_text_to_text_field(self, text):
+        self.driver.find_element(*ProductDisplayPage.inputTextField).send_keys(text)
+
+    def select_dropdown_option(self):
+        dropdown = Select(self.driver.find_element(*ProductDisplayPage.dropDown))
+        dropdown.select_by_value("4")
+
+    def upload_file(self, file_path):
+        try:
+            # Wait for the file input element to be present
+            file_input = WebDriverWait(self.driver, 10).until(
+                EC.presence_of_element_located(*ProductDisplayPage.uploadFile))
+            # Ensure visibility
+            self.driver.execute_script("arguments[0].scrollIntoView(true);", file_input)
+            # Upload the file
+            file_input.send_keys(file_path)
+            print(f"File uploaded successfully: {file_path}")
+        except Exception as e:
+            print(f"Error while uploading file: {e}")
+
+    def set_date(self, date):
+        self.driver.find_element(*ProductDisplayPage.inputDate).send_keys(date)
+
+    def set_time(self, time):
+        self.driver.find_element(*ProductDisplayPage.inputTime).send_keys(time)
+
+    def set_date_and_time(self, date_and_tme):
+        self.driver.find_element(*ProductDisplayPage.inputDateAndTime).send_keys(date_and_tme)
 
 
 

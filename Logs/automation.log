@@ -4405,3 +4405,18 @@
 05/20/2025 02:40:08 PM |      INFO | test_product_display.py:275 | Page has fully loaded
 05/20/2025 02:40:08 PM |     ERROR | test_product_display.py:281 | -1
 05/20/2025 02:40:08 PM |     ERROR | test_product_display.py:282 | *********** Test Product Display 006 is Failed ***********
+05/21/2025 03:49:51 PM |      INFO | test_product_display.py:292 | *************************** Test Product Display 007 is Start **************************
+05/21/2025 03:49:53 PM |      INFO | test_product_display.py:294 | Navigating to the base url
+05/21/2025 03:49:53 PM |      INFO | test_product_display.py:297 | Entering Apple Cinema 30 to search text box field
+05/21/2025 03:49:53 PM |      INFO | test_product_display.py:299 | Clicking on the search icon button
+05/21/2025 03:52:59 PM |      INFO | test_product_display.py:292 | *************************** Test Product Display 007 is Start **************************
+05/21/2025 03:53:00 PM |      INFO | test_product_display.py:294 | Navigating to the base url
+05/21/2025 03:53:00 PM |      INFO | test_product_display.py:297 | Entering Apple Cinema 30 to search text box field
+05/21/2025 03:53:01 PM |      INFO | test_product_display.py:299 | Clicking on the search icon button
+05/21/2025 03:55:57 PM |      INFO | test_product_display.py:292 | *************************** Test Product Display 007 is Start **************************
+05/21/2025 03:55:58 PM |      INFO | test_product_display.py:294 | Navigating to the base url
+05/21/2025 03:55:59 PM |      INFO | test_product_display.py:297 | Entering Apple Cinema 30 to search text box field
+05/21/2025 03:55:59 PM |      INFO | test_product_display.py:299 | Clicking on the search icon button
+05/21/2025 03:56:00 PM |      INFO | test_product_display.py:302 | Clicking on the product display in search result
+05/21/2025 03:56:00 PM |      INFO | test_product_display.py:304 | *************************** Verifying Test Product Display 007 **************************
+05/21/2025 03:59:34 PM |      INFO | test_product_display.py:292 | *************************** Test Product Display 007 is Start **************************

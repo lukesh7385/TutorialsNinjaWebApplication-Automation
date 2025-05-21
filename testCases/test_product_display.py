@@ -1,6 +1,5 @@
 import pytest
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 from pageObjects.ProductComparePage import ProductComparePage
 from pageObjects.ProductDisplayPage import ProductDisplayPage
@@ -26,7 +25,7 @@ class Test_007_Product_Display:
         self.sf.click_on_search_button()
         self.logger.info("Clicking on the search button")
         self.pc = ProductComparePage(self.driver)
-        self.pc.click_on_imac_product()
+        self.pc.click_on_the_product_display_in_search_result()
         self.logger.info("Clicking on the product displayed in the Search results")
         self.pd = ProductDisplayPage(self.driver)
         self.pd.click_on_thumbnail_image()
@@ -114,7 +113,7 @@ class Test_007_Product_Display:
         self.sf.click_on_search_button()
         self.logger.info("Clicking on the search icon button")
         self.pc = ProductComparePage(self.driver)
-        self.pc.click_on_imac_product()
+        self.pc.click_on_the_product_display_in_search_result()
         self.logger.info("Clicking on the iMac product")
         product_name = self.driver.find_element(By.XPATH, "//h1[normalize-space()='iMac']").text
         brand = self.driver.find_element(By.LINK_TEXT, "Apple").text
@@ -149,7 +148,7 @@ class Test_007_Product_Display:
         self.sf.click_on_search_button()
         self.logger.info("Clicking on the search icon button")
         self.pc = ProductComparePage(self.driver)
-        self.pc.click_on_imac_product()
+        self.pc.click_on_the_product_display_in_search_result()
         self.logger.info("Clicking on the product display in the search result")
         availability_status = self.driver.find_element(By.XPATH, "//li[normalize-space()='Availability:Out Of Stock']").text
         self.logger.info("************************* Verifying Test Product Display 003 *************************")
@@ -178,7 +177,7 @@ class Test_007_Product_Display:
         self.sf.click_on_search_button()
         self.logger.info("Clicking on the search icon button")
         self.pc = ProductComparePage(self.driver)
-        self.pc.click_on_imac_product()
+        self.pc.click_on_the_product_display_in_search_result()
         self.logger.info("Clicking on the product display in the search result")
         price_with_tax = self.driver.find_element(By.XPATH, "//h2[normalize-space()='$122.00']").text
         price_without_tax = self.driver.find_element(By.XPATH, "//li[normalize-space()='Ex Tax:$100.00']").text
@@ -212,7 +211,7 @@ class Test_007_Product_Display:
         self.sf.click_on_search_button()
         self.logger.info("Clicking on the search icon button")
         self.pc = ProductComparePage(self.driver)
-        self.pc.click_on_imac_product()
+        self.pc.click_on_the_product_display_in_search_result()
         self.logger.info("Clicking on the product display in the search result")
         self.logger.info("************************* Verifying Test Product Display 005 *************************")
         self.pd = ProductDisplayPage(self.driver)
@@ -259,7 +258,7 @@ class Test_007_Product_Display:
         self.sf.click_on_search_button()
         self.logger.info("Clicking on the search icon button")
         self.pc = ProductComparePage(self.driver)
-        self.pc.click_on_imac_product()
+        self.pc.click_on_the_product_display_in_search_result()
         self.logger.info("Clicking on the product display in the search result")
         self.logger.info("************************* Verifying Test Product Display 006 *************************")
         self.pd = ProductDisplayPage(self.driver)
@@ -286,6 +285,67 @@ class Test_007_Product_Display:
             assert False
         self.driver.quit()
         self.logger.info("************************* End Test Product Display 006 *************************")
+
+    @pytest.mark.sanity
+    def test_product_display_007(self, setup):
+        self.driver = setup
+        self.logger.info("*************************** Test Product Display 007 is Start **************************")
+        self.driver.get(self.baseURL)
+        self.logger.info("Navigating to the base url")
+        self.sf = SearchPage(self.driver)
+        self.sf.search_product("Apple Cinema 30")
+        self.logger.info("Entering Apple Cinema 30 to search text box field")
+        self.sf.click_on_search_button()
+        self.logger.info("Clicking on the search icon button")
+        self.pc = ProductComparePage(self.driver)
+        self.pc.click_on_the_product_display_in_search_result()
+        self.logger.info("Clicking on the product display in search result")
+        self.pd = ProductDisplayPage(self.driver)
+        self.logger.info("*************************** Verifying Test Product Display 007 **************************")
+        if self.pd.get_default_product_quantity() == "2":
+            if self.pd.informationText == "This product has a minimum quantity of 2":
+                self.pd.click_on_radio_button()
+                self.logger.info("Clicking on radio button")
+                self.pd.click_on_check_box1()
+                self.logger.info("Clicking on check box1")
+                self.pd.click_on_check_box2()
+                self.logger.info("Clicking on check box2")
+                self.pd.enter_text_to_text_field("Test")
+                self.pd.select_dropdown_option()
+                self.logger.info("Selecting dropdown option")
+                self.pd.upload_file("C:\\Users\\lukesh ade\\OneDrive\\Pictures\\Screenshots\\2023-03-09 220446.png")
+                self.logger.info("Uploading file")
+                self.pd.set_date("2025-06-20")
+                self.logger.info("Entering date")
+                self.pd.set_time("22:25")
+                self.logger.info("Entering time")
+                self.pd.set_date_and_time("2025-06-20 22:25")
+                self.logger.info("Entering date and time")
+                self.pd.set_product_quantity("4")
+                self.logger.info("Update the product quantity to 4")
+                self.pd.click_on_add_to_cart_button_on_product_display_page()
+                self.logger.info("Clicking on add to cart button")
+                assert True
+                self.logger.info("************* Test Product Display 007 is Passed ************")
+            else:
+                self.logger.info("************* Test Product Display 007 is Failed ************")
+                assert False
+        else:
+            self.logger.info("************* Test Product Display 007 is Failed ************")
+            assert False
+        self.driver.quit()
+        self.logger.info("*************************** End Of Test Product Display 007 **************************")
+
+
+
+
+
+
+
+
+
+
+
 
 
 
