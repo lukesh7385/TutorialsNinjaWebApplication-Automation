@@ -1,8 +1,10 @@
 from selenium.common import TimeoutException
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.select import Select
 from selenium.webdriver.support.wait import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
+import pyautogui
+import time
 
 
 class ProductDisplayPage:
@@ -14,22 +16,19 @@ class ProductDisplayPage:
     crossOption = (By.XPATH, "/html/body/div[2]/div/div[1]/div/button")
     quantityTextBox = (By.ID, "input-quantity")
     addToCartBtn = (By.XPATH, "//button[@id='button-cart']")
-    updatedQuantity =(By.CSS_SELECTOR, "input[value='3']")
+    updatedQuantity = (By.CSS_SELECTOR, "input[value='3']")
     informationText = (By.XPATH, "//div[@class='alert alert-info']")
 
-    radioButton = (By.ID, "input-option218")
+    radioButton = (By.XPATH, "//label[normalize-space()='Radio']")
     checkBox1 = (By.XPATH, "//input[@value='10']")
     checkBox2 = (By.XPATH, "//input[@value='11']")
     inputTextField = (By.ID, "input-option208")
     dropDown = (By.XPATH, "//select[@id='input-option217']")
-    textArea = (By.ID, "input-option209")
-    uploadFile = (By.ID, "button-upload222")
+    inptTextArea = (By.ID, "input-option209")
+    uploadFile = (By.XPATH, "//button[@id='button-upload222']")
     inputDate = (By.ID, "input-option219")
     inputTime = (By.ID, "input-option221")
     inputDateAndTime = (By.ID, "input-option220")
-
-
-
 
     def __init__(self, driver):
         self.driver = driver
@@ -130,8 +129,9 @@ class ProductDisplayPage:
 
     def click_on_radio_button(self):
         element = WebDriverWait(self.driver, 10, poll_frequency=2).until(
-            EC.presence_of_element_located(*ProductDisplayPage.radioButton)
+            EC.visibility_of_element_located(ProductDisplayPage.radioButton)
         )
+        self.driver.execute_script("arguments[0].scrollIntoView(true);", element)
         self.driver.execute_script("arguments[0].click();", element)
 
     def click_on_check_box1(self):
@@ -141,33 +141,40 @@ class ProductDisplayPage:
         self.driver.find_element(*ProductDisplayPage.checkBox2).click()
 
     def enter_text_to_text_field(self, text):
-        self.driver.find_element(*ProductDisplayPage.inputTextField).send_keys(text)
+        text_field = self.driver.find_element(*ProductDisplayPage.inputTextField)
+        text_field.clear()
+        text_field.send_keys(text)
+
+    def enter_text_to_text_area(self, text):
+        self.driver.find_element(*ProductDisplayPage.inptTextArea).send_keys(text)
 
     def select_dropdown_option(self):
         dropdown = Select(self.driver.find_element(*ProductDisplayPage.dropDown))
         dropdown.select_by_value("4")
 
-    def upload_file(self, file_path):
-        try:
-            # Wait for the file input element to be present
-            file_input = WebDriverWait(self.driver, 10).until(
-                EC.presence_of_element_located(*ProductDisplayPage.uploadFile))
-            # Ensure visibility
-            self.driver.execute_script("arguments[0].scrollIntoView(true);", file_input)
-            # Upload the file
-            file_input.send_keys(file_path)
-            print(f"File uploaded successfully: {file_path}")
-        except Exception as e:
-            print(f"Error while uploading file: {e}")
+    def upload_file(self):
+            upload_button = self.driver.find_element(*ProductDisplayPage.uploadFile)
+            upload_button.click()
+            time.sleep(1)
+            pyautogui.write("C:\\Users\\lukesh ade\\Credence Testing 8\\Credence Testing 21 new "
+                            "batch\\AutomationProject\\TutorialsNinjaWebApplication\\resources\\sample.pdf")
+            pyautogui.press("enter")
+            print("File uploaded successfully using PyAutoGUI.")
 
     def set_date(self, date):
         self.driver.find_element(*ProductDisplayPage.inputDate).send_keys(date)
 
-    def set_time(self, time):
-        self.driver.find_element(*ProductDisplayPage.inputTime).send_keys(time)
+    def set_time(self, t):
+        self.driver.find_element(*ProductDisplayPage.inputTime).send_keys(t)
 
     def set_date_and_time(self, date_and_tme):
         self.driver.find_element(*ProductDisplayPage.inputDateAndTime).send_keys(date_and_tme)
 
-
-
+    def accept_alert(self):
+        try:
+            WebDriverWait(self.driver, 10, poll_frequency=2).until(EC.alert_is_present())
+            alert = self.driver.switch_to.alert
+            alert.accept()
+            print("Alert accepted successfully.")
+        except Exception as e:
+            print(f"Error while accepting alert: {e}")

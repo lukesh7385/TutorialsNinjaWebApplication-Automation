@@ -1,6 +1,7 @@
 import pytest
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
+
 from pageObjects.ProductComparePage import ProductComparePage
 from pageObjects.ProductDisplayPage import ProductDisplayPage
 from pageObjects.SearchPage import SearchPage
@@ -303,7 +304,7 @@ class Test_007_Product_Display:
         self.pd = ProductDisplayPage(self.driver)
         self.logger.info("*************************** Verifying Test Product Display 007 **************************")
         if self.pd.get_default_product_quantity() == "2":
-            if self.pd.informationText == "This product has a minimum quantity of 2":
+            if  "This product has a minimum quantity of 2" in self.pd.get_information_text():
                 self.pd.click_on_radio_button()
                 self.logger.info("Clicking on radio button")
                 self.pd.click_on_check_box1()
@@ -313,27 +314,29 @@ class Test_007_Product_Display:
                 self.pd.enter_text_to_text_field("Test")
                 self.pd.select_dropdown_option()
                 self.logger.info("Selecting dropdown option")
-                self.pd.upload_file("C:\\Users\\lukesh ade\\OneDrive\\Pictures\\Screenshots\\2023-03-09 220446.png")
+                self.pd.enter_text_to_text_area("Test")
+                self.pd.upload_file()
                 self.logger.info("Uploading file")
+                self.pd.accept_alert()
+                self.logger.info("Accepting alert")
                 self.pd.set_date("2025-06-20")
                 self.logger.info("Entering date")
                 self.pd.set_time("22:25")
                 self.logger.info("Entering time")
                 self.pd.set_date_and_time("2025-06-20 22:25")
                 self.logger.info("Entering date and time")
-                self.pd.set_product_quantity("4")
-                self.logger.info("Update the product quantity to 4")
+                self.pd.set_product_quantity("1")
+                self.logger.info("Update the product quantity to 1")
                 self.pd.click_on_add_to_cart_button_on_product_display_page()
                 self.logger.info("Clicking on add to cart button")
                 assert True
                 self.logger.info("************* Test Product Display 007 is Passed ************")
             else:
-                self.logger.info("************* Test Product Display 007 is Failed ************")
+                self.logger.error("************* Test Product Display 007 is Failed ************")
                 assert False
         else:
-            self.logger.info("************* Test Product Display 007 is Failed ************")
+            self.logger.error("************* Test Product Display 007 is Failed ************")
             assert False
-        self.driver.quit()
         self.logger.info("*************************** End Of Test Product Display 007 **************************")
 
 

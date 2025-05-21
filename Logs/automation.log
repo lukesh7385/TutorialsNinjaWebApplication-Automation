@@ -4420,3 +4420,581 @@
 05/21/2025 03:56:00 PM |      INFO | test_product_display.py:302 | Clicking on the product display in search result
 05/21/2025 03:56:00 PM |      INFO | test_product_display.py:304 | *************************** Verifying Test Product Display 007 **************************
 05/21/2025 03:59:34 PM |      INFO | test_product_display.py:292 | *************************** Test Product Display 007 is Start **************************
+05/21/2025 11:57:40 PM |      INFO | test_product_display.py:292 | *************************** Test Product Display 007 is Start **************************
+05/21/2025 11:57:43 PM |      INFO | test_product_display.py:294 | Navigating to the base url
+05/21/2025 11:57:43 PM |      INFO | test_product_display.py:297 | Entering Apple Cinema 30 to search text box field
+05/21/2025 11:57:44 PM |      INFO | test_product_display.py:299 | Clicking on the search icon button
+05/21/2025 11:57:44 PM |      INFO | test_product_display.py:302 | Clicking on the product display in search result
+05/21/2025 11:57:44 PM |      INFO | test_product_display.py:304 | *************************** Verifying Test Product Display 007 **************************
+05/21/2025 11:57:45 PM |     ERROR | test_product_display.py:331 | ************* Test Product Display 007 is Failed ************
+05/21/2025 11:59:17 PM |      INFO | test_product_display.py:292 | *************************** Test Product Display 007 is Start **************************
+05/21/2025 11:59:18 PM |      INFO | test_product_display.py:294 | Navigating to the base url
+05/21/2025 11:59:19 PM |      INFO | test_product_display.py:297 | Entering Apple Cinema 30 to search text box field
+05/21/2025 11:59:19 PM |      INFO | test_product_display.py:299 | Clicking on the search icon button
+05/21/2025 11:59:20 PM |      INFO | test_product_display.py:302 | Clicking on the product display in search result
+05/21/2025 11:59:20 PM |      INFO | test_product_display.py:304 | *************************** Verifying Test Product Display 007 **************************
+05/21/2025 11:59:20 PM |     ERROR | test_product_display.py:331 | ************* Test Product Display 007 is Failed ************
+05/21/2025 11:59:44 PM |      INFO | test_product_display.py:292 | *************************** Test Product Display 007 is Start **************************
+05/21/2025 11:59:45 PM |      INFO | test_product_display.py:294 | Navigating to the base url
+05/21/2025 11:59:45 PM |      INFO | test_product_display.py:297 | Entering Apple Cinema 30 to search text box field
+05/21/2025 11:59:46 PM |      INFO | test_product_display.py:299 | Clicking on the search icon button
+05/21/2025 11:59:46 PM |      INFO | test_product_display.py:302 | Clicking on the product display in search result
+05/21/2025 11:59:46 PM |      INFO | test_product_display.py:304 | *************************** Verifying Test Product Display 007 **************************
+05/22/2025 12:12:32 AM |      INFO | test_product_display.py:292 | *************************** Test Product Display 007 is Start **************************
+05/22/2025 12:12:33 AM |      INFO | test_product_display.py:294 | Navigating to the base url
+05/22/2025 12:12:34 AM |      INFO | test_product_display.py:297 | Entering Apple Cinema 30 to search text box field
+05/22/2025 12:12:34 AM |      INFO | test_product_display.py:299 | Clicking on the search icon button
+05/22/2025 12:12:35 AM |      INFO | test_product_display.py:302 | Clicking on the product display in search result
+05/22/2025 12:12:35 AM |      INFO | test_product_display.py:304 | *************************** Verifying Test Product Display 007 **************************
+05/22/2025 12:14:35 AM |      INFO | test_product_display.py:292 | *************************** Test Product Display 007 is Start **************************
+05/22/2025 12:14:36 AM |      INFO | test_product_display.py:294 | Navigating to the base url
+05/22/2025 12:14:36 AM |      INFO | test_product_display.py:297 | Entering Apple Cinema 30 to search text box field
+05/22/2025 12:14:36 AM |      INFO | test_product_display.py:299 | Clicking on the search icon button
+05/22/2025 12:14:37 AM |      INFO | test_product_display.py:302 | Clicking on the product display in search result
+05/22/2025 12:14:37 AM |      INFO | test_product_display.py:304 | *************************** Verifying Test Product Display 007 **************************
+05/22/2025 12:14:37 AM |      INFO | test_product_display.py:308 | Clicking on radio button
+05/22/2025 12:14:37 AM |      INFO | test_product_display.py:310 | Clicking on check box1
+05/22/2025 12:14:37 AM |      INFO | test_product_display.py:312 | Clicking on check box2
+05/22/2025 12:14:37 AM |      INFO | test_product_display.py:315 | Selecting dropdown option
+05/22/2025 12:14:37 AM |      INFO | test_product_display.py:317 | Uploading file
+05/22/2025 12:14:38 AM |      INFO | test_product_display.py:319 | Entering date
+05/22/2025 12:14:38 AM |      INFO | test_product_display.py:321 | Entering time
+05/22/2025 12:14:38 AM |      INFO | test_product_display.py:323 | Entering date and time
+05/22/2025 12:14:38 AM |      INFO | test_product_display.py:325 | Update the product quantity to 4
+05/22/2025 12:14:38 AM |      INFO | test_product_display.py:327 | Clicking on add to cart button
+05/22/2025 12:14:38 AM |      INFO | test_product_display.py:329 | ************* Test Product Display 007 is Passed ************
+05/22/2025 12:14:40 AM |      INFO | test_product_display.py:337 | *************************** End Of Test Product Display 007 **************************
+05/22/2025 12:22:03 AM |      INFO | test_product_display.py:292 | *************************** Test Product Display 007 is Start **************************
+05/22/2025 12:22:04 AM |      INFO | test_product_display.py:294 | Navigating to the base url
+05/22/2025 12:22:04 AM |      INFO | test_product_display.py:297 | Entering Apple Cinema 30 to search text box field
+05/22/2025 12:22:05 AM |      INFO | test_product_display.py:299 | Clicking on the search icon button
+05/22/2025 12:22:05 AM |      INFO | test_product_display.py:302 | Clicking on the product display in search result
+05/22/2025 12:22:05 AM |      INFO | test_product_display.py:304 | *************************** Verifying Test Product Display 007 **************************
+05/22/2025 12:22:05 AM |      INFO | test_product_display.py:308 | Clicking on radio button
+05/22/2025 12:22:05 AM |      INFO | test_product_display.py:310 | Clicking on check box1
+05/22/2025 12:22:05 AM |      INFO | test_product_display.py:312 | Clicking on check box2
+05/22/2025 12:22:06 AM |      INFO | test_product_display.py:315 | Selecting dropdown option
+05/22/2025 12:23:02 AM |      INFO | test_product_display.py:292 | *************************** Test Product Display 007 is Start **************************
+05/22/2025 12:23:04 AM |      INFO | test_product_display.py:294 | Navigating to the base url
+05/22/2025 12:23:05 AM |      INFO | test_product_display.py:297 | Entering Apple Cinema 30 to search text box field
+05/22/2025 12:23:05 AM |      INFO | test_product_display.py:299 | Clicking on the search icon button
+05/22/2025 12:23:06 AM |      INFO | test_product_display.py:302 | Clicking on the product display in search result
+05/22/2025 12:23:06 AM |      INFO | test_product_display.py:304 | *************************** Verifying Test Product Display 007 **************************
+05/22/2025 12:23:06 AM |      INFO | test_product_display.py:308 | Clicking on radio button
+05/22/2025 12:23:06 AM |      INFO | test_product_display.py:310 | Clicking on check box1
+05/22/2025 12:23:06 AM |      INFO | test_product_display.py:312 | Clicking on check box2
+05/22/2025 12:23:06 AM |      INFO | test_product_display.py:315 | Selecting dropdown option
+05/22/2025 12:24:29 AM |      INFO | test_product_display.py:292 | *************************** Test Product Display 007 is Start **************************
+05/22/2025 12:24:30 AM |      INFO | test_product_display.py:294 | Navigating to the base url
+05/22/2025 12:24:30 AM |      INFO | test_product_display.py:297 | Entering Apple Cinema 30 to search text box field
+05/22/2025 12:24:31 AM |      INFO | test_product_display.py:299 | Clicking on the search icon button
+05/22/2025 12:24:31 AM |      INFO | test_product_display.py:302 | Clicking on the product display in search result
+05/22/2025 12:24:31 AM |      INFO | test_product_display.py:304 | *************************** Verifying Test Product Display 007 **************************
+05/22/2025 12:24:31 AM |      INFO | test_product_display.py:308 | Clicking on radio button
+05/22/2025 12:24:32 AM |      INFO | test_product_display.py:310 | Clicking on check box1
+05/22/2025 12:24:32 AM |      INFO | test_product_display.py:312 | Clicking on check box2
+05/22/2025 12:24:32 AM |      INFO | test_product_display.py:315 | Selecting dropdown option
+05/22/2025 12:24:32 AM |      INFO | test_product_display.py:317 | Uploading file
+05/22/2025 12:24:32 AM |      INFO | test_product_display.py:319 | Entering date
+05/22/2025 12:24:32 AM |      INFO | test_product_display.py:321 | Entering time
+05/22/2025 12:24:32 AM |      INFO | test_product_display.py:323 | Entering date and time
+05/22/2025 12:24:32 AM |      INFO | test_product_display.py:325 | Update the product quantity to 4
+05/22/2025 12:24:32 AM |      INFO | test_product_display.py:327 | Clicking on add to cart button
+05/22/2025 12:24:32 AM |      INFO | test_product_display.py:329 | ************* Test Product Display 007 is Passed ************
+05/22/2025 12:24:35 AM |      INFO | test_product_display.py:337 | *************************** End Of Test Product Display 007 **************************
+05/22/2025 12:25:42 AM |      INFO | test_product_display.py:292 | *************************** Test Product Display 007 is Start **************************
+05/22/2025 12:25:45 AM |      INFO | test_product_display.py:294 | Navigating to the base url
+05/22/2025 12:25:45 AM |      INFO | test_product_display.py:297 | Entering Apple Cinema 30 to search text box field
+05/22/2025 12:25:45 AM |      INFO | test_product_display.py:299 | Clicking on the search icon button
+05/22/2025 12:25:46 AM |      INFO | test_product_display.py:302 | Clicking on the product display in search result
+05/22/2025 12:25:46 AM |      INFO | test_product_display.py:304 | *************************** Verifying Test Product Display 007 **************************
+05/22/2025 12:25:46 AM |      INFO | test_product_display.py:308 | Clicking on radio button
+05/22/2025 12:25:46 AM |      INFO | test_product_display.py:310 | Clicking on check box1
+05/22/2025 12:25:46 AM |      INFO | test_product_display.py:312 | Clicking on check box2
+05/22/2025 12:25:47 AM |      INFO | test_product_display.py:315 | Selecting dropdown option
+05/22/2025 12:25:47 AM |      INFO | test_product_display.py:317 | Uploading file
+05/22/2025 12:25:47 AM |      INFO | test_product_display.py:319 | Entering date
+05/22/2025 12:25:47 AM |      INFO | test_product_display.py:321 | Entering time
+05/22/2025 12:25:47 AM |      INFO | test_product_display.py:323 | Entering date and time
+05/22/2025 12:25:47 AM |      INFO | test_product_display.py:325 | Update the product quantity to 4
+05/22/2025 12:25:48 AM |      INFO | test_product_display.py:327 | Clicking on add to cart button
+05/22/2025 12:25:48 AM |      INFO | test_product_display.py:329 | ************* Test Product Display 007 is Passed ************
+05/22/2025 12:25:48 AM |      INFO | test_product_display.py:337 | *************************** End Of Test Product Display 007 **************************
+05/22/2025 12:29:30 AM |      INFO | test_product_display.py:292 | *************************** Test Product Display 007 is Start **************************
+05/22/2025 12:29:31 AM |      INFO | test_product_display.py:294 | Navigating to the base url
+05/22/2025 12:29:31 AM |      INFO | test_product_display.py:297 | Entering Apple Cinema 30 to search text box field
+05/22/2025 12:29:32 AM |      INFO | test_product_display.py:299 | Clicking on the search icon button
+05/22/2025 12:29:33 AM |      INFO | test_product_display.py:302 | Clicking on the product display in search result
+05/22/2025 12:29:33 AM |      INFO | test_product_display.py:304 | *************************** Verifying Test Product Display 007 **************************
+05/22/2025 12:29:33 AM |      INFO | test_product_display.py:308 | Clicking on radio button
+05/22/2025 12:29:33 AM |      INFO | test_product_display.py:310 | Clicking on check box1
+05/22/2025 12:29:33 AM |      INFO | test_product_display.py:312 | Clicking on check box2
+05/22/2025 12:29:34 AM |      INFO | test_product_display.py:315 | Selecting dropdown option
+05/22/2025 12:29:34 AM |      INFO | test_product_display.py:317 | Uploading file
+05/22/2025 12:29:34 AM |      INFO | test_product_display.py:319 | Entering date
+05/22/2025 12:29:34 AM |      INFO | test_product_display.py:321 | Entering time
+05/22/2025 12:29:34 AM |      INFO | test_product_display.py:323 | Entering date and time
+05/22/2025 12:29:34 AM |      INFO | test_product_display.py:325 | Update the product quantity to 4
+05/22/2025 12:29:34 AM |      INFO | test_product_display.py:327 | Clicking on add to cart button
+05/22/2025 12:29:34 AM |      INFO | test_product_display.py:329 | ************* Test Product Display 007 is Passed ************
+05/22/2025 12:29:34 AM |      INFO | test_product_display.py:337 | *************************** End Of Test Product Display 007 **************************
+05/22/2025 12:40:33 AM |      INFO | test_product_display.py:292 | *************************** Test Product Display 007 is Start **************************
+05/22/2025 12:40:35 AM |      INFO | test_product_display.py:294 | Navigating to the base url
+05/22/2025 12:40:36 AM |      INFO | test_product_display.py:297 | Entering Apple Cinema 30 to search text box field
+05/22/2025 12:40:36 AM |      INFO | test_product_display.py:299 | Clicking on the search icon button
+05/22/2025 12:40:37 AM |      INFO | test_product_display.py:302 | Clicking on the product display in search result
+05/22/2025 12:40:37 AM |      INFO | test_product_display.py:304 | *************************** Verifying Test Product Display 007 **************************
+05/22/2025 12:40:37 AM |      INFO | test_product_display.py:308 | Clicking on radio button
+05/22/2025 12:40:37 AM |      INFO | test_product_display.py:310 | Clicking on check box1
+05/22/2025 12:40:37 AM |      INFO | test_product_display.py:312 | Clicking on check box2
+05/22/2025 12:40:38 AM |      INFO | test_product_display.py:315 | Selecting dropdown option
+05/22/2025 12:40:38 AM |      INFO | test_product_display.py:317 | Uploading file
+05/22/2025 12:40:38 AM |      INFO | test_product_display.py:319 | Entering date
+05/22/2025 12:40:38 AM |      INFO | test_product_display.py:321 | Entering time
+05/22/2025 12:40:38 AM |      INFO | test_product_display.py:323 | Entering date and time
+05/22/2025 12:40:38 AM |      INFO | test_product_display.py:325 | Update the product quantity to 4
+05/22/2025 12:40:38 AM |      INFO | test_product_display.py:327 | Clicking on add to cart button
+05/22/2025 12:40:38 AM |      INFO | test_product_display.py:329 | ************* Test Product Display 007 is Passed ************
+05/22/2025 12:40:38 AM |      INFO | test_product_display.py:337 | *************************** End Of Test Product Display 007 **************************
+05/22/2025 12:45:12 AM |      INFO | test_product_display.py:292 | *************************** Test Product Display 007 is Start **************************
+05/22/2025 12:45:13 AM |      INFO | test_product_display.py:294 | Navigating to the base url
+05/22/2025 12:45:14 AM |      INFO | test_product_display.py:297 | Entering Apple Cinema 30 to search text box field
+05/22/2025 12:45:14 AM |      INFO | test_product_display.py:299 | Clicking on the search icon button
+05/22/2025 12:45:14 AM |      INFO | test_product_display.py:302 | Clicking on the product display in search result
+05/22/2025 12:45:14 AM |      INFO | test_product_display.py:304 | *************************** Verifying Test Product Display 007 **************************
+05/22/2025 12:45:15 AM |      INFO | test_product_display.py:308 | Clicking on radio button
+05/22/2025 12:45:15 AM |      INFO | test_product_display.py:310 | Clicking on check box1
+05/22/2025 12:45:15 AM |      INFO | test_product_display.py:312 | Clicking on check box2
+05/22/2025 12:45:15 AM |      INFO | test_product_display.py:315 | Selecting dropdown option
+05/22/2025 12:45:25 AM |      INFO | test_product_display.py:318 | Uploading file
+05/22/2025 12:45:25 AM |      INFO | test_product_display.py:320 | Entering date
+05/22/2025 12:45:25 AM |      INFO | test_product_display.py:322 | Entering time
+05/22/2025 12:45:26 AM |      INFO | test_product_display.py:324 | Entering date and time
+05/22/2025 12:45:26 AM |      INFO | test_product_display.py:326 | Update the product quantity to 4
+05/22/2025 12:45:26 AM |      INFO | test_product_display.py:328 | Clicking on add to cart button
+05/22/2025 12:45:26 AM |      INFO | test_product_display.py:330 | ************* Test Product Display 007 is Passed ************
+05/22/2025 12:45:26 AM |      INFO | test_product_display.py:338 | *************************** End Of Test Product Display 007 **************************
+05/22/2025 12:49:31 AM |      INFO | test_product_display.py:292 | *************************** Test Product Display 007 is Start **************************
+05/22/2025 12:49:32 AM |      INFO | test_product_display.py:294 | Navigating to the base url
+05/22/2025 12:49:32 AM |      INFO | test_product_display.py:297 | Entering Apple Cinema 30 to search text box field
+05/22/2025 12:49:33 AM |      INFO | test_product_display.py:299 | Clicking on the search icon button
+05/22/2025 12:49:34 AM |      INFO | test_product_display.py:302 | Clicking on the product display in search result
+05/22/2025 12:49:34 AM |      INFO | test_product_display.py:304 | *************************** Verifying Test Product Display 007 **************************
+05/22/2025 12:49:34 AM |      INFO | test_product_display.py:308 | Clicking on radio button
+05/22/2025 12:49:34 AM |      INFO | test_product_display.py:310 | Clicking on check box1
+05/22/2025 12:49:34 AM |      INFO | test_product_display.py:312 | Clicking on check box2
+05/22/2025 12:49:34 AM |      INFO | test_product_display.py:315 | Selecting dropdown option
+05/22/2025 12:49:44 AM |      INFO | test_product_display.py:318 | Uploading file
+05/22/2025 12:49:44 AM |      INFO | test_product_display.py:320 | Entering date
+05/22/2025 12:49:44 AM |      INFO | test_product_display.py:322 | Entering time
+05/22/2025 12:49:45 AM |      INFO | test_product_display.py:324 | Entering date and time
+05/22/2025 12:49:45 AM |      INFO | test_product_display.py:326 | Update the product quantity to 4
+05/22/2025 12:49:45 AM |      INFO | test_product_display.py:328 | Clicking on add to cart button
+05/22/2025 12:49:45 AM |      INFO | test_product_display.py:330 | ************* Test Product Display 007 is Passed ************
+05/22/2025 12:49:45 AM |      INFO | test_product_display.py:338 | *************************** End Of Test Product Display 007 **************************
+05/22/2025 12:51:09 AM |      INFO | test_product_display.py:294 | *************************** Test Product Display 007 is Start **************************
+05/22/2025 12:51:10 AM |      INFO | test_product_display.py:296 | Navigating to the base url
+05/22/2025 12:51:10 AM |      INFO | test_product_display.py:299 | Entering Apple Cinema 30 to search text box field
+05/22/2025 12:51:10 AM |      INFO | test_product_display.py:301 | Clicking on the search icon button
+05/22/2025 12:51:11 AM |      INFO | test_product_display.py:304 | Clicking on the product display in search result
+05/22/2025 12:51:11 AM |      INFO | test_product_display.py:306 | *************************** Verifying Test Product Display 007 **************************
+05/22/2025 12:51:11 AM |      INFO | test_product_display.py:310 | Clicking on radio button
+05/22/2025 12:51:11 AM |      INFO | test_product_display.py:312 | Clicking on check box1
+05/22/2025 12:51:11 AM |      INFO | test_product_display.py:314 | Clicking on check box2
+05/22/2025 12:51:11 AM |      INFO | test_product_display.py:317 | Selecting dropdown option
+05/22/2025 12:51:21 AM |      INFO | test_product_display.py:321 | Uploading file
+05/22/2025 12:51:21 AM |      INFO | test_product_display.py:323 | Entering date
+05/22/2025 12:51:22 AM |      INFO | test_product_display.py:325 | Entering time
+05/22/2025 12:51:22 AM |      INFO | test_product_display.py:327 | Entering date and time
+05/22/2025 12:51:22 AM |      INFO | test_product_display.py:329 | Update the product quantity to 4
+05/22/2025 12:51:22 AM |      INFO | test_product_display.py:331 | Clicking on add to cart button
+05/22/2025 12:51:22 AM |      INFO | test_product_display.py:333 | ************* Test Product Display 007 is Passed ************
+05/22/2025 12:51:22 AM |      INFO | test_product_display.py:341 | *************************** End Of Test Product Display 007 **************************
+05/22/2025 12:55:14 AM |      INFO | test_product_display.py:294 | *************************** Test Product Display 007 is Start **************************
+05/22/2025 12:55:16 AM |      INFO | test_product_display.py:296 | Navigating to the base url
+05/22/2025 12:55:16 AM |      INFO | test_product_display.py:299 | Entering Apple Cinema 30 to search text box field
+05/22/2025 12:55:17 AM |      INFO | test_product_display.py:301 | Clicking on the search icon button
+05/22/2025 12:55:18 AM |      INFO | test_product_display.py:304 | Clicking on the product display in search result
+05/22/2025 12:55:18 AM |      INFO | test_product_display.py:306 | *************************** Verifying Test Product Display 007 **************************
+05/22/2025 12:55:19 AM |      INFO | test_product_display.py:310 | Clicking on radio button
+05/22/2025 12:55:19 AM |      INFO | test_product_display.py:312 | Clicking on check box1
+05/22/2025 12:55:19 AM |      INFO | test_product_display.py:314 | Clicking on check box2
+05/22/2025 12:55:19 AM |      INFO | test_product_display.py:317 | Selecting dropdown option
+05/22/2025 12:55:29 AM |      INFO | test_product_display.py:322 | Uploading file
+05/22/2025 12:55:30 AM |      INFO | test_product_display.py:324 | Entering date
+05/22/2025 12:55:30 AM |      INFO | test_product_display.py:326 | Entering time
+05/22/2025 12:55:30 AM |      INFO | test_product_display.py:328 | Entering date and time
+05/22/2025 12:55:30 AM |      INFO | test_product_display.py:330 | Update the product quantity to 4
+05/22/2025 12:55:30 AM |      INFO | test_product_display.py:332 | Clicking on add to cart button
+05/22/2025 12:55:30 AM |      INFO | test_product_display.py:334 | ************* Test Product Display 007 is Passed ************
+05/22/2025 12:55:30 AM |      INFO | test_product_display.py:342 | *************************** End Of Test Product Display 007 **************************
+05/22/2025 01:23:44 AM |      INFO | test_product_display.py:294 | *************************** Test Product Display 007 is Start **************************
+05/22/2025 01:23:45 AM |      INFO | test_product_display.py:296 | Navigating to the base url
+05/22/2025 01:23:46 AM |      INFO | test_product_display.py:299 | Entering Apple Cinema 30 to search text box field
+05/22/2025 01:23:46 AM |      INFO | test_product_display.py:301 | Clicking on the search icon button
+05/22/2025 01:23:46 AM |      INFO | test_product_display.py:304 | Clicking on the product display in search result
+05/22/2025 01:23:46 AM |      INFO | test_product_display.py:306 | *************************** Verifying Test Product Display 007 **************************
+05/22/2025 01:23:47 AM |      INFO | test_product_display.py:310 | Clicking on radio button
+05/22/2025 01:23:47 AM |      INFO | test_product_display.py:312 | Clicking on check box1
+05/22/2025 01:23:47 AM |      INFO | test_product_display.py:314 | Clicking on check box2
+05/22/2025 01:23:47 AM |      INFO | test_product_display.py:317 | Selecting dropdown option
+05/22/2025 01:23:57 AM |      INFO | test_product_display.py:322 | Uploading file
+05/22/2025 01:23:57 AM |      INFO | test_product_display.py:324 | Entering date
+05/22/2025 01:23:57 AM |      INFO | test_product_display.py:326 | Entering time
+05/22/2025 01:23:58 AM |      INFO | test_product_display.py:328 | Entering date and time
+05/22/2025 01:23:58 AM |      INFO | test_product_display.py:330 | Update the product quantity to 4
+05/22/2025 01:23:58 AM |      INFO | test_product_display.py:332 | Clicking on add to cart button
+05/22/2025 01:23:58 AM |      INFO | test_product_display.py:334 | ************* Test Product Display 007 is Passed ************
+05/22/2025 01:23:58 AM |      INFO | test_product_display.py:342 | *************************** End Of Test Product Display 007 **************************
+05/22/2025 01:31:08 AM |      INFO | test_product_display.py:294 | *************************** Test Product Display 007 is Start **************************
+05/22/2025 01:31:09 AM |      INFO | test_product_display.py:296 | Navigating to the base url
+05/22/2025 01:31:09 AM |      INFO | test_product_display.py:299 | Entering Apple Cinema 30 to search text box field
+05/22/2025 01:31:10 AM |      INFO | test_product_display.py:301 | Clicking on the search icon button
+05/22/2025 01:31:10 AM |      INFO | test_product_display.py:304 | Clicking on the product display in search result
+05/22/2025 01:31:10 AM |      INFO | test_product_display.py:306 | *************************** Verifying Test Product Display 007 **************************
+05/22/2025 01:31:11 AM |      INFO | test_product_display.py:310 | Clicking on radio button
+05/22/2025 01:31:11 AM |      INFO | test_product_display.py:312 | Clicking on check box1
+05/22/2025 01:31:11 AM |      INFO | test_product_display.py:314 | Clicking on check box2
+05/22/2025 01:31:11 AM |      INFO | test_product_display.py:317 | Selecting dropdown option
+05/22/2025 01:31:21 AM |      INFO | test_product_display.py:322 | Uploading file
+05/22/2025 01:31:21 AM |      INFO | test_product_display.py:324 | Entering date
+05/22/2025 01:31:21 AM |      INFO | test_product_display.py:326 | Entering time
+05/22/2025 01:31:21 AM |      INFO | test_product_display.py:328 | Entering date and time
+05/22/2025 01:31:22 AM |      INFO | test_product_display.py:330 | Update the product quantity to 4
+05/22/2025 01:31:22 AM |      INFO | test_product_display.py:332 | Clicking on add to cart button
+05/22/2025 01:31:22 AM |      INFO | test_product_display.py:334 | ************* Test Product Display 007 is Passed ************
+05/22/2025 01:31:22 AM |      INFO | test_product_display.py:342 | *************************** End Of Test Product Display 007 **************************
+05/22/2025 01:34:28 AM |      INFO | test_product_display.py:294 | *************************** Test Product Display 007 is Start **************************
+05/22/2025 01:34:29 AM |      INFO | test_product_display.py:296 | Navigating to the base url
+05/22/2025 01:34:29 AM |      INFO | test_product_display.py:299 | Entering Apple Cinema 30 to search text box field
+05/22/2025 01:34:30 AM |      INFO | test_product_display.py:301 | Clicking on the search icon button
+05/22/2025 01:34:30 AM |      INFO | test_product_display.py:304 | Clicking on the product display in search result
+05/22/2025 01:34:30 AM |      INFO | test_product_display.py:306 | *************************** Verifying Test Product Display 007 **************************
+05/22/2025 01:34:30 AM |      INFO | test_product_display.py:310 | Clicking on radio button
+05/22/2025 01:34:30 AM |      INFO | test_product_display.py:312 | Clicking on check box1
+05/22/2025 01:34:30 AM |      INFO | test_product_display.py:314 | Clicking on check box2
+05/22/2025 01:34:31 AM |      INFO | test_product_display.py:317 | Selecting dropdown option
+05/22/2025 01:34:41 AM |      INFO | test_product_display.py:322 | Uploading file
+05/22/2025 01:34:41 AM |      INFO | test_product_display.py:324 | Entering date
+05/22/2025 01:34:41 AM |      INFO | test_product_display.py:326 | Entering time
+05/22/2025 01:34:41 AM |      INFO | test_product_display.py:328 | Entering date and time
+05/22/2025 01:34:41 AM |      INFO | test_product_display.py:330 | Update the product quantity to 4
+05/22/2025 01:34:41 AM |      INFO | test_product_display.py:332 | Clicking on add to cart button
+05/22/2025 01:34:41 AM |      INFO | test_product_display.py:334 | ************* Test Product Display 007 is Passed ************
+05/22/2025 01:34:41 AM |      INFO | test_product_display.py:342 | *************************** End Of Test Product Display 007 **************************
+05/22/2025 01:37:26 AM |      INFO | test_product_display.py:294 | *************************** Test Product Display 007 is Start **************************
+05/22/2025 01:37:27 AM |      INFO | test_product_display.py:296 | Navigating to the base url
+05/22/2025 01:37:28 AM |      INFO | test_product_display.py:299 | Entering Apple Cinema 30 to search text box field
+05/22/2025 01:37:28 AM |      INFO | test_product_display.py:301 | Clicking on the search icon button
+05/22/2025 01:37:29 AM |      INFO | test_product_display.py:304 | Clicking on the product display in search result
+05/22/2025 01:37:29 AM |      INFO | test_product_display.py:306 | *************************** Verifying Test Product Display 007 **************************
+05/22/2025 01:37:29 AM |      INFO | test_product_display.py:310 | Clicking on radio button
+05/22/2025 01:37:29 AM |      INFO | test_product_display.py:312 | Clicking on check box1
+05/22/2025 01:37:29 AM |      INFO | test_product_display.py:314 | Clicking on check box2
+05/22/2025 01:37:29 AM |      INFO | test_product_display.py:317 | Selecting dropdown option
+05/22/2025 01:37:39 AM |      INFO | test_product_display.py:322 | Uploading file
+05/22/2025 01:37:39 AM |      INFO | test_product_display.py:324 | Entering date
+05/22/2025 01:37:39 AM |      INFO | test_product_display.py:326 | Entering time
+05/22/2025 01:37:39 AM |      INFO | test_product_display.py:328 | Entering date and time
+05/22/2025 01:37:40 AM |      INFO | test_product_display.py:330 | Update the product quantity to 4
+05/22/2025 01:37:40 AM |      INFO | test_product_display.py:332 | Clicking on add to cart button
+05/22/2025 01:37:40 AM |      INFO | test_product_display.py:334 | ************* Test Product Display 007 is Passed ************
+05/22/2025 01:37:40 AM |      INFO | test_product_display.py:342 | *************************** End Of Test Product Display 007 **************************
+05/22/2025 01:38:48 AM |      INFO | test_product_display.py:294 | *************************** Test Product Display 007 is Start **************************
+05/22/2025 01:38:50 AM |      INFO | test_product_display.py:296 | Navigating to the base url
+05/22/2025 01:38:50 AM |      INFO | test_product_display.py:299 | Entering Apple Cinema 30 to search text box field
+05/22/2025 01:38:50 AM |      INFO | test_product_display.py:301 | Clicking on the search icon button
+05/22/2025 01:38:51 AM |      INFO | test_product_display.py:304 | Clicking on the product display in search result
+05/22/2025 01:38:51 AM |      INFO | test_product_display.py:306 | *************************** Verifying Test Product Display 007 **************************
+05/22/2025 01:38:51 AM |      INFO | test_product_display.py:310 | Clicking on radio button
+05/22/2025 01:38:51 AM |      INFO | test_product_display.py:312 | Clicking on check box1
+05/22/2025 01:38:51 AM |      INFO | test_product_display.py:314 | Clicking on check box2
+05/22/2025 01:38:51 AM |      INFO | test_product_display.py:317 | Selecting dropdown option
+05/22/2025 01:39:02 AM |      INFO | test_product_display.py:321 | Uploading file
+05/22/2025 01:39:02 AM |      INFO | test_product_display.py:323 | Entering date
+05/22/2025 01:39:02 AM |      INFO | test_product_display.py:325 | Entering time
+05/22/2025 01:39:02 AM |      INFO | test_product_display.py:327 | Entering date and time
+05/22/2025 01:39:02 AM |      INFO | test_product_display.py:329 | Update the product quantity to 4
+05/22/2025 01:39:02 AM |      INFO | test_product_display.py:331 | Clicking on add to cart button
+05/22/2025 01:39:02 AM |      INFO | test_product_display.py:333 | ************* Test Product Display 007 is Passed ************
+05/22/2025 01:39:02 AM |      INFO | test_product_display.py:341 | *************************** End Of Test Product Display 007 **************************
+05/22/2025 01:41:49 AM |      INFO | test_product_display.py:294 | *************************** Test Product Display 007 is Start **************************
+05/22/2025 01:41:51 AM |      INFO | test_product_display.py:296 | Navigating to the base url
+05/22/2025 01:41:51 AM |      INFO | test_product_display.py:299 | Entering Apple Cinema 30 to search text box field
+05/22/2025 01:41:51 AM |      INFO | test_product_display.py:301 | Clicking on the search icon button
+05/22/2025 01:41:52 AM |      INFO | test_product_display.py:304 | Clicking on the product display in search result
+05/22/2025 01:41:52 AM |      INFO | test_product_display.py:306 | *************************** Verifying Test Product Display 007 **************************
+05/22/2025 01:41:52 AM |      INFO | test_product_display.py:310 | Clicking on radio button
+05/22/2025 01:41:52 AM |      INFO | test_product_display.py:312 | Clicking on check box1
+05/22/2025 01:41:52 AM |      INFO | test_product_display.py:314 | Clicking on check box2
+05/22/2025 01:41:53 AM |      INFO | test_product_display.py:317 | Selecting dropdown option
+05/22/2025 01:42:03 AM |      INFO | test_product_display.py:321 | Uploading file
+05/22/2025 01:42:03 AM |      INFO | test_product_display.py:323 | Entering date
+05/22/2025 01:42:03 AM |      INFO | test_product_display.py:325 | Entering time
+05/22/2025 01:42:03 AM |      INFO | test_product_display.py:327 | Entering date and time
+05/22/2025 01:42:03 AM |      INFO | test_product_display.py:329 | Update the product quantity to 4
+05/22/2025 01:42:03 AM |      INFO | test_product_display.py:331 | Clicking on add to cart button
+05/22/2025 01:42:03 AM |      INFO | test_product_display.py:333 | ************* Test Product Display 007 is Passed ************
+05/22/2025 01:42:03 AM |      INFO | test_product_display.py:341 | *************************** End Of Test Product Display 007 **************************
+05/22/2025 01:43:47 AM |      INFO | test_product_display.py:294 | *************************** Test Product Display 007 is Start **************************
+05/22/2025 01:43:48 AM |      INFO | test_product_display.py:296 | Navigating to the base url
+05/22/2025 01:43:48 AM |      INFO | test_product_display.py:299 | Entering Apple Cinema 30 to search text box field
+05/22/2025 01:43:48 AM |      INFO | test_product_display.py:301 | Clicking on the search icon button
+05/22/2025 01:43:49 AM |      INFO | test_product_display.py:304 | Clicking on the product display in search result
+05/22/2025 01:43:49 AM |      INFO | test_product_display.py:306 | *************************** Verifying Test Product Display 007 **************************
+05/22/2025 01:43:49 AM |      INFO | test_product_display.py:310 | Clicking on radio button
+05/22/2025 01:43:49 AM |      INFO | test_product_display.py:312 | Clicking on check box1
+05/22/2025 01:43:49 AM |      INFO | test_product_display.py:314 | Clicking on check box2
+05/22/2025 01:43:49 AM |      INFO | test_product_display.py:317 | Selecting dropdown option
+05/22/2025 01:43:59 AM |      INFO | test_product_display.py:321 | Uploading file
+05/22/2025 01:43:59 AM |      INFO | test_product_display.py:323 | Entering date
+05/22/2025 01:43:59 AM |      INFO | test_product_display.py:325 | Entering time
+05/22/2025 01:44:00 AM |      INFO | test_product_display.py:327 | Entering date and time
+05/22/2025 01:44:00 AM |      INFO | test_product_display.py:329 | Update the product quantity to 4
+05/22/2025 01:44:00 AM |      INFO | test_product_display.py:331 | Clicking on add to cart button
+05/22/2025 01:44:00 AM |      INFO | test_product_display.py:333 | ************* Test Product Display 007 is Passed ************
+05/22/2025 01:44:00 AM |      INFO | test_product_display.py:341 | *************************** End Of Test Product Display 007 **************************
+05/22/2025 01:44:44 AM |      INFO | test_product_display.py:294 | *************************** Test Product Display 007 is Start **************************
+05/22/2025 01:44:45 AM |      INFO | test_product_display.py:296 | Navigating to the base url
+05/22/2025 01:44:45 AM |      INFO | test_product_display.py:299 | Entering Apple Cinema 30 to search text box field
+05/22/2025 01:44:46 AM |      INFO | test_product_display.py:301 | Clicking on the search icon button
+05/22/2025 01:44:46 AM |      INFO | test_product_display.py:304 | Clicking on the product display in search result
+05/22/2025 01:44:46 AM |      INFO | test_product_display.py:306 | *************************** Verifying Test Product Display 007 **************************
+05/22/2025 01:44:46 AM |      INFO | test_product_display.py:310 | Clicking on radio button
+05/22/2025 01:44:46 AM |      INFO | test_product_display.py:312 | Clicking on check box1
+05/22/2025 01:44:47 AM |      INFO | test_product_display.py:314 | Clicking on check box2
+05/22/2025 01:44:47 AM |      INFO | test_product_display.py:317 | Selecting dropdown option
+05/22/2025 01:44:57 AM |      INFO | test_product_display.py:322 | Uploading file
+05/22/2025 01:44:57 AM |      INFO | test_product_display.py:324 | Entering date
+05/22/2025 01:44:57 AM |      INFO | test_product_display.py:326 | Entering time
+05/22/2025 01:44:57 AM |      INFO | test_product_display.py:328 | Entering date and time
+05/22/2025 01:44:58 AM |      INFO | test_product_display.py:330 | Update the product quantity to 4
+05/22/2025 01:44:58 AM |      INFO | test_product_display.py:332 | Clicking on add to cart button
+05/22/2025 01:44:58 AM |      INFO | test_product_display.py:334 | ************* Test Product Display 007 is Passed ************
+05/22/2025 01:44:58 AM |      INFO | test_product_display.py:342 | *************************** End Of Test Product Display 007 **************************
+05/22/2025 01:47:54 AM |      INFO | test_product_display.py:293 | *************************** Test Product Display 007 is Start **************************
+05/22/2025 01:47:55 AM |      INFO | test_product_display.py:295 | Navigating to the base url
+05/22/2025 01:47:55 AM |      INFO | test_product_display.py:298 | Entering Apple Cinema 30 to search text box field
+05/22/2025 01:47:56 AM |      INFO | test_product_display.py:300 | Clicking on the search icon button
+05/22/2025 01:47:56 AM |      INFO | test_product_display.py:303 | Clicking on the product display in search result
+05/22/2025 01:47:56 AM |      INFO | test_product_display.py:305 | *************************** Verifying Test Product Display 007 **************************
+05/22/2025 01:47:56 AM |      INFO | test_product_display.py:309 | Clicking on radio button
+05/22/2025 01:47:56 AM |      INFO | test_product_display.py:311 | Clicking on check box1
+05/22/2025 01:47:56 AM |      INFO | test_product_display.py:313 | Clicking on check box2
+05/22/2025 01:47:57 AM |      INFO | test_product_display.py:316 | Selecting dropdown option
+05/22/2025 01:48:07 AM |      INFO | test_product_display.py:321 | Uploading file
+05/22/2025 01:48:07 AM |      INFO | test_product_display.py:323 | Entering date
+05/22/2025 01:48:07 AM |      INFO | test_product_display.py:325 | Entering time
+05/22/2025 01:48:07 AM |      INFO | test_product_display.py:327 | Entering date and time
+05/22/2025 01:48:07 AM |      INFO | test_product_display.py:329 | Update the product quantity to 1
+05/22/2025 01:48:07 AM |      INFO | test_product_display.py:331 | Clicking on add to cart button
+05/22/2025 01:48:07 AM |      INFO | test_product_display.py:333 | ************* Test Product Display 007 is Passed ************
+05/22/2025 01:48:07 AM |      INFO | test_product_display.py:341 | *************************** End Of Test Product Display 007 **************************
+05/22/2025 01:57:06 AM |      INFO | test_product_display.py:293 | *************************** Test Product Display 007 is Start **************************
+05/22/2025 01:57:08 AM |      INFO | test_product_display.py:295 | Navigating to the base url
+05/22/2025 01:57:08 AM |      INFO | test_product_display.py:298 | Entering Apple Cinema 30 to search text box field
+05/22/2025 01:57:09 AM |      INFO | test_product_display.py:300 | Clicking on the search icon button
+05/22/2025 01:57:10 AM |      INFO | test_product_display.py:303 | Clicking on the product display in search result
+05/22/2025 01:57:10 AM |      INFO | test_product_display.py:305 | *************************** Verifying Test Product Display 007 **************************
+05/22/2025 01:57:10 AM |      INFO | test_product_display.py:309 | Clicking on radio button
+05/22/2025 01:57:10 AM |      INFO | test_product_display.py:311 | Clicking on check box1
+05/22/2025 01:57:10 AM |      INFO | test_product_display.py:313 | Clicking on check box2
+05/22/2025 01:57:10 AM |      INFO | test_product_display.py:316 | Selecting dropdown option
+05/22/2025 01:57:27 AM |      INFO | test_product_display.py:320 | Uploading file
+05/22/2025 01:57:27 AM |      INFO | test_product_display.py:322 | Entering date
+05/22/2025 01:57:28 AM |      INFO | test_product_display.py:324 | Entering time
+05/22/2025 01:57:28 AM |      INFO | test_product_display.py:326 | Entering date and time
+05/22/2025 01:57:28 AM |      INFO | test_product_display.py:328 | Update the product quantity to 1
+05/22/2025 01:57:28 AM |      INFO | test_product_display.py:330 | Clicking on add to cart button
+05/22/2025 01:57:28 AM |      INFO | test_product_display.py:332 | ************* Test Product Display 007 is Passed ************
+05/22/2025 01:57:28 AM |      INFO | test_product_display.py:340 | *************************** End Of Test Product Display 007 **************************
+05/22/2025 02:03:10 AM |      INFO | test_product_display.py:293 | *************************** Test Product Display 007 is Start **************************
+05/22/2025 02:03:10 AM |      INFO | test_product_display.py:295 | Navigating to the base url
+05/22/2025 02:03:11 AM |      INFO | test_product_display.py:298 | Entering Apple Cinema 30 to search text box field
+05/22/2025 02:03:11 AM |      INFO | test_product_display.py:300 | Clicking on the search icon button
+05/22/2025 02:03:11 AM |      INFO | test_product_display.py:303 | Clicking on the product display in search result
+05/22/2025 02:03:11 AM |      INFO | test_product_display.py:305 | *************************** Verifying Test Product Display 007 **************************
+05/22/2025 02:03:11 AM |      INFO | test_product_display.py:309 | Clicking on radio button
+05/22/2025 02:03:12 AM |      INFO | test_product_display.py:311 | Clicking on check box1
+05/22/2025 02:03:12 AM |      INFO | test_product_display.py:313 | Clicking on check box2
+05/22/2025 02:03:12 AM |      INFO | test_product_display.py:316 | Selecting dropdown option
+05/22/2025 02:03:24 AM |      INFO | test_product_display.py:319 | Uploading file
+05/22/2025 02:03:26 AM |      INFO | test_product_display.py:321 | Accepting alert
+05/22/2025 02:03:27 AM |      INFO | test_product_display.py:323 | Entering date
+05/22/2025 02:03:27 AM |      INFO | test_product_display.py:325 | Entering time
+05/22/2025 02:03:27 AM |      INFO | test_product_display.py:327 | Entering date and time
+05/22/2025 02:03:27 AM |      INFO | test_product_display.py:329 | Update the product quantity to 1
+05/22/2025 02:03:27 AM |      INFO | test_product_display.py:331 | Clicking on add to cart button
+05/22/2025 02:03:27 AM |      INFO | test_product_display.py:333 | ************* Test Product Display 007 is Passed ************
+05/22/2025 02:03:29 AM |      INFO | test_product_display.py:341 | *************************** End Of Test Product Display 007 **************************
+05/22/2025 02:12:52 AM |      INFO | test_product_display.py:293 | *************************** Test Product Display 007 is Start **************************
+05/22/2025 02:12:53 AM |      INFO | test_product_display.py:295 | Navigating to the base url
+05/22/2025 02:12:53 AM |      INFO | test_product_display.py:298 | Entering Apple Cinema 30 to search text box field
+05/22/2025 02:12:54 AM |      INFO | test_product_display.py:300 | Clicking on the search icon button
+05/22/2025 02:12:54 AM |      INFO | test_product_display.py:303 | Clicking on the product display in search result
+05/22/2025 02:12:54 AM |      INFO | test_product_display.py:305 | *************************** Verifying Test Product Display 007 **************************
+05/22/2025 02:12:54 AM |      INFO | test_product_display.py:309 | Clicking on radio button
+05/22/2025 02:12:54 AM |      INFO | test_product_display.py:311 | Clicking on check box1
+05/22/2025 02:12:54 AM |      INFO | test_product_display.py:313 | Clicking on check box2
+05/22/2025 02:12:55 AM |      INFO | test_product_display.py:316 | Selecting dropdown option
+05/22/2025 02:12:55 AM |      INFO | test_product_display.py:319 | Uploading file
+05/22/2025 02:13:05 AM |      INFO | test_product_display.py:321 | Accepting alert
+05/22/2025 02:13:05 AM |      INFO | test_product_display.py:323 | Entering date
+05/22/2025 02:13:05 AM |      INFO | test_product_display.py:325 | Entering time
+05/22/2025 02:13:05 AM |      INFO | test_product_display.py:327 | Entering date and time
+05/22/2025 02:13:05 AM |      INFO | test_product_display.py:329 | Update the product quantity to 1
+05/22/2025 02:13:05 AM |      INFO | test_product_display.py:331 | Clicking on add to cart button
+05/22/2025 02:13:05 AM |      INFO | test_product_display.py:333 | ************* Test Product Display 007 is Passed ************
+05/22/2025 02:13:07 AM |      INFO | test_product_display.py:341 | *************************** End Of Test Product Display 007 **************************
+05/22/2025 02:14:00 AM |      INFO | test_product_display.py:293 | *************************** Test Product Display 007 is Start **************************
+05/22/2025 02:14:01 AM |      INFO | test_product_display.py:295 | Navigating to the base url
+05/22/2025 02:14:01 AM |      INFO | test_product_display.py:298 | Entering Apple Cinema 30 to search text box field
+05/22/2025 02:14:01 AM |      INFO | test_product_display.py:300 | Clicking on the search icon button
+05/22/2025 02:14:02 AM |      INFO | test_product_display.py:303 | Clicking on the product display in search result
+05/22/2025 02:14:02 AM |      INFO | test_product_display.py:305 | *************************** Verifying Test Product Display 007 **************************
+05/22/2025 02:14:02 AM |      INFO | test_product_display.py:309 | Clicking on radio button
+05/22/2025 02:14:02 AM |      INFO | test_product_display.py:311 | Clicking on check box1
+05/22/2025 02:14:02 AM |      INFO | test_product_display.py:313 | Clicking on check box2
+05/22/2025 02:14:02 AM |      INFO | test_product_display.py:316 | Selecting dropdown option
+05/22/2025 02:14:15 AM |      INFO | test_product_display.py:319 | Uploading file
+05/22/2025 02:14:25 AM |      INFO | test_product_display.py:321 | Accepting alert
+05/22/2025 02:14:25 AM |      INFO | test_product_display.py:323 | Entering date
+05/22/2025 02:14:25 AM |      INFO | test_product_display.py:325 | Entering time
+05/22/2025 02:14:25 AM |      INFO | test_product_display.py:327 | Entering date and time
+05/22/2025 02:14:25 AM |      INFO | test_product_display.py:329 | Update the product quantity to 1
+05/22/2025 02:14:25 AM |      INFO | test_product_display.py:331 | Clicking on add to cart button
+05/22/2025 02:14:25 AM |      INFO | test_product_display.py:333 | ************* Test Product Display 007 is Passed ************
+05/22/2025 02:14:29 AM |      INFO | test_product_display.py:341 | *************************** End Of Test Product Display 007 **************************
+05/22/2025 02:15:02 AM |      INFO | test_product_display.py:293 | *************************** Test Product Display 007 is Start **************************
+05/22/2025 02:15:03 AM |      INFO | test_product_display.py:295 | Navigating to the base url
+05/22/2025 02:15:03 AM |      INFO | test_product_display.py:298 | Entering Apple Cinema 30 to search text box field
+05/22/2025 02:15:04 AM |      INFO | test_product_display.py:300 | Clicking on the search icon button
+05/22/2025 02:15:04 AM |      INFO | test_product_display.py:303 | Clicking on the product display in search result
+05/22/2025 02:15:04 AM |      INFO | test_product_display.py:305 | *************************** Verifying Test Product Display 007 **************************
+05/22/2025 02:15:04 AM |      INFO | test_product_display.py:309 | Clicking on radio button
+05/22/2025 02:15:04 AM |      INFO | test_product_display.py:311 | Clicking on check box1
+05/22/2025 02:15:04 AM |      INFO | test_product_display.py:313 | Clicking on check box2
+05/22/2025 02:15:04 AM |      INFO | test_product_display.py:316 | Selecting dropdown option
+05/22/2025 02:15:16 AM |      INFO | test_product_display.py:319 | Uploading file
+05/22/2025 02:15:18 AM |      INFO | test_product_display.py:321 | Accepting alert
+05/22/2025 02:15:18 AM |      INFO | test_product_display.py:323 | Entering date
+05/22/2025 02:15:18 AM |      INFO | test_product_display.py:325 | Entering time
+05/22/2025 02:15:18 AM |      INFO | test_product_display.py:327 | Entering date and time
+05/22/2025 02:15:18 AM |      INFO | test_product_display.py:329 | Update the product quantity to 1
+05/22/2025 02:15:18 AM |      INFO | test_product_display.py:331 | Clicking on add to cart button
+05/22/2025 02:15:18 AM |      INFO | test_product_display.py:333 | ************* Test Product Display 007 is Passed ************
+05/22/2025 02:15:21 AM |      INFO | test_product_display.py:341 | *************************** End Of Test Product Display 007 **************************
+05/22/2025 02:18:42 AM |      INFO | test_product_display.py:293 | *************************** Test Product Display 007 is Start **************************
+05/22/2025 02:18:42 AM |      INFO | test_product_display.py:295 | Navigating to the base url
+05/22/2025 02:18:43 AM |      INFO | test_product_display.py:298 | Entering Apple Cinema 30 to search text box field
+05/22/2025 02:18:43 AM |      INFO | test_product_display.py:300 | Clicking on the search icon button
+05/22/2025 02:18:44 AM |      INFO | test_product_display.py:303 | Clicking on the product display in search result
+05/22/2025 02:18:44 AM |      INFO | test_product_display.py:305 | *************************** Verifying Test Product Display 007 **************************
+05/22/2025 02:18:44 AM |      INFO | test_product_display.py:309 | Clicking on radio button
+05/22/2025 02:18:44 AM |      INFO | test_product_display.py:311 | Clicking on check box1
+05/22/2025 02:18:44 AM |      INFO | test_product_display.py:313 | Clicking on check box2
+05/22/2025 02:18:44 AM |      INFO | test_product_display.py:316 | Selecting dropdown option
+05/22/2025 02:18:46 AM |      INFO | test_product_display.py:319 | Uploading file
+05/22/2025 02:18:48 AM |      INFO | test_product_display.py:321 | Accepting alert
+05/22/2025 02:18:48 AM |      INFO | test_product_display.py:323 | Entering date
+05/22/2025 02:18:48 AM |      INFO | test_product_display.py:325 | Entering time
+05/22/2025 02:18:48 AM |      INFO | test_product_display.py:327 | Entering date and time
+05/22/2025 02:18:48 AM |      INFO | test_product_display.py:329 | Update the product quantity to 1
+05/22/2025 02:18:48 AM |      INFO | test_product_display.py:331 | Clicking on add to cart button
+05/22/2025 02:18:48 AM |      INFO | test_product_display.py:333 | ************* Test Product Display 007 is Passed ************
+05/22/2025 02:18:50 AM |      INFO | test_product_display.py:341 | *************************** End Of Test Product Display 007 **************************
+05/22/2025 02:23:33 AM |      INFO | test_product_display.py:293 | *************************** Test Product Display 007 is Start **************************
+05/22/2025 02:23:35 AM |      INFO | test_product_display.py:295 | Navigating to the base url
+05/22/2025 02:23:35 AM |      INFO | test_product_display.py:298 | Entering Apple Cinema 30 to search text box field
+05/22/2025 02:23:36 AM |      INFO | test_product_display.py:300 | Clicking on the search icon button
+05/22/2025 02:23:36 AM |      INFO | test_product_display.py:303 | Clicking on the product display in search result
+05/22/2025 02:23:36 AM |      INFO | test_product_display.py:305 | *************************** Verifying Test Product Display 007 **************************
+05/22/2025 02:23:36 AM |      INFO | test_product_display.py:309 | Clicking on radio button
+05/22/2025 02:23:36 AM |      INFO | test_product_display.py:311 | Clicking on check box1
+05/22/2025 02:23:36 AM |      INFO | test_product_display.py:313 | Clicking on check box2
+05/22/2025 02:23:36 AM |      INFO | test_product_display.py:316 | Selecting dropdown option
+05/22/2025 02:23:38 AM |      INFO | test_product_display.py:319 | Uploading file
+05/22/2025 02:23:42 AM |      INFO | test_product_display.py:321 | Accepting alert
+05/22/2025 02:23:42 AM |      INFO | test_product_display.py:323 | Entering date
+05/22/2025 02:23:42 AM |      INFO | test_product_display.py:325 | Entering time
+05/22/2025 02:23:42 AM |      INFO | test_product_display.py:327 | Entering date and time
+05/22/2025 02:23:42 AM |      INFO | test_product_display.py:329 | Update the product quantity to 1
+05/22/2025 02:23:42 AM |      INFO | test_product_display.py:331 | Clicking on add to cart button
+05/22/2025 02:23:42 AM |      INFO | test_product_display.py:333 | ************* Test Product Display 007 is Passed ************
+05/22/2025 02:23:42 AM |      INFO | test_product_display.py:341 | *************************** End Of Test Product Display 007 **************************
+05/22/2025 02:24:18 AM |      INFO | test_product_display.py:293 | *************************** Test Product Display 007 is Start **************************
+05/22/2025 02:24:19 AM |      INFO | test_product_display.py:295 | Navigating to the base url
+05/22/2025 02:24:19 AM |      INFO | test_product_display.py:298 | Entering Apple Cinema 30 to search text box field
+05/22/2025 02:24:20 AM |      INFO | test_product_display.py:300 | Clicking on the search icon button
+05/22/2025 02:24:20 AM |      INFO | test_product_display.py:303 | Clicking on the product display in search result
+05/22/2025 02:24:20 AM |      INFO | test_product_display.py:305 | *************************** Verifying Test Product Display 007 **************************
+05/22/2025 02:24:20 AM |      INFO | test_product_display.py:309 | Clicking on radio button
+05/22/2025 02:24:20 AM |      INFO | test_product_display.py:311 | Clicking on check box1
+05/22/2025 02:24:20 AM |      INFO | test_product_display.py:313 | Clicking on check box2
+05/22/2025 02:24:20 AM |      INFO | test_product_display.py:316 | Selecting dropdown option
+05/22/2025 02:24:22 AM |      INFO | test_product_display.py:319 | Uploading file
+05/22/2025 02:24:24 AM |      INFO | test_product_display.py:321 | Accepting alert
+05/22/2025 02:24:24 AM |      INFO | test_product_display.py:323 | Entering date
+05/22/2025 02:24:24 AM |      INFO | test_product_display.py:325 | Entering time
+05/22/2025 02:24:24 AM |      INFO | test_product_display.py:327 | Entering date and time
+05/22/2025 02:24:24 AM |      INFO | test_product_display.py:329 | Update the product quantity to 1
+05/22/2025 02:24:25 AM |      INFO | test_product_display.py:331 | Clicking on add to cart button
+05/22/2025 02:24:25 AM |      INFO | test_product_display.py:333 | ************* Test Product Display 007 is Passed ************
+05/22/2025 02:24:25 AM |      INFO | test_product_display.py:340 | *************************** End Of Test Product Display 007 **************************
+05/22/2025 02:29:21 AM |      INFO | test_product_display.py:293 | *************************** Test Product Display 007 is Start **************************
+05/22/2025 02:29:21 AM |      INFO | test_product_display.py:295 | Navigating to the base url
+05/22/2025 02:29:22 AM |      INFO | test_product_display.py:298 | Entering Apple Cinema 30 to search text box field
+05/22/2025 02:29:22 AM |      INFO | test_product_display.py:300 | Clicking on the search icon button
+05/22/2025 02:29:22 AM |      INFO | test_product_display.py:303 | Clicking on the product display in search result
+05/22/2025 02:29:22 AM |      INFO | test_product_display.py:305 | *************************** Verifying Test Product Display 007 **************************
+05/22/2025 02:29:23 AM |      INFO | test_product_display.py:309 | Clicking on radio button
+05/22/2025 02:29:23 AM |      INFO | test_product_display.py:311 | Clicking on check box1
+05/22/2025 02:29:23 AM |      INFO | test_product_display.py:313 | Clicking on check box2
+05/22/2025 02:29:23 AM |      INFO | test_product_display.py:316 | Selecting dropdown option
+05/22/2025 02:29:24 AM |      INFO | test_product_display.py:319 | Uploading file
+05/22/2025 02:29:34 AM |      INFO | test_product_display.py:321 | Accepting alert
+05/22/2025 02:29:35 AM |      INFO | test_product_display.py:323 | Entering date
+05/22/2025 02:29:35 AM |      INFO | test_product_display.py:325 | Entering time
+05/22/2025 02:29:35 AM |      INFO | test_product_display.py:327 | Entering date and time
+05/22/2025 02:29:35 AM |      INFO | test_product_display.py:329 | Update the product quantity to 1
+05/22/2025 02:29:35 AM |      INFO | test_product_display.py:331 | Clicking on add to cart button
+05/22/2025 02:29:35 AM |      INFO | test_product_display.py:333 | ************* Test Product Display 007 is Passed ************
+05/22/2025 02:29:35 AM |      INFO | test_product_display.py:340 | *************************** End Of Test Product Display 007 **************************
+05/22/2025 02:29:55 AM |      INFO | test_product_display.py:293 | *************************** Test Product Display 007 is Start **************************
+05/22/2025 02:29:56 AM |      INFO | test_product_display.py:295 | Navigating to the base url
+05/22/2025 02:29:56 AM |      INFO | test_product_display.py:298 | Entering Apple Cinema 30 to search text box field
+05/22/2025 02:29:56 AM |      INFO | test_product_display.py:300 | Clicking on the search icon button
+05/22/2025 02:29:57 AM |      INFO | test_product_display.py:303 | Clicking on the product display in search result
+05/22/2025 02:29:57 AM |      INFO | test_product_display.py:305 | *************************** Verifying Test Product Display 007 **************************
+05/22/2025 02:29:57 AM |      INFO | test_product_display.py:309 | Clicking on radio button
+05/22/2025 02:29:57 AM |      INFO | test_product_display.py:311 | Clicking on check box1
+05/22/2025 02:29:57 AM |      INFO | test_product_display.py:313 | Clicking on check box2
+05/22/2025 02:29:57 AM |      INFO | test_product_display.py:316 | Selecting dropdown option
+05/22/2025 02:29:59 AM |      INFO | test_product_display.py:319 | Uploading file
+05/22/2025 02:30:01 AM |      INFO | test_product_display.py:321 | Accepting alert
+05/22/2025 02:30:01 AM |      INFO | test_product_display.py:323 | Entering date
+05/22/2025 02:30:01 AM |      INFO | test_product_display.py:325 | Entering time
+05/22/2025 02:30:01 AM |      INFO | test_product_display.py:327 | Entering date and time
+05/22/2025 02:30:01 AM |      INFO | test_product_display.py:329 | Update the product quantity to 1
+05/22/2025 02:30:01 AM |      INFO | test_product_display.py:331 | Clicking on add to cart button
+05/22/2025 02:30:01 AM |      INFO | test_product_display.py:333 | ************* Test Product Display 007 is Passed ************
+05/22/2025 02:30:01 AM |      INFO | test_product_display.py:340 | *************************** End Of Test Product Display 007 **************************
+05/22/2025 02:31:35 AM |      INFO | test_product_display.py:293 | *************************** Test Product Display 007 is Start **************************
+05/22/2025 02:31:36 AM |      INFO | test_product_display.py:295 | Navigating to the base url
+05/22/2025 02:31:36 AM |      INFO | test_product_display.py:298 | Entering Apple Cinema 30 to search text box field
+05/22/2025 02:31:36 AM |      INFO | test_product_display.py:300 | Clicking on the search icon button
+05/22/2025 02:31:36 AM |      INFO | test_product_display.py:303 | Clicking on the product display in search result
+05/22/2025 02:31:36 AM |      INFO | test_product_display.py:305 | *************************** Verifying Test Product Display 007 **************************
+05/22/2025 02:31:36 AM |      INFO | test_product_display.py:309 | Clicking on radio button
+05/22/2025 02:31:37 AM |      INFO | test_product_display.py:311 | Clicking on check box1
+05/22/2025 02:31:37 AM |      INFO | test_product_display.py:313 | Clicking on check box2
+05/22/2025 02:31:37 AM |      INFO | test_product_display.py:316 | Selecting dropdown option
+05/22/2025 02:31:38 AM |      INFO | test_product_display.py:319 | Uploading file
+05/22/2025 02:31:40 AM |      INFO | test_product_display.py:321 | Accepting alert
+05/22/2025 02:31:40 AM |      INFO | test_product_display.py:323 | Entering date
+05/22/2025 02:31:41 AM |      INFO | test_product_display.py:325 | Entering time
+05/22/2025 02:31:41 AM |      INFO | test_product_display.py:327 | Entering date and time
+05/22/2025 02:31:41 AM |      INFO | test_product_display.py:329 | Update the product quantity to 1
+05/22/2025 02:31:41 AM |      INFO | test_product_display.py:331 | Clicking on add to cart button
+05/22/2025 02:31:41 AM |      INFO | test_product_display.py:333 | ************* Test Product Display 007 is Passed ************
+05/22/2025 02:31:41 AM |      INFO | test_product_display.py:340 | *************************** End Of Test Product Display 007 **************************
