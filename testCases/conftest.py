@@ -52,7 +52,7 @@ def setup(browser):
     driver.implicitly_wait(10)
     driver.maximize_window()
     yield driver  # Return the driver instance to the test
-    driver.quit()  # Ensure the browser is closed after the test
+    # driver.quit()  # Ensure the browser is closed after the test
 
 
 @pytest.fixture(scope="function")

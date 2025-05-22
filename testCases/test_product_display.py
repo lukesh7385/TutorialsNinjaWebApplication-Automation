@@ -329,8 +329,12 @@ class Test_007_Product_Display:
                 self.logger.info("Update the product quantity to 1")
                 self.pd.click_on_add_to_cart_button_on_product_display_page()
                 self.logger.info("Clicking on add to cart button")
-                assert True
-                self.logger.info("************* Test Product Display 007 is Passed ************")
+                if self.pd.warning_message():
+                    assert True
+                    self.logger.info("************* Test Product Display 007 is Passed ************")
+                else:
+                    self.logger.error("************* Test Product Display 007 is Failed ************")
+                    assert False
             else:
                 self.logger.error("************* Test Product Display 007 is Failed ************")
                 assert False

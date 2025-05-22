@@ -19,7 +19,7 @@ class ProductDisplayPage:
     updatedQuantity = (By.CSS_SELECTOR, "input[value='3']")
     informationText = (By.XPATH, "//div[@class='alert alert-info']")
 
-    radioButton = (By.XPATH, "//label[normalize-space()='Radio']")
+    radioButton = (By.XPATH, "//*[@id='input-option218']")
     checkBox1 = (By.XPATH, "//input[@value='10']")
     checkBox2 = (By.XPATH, "//input[@value='11']")
     inputTextField = (By.ID, "input-option208")
@@ -29,6 +29,7 @@ class ProductDisplayPage:
     inputDate = (By.ID, "input-option219")
     inputTime = (By.ID, "input-option221")
     inputDateAndTime = (By.ID, "input-option220")
+    warningMessage = (By.XPATH, "//div[contains(text(), 'Minimum order amount for Apple Cinema 30')]")
 
     def __init__(self, driver):
         self.driver = driver
@@ -146,7 +147,9 @@ class ProductDisplayPage:
         text_field.send_keys(text)
 
     def enter_text_to_text_area(self, text):
-        self.driver.find_element(*ProductDisplayPage.inptTextArea).send_keys(text)
+        text_area = self.driver.find_element(*ProductDisplayPage.inptTextArea)
+        text_area.clear()
+        text_area.send_keys(text)
 
     def select_dropdown_option(self):
         dropdown = Select(self.driver.find_element(*ProductDisplayPage.dropDown))
@@ -161,14 +164,20 @@ class ProductDisplayPage:
             pyautogui.press("enter")
             print("File uploaded successfully using PyAutoGUI.")
 
-    def set_date(self, date):
-        self.driver.find_element(*ProductDisplayPage.inputDate).send_keys(date)
+    def set_date(self, dates):
+        date = self.driver.find_element(*ProductDisplayPage.inputDate)
+        date.clear()
+        date.send_keys(dates)
 
-    def set_time(self, t):
-        self.driver.find_element(*ProductDisplayPage.inputTime).send_keys(t)
+    def set_time(self, times):
+        t = self.driver.find_element(*ProductDisplayPage.inputTime)
+        t.clear()
+        t.send_keys(times)
 
     def set_date_and_time(self, date_and_tme):
-        self.driver.find_element(*ProductDisplayPage.inputDateAndTime).send_keys(date_and_tme)
+        datetime = self.driver.find_element(*ProductDisplayPage.inputDateAndTime)
+        datetime.clear()
+        datetime.send_keys(date_and_tme)
 
     def accept_alert(self):
         try:
@@ -178,3 +187,10 @@ class ProductDisplayPage:
             print("Alert accepted successfully.")
         except Exception as e:
             print(f"Error while accepting alert: {e}")
+
+    def warning_message(self):
+        warning_message = WebDriverWait(self.driver, 5, poll_frequency=1).until(
+            EC.presence_of_element_located(ProductDisplayPage.warningMessage)
+        )
+        return warning_message.is_displayed()
+
