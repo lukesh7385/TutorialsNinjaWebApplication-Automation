@@ -1,0 +1,8 @@
+[32mINFO    [0m Test_005_Search_Functionality:test_search.py:22 **************** Test Search Functionality 001 Started ******************
+[32mINFO    [0m Test_005_Search_Functionality:test_search.py:24 Navigating to the URL
+[32mINFO    [0m Test_005_Search_Functionality:test_search.py:27 Searching iMac
+[32mINFO    [0m Test_005_Search_Functionality:test_search.py:29 Clicking on search button
+[32mINFO    [0m Test_005_Search_Functionality:test_search.py:31 *********** Verifying Test Search functionality 001 ************
+[32mINFO    [0m Test_005_Search_Functionality:test_search.py:34 iMac
+[32mINFO    [0m Test_005_Search_Functionality:test_search.py:36 ********** Test Search Functionality 001 is Passed ***********
+[32mINFO    [0m Test_005_Search_Functionality:test_search.py:41 ***************** End Of Test Search Functionality 001 ******************

@@ -1,0 +1,7 @@
+[32mINFO    [0m Test_005_Search_Functionality:test_search.py:94 **************** Test Search Functionality 004 Start ****************
+[32mINFO    [0m Test_005_Search_Functionality:test_search.py:96 Navigating to the URL
+[32mINFO    [0m Test_005_Search_Functionality:test_search.py:103 ***************** Login is Successful *********************
+[32mINFO    [0m Test_005_Search_Functionality:test_search.py:108 ****************** Verifying Test Search Functionality 004 ***************
+[32mINFO    [0m Test_005_Search_Functionality:test_search.py:111 iMac
+[32mINFO    [0m Test_005_Search_Functionality:test_search.py:113 ********** Test Search Functionality 004 is Passed ***********
+[32mINFO    [0m Test_005_Search_Functionality:test_search.py:118 ***************** End Of Test Search Functionality 004 ******************

@@ -1,0 +1,7 @@
+[32mINFO    [0m Test_005_Search_Functionality:test_search.py:47 **************** Test Search Functionality 002 Started ******************
+[32mINFO    [0m Test_005_Search_Functionality:test_search.py:49 Navigating to the URL
+[32mINFO    [0m Test_005_Search_Functionality:test_search.py:52 Searching Fitbit
+[32mINFO    [0m Test_005_Search_Functionality:test_search.py:54 Clicking on search button
+[32mINFO    [0m Test_005_Search_Functionality:test_search.py:56 *********** Verifying Test Search functionality 002 ************
+[32mINFO    [0m Test_005_Search_Functionality:test_search.py:61 ********** Test Search Functionality 002 is Passed ***********
+[32mINFO    [0m Test_005_Search_Functionality:test_search.py:66 ***************** End Of Test Search Functionality 002 ******************

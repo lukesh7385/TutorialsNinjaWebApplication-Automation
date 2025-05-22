@@ -1,0 +1,7 @@
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:346 ******************** Test Product Compare 010 Is Start ********************
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:348 Navigating to the base url
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:353 Hovering mouse on desktop option and Clicking on show all desktop option
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:355 Clicking on product compare link on search result page
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:356 ******************* Verifying Test Product Compare 010 *********************
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:360 ********** Test Product Compare 010 is Passed **********
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:365 ******************** End Test Product Compare 010 ************************

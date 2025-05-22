@@ -1,0 +1,7 @@
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:263 ******************* Test Product Compare 007 Is Start ********************
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:265 Navigating to the base url
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:266 *************** Verifying Test Product Compare 007 ****************
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:272 clicking on compare this product option available on the Product that is displayed in the Product Category page
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:277 clicking on product comparison link
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:280 *********** Test Product Compare 007 is Passed ***********
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:294 ********************* End Test Product Compare 007 *************************

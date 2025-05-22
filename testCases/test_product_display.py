@@ -287,6 +287,8 @@ class Test_007_Product_Display:
         self.driver.quit()
         self.logger.info("************************* End Test Product Display 006 *************************")
 
+    @pytest.mark.skip("there is no radio button is present to perform click operation (it is under development)"
+                      "and test can't move forward without radio button because it is mandatory field")
     @pytest.mark.sanity
     def test_product_display_007(self, setup):
         self.driver = setup
@@ -329,7 +331,7 @@ class Test_007_Product_Display:
                 self.logger.info("Update the product quantity to 1")
                 self.pd.click_on_add_to_cart_button_on_product_display_page()
                 self.logger.info("Clicking on add to cart button")
-                if self.pd.warning_message():
+                if self.pd.warning_message() == 'Minimum order amount for Apple Cinema 30" is 2!':
                     assert True
                     self.logger.info("************* Test Product Display 007 is Passed ************")
                 else:

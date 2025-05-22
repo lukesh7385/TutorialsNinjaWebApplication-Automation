@@ -1,0 +1,21 @@
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:795 ***************************** Test Product Compare 019 is Start ***************************
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:797 Navigating to the base url
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:800 Entering iMac product to the search
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:802 Clicking on the search button
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:805 Clicking on the compare this option
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:807 Entering iphone product to the search
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:809 Clicking on the search button
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:811 Clicking on the compare this option
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:813 Entering MacBook Air product to the search
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:815 Clicking on the search button
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:817 Clicking on the compare this option
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:819 Entering MacBook product to the search
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:821 Clicking on the search button
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:823 Clicking on the compare this option
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:825 Entering MacBook Pro product to the search
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:827 Clicking on the search button
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:829 Clicking on the compare this option
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:831 Clicking on the product comparison link
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:832 ***************************** Verifying Test Product Compare 019 ***************************
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:858 ********* Test Product Compare 019 is Passed *********
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:874 *************************** End Test Product Compare 019 *****************************

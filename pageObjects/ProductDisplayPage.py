@@ -192,5 +192,5 @@ class ProductDisplayPage:
         warning_message = WebDriverWait(self.driver, 5, poll_frequency=1).until(
             EC.presence_of_element_located(ProductDisplayPage.warningMessage)
         )
-        return warning_message.is_displayed()
+        return warning_message.text
 

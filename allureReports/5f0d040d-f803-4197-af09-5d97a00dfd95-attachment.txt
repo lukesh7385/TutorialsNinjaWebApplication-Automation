@@ -1,0 +1,11 @@
+[32mINFO    [0m Test_007_Product_Display:test_product_display.py:206 ************************* Test Product Display 005 is Start *************************
+[32mINFO    [0m Test_007_Product_Display:test_product_display.py:208 Navigating to the base url
+[32mINFO    [0m Test_007_Product_Display:test_product_display.py:211 Entering iMac product to the search text box field
+[32mINFO    [0m Test_007_Product_Display:test_product_display.py:213 Clicking on the search icon button
+[32mINFO    [0m Test_007_Product_Display:test_product_display.py:216 Clicking on the product display in the search result
+[32mINFO    [0m Test_007_Product_Display:test_product_display.py:217 ************************* Verifying Test Product Display 005 *************************
+[32mINFO    [0m Test_007_Product_Display:test_product_display.py:222 Updating quantity by 3
+[32mINFO    [0m Test_007_Product_Display:test_product_display.py:224 Clicking on add to cart button
+[32mINFO    [0m Test_007_Product_Display:test_product_display.py:227 Clicking on the shopping cart link
+[32mINFO    [0m Test_007_Product_Display:test_product_display.py:231 ************** Test Product Display 005 is Passed **************
+[32mINFO    [0m Test_007_Product_Display:test_product_display.py:248 ************************* End Of Test Product Display 005 *************************

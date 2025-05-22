@@ -1,0 +1,9 @@
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:139 ***************** Test Product Compare 004 Is Start *****************
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:141 Navigating to the url
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:145 hovering on desktops option and clicking on show all desktops option
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:147 Clicking on list view button
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:148 *************** Verifying Test Product Compare 004 ****************
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:153 clicking on compare this product option available on the Product that is displayed in the Product Category page
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:157 clicking on product comparison link
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:160 *********** Test Product Compare 004 is Passed ***********
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:174 ********************* End Test Product Compare 004 *************************

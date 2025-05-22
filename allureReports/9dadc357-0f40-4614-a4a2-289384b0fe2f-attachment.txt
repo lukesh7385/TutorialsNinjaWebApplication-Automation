@@ -1,0 +1,7 @@
+[32mINFO    [0m Test_004_Forgot_Password:test_forgot_password.py:98 ***************** Test Forgot Password 004 Is Start *****************
+[32mINFO    [0m Test_004_Forgot_Password:test_forgot_password.py:103 clicking on my account
+[32mINFO    [0m Test_004_Forgot_Password:test_forgot_password.py:105 clicking on login link
+[32mINFO    [0m Test_004_Forgot_Password:test_forgot_password.py:108 clicking on forgot password link
+[32mINFO    [0m Test_004_Forgot_Password:test_forgot_password.py:110 Clicking on continue button
+[32mINFO    [0m Test_004_Forgot_Password:test_forgot_password.py:111 ************* Verifying Test Forgot Password 004 **************
+[32mINFO    [0m Test_004_Forgot_Password:test_forgot_password.py:115 *********** Test Forgot Password 004 Is Passed *********
