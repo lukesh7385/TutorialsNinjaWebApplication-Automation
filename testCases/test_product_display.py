@@ -470,4 +470,33 @@ class Test_007_Product_Display:
             assert False
         self.logger.info("*************************** End Of Test Product Display 010 **************************")
 
+    @pytest.mark.sanity
+    def test_product_display_011(self, setup):
+        self.driver = setup
+        self.logger.info("*************************** Test Product Display 011 is Start **************************")
+        self.driver.get(self.baseURL)
+        self.logger.info("Navigating to the base url")
+        self.sf = SearchPage(self.driver)
+        self.sf.search_product("iMac")
+        self.logger.info("Entering iMac product to search text box field")
+        self.sf.click_on_search_button()
+        self.logger.info("Clicking on the search icon button")
+        self.pc = ProductComparePage(self.driver)
+        self.pc.click_on_the_product_display_in_search_result()
+        self.logger.info("Clicking on the product display in search result")
+        self.pd = ProductDisplayPage(self.driver)
+        self.pd.click_on_reviews_tab()
+        self.logger.info("Clicking on the zero review tab")
+        self.logger.info("*************************** Verifying Test Product Display 011 **************************")
+        no_review_message = self.pd.get_no_review_text_message()
+        if no_review_message ==  'There are no reviews for this product.':
+            assert True
+            self.logger.info("************* Test Product Display 011 is Passed ***************")
+        else:
+            self.logger.error(f"Actual no review text is: {no_review_message}")
+            self.logger.info("************* Test Product Display 011 is Failed ***************")
+            assert False
+        self.logger.info("*************************** End Of Test Product Display 011 **************************")
+
+
 

@@ -38,6 +38,7 @@ class ProductDisplayPage:
     radioButtonInReviewTab = (By.XPATH, "//input[@value='5']")
     continueButtonIReviewTab = (By.XPATH, "//button[@id='button-review']")
     successMessageInReviewTab = (By.XPATH, "//div[@class='alert alert-success alert-dismissible']")
+    noReviewTextMessage = (By.XPATH, "//p[normalize-space()='There are no reviews for this product.']")
 
 
     def __init__(self, driver):
@@ -228,3 +229,7 @@ class ProductDisplayPage:
     def get_success_message_in_review_tab(self):
         success_message = self.driver.find_element(*ProductDisplayPage.successMessageInReviewTab).text
         return success_message
+
+    def get_no_review_text_message(self):
+        no_review_message = self.driver.find_element(*ProductDisplayPage.noReviewTextMessage).text
+        return no_review_message

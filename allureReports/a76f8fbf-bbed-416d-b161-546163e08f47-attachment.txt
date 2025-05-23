@@ -1,0 +1,16 @@
+[32mINFO    [0m Test_007_Product_Display:test_product_display.py:352 ***************************** Test Product Display 008 is Start ***************************
+[32mINFO    [0m Test_007_Product_Display:test_product_display.py:354 Navigating to base url
+[32mINFO    [0m Test_007_Product_Display:test_product_display.py:358 Entering 'iMac' into the search box
+[32mINFO    [0m Test_007_Product_Display:test_product_display.py:360 Clicking the search button
+[32mINFO    [0m Test_007_Product_Display:test_product_display.py:364 Clicking on the displayed product in search results
+[32mINFO    [0m Test_007_Product_Display:test_product_display.py:366 ***************************** Verifying Test Product Display 008 ***************************
+[32mINFO    [0m Test_007_Product_Display:test_product_display.py:386 Expected Description:
+Just when you thought iMac had everything, now there's even more.
+More powerful Intel Core 2 Duo processors.
+And more memory standard.
+Combine this with Mac OS X Leopard and iLife '08, and it's more all-in-one than ever.
+iMac packs amazing performance into a stunningly slim space.
+[32mINFO    [0m Test_007_Product_Display:test_product_display.py:387 Actual Description:
+Just when you thought iMac had everything, now there's even more. More powerful Intel Core 2 Duo processors. And more memory standard. Combine this with Mac OS X Leopard and iLife '08, and it's more all-in-one than ever. iMac packs amazing performance into a stunningly slim space.
+[32mINFO    [0m Test_007_Product_Display:test_product_display.py:394 ************** Test Product Display 008 is Passed ************
+[32mINFO    [0m Test_007_Product_Display:test_product_display.py:400 ***************************** End Of Test Product Display 008 ***************************

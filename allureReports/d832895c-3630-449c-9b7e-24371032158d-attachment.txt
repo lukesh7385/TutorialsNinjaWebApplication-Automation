@@ -1,0 +1,13 @@
+[32mINFO    [0m Test_007_Product_Display:test_product_display.py:438 *************************** Test Product Display 010 is Start **************************
+[32mINFO    [0m Test_007_Product_Display:test_product_display.py:440 Navigating to the base url
+[32mINFO    [0m Test_007_Product_Display:test_product_display.py:443 Entering Apple Cinema 30 to search text box field
+[32mINFO    [0m Test_007_Product_Display:test_product_display.py:445 Clicking on the search icon button
+[32mINFO    [0m Test_007_Product_Display:test_product_display.py:448 Clicking on the product display in search result
+[32mINFO    [0m Test_007_Product_Display:test_product_display.py:451 Clicking on review tab
+[32mINFO    [0m Test_007_Product_Display:test_product_display.py:453 Entering name in name text field in review tab
+[32mINFO    [0m Test_007_Product_Display:test_product_display.py:455 Entering the review text to the review text area
+[32mINFO    [0m Test_007_Product_Display:test_product_display.py:457 Clicking on the radio button
+[32mINFO    [0m Test_007_Product_Display:test_product_display.py:459 Clicking on the continue button
+[32mINFO    [0m Test_007_Product_Display:test_product_display.py:460 *************************** Verifying Test Product Display 010 **************************
+[32mINFO    [0m Test_007_Product_Display:test_product_display.py:465 **************** Test Product Display 010 is Passed ***************
+[32mINFO    [0m Test_007_Product_Display:test_product_display.py:471 *************************** End Of Test Product Display 010 **************************

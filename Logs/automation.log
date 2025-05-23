@@ -6135,3 +6135,608 @@ Just when you thought iMac had everything, now there's even more. More powerful 
 05/23/2025 04:59:20 PM |      INFO | test_product_display.py:460 | *************************** Verifying Test Product Display 010 **************************
 05/23/2025 04:59:20 PM |      INFO | test_product_display.py:465 | **************** Test Product Display 010 is Passed ***************
 05/23/2025 04:59:20 PM |      INFO | test_product_display.py:471 | *************************** End Of Test Product Display 010 **************************
+05/23/2025 11:48:41 PM |      INFO | test_product_display.py:476 | *************************** Test Product Display 011 is Start **************************
+05/23/2025 11:48:44 PM |      INFO | test_product_display.py:478 | Navigating to the base url
+05/23/2025 11:48:44 PM |      INFO | test_product_display.py:481 | Entering iMac product to search text box field
+05/23/2025 11:48:45 PM |      INFO | test_product_display.py:483 | Clicking on the search icon button
+05/23/2025 11:48:46 PM |      INFO | test_product_display.py:486 | Clicking on the product display in search result
+05/23/2025 11:48:46 PM |      INFO | test_product_display.py:489 | Clicking on the zero review tab
+05/23/2025 11:48:46 PM |      INFO | test_product_display.py:490 | *************************** Verifying Test Product Display 011 **************************
+05/23/2025 11:48:46 PM |      INFO | test_product_display.py:494 | ************* Test Product Display 011 is Passed ***************
+05/23/2025 11:48:46 PM |      INFO | test_product_display.py:498 | *************************** End Of Test Product Display 011 **************************
+05/23/2025 11:52:50 PM |      INFO | test_forgot_password.py:20 | ************ Test Forgot Password 001 Start ************
+05/23/2025 11:52:53 PM |      INFO | test_forgot_password.py:22 | Navigating to the url
+05/23/2025 11:52:53 PM |      INFO | test_forgot_password.py:25 | clicking on my account
+05/23/2025 11:52:54 PM |      INFO | test_forgot_password.py:27 | clicking on login link
+05/23/2025 11:52:54 PM |      INFO | test_forgot_password.py:30 | clicking on forgot password link
+05/23/2025 11:52:54 PM |      INFO | test_forgot_password.py:33 | Entering the non existing email
+05/23/2025 11:52:55 PM |      INFO | test_forgot_password.py:38 | ************* Test Forgot Password 001 Passed ***************
+05/23/2025 11:52:55 PM |      INFO | test_forgot_password.py:39 | Warning: The E-Mail Address was not found in our records, please try again!
+05/23/2025 11:52:58 PM |      INFO | test_forgot_password.py:46 | *************** End of Test Forgot Password 001 *****************
+05/23/2025 11:53:19 PM |      INFO | test_forgot_password.py:71 | ************ Test Forgot Password 003 Start ************
+05/23/2025 11:53:22 PM |      INFO | test_forgot_password.py:73 | Navigating to the url
+05/23/2025 11:53:22 PM |      INFO | test_forgot_password.py:76 | clicking on my account
+05/23/2025 11:53:22 PM |      INFO | test_forgot_password.py:78 | clicking on login link
+05/23/2025 11:53:23 PM |      INFO | test_forgot_password.py:81 | clicking on forgot password link
+05/23/2025 11:53:23 PM |      INFO | test_forgot_password.py:82 | ************ Verifying Test Forgot Password 003 ************
+05/23/2025 11:53:23 PM |      INFO | test_forgot_password.py:85 | E-Mail Address
+05/23/2025 11:53:23 PM |      INFO | test_forgot_password.py:87 | *********** Test Forgot Password 003 Passed *************
+05/23/2025 11:53:25 PM |      INFO | test_forgot_password.py:93 | ************** End of Test Forgot Password 003 ********************
+05/23/2025 11:53:46 PM |      INFO | test_forgot_password.py:98 | ***************** Test Forgot Password 004 Is Start *****************
+05/23/2025 11:53:49 PM |      INFO | test_forgot_password.py:103 | clicking on my account
+05/23/2025 11:53:50 PM |      INFO | test_forgot_password.py:105 | clicking on login link
+05/23/2025 11:53:50 PM |      INFO | test_forgot_password.py:108 | clicking on forgot password link
+05/23/2025 11:53:51 PM |      INFO | test_forgot_password.py:110 | Clicking on continue button
+05/23/2025 11:53:51 PM |      INFO | test_forgot_password.py:111 | ************* Verifying Test Forgot Password 004 **************
+05/23/2025 11:53:51 PM |      INFO | test_forgot_password.py:115 | *********** Test Forgot Password 004 Is Passed *********
+05/23/2025 11:54:15 PM |      INFO | test_login.py:21 | ****************** Test_Login_001 ***************
+05/23/2025 11:54:15 PM |      INFO | test_login.py:22 | ***************** Verifying Home Page Title **************
+05/23/2025 11:54:17 PM |      INFO | test_login.py:28 | ************** Home page title test is passed ************
+05/23/2025 11:54:20 PM |      INFO | test_login.py:38 | ************** Login test is started ************
+05/23/2025 11:54:20 PM |      INFO | test_login.py:40 | navigating to the url
+05/23/2025 11:54:23 PM |      INFO | test_login.py:43 | clicking on myAccount drop menu
+05/23/2025 11:54:23 PM |      INFO | test_login.py:45 | clicking on login link
+05/23/2025 11:54:23 PM |      INFO | test_login.py:47 | passing the username
+05/23/2025 11:54:24 PM |      INFO | test_login.py:49 | passing the password
+05/23/2025 11:54:24 PM |      INFO | test_login.py:51 | clicking on the login button
+05/23/2025 11:54:27 PM |      INFO | test_login.py:60 | ************** Verifying Login test ************
+05/23/2025 11:54:27 PM |      INFO | test_login.py:63 | ************** Login test is passed ************
+05/23/2025 11:54:51 PM |      INFO | test_login_ddt.py:19 | ************** Test_002_DDT_Login ***************
+05/23/2025 11:54:51 PM |      INFO | test_login_ddt.py:20 | ************** Verifying Login Test ************
+05/23/2025 11:54:51 PM |      INFO | test_login_ddt.py:22 | navigating to the url
+05/23/2025 11:54:54 PM |      INFO | test_login_ddt.py:32 | clicking on myAccount drop menu
+05/23/2025 11:54:54 PM |      INFO | test_login_ddt.py:34 | clicking on login link
+05/23/2025 11:54:54 PM |      INFO | test_login_ddt.py:36 | passing the username
+05/23/2025 11:54:54 PM |      INFO | test_login_ddt.py:38 | passing the password
+05/23/2025 11:54:55 PM |      INFO | test_login_ddt.py:40 | clicking on the login button
+05/23/2025 11:54:56 PM |      INFO | test_login_ddt.py:49 | *** Passed
+05/23/2025 11:54:57 PM |      INFO | test_login_ddt.py:32 | clicking on myAccount drop menu
+05/23/2025 11:54:57 PM |      INFO | test_login_ddt.py:34 | clicking on login link
+05/23/2025 11:54:58 PM |      INFO | test_login_ddt.py:36 | passing the username
+05/23/2025 11:54:58 PM |      INFO | test_login_ddt.py:38 | passing the password
+05/23/2025 11:54:58 PM |      INFO | test_login_ddt.py:40 | clicking on the login button
+05/23/2025 11:55:00 PM |      INFO | test_login_ddt.py:65 | *** Passed
+05/23/2025 11:55:00 PM |      INFO | test_login_ddt.py:32 | clicking on myAccount drop menu
+05/23/2025 11:55:00 PM |      INFO | test_login_ddt.py:34 | clicking on login link
+05/23/2025 11:55:00 PM |      INFO | test_login_ddt.py:36 | passing the username
+05/23/2025 11:55:00 PM |      INFO | test_login_ddt.py:38 | passing the password
+05/23/2025 11:55:00 PM |      INFO | test_login_ddt.py:40 | clicking on the login button
+05/23/2025 11:55:02 PM |      INFO | test_login_ddt.py:65 | *** Passed
+05/23/2025 11:55:02 PM |      INFO | test_login_ddt.py:32 | clicking on myAccount drop menu
+05/23/2025 11:55:02 PM |      INFO | test_login_ddt.py:34 | clicking on login link
+05/23/2025 11:55:02 PM |      INFO | test_login_ddt.py:36 | passing the username
+05/23/2025 11:55:02 PM |      INFO | test_login_ddt.py:38 | passing the password
+05/23/2025 11:55:02 PM |      INFO | test_login_ddt.py:40 | clicking on the login button
+05/23/2025 11:55:03 PM |      INFO | test_login_ddt.py:65 | *** Passed
+05/23/2025 11:55:03 PM |      INFO | test_login_ddt.py:69 | *********** Login DDT test passed ***********
+05/23/2025 11:55:03 PM |      INFO | test_login_ddt.py:76 | ****** End of the Login DDT Test *******
+05/23/2025 11:55:03 PM |      INFO | test_login_ddt.py:77 | ******************** Completed TC_LoginDDT_002 ********************
+05/23/2025 11:55:06 PM |      INFO | test_login_params.py:19 | ********** Test Login Params is Started *********
+05/23/2025 11:55:09 PM |      INFO | test_login_params.py:22 | Invoking browser
+05/23/2025 11:55:09 PM |      INFO | test_login_params.py:23 | Navigating to URL
+05/23/2025 11:55:09 PM |      INFO | test_login_params.py:26 | Clicking on my account
+05/23/2025 11:55:10 PM |      INFO | test_login_params.py:28 | Clicking on login link
+05/23/2025 11:55:10 PM |      INFO | test_login_params.py:30 | Entering username: adelukesh@gmail.com
+05/23/2025 11:55:10 PM |      INFO | test_login_params.py:32 | Entering password: 12345
+05/23/2025 11:55:10 PM |      INFO | test_login_params.py:34 | Clicking on login button
+05/23/2025 11:55:11 PM |      INFO | test_login_params.py:36 | ************* Verifying test_login_params *************
+05/23/2025 11:55:11 PM |      INFO | test_login_params.py:40 | test_login_params is passed
+05/23/2025 11:55:11 PM |      INFO | test_login_params.py:53 | test_login_params is Completed
+05/23/2025 11:55:11 PM |      INFO | test_login_params.py:54 | ************* End of test_login_params *************
+05/23/2025 11:55:15 PM |      INFO | test_login_params.py:19 | ********** Test Login Params is Started *********
+05/23/2025 11:55:17 PM |      INFO | test_login_params.py:22 | Invoking browser
+05/23/2025 11:55:17 PM |      INFO | test_login_params.py:23 | Navigating to URL
+05/23/2025 11:55:18 PM |      INFO | test_login_params.py:26 | Clicking on my account
+05/23/2025 11:55:18 PM |      INFO | test_login_params.py:28 | Clicking on login link
+05/23/2025 11:55:18 PM |      INFO | test_login_params.py:30 | Entering username: adelukesh1@gmail.com
+05/23/2025 11:55:18 PM |      INFO | test_login_params.py:32 | Entering password: 12345
+05/23/2025 11:55:19 PM |      INFO | test_login_params.py:34 | Clicking on login button
+05/23/2025 11:55:20 PM |      INFO | test_login_params.py:36 | ************* Verifying test_login_params *************
+05/23/2025 11:55:20 PM |      INFO | test_login_params.py:53 | test_login_params is Completed
+05/23/2025 11:55:20 PM |      INFO | test_login_params.py:54 | ************* End of test_login_params *************
+05/23/2025 11:55:23 PM |      INFO | test_login_params.py:19 | ********** Test Login Params is Started *********
+05/23/2025 11:55:24 PM |      INFO | test_login_params.py:22 | Invoking browser
+05/23/2025 11:55:24 PM |      INFO | test_login_params.py:23 | Navigating to URL
+05/23/2025 11:55:26 PM |      INFO | test_login_params.py:26 | Clicking on my account
+05/23/2025 11:55:26 PM |      INFO | test_login_params.py:28 | Clicking on login link
+05/23/2025 11:55:26 PM |      INFO | test_login_params.py:30 | Entering username: adelukesh@gmail.com
+05/23/2025 11:55:26 PM |      INFO | test_login_params.py:32 | Entering password: 48465
+05/23/2025 11:55:27 PM |      INFO | test_login_params.py:34 | Clicking on login button
+05/23/2025 11:55:28 PM |      INFO | test_login_params.py:36 | ************* Verifying test_login_params *************
+05/23/2025 11:55:28 PM |      INFO | test_login_params.py:53 | test_login_params is Completed
+05/23/2025 11:55:28 PM |      INFO | test_login_params.py:54 | ************* End of test_login_params *************
+05/23/2025 11:55:31 PM |      INFO | test_login_params.py:19 | ********** Test Login Params is Started *********
+05/23/2025 11:55:34 PM |      INFO | test_login_params.py:22 | Invoking browser
+05/23/2025 11:55:34 PM |      INFO | test_login_params.py:23 | Navigating to URL
+05/23/2025 11:55:34 PM |      INFO | test_login_params.py:26 | Clicking on my account
+05/23/2025 11:55:34 PM |      INFO | test_login_params.py:28 | Clicking on login link
+05/23/2025 11:55:34 PM |      INFO | test_login_params.py:30 | Entering username: adelukesh24@gmail.com
+05/23/2025 11:55:34 PM |      INFO | test_login_params.py:32 | Entering password: 54851
+05/23/2025 11:55:34 PM |      INFO | test_login_params.py:34 | Clicking on login button
+05/23/2025 11:55:35 PM |      INFO | test_login_params.py:36 | ************* Verifying test_login_params *************
+05/23/2025 11:55:36 PM |      INFO | test_login_params.py:53 | test_login_params is Completed
+05/23/2025 11:55:36 PM |      INFO | test_login_params.py:54 | ************* End of test_login_params *************
+05/23/2025 11:55:39 PM |      INFO | test_login_params.py:19 | ********** Test Login Params is Started *********
+05/23/2025 11:55:41 PM |      INFO | test_login_params.py:22 | Invoking browser
+05/23/2025 11:55:41 PM |      INFO | test_login_params.py:23 | Navigating to URL
+05/23/2025 11:55:41 PM |      INFO | test_login_params.py:26 | Clicking on my account
+05/23/2025 11:55:42 PM |      INFO | test_login_params.py:28 | Clicking on login link
+05/23/2025 11:55:42 PM |      INFO | test_login_params.py:30 | Entering username: 
+05/23/2025 11:55:42 PM |      INFO | test_login_params.py:32 | Entering password: 
+05/23/2025 11:55:42 PM |      INFO | test_login_params.py:34 | Clicking on login button
+05/23/2025 11:55:43 PM |      INFO | test_login_params.py:36 | ************* Verifying test_login_params *************
+05/23/2025 11:55:43 PM |      INFO | test_login_params.py:53 | test_login_params is Completed
+05/23/2025 11:55:43 PM |      INFO | test_login_params.py:54 | ************* End of test_login_params *************
+05/23/2025 11:55:46 PM |      INFO | test_logout.py:22 | *************** Logout Functionality 001 Test Start ****************
+05/23/2025 11:55:50 PM |      INFO | test_logout.py:31 | **************** Login is Successful ******************
+05/23/2025 11:55:54 PM |      INFO | test_logout.py:38 | ************ Logout is successful *****************
+05/23/2025 11:55:55 PM |      INFO | test_logout.py:41 | clicking on my account
+05/23/2025 11:55:55 PM |      INFO | test_logout.py:43 | ************ Verifying logout functionality 001 **************
+05/23/2025 11:55:55 PM |      INFO | test_logout.py:46 | **************** Test Logout Functionality is Passed ****************
+05/23/2025 11:55:55 PM |      INFO | test_logout.py:51 | ***************** End of Logout Functionality 001 ********************
+05/23/2025 11:55:58 PM |      INFO | test_logout.py:57 | *************** Logout Functionality 002 Test Start ****************
+05/23/2025 11:56:01 PM |      INFO | test_logout.py:66 | **************** Login is Successful ******************
+05/23/2025 11:56:03 PM |      INFO | test_logout.py:71 | ************ Logout is successful *****************
+05/23/2025 11:56:03 PM |      INFO | test_logout.py:72 | ************ Verifying logout functionality **************
+05/23/2025 11:56:03 PM |      INFO | test_logout.py:77 | **************** Test Logout Functionality is Passed ****************
+05/23/2025 11:56:03 PM |      INFO | test_logout.py:84 | ***************** End of Logout Functionality 002 ********************
+05/23/2025 11:56:07 PM |      INFO | test_logout.py:89 | *************** Logout Functionality 004 Test Start ****************
+05/23/2025 11:56:11 PM |      INFO | test_logout.py:98 | **************** Login is Successful ******************
+05/23/2025 11:56:16 PM |      INFO | test_logout.py:108 | ******** Verifying Test Logout Functionality 004 ***********
+05/23/2025 11:56:16 PM |      INFO | test_logout.py:111 | ********* Test Logout Functionality 004 is Passed **********
+05/23/2025 11:56:16 PM |      INFO | test_logout.py:118 | ********** End Of Test Logout Functionality 004 ***************
+05/23/2025 11:56:19 PM |      INFO | test_product_compare.py:21 | ***************** Test Product Compare 001 Is Start *****************
+05/23/2025 11:56:22 PM |      INFO | test_product_compare.py:23 | Navigating to the url
+05/23/2025 11:56:22 PM |      INFO | test_product_compare.py:26 | Entering iMac product for search
+05/23/2025 11:56:22 PM |      INFO | test_product_compare.py:28 | clicking on search button
+05/23/2025 11:56:23 PM |      INFO | test_product_compare.py:31 | Clicking on the Product displayed in the Search results
+05/23/2025 11:56:23 PM |      INFO | test_product_compare.py:32 | *************** Verifying Test Product Compare 001 ****************
+05/23/2025 11:56:24 PM |      INFO | test_product_compare.py:37 | clicking on compare this product option
+05/23/2025 11:56:25 PM |      INFO | test_product_compare.py:40 | clicking on product comparison link
+05/23/2025 11:56:25 PM |      INFO | test_product_compare.py:43 | *********** Test Product Compare 001 is Passed ***********
+05/23/2025 11:56:27 PM |      INFO | test_product_compare.py:54 | ********************* End Test Product Compare 001 *************************
+05/23/2025 11:56:48 PM |      INFO | test_product_compare.py:59 | ***************** Test Product Compare 002 Is Start *****************
+05/23/2025 11:56:51 PM |      INFO | test_product_compare.py:61 | Navigating to the url
+05/23/2025 11:56:51 PM |      INFO | test_product_compare.py:64 | Entering iMac product for search
+05/23/2025 11:56:52 PM |      INFO | test_product_compare.py:66 | clicking on search button
+05/23/2025 11:56:52 PM |      INFO | test_product_compare.py:69 | Clicking on list view button
+05/23/2025 11:56:52 PM |      INFO | test_product_compare.py:70 | *************** Verifying Test Product Compare 002 ****************
+05/23/2025 11:56:52 PM |      INFO | test_product_compare.py:76 | clicking on compare this product option available on the Product that is displayed in the Search
+05/23/2025 11:56:54 PM |      INFO | test_product_compare.py:79 | clicking on product comparison link
+05/23/2025 11:56:54 PM |      INFO | test_product_compare.py:82 | *********** Test Product Compare 002 is Passed ***********
+05/23/2025 11:56:56 PM |      INFO | test_product_compare.py:94 | ********************* End Test Product Compare 002 *************************
+05/23/2025 11:57:17 PM |      INFO | test_product_compare.py:99 | ***************** Test Product Compare 003 Is Start *****************
+05/23/2025 11:57:20 PM |      INFO | test_product_compare.py:101 | Navigating to the url
+05/23/2025 11:57:20 PM |      INFO | test_product_compare.py:104 | Entering iMac product for search
+05/23/2025 11:57:20 PM |      INFO | test_product_compare.py:106 | clicking on search button
+05/23/2025 11:57:21 PM |      INFO | test_product_compare.py:109 | Clicking on grid view button
+05/23/2025 11:57:21 PM |      INFO | test_product_compare.py:110 | *************** Verifying Test Product Compare 003 ****************
+05/23/2025 11:57:21 PM |      INFO | test_product_compare.py:115 | clicking on compare this product option available on the Product that is displayed in the Search
+05/23/2025 11:57:22 PM |      INFO | test_product_compare.py:118 | clicking on product comparison link
+05/23/2025 11:57:23 PM |      INFO | test_product_compare.py:122 | *********** Test Product Compare 003 is Passed ***********
+05/23/2025 11:57:25 PM |      INFO | test_product_compare.py:134 | ********************* End Test Product Compare 003 *************************
+05/23/2025 11:57:46 PM |      INFO | test_product_compare.py:139 | ***************** Test Product Compare 004 Is Start *****************
+05/23/2025 11:57:49 PM |      INFO | test_product_compare.py:141 | Navigating to the url
+05/23/2025 11:57:50 PM |      INFO | test_product_compare.py:145 | hovering on desktops option and clicking on show all desktops option
+05/23/2025 11:57:50 PM |      INFO | test_product_compare.py:147 | Clicking on list view button
+05/23/2025 11:57:50 PM |      INFO | test_product_compare.py:148 | *************** Verifying Test Product Compare 004 ****************
+05/23/2025 11:57:50 PM |      INFO | test_product_compare.py:153 | clicking on compare this product option available on the Product that is displayed in the Product Category page
+05/23/2025 11:57:51 PM |      INFO | test_product_compare.py:157 | clicking on product comparison link
+05/23/2025 11:57:51 PM |      INFO | test_product_compare.py:160 | *********** Test Product Compare 004 is Passed ***********
+05/23/2025 11:57:53 PM |      INFO | test_product_compare.py:174 | ********************* End Test Product Compare 004 *************************
+05/23/2025 11:58:15 PM |      INFO | test_product_compare.py:179 | ***************** Test Product Compare 005 Is Start *****************
+05/23/2025 11:58:17 PM |      INFO | test_product_compare.py:181 | Navigating to the url
+05/23/2025 11:58:19 PM |      INFO | test_product_compare.py:186 | hovering on desktops option and clicking on show all desktops option
+05/23/2025 11:58:19 PM |      INFO | test_product_compare.py:188 | Clicking on grid view button
+05/23/2025 11:58:19 PM |      INFO | test_product_compare.py:189 | *************** Verifying Test Product Compare 005 ****************
+05/23/2025 11:58:19 PM |      INFO | test_product_compare.py:194 | clicking on compare this product option available on the Product that is displayed in the Product Category page
+05/23/2025 11:58:20 PM |      INFO | test_product_compare.py:199 | clicking on product comparison link
+05/23/2025 11:58:20 PM |      INFO | test_product_compare.py:202 | *********** Test Product Compare 005 is Passed ***********
+05/23/2025 11:58:22 PM |      INFO | test_product_compare.py:216 | ********************* End Test Product Compare 005 *************************
+05/23/2025 11:58:44 PM |      INFO | test_product_compare.py:221 | ****************** Test Product Compare 006 Is Starting *********************
+05/23/2025 11:58:46 PM |      INFO | test_product_compare.py:223 | Navigating to base url
+05/23/2025 11:58:46 PM |      INFO | test_product_compare.py:226 | Entering iMac product to search
+05/23/2025 11:58:47 PM |      INFO | test_product_compare.py:228 | Clicking on search button
+05/23/2025 11:58:48 PM |      INFO | test_product_compare.py:231 | Click on the iMac Product displayed in the Search results 
+05/23/2025 11:58:48 PM |      INFO | test_product_compare.py:232 | *************** Verifying Test Product Compare 006 ****************
+05/23/2025 11:58:48 PM |      INFO | test_product_compare.py:237 | clicking on compare this product option available on the Product that is displayed in the Product Category page
+05/23/2025 11:58:49 PM |      INFO | test_product_compare.py:241 | clicking on product comparison link
+05/23/2025 11:58:49 PM |      INFO | test_product_compare.py:244 | *********** Test Product Compare 006 is Passed ***********
+05/23/2025 11:58:51 PM |      INFO | test_product_compare.py:258 | ********************* End Test Product Compare 006 *************************
+05/23/2025 11:59:13 PM |      INFO | test_product_compare.py:263 | ******************* Test Product Compare 007 Is Start ********************
+05/23/2025 11:59:15 PM |      INFO | test_product_compare.py:265 | Navigating to the base url
+05/23/2025 11:59:15 PM |      INFO | test_product_compare.py:266 | *************** Verifying Test Product Compare 007 ****************
+05/23/2025 11:59:15 PM |      INFO | test_product_compare.py:272 | clicking on compare this product option available on the Product that is displayed in the Product Category page
+05/23/2025 11:59:17 PM |      INFO | test_product_compare.py:277 | clicking on product comparison link
+05/23/2025 11:59:17 PM |      INFO | test_product_compare.py:280 | *********** Test Product Compare 007 is Passed ***********
+05/23/2025 11:59:19 PM |      INFO | test_product_compare.py:294 | ********************* End Test Product Compare 007 *************************
+05/23/2025 11:59:41 PM |      INFO | test_product_compare.py:299 | ******************** Test Product Compare 008 Is Start ********************
+05/23/2025 11:59:42 PM |      INFO | test_product_compare.py:301 | Navigating to the base url
+05/23/2025 11:59:44 PM |      INFO | test_product_compare.py:304 | Entering iMac product to search
+05/23/2025 11:59:44 PM |      INFO | test_product_compare.py:306 | Clicking on search button
+05/23/2025 11:59:45 PM |      INFO | test_product_compare.py:309 | Clicking on product compare link on search result page
+05/23/2025 11:59:45 PM |      INFO | test_product_compare.py:310 | *************** Verifying Test Product Compare 008 ***************
+05/23/2025 11:59:45 PM |      INFO | test_product_compare.py:313 | ************ Test Product Compare 008 Is Passed ***********
+05/23/2025 11:59:47 PM |      INFO | test_product_compare.py:318 | ********************** End of Test Product Compare 008 ***********************
+05/24/2025 12:00:09 AM |      INFO | test_product_compare.py:323 | ******************** Test Product Compare 009 Is Start ********************
+05/24/2025 12:00:11 AM |      INFO | test_product_compare.py:325 | Navigating to the base url
+05/24/2025 12:00:12 AM |      INFO | test_product_compare.py:330 | Hovering mouse on desktop option and Clicking on show all desktop option
+05/24/2025 12:00:13 AM |      INFO | test_product_compare.py:332 | Clicking on product compare link on search result page
+05/24/2025 12:00:13 AM |      INFO | test_product_compare.py:333 | ******************* Verifying Test Product Compare 009 *********************
+05/24/2025 12:00:13 AM |      INFO | test_product_compare.py:336 | *********** Test Product Compare 009 Is Passed ***********
+05/24/2025 12:00:15 AM |      INFO | test_product_compare.py:341 | *********************** End Of Test Product Compare 009 *************************
+05/24/2025 12:00:36 AM |      INFO | test_product_compare.py:346 | ******************** Test Product Compare 010 Is Start ********************
+05/24/2025 12:00:39 AM |      INFO | test_product_compare.py:348 | Navigating to the base url
+05/24/2025 12:00:40 AM |      INFO | test_product_compare.py:353 | Hovering mouse on desktop option and Clicking on show all desktop option
+05/24/2025 12:00:41 AM |      INFO | test_product_compare.py:355 | Clicking on product compare link on search result page
+05/24/2025 12:00:41 AM |      INFO | test_product_compare.py:356 | ******************* Verifying Test Product Compare 010 *********************
+05/24/2025 12:00:41 AM |      INFO | test_product_compare.py:360 | ********** Test Product Compare 010 is Passed **********
+05/24/2025 12:00:43 AM |      INFO | test_product_compare.py:365 | ******************** End Test Product Compare 010 ************************
+05/24/2025 12:01:04 AM |      INFO | test_product_compare.py:370 | ************************** Test Product Compare 011 Is Start **************************
+05/24/2025 12:01:05 AM |      INFO | test_product_compare.py:372 | Navigating to the base url
+05/24/2025 12:01:08 AM |      INFO | test_product_compare.py:377 | Hovering on the desktop option and clicking on the show all desktop option
+05/24/2025 12:01:09 AM |      INFO | test_product_compare.py:379 | Clicking on the product compare link on search result page
+05/24/2025 12:01:09 AM |      INFO | test_product_compare.py:381 | Clicking on the Continue button
+05/24/2025 12:01:09 AM |      INFO | test_product_compare.py:382 | ********************** Verifying Test Product Compare 011 **************************
+05/24/2025 12:01:09 AM |      INFO | test_product_compare.py:385 | *********** Test Product Compare 011 Is Passed ***********
+05/24/2025 12:01:11 AM |      INFO | test_product_compare.py:390 | *********************** End Test Product Compare 011 ***********************
+05/24/2025 12:01:33 AM |      INFO | test_product_compare.py:395 | ************************ Test Product Compare 012 Is Start **************************
+05/24/2025 12:01:35 AM |      INFO | test_product_compare.py:397 | Navigating to the base url
+05/24/2025 12:01:37 AM |      INFO | test_product_compare.py:403 | Hovering on the desktop option and Clicking on the show all desktop option
+05/24/2025 12:01:37 AM |      INFO | test_product_compare.py:405 | Clicking on the product compare link on the search result page
+05/24/2025 12:01:37 AM |      INFO | test_product_compare.py:406 | ************************* Verifying Test Product Compare 012 ****************************
+05/24/2025 12:01:38 AM |      INFO | test_product_compare.py:409 | Clicking on the home page link available on the breadcrumb
+05/24/2025 12:01:38 AM |     ERROR | test_product_compare.py:413 | ********** Test Product Compare 012 Is Passed **********
+05/24/2025 12:01:40 AM |      INFO | test_product_compare.py:421 | ************************ End Of Test Product Compare 012 **************************
+05/24/2025 12:02:01 AM |      INFO | test_product_compare.py:426 | **************************** Test Product Compare 013 ***************************
+05/24/2025 12:02:04 AM |      INFO | test_product_compare.py:428 | Navigating to the base url
+05/24/2025 12:02:04 AM |      INFO | test_product_compare.py:431 | Entering product iMac to the search
+05/24/2025 12:02:05 AM |      INFO | test_product_compare.py:433 | Clicking on search button
+05/24/2025 12:02:06 AM |      INFO | test_product_compare.py:436 | Clicking on product displayed in the search result
+05/24/2025 12:02:06 AM |      INFO | test_product_compare.py:438 | Clicking on the compare this product option
+05/24/2025 12:02:06 AM |      INFO | test_product_compare.py:439 | ********************** Verifying Test Product Compare 013 ************************
+05/24/2025 12:02:07 AM |      INFO | test_product_compare.py:445 | Clicking on the compare this product option
+05/24/2025 12:02:08 AM |      INFO | test_product_compare.py:447 | Clicking on the product comparison link
+05/24/2025 12:02:08 AM |      INFO | test_product_compare.py:451 | ********** Test Product Compare 013 is Passed *********
+05/24/2025 12:02:10 AM |      INFO | test_product_compare.py:462 | **************************** End Test Product Compare 013 ***************************
+05/24/2025 12:02:32 AM |      INFO | test_product_compare.py:467 | *************************** Test Product Compare 014 is Start **************************
+05/24/2025 12:02:34 AM |      INFO | test_product_compare.py:469 | Navigating to the base url
+05/24/2025 12:02:34 AM |      INFO | test_product_compare.py:472 | Entering iMac product to search
+05/24/2025 12:02:35 AM |      INFO | test_product_compare.py:474 | Clicking on search button
+05/24/2025 12:02:36 AM |      INFO | test_product_compare.py:477 | Clicking on product displayed in the search result
+05/24/2025 12:02:36 AM |      INFO | test_product_compare.py:479 | Clicking on compare this product option
+05/24/2025 12:02:37 AM |      INFO | test_product_compare.py:481 | Clicking on the product comparison link
+05/24/2025 12:02:37 AM |      INFO | test_product_compare.py:482 | *************************** Verifying Test Product Compare 014 **************************
+05/24/2025 12:02:37 AM |      INFO | test_product_compare.py:503 | ************ Test Product Compare 014 is Passed ***********
+05/24/2025 12:02:39 AM |      INFO | test_product_compare.py:521 | *************************** End Test Product Compare 014 **************************
+05/24/2025 12:03:01 AM |      INFO | test_product_compare.py:526 | *************************** Test Product Compare 015 is Start *****************************
+05/24/2025 12:03:03 AM |      INFO | test_product_compare.py:528 | Navigating to the base url
+05/24/2025 12:03:03 AM |      INFO | test_product_compare.py:531 | Entering iMac product to the search
+05/24/2025 12:03:04 AM |      INFO | test_product_compare.py:533 | Clicking on the search button
+05/24/2025 12:03:04 AM |      INFO | test_product_compare.py:536 | Clicking on compare this product option
+05/24/2025 12:03:04 AM |      INFO | test_product_compare.py:538 | Entering iphone product to the search
+05/24/2025 12:03:05 AM |      INFO | test_product_compare.py:540 | Clicking on the search button
+05/24/2025 12:03:05 AM |      INFO | test_product_compare.py:542 | Clicking on compare this product option
+05/24/2025 12:03:06 AM |      INFO | test_product_compare.py:544 | Clicking on the product comparison link
+05/24/2025 12:03:06 AM |      INFO | test_product_compare.py:546 | ************************ Verifying Test Product Compare 015 ************************
+05/24/2025 12:03:06 AM |      INFO | test_product_compare.py:569 | ********* Test Product Compare 015 is Passed *********
+05/24/2025 12:03:09 AM |      INFO | test_product_compare.py:580 | *************************** End Test Product Compare 015 *****************************
+05/24/2025 12:03:30 AM |      INFO | test_product_compare.py:585 | ************************** Test Product Compare 016 is Start **************************
+05/24/2025 12:03:32 AM |      INFO | test_product_compare.py:587 | Navigating to the base url
+05/24/2025 12:03:32 AM |      INFO | test_product_compare.py:590 | Entering the iMac product to the search
+05/24/2025 12:03:33 AM |      INFO | test_product_compare.py:592 | Clicking on the search button
+05/24/2025 12:03:33 AM |      INFO | test_product_compare.py:595 | Clicking on the compare this product option
+05/24/2025 12:03:33 AM |      INFO | test_product_compare.py:597 | Entering the iMac product to the search
+05/24/2025 12:03:34 AM |      INFO | test_product_compare.py:599 | Clicking on the search button
+05/24/2025 12:03:34 AM |      INFO | test_product_compare.py:601 | Clicking on the compare this product option
+05/24/2025 12:03:35 AM |      INFO | test_product_compare.py:603 | Clicking on the product comparison link
+05/24/2025 12:03:35 AM |      INFO | test_product_compare.py:604 | ************************** Verifying Test Product Compare 016 **************************
+05/24/2025 12:03:35 AM |      INFO | test_product_compare.py:626 | ********* Test Product Compare 016 is Passed *********
+05/24/2025 12:03:37 AM |      INFO | test_product_compare.py:642 | *************************** End Test Product Compare 016 *****************************
+05/24/2025 12:03:59 AM |      INFO | test_product_compare.py:647 | ***************************** Test Product Compare 017 is Start ***************************
+05/24/2025 12:04:02 AM |      INFO | test_product_compare.py:649 | Navigating to the base url
+05/24/2025 12:04:02 AM |      INFO | test_product_compare.py:652 | Entering iMac product to the search
+05/24/2025 12:04:02 AM |      INFO | test_product_compare.py:654 | Clicking on the search button
+05/24/2025 12:04:02 AM |      INFO | test_product_compare.py:657 | Clicking on the compare this option
+05/24/2025 12:04:03 AM |      INFO | test_product_compare.py:659 | Entering iMac product to the search
+05/24/2025 12:04:03 AM |      INFO | test_product_compare.py:661 | Clicking on the search button
+05/24/2025 12:04:03 AM |      INFO | test_product_compare.py:663 | Clicking on the compare this option
+05/24/2025 12:04:03 AM |      INFO | test_product_compare.py:665 | Entering iMac product to the search
+05/24/2025 12:04:04 AM |      INFO | test_product_compare.py:667 | Clicking on the search button
+05/24/2025 12:04:04 AM |      INFO | test_product_compare.py:669 | Clicking on the compare this option
+05/24/2025 12:04:05 AM |      INFO | test_product_compare.py:671 | Clicking on the product comparison link
+05/24/2025 12:04:05 AM |      INFO | test_product_compare.py:672 | ***************************** Verifying Test Product Compare 017 ***************************
+05/24/2025 12:04:06 AM |      INFO | test_product_compare.py:696 | ********* Test Product Compare 017 is Passed *********
+05/24/2025 12:04:08 AM |      INFO | test_product_compare.py:712 | *************************** End Test Product Compare 017 *****************************
+05/24/2025 12:04:30 AM |      INFO | test_product_compare.py:717 | ***************************** Test Product Compare 018 is Start ***************************
+05/24/2025 12:04:32 AM |      INFO | test_product_compare.py:719 | Navigating to the base url
+05/24/2025 12:04:32 AM |      INFO | test_product_compare.py:722 | Entering iMac product to the search
+05/24/2025 12:04:33 AM |      INFO | test_product_compare.py:724 | Clicking on the search button
+05/24/2025 12:04:33 AM |      INFO | test_product_compare.py:727 | Clicking on the compare this option
+05/24/2025 12:04:33 AM |      INFO | test_product_compare.py:729 | Entering iphone product to the search
+05/24/2025 12:04:34 AM |      INFO | test_product_compare.py:731 | Clicking on the search button
+05/24/2025 12:04:34 AM |      INFO | test_product_compare.py:733 | Clicking on the compare this option
+05/24/2025 12:04:34 AM |      INFO | test_product_compare.py:735 | Entering MacBook Air product to the search
+05/24/2025 12:04:35 AM |      INFO | test_product_compare.py:737 | Clicking on the search button
+05/24/2025 12:04:35 AM |      INFO | test_product_compare.py:739 | Clicking on the compare this option
+05/24/2025 12:04:35 AM |      INFO | test_product_compare.py:741 | Entering MacBook product to the search
+05/24/2025 12:04:35 AM |      INFO | test_product_compare.py:743 | Clicking on the search button
+05/24/2025 12:04:35 AM |      INFO | test_product_compare.py:745 | Clicking on the compare this option
+05/24/2025 12:04:36 AM |      INFO | test_product_compare.py:747 | Clicking on the product comparison link
+05/24/2025 12:04:36 AM |      INFO | test_product_compare.py:748 | ***************************** Verifying Test Product Compare 018 ***************************
+05/24/2025 12:04:37 AM |      INFO | test_product_compare.py:774 | ********* Test Product Compare 018 is Passed *********
+05/24/2025 12:04:39 AM |      INFO | test_product_compare.py:790 | *************************** End Test Product Compare 018 *****************************
+05/24/2025 12:05:01 AM |      INFO | test_product_compare.py:795 | ***************************** Test Product Compare 019 is Start ***************************
+05/24/2025 12:05:02 AM |      INFO | test_product_compare.py:797 | Navigating to the base url
+05/24/2025 12:05:04 AM |      INFO | test_product_compare.py:800 | Entering iMac product to the search
+05/24/2025 12:05:05 AM |      INFO | test_product_compare.py:802 | Clicking on the search button
+05/24/2025 12:05:05 AM |      INFO | test_product_compare.py:805 | Clicking on the compare this option
+05/24/2025 12:05:05 AM |      INFO | test_product_compare.py:807 | Entering iphone product to the search
+05/24/2025 12:05:05 AM |      INFO | test_product_compare.py:809 | Clicking on the search button
+05/24/2025 12:05:06 AM |      INFO | test_product_compare.py:811 | Clicking on the compare this option
+05/24/2025 12:05:06 AM |      INFO | test_product_compare.py:813 | Entering MacBook Air product to the search
+05/24/2025 12:05:06 AM |      INFO | test_product_compare.py:815 | Clicking on the search button
+05/24/2025 12:05:07 AM |      INFO | test_product_compare.py:817 | Clicking on the compare this option
+05/24/2025 12:05:07 AM |      INFO | test_product_compare.py:819 | Entering MacBook product to the search
+05/24/2025 12:05:07 AM |      INFO | test_product_compare.py:821 | Clicking on the search button
+05/24/2025 12:05:07 AM |      INFO | test_product_compare.py:823 | Clicking on the compare this option
+05/24/2025 12:05:08 AM |      INFO | test_product_compare.py:825 | Entering MacBook Pro product to the search
+05/24/2025 12:05:08 AM |      INFO | test_product_compare.py:827 | Clicking on the search button
+05/24/2025 12:05:08 AM |      INFO | test_product_compare.py:829 | Clicking on the compare this option
+05/24/2025 12:05:09 AM |      INFO | test_product_compare.py:831 | Clicking on the product comparison link
+05/24/2025 12:05:09 AM |      INFO | test_product_compare.py:832 | ***************************** Verifying Test Product Compare 019 ***************************
+05/24/2025 12:05:10 AM |      INFO | test_product_compare.py:858 | ********* Test Product Compare 019 is Passed *********
+05/24/2025 12:05:12 AM |      INFO | test_product_compare.py:874 | *************************** End Test Product Compare 019 *****************************
+05/24/2025 12:05:34 AM |      INFO | test_product_compare.py:879 | *************************** Test Product Compare 020 is Start *****************************
+05/24/2025 12:05:36 AM |      INFO | test_product_compare.py:881 | Navigating to the base url
+05/24/2025 12:05:36 AM |      INFO | test_product_compare.py:884 | Entering iMac product to search
+05/24/2025 12:05:37 AM |      INFO | test_product_compare.py:886 | Clicking on search button
+05/24/2025 12:05:37 AM |      INFO | test_product_compare.py:889 | Clicking on compare this product option
+05/24/2025 12:05:37 AM |      INFO | test_product_compare.py:891 | Entering iphone product to the search
+05/24/2025 12:05:38 AM |      INFO | test_product_compare.py:893 | Clicking on the search button
+05/24/2025 12:05:38 AM |      INFO | test_product_compare.py:895 | Clicking on the compare this option
+05/24/2025 12:05:38 AM |      INFO | test_product_compare.py:897 | Entering MacBook Air product to the search
+05/24/2025 12:05:38 AM |      INFO | test_product_compare.py:899 | Clicking on the search button
+05/24/2025 12:05:38 AM |      INFO | test_product_compare.py:901 | Clicking on the compare this option
+05/24/2025 12:05:38 AM |      INFO | test_product_compare.py:903 | Entering MacBook product to the search
+05/24/2025 12:05:39 AM |      INFO | test_product_compare.py:905 | Clicking on the search button
+05/24/2025 12:05:39 AM |      INFO | test_product_compare.py:907 | Clicking on the compare this option
+05/24/2025 12:05:40 AM |      INFO | test_product_compare.py:909 | Clicking on product comparison link
+05/24/2025 12:05:40 AM |      INFO | test_product_compare.py:911 | Clicking on add to cart button
+05/24/2025 12:05:41 AM |      INFO | test_product_compare.py:913 | Clicking on shopping cart link
+05/24/2025 12:05:41 AM |      INFO | test_product_compare.py:914 | *************************** Verifying Test Product Compare 020 *****************************
+05/24/2025 12:05:41 AM |      INFO | test_product_compare.py:919 | ************ Test Product Compare 020 is Passed *************
+05/24/2025 12:05:44 AM |      INFO | test_product_compare.py:930 | *************************** End Test Product Compare 020 *****************************
+05/24/2025 12:06:05 AM |      INFO | test_product_compare.py:935 | *************************** Test Product Compare 021 is Start *****************************
+05/24/2025 12:06:09 AM |      INFO | test_product_compare.py:937 | Navigating to the base url
+05/24/2025 12:06:09 AM |      INFO | test_product_compare.py:940 | Entering iMac product to search
+05/24/2025 12:06:10 AM |      INFO | test_product_compare.py:942 | Clicking on search button
+05/24/2025 12:06:10 AM |      INFO | test_product_compare.py:945 | Clicking on compare this product option
+05/24/2025 12:06:10 AM |      INFO | test_product_compare.py:947 | Entering iphone product to the search
+05/24/2025 12:06:11 AM |      INFO | test_product_compare.py:949 | Clicking on the search button
+05/24/2025 12:06:11 AM |      INFO | test_product_compare.py:951 | Clicking on the compare this option
+05/24/2025 12:06:11 AM |      INFO | test_product_compare.py:953 | Entering MacBook Air product to the search
+05/24/2025 12:06:12 AM |      INFO | test_product_compare.py:955 | Clicking on the search button
+05/24/2025 12:06:12 AM |      INFO | test_product_compare.py:957 | Clicking on the compare this option
+05/24/2025 12:06:12 AM |      INFO | test_product_compare.py:959 | Entering MacBook product to the search
+05/24/2025 12:06:12 AM |      INFO | test_product_compare.py:961 | Clicking on the search button
+05/24/2025 12:06:13 AM |      INFO | test_product_compare.py:963 | Clicking on the compare this option
+05/24/2025 12:06:14 AM |      INFO | test_product_compare.py:965 | Clicking on product comparison link
+05/24/2025 12:06:14 AM |      INFO | test_product_compare.py:966 | *************************** Verifying Test Product Compare 021 *****************************
+05/24/2025 12:06:14 AM |      INFO | test_product_compare.py:968 | Title is Passed
+05/24/2025 12:06:17 AM |      INFO | test_product_compare.py:971 | *********** Test Product Compare 021 is Passed ************
+05/24/2025 12:06:19 AM |      INFO | test_product_compare.py:981 | *************************** End Of Test Product Compare 021 *****************************
+05/24/2025 12:06:40 AM |      INFO | test_product_compare.py:986 | ********************** Test Product Compare 022 is Start ***********************
+05/24/2025 12:06:44 AM |      INFO | test_product_compare.py:988 | Navigating to the base url
+05/24/2025 12:06:44 AM |      INFO | test_product_compare.py:991 | Entering iMac product to the search
+05/24/2025 12:06:45 AM |      INFO | test_product_compare.py:993 | Clicking on the search button
+05/24/2025 12:06:45 AM |      INFO | test_product_compare.py:996 | Clicking on the compare this product option
+05/24/2025 12:06:46 AM |      INFO | test_product_compare.py:998 | Clicking on the product comparison link
+05/24/2025 12:06:46 AM |      INFO | test_product_compare.py:999 | ********************** Verifying Test Product Compare 022 ***********************
+05/24/2025 12:06:46 AM |      INFO | test_product_compare.py:1005 | *********** Test Product Compare 022 is Passed **********
+05/24/2025 12:06:48 AM |      INFO | test_product_compare.py:1013 | ********************** End Of Test Product Compare 022 ***********************
+05/24/2025 12:07:09 AM |      INFO | test_product_compare.py:1018 | ************************** Test Product Compare 023 is Start *************************
+05/24/2025 12:07:13 AM |      INFO | test_product_compare.py:1020 | Navigating to the base url
+05/24/2025 12:07:13 AM |      INFO | test_product_compare.py:1023 | Entering iMac product to the search box field 
+05/24/2025 12:07:13 AM |      INFO | test_product_compare.py:1025 | Clicking on the search button
+05/24/2025 12:07:13 AM |      INFO | test_product_compare.py:1031 | clicking on compare this product option available on the Product that is displayed in the Search result
+05/24/2025 12:07:14 AM |      INFO | test_product_compare.py:1035 | clicking on product comparison link
+05/24/2025 12:07:14 AM |      INFO | test_product_compare.py:1038 | *********** Test Product Compare 023 is Passed ***********
+05/24/2025 12:07:17 AM |      INFO | test_product_compare.py:1050 | ********************* End Test Product Compare 023 *************************
+05/24/2025 12:07:17 AM |      INFO | test_product_compare.py:1052 | ************************** Verifying Test Product Compare 023 *************************
+05/24/2025 12:07:41 AM |      INFO | test_product_display.py:20 | ********************** Test Product Display 001 is Start *********************
+05/24/2025 12:07:42 AM |      INFO | test_product_display.py:22 | Navigating to the base url
+05/24/2025 12:07:44 AM |      INFO | test_product_display.py:25 | Entering iMac product to search text field
+05/24/2025 12:07:45 AM |      INFO | test_product_display.py:27 | Clicking on the search button
+05/24/2025 12:07:46 AM |      INFO | test_product_display.py:30 | Clicking on the product displayed in the Search results
+05/24/2025 12:07:46 AM |      INFO | test_product_display.py:33 | Clicking on the main bigger sized Thumbnail image
+05/24/2025 12:07:46 AM |      INFO | test_product_display.py:34 | ********************** Verifying Test Product Display 001 *********************
+05/24/2025 12:07:47 AM |      INFO | test_product_display.py:39 | Clicking on the next arrow button
+05/24/2025 12:07:47 AM |      INFO | test_product_display.py:42 | Clicking on the back arrow button
+05/24/2025 12:07:47 AM |      INFO | test_product_display.py:45 | Clicking on the cross option
+05/24/2025 12:07:47 AM |      INFO | test_product_display.py:48 | ********** Test Product Display 001 is Passed **********
+05/24/2025 12:07:47 AM |      INFO | test_product_display.py:68 | Clicking on the main bigger sized Thumbnail image
+05/24/2025 12:07:47 AM |      INFO | test_product_display.py:69 | ********************** Again Verifying Test Product Display 001 *********************
+05/24/2025 12:07:47 AM |      INFO | test_product_display.py:74 | Clicking on the next arrow button
+05/24/2025 12:07:47 AM |      INFO | test_product_display.py:77 | Clicking on the back arrow button
+05/24/2025 12:07:47 AM |      INFO | test_product_display.py:80 | Clicking on the cross option
+05/24/2025 12:07:47 AM |      INFO | test_product_display.py:83 | ********** Test Product Display 001 is Passed **********
+05/24/2025 12:07:49 AM |      INFO | test_product_display.py:103 | ********************** End Of Test Product Display 001 *********************
+05/24/2025 12:08:11 AM |      INFO | test_product_display.py:108 | *********************** Test Product Display 002 is Start ************************
+05/24/2025 12:08:13 AM |      INFO | test_product_display.py:110 | Navigating to the base url
+05/24/2025 12:08:13 AM |      INFO | test_product_display.py:113 | Entering iMac product to search text field
+05/24/2025 12:08:14 AM |      INFO | test_product_display.py:115 | Clicking on the search icon button
+05/24/2025 12:08:16 AM |      INFO | test_product_display.py:118 | Clicking on the iMac product
+05/24/2025 12:08:16 AM |      INFO | test_product_display.py:122 | *********************** Verifying Test Product Display 002 ************************
+05/24/2025 12:08:16 AM |      INFO | test_product_display.py:127 | ************ Test Product Display 002 is Passed ***********
+05/24/2025 12:08:19 AM |      INFO | test_product_display.py:138 | *********************** End Of Test Product Display 002 ************************
+05/24/2025 12:08:40 AM |      INFO | test_product_display.py:143 | ************************* Test Product Display 003 is Start *************************
+05/24/2025 12:08:43 AM |      INFO | test_product_display.py:145 | Navigating to the base url
+05/24/2025 12:08:43 AM |      INFO | test_product_display.py:148 | Entering iMac product to the search text box field
+05/24/2025 12:08:44 AM |      INFO | test_product_display.py:150 | Clicking on the search icon button
+05/24/2025 12:08:45 AM |      INFO | test_product_display.py:153 | Clicking on the product display in the search result
+05/24/2025 12:08:45 AM |      INFO | test_product_display.py:156 | ************************* Verifying Test Product Display 003 *************************
+05/24/2025 12:08:45 AM |      INFO | test_product_display.py:160 | *********** Test Product Display 003 is Passed ************
+05/24/2025 12:08:47 AM |      INFO | test_product_display.py:168 | ************************* End Of Test Product Display 003 *************************
+05/24/2025 12:09:09 AM |      INFO | test_product_display.py:173 | ************************* Test Product Display 004 is Start *************************
+05/24/2025 12:09:12 AM |      INFO | test_product_display.py:175 | Navigating to the base url
+05/24/2025 12:09:12 AM |      INFO | test_product_display.py:178 | Entering iMac product to the search text box field
+05/24/2025 12:09:13 AM |      INFO | test_product_display.py:180 | Clicking on the search icon button
+05/24/2025 12:09:13 AM |      INFO | test_product_display.py:183 | Clicking on the product display in the search result
+05/24/2025 12:09:14 AM |      INFO | test_product_display.py:186 | ************************* Verifying Test Product Display 004 *************************
+05/24/2025 12:09:14 AM |      INFO | test_product_display.py:191 | ************* Test Product Display 004 is Passed ************
+05/24/2025 12:09:16 AM |      INFO | test_product_display.py:202 | ************************* End Of Test Product Display 004 *************************
+05/24/2025 12:09:37 AM |      INFO | test_product_display.py:207 | ************************* Test Product Display 005 is Start *************************
+05/24/2025 12:09:41 AM |      INFO | test_product_display.py:209 | Navigating to the base url
+05/24/2025 12:09:41 AM |      INFO | test_product_display.py:212 | Entering iMac product to the search text box field
+05/24/2025 12:09:42 AM |      INFO | test_product_display.py:214 | Clicking on the search icon button
+05/24/2025 12:09:46 AM |      INFO | test_product_display.py:217 | Clicking on the product display in the search result
+05/24/2025 12:09:46 AM |      INFO | test_product_display.py:218 | ************************* Verifying Test Product Display 005 *************************
+05/24/2025 12:09:46 AM |      INFO | test_product_display.py:223 | Updating quantity by 3
+05/24/2025 12:09:46 AM |      INFO | test_product_display.py:225 | Clicking on add to cart button
+05/24/2025 12:09:47 AM |      INFO | test_product_display.py:228 | Clicking on the shopping cart link
+05/24/2025 12:09:47 AM |      INFO | test_product_display.py:232 | ************** Test Product Display 005 is Passed **************
+05/24/2025 12:09:49 AM |      INFO | test_product_display.py:249 | ************************* End Of Test Product Display 005 *************************
+05/24/2025 12:10:11 AM |      INFO | test_product_display.py:254 | ************************* Test Product Display 006 is Start *************************
+05/24/2025 12:10:13 AM |      INFO | test_product_display.py:256 | Navigating to the base url
+05/24/2025 12:10:14 AM |      INFO | test_product_display.py:259 | Entering iMac product to the search text box field
+05/24/2025 12:10:15 AM |      INFO | test_product_display.py:261 | Clicking on the search icon button
+05/24/2025 12:10:24 AM |      INFO | test_product_display.py:264 | Clicking on the product display in the search result
+05/24/2025 12:10:24 AM |      INFO | test_product_display.py:265 | ************************* Verifying Test Product Display 006 *************************
+05/24/2025 12:10:24 AM |      INFO | test_product_display.py:269 | Updating the product quantity to -1
+05/24/2025 12:10:25 AM |      INFO | test_product_display.py:271 | Clicking on the add to cart button
+05/24/2025 12:10:25 AM |      INFO | test_product_display.py:276 | Page has fully loaded
+05/24/2025 12:10:25 AM |     ERROR | test_product_display.py:282 | -1
+05/24/2025 12:10:25 AM |     ERROR | test_product_display.py:283 | *********** Test Product Display 006 is Failed ***********
+05/24/2025 12:10:28 AM |      INFO | test_product_display.py:352 | ***************************** Test Product Display 008 is Start ***************************
+05/24/2025 12:10:31 AM |      INFO | test_product_display.py:354 | Navigating to base url
+05/24/2025 12:10:31 AM |      INFO | test_product_display.py:358 | Entering 'iMac' into the search box
+05/24/2025 12:10:32 AM |      INFO | test_product_display.py:360 | Clicking the search button
+05/24/2025 12:10:36 AM |      INFO | test_product_display.py:364 | Clicking on the displayed product in search results
+05/24/2025 12:10:36 AM |      INFO | test_product_display.py:366 | ***************************** Verifying Test Product Display 008 ***************************
+05/24/2025 12:10:36 AM |      INFO | test_product_display.py:386 | Expected Description:
+Just when you thought iMac had everything, now there's even more.
+More powerful Intel Core 2 Duo processors.
+And more memory standard.
+Combine this with Mac OS X Leopard and iLife '08, and it's more all-in-one than ever.
+iMac packs amazing performance into a stunningly slim space.
+05/24/2025 12:10:36 AM |      INFO | test_product_display.py:387 | Actual Description:
+Just when you thought iMac had everything, now there's even more. More powerful Intel Core 2 Duo processors. And more memory standard. Combine this with Mac OS X Leopard and iLife '08, and it's more all-in-one than ever. iMac packs amazing performance into a stunningly slim space.
+05/24/2025 12:10:36 AM |      INFO | test_product_display.py:394 | ************** Test Product Display 008 is Passed ************
+05/24/2025 12:10:36 AM |      INFO | test_product_display.py:400 | ***************************** End Of Test Product Display 008 ***************************
+05/24/2025 12:10:40 AM |      INFO | test_product_display.py:405 | *************************** Test Product Display 009 is Start **************************
+05/24/2025 12:10:43 AM |      INFO | test_product_display.py:407 | Navigating to the base url
+05/24/2025 12:10:43 AM |      INFO | test_product_display.py:410 | Entering Apple Cinema 30 to search text box field
+05/24/2025 12:10:44 AM |      INFO | test_product_display.py:412 | Clicking on the search icon button
+05/24/2025 12:10:49 AM |      INFO | test_product_display.py:415 | Clicking on the product display in search result
+05/24/2025 12:10:49 AM |      INFO | test_product_display.py:418 | *************************** Verifying Test Product Display 009 **************************
+05/24/2025 12:10:49 AM |      INFO | test_product_display.py:430 | Expected: 'clock speed' but Actual: 'Clockspeed
+05/24/2025 12:10:49 AM |     ERROR | test_product_display.py:431 | *************** Test Product Display 009 is Failed **************
+05/24/2025 12:10:53 AM |      INFO | test_product_display.py:438 | *************************** Test Product Display 010 is Start **************************
+05/24/2025 12:10:57 AM |      INFO | test_product_display.py:440 | Navigating to the base url
+05/24/2025 12:10:57 AM |      INFO | test_product_display.py:443 | Entering Apple Cinema 30 to search text box field
+05/24/2025 12:10:58 AM |      INFO | test_product_display.py:445 | Clicking on the search icon button
+05/24/2025 12:10:59 AM |      INFO | test_product_display.py:448 | Clicking on the product display in search result
+05/24/2025 12:10:59 AM |      INFO | test_product_display.py:451 | Clicking on review tab
+05/24/2025 12:10:59 AM |      INFO | test_product_display.py:453 | Entering name in name text field in review tab
+05/24/2025 12:10:59 AM |      INFO | test_product_display.py:455 | Entering the review text to the review text area
+05/24/2025 12:10:59 AM |      INFO | test_product_display.py:457 | Clicking on the radio button
+05/24/2025 12:10:59 AM |      INFO | test_product_display.py:459 | Clicking on the continue button
+05/24/2025 12:10:59 AM |      INFO | test_product_display.py:460 | *************************** Verifying Test Product Display 010 **************************
+05/24/2025 12:11:00 AM |      INFO | test_product_display.py:465 | **************** Test Product Display 010 is Passed ***************
+05/24/2025 12:11:00 AM |      INFO | test_product_display.py:471 | *************************** End Of Test Product Display 010 **************************
+05/24/2025 12:11:03 AM |      INFO | test_product_display.py:476 | *************************** Test Product Display 011 is Start **************************
+05/24/2025 12:11:06 AM |      INFO | test_product_display.py:478 | Navigating to the base url
+05/24/2025 12:11:06 AM |      INFO | test_product_display.py:481 | Entering iMac product to search text box field
+05/24/2025 12:11:07 AM |      INFO | test_product_display.py:483 | Clicking on the search icon button
+05/24/2025 12:11:11 AM |      INFO | test_product_display.py:486 | Clicking on the product display in search result
+05/24/2025 12:11:11 AM |      INFO | test_product_display.py:489 | Clicking on the zero review tab
+05/24/2025 12:11:11 AM |      INFO | test_product_display.py:490 | *************************** Verifying Test Product Display 011 **************************
+05/24/2025 12:11:12 AM |      INFO | test_product_display.py:494 | ************* Test Product Display 011 is Passed ***************
+05/24/2025 12:11:12 AM |      INFO | test_product_display.py:499 | *************************** End Of Test Product Display 011 **************************
+05/24/2025 12:11:15 AM |      INFO | test_register.py:19 | ******** Test Register Functionality 001 is Started *********
+05/24/2025 12:11:15 AM |      INFO | test_register.py:21 | Navigating to the url
+05/24/2025 12:11:18 AM |      INFO | test_register.py:24 | clicking on myAccount drop menu
+05/24/2025 12:11:18 AM |      INFO | test_register.py:27 | clicking on register link
+05/24/2025 12:11:19 AM |      INFO | test_register.py:29 | *************** Providing Registration Details ***************
+05/24/2025 12:11:22 AM |      INFO | test_register.py:39 | *************** Verifying Register Functionality 001  ***************
+05/24/2025 12:11:22 AM |      INFO | test_register.py:46 | ******* Test Register Functionality 001 is Passed ********
+05/24/2025 12:11:22 AM |      INFO | test_register.py:58 | ********** End Of Test Register Functionality 001 **********
+05/24/2025 12:11:26 AM |      INFO | test_register.py:64 | ******** Test Register Functionality 002 is Started *********
+05/24/2025 12:11:26 AM |      INFO | test_register.py:66 | Navigating to the url
+05/24/2025 12:11:29 AM |      INFO | test_register.py:69 | clicking on myAccount drop menu
+05/24/2025 12:11:29 AM |      INFO | test_register.py:72 | clicking on register link
+05/24/2025 12:11:30 AM |      INFO | test_register.py:74 | *************** Providing Registration Details ***************
+05/24/2025 12:11:32 AM |      INFO | test_register.py:84 | *************** Verifying Register Functionality 002  ***************
+05/24/2025 12:11:33 AM |      INFO | test_register.py:91 | ******* Test Register Functionality 002 is Passed ********
+05/24/2025 12:11:33 AM |      INFO | test_register.py:104 | ********** End Of Test Register Functionality 002 **********
+05/24/2025 12:11:36 AM |      INFO | test_register.py:109 | ******** Test Register Functionality 003 is Started *********
+05/24/2025 12:11:40 AM |      INFO | test_register.py:112 | Navigating to the url
+05/24/2025 12:11:40 AM |      INFO | test_register.py:115 | clicking on myAccount drop menu
+05/24/2025 12:11:41 AM |      INFO | test_register.py:118 | clicking on register link
+05/24/2025 12:11:42 AM |      INFO | test_register.py:120 | clicking on continue button
+05/24/2025 12:11:42 AM |      INFO | test_register.py:121 | *********** Verifying Test Register Functionality 003 ***********
+05/24/2025 12:11:42 AM |      INFO | test_register.py:143 | Test Register Functionality 003 Passed.
+05/24/2025 12:11:42 AM |      INFO | test_register.py:143 | Test Register Functionality 003 Passed.
+05/24/2025 12:11:42 AM |      INFO | test_register.py:143 | Test Register Functionality 003 Passed.
+05/24/2025 12:11:42 AM |      INFO | test_register.py:143 | Test Register Functionality 003 Passed.
+05/24/2025 12:11:42 AM |      INFO | test_register.py:143 | Test Register Functionality 003 Passed.
+05/24/2025 12:11:42 AM |      INFO | test_register.py:143 | Test Register Functionality 003 Passed.
+05/24/2025 12:11:45 AM |      INFO | test_register.py:154 | ******** Test Register Functionality 004 is Started *********
+05/24/2025 12:11:45 AM |      INFO | test_register.py:156 | Navigating to the url
+05/24/2025 12:11:48 AM |      INFO | test_register.py:159 | clicking on myAccount drop menu
+05/24/2025 12:11:49 AM |      INFO | test_register.py:162 | clicking on register link
+05/24/2025 12:11:49 AM |      INFO | test_register.py:164 | *************** Providing Registration Details ***************
+05/24/2025 12:11:52 AM |      INFO | test_register.py:175 | *************** Verifying Register Functionality 004  ***************
+05/24/2025 12:11:54 AM |      INFO | test_register.py:187 | ******* Test Register Functionality 004 is Passed ********
+05/24/2025 12:11:54 AM |      INFO | test_register.py:207 | ********** End Of Test Register Functionality 004 **********
+05/24/2025 12:11:58 AM |      INFO | test_register.py:212 | ******** Test Register Functionality 005 is Started *********
+05/24/2025 12:11:58 AM |      INFO | test_register.py:214 | Navigating to the url
+05/24/2025 12:12:01 AM |      INFO | test_register.py:217 | clicking on myAccount drop menu
+05/24/2025 12:12:01 AM |      INFO | test_register.py:220 | clicking on register link
+05/24/2025 12:12:02 AM |      INFO | test_register.py:222 | *************** Providing Registration Details ***************
+05/24/2025 12:12:05 AM |      INFO | test_register.py:232 | *************** Verifying Register Functionality 005 ***************
+05/24/2025 12:12:07 AM |      INFO | test_register.py:245 | ******* Test Register Functionality 005 is Passed ********
+05/24/2025 12:12:07 AM |      INFO | test_register.py:266 | ********** End Of Test Register Functionality 005 **********
+05/24/2025 12:12:10 AM |      INFO | test_register.py:271 | ******** Test Register Functionality 006 is Started *********
+05/24/2025 12:12:13 AM |      INFO | test_register.py:274 | Navigating to the url
+05/24/2025 12:12:13 AM |      INFO | test_register.py:277 | clicking on myAccount drop menu
+05/24/2025 12:12:14 AM |      INFO | test_register.py:280 | clicking on register link
+05/24/2025 12:12:14 AM |      INFO | test_register.py:281 | *************** Verifying Register Functionality 006  ***************
+05/24/2025 12:12:17 AM |      INFO | test_register.py:291 | **********  Test Register Functionality 006 Failed **********
+05/24/2025 12:12:17 AM |      INFO | test_register.py:310 | ********** End Of Test Register Functionality 006 **********
+05/24/2025 12:12:20 AM |      INFO | test_search.py:22 | **************** Test Search Functionality 001 Started ******************
+05/24/2025 12:12:23 AM |      INFO | test_search.py:24 | Navigating to the URL
+05/24/2025 12:12:23 AM |      INFO | test_search.py:27 | Searching iMac
+05/24/2025 12:12:24 AM |      INFO | test_search.py:29 | Clicking on search button
+05/24/2025 12:12:24 AM |      INFO | test_search.py:31 | *********** Verifying Test Search functionality 001 ************
+05/24/2025 12:12:24 AM |      INFO | test_search.py:34 | iMac
+05/24/2025 12:12:24 AM |      INFO | test_search.py:36 | ********** Test Search Functionality 001 is Passed ***********
+05/24/2025 12:12:24 AM |      INFO | test_search.py:41 | ***************** End Of Test Search Functionality 001 ******************
+05/24/2025 12:12:48 AM |      INFO | test_search.py:47 | **************** Test Search Functionality 002 Started ******************
+05/24/2025 12:12:51 AM |      INFO | test_search.py:49 | Navigating to the URL
+05/24/2025 12:12:51 AM |      INFO | test_search.py:52 | Searching Fitbit
+05/24/2025 12:12:52 AM |      INFO | test_search.py:54 | Clicking on search button
+05/24/2025 12:12:52 AM |      INFO | test_search.py:56 | *********** Verifying Test Search functionality 002 ************
+05/24/2025 12:12:52 AM |      INFO | test_search.py:61 | ********** Test Search Functionality 002 is Passed ***********
+05/24/2025 12:12:52 AM |      INFO | test_search.py:66 | ***************** End Of Test Search Functionality 002 ******************
+05/24/2025 12:13:16 AM |      INFO | test_search.py:72 | **************** Test Search Functionality 003 Started ******************
+05/24/2025 12:13:19 AM |      INFO | test_search.py:74 | Navigating to the URL
+05/24/2025 12:13:20 AM |      INFO | test_search.py:77 | Clicking on search button
+05/24/2025 12:13:20 AM |      INFO | test_search.py:78 | *********** Verifying Test Search functionality 003 ************
+05/24/2025 12:13:20 AM |      INFO | test_search.py:83 | ********** Test Search Functionality 003 is Passed ***********
+05/24/2025 12:13:20 AM |      INFO | test_search.py:88 | ***************** End Of Test Search Functionality 003 ******************
+05/24/2025 12:13:44 AM |      INFO | test_search.py:94 | **************** Test Search Functionality 004 Start ****************
+05/24/2025 12:13:46 AM |      INFO | test_search.py:96 | Navigating to the URL
+05/24/2025 12:13:48 AM |      INFO | test_search.py:103 | ***************** Login is Successful *********************
+05/24/2025 12:13:51 AM |      INFO | test_search.py:108 | ****************** Verifying Test Search Functionality 004 ***************
+05/24/2025 12:13:51 AM |      INFO | test_search.py:111 | iMac
+05/24/2025 12:13:51 AM |      INFO | test_search.py:113 | ********** Test Search Functionality 004 is Passed ***********
+05/24/2025 12:13:51 AM |      INFO | test_search.py:118 | ***************** End Of Test Search Functionality 004 ******************
+05/24/2025 12:14:15 AM |      INFO | test_search.py:124 | ****************** Test Search Functionality 005 Is Started ***************
+05/24/2025 12:14:18 AM |      INFO | test_search.py:126 | Navigating to the base URL
+05/24/2025 12:14:18 AM |      INFO | test_search.py:129 | Entering the search text 'Mac' 
+05/24/2025 12:14:18 AM |      INFO | test_search.py:131 | Clicking on search button
+05/24/2025 12:14:18 AM |      INFO | test_search.py:132 | *************** Verifying Test Search Functionality 005 ****************
+05/24/2025 12:14:18 AM |      INFO | test_search.py:138 | ************ Test Search Functionality 005 is Passed *************
+05/24/2025 12:14:19 AM |      INFO | test_search.py:143 | **************** End Of Test Search Functionality 005 ******************
