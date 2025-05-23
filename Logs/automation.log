@@ -6049,3 +6049,76 @@ iMac packs amazing performance into a stunningly slim space.
 Just when you thought iMac had everything, now there's even more. More powerful Intel Core 2 Duo processors. And more memory standard. Combine this with Mac OS X Leopard and iLife '08, and it's more all-in-one than ever. iMac packs amazing performance into a stunningly slim space.
 05/23/2025 03:33:06 PM |      INFO | test_product_display.py:394 | ************** Test Product Display 008 is Passed ************
 05/23/2025 03:33:06 PM |      INFO | test_product_display.py:400 | ***************************** End Of Test Product Display 008 ***************************
+05/23/2025 04:09:26 PM |      INFO | test_product_display.py:405 | *************************** Test Product Display 009 is Start **************************
+05/23/2025 04:09:28 PM |      INFO | test_product_display.py:407 | Navigating to the base url
+05/23/2025 04:09:29 PM |      INFO | test_product_display.py:410 | Entering Apple Cinema 30 to search text box field
+05/23/2025 04:09:29 PM |      INFO | test_product_display.py:412 | Clicking on the search icon button
+05/23/2025 04:09:30 PM |      INFO | test_product_display.py:415 | Clicking on the product display in search result
+05/23/2025 04:09:30 PM |      INFO | test_product_display.py:418 | *************************** Verifying Test Product Display 009 **************************
+05/23/2025 04:09:30 PM |      INFO | test_product_display.py:430 | Expected: 'clock speed' but Actual: Clockspeed
+05/23/2025 04:09:30 PM |     ERROR | test_product_display.py:431 | *************** Test Product Display 009 is Passed **************
+05/23/2025 04:09:30 PM |      INFO | test_product_display.py:433 | *************************** End Of Test Product Display 009 **************************
+05/23/2025 04:10:16 PM |      INFO | test_product_display.py:405 | *************************** Test Product Display 009 is Start **************************
+05/23/2025 04:10:17 PM |      INFO | test_product_display.py:407 | Navigating to the base url
+05/23/2025 04:10:17 PM |      INFO | test_product_display.py:410 | Entering Apple Cinema 30 to search text box field
+05/23/2025 04:10:17 PM |      INFO | test_product_display.py:412 | Clicking on the search icon button
+05/23/2025 04:10:18 PM |      INFO | test_product_display.py:415 | Clicking on the product display in search result
+05/23/2025 04:10:18 PM |      INFO | test_product_display.py:418 | *************************** Verifying Test Product Display 009 **************************
+05/23/2025 04:10:18 PM |      INFO | test_product_display.py:430 | Expected: 'clock speed' but Actual: Clockspeed
+05/23/2025 04:10:18 PM |     ERROR | test_product_display.py:431 | *************** Test Product Display 009 is Passed **************
+05/23/2025 04:11:46 PM |      INFO | test_product_display.py:405 | *************************** Test Product Display 009 is Start **************************
+05/23/2025 04:11:46 PM |      INFO | test_product_display.py:407 | Navigating to the base url
+05/23/2025 04:11:47 PM |      INFO | test_product_display.py:410 | Entering Apple Cinema 30 to search text box field
+05/23/2025 04:11:47 PM |      INFO | test_product_display.py:412 | Clicking on the search icon button
+05/23/2025 04:11:47 PM |      INFO | test_product_display.py:415 | Clicking on the product display in search result
+05/23/2025 04:11:48 PM |      INFO | test_product_display.py:418 | *************************** Verifying Test Product Display 009 **************************
+05/23/2025 04:11:48 PM |      INFO | test_product_display.py:430 | Expected: 'clock speed' but Actual: Clockspeed
+05/23/2025 04:11:48 PM |     ERROR | test_product_display.py:431 | *************** Test Product Display 009 is Failed **************
+05/23/2025 04:13:33 PM |      INFO | test_product_display.py:405 | *************************** Test Product Display 009 is Start **************************
+05/23/2025 04:13:34 PM |      INFO | test_product_display.py:407 | Navigating to the base url
+05/23/2025 04:13:34 PM |      INFO | test_product_display.py:410 | Entering Apple Cinema 30 to search text box field
+05/23/2025 04:13:34 PM |      INFO | test_product_display.py:412 | Clicking on the search icon button
+05/23/2025 04:13:35 PM |      INFO | test_product_display.py:415 | Clicking on the product display in search result
+05/23/2025 04:13:35 PM |      INFO | test_product_display.py:418 | *************************** Verifying Test Product Display 009 **************************
+05/23/2025 04:13:35 PM |      INFO | test_product_display.py:430 | Expected: 'clock speed' but Actual: 'Clockspeed
+05/23/2025 04:13:35 PM |     ERROR | test_product_display.py:431 | *************** Test Product Display 009 is Failed **************
+05/23/2025 04:49:43 PM |      INFO | test_product_display.py:438 | *************************** Test Product Display 010 is Start **************************
+05/23/2025 04:49:44 PM |      INFO | test_product_display.py:440 | Navigating to the base url
+05/23/2025 04:49:45 PM |      INFO | test_product_display.py:443 | Entering Apple Cinema 30 to search text box field
+05/23/2025 04:49:45 PM |      INFO | test_product_display.py:445 | Clicking on the search icon button
+05/23/2025 04:49:46 PM |      INFO | test_product_display.py:448 | Clicking on the product display in search result
+05/23/2025 04:49:46 PM |      INFO | test_product_display.py:451 | Clicking on review tab
+05/23/2025 04:49:46 PM |      INFO | test_product_display.py:453 | Entering name in name text field in review tab
+05/23/2025 04:49:46 PM |      INFO | test_product_display.py:455 | Entering the review text to the review text area
+05/23/2025 04:49:46 PM |      INFO | test_product_display.py:457 | Clicking on the radio button
+05/23/2025 04:49:46 PM |      INFO | test_product_display.py:459 | Clicking on the continue button
+05/23/2025 04:49:46 PM |      INFO | test_product_display.py:460 | *************************** Verifying Test Product Display 010 **************************
+05/23/2025 04:49:46 PM |      INFO | test_product_display.py:464 | **************** Test Product Display 010 is Passed ***************
+05/23/2025 04:49:46 PM |      INFO | test_product_display.py:468 | *************************** End Of Test Product Display 010 **************************
+05/23/2025 04:53:55 PM |      INFO | test_product_display.py:438 | *************************** Test Product Display 010 is Start **************************
+05/23/2025 04:53:56 PM |      INFO | test_product_display.py:440 | Navigating to the base url
+05/23/2025 04:53:56 PM |      INFO | test_product_display.py:443 | Entering Apple Cinema 30 to search text box field
+05/23/2025 04:53:57 PM |      INFO | test_product_display.py:445 | Clicking on the search icon button
+05/23/2025 04:53:57 PM |      INFO | test_product_display.py:448 | Clicking on the product display in search result
+05/23/2025 04:53:57 PM |      INFO | test_product_display.py:451 | Clicking on review tab
+05/23/2025 04:53:57 PM |      INFO | test_product_display.py:453 | Entering name in name text field in review tab
+05/23/2025 04:53:58 PM |      INFO | test_product_display.py:455 | Entering the review text to the review text area
+05/23/2025 04:53:58 PM |      INFO | test_product_display.py:457 | Clicking on the radio button
+05/23/2025 04:53:58 PM |      INFO | test_product_display.py:459 | Clicking on the continue button
+05/23/2025 04:53:58 PM |      INFO | test_product_display.py:460 | *************************** Verifying Test Product Display 010 **************************
+05/23/2025 04:53:58 PM |     ERROR | test_product_display.py:467 | Expected Success Message is:- Thank you for your review. It has been submitted to the webmaster for approval
+ Actual Success Message is:- Thank you for your review. It has been submitted to the webmaster for approval.
+05/23/2025 04:53:58 PM |     ERROR | test_product_display.py:468 | **************** Test Product Display 010 is Failed ***************
+05/23/2025 04:54:31 PM |      INFO | test_product_display.py:438 | *************************** Test Product Display 010 is Start **************************
+05/23/2025 04:54:32 PM |      INFO | test_product_display.py:440 | Navigating to the base url
+05/23/2025 04:54:32 PM |      INFO | test_product_display.py:443 | Entering Apple Cinema 30 to search text box field
+05/23/2025 04:54:33 PM |      INFO | test_product_display.py:445 | Clicking on the search icon button
+05/23/2025 04:54:33 PM |      INFO | test_product_display.py:448 | Clicking on the product display in search result
+05/23/2025 04:54:33 PM |      INFO | test_product_display.py:451 | Clicking on review tab
+05/23/2025 04:54:33 PM |      INFO | test_product_display.py:453 | Entering name in name text field in review tab
+05/23/2025 04:54:34 PM |      INFO | test_product_display.py:455 | Entering the review text to the review text area
+05/23/2025 04:54:34 PM |      INFO | test_product_display.py:457 | Clicking on the radio button
+05/23/2025 04:54:34 PM |      INFO | test_product_display.py:459 | Clicking on the continue button
+05/23/2025 04:54:34 PM |      INFO | test_product_display.py:460 | *************************** Verifying Test Product Display 010 **************************
+05/23/2025 04:54:34 PM |      INFO | test_product_display.py:465 | **************** Test Product Display 010 is Passed ***************
+05/23/2025 04:54:34 PM |      INFO | test_product_display.py:470 | *************************** End Of Test Product Display 010 **************************

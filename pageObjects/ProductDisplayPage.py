@@ -31,6 +31,14 @@ class ProductDisplayPage:
     inputDateAndTime = (By.ID, "input-option220")
     warningMessage = (By.XPATH, "//div[contains(text(), 'Minimum order amount for Apple Cinema 30')]")
     descriptionText = (By.XPATH, "//div[@id='tab-description']/div")
+    specificationTab = (By.LINK_TEXT, "Specification")
+    reviewTab = (By.LINK_TEXT, "Reviews (0)")
+    nameTextFieldInReviewTab = (By.ID, "input-name")
+    inputReviewTextAreaField = (By.ID, "input-review")
+    radioButtonInReviewTab = (By.XPATH, "//input[@value='5']")
+    continueButtonIReviewTab = (By.XPATH, "//button[@id='button-review']")
+    successMessageInReviewTab = (By.XPATH, "//div[@class='alert alert-success alert-dismissible']")
+
 
     def __init__(self, driver):
         self.driver = driver
@@ -199,3 +207,24 @@ class ProductDisplayPage:
         description_text =  self.driver.find_element(*ProductDisplayPage.descriptionText)
         return description_text.text
 
+    def click_on_specification_tab(self):
+        self.driver.find_element(*ProductDisplayPage.specificationTab).click()
+
+    def click_on_reviews_tab(self):
+        self.driver.find_element(*ProductDisplayPage.reviewTab).click()
+
+    def set_name_in_review_tab(self, name):
+        self.driver.find_element(*ProductDisplayPage.nameTextFieldInReviewTab).send_keys(name)
+
+    def set_review_text_in_review_tab(self, review):
+        self.driver.find_element(*ProductDisplayPage.inputReviewTextAreaField).send_keys(review)
+
+    def click_on_radio_button_in_review_tab(self):
+        self.driver.find_element(*ProductDisplayPage.radioButtonInReviewTab).click()
+
+    def click_on_continue_button_in_review_tab(self):
+        self.driver.find_element(*ProductDisplayPage.continueButtonIReviewTab).click()
+
+    def get_success_message_in_review_tab(self):
+        success_message = self.driver.find_element(*ProductDisplayPage.successMessageInReviewTab).text
+        return success_message

@@ -398,3 +398,75 @@ class Test_007_Product_Display:
             assert False
 
         self.logger.info("***************************** End Of Test Product Display 008 ***************************")
+
+    @pytest.mark.sanity
+    def test_product_display_009(self, setup):
+        self.driver = setup
+        self.logger.info("*************************** Test Product Display 009 is Start **************************")
+        self.driver.get(self.baseURL)
+        self.logger.info("Navigating to the base url")
+        self.sf = SearchPage(self.driver)
+        self.sf.search_product("Apple Cinema 30")
+        self.logger.info("Entering Apple Cinema 30 to search text box field")
+        self.sf.click_on_search_button()
+        self.logger.info("Clicking on the search icon button")
+        self.pc = ProductComparePage(self.driver)
+        self.pc.click_on_the_product_display_in_search_result()
+        self.logger.info("Clicking on the product display in search result")
+        self.pd = ProductDisplayPage(self.driver)
+        self.pd.click_on_specification_tab()
+        self.logger.info("*************************** Verifying Test Product Display 009 **************************")
+        specification1 = self.driver.find_element(By.XPATH, '//*[@id="tab-specification"]/table/tbody/tr/td[1]').text
+        specification2 = self.driver.find_element(By.XPATH, '//*[@id="tab-specification"]/table/tbody/tr/td[2]').text
+        if specification1 == "clock speed":
+            if specification2 == "100mhz":
+                assert True
+                self.logger.info("*************** Test Product Display 009 is Passed **************")
+            else:
+                self.logger.info(f"Expected: '100mhz' but Actual: '{specification2}'")
+                self.logger.error("*************** Test Product Display 009 is Failed **************")
+                assert False
+        else:
+            self.logger.info(f"Expected: 'clock speed' but Actual: '{specification1}")
+            self.logger.error("*************** Test Product Display 009 is Failed **************")
+            assert False
+        self.logger.info("*************************** End Of Test Product Display 009 **************************")
+
+    @pytest.mark.sanity
+    def test_product_display_010(self, setup):
+        self.driver = setup
+        self.logger.info("*************************** Test Product Display 010 is Start **************************")
+        self.driver.get(self.baseURL)
+        self.logger.info("Navigating to the base url")
+        self.sf = SearchPage(self.driver)
+        self.sf.search_product("Apple Cinema 30")
+        self.logger.info("Entering Apple Cinema 30 to search text box field")
+        self.sf.click_on_search_button()
+        self.logger.info("Clicking on the search icon button")
+        self.pc = ProductComparePage(self.driver)
+        self.pc.click_on_the_product_display_in_search_result()
+        self.logger.info("Clicking on the product display in search result")
+        self.pd = ProductDisplayPage(self.driver)
+        self.pd.click_on_reviews_tab()
+        self.logger.info("Clicking on review tab")
+        self.pd.set_name_in_review_tab("Lukesh")
+        self.logger.info("Entering name in name text field in review tab")
+        self.pd.set_review_text_in_review_tab("This product is nice! and i recommend this product to buy this product")
+        self.logger.info("Entering the review text to the review text area")
+        self.pd.click_on_radio_button_in_review_tab()
+        self.logger.info("Clicking on the radio button")
+        self.pd.click_on_continue_button_in_review_tab()
+        self.logger.info("Clicking on the continue button")
+        self.logger.info("*************************** Verifying Test Product Display 010 **************************")
+        exp_success_message =  'Thank you for your review. It has been submitted to the webmaster for approval.'
+        act_success_message = self.pd.get_success_message_in_review_tab()
+        if act_success_message == exp_success_message:
+            assert True
+            self.logger.info("**************** Test Product Display 010 is Passed ***************")
+        else:
+            self.logger.error(f"Expected Success Message is:- {exp_success_message}\n Actual Success Message is:- {act_success_message}")
+            self.logger.error("**************** Test Product Display 010 is Failed ***************")
+            assert False
+        self.logger.info("*************************** End Of Test Product Display 010 **************************")
+
+
