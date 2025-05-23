@@ -464,7 +464,8 @@ class Test_007_Product_Display:
             assert True
             self.logger.info("**************** Test Product Display 010 is Passed ***************")
         else:
-            self.logger.error(f"Expected Success Message is:- {exp_success_message}\n Actual Success Message is:- {act_success_message}")
+            self.logger.error(f"Expected Success Message is:- {exp_success_message}")
+            self.logger.error(f"Actual Success Message is:- {act_success_message}")
             self.logger.error("**************** Test Product Display 010 is Failed ***************")
             assert False
         self.logger.info("*************************** End Of Test Product Display 010 **************************")

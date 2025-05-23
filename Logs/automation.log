@@ -5920,13 +5920,13 @@
 05/23/2025 03:18:29 PM |      INFO | test_product_display.py:361 | Clicking on the product is displayed in the search result
 05/23/2025 03:18:29 PM |      INFO | test_product_display.py:362 | ***************************** Verifying Test Product Display 007 ***************************
 05/23/2025 03:18:29 PM |      INFO | test_product_display.py:373 | Expected Description:
-Just when you thought iMac had everything, now there’s even more.
+Just when you thought iMac had everything, now thereï¿½s even more.
 More powerful Intel Core 2 Duo processors.
 And more memory standard.
-Combine this with Mac OS X Leopard and iLife ’08, and it’s more all-in-one than ever.
+Combine this with Mac OS X Leopard and iLife ï¿½08, and itï¿½s more all-in-one than ever.
 iMac packs amazing performance into a stunningly slim space.
 05/23/2025 03:18:29 PM |      INFO | test_product_display.py:374 | Actual Description:
-Just when you thought iMac had everything, now there´s even more. More powerful Intel Core 2 Duo processors. And more memory standard. Combine this with Mac OS X Leopard and iLife ´08, and it´s more all-in-one than ever. iMac packs amazing performance into a stunningly slim space.
+Just when you thought iMac had everything, now thereï¿½s even more. More powerful Intel Core 2 Duo processors. And more memory standard. Combine this with Mac OS X Leopard and iLife ï¿½08, and itï¿½s more all-in-one than ever. iMac packs amazing performance into a stunningly slim space.
 05/23/2025 03:18:29 PM |      INFO | test_product_display.py:381 | ************** Test Product Display 008 is Failed ************
 05/23/2025 03:21:11 PM |      INFO | test_product_display.py:351 | ***************************** Test Product Display 008 is Start ***************************
 05/23/2025 03:21:12 PM |      INFO | test_product_display.py:353 | Navigating to base url
@@ -5935,13 +5935,13 @@ Just when you thought iMac had everything, now there´s even more. More powerful 
 05/23/2025 03:21:13 PM |      INFO | test_product_display.py:361 | Clicking on the product is displayed in the search result
 05/23/2025 03:21:13 PM |      INFO | test_product_display.py:362 | ***************************** Verifying Test Product Display 007 ***************************
 05/23/2025 03:21:13 PM |      INFO | test_product_display.py:371 | Expected Description:
-Just when you thought iMac had everything, now there’s even more.
+Just when you thought iMac had everything, now thereï¿½s even more.
 More powerful Intel Core 2 Duo processors.
 And more memory standard.
-Combine this with Mac OS X Leopard and iLife ’08, and it’s more all-in-one than ever.
+Combine this with Mac OS X Leopard and iLife ï¿½08, and itï¿½s more all-in-one than ever.
 iMac packs amazing performance into a stunningly slim space.
 05/23/2025 03:21:13 PM |      INFO | test_product_display.py:372 | Actual Description:
-Just when you thought iMac had everything, now there´s even more. More powerful Intel Core 2 Duo processors. And more memory standard. Combine this with Mac OS X Leopard and iLife ´08, and it´s more all-in-one than ever. iMac packs amazing performance into a stunningly slim space.
+Just when you thought iMac had everything, now thereï¿½s even more. More powerful Intel Core 2 Duo processors. And more memory standard. Combine this with Mac OS X Leopard and iLife ï¿½08, and itï¿½s more all-in-one than ever. iMac packs amazing performance into a stunningly slim space.
 05/23/2025 03:21:13 PM |      INFO | test_product_display.py:379 | ************** Test Product Display 008 is Failed ************
 05/23/2025 03:24:59 PM |      INFO | test_product_display.py:351 | ***************************** Test Product Display 008 is Start ***************************
 05/23/2025 03:25:00 PM |      INFO | test_product_display.py:353 | Navigating to base url
@@ -5950,13 +5950,13 @@ Just when you thought iMac had everything, now there´s even more. More powerful 
 05/23/2025 03:25:01 PM |      INFO | test_product_display.py:361 | Clicking on the product is displayed in the search result
 05/23/2025 03:25:01 PM |      INFO | test_product_display.py:362 | ***************************** Verifying Test Product Display 007 ***************************
 05/23/2025 03:25:01 PM |      INFO | test_product_display.py:373 | Expected Description:
-Just when you thought iMac had everything, now there’s even more.
+Just when you thought iMac had everything, now thereï¿½s even more.
 More powerful Intel Core 2 Duo processors.
 And more memory standard.
-Combine this with Mac OS X Leopard and iLife ’08, and it’s more all-in-one than ever.
+Combine this with Mac OS X Leopard and iLife ï¿½08, and itï¿½s more all-in-one than ever.
 iMac packs amazing performance into a stunningly slim space.
 05/23/2025 03:25:01 PM |      INFO | test_product_display.py:374 | Actual Description:
-Just when you thought iMac had everything, now there´s even more. More powerful Intel Core 2 Duo processors. And more memory standard. Combine this with Mac OS X Leopard and iLife ´08, and it´s more all-in-one than ever. iMac packs amazing performance into a stunningly slim space.
+Just when you thought iMac had everything, now thereï¿½s even more. More powerful Intel Core 2 Duo processors. And more memory standard. Combine this with Mac OS X Leopard and iLife ï¿½08, and itï¿½s more all-in-one than ever. iMac packs amazing performance into a stunningly slim space.
 05/23/2025 03:25:01 PM |      INFO | test_product_display.py:381 | ************** Test Product Display 008 is Failed ************
 05/23/2025 03:25:57 PM |      INFO | test_product_display.py:351 | ***************************** Test Product Display 008 is Start ***************************
 05/23/2025 03:25:58 PM |      INFO | test_product_display.py:353 | Navigating to base url
@@ -5965,13 +5965,13 @@ Just when you thought iMac had everything, now there´s even more. More powerful 
 05/23/2025 03:25:59 PM |      INFO | test_product_display.py:361 | Clicking on the product is displayed in the search result
 05/23/2025 03:25:59 PM |      INFO | test_product_display.py:362 | ***************************** Verifying Test Product Display 007 ***************************
 05/23/2025 03:25:59 PM |      INFO | test_product_display.py:373 | Expected Description:
-Just when you thought iMac had everything, now there’s even more.
+Just when you thought iMac had everything, now thereï¿½s even more.
 More powerful Intel Core 2 Duo processors.
 And more memory standard.
-Combine this with Mac OS X Leopard and iLife ’08, and it’s more all-in-one than ever.
+Combine this with Mac OS X Leopard and iLife ï¿½08, and itï¿½s more all-in-one than ever.
 iMac packs amazing performance into a stunningly slim space.
 05/23/2025 03:25:59 PM |      INFO | test_product_display.py:374 | Actual Description:
-Just when you thought iMac had everything, now there´s even more. More powerful Intel Core 2 Duo processors. And more memory standard. Combine this with Mac OS X Leopard and iLife ´08, and it´s more all-in-one than ever. iMac packs amazing performance into a stunningly slim space.
+Just when you thought iMac had everything, now thereï¿½s even more. More powerful Intel Core 2 Duo processors. And more memory standard. Combine this with Mac OS X Leopard and iLife ï¿½08, and itï¿½s more all-in-one than ever. iMac packs amazing performance into a stunningly slim space.
 05/23/2025 03:25:59 PM |      INFO | test_product_display.py:381 | ************** Test Product Display 008 is Failed ************
 05/23/2025 03:26:48 PM |      INFO | test_product_display.py:351 | ***************************** Test Product Display 008 is Start ***************************
 05/23/2025 03:26:49 PM |      INFO | test_product_display.py:353 | Navigating to base url
@@ -5980,13 +5980,13 @@ Just when you thought iMac had everything, now there´s even more. More powerful 
 05/23/2025 03:26:50 PM |      INFO | test_product_display.py:361 | Clicking on the product is displayed in the search result
 05/23/2025 03:26:50 PM |      INFO | test_product_display.py:362 | ***************************** Verifying Test Product Display 007 ***************************
 05/23/2025 03:26:50 PM |      INFO | test_product_display.py:373 | Expected Description:
-Just when you thought iMac had everything, now there’s even more.
+Just when you thought iMac had everything, now thereï¿½s even more.
 More powerful Intel Core 2 Duo processors.
 And more memory standard.
-Combine this with Mac OS X Leopard and iLife ’08, and it’s more all-in-one than ever.
+Combine this with Mac OS X Leopard and iLife ï¿½08, and itï¿½s more all-in-one than ever.
 iMac packs amazing performance into a stunningly slim space.
 05/23/2025 03:26:50 PM |      INFO | test_product_display.py:374 | Actual Description:
-Just when you thought iMac had everything, now there´s even more. More powerful Intel Core 2 Duo processors. And more memory standard. Combine this with Mac OS X Leopard and iLife ´08, and it´s more all-in-one than ever. iMac packs amazing performance into a stunningly slim space.
+Just when you thought iMac had everything, now thereï¿½s even more. More powerful Intel Core 2 Duo processors. And more memory standard. Combine this with Mac OS X Leopard and iLife ï¿½08, and itï¿½s more all-in-one than ever. iMac packs amazing performance into a stunningly slim space.
 05/23/2025 03:26:50 PM |      INFO | test_product_display.py:381 | ************** Test Product Display 008 is Failed ************
 05/23/2025 03:27:09 PM |      INFO | test_product_display.py:351 | ***************************** Test Product Display 008 is Start ***************************
 05/23/2025 03:27:10 PM |      INFO | test_product_display.py:353 | Navigating to base url
@@ -5995,13 +5995,13 @@ Just when you thought iMac had everything, now there´s even more. More powerful 
 05/23/2025 03:27:11 PM |      INFO | test_product_display.py:361 | Clicking on the product is displayed in the search result
 05/23/2025 03:27:11 PM |      INFO | test_product_display.py:362 | ***************************** Verifying Test Product Display 007 ***************************
 05/23/2025 03:27:11 PM |      INFO | test_product_display.py:373 | Expected Description:
-Just when you thought iMac had everything, now there’s even more.
+Just when you thought iMac had everything, now thereï¿½s even more.
 More powerful Intel Core 2 Duo processors.
 And more memory standard.
-Combine this with Mac OS X Leopard and iLife ’08, and it’s more all-in-one than ever.
+Combine this with Mac OS X Leopard and iLife ï¿½08, and itï¿½s more all-in-one than ever.
 iMac packs amazing performance into a stunningly slim space.
 05/23/2025 03:27:11 PM |      INFO | test_product_display.py:374 | Actual Description:
-Just when you thought iMac had everything, now there´s even more. More powerful Intel Core 2 Duo processors. And more memory standard. Combine this with Mac OS X Leopard and iLife ´08, and it´s more all-in-one than ever. iMac packs amazing performance into a stunningly slim space.
+Just when you thought iMac had everything, now thereï¿½s even more. More powerful Intel Core 2 Duo processors. And more memory standard. Combine this with Mac OS X Leopard and iLife ï¿½08, and itï¿½s more all-in-one than ever. iMac packs amazing performance into a stunningly slim space.
 05/23/2025 03:27:11 PM |      INFO | test_product_display.py:381 | ************** Test Product Display 008 is Failed ************
 05/23/2025 03:28:50 PM |      INFO | test_product_display.py:351 | ***************************** Test Product Display 008 is Start ***************************
 05/23/2025 03:28:51 PM |      INFO | test_product_display.py:353 | Navigating to base url
@@ -6107,7 +6107,7 @@ Just when you thought iMac had everything, now there's even more. More powerful 
 05/23/2025 04:53:58 PM |      INFO | test_product_display.py:459 | Clicking on the continue button
 05/23/2025 04:53:58 PM |      INFO | test_product_display.py:460 | *************************** Verifying Test Product Display 010 **************************
 05/23/2025 04:53:58 PM |     ERROR | test_product_display.py:467 | Expected Success Message is:- Thank you for your review. It has been submitted to the webmaster for approval
- Actual Success Message is:- Thank you for your review. It has been submitted to the webmaster for approval.
+                                                                   Actual Success Message is:- Thank you for your review. It has been submitted to the webmaster for approval.
 05/23/2025 04:53:58 PM |     ERROR | test_product_display.py:468 | **************** Test Product Display 010 is Failed ***************
 05/23/2025 04:54:31 PM |      INFO | test_product_display.py:438 | *************************** Test Product Display 010 is Start **************************
 05/23/2025 04:54:32 PM |      INFO | test_product_display.py:440 | Navigating to the base url
@@ -6122,3 +6122,16 @@ Just when you thought iMac had everything, now there's even more. More powerful 
 05/23/2025 04:54:34 PM |      INFO | test_product_display.py:460 | *************************** Verifying Test Product Display 010 **************************
 05/23/2025 04:54:34 PM |      INFO | test_product_display.py:465 | **************** Test Product Display 010 is Passed ***************
 05/23/2025 04:54:34 PM |      INFO | test_product_display.py:470 | *************************** End Of Test Product Display 010 **************************
+05/23/2025 04:59:17 PM |      INFO | test_product_display.py:438 | *************************** Test Product Display 010 is Start **************************
+05/23/2025 04:59:18 PM |      INFO | test_product_display.py:440 | Navigating to the base url
+05/23/2025 04:59:18 PM |      INFO | test_product_display.py:443 | Entering Apple Cinema 30 to search text box field
+05/23/2025 04:59:19 PM |      INFO | test_product_display.py:445 | Clicking on the search icon button
+05/23/2025 04:59:19 PM |      INFO | test_product_display.py:448 | Clicking on the product display in search result
+05/23/2025 04:59:19 PM |      INFO | test_product_display.py:451 | Clicking on review tab
+05/23/2025 04:59:19 PM |      INFO | test_product_display.py:453 | Entering name in name text field in review tab
+05/23/2025 04:59:20 PM |      INFO | test_product_display.py:455 | Entering the review text to the review text area
+05/23/2025 04:59:20 PM |      INFO | test_product_display.py:457 | Clicking on the radio button
+05/23/2025 04:59:20 PM |      INFO | test_product_display.py:459 | Clicking on the continue button
+05/23/2025 04:59:20 PM |      INFO | test_product_display.py:460 | *************************** Verifying Test Product Display 010 **************************
+05/23/2025 04:59:20 PM |      INFO | test_product_display.py:465 | **************** Test Product Display 010 is Passed ***************
+05/23/2025 04:59:20 PM |      INFO | test_product_display.py:471 | *************************** End Of Test Product Display 010 **************************
