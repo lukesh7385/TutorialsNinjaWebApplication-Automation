@@ -1,13 +1,13 @@
 import pytest
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
-
 from pageObjects.ProductComparePage import ProductComparePage
 from pageObjects.ProductDisplayPage import ProductDisplayPage
 from pageObjects.SearchPage import SearchPage
 from utilities.customLogger import LogGen
 from utilities.readProperties import ReadConfig
-
+import unicodedata
+import difflib
 
 @pytest.mark.usefixtures('setup', 'log_on_failure')
 class Test_007_Product_Display:
@@ -151,7 +151,8 @@ class Test_007_Product_Display:
         self.pc = ProductComparePage(self.driver)
         self.pc.click_on_the_product_display_in_search_result()
         self.logger.info("Clicking on the product display in the search result")
-        availability_status = self.driver.find_element(By.XPATH, "//li[normalize-space()='Availability:Out Of Stock']").text
+        availability_status = self.driver.find_element(By.XPATH,
+                                                       "//li[normalize-space()='Availability:Out Of Stock']").text
         self.logger.info("************************* Verifying Test Product Display 003 *************************")
         if self.driver.title == "iMac":
             if availability_status == "Availability:Out Of Stock":
@@ -306,7 +307,7 @@ class Test_007_Product_Display:
         self.pd = ProductDisplayPage(self.driver)
         self.logger.info("*************************** Verifying Test Product Display 007 **************************")
         if self.pd.get_default_product_quantity() == "2":
-            if  "This product has a minimum quantity of 2" in self.pd.get_information_text():
+            if "This product has a minimum quantity of 2" in self.pd.get_information_text():
                 self.pd.click_on_radio_button()
                 self.logger.info("Clicking on radio button")
                 self.pd.click_on_check_box1()
@@ -345,30 +346,55 @@ class Test_007_Product_Display:
             assert False
         self.logger.info("*************************** End Of Test Product Display 007 **************************")
 
+    @pytest.mark.sanity
+    def test_product_display_008(self, setup):
+        self.driver = setup
+        self.logger.info("***************************** Test Product Display 008 is Start ***************************")
+        self.driver.get(self.baseURL)
+        self.logger.info("Navigating to base url")
 
+        self.sf = SearchPage(self.driver)
+        self.sf.search_product("iMac")
+        self.logger.info("Entering 'iMac' into the search box")
+        self.sf.click_on_search_button()
+        self.logger.info("Clicking the search button")
 
+        self.pc = ProductComparePage(self.driver)
+        self.pc.click_on_the_product_display_in_search_result()
+        self.logger.info("Clicking on the displayed product in search results")
 
+        self.logger.info("***************************** Verifying Test Product Display 008 ***************************")
+        self.pd = ProductDisplayPage(self.driver)
 
+        # Expected Product Description (formatted)
+        exp_description = (
+            "Just when you thought iMac had everything, now there's even more.\n"
+            "More powerful Intel Core 2 Duo processors.\n"
+            "And more memory standard.\n"
+            "Combine this with Mac OS X Leopard and iLife '08, and it's more all-in-one than ever.\n"
+            "iMac packs amazing performance into a stunningly slim space."
+        )
 
+        # Retrieving and normalizing actual description
+        actual_description = self.pd.get_description_text().replace("´", "'").strip()
 
+        # Unicode normalization
+        exp_normalized = unicodedata.normalize('NFKC', exp_description).strip()
+        actual_normalized = unicodedata.normalize('NFKC', actual_description).strip()
 
+        # Logging both values for debugging
+        self.logger.info(f"Expected Description:\n{exp_normalized}")
+        self.logger.info(f"Actual Description:\n{actual_normalized}")
 
+        # Checking similarity with fuzzy matching
+        similarity = difflib.SequenceMatcher(None, exp_normalized, actual_normalized).ratio()
 
+        if similarity > 0.95:  # Accepting minor differences
+            assert True
+            self.logger.info("************** Test Product Display 008 is Passed ************")
+        else:
+            print(actual_normalized)  # Print actual description for further debugging
+            self.logger.info("************** Test Product Display 008 is Failed ************")
+            assert False
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        self.logger.info("***************************** End Of Test Product Display 008 ***************************")

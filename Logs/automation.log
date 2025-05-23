@@ -5788,3 +5788,264 @@
 05/22/2025 01:41:28 PM |      INFO | test_search.py:132 | *************** Verifying Test Search Functionality 005 ****************
 05/22/2025 01:41:28 PM |      INFO | test_search.py:138 | ************ Test Search Functionality 005 is Passed *************
 05/22/2025 01:41:28 PM |      INFO | test_search.py:143 | **************** End Of Test Search Functionality 005 ******************
+05/22/2025 02:30:23 PM |      INFO | test_product_display.py:351 | ***************************** Test Product Display 007 is Start ***************************
+05/22/2025 02:30:32 PM |      INFO | test_product_display.py:353 | Navigating to base url
+05/22/2025 02:30:32 PM |      INFO | test_product_display.py:356 | Entering the iMac product to search text box field
+05/22/2025 02:30:33 PM |      INFO | test_product_display.py:358 | Clicking on the search icon button
+05/22/2025 02:30:36 PM |      INFO | test_product_display.py:361 | Clicking on the product is displayed in the search result
+05/22/2025 02:32:16 PM |      INFO | test_product_display.py:351 | ***************************** Test Product Display 007 is Start ***************************
+05/22/2025 02:32:39 PM |      INFO | test_product_display.py:353 | Navigating to base url
+05/22/2025 02:32:39 PM |      INFO | test_product_display.py:356 | Entering the iMac product to search text box field
+05/22/2025 02:32:43 PM |      INFO | test_product_display.py:358 | Clicking on the search icon button
+05/22/2025 02:32:49 PM |      INFO | test_product_display.py:361 | Clicking on the product is displayed in the search result
+05/22/2025 02:32:49 PM |      INFO | test_product_display.py:362 | ***************************** Verifying Test Product Display 007 ***************************
+05/22/2025 02:35:20 PM |      INFO | test_product_display.py:352 | ***************************** Test Product Display 007 is Start ***************************
+05/22/2025 02:35:35 PM |      INFO | test_product_display.py:354 | Navigating to base url
+05/22/2025 02:35:36 PM |      INFO | test_product_display.py:357 | Entering the iMac product to search text box field
+05/22/2025 02:35:39 PM |      INFO | test_product_display.py:359 | Clicking on the search icon button
+05/22/2025 02:35:48 PM |      INFO | test_product_display.py:362 | Clicking on the product is displayed in the search result
+05/22/2025 02:35:48 PM |      INFO | test_product_display.py:363 | ***************************** Verifying Test Product Display 007 ***************************
+05/22/2025 02:40:03 PM |      INFO | test_product_display.py:352 | ***************************** Test Product Display 007 is Start ***************************
+05/22/2025 02:40:14 PM |      INFO | test_product_display.py:354 | Navigating to base url
+05/22/2025 02:40:14 PM |      INFO | test_product_display.py:357 | Entering the iMac product to search text box field
+05/22/2025 02:40:14 PM |      INFO | test_product_display.py:359 | Clicking on the search icon button
+05/22/2025 02:40:18 PM |      INFO | test_product_display.py:362 | Clicking on the product is displayed in the search result
+05/22/2025 02:40:18 PM |      INFO | test_product_display.py:363 | ***************************** Verifying Test Product Display 007 ***************************
+05/22/2025 02:41:08 PM |      INFO | test_product_display.py:352 | ***************************** Test Product Display 007 is Start ***************************
+05/22/2025 02:41:30 PM |      INFO | test_product_display.py:354 | Navigating to base url
+05/22/2025 02:41:30 PM |      INFO | test_product_display.py:357 | Entering the iMac product to search text box field
+05/22/2025 02:41:30 PM |      INFO | test_product_display.py:359 | Clicking on the search icon button
+05/22/2025 02:41:33 PM |      INFO | test_product_display.py:362 | Clicking on the product is displayed in the search result
+05/22/2025 02:41:33 PM |      INFO | test_product_display.py:363 | ***************************** Verifying Test Product Display 007 ***************************
+05/22/2025 02:45:10 PM |      INFO | test_product_display.py:352 | ***************************** Test Product Display 007 is Start ***************************
+05/22/2025 02:45:12 PM |      INFO | test_product_display.py:354 | Navigating to base url
+05/22/2025 02:45:12 PM |      INFO | test_product_display.py:357 | Entering the iMac product to search text box field
+05/22/2025 02:45:13 PM |      INFO | test_product_display.py:359 | Clicking on the search icon button
+05/22/2025 02:45:15 PM |      INFO | test_product_display.py:362 | Clicking on the product is displayed in the search result
+05/22/2025 02:45:15 PM |      INFO | test_product_display.py:363 | ***************************** Verifying Test Product Display 007 ***************************
+05/22/2025 02:51:07 PM |      INFO | test_product_display.py:352 | ***************************** Test Product Display 007 is Start ***************************
+05/22/2025 02:51:11 PM |      INFO | test_product_display.py:354 | Navigating to base url
+05/22/2025 02:51:11 PM |      INFO | test_product_display.py:357 | Entering the iMac product to search text box field
+05/22/2025 02:51:12 PM |      INFO | test_product_display.py:359 | Clicking on the search icon button
+05/22/2025 02:51:13 PM |      INFO | test_product_display.py:362 | Clicking on the product is displayed in the search result
+05/22/2025 02:51:13 PM |      INFO | test_product_display.py:363 | ***************************** Verifying Test Product Display 007 ***************************
+05/22/2025 02:58:29 PM |      INFO | test_product_display.py:352 | ***************************** Test Product Display 008 is Start ***************************
+05/22/2025 02:58:31 PM |      INFO | test_product_display.py:354 | Navigating to base url
+05/22/2025 02:58:33 PM |      INFO | test_product_display.py:357 | Entering the iMac product to search text box field
+05/22/2025 02:58:34 PM |      INFO | test_product_display.py:359 | Clicking on the search icon button
+05/22/2025 02:58:35 PM |      INFO | test_product_display.py:362 | Clicking on the product is displayed in the search result
+05/22/2025 02:58:35 PM |      INFO | test_product_display.py:366 | ***************************** Verifying Test Product Display 007 ***************************
+05/22/2025 02:58:35 PM |      INFO | test_product_display.py:375 | ************** Test Product display 008 is Failed ************
+05/22/2025 02:59:37 PM |      INFO | test_product_display.py:352 | ***************************** Test Product Display 008 is Start ***************************
+05/22/2025 02:59:53 PM |      INFO | test_product_display.py:354 | Navigating to base url
+05/22/2025 02:59:53 PM |      INFO | test_product_display.py:357 | Entering the iMac product to search text box field
+05/22/2025 02:59:54 PM |      INFO | test_product_display.py:359 | Clicking on the search icon button
+05/22/2025 03:00:03 PM |      INFO | test_product_display.py:362 | Clicking on the product is displayed in the search result
+05/22/2025 03:00:03 PM |      INFO | test_product_display.py:366 | ***************************** Verifying Test Product Display 007 ***************************
+05/22/2025 03:00:03 PM |      INFO | test_product_display.py:375 | ************** Test Product display 008 is Failed ************
+05/22/2025 03:01:00 PM |      INFO | test_product_display.py:352 | ***************************** Test Product Display 008 is Start ***************************
+05/22/2025 03:01:06 PM |      INFO | test_product_display.py:354 | Navigating to base url
+05/22/2025 03:01:06 PM |      INFO | test_product_display.py:357 | Entering the iMac product to search text box field
+05/22/2025 03:01:07 PM |      INFO | test_product_display.py:359 | Clicking on the search icon button
+05/22/2025 03:01:08 PM |      INFO | test_product_display.py:362 | Clicking on the product is displayed in the search result
+05/22/2025 03:01:08 PM |      INFO | test_product_display.py:366 | ***************************** Verifying Test Product Display 007 ***************************
+05/22/2025 03:01:08 PM |      INFO | test_product_display.py:375 | ************** Test Product display 008 is Failed ************
+05/22/2025 03:01:46 PM |      INFO | test_product_display.py:352 | ***************************** Test Product Display 008 is Start ***************************
+05/22/2025 03:01:49 PM |      INFO | test_product_display.py:354 | Navigating to base url
+05/22/2025 03:01:50 PM |      INFO | test_product_display.py:357 | Entering the iMac product to search text box field
+05/22/2025 03:01:50 PM |      INFO | test_product_display.py:359 | Clicking on the search icon button
+05/22/2025 03:01:51 PM |      INFO | test_product_display.py:362 | Clicking on the product is displayed in the search result
+05/22/2025 03:01:51 PM |      INFO | test_product_display.py:366 | ***************************** Verifying Test Product Display 007 ***************************
+05/22/2025 03:01:51 PM |      INFO | test_product_display.py:375 | ************** Test Product display 008 is Failed ************
+05/22/2025 03:07:27 PM |      INFO | test_product_display.py:352 | ***************************** Test Product Display 008 is Start ***************************
+05/22/2025 03:07:30 PM |      INFO | test_product_display.py:354 | Navigating to base url
+05/22/2025 03:07:31 PM |      INFO | test_product_display.py:357 | Entering the iMac product to search text box field
+05/22/2025 03:07:31 PM |      INFO | test_product_display.py:359 | Clicking on the search icon button
+05/22/2025 03:07:33 PM |      INFO | test_product_display.py:362 | Clicking on the product is displayed in the search result
+05/22/2025 03:07:33 PM |      INFO | test_product_display.py:366 | ***************************** Verifying Test Product Display 007 ***************************
+05/22/2025 03:07:33 PM |      INFO | test_product_display.py:377 | ************** Test Product display 008 is Failed ************
+05/23/2025 03:06:58 PM |      INFO | test_product_display.py:352 | ***************************** Test Product Display 008 is Start ***************************
+05/23/2025 03:06:59 PM |      INFO | test_product_display.py:354 | Navigating to base url
+05/23/2025 03:06:59 PM |      INFO | test_product_display.py:357 | Entering the iMac product to search text box field
+05/23/2025 03:06:59 PM |      INFO | test_product_display.py:359 | Clicking on the search icon button
+05/23/2025 03:07:00 PM |      INFO | test_product_display.py:362 | Clicking on the product is displayed in the search result
+05/23/2025 03:07:00 PM |      INFO | test_product_display.py:366 | ***************************** Verifying Test Product Display 007 ***************************
+05/23/2025 03:07:00 PM |      INFO | test_product_display.py:377 | ************** Test Product display 008 is Failed ************
+05/23/2025 03:08:50 PM |      INFO | test_product_display.py:352 | ***************************** Test Product Display 008 is Start ***************************
+05/23/2025 03:08:51 PM |      INFO | test_product_display.py:354 | Navigating to base url
+05/23/2025 03:08:51 PM |      INFO | test_product_display.py:357 | Entering the iMac product to search text box field
+05/23/2025 03:08:52 PM |      INFO | test_product_display.py:359 | Clicking on the search icon button
+05/23/2025 03:08:52 PM |      INFO | test_product_display.py:362 | Clicking on the product is displayed in the search result
+05/23/2025 03:08:52 PM |      INFO | test_product_display.py:366 | ***************************** Verifying Test Product Display 007 ***************************
+05/23/2025 03:08:52 PM |      INFO | test_product_display.py:373 | ************** Test Product display 008 is Failed ************
+05/23/2025 03:09:28 PM |      INFO | test_product_display.py:352 | ***************************** Test Product Display 008 is Start ***************************
+05/23/2025 03:09:29 PM |      INFO | test_product_display.py:354 | Navigating to base url
+05/23/2025 03:09:29 PM |      INFO | test_product_display.py:357 | Entering the iMac product to search text box field
+05/23/2025 03:09:29 PM |      INFO | test_product_display.py:359 | Clicking on the search icon button
+05/23/2025 03:09:30 PM |      INFO | test_product_display.py:362 | Clicking on the product is displayed in the search result
+05/23/2025 03:09:30 PM |      INFO | test_product_display.py:366 | ***************************** Verifying Test Product Display 007 ***************************
+05/23/2025 03:09:30 PM |      INFO | test_product_display.py:374 | ************** Test Product display 008 is Failed ************
+05/23/2025 03:10:48 PM |      INFO | test_product_display.py:352 | ***************************** Test Product Display 008 is Start ***************************
+05/23/2025 03:10:49 PM |      INFO | test_product_display.py:354 | Navigating to base url
+05/23/2025 03:10:49 PM |      INFO | test_product_display.py:357 | Entering the iMac product to search text box field
+05/23/2025 03:10:50 PM |      INFO | test_product_display.py:359 | Clicking on the search icon button
+05/23/2025 03:10:50 PM |      INFO | test_product_display.py:362 | Clicking on the product is displayed in the search result
+05/23/2025 03:10:50 PM |      INFO | test_product_display.py:366 | ***************************** Verifying Test Product Display 007 ***************************
+05/23/2025 03:10:50 PM |      INFO | test_product_display.py:374 | ************** Test Product display 008 is Failed ************
+05/23/2025 03:12:14 PM |      INFO | test_product_display.py:352 | ***************************** Test Product Display 008 is Start ***************************
+05/23/2025 03:12:15 PM |      INFO | test_product_display.py:354 | Navigating to base url
+05/23/2025 03:12:15 PM |      INFO | test_product_display.py:357 | Entering the iMac product to search text box field
+05/23/2025 03:12:15 PM |      INFO | test_product_display.py:359 | Clicking on the search icon button
+05/23/2025 03:12:16 PM |      INFO | test_product_display.py:362 | Clicking on the product is displayed in the search result
+05/23/2025 03:12:16 PM |      INFO | test_product_display.py:366 | ***************************** Verifying Test Product Display 007 ***************************
+05/23/2025 03:13:12 PM |      INFO | test_product_display.py:351 | ***************************** Test Product Display 008 is Start ***************************
+05/23/2025 03:13:13 PM |      INFO | test_product_display.py:353 | Navigating to base url
+05/23/2025 03:13:14 PM |      INFO | test_product_display.py:356 | Entering the iMac product to search text box field
+05/23/2025 03:13:14 PM |      INFO | test_product_display.py:358 | Clicking on the search icon button
+05/23/2025 03:13:15 PM |      INFO | test_product_display.py:361 | Clicking on the product is displayed in the search result
+05/23/2025 03:13:15 PM |      INFO | test_product_display.py:365 | ***************************** Verifying Test Product Display 007 ***************************
+05/23/2025 03:13:15 PM |      INFO | test_product_display.py:373 | ************** Test Product display 008 is Failed ************
+05/23/2025 03:14:07 PM |      INFO | test_product_display.py:351 | ***************************** Test Product Display 008 is Start ***************************
+05/23/2025 03:14:07 PM |      INFO | test_product_display.py:353 | Navigating to base url
+05/23/2025 03:14:08 PM |      INFO | test_product_display.py:356 | Entering the iMac product to search text box field
+05/23/2025 03:14:08 PM |      INFO | test_product_display.py:358 | Clicking on the search icon button
+05/23/2025 03:14:08 PM |      INFO | test_product_display.py:361 | Clicking on the product is displayed in the search result
+05/23/2025 03:14:08 PM |      INFO | test_product_display.py:363 | ***************************** Verifying Test Product Display 007 ***************************
+05/23/2025 03:14:08 PM |      INFO | test_product_display.py:368 | ************** Test Product display 008 is Passed ************
+05/23/2025 03:14:08 PM |      INFO | test_product_display.py:373 | ***************************** End Of Test Product Display 007 ***************************
+05/23/2025 03:18:27 PM |      INFO | test_product_display.py:351 | ***************************** Test Product Display 008 is Start ***************************
+05/23/2025 03:18:28 PM |      INFO | test_product_display.py:353 | Navigating to base url
+05/23/2025 03:18:28 PM |      INFO | test_product_display.py:356 | Entering the iMac product to search text box field
+05/23/2025 03:18:28 PM |      INFO | test_product_display.py:358 | Clicking on the search icon button
+05/23/2025 03:18:29 PM |      INFO | test_product_display.py:361 | Clicking on the product is displayed in the search result
+05/23/2025 03:18:29 PM |      INFO | test_product_display.py:362 | ***************************** Verifying Test Product Display 007 ***************************
+05/23/2025 03:18:29 PM |      INFO | test_product_display.py:373 | Expected Description:
+Just when you thought iMac had everything, now there’s even more.
+More powerful Intel Core 2 Duo processors.
+And more memory standard.
+Combine this with Mac OS X Leopard and iLife ’08, and it’s more all-in-one than ever.
+iMac packs amazing performance into a stunningly slim space.
+05/23/2025 03:18:29 PM |      INFO | test_product_display.py:374 | Actual Description:
+Just when you thought iMac had everything, now there´s even more. More powerful Intel Core 2 Duo processors. And more memory standard. Combine this with Mac OS X Leopard and iLife ´08, and it´s more all-in-one than ever. iMac packs amazing performance into a stunningly slim space.
+05/23/2025 03:18:29 PM |      INFO | test_product_display.py:381 | ************** Test Product Display 008 is Failed ************
+05/23/2025 03:21:11 PM |      INFO | test_product_display.py:351 | ***************************** Test Product Display 008 is Start ***************************
+05/23/2025 03:21:12 PM |      INFO | test_product_display.py:353 | Navigating to base url
+05/23/2025 03:21:12 PM |      INFO | test_product_display.py:356 | Entering the iMac product to search text box field
+05/23/2025 03:21:12 PM |      INFO | test_product_display.py:358 | Clicking on the search icon button
+05/23/2025 03:21:13 PM |      INFO | test_product_display.py:361 | Clicking on the product is displayed in the search result
+05/23/2025 03:21:13 PM |      INFO | test_product_display.py:362 | ***************************** Verifying Test Product Display 007 ***************************
+05/23/2025 03:21:13 PM |      INFO | test_product_display.py:371 | Expected Description:
+Just when you thought iMac had everything, now there’s even more.
+More powerful Intel Core 2 Duo processors.
+And more memory standard.
+Combine this with Mac OS X Leopard and iLife ’08, and it’s more all-in-one than ever.
+iMac packs amazing performance into a stunningly slim space.
+05/23/2025 03:21:13 PM |      INFO | test_product_display.py:372 | Actual Description:
+Just when you thought iMac had everything, now there´s even more. More powerful Intel Core 2 Duo processors. And more memory standard. Combine this with Mac OS X Leopard and iLife ´08, and it´s more all-in-one than ever. iMac packs amazing performance into a stunningly slim space.
+05/23/2025 03:21:13 PM |      INFO | test_product_display.py:379 | ************** Test Product Display 008 is Failed ************
+05/23/2025 03:24:59 PM |      INFO | test_product_display.py:351 | ***************************** Test Product Display 008 is Start ***************************
+05/23/2025 03:25:00 PM |      INFO | test_product_display.py:353 | Navigating to base url
+05/23/2025 03:25:00 PM |      INFO | test_product_display.py:356 | Entering the iMac product to search text box field
+05/23/2025 03:25:01 PM |      INFO | test_product_display.py:358 | Clicking on the search icon button
+05/23/2025 03:25:01 PM |      INFO | test_product_display.py:361 | Clicking on the product is displayed in the search result
+05/23/2025 03:25:01 PM |      INFO | test_product_display.py:362 | ***************************** Verifying Test Product Display 007 ***************************
+05/23/2025 03:25:01 PM |      INFO | test_product_display.py:373 | Expected Description:
+Just when you thought iMac had everything, now there’s even more.
+More powerful Intel Core 2 Duo processors.
+And more memory standard.
+Combine this with Mac OS X Leopard and iLife ’08, and it’s more all-in-one than ever.
+iMac packs amazing performance into a stunningly slim space.
+05/23/2025 03:25:01 PM |      INFO | test_product_display.py:374 | Actual Description:
+Just when you thought iMac had everything, now there´s even more. More powerful Intel Core 2 Duo processors. And more memory standard. Combine this with Mac OS X Leopard and iLife ´08, and it´s more all-in-one than ever. iMac packs amazing performance into a stunningly slim space.
+05/23/2025 03:25:01 PM |      INFO | test_product_display.py:381 | ************** Test Product Display 008 is Failed ************
+05/23/2025 03:25:57 PM |      INFO | test_product_display.py:351 | ***************************** Test Product Display 008 is Start ***************************
+05/23/2025 03:25:58 PM |      INFO | test_product_display.py:353 | Navigating to base url
+05/23/2025 03:25:58 PM |      INFO | test_product_display.py:356 | Entering the iMac product to search text box field
+05/23/2025 03:25:59 PM |      INFO | test_product_display.py:358 | Clicking on the search icon button
+05/23/2025 03:25:59 PM |      INFO | test_product_display.py:361 | Clicking on the product is displayed in the search result
+05/23/2025 03:25:59 PM |      INFO | test_product_display.py:362 | ***************************** Verifying Test Product Display 007 ***************************
+05/23/2025 03:25:59 PM |      INFO | test_product_display.py:373 | Expected Description:
+Just when you thought iMac had everything, now there’s even more.
+More powerful Intel Core 2 Duo processors.
+And more memory standard.
+Combine this with Mac OS X Leopard and iLife ’08, and it’s more all-in-one than ever.
+iMac packs amazing performance into a stunningly slim space.
+05/23/2025 03:25:59 PM |      INFO | test_product_display.py:374 | Actual Description:
+Just when you thought iMac had everything, now there´s even more. More powerful Intel Core 2 Duo processors. And more memory standard. Combine this with Mac OS X Leopard and iLife ´08, and it´s more all-in-one than ever. iMac packs amazing performance into a stunningly slim space.
+05/23/2025 03:25:59 PM |      INFO | test_product_display.py:381 | ************** Test Product Display 008 is Failed ************
+05/23/2025 03:26:48 PM |      INFO | test_product_display.py:351 | ***************************** Test Product Display 008 is Start ***************************
+05/23/2025 03:26:49 PM |      INFO | test_product_display.py:353 | Navigating to base url
+05/23/2025 03:26:49 PM |      INFO | test_product_display.py:356 | Entering the iMac product to search text box field
+05/23/2025 03:26:50 PM |      INFO | test_product_display.py:358 | Clicking on the search icon button
+05/23/2025 03:26:50 PM |      INFO | test_product_display.py:361 | Clicking on the product is displayed in the search result
+05/23/2025 03:26:50 PM |      INFO | test_product_display.py:362 | ***************************** Verifying Test Product Display 007 ***************************
+05/23/2025 03:26:50 PM |      INFO | test_product_display.py:373 | Expected Description:
+Just when you thought iMac had everything, now there’s even more.
+More powerful Intel Core 2 Duo processors.
+And more memory standard.
+Combine this with Mac OS X Leopard and iLife ’08, and it’s more all-in-one than ever.
+iMac packs amazing performance into a stunningly slim space.
+05/23/2025 03:26:50 PM |      INFO | test_product_display.py:374 | Actual Description:
+Just when you thought iMac had everything, now there´s even more. More powerful Intel Core 2 Duo processors. And more memory standard. Combine this with Mac OS X Leopard and iLife ´08, and it´s more all-in-one than ever. iMac packs amazing performance into a stunningly slim space.
+05/23/2025 03:26:50 PM |      INFO | test_product_display.py:381 | ************** Test Product Display 008 is Failed ************
+05/23/2025 03:27:09 PM |      INFO | test_product_display.py:351 | ***************************** Test Product Display 008 is Start ***************************
+05/23/2025 03:27:10 PM |      INFO | test_product_display.py:353 | Navigating to base url
+05/23/2025 03:27:10 PM |      INFO | test_product_display.py:356 | Entering the iMac product to search text box field
+05/23/2025 03:27:10 PM |      INFO | test_product_display.py:358 | Clicking on the search icon button
+05/23/2025 03:27:11 PM |      INFO | test_product_display.py:361 | Clicking on the product is displayed in the search result
+05/23/2025 03:27:11 PM |      INFO | test_product_display.py:362 | ***************************** Verifying Test Product Display 007 ***************************
+05/23/2025 03:27:11 PM |      INFO | test_product_display.py:373 | Expected Description:
+Just when you thought iMac had everything, now there’s even more.
+More powerful Intel Core 2 Duo processors.
+And more memory standard.
+Combine this with Mac OS X Leopard and iLife ’08, and it’s more all-in-one than ever.
+iMac packs amazing performance into a stunningly slim space.
+05/23/2025 03:27:11 PM |      INFO | test_product_display.py:374 | Actual Description:
+Just when you thought iMac had everything, now there´s even more. More powerful Intel Core 2 Duo processors. And more memory standard. Combine this with Mac OS X Leopard and iLife ´08, and it´s more all-in-one than ever. iMac packs amazing performance into a stunningly slim space.
+05/23/2025 03:27:11 PM |      INFO | test_product_display.py:381 | ************** Test Product Display 008 is Failed ************
+05/23/2025 03:28:50 PM |      INFO | test_product_display.py:351 | ***************************** Test Product Display 008 is Start ***************************
+05/23/2025 03:28:51 PM |      INFO | test_product_display.py:353 | Navigating to base url
+05/23/2025 03:28:51 PM |      INFO | test_product_display.py:356 | Entering the iMac product to search text box field
+05/23/2025 03:28:52 PM |      INFO | test_product_display.py:358 | Clicking on the search icon button
+05/23/2025 03:28:52 PM |      INFO | test_product_display.py:361 | Clicking on the product is displayed in the search result
+05/23/2025 03:28:52 PM |      INFO | test_product_display.py:362 | ***************************** Verifying Test Product Display 007 ***************************
+05/23/2025 03:28:52 PM |      INFO | test_product_display.py:374 | Expected Description:
+Just when you thought iMac had everything, now there's even more.
+More powerful Intel Core 2 Duo processors.
+And more memory standard.
+Combine this with Mac OS X Leopard and iLife '08, and it's more all-in-one than ever.
+iMac packs amazing performance into a stunningly slim space.
+05/23/2025 03:28:52 PM |      INFO | test_product_display.py:375 | Actual Description:
+Just when you thought iMac had everything, now there's even more. More powerful Intel Core 2 Duo processors. And more memory standard. Combine this with Mac OS X Leopard and iLife '08, and it's more all-in-one than ever. iMac packs amazing performance into a stunningly slim space.
+05/23/2025 03:28:52 PM |      INFO | test_product_display.py:382 | ************** Test Product Display 008 is Failed ************
+05/23/2025 03:30:33 PM |      INFO | test_product_display.py:351 | ***************************** Test Product Display 008 is Start ***************************
+05/23/2025 03:30:34 PM |      INFO | test_product_display.py:353 | Navigating to base url
+05/23/2025 03:30:34 PM |      INFO | test_product_display.py:356 | Entering the iMac product to search text box field
+05/23/2025 03:30:34 PM |      INFO | test_product_display.py:358 | Clicking on the search icon button
+05/23/2025 03:30:34 PM |      INFO | test_product_display.py:361 | Clicking on the product is displayed in the search result
+05/23/2025 03:30:34 PM |      INFO | test_product_display.py:362 | ***************************** Verifying Test Product Display 007 ***************************
+05/23/2025 03:30:34 PM |      INFO | test_product_display.py:374 | Expected Description:
+Just when you thought iMac had everything, now there's even more.
+More powerful Intel Core 2 Duo processors.
+And more memory standard.
+Combine this with Mac OS X Leopard and iLife '08, and it's more all-in-one than ever.
+iMac packs amazing performance into a stunningly slim space.
+05/23/2025 03:30:34 PM |      INFO | test_product_display.py:375 | Actual Description:
+Just when you thought iMac had everything, now there's even more. More powerful Intel Core 2 Duo processors. And more memory standard. Combine this with Mac OS X Leopard and iLife '08, and it's more all-in-one than ever. iMac packs amazing performance into a stunningly slim space.
+05/23/2025 03:30:34 PM |      INFO | test_product_display.py:385 | ************** Test Product Display 008 is Failed ************
+05/23/2025 03:33:04 PM |      INFO | test_product_display.py:352 | ***************************** Test Product Display 008 is Start ***************************
+05/23/2025 03:33:05 PM |      INFO | test_product_display.py:354 | Navigating to base url
+05/23/2025 03:33:05 PM |      INFO | test_product_display.py:358 | Entering 'iMac' into the search box
+05/23/2025 03:33:06 PM |      INFO | test_product_display.py:360 | Clicking the search button
+05/23/2025 03:33:06 PM |      INFO | test_product_display.py:364 | Clicking on the displayed product in search results
+05/23/2025 03:33:06 PM |      INFO | test_product_display.py:366 | ***************************** Verifying Test Product Display 008 ***************************
+05/23/2025 03:33:06 PM |      INFO | test_product_display.py:386 | Expected Description:
+Just when you thought iMac had everything, now there's even more.
+More powerful Intel Core 2 Duo processors.
+And more memory standard.
+Combine this with Mac OS X Leopard and iLife '08, and it's more all-in-one than ever.
+iMac packs amazing performance into a stunningly slim space.
+05/23/2025 03:33:06 PM |      INFO | test_product_display.py:387 | Actual Description:
+Just when you thought iMac had everything, now there's even more. More powerful Intel Core 2 Duo processors. And more memory standard. Combine this with Mac OS X Leopard and iLife '08, and it's more all-in-one than ever. iMac packs amazing performance into a stunningly slim space.
+05/23/2025 03:33:06 PM |      INFO | test_product_display.py:394 | ************** Test Product Display 008 is Passed ************
+05/23/2025 03:33:06 PM |      INFO | test_product_display.py:400 | ***************************** End Of Test Product Display 008 ***************************

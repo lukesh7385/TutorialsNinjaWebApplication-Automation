@@ -30,6 +30,7 @@ class ProductDisplayPage:
     inputTime = (By.ID, "input-option221")
     inputDateAndTime = (By.ID, "input-option220")
     warningMessage = (By.XPATH, "//div[contains(text(), 'Minimum order amount for Apple Cinema 30')]")
+    descriptionText = (By.XPATH, "//div[@id='tab-description']/div")
 
     def __init__(self, driver):
         self.driver = driver
@@ -193,4 +194,8 @@ class ProductDisplayPage:
             EC.presence_of_element_located(ProductDisplayPage.warningMessage)
         )
         return warning_message.text
+
+    def get_description_text(self):
+        description_text =  self.driver.find_element(*ProductDisplayPage.descriptionText)
+        return description_text.text
 
