@@ -1,3 +1,5 @@
+import time
+
 import pytest
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
@@ -332,7 +334,7 @@ class Test_007_Product_Display:
                 self.logger.info("Update the product quantity to 1")
                 self.pd.click_on_add_to_cart_button_on_product_display_page()
                 self.logger.info("Clicking on add to cart button")
-                if self.pd.warning_message() == 'Minimum order amount for Apple Cinema 30" is 2!':
+                if self.pd.minimum_order_amount_warning_message() == 'Minimum order amount for Apple Cinema 30" is 2!':
                     assert True
                     self.logger.info("************* Test Product Display 007 is Passed ************")
                 else:
@@ -453,7 +455,7 @@ class Test_007_Product_Display:
         self.logger.info("Entering name in name text field in review tab")
         self.pd.set_review_text_in_review_tab("This product is nice! and i recommend this product to buy this product")
         self.logger.info("Entering the review text to the review text area")
-        self.pd.click_on_radio_button_in_review_tab()
+        self.pd.click_on_rating_radio_button_in_review_tab()
         self.logger.info("Clicking on the radio button")
         self.pd.click_on_continue_button_in_review_tab()
         self.logger.info("Clicking on the continue button")
@@ -497,6 +499,75 @@ class Test_007_Product_Display:
             self.logger.info("************* Test Product Display 011 is Failed ***************")
             assert False
         self.logger.info("*************************** End Of Test Product Display 011 **************************")
+
+    @pytest.mark.sanity
+    def test_product_display_012(self, setup):
+        self.driver = setup
+        self.logger.info("*************************** Test Product Display 012 is Start ***************************")
+        self.driver.get(self.baseURL)
+        self.logger.info("Navigating to base url")
+        self.sf = SearchPage(self.driver)
+        self.sf.search_product("iMac")
+        self.logger.info("Entering iMac product to search text box field")
+        self.sf.click_on_search_button()
+        self.logger.info("Clicking on the search icon button")
+        self.pc = ProductComparePage(self.driver)
+        self.pc.click_on_the_product_display_in_search_result()
+        self.logger.info("Clicking on the product display in search result")
+        self.pd = ProductDisplayPage(self.driver)
+        self.pd.click_on_reviews_tab()
+        self.logger.info("Clicking on the review tab")
+        self.pd.click_on_continue_button_in_review_tab()
+        self.logger.info("Clicking on the continue button")
+        self.pd.wait_for_page_load()
+        self.logger.info("*************************** Verifying Test Product Display 012 ***************************")
+        warning_message = self.pd.get_mandatory_warning_message()
+        if warning_message == warning_message:
+            self.pd.click_on_rating_radio_button_in_review_tab()
+            self.logger.info("Clicking on the rating radio button")
+            self.pd.click_on_continue_button_in_review_tab()
+            self.logger.info("Clicking on the continue button")
+            time.sleep(1)
+            warning_message = self.pd.get_mandatory_warning_message()
+            if warning_message == "Warning: Review Text must be between 25 and 1000 characters!":
+                self.pd.set_review_text_in_review_tab("This is a nice product and i recommend this product to buy")
+                self.logger.info("Entering review text")
+                self.pd.wait_for_page_load()
+                self.pd.click_on_continue_button_in_review_tab()
+                self.logger.info("Clicking on the continue button")
+                time.sleep(1)
+                warning_message = self.pd.get_mandatory_warning_message()
+                if warning_message == "Warning: Review Name must be between 3 and 25 characters!":
+                    self.pd.set_name_in_review_tab("Lukesh")
+                    self.logger.info("Entering name to name text field")
+                    self.pd.wait_for_page_load()
+                    self.pd.click_on_continue_button_in_review_tab()
+                    self.logger.info("Clicking on the continue button")
+                    time.sleep(1)
+                    success_message = self.pd.get_success_message_in_review_tab()
+                    if success_message == "Thank you for your review. It has been submitted to the webmaster for approval.":
+                        assert True
+                        self.logger.info("************** Test Product Display 012 is Passed ***************")
+                    else:
+                        self.logger.error(f"{success_message}")
+                        self.logger.error("************** Test Product Display 012 is Failed ***************")
+                        assert False
+                else:
+                    self.logger.error(f"{warning_message}")
+                    self.logger.error("************** Test Product Display 012 is Failed ***************")
+                    assert False
+            else:
+                self.logger.error(f"{warning_message}")
+                self.logger.error("************** Test Product Display 012 is Failed ***************")
+                assert False
+        else:
+            self.logger.error(f"{warning_message}")
+            self.logger.error("************** Test Product Display 012 is Failed ***************")
+            assert False
+        self.logger.info("*************************** End Of Test Product Display 012 ***************************")
+
+
+
 
 
 

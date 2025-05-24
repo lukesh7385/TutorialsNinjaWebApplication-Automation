@@ -36,9 +36,10 @@ class ProductDisplayPage:
     nameTextFieldInReviewTab = (By.ID, "input-name")
     inputReviewTextAreaField = (By.ID, "input-review")
     radioButtonInReviewTab = (By.XPATH, "//input[@value='5']")
-    continueButtonIReviewTab = (By.XPATH, "//button[@id='button-review']")
+    continueButtonInReviewTab = (By.XPATH, "//button[@id='button-review']")
     successMessageInReviewTab = (By.XPATH, "//div[@class='alert alert-success alert-dismissible']")
     noReviewTextMessage = (By.XPATH, "//p[normalize-space()='There are no reviews for this product.']")
+    mandatoryWarningMessage = (By.XPATH, "//div[@class='alert alert-danger alert-dismissible']")
 
 
     def __init__(self, driver):
@@ -198,7 +199,7 @@ class ProductDisplayPage:
         except Exception as e:
             print(f"Error while accepting alert: {e}")
 
-    def warning_message(self):
+    def minimum_order_amount_warning_message(self):
         warning_message = WebDriverWait(self.driver, 5, poll_frequency=1).until(
             EC.presence_of_element_located(ProductDisplayPage.warningMessage)
         )
@@ -220,11 +221,14 @@ class ProductDisplayPage:
     def set_review_text_in_review_tab(self, review):
         self.driver.find_element(*ProductDisplayPage.inputReviewTextAreaField).send_keys(review)
 
-    def click_on_radio_button_in_review_tab(self):
+    def click_on_rating_radio_button_in_review_tab(self):
         self.driver.find_element(*ProductDisplayPage.radioButtonInReviewTab).click()
 
     def click_on_continue_button_in_review_tab(self):
-        self.driver.find_element(*ProductDisplayPage.continueButtonIReviewTab).click()
+        wait = WebDriverWait(self.driver, 10, poll_frequency=2)
+        continue_button = wait.until(EC.element_to_be_clickable(ProductDisplayPage.continueButtonInReviewTab)
+        )
+        continue_button.click()
 
     def get_success_message_in_review_tab(self):
         success_message = self.driver.find_element(*ProductDisplayPage.successMessageInReviewTab).text
@@ -233,3 +237,13 @@ class ProductDisplayPage:
     def get_no_review_text_message(self):
         no_review_message = self.driver.find_element(*ProductDisplayPage.noReviewTextMessage).text
         return no_review_message
+
+    def get_mandatory_warning_message(self):
+        warning_message = WebDriverWait(self.driver, 10, poll_frequency=3).until(
+            EC.visibility_of_element_located(ProductDisplayPage.mandatoryWarningMessage)
+        )
+        return warning_message.text
+
+    def wait_for_page_load(self):
+        WebDriverWait(self.driver, 10, poll_frequency=2).until(
+            lambda driver: driver.execute_script("return document.readyState") == "complete")

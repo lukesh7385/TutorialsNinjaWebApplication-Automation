@@ -6740,3 +6740,1357 @@ Just when you thought iMac had everything, now there's even more. More powerful 
 05/24/2025 12:14:18 AM |      INFO | test_search.py:132 | *************** Verifying Test Search Functionality 005 ****************
 05/24/2025 12:14:18 AM |      INFO | test_search.py:138 | ************ Test Search Functionality 005 is Passed *************
 05/24/2025 12:14:19 AM |      INFO | test_search.py:143 | **************** End Of Test Search Functionality 005 ******************
+05/25/2025 12:36:12 AM |      INFO | test_product_display.py:504 | *************************** Test Product Display 012 is Start ***************************
+05/25/2025 12:37:33 AM |      INFO | test_product_display.py:504 | *************************** Test Product Display 012 is Start ***************************
+05/25/2025 12:37:36 AM |      INFO | test_product_display.py:506 | Navigating to base url
+05/25/2025 12:37:36 AM |      INFO | test_product_display.py:509 | Entering iMac product to search text box field
+05/25/2025 12:37:36 AM |      INFO | test_product_display.py:511 | Clicking on the search icon button
+05/25/2025 12:37:37 AM |      INFO | test_product_display.py:514 | Clicking on the product display in search result
+05/25/2025 12:37:38 AM |      INFO | test_product_display.py:517 | Clicking on the review tab
+05/25/2025 12:37:38 AM |      INFO | test_product_display.py:519 | Clicking on the continue button
+05/25/2025 12:37:38 AM |      INFO | test_product_display.py:520 | *************************** Verifying Test Product Display 012 ***************************
+05/25/2025 12:37:38 AM |      INFO | test_product_display.py:524 | Clicking on the rating radio button
+05/25/2025 12:37:38 AM |      INFO | test_product_display.py:526 | Clicking on the continue button
+05/25/2025 12:37:38 AM |     ERROR | test_product_display.py:548 | ************** Test Product Display 012 is Failed ***************
+05/25/2025 12:40:22 AM |      INFO | test_product_display.py:504 | *************************** Test Product Display 012 is Start ***************************
+05/25/2025 12:40:25 AM |      INFO | test_product_display.py:506 | Navigating to base url
+05/25/2025 12:40:25 AM |      INFO | test_product_display.py:509 | Entering iMac product to search text box field
+05/25/2025 12:40:26 AM |      INFO | test_product_display.py:511 | Clicking on the search icon button
+05/25/2025 12:40:27 AM |      INFO | test_product_display.py:514 | Clicking on the product display in search result
+05/25/2025 12:40:27 AM |      INFO | test_product_display.py:517 | Clicking on the review tab
+05/25/2025 12:40:27 AM |      INFO | test_product_display.py:519 | Clicking on the continue button
+05/25/2025 12:40:27 AM |      INFO | test_product_display.py:520 | *************************** Verifying Test Product Display 012 ***************************
+05/25/2025 12:40:27 AM |      INFO | test_product_display.py:524 | Clicking on the rating radio button
+05/25/2025 12:40:27 AM |      INFO | test_product_display.py:526 | Clicking on the continue button
+05/25/2025 12:40:27 AM |      INFO | test_product_display.py:550 | Warning: Please select a review rating!
+05/25/2025 12:40:27 AM |     ERROR | test_product_display.py:551 | ************** Test Product Display 012 is Failed ***************
+05/25/2025 12:41:33 AM |      INFO | test_product_display.py:504 | *************************** Test Product Display 012 is Start ***************************
+05/25/2025 12:41:34 AM |      INFO | test_product_display.py:506 | Navigating to base url
+05/25/2025 12:41:34 AM |      INFO | test_product_display.py:509 | Entering iMac product to search text box field
+05/25/2025 12:41:35 AM |      INFO | test_product_display.py:511 | Clicking on the search icon button
+05/25/2025 12:41:35 AM |      INFO | test_product_display.py:514 | Clicking on the product display in search result
+05/25/2025 12:41:35 AM |      INFO | test_product_display.py:517 | Clicking on the review tab
+05/25/2025 12:41:35 AM |      INFO | test_product_display.py:519 | Clicking on the continue button
+05/25/2025 12:41:35 AM |      INFO | test_product_display.py:520 | *************************** Verifying Test Product Display 012 ***************************
+05/25/2025 12:41:36 AM |      INFO | test_product_display.py:524 | Clicking on the rating radio button
+05/25/2025 12:41:36 AM |      INFO | test_product_display.py:526 | Clicking on the continue button
+05/25/2025 12:41:36 AM |      INFO | test_product_display.py:550 | Warning: Please select a review rating!
+                                                                   Warning: Please select a review rating!
+05/25/2025 12:41:36 AM |     ERROR | test_product_display.py:551 | ************** Test Product Display 012 is Failed ***************
+05/25/2025 12:49:10 AM |      INFO | test_product_display.py:504 | *************************** Test Product Display 012 is Start ***************************
+05/25/2025 12:49:12 AM |      INFO | test_product_display.py:506 | Navigating to base url
+05/25/2025 12:49:12 AM |      INFO | test_product_display.py:509 | Entering iMac product to search text box field
+05/25/2025 12:49:13 AM |      INFO | test_product_display.py:511 | Clicking on the search icon button
+05/25/2025 12:49:13 AM |      INFO | test_product_display.py:514 | Clicking on the product display in search result
+05/25/2025 12:49:14 AM |      INFO | test_product_display.py:517 | Clicking on the review tab
+05/25/2025 12:49:14 AM |      INFO | test_product_display.py:519 | Clicking on the continue button
+05/25/2025 12:49:14 AM |      INFO | test_product_display.py:520 | *************************** Verifying Test Product Display 012 ***************************
+05/25/2025 12:49:14 AM |      INFO | test_product_display.py:524 | Clicking on the rating radio button
+05/25/2025 12:49:14 AM |      INFO | test_product_display.py:526 | Clicking on the continue button
+05/25/2025 12:49:14 AM |      INFO | test_product_display.py:550 | Warning: Please select a review rating!
+05/25/2025 12:49:14 AM |     ERROR | test_product_display.py:551 | ************** Test Product Display 012 is Failed ***************
+05/25/2025 12:53:22 AM |      INFO | test_product_display.py:504 | *************************** Test Product Display 012 is Start ***************************
+05/25/2025 12:53:24 AM |      INFO | test_product_display.py:506 | Navigating to base url
+05/25/2025 12:53:24 AM |      INFO | test_product_display.py:509 | Entering iMac product to search text box field
+05/25/2025 12:53:24 AM |      INFO | test_product_display.py:511 | Clicking on the search icon button
+05/25/2025 12:53:25 AM |      INFO | test_product_display.py:514 | Clicking on the product display in search result
+05/25/2025 12:53:25 AM |      INFO | test_product_display.py:517 | Clicking on the review tab
+05/25/2025 12:53:25 AM |      INFO | test_product_display.py:519 | Clicking on the continue button
+05/25/2025 12:53:25 AM |      INFO | test_product_display.py:520 | *************************** Verifying Test Product Display 012 ***************************
+05/25/2025 12:53:26 AM |      INFO | test_product_display.py:524 | Clicking on the rating radio button
+05/25/2025 12:53:26 AM |      INFO | test_product_display.py:526 | Clicking on the continue button
+05/25/2025 12:53:26 AM |      INFO | test_product_display.py:550 | Warning: Please select a review rating!
+05/25/2025 12:53:26 AM |     ERROR | test_product_display.py:551 | ************** Test Product Display 012 is Failed ***************
+05/25/2025 12:58:55 AM |      INFO | test_product_display.py:504 | *************************** Test Product Display 012 is Start ***************************
+05/25/2025 12:58:57 AM |      INFO | test_product_display.py:506 | Navigating to base url
+05/25/2025 12:58:57 AM |      INFO | test_product_display.py:509 | Entering iMac product to search text box field
+05/25/2025 12:58:57 AM |      INFO | test_product_display.py:511 | Clicking on the search icon button
+05/25/2025 12:58:58 AM |      INFO | test_product_display.py:514 | Clicking on the product display in search result
+05/25/2025 12:58:58 AM |      INFO | test_product_display.py:517 | Clicking on the review tab
+05/25/2025 12:58:58 AM |      INFO | test_product_display.py:519 | Clicking on the continue button
+05/25/2025 12:58:58 AM |      INFO | test_product_display.py:520 | *************************** Verifying Test Product Display 012 ***************************
+05/25/2025 12:58:59 AM |      INFO | test_product_display.py:524 | Clicking on the rating radio button
+05/25/2025 12:58:59 AM |      INFO | test_product_display.py:526 | Clicking on the continue button
+05/25/2025 12:58:59 AM |     ERROR | test_product_display.py:550 | Warning: Please select a review rating!
+05/25/2025 12:58:59 AM |     ERROR | test_product_display.py:551 | ************** Test Product Display 012 is Failed ***************
+05/25/2025 01:01:29 AM |      INFO | test_product_display.py:504 | *************************** Test Product Display 012 is Start ***************************
+05/25/2025 01:01:30 AM |      INFO | test_product_display.py:506 | Navigating to base url
+05/25/2025 01:01:30 AM |      INFO | test_product_display.py:509 | Entering iMac product to search text box field
+05/25/2025 01:01:31 AM |      INFO | test_product_display.py:511 | Clicking on the search icon button
+05/25/2025 01:01:32 AM |      INFO | test_product_display.py:514 | Clicking on the product display in search result
+05/25/2025 01:01:32 AM |      INFO | test_product_display.py:517 | Clicking on the review tab
+05/25/2025 01:03:37 AM |      INFO | test_product_display.py:504 | *************************** Test Product Display 012 is Start ***************************
+05/25/2025 01:03:38 AM |      INFO | test_product_display.py:506 | Navigating to base url
+05/25/2025 01:03:38 AM |      INFO | test_product_display.py:509 | Entering iMac product to search text box field
+05/25/2025 01:03:38 AM |      INFO | test_product_display.py:511 | Clicking on the search icon button
+05/25/2025 01:03:39 AM |      INFO | test_product_display.py:514 | Clicking on the product display in search result
+05/25/2025 01:03:39 AM |      INFO | test_product_display.py:517 | Clicking on the review tab
+05/25/2025 01:03:39 AM |      INFO | test_product_display.py:519 | Clicking on the continue button
+05/25/2025 01:03:39 AM |      INFO | test_product_display.py:520 | *************************** Verifying Test Product Display 012 ***************************
+05/25/2025 01:03:40 AM |      INFO | test_product_display.py:524 | Clicking on the rating radio button
+05/25/2025 01:03:40 AM |      INFO | test_product_display.py:526 | Clicking on the continue button
+05/25/2025 01:03:40 AM |     ERROR | test_product_display.py:550 | Warning: Please select a review rating!
+05/25/2025 01:03:40 AM |     ERROR | test_product_display.py:551 | ************** Test Product Display 012 is Failed ***************
+05/25/2025 01:08:19 AM |      INFO | test_product_display.py:504 | *************************** Test Product Display 012 is Start ***************************
+05/25/2025 01:08:21 AM |      INFO | test_product_display.py:506 | Navigating to base url
+05/25/2025 01:08:21 AM |      INFO | test_product_display.py:509 | Entering iMac product to search text box field
+05/25/2025 01:08:21 AM |      INFO | test_product_display.py:511 | Clicking on the search icon button
+05/25/2025 01:08:22 AM |      INFO | test_product_display.py:514 | Clicking on the product display in search result
+05/25/2025 01:08:22 AM |      INFO | test_product_display.py:517 | Clicking on the review tab
+05/25/2025 01:09:50 AM |      INFO | test_product_display.py:504 | *************************** Test Product Display 012 is Start ***************************
+05/25/2025 01:09:51 AM |      INFO | test_product_display.py:506 | Navigating to base url
+05/25/2025 01:09:51 AM |      INFO | test_product_display.py:509 | Entering iMac product to search text box field
+05/25/2025 01:09:52 AM |      INFO | test_product_display.py:511 | Clicking on the search icon button
+05/25/2025 01:09:52 AM |      INFO | test_product_display.py:514 | Clicking on the product display in search result
+05/25/2025 01:09:52 AM |      INFO | test_product_display.py:517 | Clicking on the review tab
+05/25/2025 01:09:52 AM |      INFO | test_product_display.py:519 | Clicking on the continue button
+05/25/2025 01:09:52 AM |      INFO | test_product_display.py:520 | *************************** Verifying Test Product Display 012 ***************************
+05/25/2025 01:09:53 AM |      INFO | test_product_display.py:524 | Clicking on the rating radio button
+05/25/2025 01:09:53 AM |      INFO | test_product_display.py:526 | Clicking on the continue button
+05/25/2025 01:09:53 AM |     ERROR | test_product_display.py:550 | Warning: Please select a review rating!
+05/25/2025 01:09:53 AM |     ERROR | test_product_display.py:551 | ************** Test Product Display 012 is Failed ***************
+05/25/2025 01:14:39 AM |      INFO | test_product_display.py:504 | *************************** Test Product Display 012 is Start ***************************
+05/25/2025 01:14:40 AM |      INFO | test_product_display.py:506 | Navigating to base url
+05/25/2025 01:14:41 AM |      INFO | test_product_display.py:509 | Entering iMac product to search text box field
+05/25/2025 01:14:41 AM |      INFO | test_product_display.py:511 | Clicking on the search icon button
+05/25/2025 01:14:41 AM |      INFO | test_product_display.py:514 | Clicking on the product display in search result
+05/25/2025 01:14:41 AM |      INFO | test_product_display.py:517 | Clicking on the review tab
+05/25/2025 01:14:41 AM |      INFO | test_product_display.py:519 | Clicking on the continue button
+05/25/2025 01:14:41 AM |      INFO | test_product_display.py:520 | *************************** Verifying Test Product Display 012 ***************************
+05/25/2025 01:14:42 AM |      INFO | test_product_display.py:524 | Clicking on the rating radio button
+05/25/2025 01:14:42 AM |      INFO | test_product_display.py:526 | Clicking on the continue button
+05/25/2025 01:14:42 AM |     ERROR | test_product_display.py:550 | Warning: Please select a review rating!
+05/25/2025 01:14:42 AM |     ERROR | test_product_display.py:551 | ************** Test Product Display 012 is Failed ***************
+05/25/2025 01:19:06 AM |      INFO | test_product_display.py:504 | *************************** Test Product Display 012 is Start ***************************
+05/25/2025 01:19:07 AM |      INFO | test_product_display.py:506 | Navigating to base url
+05/25/2025 01:19:07 AM |      INFO | test_product_display.py:509 | Entering iMac product to search text box field
+05/25/2025 01:19:07 AM |      INFO | test_product_display.py:511 | Clicking on the search icon button
+05/25/2025 01:19:08 AM |      INFO | test_product_display.py:514 | Clicking on the product display in search result
+05/25/2025 01:19:08 AM |      INFO | test_product_display.py:517 | Clicking on the review tab
+05/25/2025 01:19:08 AM |      INFO | test_product_display.py:519 | Clicking on the continue button
+05/25/2025 01:19:08 AM |      INFO | test_product_display.py:520 | *************************** Verifying Test Product Display 012 ***************************
+05/25/2025 01:19:08 AM |      INFO | test_product_display.py:524 | Clicking on the rating radio button
+05/25/2025 01:19:08 AM |      INFO | test_product_display.py:527 | Clicking on the continue button
+05/25/2025 01:19:08 AM |     ERROR | test_product_display.py:553 | Warning: Please select a review rating!
+05/25/2025 01:19:08 AM |     ERROR | test_product_display.py:554 | ************** Test Product Display 012 is Failed ***************
+05/25/2025 01:21:35 AM |      INFO | test_product_display.py:504 | *************************** Test Product Display 012 is Start ***************************
+05/25/2025 01:21:36 AM |      INFO | test_product_display.py:506 | Navigating to base url
+05/25/2025 01:21:36 AM |      INFO | test_product_display.py:509 | Entering iMac product to search text box field
+05/25/2025 01:21:37 AM |      INFO | test_product_display.py:511 | Clicking on the search icon button
+05/25/2025 01:21:37 AM |      INFO | test_product_display.py:514 | Clicking on the product display in search result
+05/25/2025 01:21:37 AM |      INFO | test_product_display.py:517 | Clicking on the review tab
+05/25/2025 01:21:37 AM |      INFO | test_product_display.py:519 | Clicking on the continue button
+05/25/2025 01:21:37 AM |      INFO | test_product_display.py:520 | *************************** Verifying Test Product Display 012 ***************************
+05/25/2025 01:21:37 AM |     ERROR | test_product_display.py:557 | Warning: Please select a review rating!
+05/25/2025 01:21:37 AM |     ERROR | test_product_display.py:558 | ************** Test Product Display 012 is Failed ***************
+05/25/2025 01:25:21 AM |      INFO | test_product_display.py:504 | *************************** Test Product Display 012 is Start ***************************
+05/25/2025 01:25:24 AM |      INFO | test_product_display.py:506 | Navigating to base url
+05/25/2025 01:25:24 AM |      INFO | test_product_display.py:509 | Entering iMac product to search text box field
+05/25/2025 01:25:24 AM |      INFO | test_product_display.py:511 | Clicking on the search icon button
+05/25/2025 01:25:25 AM |      INFO | test_product_display.py:514 | Clicking on the product display in search result
+05/25/2025 01:25:25 AM |      INFO | test_product_display.py:517 | Clicking on the review tab
+05/25/2025 01:25:25 AM |      INFO | test_product_display.py:519 | Clicking on the continue button
+05/25/2025 01:25:25 AM |      INFO | test_product_display.py:520 | *************************** Verifying Test Product Display 012 ***************************
+05/25/2025 01:25:25 AM |     ERROR | test_product_display.py:556 | Warning: Please select a review rating!
+05/25/2025 01:25:25 AM |     ERROR | test_product_display.py:557 | ************** Test Product Display 012 is Failed ***************
+05/25/2025 01:26:52 AM |      INFO | test_product_display.py:504 | *************************** Test Product Display 012 is Start ***************************
+05/25/2025 01:26:53 AM |      INFO | test_product_display.py:506 | Navigating to base url
+05/25/2025 01:26:53 AM |      INFO | test_product_display.py:509 | Entering iMac product to search text box field
+05/25/2025 01:26:53 AM |      INFO | test_product_display.py:511 | Clicking on the search icon button
+05/25/2025 01:26:54 AM |      INFO | test_product_display.py:514 | Clicking on the product display in search result
+05/25/2025 01:26:54 AM |      INFO | test_product_display.py:517 | Clicking on the review tab
+05/25/2025 01:26:54 AM |      INFO | test_product_display.py:519 | Clicking on the continue button
+05/25/2025 01:26:54 AM |      INFO | test_product_display.py:520 | *************************** Verifying Test Product Display 012 ***************************
+05/25/2025 01:26:54 AM |      INFO | test_product_display.py:524 | Clicking on the rating radio button
+05/25/2025 01:26:54 AM |      INFO | test_product_display.py:526 | Clicking on the continue button
+05/25/2025 01:26:54 AM |     ERROR | test_product_display.py:552 | Warning: Please select a review rating!
+05/25/2025 01:26:54 AM |     ERROR | test_product_display.py:553 | ************** Test Product Display 012 is Failed ***************
+05/25/2025 01:27:21 AM |      INFO | test_product_display.py:504 | *************************** Test Product Display 012 is Start ***************************
+05/25/2025 01:27:24 AM |      INFO | test_product_display.py:506 | Navigating to base url
+05/25/2025 01:27:24 AM |      INFO | test_product_display.py:509 | Entering iMac product to search text box field
+05/25/2025 01:27:24 AM |      INFO | test_product_display.py:511 | Clicking on the search icon button
+05/25/2025 01:27:25 AM |      INFO | test_product_display.py:514 | Clicking on the product display in search result
+05/25/2025 01:27:25 AM |      INFO | test_product_display.py:517 | Clicking on the review tab
+05/25/2025 01:27:25 AM |      INFO | test_product_display.py:519 | Clicking on the continue button
+05/25/2025 01:27:25 AM |      INFO | test_product_display.py:520 | *************************** Verifying Test Product Display 012 ***************************
+05/25/2025 01:27:25 AM |     ERROR | test_product_display.py:556 | Warning: Please select a review rating!
+05/25/2025 01:27:25 AM |     ERROR | test_product_display.py:557 | ************** Test Product Display 012 is Failed ***************
+05/25/2025 01:30:41 AM |      INFO | test_product_display.py:504 | *************************** Test Product Display 012 is Start ***************************
+05/25/2025 01:30:43 AM |      INFO | test_product_display.py:506 | Navigating to base url
+05/25/2025 01:30:43 AM |      INFO | test_product_display.py:509 | Entering iMac product to search text box field
+05/25/2025 01:30:43 AM |      INFO | test_product_display.py:511 | Clicking on the search icon button
+05/25/2025 01:30:44 AM |      INFO | test_product_display.py:514 | Clicking on the product display in search result
+05/25/2025 01:30:44 AM |      INFO | test_product_display.py:517 | Clicking on the review tab
+05/25/2025 01:30:44 AM |      INFO | test_product_display.py:519 | Clicking on the continue button
+05/25/2025 01:30:44 AM |      INFO | test_product_display.py:521 | *************************** Verifying Test Product Display 012 ***************************
+05/25/2025 01:30:44 AM |     ERROR | test_product_display.py:560 | Warning: Please select a review rating!
+05/25/2025 01:30:44 AM |     ERROR | test_product_display.py:561 | ************** Test Product Display 012 is Failed ***************
+05/25/2025 01:36:36 AM |      INFO | test_product_display.py:504 | *************************** Test Product Display 012 is Start ***************************
+05/25/2025 01:36:37 AM |      INFO | test_product_display.py:506 | Navigating to base url
+05/25/2025 01:36:37 AM |      INFO | test_product_display.py:509 | Entering iMac product to search text box field
+05/25/2025 01:36:38 AM |      INFO | test_product_display.py:511 | Clicking on the search icon button
+05/25/2025 01:36:38 AM |      INFO | test_product_display.py:514 | Clicking on the product display in search result
+05/25/2025 01:36:38 AM |      INFO | test_product_display.py:517 | Clicking on the review tab
+05/25/2025 01:36:38 AM |      INFO | test_product_display.py:519 | Clicking on the continue button
+05/25/2025 01:36:38 AM |      INFO | test_product_display.py:521 | *************************** Verifying Test Product Display 012 ***************************
+05/25/2025 01:36:38 AM |     ERROR | test_product_display.py:560 | Warning: Please select a review rating!
+05/25/2025 01:36:38 AM |     ERROR | test_product_display.py:561 | ************** Test Product Display 012 is Failed ***************
+05/25/2025 01:37:45 AM |      INFO | test_product_display.py:504 | *************************** Test Product Display 012 is Start ***************************
+05/25/2025 01:37:46 AM |      INFO | test_product_display.py:506 | Navigating to base url
+05/25/2025 01:37:46 AM |      INFO | test_product_display.py:509 | Entering iMac product to search text box field
+05/25/2025 01:37:46 AM |      INFO | test_product_display.py:511 | Clicking on the search icon button
+05/25/2025 01:37:47 AM |      INFO | test_product_display.py:514 | Clicking on the product display in search result
+05/25/2025 01:37:47 AM |      INFO | test_product_display.py:517 | Clicking on the review tab
+05/25/2025 01:37:47 AM |      INFO | test_product_display.py:519 | Clicking on the continue button
+05/25/2025 01:37:47 AM |      INFO | test_product_display.py:521 | *************************** Verifying Test Product Display 012 ***************************
+05/25/2025 01:37:47 AM |      INFO | test_product_display.py:525 | Clicking on the rating radio button
+05/25/2025 01:37:47 AM |      INFO | test_product_display.py:527 | Clicking on the continue button
+05/25/2025 01:37:47 AM |     ERROR | test_product_display.py:556 | Warning: Please select a review rating!
+05/25/2025 01:37:47 AM |     ERROR | test_product_display.py:557 | ************** Test Product Display 012 is Failed ***************
+05/25/2025 01:40:28 AM |      INFO | test_product_display.py:504 | *************************** Test Product Display 012 is Start ***************************
+05/25/2025 01:40:29 AM |      INFO | test_product_display.py:506 | Navigating to base url
+05/25/2025 01:40:29 AM |      INFO | test_product_display.py:509 | Entering iMac product to search text box field
+05/25/2025 01:40:29 AM |      INFO | test_product_display.py:511 | Clicking on the search icon button
+05/25/2025 01:40:30 AM |      INFO | test_product_display.py:514 | Clicking on the product display in search result
+05/25/2025 01:40:30 AM |      INFO | test_product_display.py:517 | Clicking on the review tab
+05/25/2025 01:40:30 AM |      INFO | test_product_display.py:519 | Clicking on the continue button
+05/25/2025 01:40:30 AM |      INFO | test_product_display.py:521 | *************************** Verifying Test Product Display 012 ***************************
+05/25/2025 01:40:30 AM |      INFO | test_product_display.py:525 | Clicking on the rating radio button
+05/25/2025 01:40:30 AM |      INFO | test_product_display.py:527 | Clicking on the continue button
+05/25/2025 01:40:30 AM |     ERROR | test_product_display.py:558 | Warning: Please select a review rating!
+05/25/2025 01:40:30 AM |     ERROR | test_product_display.py:559 | ************** Test Product Display 012 is Failed ***************
+05/25/2025 01:44:39 AM |      INFO | test_product_display.py:504 | *************************** Test Product Display 012 is Start ***************************
+05/25/2025 01:44:41 AM |      INFO | test_product_display.py:506 | Navigating to base url
+05/25/2025 01:44:41 AM |      INFO | test_product_display.py:509 | Entering iMac product to search text box field
+05/25/2025 01:44:42 AM |      INFO | test_product_display.py:511 | Clicking on the search icon button
+05/25/2025 01:44:42 AM |      INFO | test_product_display.py:514 | Clicking on the product display in search result
+05/25/2025 01:44:42 AM |      INFO | test_product_display.py:517 | Clicking on the review tab
+05/25/2025 01:44:42 AM |      INFO | test_product_display.py:519 | Clicking on the continue button
+05/25/2025 01:44:42 AM |      INFO | test_product_display.py:521 | *************************** Verifying Test Product Display 012 ***************************
+05/25/2025 01:47:52 AM |      INFO | test_product_display.py:504 | *************************** Test Product Display 012 is Start ***************************
+05/25/2025 01:47:53 AM |      INFO | test_product_display.py:506 | Navigating to base url
+05/25/2025 01:47:54 AM |      INFO | test_product_display.py:509 | Entering iMac product to search text box field
+05/25/2025 01:47:54 AM |      INFO | test_product_display.py:511 | Clicking on the search icon button
+05/25/2025 01:47:54 AM |      INFO | test_product_display.py:514 | Clicking on the product display in search result
+05/25/2025 01:47:54 AM |      INFO | test_product_display.py:517 | Clicking on the review tab
+05/25/2025 01:47:54 AM |      INFO | test_product_display.py:519 | Clicking on the continue button
+05/25/2025 01:47:54 AM |      INFO | test_product_display.py:521 | *************************** Verifying Test Product Display 012 ***************************
+05/25/2025 01:47:54 AM |     ERROR | test_product_display.py:562 | Your Name
+05/25/2025 01:47:54 AM |     ERROR | test_product_display.py:563 | ************** Test Product Display 012 is Failed ***************
+05/25/2025 01:49:05 AM |      INFO | test_product_display.py:504 | *************************** Test Product Display 012 is Start ***************************
+05/25/2025 01:49:06 AM |      INFO | test_product_display.py:506 | Navigating to base url
+05/25/2025 01:49:06 AM |      INFO | test_product_display.py:509 | Entering iMac product to search text box field
+05/25/2025 01:49:07 AM |      INFO | test_product_display.py:511 | Clicking on the search icon button
+05/25/2025 01:49:07 AM |      INFO | test_product_display.py:514 | Clicking on the product display in search result
+05/25/2025 01:49:07 AM |      INFO | test_product_display.py:517 | Clicking on the review tab
+05/25/2025 01:49:07 AM |      INFO | test_product_display.py:519 | Clicking on the continue button
+05/25/2025 01:49:07 AM |      INFO | test_product_display.py:521 | *************************** Verifying Test Product Display 012 ***************************
+05/25/2025 01:49:07 AM |     ERROR | test_product_display.py:562 | Your Name
+05/25/2025 01:49:07 AM |     ERROR | test_product_display.py:563 | ************** Test Product Display 012 is Failed ***************
+05/25/2025 01:51:37 AM |      INFO | test_product_display.py:504 | *************************** Test Product Display 012 is Start ***************************
+05/25/2025 01:51:40 AM |      INFO | test_product_display.py:506 | Navigating to base url
+05/25/2025 01:51:40 AM |      INFO | test_product_display.py:509 | Entering iMac product to search text box field
+05/25/2025 01:51:40 AM |      INFO | test_product_display.py:511 | Clicking on the search icon button
+05/25/2025 01:51:41 AM |      INFO | test_product_display.py:514 | Clicking on the product display in search result
+05/25/2025 01:51:41 AM |      INFO | test_product_display.py:517 | Clicking on the review tab
+05/25/2025 01:51:41 AM |      INFO | test_product_display.py:519 | Clicking on the continue button
+05/25/2025 01:51:41 AM |      INFO | test_product_display.py:521 | *************************** Verifying Test Product Display 012 ***************************
+05/25/2025 01:51:41 AM |      INFO | test_product_display.py:525 | Clicking on the rating radio button
+05/25/2025 01:51:41 AM |      INFO | test_product_display.py:527 | Clicking on the continue button
+05/25/2025 01:51:41 AM |     ERROR | test_product_display.py:558 | Warning: Please select a review rating!
+05/25/2025 01:51:41 AM |     ERROR | test_product_display.py:559 | ************** Test Product Display 012 is Failed ***************
+05/25/2025 01:53:22 AM |      INFO | test_product_display.py:504 | *************************** Test Product Display 012 is Start ***************************
+05/25/2025 01:53:24 AM |      INFO | test_product_display.py:506 | Navigating to base url
+05/25/2025 01:53:24 AM |      INFO | test_product_display.py:509 | Entering iMac product to search text box field
+05/25/2025 01:53:24 AM |      INFO | test_product_display.py:511 | Clicking on the search icon button
+05/25/2025 01:53:25 AM |      INFO | test_product_display.py:514 | Clicking on the product display in search result
+05/25/2025 01:53:25 AM |      INFO | test_product_display.py:517 | Clicking on the review tab
+05/25/2025 01:53:25 AM |      INFO | test_product_display.py:519 | Clicking on the continue button
+05/25/2025 01:53:25 AM |      INFO | test_product_display.py:521 | *************************** Verifying Test Product Display 012 ***************************
+05/25/2025 01:53:25 AM |     ERROR | test_product_display.py:562 | Warning: Please select a review rating!
+05/25/2025 01:53:25 AM |     ERROR | test_product_display.py:563 | ************** Test Product Display 012 is Failed ***************
+05/25/2025 01:55:43 AM |      INFO | test_product_display.py:504 | *************************** Test Product Display 012 is Start ***************************
+05/25/2025 01:55:44 AM |      INFO | test_product_display.py:506 | Navigating to base url
+05/25/2025 01:55:44 AM |      INFO | test_product_display.py:509 | Entering iMac product to search text box field
+05/25/2025 01:55:44 AM |      INFO | test_product_display.py:511 | Clicking on the search icon button
+05/25/2025 01:55:45 AM |      INFO | test_product_display.py:514 | Clicking on the product display in search result
+05/25/2025 01:55:45 AM |      INFO | test_product_display.py:517 | Clicking on the review tab
+05/25/2025 01:55:45 AM |      INFO | test_product_display.py:519 | Clicking on the continue button
+05/25/2025 01:55:45 AM |      INFO | test_product_display.py:521 | *************************** Verifying Test Product Display 012 ***************************
+05/25/2025 01:55:45 AM |     ERROR | test_product_display.py:562 | Warning: Please select a review rating!
+05/25/2025 01:55:45 AM |     ERROR | test_product_display.py:563 | ************** Test Product Display 012 is Failed ***************
+05/25/2025 01:57:41 AM |      INFO | test_product_display.py:504 | *************************** Test Product Display 012 is Start ***************************
+05/25/2025 01:57:42 AM |      INFO | test_product_display.py:506 | Navigating to base url
+05/25/2025 01:57:43 AM |      INFO | test_product_display.py:509 | Entering iMac product to search text box field
+05/25/2025 01:57:43 AM |      INFO | test_product_display.py:511 | Clicking on the search icon button
+05/25/2025 01:57:43 AM |      INFO | test_product_display.py:514 | Clicking on the product display in search result
+05/25/2025 01:57:43 AM |      INFO | test_product_display.py:517 | Clicking on the review tab
+05/25/2025 01:57:43 AM |      INFO | test_product_display.py:519 | Clicking on the continue button
+05/25/2025 01:57:43 AM |      INFO | test_product_display.py:521 | *************************** Verifying Test Product Display 012 ***************************
+05/25/2025 01:57:44 AM |     ERROR | test_product_display.py:562 | Warning: Please select a review rating!
+05/25/2025 01:57:44 AM |     ERROR | test_product_display.py:563 | ************** Test Product Display 012 is Failed ***************
+05/25/2025 01:58:09 AM |      INFO | test_product_display.py:506 | *************************** Test Product Display 012 is Start ***************************
+05/25/2025 01:58:10 AM |      INFO | test_product_display.py:508 | Navigating to base url
+05/25/2025 01:58:10 AM |      INFO | test_product_display.py:511 | Entering iMac product to search text box field
+05/25/2025 01:58:11 AM |      INFO | test_product_display.py:513 | Clicking on the search icon button
+05/25/2025 01:58:11 AM |      INFO | test_product_display.py:516 | Clicking on the product display in search result
+05/25/2025 01:58:11 AM |      INFO | test_product_display.py:519 | Clicking on the review tab
+05/25/2025 01:58:11 AM |      INFO | test_product_display.py:521 | Clicking on the continue button
+05/25/2025 01:58:14 AM |      INFO | test_product_display.py:524 | *************************** Verifying Test Product Display 012 ***************************
+05/25/2025 01:58:14 AM |     ERROR | test_product_display.py:565 | Warning: Please select a review rating!
+05/25/2025 01:58:14 AM |     ERROR | test_product_display.py:566 | ************** Test Product Display 012 is Failed ***************
+05/25/2025 01:59:19 AM |      INFO | test_product_display.py:506 | *************************** Test Product Display 012 is Start ***************************
+05/25/2025 01:59:21 AM |      INFO | test_product_display.py:508 | Navigating to base url
+05/25/2025 01:59:21 AM |      INFO | test_product_display.py:511 | Entering iMac product to search text box field
+05/25/2025 01:59:21 AM |      INFO | test_product_display.py:513 | Clicking on the search icon button
+05/25/2025 01:59:22 AM |      INFO | test_product_display.py:516 | Clicking on the product display in search result
+05/25/2025 01:59:22 AM |      INFO | test_product_display.py:519 | Clicking on the review tab
+05/25/2025 01:59:22 AM |      INFO | test_product_display.py:521 | Clicking on the continue button
+05/25/2025 01:59:25 AM |      INFO | test_product_display.py:524 | *************************** Verifying Test Product Display 012 ***************************
+05/25/2025 01:59:25 AM |      INFO | test_product_display.py:528 | Clicking on the rating radio button
+05/25/2025 01:59:25 AM |      INFO | test_product_display.py:530 | Clicking on the continue button
+05/25/2025 01:59:25 AM |     ERROR | test_product_display.py:561 | Warning: Please select a review rating!
+05/25/2025 01:59:25 AM |     ERROR | test_product_display.py:562 | ************** Test Product Display 012 is Failed ***************
+05/25/2025 02:04:22 AM |      INFO | test_product_display.py:506 | *************************** Test Product Display 012 is Start ***************************
+05/25/2025 02:04:24 AM |      INFO | test_product_display.py:508 | Navigating to base url
+05/25/2025 02:04:24 AM |      INFO | test_product_display.py:511 | Entering iMac product to search text box field
+05/25/2025 02:04:24 AM |      INFO | test_product_display.py:513 | Clicking on the search icon button
+05/25/2025 02:04:25 AM |      INFO | test_product_display.py:516 | Clicking on the product display in search result
+05/25/2025 02:04:25 AM |      INFO | test_product_display.py:519 | Clicking on the review tab
+05/25/2025 02:04:25 AM |      INFO | test_product_display.py:521 | Clicking on the continue button
+05/25/2025 02:04:28 AM |      INFO | test_product_display.py:524 | *************************** Verifying Test Product Display 012 ***************************
+05/25/2025 02:04:28 AM |      INFO | test_product_display.py:528 | Clicking on the rating radio button
+05/25/2025 02:04:28 AM |      INFO | test_product_display.py:530 | Clicking on the continue button
+05/25/2025 02:04:28 AM |     ERROR | test_product_display.py:561 | Warning: Please select a review rating!
+05/25/2025 02:04:28 AM |     ERROR | test_product_display.py:562 | ************** Test Product Display 012 is Failed ***************
+05/25/2025 02:07:04 AM |      INFO | test_product_display.py:506 | *************************** Test Product Display 012 is Start ***************************
+05/25/2025 02:07:07 AM |      INFO | test_product_display.py:508 | Navigating to base url
+05/25/2025 02:07:07 AM |      INFO | test_product_display.py:511 | Entering iMac product to search text box field
+05/25/2025 02:07:07 AM |      INFO | test_product_display.py:513 | Clicking on the search icon button
+05/25/2025 02:07:08 AM |      INFO | test_product_display.py:516 | Clicking on the product display in search result
+05/25/2025 02:07:08 AM |      INFO | test_product_display.py:519 | Clicking on the review tab
+05/25/2025 02:07:08 AM |      INFO | test_product_display.py:521 | Clicking on the continue button
+05/25/2025 02:07:11 AM |      INFO | test_product_display.py:524 | *************************** Verifying Test Product Display 012 ***************************
+05/25/2025 02:08:18 AM |      INFO | test_product_display.py:506 | *************************** Test Product Display 012 is Start ***************************
+05/25/2025 02:08:19 AM |      INFO | test_product_display.py:508 | Navigating to base url
+05/25/2025 02:08:19 AM |      INFO | test_product_display.py:511 | Entering iMac product to search text box field
+05/25/2025 02:08:19 AM |      INFO | test_product_display.py:513 | Clicking on the search icon button
+05/25/2025 02:08:19 AM |      INFO | test_product_display.py:516 | Clicking on the product display in search result
+05/25/2025 02:08:20 AM |      INFO | test_product_display.py:519 | Clicking on the review tab
+05/25/2025 02:08:20 AM |      INFO | test_product_display.py:521 | Clicking on the continue button
+05/25/2025 02:08:23 AM |      INFO | test_product_display.py:524 | *************************** Verifying Test Product Display 012 ***************************
+05/25/2025 02:08:23 AM |      INFO | test_product_display.py:528 | Clicking on the rating radio button
+05/25/2025 02:08:23 AM |      INFO | test_product_display.py:530 | Clicking on the continue button
+05/25/2025 02:08:23 AM |     ERROR | test_product_display.py:561 | Warning: Please select a review rating!
+05/25/2025 02:08:23 AM |     ERROR | test_product_display.py:562 | ************** Test Product Display 012 is Failed ***************
+05/25/2025 02:12:03 AM |      INFO | test_product_display.py:506 | *************************** Test Product Display 012 is Start ***************************
+05/25/2025 02:12:06 AM |      INFO | test_product_display.py:508 | Navigating to base url
+05/25/2025 02:12:06 AM |      INFO | test_product_display.py:511 | Entering iMac product to search text box field
+05/25/2025 02:12:06 AM |      INFO | test_product_display.py:513 | Clicking on the search icon button
+05/25/2025 02:12:07 AM |      INFO | test_product_display.py:516 | Clicking on the product display in search result
+05/25/2025 02:12:07 AM |      INFO | test_product_display.py:519 | Clicking on the review tab
+05/25/2025 02:12:07 AM |      INFO | test_product_display.py:521 | Clicking on the continue button
+05/25/2025 02:12:10 AM |      INFO | test_product_display.py:524 | *************************** Verifying Test Product Display 012 ***************************
+05/25/2025 02:13:30 AM |      INFO | test_product_display.py:506 | *************************** Test Product Display 012 is Start ***************************
+05/25/2025 02:13:31 AM |      INFO | test_product_display.py:508 | Navigating to base url
+05/25/2025 02:13:31 AM |      INFO | test_product_display.py:511 | Entering iMac product to search text box field
+05/25/2025 02:13:31 AM |      INFO | test_product_display.py:513 | Clicking on the search icon button
+05/25/2025 02:13:31 AM |      INFO | test_product_display.py:516 | Clicking on the product display in search result
+05/25/2025 02:13:32 AM |      INFO | test_product_display.py:519 | Clicking on the review tab
+05/25/2025 02:13:32 AM |      INFO | test_product_display.py:521 | Clicking on the continue button
+05/25/2025 02:13:35 AM |      INFO | test_product_display.py:524 | *************************** Verifying Test Product Display 012 ***************************
+05/25/2025 02:13:35 AM |      INFO | test_product_display.py:528 | Clicking on the rating radio button
+05/25/2025 02:13:35 AM |      INFO | test_product_display.py:530 | Clicking on the continue button
+05/25/2025 02:13:35 AM |     ERROR | test_product_display.py:561 | Warning: Please select a review rating!
+05/25/2025 02:13:35 AM |     ERROR | test_product_display.py:562 | ************** Test Product Display 012 is Failed ***************
+05/25/2025 02:14:24 AM |      INFO | test_product_display.py:506 | *************************** Test Product Display 012 is Start ***************************
+05/25/2025 02:14:27 AM |      INFO | test_product_display.py:508 | Navigating to base url
+05/25/2025 02:14:27 AM |      INFO | test_product_display.py:511 | Entering iMac product to search text box field
+05/25/2025 02:14:27 AM |      INFO | test_product_display.py:513 | Clicking on the search icon button
+05/25/2025 02:14:28 AM |      INFO | test_product_display.py:516 | Clicking on the product display in search result
+05/25/2025 02:14:28 AM |      INFO | test_product_display.py:519 | Clicking on the review tab
+05/25/2025 02:14:28 AM |      INFO | test_product_display.py:521 | Clicking on the continue button
+05/25/2025 02:14:28 AM |      INFO | test_product_display.py:523 | *************************** Verifying Test Product Display 012 ***************************
+05/25/2025 02:14:28 AM |      INFO | test_product_display.py:527 | Clicking on the rating radio button
+05/25/2025 02:14:28 AM |      INFO | test_product_display.py:529 | Clicking on the continue button
+05/25/2025 02:14:28 AM |     ERROR | test_product_display.py:560 | Warning: Please select a review rating!
+05/25/2025 02:14:28 AM |     ERROR | test_product_display.py:561 | ************** Test Product Display 012 is Failed ***************
+05/25/2025 02:16:16 AM |      INFO | test_product_display.py:506 | *************************** Test Product Display 012 is Start ***************************
+05/25/2025 02:16:19 AM |      INFO | test_product_display.py:508 | Navigating to base url
+05/25/2025 02:16:19 AM |      INFO | test_product_display.py:511 | Entering iMac product to search text box field
+05/25/2025 02:16:19 AM |      INFO | test_product_display.py:513 | Clicking on the search icon button
+05/25/2025 02:16:20 AM |      INFO | test_product_display.py:516 | Clicking on the product display in search result
+05/25/2025 02:16:20 AM |      INFO | test_product_display.py:519 | Clicking on the review tab
+05/25/2025 02:16:20 AM |      INFO | test_product_display.py:521 | Clicking on the continue button
+05/25/2025 02:16:20 AM |      INFO | test_product_display.py:523 | *************************** Verifying Test Product Display 012 ***************************
+05/25/2025 02:16:20 AM |      INFO | test_product_display.py:527 | Clicking on the rating radio button
+05/25/2025 02:16:20 AM |      INFO | test_product_display.py:529 | Clicking on the continue button
+05/25/2025 02:16:22 AM |     ERROR | test_product_display.py:561 | Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:16:22 AM |     ERROR | test_product_display.py:562 | ************** Test Product Display 012 is Failed ***************
+05/25/2025 02:19:07 AM |      INFO | test_product_display.py:506 | *************************** Test Product Display 012 is Start ***************************
+05/25/2025 02:19:10 AM |      INFO | test_product_display.py:508 | Navigating to base url
+05/25/2025 02:19:10 AM |      INFO | test_product_display.py:511 | Entering iMac product to search text box field
+05/25/2025 02:19:11 AM |      INFO | test_product_display.py:513 | Clicking on the search icon button
+05/25/2025 02:19:13 AM |      INFO | test_product_display.py:516 | Clicking on the product display in search result
+05/25/2025 02:19:13 AM |      INFO | test_product_display.py:519 | Clicking on the review tab
+05/25/2025 02:19:13 AM |      INFO | test_product_display.py:521 | Clicking on the continue button
+05/25/2025 02:19:13 AM |      INFO | test_product_display.py:523 | *************************** Verifying Test Product Display 012 ***************************
+05/25/2025 02:19:13 AM |      INFO | test_product_display.py:527 | Clicking on the rating radio button
+05/25/2025 02:19:13 AM |      INFO | test_product_display.py:529 | Clicking on the continue button
+05/25/2025 02:19:15 AM |      INFO | test_product_display.py:535 | Entering review text
+05/25/2025 02:19:15 AM |      INFO | test_product_display.py:538 | Clicking on the continue button
+05/25/2025 02:19:16 AM |     ERROR | test_product_display.py:557 | Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:19:16 AM |     ERROR | test_product_display.py:558 | ************** Test Product Display 012 is Failed ***************
+05/25/2025 02:20:05 AM |      INFO | test_product_display.py:506 | *************************** Test Product Display 012 is Start ***************************
+05/25/2025 02:20:08 AM |      INFO | test_product_display.py:508 | Navigating to base url
+05/25/2025 02:20:08 AM |      INFO | test_product_display.py:511 | Entering iMac product to search text box field
+05/25/2025 02:20:09 AM |      INFO | test_product_display.py:513 | Clicking on the search icon button
+05/25/2025 02:20:10 AM |      INFO | test_product_display.py:516 | Clicking on the product display in search result
+05/25/2025 02:20:10 AM |      INFO | test_product_display.py:519 | Clicking on the review tab
+05/25/2025 02:20:10 AM |      INFO | test_product_display.py:521 | Clicking on the continue button
+05/25/2025 02:20:10 AM |      INFO | test_product_display.py:523 | *************************** Verifying Test Product Display 012 ***************************
+05/25/2025 02:20:10 AM |      INFO | test_product_display.py:527 | Clicking on the rating radio button
+05/25/2025 02:20:10 AM |      INFO | test_product_display.py:529 | Clicking on the continue button
+05/25/2025 02:20:13 AM |      INFO | test_product_display.py:535 | Entering review text
+05/25/2025 02:20:13 AM |      INFO | test_product_display.py:538 | Clicking on the continue button
+05/25/2025 02:20:13 AM |     ERROR | test_product_display.py:557 | Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:20:13 AM |     ERROR | test_product_display.py:558 | ************** Test Product Display 012 is Failed ***************
+05/25/2025 02:20:51 AM |      INFO | test_product_display.py:506 | *************************** Test Product Display 012 is Start ***************************
+05/25/2025 02:20:54 AM |      INFO | test_product_display.py:508 | Navigating to base url
+05/25/2025 02:20:54 AM |      INFO | test_product_display.py:511 | Entering iMac product to search text box field
+05/25/2025 02:20:55 AM |      INFO | test_product_display.py:513 | Clicking on the search icon button
+05/25/2025 02:20:56 AM |      INFO | test_product_display.py:516 | Clicking on the product display in search result
+05/25/2025 02:20:56 AM |      INFO | test_product_display.py:519 | Clicking on the review tab
+05/25/2025 02:20:56 AM |      INFO | test_product_display.py:521 | Clicking on the continue button
+05/25/2025 02:20:56 AM |      INFO | test_product_display.py:523 | *************************** Verifying Test Product Display 012 ***************************
+05/25/2025 02:20:56 AM |      INFO | test_product_display.py:527 | Clicking on the rating radio button
+05/25/2025 02:20:56 AM |      INFO | test_product_display.py:529 | Clicking on the continue button
+05/25/2025 02:20:59 AM |      INFO | test_product_display.py:535 | Entering review text
+05/25/2025 02:20:59 AM |      INFO | test_product_display.py:538 | Clicking on the continue button
+05/25/2025 02:21:01 AM |     ERROR | test_product_display.py:558 | Warning: Review Name must be between 3 and 25 characters!
+05/25/2025 02:21:01 AM |     ERROR | test_product_display.py:559 | ************** Test Product Display 012 is Failed ***************
+05/25/2025 02:21:38 AM |      INFO | test_product_display.py:506 | *************************** Test Product Display 012 is Start ***************************
+05/25/2025 02:21:40 AM |      INFO | test_product_display.py:508 | Navigating to base url
+05/25/2025 02:21:40 AM |      INFO | test_product_display.py:511 | Entering iMac product to search text box field
+05/25/2025 02:21:41 AM |      INFO | test_product_display.py:513 | Clicking on the search icon button
+05/25/2025 02:21:41 AM |      INFO | test_product_display.py:516 | Clicking on the product display in search result
+05/25/2025 02:21:41 AM |      INFO | test_product_display.py:519 | Clicking on the review tab
+05/25/2025 02:21:41 AM |      INFO | test_product_display.py:521 | Clicking on the continue button
+05/25/2025 02:21:41 AM |      INFO | test_product_display.py:523 | *************************** Verifying Test Product Display 012 ***************************
+05/25/2025 02:21:42 AM |      INFO | test_product_display.py:527 | Clicking on the rating radio button
+05/25/2025 02:21:42 AM |      INFO | test_product_display.py:529 | Clicking on the continue button
+05/25/2025 02:21:44 AM |      INFO | test_product_display.py:535 | Entering review text
+05/25/2025 02:21:44 AM |      INFO | test_product_display.py:538 | Clicking on the continue button
+05/25/2025 02:21:46 AM |      INFO | test_product_display.py:544 | Entering name to name text field
+05/25/2025 02:21:46 AM |      INFO | test_product_display.py:548 | Clicking on the continue button
+05/25/2025 02:21:48 AM |      INFO | test_product_display.py:553 | ************** Test Product Display 012 is Passed ***************
+05/25/2025 02:21:48 AM |      INFO | test_product_display.py:570 | *************************** End Of Test Product Display 012 ***************************
+05/25/2025 02:21:58 AM |      INFO | test_product_display.py:506 | *************************** Test Product Display 012 is Start ***************************
+05/25/2025 02:21:58 AM |      INFO | test_product_display.py:508 | Navigating to base url
+05/25/2025 02:22:01 AM |      INFO | test_product_display.py:511 | Entering iMac product to search text box field
+05/25/2025 02:22:01 AM |      INFO | test_product_display.py:513 | Clicking on the search icon button
+05/25/2025 02:22:02 AM |      INFO | test_product_display.py:516 | Clicking on the product display in search result
+05/25/2025 02:22:02 AM |      INFO | test_product_display.py:519 | Clicking on the review tab
+05/25/2025 02:22:02 AM |      INFO | test_product_display.py:521 | Clicking on the continue button
+05/25/2025 02:22:02 AM |      INFO | test_product_display.py:523 | *************************** Verifying Test Product Display 012 ***************************
+05/25/2025 02:22:03 AM |      INFO | test_product_display.py:527 | Clicking on the rating radio button
+05/25/2025 02:22:03 AM |      INFO | test_product_display.py:529 | Clicking on the continue button
+05/25/2025 02:22:05 AM |      INFO | test_product_display.py:535 | Entering review text
+05/25/2025 02:22:05 AM |      INFO | test_product_display.py:538 | Clicking on the continue button
+05/25/2025 02:22:08 AM |      INFO | test_product_display.py:544 | Entering name to name text field
+05/25/2025 02:22:08 AM |      INFO | test_product_display.py:548 | Clicking on the continue button
+05/25/2025 02:22:10 AM |      INFO | test_product_display.py:553 | ************** Test Product Display 012 is Passed ***************
+05/25/2025 02:22:10 AM |      INFO | test_product_display.py:570 | *************************** End Of Test Product Display 012 ***************************
+05/25/2025 02:25:27 AM |      INFO | test_product_display.py:506 | *************************** Test Product Display 012 is Start ***************************
+05/25/2025 02:25:30 AM |      INFO | test_product_display.py:508 | Navigating to base url
+05/25/2025 02:25:30 AM |      INFO | test_product_display.py:511 | Entering iMac product to search text box field
+05/25/2025 02:25:30 AM |      INFO | test_product_display.py:513 | Clicking on the search icon button
+05/25/2025 02:25:31 AM |      INFO | test_product_display.py:516 | Clicking on the product display in search result
+05/25/2025 02:25:31 AM |      INFO | test_product_display.py:519 | Clicking on the review tab
+05/25/2025 02:25:31 AM |      INFO | test_product_display.py:521 | Clicking on the continue button
+05/25/2025 02:25:31 AM |      INFO | test_product_display.py:523 | *************************** Verifying Test Product Display 012 ***************************
+05/25/2025 02:25:32 AM |      INFO | test_product_display.py:527 | Clicking on the rating radio button
+05/25/2025 02:25:32 AM |      INFO | test_product_display.py:529 | Clicking on the continue button
+05/25/2025 02:25:34 AM |      INFO | test_product_display.py:534 | Entering review text
+05/25/2025 02:25:34 AM |      INFO | test_product_display.py:537 | Clicking on the continue button
+05/25/2025 02:25:36 AM |      INFO | test_product_display.py:542 | Entering name to name text field
+05/25/2025 02:25:36 AM |      INFO | test_product_display.py:545 | Clicking on the continue button
+05/25/2025 02:25:38 AM |      INFO | test_product_display.py:550 | ************** Test Product Display 012 is Passed ***************
+05/25/2025 02:25:38 AM |      INFO | test_product_display.py:567 | *************************** End Of Test Product Display 012 ***************************
+05/25/2025 02:26:32 AM |      INFO | test_product_display.py:506 | *************************** Test Product Display 012 is Start ***************************
+05/25/2025 02:26:36 AM |      INFO | test_product_display.py:508 | Navigating to base url
+05/25/2025 02:26:36 AM |      INFO | test_product_display.py:511 | Entering iMac product to search text box field
+05/25/2025 02:26:37 AM |      INFO | test_product_display.py:513 | Clicking on the search icon button
+05/25/2025 02:26:38 AM |      INFO | test_product_display.py:516 | Clicking on the product display in search result
+05/25/2025 02:26:38 AM |      INFO | test_product_display.py:519 | Clicking on the review tab
+05/25/2025 02:26:38 AM |      INFO | test_product_display.py:521 | Clicking on the continue button
+05/25/2025 02:26:38 AM |      INFO | test_product_display.py:523 | *************************** Verifying Test Product Display 012 ***************************
+05/25/2025 02:26:38 AM |      INFO | test_product_display.py:527 | Clicking on the rating radio button
+05/25/2025 02:26:39 AM |      INFO | test_product_display.py:529 | Clicking on the continue button
+05/25/2025 02:26:39 AM |     ERROR | test_product_display.py:557 | Warning: Please select a review rating!
+05/25/2025 02:26:39 AM |     ERROR | test_product_display.py:558 | ************** Test Product Display 012 is Failed ***************
+05/25/2025 02:27:33 AM |      INFO | test_product_display.py:506 | *************************** Test Product Display 012 is Start ***************************
+05/25/2025 02:27:37 AM |      INFO | test_product_display.py:508 | Navigating to base url
+05/25/2025 02:27:37 AM |      INFO | test_product_display.py:511 | Entering iMac product to search text box field
+05/25/2025 02:27:37 AM |      INFO | test_product_display.py:513 | Clicking on the search icon button
+05/25/2025 02:27:38 AM |      INFO | test_product_display.py:516 | Clicking on the product display in search result
+05/25/2025 02:27:38 AM |      INFO | test_product_display.py:519 | Clicking on the review tab
+05/25/2025 02:27:39 AM |      INFO | test_product_display.py:521 | Clicking on the continue button
+05/25/2025 02:27:39 AM |      INFO | test_product_display.py:523 | *************************** Verifying Test Product Display 012 ***************************
+05/25/2025 02:27:39 AM |      INFO | test_product_display.py:527 | Clicking on the rating radio button
+05/25/2025 02:27:39 AM |      INFO | test_product_display.py:529 | Clicking on the continue button
+05/25/2025 02:27:41 AM |      INFO | test_product_display.py:534 | Entering review text
+05/25/2025 02:27:41 AM |      INFO | test_product_display.py:537 | Clicking on the continue button
+05/25/2025 02:27:43 AM |      INFO | test_product_display.py:542 | Entering name to name text field
+05/25/2025 02:27:44 AM |      INFO | test_product_display.py:545 | Clicking on the continue button
+05/25/2025 02:27:46 AM |      INFO | test_product_display.py:550 | ************** Test Product Display 012 is Passed ***************
+05/25/2025 02:27:46 AM |      INFO | test_product_display.py:567 | *************************** End Of Test Product Display 012 ***************************
+05/25/2025 02:32:05 AM |      INFO | test_product_display.py:506 | *************************** Test Product Display 012 is Start ***************************
+05/25/2025 02:32:07 AM |      INFO | test_product_display.py:508 | Navigating to base url
+05/25/2025 02:32:07 AM |      INFO | test_product_display.py:511 | Entering iMac product to search text box field
+05/25/2025 02:32:07 AM |      INFO | test_product_display.py:513 | Clicking on the search icon button
+05/25/2025 02:32:08 AM |      INFO | test_product_display.py:516 | Clicking on the product display in search result
+05/25/2025 02:32:08 AM |      INFO | test_product_display.py:519 | Clicking on the review tab
+05/25/2025 02:32:08 AM |      INFO | test_product_display.py:521 | Clicking on the continue button
+05/25/2025 02:32:08 AM |      INFO | test_product_display.py:523 | *************************** Verifying Test Product Display 012 ***************************
+05/25/2025 02:32:08 AM |      INFO | test_product_display.py:527 | Clicking on the rating radio button
+05/25/2025 02:32:08 AM |      INFO | test_product_display.py:529 | Clicking on the continue button
+05/25/2025 02:32:10 AM |      INFO | test_product_display.py:534 | Entering review text
+05/25/2025 02:32:11 AM |      INFO | test_product_display.py:537 | Clicking on the continue button
+05/25/2025 02:32:13 AM |      INFO | test_product_display.py:542 | Entering name to name text field
+05/25/2025 02:32:13 AM |      INFO | test_product_display.py:545 | Clicking on the continue button
+05/25/2025 02:32:15 AM |      INFO | test_product_display.py:550 | ************** Test Product Display 012 is Passed ***************
+05/25/2025 02:32:15 AM |      INFO | test_product_display.py:567 | *************************** End Of Test Product Display 012 ***************************
+05/25/2025 02:32:46 AM |      INFO | test_product_display.py:506 | *************************** Test Product Display 012 is Start ***************************
+05/25/2025 02:32:48 AM |      INFO | test_product_display.py:508 | Navigating to base url
+05/25/2025 02:32:48 AM |      INFO | test_product_display.py:511 | Entering iMac product to search text box field
+05/25/2025 02:32:49 AM |      INFO | test_product_display.py:513 | Clicking on the search icon button
+05/25/2025 02:32:49 AM |      INFO | test_product_display.py:516 | Clicking on the product display in search result
+05/25/2025 02:32:49 AM |      INFO | test_product_display.py:519 | Clicking on the review tab
+05/25/2025 02:32:50 AM |      INFO | test_product_display.py:521 | Clicking on the continue button
+05/25/2025 02:32:50 AM |      INFO | test_product_display.py:523 | *************************** Verifying Test Product Display 012 ***************************
+05/25/2025 02:32:50 AM |      INFO | test_product_display.py:527 | Clicking on the rating radio button
+05/25/2025 02:32:50 AM |      INFO | test_product_display.py:529 | Clicking on the continue button
+05/25/2025 02:32:50 AM |     ERROR | test_product_display.py:557 | Warning: Please select a review rating!
+05/25/2025 02:32:50 AM |     ERROR | test_product_display.py:558 | ************** Test Product Display 012 is Failed ***************
+05/25/2025 02:36:30 AM |      INFO | test_product_display.py:506 | *************************** Test Product Display 012 is Start ***************************
+05/25/2025 02:36:32 AM |      INFO | test_product_display.py:508 | Navigating to base url
+05/25/2025 02:36:33 AM |      INFO | test_product_display.py:511 | Entering iMac product to search text box field
+05/25/2025 02:36:33 AM |      INFO | test_product_display.py:513 | Clicking on the search icon button
+05/25/2025 02:36:34 AM |      INFO | test_product_display.py:516 | Clicking on the product display in search result
+05/25/2025 02:36:34 AM |      INFO | test_product_display.py:519 | Clicking on the review tab
+05/25/2025 02:36:34 AM |      INFO | test_product_display.py:521 | Clicking on the continue button
+05/25/2025 02:36:34 AM |      INFO | test_product_display.py:523 | *************************** Verifying Test Product Display 012 ***************************
+05/25/2025 02:36:35 AM |      INFO | test_product_display.py:527 | Clicking on the rating radio button
+05/25/2025 02:36:35 AM |      INFO | test_product_display.py:529 | Clicking on the continue button
+05/25/2025 02:36:35 AM |     ERROR | test_product_display.py:557 | Warning: Please select a review rating!
+05/25/2025 02:36:35 AM |     ERROR | test_product_display.py:558 | ************** Test Product Display 012 is Failed ***************
+05/25/2025 02:40:46 AM |      INFO | test_product_display.py:506 | *************************** Test Product Display 012 is Start ***************************
+05/25/2025 02:40:50 AM |      INFO | test_product_display.py:510 | Navigating to base URL
+05/25/2025 02:40:50 AM |      INFO | test_product_display.py:514 | Searching for iMac
+05/25/2025 02:40:51 AM |      INFO | test_product_display.py:517 | Clicking the search button
+05/25/2025 02:40:52 AM |      INFO | test_product_display.py:521 | Selecting product from search results
+05/25/2025 02:40:52 AM |      INFO | test_product_display.py:525 | Opening the review tab
+05/25/2025 02:40:52 AM |      INFO | test_product_display.py:529 | Selecting a rating
+05/25/2025 02:40:52 AM |      INFO | test_product_display.py:532 | Clicking the continue button
+05/25/2025 02:40:52 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:40:53 AM |      INFO | test_product_display.py:543 | Entering review text
+05/25/2025 02:40:53 AM |      INFO | test_product_display.py:551 | Clicking the continue button again
+05/25/2025 02:40:53 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:40:53 AM |      INFO | test_product_display.py:543 | Entering review text
+05/25/2025 02:40:53 AM |      INFO | test_product_display.py:551 | Clicking the continue button again
+05/25/2025 02:40:53 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Name must be between 3 and 25 characters!
+05/25/2025 02:40:53 AM |      INFO | test_product_display.py:547 | Entering name
+05/25/2025 02:40:53 AM |      INFO | test_product_display.py:551 | Clicking the continue button again
+05/25/2025 02:40:53 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Name must be between 3 and 25 characters!
+05/25/2025 02:40:54 AM |      INFO | test_product_display.py:547 | Entering name
+05/25/2025 02:40:54 AM |      INFO | test_product_display.py:551 | Clicking the continue button again
+05/25/2025 02:40:54 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Please select a review rating!
+05/25/2025 02:40:54 AM |      INFO | test_product_display.py:551 | Clicking the continue button again
+05/25/2025 02:40:54 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Please select a review rating!
+05/25/2025 02:40:56 AM |      INFO | test_product_display.py:551 | Clicking the continue button again
+05/25/2025 02:40:56 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Please select a review rating!
+05/25/2025 02:40:58 AM |      INFO | test_product_display.py:551 | Clicking the continue button again
+05/25/2025 02:40:58 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Please select a review rating!
+05/25/2025 02:41:01 AM |      INFO | test_product_display.py:551 | Clicking the continue button again
+05/25/2025 02:41:01 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Please select a review rating!
+05/25/2025 02:41:03 AM |      INFO | test_product_display.py:551 | Clicking the continue button again
+05/25/2025 02:41:03 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Please select a review rating!
+05/25/2025 02:41:05 AM |      INFO | test_product_display.py:551 | Clicking the continue button again
+05/25/2025 02:41:05 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Please select a review rating!
+05/25/2025 02:41:07 AM |      INFO | test_product_display.py:551 | Clicking the continue button again
+05/25/2025 02:41:07 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Please select a review rating!
+05/25/2025 02:41:09 AM |      INFO | test_product_display.py:551 | Clicking the continue button again
+05/25/2025 02:41:09 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Please select a review rating!
+05/25/2025 02:43:57 AM |      INFO | test_product_display.py:506 | *************************** Test Product Display 012 is Start ***************************
+05/25/2025 02:44:00 AM |      INFO | test_product_display.py:510 | Navigating to base URL
+05/25/2025 02:44:00 AM |      INFO | test_product_display.py:514 | Searching for iMac
+05/25/2025 02:44:01 AM |      INFO | test_product_display.py:517 | Clicking the search button
+05/25/2025 02:44:01 AM |      INFO | test_product_display.py:521 | Selecting product from search results
+05/25/2025 02:44:01 AM |      INFO | test_product_display.py:525 | Opening the review tab
+05/25/2025 02:44:02 AM |      INFO | test_product_display.py:529 | Selecting a rating
+05/25/2025 02:44:02 AM |      INFO | test_product_display.py:532 | Clicking the continue button
+05/25/2025 02:44:02 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:44:02 AM |      INFO | test_product_display.py:543 | Entering review text
+05/25/2025 02:44:03 AM |      INFO | test_product_display.py:551 | Clicking the continue button again
+05/25/2025 02:44:03 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:44:03 AM |      INFO | test_product_display.py:543 | Entering review text
+05/25/2025 02:44:03 AM |      INFO | test_product_display.py:551 | Clicking the continue button again
+05/25/2025 02:44:03 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Name must be between 3 and 25 characters!
+05/25/2025 02:44:03 AM |      INFO | test_product_display.py:547 | Entering name
+05/25/2025 02:44:03 AM |      INFO | test_product_display.py:551 | Clicking the continue button again
+05/25/2025 02:44:03 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Name must be between 3 and 25 characters!
+05/25/2025 02:44:03 AM |      INFO | test_product_display.py:547 | Entering name
+05/25/2025 02:44:03 AM |      INFO | test_product_display.py:551 | Clicking the continue button again
+05/25/2025 02:44:04 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Please select a review rating!
+05/25/2025 02:44:04 AM |      INFO | test_product_display.py:551 | Clicking the continue button again
+05/25/2025 02:44:04 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Please select a review rating!
+05/25/2025 02:44:06 AM |      INFO | test_product_display.py:551 | Clicking the continue button again
+05/25/2025 02:44:06 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Please select a review rating!
+05/25/2025 02:44:08 AM |      INFO | test_product_display.py:551 | Clicking the continue button again
+05/25/2025 02:44:08 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Please select a review rating!
+05/25/2025 02:44:10 AM |      INFO | test_product_display.py:551 | Clicking the continue button again
+05/25/2025 02:44:10 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Please select a review rating!
+05/25/2025 02:44:12 AM |      INFO | test_product_display.py:551 | Clicking the continue button again
+05/25/2025 02:44:12 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Please select a review rating!
+05/25/2025 02:44:15 AM |      INFO | test_product_display.py:551 | Clicking the continue button again
+05/25/2025 02:44:15 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Please select a review rating!
+05/25/2025 02:44:17 AM |      INFO | test_product_display.py:551 | Clicking the continue button again
+05/25/2025 02:44:17 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Please select a review rating!
+05/25/2025 02:44:19 AM |      INFO | test_product_display.py:551 | Clicking the continue button again
+05/25/2025 02:44:19 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Please select a review rating!
+05/25/2025 02:44:21 AM |      INFO | test_product_display.py:551 | Clicking the continue button again
+05/25/2025 02:44:21 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Please select a review rating!
+05/25/2025 02:44:23 AM |      INFO | test_product_display.py:551 | Clicking the continue button again
+05/25/2025 02:44:23 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Please select a review rating!
+05/25/2025 02:44:26 AM |      INFO | test_product_display.py:551 | Clicking the continue button again
+05/25/2025 02:44:26 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Please select a review rating!
+05/25/2025 02:44:28 AM |      INFO | test_product_display.py:551 | Clicking the continue button again
+05/25/2025 02:44:28 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Please select a review rating!
+05/25/2025 02:44:30 AM |      INFO | test_product_display.py:551 | Clicking the continue button again
+05/25/2025 02:44:30 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Please select a review rating!
+05/25/2025 02:44:32 AM |      INFO | test_product_display.py:551 | Clicking the continue button again
+05/25/2025 02:44:32 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Please select a review rating!
+05/25/2025 02:44:34 AM |      INFO | test_product_display.py:551 | Clicking the continue button again
+05/25/2025 02:44:35 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Please select a review rating!
+05/25/2025 02:44:37 AM |      INFO | test_product_display.py:551 | Clicking the continue button again
+05/25/2025 02:44:37 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Please select a review rating!
+05/25/2025 02:44:39 AM |      INFO | test_product_display.py:551 | Clicking the continue button again
+05/25/2025 02:44:39 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Please select a review rating!
+05/25/2025 02:46:24 AM |      INFO | test_product_display.py:506 | *************************** Test Product Display 012 is Start ***************************
+05/25/2025 02:46:26 AM |      INFO | test_product_display.py:510 | Navigating to base URL
+05/25/2025 02:46:26 AM |      INFO | test_product_display.py:514 | Searching for iMac
+05/25/2025 02:46:27 AM |      INFO | test_product_display.py:517 | Clicking the search button
+05/25/2025 02:46:27 AM |      INFO | test_product_display.py:521 | Selecting product from search results
+05/25/2025 02:46:27 AM |      INFO | test_product_display.py:525 | Opening the review tab
+05/25/2025 02:46:27 AM |      INFO | test_product_display.py:529 | Selecting a rating
+05/25/2025 02:46:27 AM |      INFO | test_product_display.py:532 | Clicking the continue button
+05/25/2025 02:46:28 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:46:28 AM |      INFO | test_product_display.py:543 | Entering review text
+05/25/2025 02:46:28 AM |      INFO | test_product_display.py:551 | Clicking the continue button again
+05/25/2025 02:46:28 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:46:28 AM |      INFO | test_product_display.py:543 | Entering review text
+05/25/2025 02:46:28 AM |      INFO | test_product_display.py:551 | Clicking the continue button again
+05/25/2025 02:46:28 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Name must be between 3 and 25 characters!
+05/25/2025 02:46:29 AM |      INFO | test_product_display.py:547 | Entering name
+05/25/2025 02:46:29 AM |      INFO | test_product_display.py:551 | Clicking the continue button again
+05/25/2025 02:46:29 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Name must be between 3 and 25 characters!
+05/25/2025 02:46:29 AM |      INFO | test_product_display.py:547 | Entering name
+05/25/2025 02:46:31 AM |      INFO | test_product_display.py:551 | Clicking the continue button again
+05/25/2025 02:46:31 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Please select a review rating!
+05/25/2025 02:46:31 AM |      INFO | test_product_display.py:551 | Clicking the continue button again
+05/25/2025 02:46:31 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Please select a review rating!
+05/25/2025 02:46:33 AM |      INFO | test_product_display.py:551 | Clicking the continue button again
+05/25/2025 02:46:33 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Please select a review rating!
+05/25/2025 02:46:36 AM |      INFO | test_product_display.py:551 | Clicking the continue button again
+05/25/2025 02:46:36 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Please select a review rating!
+05/25/2025 02:46:38 AM |      INFO | test_product_display.py:551 | Clicking the continue button again
+05/25/2025 02:46:38 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Please select a review rating!
+05/25/2025 02:46:40 AM |      INFO | test_product_display.py:551 | Clicking the continue button again
+05/25/2025 02:46:40 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Please select a review rating!
+05/25/2025 02:46:42 AM |      INFO | test_product_display.py:551 | Clicking the continue button again
+05/25/2025 02:46:42 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Please select a review rating!
+05/25/2025 02:46:44 AM |      INFO | test_product_display.py:551 | Clicking the continue button again
+05/25/2025 02:46:44 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Please select a review rating!
+05/25/2025 02:46:46 AM |      INFO | test_product_display.py:551 | Clicking the continue button again
+05/25/2025 02:46:46 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Please select a review rating!
+05/25/2025 02:46:49 AM |      INFO | test_product_display.py:551 | Clicking the continue button again
+05/25/2025 02:46:49 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Please select a review rating!
+05/25/2025 02:46:51 AM |      INFO | test_product_display.py:551 | Clicking the continue button again
+05/25/2025 02:46:51 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Please select a review rating!
+05/25/2025 02:46:53 AM |      INFO | test_product_display.py:551 | Clicking the continue button again
+05/25/2025 02:46:53 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Please select a review rating!
+05/25/2025 02:51:05 AM |      INFO | test_product_display.py:506 | *************************** Test Product Display 012 is Start ***************************
+05/25/2025 02:51:08 AM |      INFO | test_product_display.py:510 | Navigating to base URL
+05/25/2025 02:51:08 AM |      INFO | test_product_display.py:514 | Searching for iMac
+05/25/2025 02:51:09 AM |      INFO | test_product_display.py:517 | Clicking the search button
+05/25/2025 02:51:10 AM |      INFO | test_product_display.py:521 | Selecting product from search results
+05/25/2025 02:51:10 AM |      INFO | test_product_display.py:525 | Opening the review tab
+05/25/2025 02:51:10 AM |      INFO | test_product_display.py:529 | Selecting a rating
+05/25/2025 02:51:10 AM |      INFO | test_product_display.py:532 | Clicking the continue button
+05/25/2025 02:51:10 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:51:10 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:51:10 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:51:11 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:51:11 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:51:11 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:51:11 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Name must be between 3 and 25 characters!
+05/25/2025 02:51:11 AM |      INFO | test_product_display.py:551 | Entering name
+05/25/2025 02:52:04 AM |      INFO | test_product_display.py:506 | *************************** Test Product Display 012 is Start ***************************
+05/25/2025 02:52:05 AM |      INFO | test_product_display.py:510 | Navigating to base URL
+05/25/2025 02:52:05 AM |      INFO | test_product_display.py:514 | Searching for iMac
+05/25/2025 02:52:06 AM |      INFO | test_product_display.py:517 | Clicking the search button
+05/25/2025 02:52:06 AM |      INFO | test_product_display.py:521 | Selecting product from search results
+05/25/2025 02:52:06 AM |      INFO | test_product_display.py:525 | Opening the review tab
+05/25/2025 02:52:06 AM |      INFO | test_product_display.py:529 | Selecting a rating
+05/25/2025 02:52:06 AM |      INFO | test_product_display.py:532 | Clicking the continue button
+05/25/2025 02:52:07 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:07 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:07 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:07 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:07 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:07 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:07 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:08 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:08 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:08 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:08 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:08 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:08 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:08 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:08 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:08 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:08 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:09 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:09 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:09 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:11 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:11 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:11 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:11 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:11 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:11 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:12 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:12 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:12 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:12 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:12 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:12 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:12 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:12 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:12 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:12 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:12 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:13 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:13 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:13 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:13 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:13 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:13 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:13 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:13 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:13 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:14 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:14 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:14 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:14 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:14 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:14 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:14 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:14 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:14 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:15 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:15 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:15 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:15 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:15 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:15 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:15 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:15 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:15 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:16 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:16 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:16 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:16 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:16 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:16 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:16 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:16 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:16 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:16 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:17 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:17 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:17 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:17 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:17 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:17 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:17 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:17 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:17 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:17 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:17 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:17 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:17 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:17 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:18 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:18 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:18 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:18 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:18 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:18 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:18 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:18 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:18 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:18 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:18 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:18 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:19 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:19 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:19 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:19 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:19 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:19 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:19 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:19 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:19 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:19 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:19 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:19 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:19 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:20 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:20 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:20 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:20 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:20 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:20 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:20 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:20 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:20 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:20 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:20 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:20 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:20 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:20 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:21 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:21 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:21 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:21 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:21 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:21 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:21 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:21 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:21 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:21 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:21 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:21 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:21 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:22 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:22 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:22 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:22 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:22 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:22 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:24 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:24 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:24 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:24 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:24 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:24 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:26 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:26 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:27 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:29 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:29 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:29 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:31 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:31 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:31 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:31 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:31 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:31 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:32 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:32 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:32 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:32 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:32 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:32 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:32 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:32 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:32 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:32 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:32 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:33 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:33 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:33 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:33 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:33 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:33 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:33 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:33 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:33 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:34 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:34 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:34 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:34 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:34 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:34 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:34 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:34 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:34 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:34 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:34 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:34 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:35 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:35 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:35 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:35 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:35 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:35 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:35 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:35 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:35 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:35 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:35 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:35 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:35 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:36 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:36 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:36 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:36 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:36 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:36 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:36 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:36 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:36 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:36 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:36 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:36 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:36 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:36 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:37 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:37 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:37 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:37 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:37 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:37 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:37 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:39 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:39 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:39 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:41 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:41 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:42 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:42 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:42 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:42 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:42 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:42 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:42 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:42 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:42 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:42 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:42 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:42 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:43 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:43 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:43 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:43 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:43 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:43 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:43 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:52:43 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:52:43 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:52:43 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:53:48 AM |      INFO | test_product_display.py:506 | *************************** Test Product Display 012 is Start ***************************
+05/25/2025 02:53:49 AM |      INFO | test_product_display.py:510 | Navigating to base URL
+05/25/2025 02:53:50 AM |      INFO | test_product_display.py:514 | Searching for iMac
+05/25/2025 02:53:50 AM |      INFO | test_product_display.py:517 | Clicking the search button
+05/25/2025 02:53:51 AM |      INFO | test_product_display.py:521 | Selecting product from search results
+05/25/2025 02:53:51 AM |      INFO | test_product_display.py:525 | Opening the review tab
+05/25/2025 02:53:51 AM |      INFO | test_product_display.py:529 | Selecting a rating
+05/25/2025 02:53:51 AM |      INFO | test_product_display.py:532 | Clicking the continue button
+05/25/2025 02:53:51 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:53:51 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:53:51 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:53:51 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:53:52 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:53:52 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:53:52 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:53:52 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:53:52 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:53:52 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:53:52 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:53:52 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:53:52 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:53:52 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:53:53 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:53:53 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:53:53 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:53:55 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:53:55 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:53:55 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:53:55 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:53:55 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:53:55 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:53:55 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:53:55 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:53:56 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:53:56 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:53:56 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:53:56 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:53:56 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:53:56 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:53:56 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:53:56 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:53:56 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:53:57 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:53:57 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:53:57 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:53:57 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:53:57 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:53:57 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:53:57 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:53:57 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:53:57 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:53:57 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:53:57 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:53:57 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:53:58 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:53:58 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:53:58 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:53:58 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:53:58 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:53:58 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:53:58 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:53:58 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:53:58 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:53:59 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:53:59 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:53:59 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:53:59 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:53:59 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:53:59 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:53:59 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:53:59 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:53:59 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:00 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:00 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:00 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:00 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:00 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:00 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:00 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:00 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:00 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:00 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:01 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:01 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:01 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:01 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:01 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:01 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:01 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:01 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:01 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:01 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:01 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:02 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:02 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:02 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:02 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:02 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:02 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:02 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:02 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:02 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:02 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:02 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:02 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:02 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:03 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:03 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:03 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:05 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:05 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:05 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:07 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:07 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:07 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:07 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:07 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:08 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:08 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:08 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:08 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:08 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:08 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:08 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:08 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:08 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:09 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:11 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:11 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:11 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:11 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:11 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:11 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:11 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:11 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:12 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:12 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:12 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:12 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:12 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:12 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:12 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:12 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:12 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:12 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:13 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:13 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:13 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:15 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:15 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:15 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:15 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:15 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:15 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:15 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:15 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:16 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:16 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:16 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:16 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:16 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:16 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:16 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:16 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:16 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:17 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:17 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:17 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:17 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:17 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:17 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:17 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:17 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:17 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:17 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:18 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:18 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:18 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:18 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:18 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:18 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:19 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:19 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:19 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:19 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:19 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:19 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:19 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:19 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:19 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:20 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:20 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:20 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:20 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:20 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:20 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:20 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:20 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:20 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:20 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:20 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:21 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:21 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:21 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:21 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:23 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:23 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:23 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:25 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:25 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:25 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:25 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:25 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:26 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:26 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:26 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:26 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:26 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:26 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:26 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:26 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:26 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:27 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:27 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:27 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:27 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:27 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:27 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:27 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:27 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:27 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:28 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:28 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:28 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:28 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:28 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:28 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:28 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:28 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:28 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:28 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:29 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:29 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:29 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:29 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:29 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:29 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:29 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:29 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:29 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:29 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:29 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:29 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:29 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:29 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:30 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:30 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:30 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:30 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:30 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:30 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:30 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:30 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:30 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:30 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:30 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:30 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:30 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:31 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:31 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:31 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:31 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:31 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:31 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:31 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:31 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:31 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:31 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:31 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:31 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:31 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:31 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:32 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:32 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:32 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:32 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:32 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:32 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:32 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:32 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:32 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:32 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:32 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:32 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:32 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:33 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:33 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:33 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:35 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:35 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:35 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:54:35 AM |      INFO | test_product_display.py:556 | Clicking the continue button again
+05/25/2025 02:54:35 AM |   WARNING | test_product_display.py:539 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 02:54:35 AM |      INFO | test_product_display.py:547 | Entering review text
+05/25/2025 02:56:57 AM |      INFO | test_product_display.py:506 | *************************** Test Product Display 012 is Start ***************************
+05/25/2025 02:56:58 AM |      INFO | test_product_display.py:508 | Navigating to base url
+05/25/2025 02:56:58 AM |      INFO | test_product_display.py:511 | Entering iMac product to search text box field
+05/25/2025 02:56:59 AM |      INFO | test_product_display.py:513 | Clicking on the search icon button
+05/25/2025 02:56:59 AM |      INFO | test_product_display.py:516 | Clicking on the product display in search result
+05/25/2025 02:56:59 AM |      INFO | test_product_display.py:519 | Clicking on the review tab
+05/25/2025 02:56:59 AM |      INFO | test_product_display.py:521 | Clicking on the continue button
+05/25/2025 02:57:00 AM |      INFO | test_product_display.py:523 | *************************** Verifying Test Product Display 012 ***************************
+05/25/2025 02:57:00 AM |      INFO | test_product_display.py:527 | Clicking on the rating radio button
+05/25/2025 02:57:00 AM |      INFO | test_product_display.py:529 | Clicking on the continue button
+05/25/2025 02:57:01 AM |      INFO | test_product_display.py:534 | Entering review text
+05/25/2025 02:57:01 AM |      INFO | test_product_display.py:537 | Clicking on the continue button
+05/25/2025 02:57:02 AM |      INFO | test_product_display.py:542 | Entering name to name text field
+05/25/2025 02:57:03 AM |      INFO | test_product_display.py:545 | Clicking on the continue button
+05/25/2025 02:57:04 AM |      INFO | test_product_display.py:550 | ************** Test Product Display 012 is Passed ***************
+05/25/2025 02:57:04 AM |      INFO | test_product_display.py:567 | *************************** End Of Test Product Display 012 ***************************
+05/25/2025 03:00:29 AM |      INFO | test_product_display.py:506 | *************************** Test Product Display 012 is Start ***************************
+05/25/2025 03:00:32 AM |      INFO | test_product_display.py:510 | Navigating to base URL
+05/25/2025 03:00:32 AM |      INFO | test_product_display.py:514 | Searching for iMac
+05/25/2025 03:00:33 AM |      INFO | test_product_display.py:517 | Clicking the search button
+05/25/2025 03:00:33 AM |      INFO | test_product_display.py:521 | Selecting product from search results
+05/25/2025 03:00:33 AM |      INFO | test_product_display.py:525 | Opening the review tab
+05/25/2025 03:00:34 AM |      INFO | test_product_display.py:529 | Selecting a rating
+05/25/2025 03:00:34 AM |      INFO | test_product_display.py:532 | Clicking the continue button
+05/25/2025 03:00:34 AM |   WARNING | test_product_display.py:542 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 03:00:34 AM |      INFO | test_product_display.py:546 | Entering review text
+05/25/2025 03:00:34 AM |      INFO | test_product_display.py:554 | Clicking the continue button again
+05/25/2025 03:00:34 AM |   WARNING | test_product_display.py:542 | Handling warning: Warning: Review Text must be between 25 and 1000 characters!
+05/25/2025 03:00:35 AM |      INFO | test_product_display.py:546 | Entering review text
+05/25/2025 03:00:35 AM |      INFO | test_product_display.py:554 | Clicking the continue button again
+05/25/2025 03:00:35 AM |   WARNING | test_product_display.py:542 | Handling warning: Warning: Review Name must be between 3 and 25 characters!
+05/25/2025 03:00:35 AM |      INFO | test_product_display.py:550 | Entering name
+05/25/2025 03:00:35 AM |      INFO | test_product_display.py:554 | Clicking the continue button again
+05/25/2025 03:00:35 AM |      INFO | test_product_display.py:563 | ************** Test Product Display 012 Passed ***************
+05/25/2025 03:00:35 AM |      INFO | test_product_display.py:564 | *************************** End Of Test Product Display 012 ***************************
+05/25/2025 03:08:16 AM |      INFO | test_product_display.py:509 | *************************** Test Product Display 012 is Start ***************************
+05/25/2025 03:08:20 AM |      INFO | test_product_display.py:513 | Navigating to base URL
+05/25/2025 03:08:20 AM |      INFO | test_product_display.py:517 | Searching for iMac
+05/25/2025 03:08:20 AM |      INFO | test_product_display.py:520 | Clicking the search button
+05/25/2025 03:08:21 AM |      INFO | test_product_display.py:524 | Selecting product from search results
+05/25/2025 03:08:22 AM |      INFO | test_product_display.py:528 | Opening the review tab
+05/25/2025 03:08:50 AM |      INFO | test_product_display.py:506 | *************************** Test Product Display 012 is Start ***************************
+05/25/2025 03:08:51 AM |      INFO | test_product_display.py:508 | Navigating to base url
+05/25/2025 03:08:51 AM |      INFO | test_product_display.py:511 | Entering iMac product to search text box field
+05/25/2025 03:08:51 AM |      INFO | test_product_display.py:513 | Clicking on the search icon button
+05/25/2025 03:08:52 AM |      INFO | test_product_display.py:516 | Clicking on the product display in search result
+05/25/2025 03:08:52 AM |      INFO | test_product_display.py:519 | Clicking on the review tab
+05/25/2025 03:08:53 AM |      INFO | test_product_display.py:521 | Clicking on the continue button
+05/25/2025 03:08:53 AM |      INFO | test_product_display.py:523 | *************************** Verifying Test Product Display 012 ***************************
+05/25/2025 03:08:53 AM |      INFO | test_product_display.py:527 | Clicking on the rating radio button
+05/25/2025 03:08:53 AM |      INFO | test_product_display.py:529 | Clicking on the continue button
+05/25/2025 03:08:54 AM |      INFO | test_product_display.py:534 | Entering review text
+05/25/2025 03:08:54 AM |      INFO | test_product_display.py:537 | Clicking on the continue button
+05/25/2025 03:08:56 AM |      INFO | test_product_display.py:542 | Entering name to name text field
+05/25/2025 03:08:56 AM |      INFO | test_product_display.py:545 | Clicking on the continue button
+05/25/2025 03:08:57 AM |      INFO | test_product_display.py:550 | ************** Test Product Display 012 is Passed ***************
+05/25/2025 03:08:57 AM |      INFO | test_product_display.py:567 | *************************** End Of Test Product Display 012 ***************************
+05/25/2025 03:12:16 AM |      INFO | test_product_display.py:506 | *************************** Test Product Display 012 is Start ***************************
+05/25/2025 03:12:17 AM |      INFO | test_product_display.py:508 | Navigating to base url
+05/25/2025 03:12:18 AM |      INFO | test_product_display.py:511 | Entering iMac product to search text box field
+05/25/2025 03:12:18 AM |      INFO | test_product_display.py:513 | Clicking on the search icon button
+05/25/2025 03:12:19 AM |      INFO | test_product_display.py:516 | Clicking on the product display in search result
+05/25/2025 03:12:19 AM |      INFO | test_product_display.py:519 | Clicking on the review tab
+05/25/2025 03:12:19 AM |      INFO | test_product_display.py:521 | Clicking on the continue button
+05/25/2025 03:12:19 AM |      INFO | test_product_display.py:523 | *************************** Verifying Test Product Display 012 ***************************
+05/25/2025 03:12:19 AM |      INFO | test_product_display.py:527 | Clicking on the rating radio button
+05/25/2025 03:12:19 AM |      INFO | test_product_display.py:529 | Clicking on the continue button
+05/25/2025 03:12:20 AM |      INFO | test_product_display.py:534 | Entering review text
+05/25/2025 03:12:21 AM |      INFO | test_product_display.py:537 | Clicking on the continue button
+05/25/2025 03:12:22 AM |      INFO | test_product_display.py:542 | Entering name to name text field
+05/25/2025 03:12:22 AM |      INFO | test_product_display.py:545 | Clicking on the continue button
+05/25/2025 03:12:23 AM |      INFO | test_product_display.py:550 | ************** Test Product Display 012 is Passed ***************
+05/25/2025 03:12:23 AM |      INFO | test_product_display.py:567 | *************************** End Of Test Product Display 012 ***************************
+05/25/2025 03:12:51 AM |      INFO | test_product_display.py:506 | *************************** Test Product Display 012 is Start ***************************
+05/25/2025 03:12:52 AM |      INFO | test_product_display.py:508 | Navigating to base url
+05/25/2025 03:12:53 AM |      INFO | test_product_display.py:511 | Entering iMac product to search text box field
+05/25/2025 03:12:53 AM |      INFO | test_product_display.py:513 | Clicking on the search icon button
+05/25/2025 03:12:53 AM |      INFO | test_product_display.py:516 | Clicking on the product display in search result
+05/25/2025 03:12:54 AM |      INFO | test_product_display.py:519 | Clicking on the review tab
+05/25/2025 03:12:54 AM |      INFO | test_product_display.py:521 | Clicking on the continue button
+05/25/2025 03:12:54 AM |      INFO | test_product_display.py:523 | *************************** Verifying Test Product Display 012 ***************************
+05/25/2025 03:12:54 AM |      INFO | test_product_display.py:527 | Clicking on the rating radio button
+05/25/2025 03:12:54 AM |      INFO | test_product_display.py:529 | Clicking on the continue button
+05/25/2025 03:12:55 AM |      INFO | test_product_display.py:534 | Entering review text
+05/25/2025 03:12:55 AM |      INFO | test_product_display.py:537 | Clicking on the continue button
+05/25/2025 03:12:57 AM |      INFO | test_product_display.py:542 | Entering name to name text field
+05/25/2025 03:12:57 AM |      INFO | test_product_display.py:545 | Clicking on the continue button
+05/25/2025 03:12:58 AM |      INFO | test_product_display.py:550 | ************** Test Product Display 012 is Passed ***************
+05/25/2025 03:12:58 AM |      INFO | test_product_display.py:567 | *************************** End Of Test Product Display 012 ***************************
