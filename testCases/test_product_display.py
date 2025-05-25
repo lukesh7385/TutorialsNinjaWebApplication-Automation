@@ -565,6 +565,42 @@ class Test_007_Product_Display:
             assert False
         self.logger.info("*************************** End Of Test Product Display 012 ***************************")
 
+    @pytest.mark.sanity
+    def test_product_display_013(self, setup):
+        self.driver = setup
+        self.logger.info("***************************** Test Product Display 013 is Start ***************************")
+        self.driver.get(self.baseURL)
+        self.logger.info("Navigating to the base url")
+        self.sf = SearchPage(self.driver)
+        self.sf.search_product("iMac")
+        self.logger.info("Entering iMac product to the search text field")
+        self.sf.click_on_search_button()
+        self.logger.info("Clicking on the search icon button")
+        self.pc = ProductComparePage(self.driver)
+        self.pc.click_on_the_product_display_in_search_result()
+        self.logger.info("Clicking on the product display in the search result")
+        self.pd = ProductDisplayPage(self.driver)
+        self.pd.click_on_write_a_review_link()
+        self.logger.info("Clicking on the write a review link")
+        self.logger.info("***************************** Verifying Test Product Display 013 ***************************")
+        expected_text = "Write a review".strip().lower()
+        actual_text = self.pd.get_write_a_review_text().strip().lower()
+        if self.pd.is_review_tab_enable():
+            if actual_text == expected_text:
+                assert True
+            else:
+                self.logger.error(f"Expected: '{expected_text}', but got: '{actual_text}'")
+                self.logger.error("************* Test Product Display 013 is Failed *************")
+                assert False
+        else:
+            self.logger.error("************* Test Product Display 013 is Failed *************")
+            assert False
+        self.logger.info("***************************** End Of Test Product Display 013 ***************************")
+
+
+
+
+
 
 
 

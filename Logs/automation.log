@@ -8094,3 +8094,120 @@ Just when you thought iMac had everything, now there's even more. More powerful 
 05/25/2025 03:12:57 AM |      INFO | test_product_display.py:545 | Clicking on the continue button
 05/25/2025 03:12:58 AM |      INFO | test_product_display.py:550 | ************** Test Product Display 012 is Passed ***************
 05/25/2025 03:12:58 AM |      INFO | test_product_display.py:567 | *************************** End Of Test Product Display 012 ***************************
+05/25/2025 05:29:16 PM |      INFO | test_product_display.py:571 | ***************************** Test Product Display 013 is Start ***************************
+05/25/2025 05:29:18 PM |      INFO | test_product_display.py:573 | Navigating to the base url
+05/25/2025 05:29:18 PM |      INFO | test_product_display.py:576 | Entering iMac product to the search text field
+05/25/2025 05:29:19 PM |      INFO | test_product_display.py:578 | Clicking on the search icon button
+05/25/2025 05:29:19 PM |      INFO | test_product_display.py:581 | Clicking on the product display in the search result
+05/25/2025 05:29:20 PM |      INFO | test_product_display.py:584 | Clicking on the write a review link
+05/25/2025 05:29:20 PM |      INFO | test_product_display.py:585 | ***************************** Verifying Test Product Display 013 ***************************
+05/25/2025 05:31:20 PM |      INFO | test_product_display.py:571 | ***************************** Test Product Display 013 is Start ***************************
+05/25/2025 05:31:22 PM |      INFO | test_product_display.py:573 | Navigating to the base url
+05/25/2025 05:31:23 PM |      INFO | test_product_display.py:576 | Entering iMac product to the search text field
+05/25/2025 05:31:23 PM |      INFO | test_product_display.py:578 | Clicking on the search icon button
+05/25/2025 05:31:24 PM |      INFO | test_product_display.py:581 | Clicking on the product display in the search result
+05/25/2025 05:31:24 PM |      INFO | test_product_display.py:584 | Clicking on the write a review link
+05/25/2025 05:31:24 PM |      INFO | test_product_display.py:585 | ***************************** Verifying Test Product Display 013 ***************************
+05/25/2025 05:36:29 PM |      INFO | test_product_display.py:571 | ***************************** Test Product Display 013 is Start ***************************
+05/25/2025 05:36:31 PM |      INFO | test_product_display.py:573 | Navigating to the base url
+05/25/2025 05:36:31 PM |      INFO | test_product_display.py:576 | Entering iMac product to the search text field
+05/25/2025 05:36:31 PM |      INFO | test_product_display.py:578 | Clicking on the search icon button
+05/25/2025 05:36:32 PM |      INFO | test_product_display.py:581 | Clicking on the product display in the search result
+05/25/2025 05:36:32 PM |      INFO | test_product_display.py:584 | Clicking on the write a review link
+05/25/2025 05:36:32 PM |      INFO | test_product_display.py:585 | ***************************** Verifying Test Product Display 013 ***************************
+05/25/2025 05:38:53 PM |      INFO | test_product_display.py:571 | ***************************** Test Product Display 013 is Start ***************************
+05/25/2025 05:38:55 PM |      INFO | test_product_display.py:573 | Navigating to the base url
+05/25/2025 05:38:55 PM |      INFO | test_product_display.py:576 | Entering iMac product to the search text field
+05/25/2025 05:38:55 PM |      INFO | test_product_display.py:578 | Clicking on the search icon button
+05/25/2025 05:38:56 PM |      INFO | test_product_display.py:581 | Clicking on the product display in the search result
+05/25/2025 05:38:56 PM |      INFO | test_product_display.py:584 | Clicking on the write a review link
+05/25/2025 05:38:56 PM |      INFO | test_product_display.py:585 | ***************************** Verifying Test Product Display 013 ***************************
+05/25/2025 05:38:56 PM |     ERROR | test_product_display.py:595 | ************* Test Product Display 013 is Failed *************
+05/25/2025 05:43:35 PM |      INFO | test_product_display.py:571 | ***************************** Test Product Display 013 is Start ***************************
+05/25/2025 05:43:38 PM |      INFO | test_product_display.py:573 | Navigating to the base url
+05/25/2025 05:43:39 PM |      INFO | test_product_display.py:576 | Entering iMac product to the search text field
+05/25/2025 05:43:39 PM |      INFO | test_product_display.py:578 | Clicking on the search icon button
+05/25/2025 05:43:40 PM |      INFO | test_product_display.py:581 | Clicking on the product display in the search result
+05/25/2025 05:43:40 PM |      INFO | test_product_display.py:584 | Clicking on the write a review link
+05/25/2025 05:43:40 PM |      INFO | test_product_display.py:585 | ***************************** Verifying Test Product Display 013 ***************************
+05/25/2025 05:43:40 PM |     ERROR | test_product_display.py:595 | ************* Test Product Display 013 is Failed *************
+05/25/2025 05:54:01 PM |      INFO | test_product_display.py:571 | ***************************** Test Product Display 013 is Start ***************************
+05/25/2025 05:54:06 PM |      INFO | test_product_display.py:573 | Navigating to the base url
+05/25/2025 05:54:06 PM |      INFO | test_product_display.py:576 | Entering iMac product to the search text field
+05/25/2025 05:54:06 PM |      INFO | test_product_display.py:578 | Clicking on the search icon button
+05/25/2025 05:54:07 PM |      INFO | test_product_display.py:581 | Clicking on the product display in the search result
+05/25/2025 05:54:08 PM |      INFO | test_product_display.py:584 | Clicking on the write a review link
+05/25/2025 05:54:08 PM |      INFO | test_product_display.py:585 | ***************************** Verifying Test Product Display 013 ***************************
+05/25/2025 05:54:08 PM |     ERROR | test_product_display.py:599 | ************* Test Product Display 013 is Failed *************
+05/25/2025 05:57:43 PM |      INFO | test_product_display.py:571 | ***************************** Test Product Display 013 is Start ***************************
+05/25/2025 05:57:45 PM |      INFO | test_product_display.py:573 | Navigating to the base url
+05/25/2025 05:57:45 PM |      INFO | test_product_display.py:576 | Entering iMac product to the search text field
+05/25/2025 05:57:45 PM |      INFO | test_product_display.py:578 | Clicking on the search icon button
+05/25/2025 05:57:46 PM |      INFO | test_product_display.py:581 | Clicking on the product display in the search result
+05/25/2025 05:57:46 PM |      INFO | test_product_display.py:584 | Clicking on the write a review link
+05/25/2025 05:57:46 PM |      INFO | test_product_display.py:585 | ***************************** Verifying Test Product Display 013 ***************************
+05/25/2025 05:57:46 PM |     ERROR | test_product_display.py:598 | ************* Test Product Display 013 is Failed *************
+05/25/2025 05:58:24 PM |      INFO | test_product_display.py:571 | ***************************** Test Product Display 013 is Start ***************************
+05/25/2025 05:58:29 PM |      INFO | test_product_display.py:573 | Navigating to the base url
+05/25/2025 05:58:29 PM |      INFO | test_product_display.py:576 | Entering iMac product to the search text field
+05/25/2025 05:58:30 PM |      INFO | test_product_display.py:578 | Clicking on the search icon button
+05/25/2025 05:58:31 PM |      INFO | test_product_display.py:581 | Clicking on the product display in the search result
+05/25/2025 05:58:31 PM |      INFO | test_product_display.py:584 | Clicking on the write a review link
+05/25/2025 05:58:33 PM |      INFO | test_product_display.py:586 | ***************************** Verifying Test Product Display 013 ***************************
+05/25/2025 05:58:33 PM |     ERROR | test_product_display.py:599 | ************* Test Product Display 013 is Failed *************
+05/25/2025 05:59:24 PM |      INFO | test_product_display.py:571 | ***************************** Test Product Display 013 is Start ***************************
+05/25/2025 05:59:26 PM |      INFO | test_product_display.py:573 | Navigating to the base url
+05/25/2025 05:59:26 PM |      INFO | test_product_display.py:576 | Entering iMac product to the search text field
+05/25/2025 05:59:27 PM |      INFO | test_product_display.py:578 | Clicking on the search icon button
+05/25/2025 05:59:27 PM |      INFO | test_product_display.py:581 | Clicking on the product display in the search result
+05/25/2025 05:59:27 PM |      INFO | test_product_display.py:584 | Clicking on the write a review link
+05/25/2025 05:59:29 PM |      INFO | test_product_display.py:586 | ***************************** Verifying Test Product Display 013 ***************************
+05/25/2025 05:59:29 PM |     ERROR | test_product_display.py:599 | ************* Test Product Display 013 is Failed *************
+05/25/2025 06:05:44 PM |      INFO | test_product_display.py:571 | ***************************** Test Product Display 013 is Start ***************************
+05/25/2025 06:05:48 PM |      INFO | test_product_display.py:573 | Navigating to the base url
+05/25/2025 06:05:48 PM |      INFO | test_product_display.py:576 | Entering iMac product to the search text field
+05/25/2025 06:05:49 PM |      INFO | test_product_display.py:578 | Clicking on the search icon button
+05/25/2025 06:05:50 PM |      INFO | test_product_display.py:581 | Clicking on the product display in the search result
+05/25/2025 06:05:50 PM |      INFO | test_product_display.py:584 | Clicking on the write a review link
+05/25/2025 06:05:52 PM |      INFO | test_product_display.py:586 | ***************************** Verifying Test Product Display 013 ***************************
+05/25/2025 06:05:52 PM |     ERROR | test_product_display.py:597 | ************* Test Product Display 013 is Failed *************
+05/25/2025 06:10:39 PM |      INFO | test_product_display.py:571 | ***************************** Test Product Display 013 is Start ***************************
+05/25/2025 06:10:41 PM |      INFO | test_product_display.py:573 | Navigating to the base url
+05/25/2025 06:10:41 PM |      INFO | test_product_display.py:576 | Entering iMac product to the search text field
+05/25/2025 06:10:41 PM |      INFO | test_product_display.py:578 | Clicking on the search icon button
+05/25/2025 06:10:42 PM |      INFO | test_product_display.py:581 | Clicking on the product display in the search result
+05/25/2025 06:10:42 PM |      INFO | test_product_display.py:584 | Clicking on the write a review link
+05/25/2025 06:10:44 PM |      INFO | test_product_display.py:586 | ***************************** Verifying Test Product Display 013 ***************************
+05/25/2025 06:10:44 PM |     ERROR | test_product_display.py:597 | ************* Test Product Display 013 is Failed *************
+05/25/2025 06:21:25 PM |      INFO | test_product_display.py:571 | ***************************** Test Product Display 013 is Start ***************************
+05/25/2025 06:21:28 PM |      INFO | test_product_display.py:573 | Navigating to the base url
+05/25/2025 06:21:28 PM |      INFO | test_product_display.py:576 | Entering iMac product to the search text field
+05/25/2025 06:21:28 PM |      INFO | test_product_display.py:578 | Clicking on the search icon button
+05/25/2025 06:21:29 PM |      INFO | test_product_display.py:581 | Clicking on the product display in the search result
+05/25/2025 06:21:29 PM |      INFO | test_product_display.py:584 | Clicking on the write a review link
+05/25/2025 06:21:34 PM |      INFO | test_product_display.py:586 | ***************************** Verifying Test Product Display 013 ***************************
+05/25/2025 06:21:35 PM |     ERROR | test_product_display.py:597 | ************* Test Product Display 013 is Failed *************
+05/25/2025 06:22:20 PM |      INFO | test_product_display.py:571 | ***************************** Test Product Display 013 is Start ***************************
+05/25/2025 06:22:23 PM |      INFO | test_product_display.py:573 | Navigating to the base url
+05/25/2025 06:22:23 PM |      INFO | test_product_display.py:576 | Entering iMac product to the search text field
+05/25/2025 06:22:23 PM |      INFO | test_product_display.py:578 | Clicking on the search icon button
+05/25/2025 06:22:24 PM |      INFO | test_product_display.py:581 | Clicking on the product display in the search result
+05/25/2025 06:22:24 PM |      INFO | test_product_display.py:584 | Clicking on the write a review link
+05/25/2025 06:22:29 PM |      INFO | test_product_display.py:586 | ***************************** Verifying Test Product Display 013 ***************************
+05/25/2025 06:22:29 PM |      INFO | test_product_display.py:595 | ***************************** End Of Test Product Display 013 ***************************
+05/25/2025 06:24:39 PM |      INFO | test_product_display.py:571 | ***************************** Test Product Display 013 is Start ***************************
+05/25/2025 06:24:43 PM |      INFO | test_product_display.py:573 | Navigating to the base url
+05/25/2025 06:24:43 PM |      INFO | test_product_display.py:576 | Entering iMac product to the search text field
+05/25/2025 06:24:43 PM |      INFO | test_product_display.py:578 | Clicking on the search icon button
+05/25/2025 06:24:44 PM |      INFO | test_product_display.py:581 | Clicking on the product display in the search result
+05/25/2025 06:24:44 PM |      INFO | test_product_display.py:584 | Clicking on the write a review link
+05/25/2025 06:24:49 PM |      INFO | test_product_display.py:586 | ***************************** Verifying Test Product Display 013 ***************************
+05/25/2025 06:24:49 PM |      INFO | test_product_display.py:599 | ***************************** End Of Test Product Display 013 ***************************
+05/25/2025 06:25:08 PM |      INFO | test_product_display.py:571 | ***************************** Test Product Display 013 is Start ***************************
+05/25/2025 06:25:10 PM |      INFO | test_product_display.py:573 | Navigating to the base url
+05/25/2025 06:25:11 PM |      INFO | test_product_display.py:576 | Entering iMac product to the search text field
+05/25/2025 06:25:11 PM |      INFO | test_product_display.py:578 | Clicking on the search icon button
+05/25/2025 06:25:12 PM |      INFO | test_product_display.py:581 | Clicking on the product display in the search result
+05/25/2025 06:25:12 PM |      INFO | test_product_display.py:584 | Clicking on the write a review link
+05/25/2025 06:25:12 PM |      INFO | test_product_display.py:585 | ***************************** Verifying Test Product Display 013 ***************************
+05/25/2025 06:25:12 PM |      INFO | test_product_display.py:598 | ***************************** End Of Test Product Display 013 ***************************

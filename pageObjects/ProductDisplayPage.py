@@ -24,7 +24,7 @@ class ProductDisplayPage:
     checkBox2 = (By.XPATH, "//input[@value='11']")
     inputTextField = (By.ID, "input-option208")
     dropDown = (By.XPATH, "//select[@id='input-option217']")
-    inptTextArea = (By.ID, "input-option209")
+    inputTextArea = (By.ID, "input-option209")
     uploadFile = (By.XPATH, "//button[@id='button-upload222']")
     inputDate = (By.ID, "input-option219")
     inputTime = (By.ID, "input-option221")
@@ -32,6 +32,7 @@ class ProductDisplayPage:
     warningMessage = (By.XPATH, "//div[contains(text(), 'Minimum order amount for Apple Cinema 30')]")
     descriptionText = (By.XPATH, "//div[@id='tab-description']/div")
     specificationTab = (By.LINK_TEXT, "Specification")
+
     reviewTab = (By.LINK_TEXT, "Reviews (0)")
     nameTextFieldInReviewTab = (By.ID, "input-name")
     inputReviewTextAreaField = (By.ID, "input-review")
@@ -40,6 +41,9 @@ class ProductDisplayPage:
     successMessageInReviewTab = (By.XPATH, "//div[@class='alert alert-success alert-dismissible']")
     noReviewTextMessage = (By.XPATH, "//p[normalize-space()='There are no reviews for this product.']")
     mandatoryWarningMessage = (By.XPATH, "//div[@class='alert alert-danger alert-dismissible']")
+
+    writeReviewLink = (By.LINK_TEXT, "Write a review")
+    writeReviewText = (By.XPATH, "//*[@id='form-review']/h2")
 
 
     def __init__(self, driver):
@@ -158,7 +162,7 @@ class ProductDisplayPage:
         text_field.send_keys(text)
 
     def enter_text_to_text_area(self, text):
-        text_area = self.driver.find_element(*ProductDisplayPage.inptTextArea)
+        text_area = self.driver.find_element(*ProductDisplayPage.inputTextArea)
         text_area.clear()
         text_area.send_keys(text)
 
@@ -213,7 +217,10 @@ class ProductDisplayPage:
         self.driver.find_element(*ProductDisplayPage.specificationTab).click()
 
     def click_on_reviews_tab(self):
-        self.driver.find_element(*ProductDisplayPage.reviewTab).click()
+        review_tab = WebDriverWait(self.driver, 10, poll_frequency=2).until(
+            EC.element_to_be_clickable(ProductDisplayPage.reviewTab)
+        )
+        review_tab.click()
 
     def set_name_in_review_tab(self, name):
         self.driver.find_element(*ProductDisplayPage.nameTextFieldInReviewTab).send_keys(name)
@@ -247,3 +254,31 @@ class ProductDisplayPage:
     def wait_for_page_load(self):
         WebDriverWait(self.driver, 10, poll_frequency=2).until(
             lambda driver: driver.execute_script("return document.readyState") == "complete")
+
+    def click_on_write_a_review_link(self):
+        self.driver.find_element(*ProductDisplayPage.writeReviewLink).click()
+
+    def get_write_a_review_text(self):
+        """Extracts the 'Write a review' text from the page."""
+        try:
+            review_text = WebDriverWait(self.driver, 10, poll_frequency=2).until(
+                EC.presence_of_element_located(ProductDisplayPage.writeReviewText)
+            )
+            return review_text.text
+        except Exception as e:
+            print(f"Error retrieving review text: {e}")
+            return None
+
+    def is_review_tab_enable(self):
+        """Checks if the review tab is selected."""
+
+        try:
+            review_tab = WebDriverWait(self.driver, 10, poll_frequency=2).until(
+                EC.presence_of_element_located(ProductDisplayPage.reviewTab)
+            )
+            return review_tab.is_enabled()
+        except Exception as e:
+            print(f"Error checking review tab selection: {e}")
+            return False  # Default to False if an error occurs
+
+
