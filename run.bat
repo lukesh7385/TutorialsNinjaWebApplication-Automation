@@ -22,8 +22,10 @@ rem pytest -s -v -m "sanity" --alluredir=allureReports --html=./Reports/report.h
 rem pytest -s -v -m "regression" --alluredir=allureReports --html=./Reports/report.html .\testCases\ --browser %BROWSER%
 rem pytest -s -v -m "sanity and regression" --alluredir=allureReports --html=./Reports/report.html .\testCases\ --browser %BROWSER%
 @REM pytest -s -v -n 3 -m "sanity or regression" --alluredir=allureReports --html=./Reports/report.html .\testCases\ --browser %BROWSER%
-pytest -s -v -n 3 -p no:warnings --alluredir=allureReports --html=./Reports/report.html .\testCases\ --browser  %BROWSER%
+rem pytest -s -v -n 3 -p no:warnings --alluredir=allureReports --html=./Reports/report.html .\testCases\ --browser  %BROWSER%
 
 @REM pytest --lf -s -v -n 4 -p no:warnings --alluredir=allureReports --html=./Reports/report.html --browser %BROWSER%
+
+pytest -s -v --lf
 
 cmd /k

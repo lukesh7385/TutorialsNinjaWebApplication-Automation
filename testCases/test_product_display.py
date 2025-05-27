@@ -673,7 +673,7 @@ class Test_007_Product_Display:
             self.logger.error(f"Error fetching review count: {e}")
             raise  # Raise exception instead of defaulting to 0
         self.logger.info(f"Total Reviews Extracted: {review_count}")
-        if review_count >= 0:
+        if review_count >= 0 and str(review_count) in review_text:
             assert True
             self.logger.info("*********** Test Product Display 015 Passed ***********")
         else:
