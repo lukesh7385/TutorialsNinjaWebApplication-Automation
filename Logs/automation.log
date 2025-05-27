@@ -195,3 +195,12 @@ Just when you thought iMac had everything, now there's even more. More powerful 
 05/28/2025 01:26:38 AM |      INFO | test_product_display.py:586 | Clicking on the write a review link
 05/28/2025 01:26:38 AM |      INFO | test_product_display.py:587 | ***************************** Verifying Test Product Display 013 ***************************
 05/28/2025 01:26:38 AM |      INFO | test_product_display.py:600 | ***************************** End Of Test Product Display 013 ***************************
+05/28/2025 01:42:28 AM |      INFO | test_product_display.py:647 | ************************** Test Product Display 015 is Start ***************************
+05/28/2025 01:42:31 AM |      INFO | test_product_display.py:649 | Navigating to the base URL
+05/28/2025 01:42:31 AM |      INFO | test_product_display.py:652 | Entering iMac product in the search box
+05/28/2025 01:42:32 AM |      INFO | test_product_display.py:654 | Clicking on the search icon button
+05/28/2025 01:42:33 AM |      INFO | test_product_display.py:657 | Clicking on the product in search results
+05/28/2025 01:42:33 AM |      INFO | test_product_display.py:658 | ************************** Verifying Test Product Display 015 **************************
+05/28/2025 01:42:33 AM |      INFO | test_product_display.py:672 | Total Reviews Extracted: 0
+05/28/2025 01:42:33 AM |      INFO | test_product_display.py:675 | *********** Test Product Display 015 Passed ***********
+05/28/2025 01:42:33 AM |      INFO | test_product_display.py:679 | ************************** End Of Test Product Display 015 **************************
