@@ -355,17 +355,14 @@ class Test_007_Product_Display:
         self.logger.info("***************************** Test Product Display 008 is Start ***************************")
         self.driver.get(self.baseURL)
         self.logger.info("Navigating to base url")
-
         self.sf = SearchPage(self.driver)
         self.sf.search_product("iMac")
         self.logger.info("Entering 'iMac' into the search box")
         self.sf.click_on_search_button()
         self.logger.info("Clicking the search button")
-
         self.pc = ProductComparePage(self.driver)
         self.pc.click_on_the_product_display_in_search_result()
         self.logger.info("Clicking on the displayed product in search results")
-
         self.logger.info("***************************** Verifying Test Product Display 008 ***************************")
         self.pd = ProductDisplayPage(self.driver)
 
@@ -386,8 +383,8 @@ class Test_007_Product_Display:
         actual_normalized = unicodedata.normalize('NFKC', actual_description).strip()
 
         # Logging both values for debugging
-        self.logger.info(f"Expected Description:\n{exp_normalized}")
-        self.logger.info(f"Actual Description:\n{actual_normalized}")
+        # self.logger.info(f"Expected Description:\n{exp_normalized}")
+        # self.logger.info(f"Actual Description:\n{actual_normalized}")
 
         # Checking similarity with fuzzy matching
         similarity = difflib.SequenceMatcher(None, exp_normalized, actual_normalized).ratio()

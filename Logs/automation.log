@@ -61,3 +61,137 @@
 05/28/2025 12:55:33 AM |      INFO | test_product_display.py:675 | Total Reviews Extracted: 0
 05/28/2025 12:55:33 AM |      INFO | test_product_display.py:678 | *********** Test Product Display 015 Passed ***********
 05/28/2025 12:55:33 AM |      INFO | test_product_display.py:682 | ************************** End Of Test Product Display 015 **************************
+05/28/2025 01:22:57 AM |      INFO | test_product_display.py:23 | ********************** Test Product Display 001 is Start *********************
+05/28/2025 01:23:01 AM |      INFO | test_product_display.py:25 | Navigating to the base url
+05/28/2025 01:23:01 AM |      INFO | test_product_display.py:28 | Entering iMac product to search text field
+05/28/2025 01:23:01 AM |      INFO | test_product_display.py:30 | Clicking on the search button
+05/28/2025 01:23:02 AM |      INFO | test_product_display.py:33 | Clicking on the product displayed in the Search results
+05/28/2025 01:23:02 AM |      INFO | test_product_display.py:36 | Clicking on the main bigger sized Thumbnail image
+05/28/2025 01:23:02 AM |      INFO | test_product_display.py:37 | ********************** Verifying Test Product Display 001 *********************
+05/28/2025 01:23:03 AM |      INFO | test_product_display.py:42 | Clicking on the next arrow button
+05/28/2025 01:23:03 AM |      INFO | test_product_display.py:45 | Clicking on the back arrow button
+05/28/2025 01:23:03 AM |      INFO | test_product_display.py:48 | Clicking on the cross option
+05/28/2025 01:23:03 AM |      INFO | test_product_display.py:51 | ********** Test Product Display 001 is Passed **********
+05/28/2025 01:23:04 AM |      INFO | test_product_display.py:71 | Clicking on the main bigger sized Thumbnail image
+05/28/2025 01:23:04 AM |      INFO | test_product_display.py:72 | ********************** Again Verifying Test Product Display 001 *********************
+05/28/2025 01:23:04 AM |      INFO | test_product_display.py:77 | Clicking on the next arrow button
+05/28/2025 01:23:04 AM |      INFO | test_product_display.py:80 | Clicking on the back arrow button
+05/28/2025 01:23:04 AM |      INFO | test_product_display.py:83 | Clicking on the cross option
+05/28/2025 01:23:04 AM |      INFO | test_product_display.py:86 | ********** Test Product Display 001 is Passed **********
+05/28/2025 01:23:06 AM |      INFO | test_product_display.py:106 | ********************** End Of Test Product Display 001 *********************
+05/28/2025 01:23:29 AM |      INFO | test_product_display.py:111 | *********************** Test Product Display 002 is Start ************************
+05/28/2025 01:23:31 AM |      INFO | test_product_display.py:113 | Navigating to the base url
+05/28/2025 01:23:31 AM |      INFO | test_product_display.py:116 | Entering iMac product to search text field
+05/28/2025 01:23:32 AM |      INFO | test_product_display.py:118 | Clicking on the search icon button
+05/28/2025 01:23:33 AM |      INFO | test_product_display.py:121 | Clicking on the iMac product
+05/28/2025 01:23:33 AM |      INFO | test_product_display.py:125 | *********************** Verifying Test Product Display 002 ************************
+05/28/2025 01:23:33 AM |      INFO | test_product_display.py:130 | ************ Test Product Display 002 is Passed ***********
+05/28/2025 01:23:35 AM |      INFO | test_product_display.py:141 | *********************** End Of Test Product Display 002 ************************
+05/28/2025 01:23:57 AM |      INFO | test_product_display.py:146 | ************************* Test Product Display 003 is Start *************************
+05/28/2025 01:23:59 AM |      INFO | test_product_display.py:148 | Navigating to the base url
+05/28/2025 01:24:00 AM |      INFO | test_product_display.py:151 | Entering iMac product to the search text box field
+05/28/2025 01:24:00 AM |      INFO | test_product_display.py:153 | Clicking on the search icon button
+05/28/2025 01:24:01 AM |      INFO | test_product_display.py:156 | Clicking on the product display in the search result
+05/28/2025 01:24:01 AM |      INFO | test_product_display.py:159 | ************************* Verifying Test Product Display 003 *************************
+05/28/2025 01:24:01 AM |      INFO | test_product_display.py:163 | *********** Test Product Display 003 is Passed ************
+05/28/2025 01:24:03 AM |      INFO | test_product_display.py:171 | ************************* End Of Test Product Display 003 *************************
+05/28/2025 01:24:26 AM |      INFO | test_product_display.py:176 | ************************* Test Product Display 004 is Start *************************
+05/28/2025 01:24:33 AM |      INFO | test_product_display.py:178 | Navigating to the base url
+05/28/2025 01:24:33 AM |      INFO | test_product_display.py:181 | Entering iMac product to the search text box field
+05/28/2025 01:24:35 AM |      INFO | test_product_display.py:183 | Clicking on the search icon button
+05/28/2025 01:24:39 AM |      INFO | test_product_display.py:186 | Clicking on the product display in the search result
+05/28/2025 01:24:39 AM |      INFO | test_product_display.py:189 | ************************* Verifying Test Product Display 004 *************************
+05/28/2025 01:24:39 AM |      INFO | test_product_display.py:194 | ************* Test Product Display 004 is Passed ************
+05/28/2025 01:24:41 AM |      INFO | test_product_display.py:205 | ************************* End Of Test Product Display 004 *************************
+05/28/2025 01:25:03 AM |      INFO | test_product_display.py:210 | ************************* Test Product Display 005 is Start *************************
+05/28/2025 01:25:15 AM |      INFO | test_product_display.py:212 | Navigating to the base url
+05/28/2025 01:25:15 AM |      INFO | test_product_display.py:215 | Entering iMac product to the search text box field
+05/28/2025 01:25:15 AM |      INFO | test_product_display.py:217 | Clicking on the search icon button
+05/28/2025 01:25:16 AM |      INFO | test_product_display.py:220 | Clicking on the product display in the search result
+05/28/2025 01:25:16 AM |      INFO | test_product_display.py:221 | ************************* Verifying Test Product Display 005 *************************
+05/28/2025 01:25:16 AM |      INFO | test_product_display.py:226 | Updating quantity by 3
+05/28/2025 01:25:16 AM |      INFO | test_product_display.py:228 | Clicking on add to cart button
+05/28/2025 01:25:17 AM |      INFO | test_product_display.py:231 | Clicking on the shopping cart link
+05/28/2025 01:25:17 AM |      INFO | test_product_display.py:235 | ************** Test Product Display 005 is Passed **************
+05/28/2025 01:25:19 AM |      INFO | test_product_display.py:252 | ************************* End Of Test Product Display 005 *************************
+05/28/2025 01:25:42 AM |      INFO | test_product_display.py:257 | ************************* Test Product Display 006 is Start *************************
+05/28/2025 01:25:44 AM |      INFO | test_product_display.py:259 | Navigating to the base url
+05/28/2025 01:25:44 AM |      INFO | test_product_display.py:262 | Entering iMac product to the search text box field
+05/28/2025 01:25:45 AM |      INFO | test_product_display.py:264 | Clicking on the search icon button
+05/28/2025 01:25:46 AM |      INFO | test_product_display.py:267 | Clicking on the product display in the search result
+05/28/2025 01:25:46 AM |      INFO | test_product_display.py:268 | ************************* Verifying Test Product Display 006 *************************
+05/28/2025 01:25:46 AM |      INFO | test_product_display.py:272 | Updating the product quantity to -1
+05/28/2025 01:25:46 AM |      INFO | test_product_display.py:274 | Clicking on the add to cart button
+05/28/2025 01:25:46 AM |      INFO | test_product_display.py:279 | Page has fully loaded
+05/28/2025 01:25:46 AM |     ERROR | test_product_display.py:285 | -1
+05/28/2025 01:25:46 AM |     ERROR | test_product_display.py:286 | *********** Test Product Display 006 is Failed ***********
+05/28/2025 01:25:50 AM |      INFO | test_product_display.py:355 | ***************************** Test Product Display 008 is Start ***************************
+05/28/2025 01:25:52 AM |      INFO | test_product_display.py:357 | Navigating to base url
+05/28/2025 01:25:52 AM |      INFO | test_product_display.py:361 | Entering 'iMac' into the search box
+05/28/2025 01:25:53 AM |      INFO | test_product_display.py:363 | Clicking the search button
+05/28/2025 01:25:54 AM |      INFO | test_product_display.py:367 | Clicking on the displayed product in search results
+05/28/2025 01:25:54 AM |      INFO | test_product_display.py:369 | ***************************** Verifying Test Product Display 008 ***************************
+05/28/2025 01:25:54 AM |      INFO | test_product_display.py:389 | Expected Description:
+Just when you thought iMac had everything, now there's even more.
+More powerful Intel Core 2 Duo processors.
+And more memory standard.
+Combine this with Mac OS X Leopard and iLife '08, and it's more all-in-one than ever.
+iMac packs amazing performance into a stunningly slim space.
+05/28/2025 01:25:54 AM |      INFO | test_product_display.py:390 | Actual Description:
+Just when you thought iMac had everything, now there's even more. More powerful Intel Core 2 Duo processors. And more memory standard. Combine this with Mac OS X Leopard and iLife '08, and it's more all-in-one than ever. iMac packs amazing performance into a stunningly slim space.
+05/28/2025 01:25:54 AM |      INFO | test_product_display.py:397 | ************** Test Product Display 008 is Passed ************
+05/28/2025 01:25:54 AM |      INFO | test_product_display.py:403 | ***************************** End Of Test Product Display 008 ***************************
+05/28/2025 01:25:57 AM |      INFO | test_product_display.py:408 | *************************** Test Product Display 009 is Start **************************
+05/28/2025 01:25:59 AM |      INFO | test_product_display.py:410 | Navigating to the base url
+05/28/2025 01:26:00 AM |      INFO | test_product_display.py:413 | Entering Apple Cinema 30 to search text box field
+05/28/2025 01:26:00 AM |      INFO | test_product_display.py:415 | Clicking on the search icon button
+05/28/2025 01:26:01 AM |      INFO | test_product_display.py:418 | Clicking on the product display in search result
+05/28/2025 01:26:01 AM |      INFO | test_product_display.py:421 | *************************** Verifying Test Product Display 009 **************************
+05/28/2025 01:26:01 AM |      INFO | test_product_display.py:433 | Expected: 'clock speed' but Actual: 'Clockspeed
+05/28/2025 01:26:01 AM |     ERROR | test_product_display.py:434 | *************** Test Product Display 009 is Failed **************
+05/28/2025 01:26:05 AM |      INFO | test_product_display.py:441 | *************************** Test Product Display 010 is Start **************************
+05/28/2025 01:26:07 AM |      INFO | test_product_display.py:443 | Navigating to the base url
+05/28/2025 01:26:07 AM |      INFO | test_product_display.py:446 | Entering Apple Cinema 30 to search text box field
+05/28/2025 01:26:08 AM |      INFO | test_product_display.py:448 | Clicking on the search icon button
+05/28/2025 01:26:09 AM |      INFO | test_product_display.py:451 | Clicking on the product display in search result
+05/28/2025 01:26:09 AM |      INFO | test_product_display.py:454 | Clicking on review tab
+05/28/2025 01:26:09 AM |      INFO | test_product_display.py:456 | Entering name in name text field in review tab
+05/28/2025 01:26:09 AM |      INFO | test_product_display.py:458 | Entering the review text to the review text area
+05/28/2025 01:26:09 AM |      INFO | test_product_display.py:460 | Clicking on the radio button
+05/28/2025 01:26:10 AM |      INFO | test_product_display.py:462 | Clicking on the continue button
+05/28/2025 01:26:10 AM |      INFO | test_product_display.py:463 | *************************** Verifying Test Product Display 010 **************************
+05/28/2025 01:26:10 AM |      INFO | test_product_display.py:468 | **************** Test Product Display 010 is Passed ***************
+05/28/2025 01:26:10 AM |      INFO | test_product_display.py:474 | *************************** End Of Test Product Display 010 **************************
+05/28/2025 01:26:13 AM |      INFO | test_product_display.py:479 | *************************** Test Product Display 011 is Start **************************
+05/28/2025 01:26:16 AM |      INFO | test_product_display.py:481 | Navigating to the base url
+05/28/2025 01:26:16 AM |      INFO | test_product_display.py:484 | Entering iMac product to search text box field
+05/28/2025 01:26:16 AM |      INFO | test_product_display.py:486 | Clicking on the search icon button
+05/28/2025 01:26:17 AM |      INFO | test_product_display.py:489 | Clicking on the product display in search result
+05/28/2025 01:26:17 AM |      INFO | test_product_display.py:492 | Clicking on the zero review tab
+05/28/2025 01:26:17 AM |      INFO | test_product_display.py:493 | *************************** Verifying Test Product Display 011 **************************
+05/28/2025 01:26:17 AM |      INFO | test_product_display.py:497 | ************* Test Product Display 011 is Passed ***************
+05/28/2025 01:26:17 AM |      INFO | test_product_display.py:502 | *************************** End Of Test Product Display 011 **************************
+05/28/2025 01:26:21 AM |      INFO | test_product_display.py:507 | *************************** Test Product Display 012 is Start ***************************
+05/28/2025 01:26:24 AM |      INFO | test_product_display.py:509 | Navigating to base url
+05/28/2025 01:26:24 AM |      INFO | test_product_display.py:512 | Entering iMac product to search text box field
+05/28/2025 01:26:25 AM |      INFO | test_product_display.py:514 | Clicking on the search icon button
+05/28/2025 01:26:26 AM |      INFO | test_product_display.py:517 | Clicking on the product display in search result
+05/28/2025 01:26:26 AM |      INFO | test_product_display.py:520 | Clicking on the review tab
+05/28/2025 01:26:26 AM |      INFO | test_product_display.py:522 | Clicking on the continue button
+05/28/2025 01:26:26 AM |      INFO | test_product_display.py:524 | *************************** Verifying Test Product Display 012 ***************************
+05/28/2025 01:26:26 AM |      INFO | test_product_display.py:528 | Clicking on the rating radio button
+05/28/2025 01:26:26 AM |      INFO | test_product_display.py:530 | Clicking on the continue button
+05/28/2025 01:26:27 AM |      INFO | test_product_display.py:535 | Entering review text
+05/28/2025 01:26:28 AM |      INFO | test_product_display.py:538 | Clicking on the continue button
+05/28/2025 01:26:29 AM |      INFO | test_product_display.py:543 | Entering name to name text field
+05/28/2025 01:26:29 AM |      INFO | test_product_display.py:546 | Clicking on the continue button
+05/28/2025 01:26:30 AM |      INFO | test_product_display.py:551 | ************** Test Product Display 012 is Passed ***************
+05/28/2025 01:26:30 AM |      INFO | test_product_display.py:568 | *************************** End Of Test Product Display 012 ***************************
+05/28/2025 01:26:33 AM |      INFO | test_product_display.py:573 | ***************************** Test Product Display 013 is Start ***************************
+05/28/2025 01:26:36 AM |      INFO | test_product_display.py:575 | Navigating to the base url
+05/28/2025 01:26:36 AM |      INFO | test_product_display.py:578 | Entering iMac product to the search text field
+05/28/2025 01:26:37 AM |      INFO | test_product_display.py:580 | Clicking on the search icon button
+05/28/2025 01:26:37 AM |      INFO | test_product_display.py:583 | Clicking on the product display in the search result
+05/28/2025 01:26:38 AM |      INFO | test_product_display.py:586 | Clicking on the write a review link
+05/28/2025 01:26:38 AM |      INFO | test_product_display.py:587 | ***************************** Verifying Test Product Display 013 ***************************
+05/28/2025 01:26:38 AM |      INFO | test_product_display.py:600 | ***************************** End Of Test Product Display 013 ***************************
