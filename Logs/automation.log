@@ -1,0 +1,29 @@
+05/27/2025 01:17:35 PM |      INFO | test_product_display.py:604 | ************************** Test Product Display 014 is Start ***************************
+05/27/2025 01:17:40 PM |      INFO | test_product_display.py:608 | Navigating to the base URL
+05/27/2025 01:17:40 PM |      INFO | test_product_display.py:613 | Entering iMac product in the search box
+05/27/2025 01:17:41 PM |      INFO | test_product_display.py:615 | Clicking on the search icon button
+05/27/2025 01:17:42 PM |      INFO | test_product_display.py:620 | Clicking on the product in search results
+05/27/2025 01:17:42 PM |      INFO | test_product_display.py:622 | ************************** Verifying Test Product Display 014 ***************************
+05/27/2025 01:17:42 PM |     ERROR | test_product_display.py:634 | Error fetching review count: name 'EC' is not defined
+05/27/2025 01:17:42 PM |      INFO | test_product_display.py:637 | Total Reviews Extracted: 0
+05/27/2025 01:18:02 PM |      INFO | test_product_display.py:649 | Extracted Average Rating: 0.0
+05/27/2025 01:18:02 PM |      INFO | test_product_display.py:652 | ************************** Test Product Display 014 PASSED ***************************
+05/27/2025 01:20:48 PM |      INFO | test_product_display.py:606 | ************************** Test Product Display 014 is Start ***************************
+05/27/2025 01:20:52 PM |      INFO | test_product_display.py:610 | Navigating to the base URL
+05/27/2025 01:20:53 PM |      INFO | test_product_display.py:615 | Entering iMac product in the search box
+05/27/2025 01:20:53 PM |      INFO | test_product_display.py:617 | Clicking on the search icon button
+05/27/2025 01:20:54 PM |      INFO | test_product_display.py:622 | Clicking on the product in search results
+05/27/2025 01:20:54 PM |      INFO | test_product_display.py:624 | ************************** Verifying Test Product Display 014 ***************************
+05/27/2025 01:20:54 PM |      INFO | test_product_display.py:639 | Total Reviews Extracted: 0
+05/27/2025 01:21:15 PM |      INFO | test_product_display.py:651 | Extracted Average Rating: 0.0
+05/27/2025 01:21:15 PM |      INFO | test_product_display.py:654 | ************************** Test Product Display 014 PASSED ***************************
+05/27/2025 01:32:04 PM |      INFO | test_product_display.py:606 | ************************** Test Product Display 014 is Start ***************************
+05/27/2025 01:32:07 PM |      INFO | test_product_display.py:608 | Navigating to the base URL
+05/27/2025 01:32:07 PM |      INFO | test_product_display.py:611 | Entering iMac product in the search box
+05/27/2025 01:32:07 PM |      INFO | test_product_display.py:613 | Clicking on the search icon button
+05/27/2025 01:32:08 PM |      INFO | test_product_display.py:616 | Clicking on the product in search results
+05/27/2025 01:32:08 PM |      INFO | test_product_display.py:617 | ************************** Verifying Test Product Display 014 **************************
+05/27/2025 01:32:08 PM |      INFO | test_product_display.py:631 | Total Reviews Extracted: 0
+05/27/2025 01:32:28 PM |      INFO | test_product_display.py:643 | Extracted Average Rating: 0.0
+05/27/2025 01:32:28 PM |      INFO | test_product_display.py:645 | *********** Test Product Display 014 Passed ***********
+05/27/2025 01:32:28 PM |      INFO | test_product_display.py:646 | ************************** End Of Test Product Display 014 **************************

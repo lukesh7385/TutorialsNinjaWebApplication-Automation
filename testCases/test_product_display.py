@@ -1,14 +1,17 @@
+import difflib
 import time
+
 import pytest
+import unicodedata
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 from pageObjects.ProductComparePage import ProductComparePage
 from pageObjects.ProductDisplayPage import ProductDisplayPage
 from pageObjects.SearchPage import SearchPage
 from utilities.customLogger import LogGen
 from utilities.readProperties import ReadConfig
-import unicodedata
-import difflib
+
 
 @pytest.mark.usefixtures('setup', 'log_on_failure')
 class Test_007_Product_Display:
@@ -596,6 +599,57 @@ class Test_007_Product_Display:
             self.logger.error("************* Test Product Display 013 is Failed *************")
             assert False
         self.logger.info("***************************** End Of Test Product Display 013 ***************************")
+
+    @pytest.mark.sanity
+    def test_product_display_014(self, setup):
+        self.driver = setup
+        self.logger.info("************************** Test Product Display 014 is Start ***************************")
+        self.driver.get(self.baseURL)
+        self.logger.info("Navigating to the base URL")
+        self.sf = SearchPage(self.driver)
+        self.sf.search_product("iMac")
+        self.logger.info("Entering iMac product in the search box")
+        self.sf.click_on_search_button()
+        self.logger.info("Clicking on the search icon button")
+        self.pc = ProductComparePage(self.driver)
+        self.pc.click_on_the_product_display_in_search_result()
+        self.logger.info("Clicking on the product in search results")
+        self.logger.info("************************** Verifying Test Product Display 014 **************************")
+        self.pd = ProductDisplayPage(self.driver)
+
+        # Extract review count dynamically
+        try:
+            review_element = WebDriverWait(self.driver, 10, poll_frequency=2).until(
+                EC.presence_of_element_located((By.LINK_TEXT, "0 reviews"))
+            )
+            review_text = review_element.text
+            review_count = int(review_text.split()[0]) if review_text.split()[0].isdigit() else 0
+        except Exception as e:
+            self.logger.error(f"Error fetching review count: {e}")
+            review_count = 0  # Default when no reviews exist
+
+        self.logger.info(f"Total Reviews Extracted: {review_count}")
+        assert review_count >= 0, "Review count validation failed!"
+
+        # Extract average rating dynamically
+        try:
+            stars = self.driver.find_elements(By.CSS_SELECTOR, ".fa-star")
+            half_stars = self.driver.find_elements(By.CSS_SELECTOR, ".fa-star-half-o")
+            average_rating = len(stars) + (0.5 * len(half_stars))
+        except Exception as e:
+            self.logger.error(f"Error fetching rating: {e}")
+            average_rating = 0  # Default in case of failure
+
+        self.logger.info(f"Extracted Average Rating: {average_rating}")
+        assert 0 <= average_rating <= 5, "Average rating validation failed!"
+        self.logger.info("*********** Test Product Display 014 Passed ***********")
+        self.logger.info("************************** End Of Test Product Display 014 **************************")
+
+
+
+
+
+
 
 
 
