@@ -27,3 +27,37 @@
 05/27/2025 01:32:28 PM |      INFO | test_product_display.py:643 | Extracted Average Rating: 0.0
 05/27/2025 01:32:28 PM |      INFO | test_product_display.py:645 | *********** Test Product Display 014 Passed ***********
 05/27/2025 01:32:28 PM |      INFO | test_product_display.py:646 | ************************** End Of Test Product Display 014 **************************
+05/28/2025 12:29:52 AM |      INFO | test_product_display.py:651 | ************************** Test Product Display 015 is Start ***************************
+05/28/2025 12:29:55 AM |      INFO | test_product_display.py:653 | Navigating to the base URL
+05/28/2025 12:29:55 AM |      INFO | test_product_display.py:656 | Entering iMac product in the search box
+05/28/2025 12:29:56 AM |      INFO | test_product_display.py:658 | Clicking on the search icon button
+05/28/2025 12:29:56 AM |      INFO | test_product_display.py:661 | Clicking on the product in search results
+05/28/2025 12:29:56 AM |      INFO | test_product_display.py:662 | ************************** Verifying Test Product Display 015 **************************
+05/28/2025 12:29:56 AM |      INFO | test_product_display.py:676 | Total Reviews Extracted: 0
+05/28/2025 12:29:56 AM |      INFO | test_product_display.py:678 | *********** Test Product Display 014 Passed ***********
+05/28/2025 12:29:56 AM |      INFO | test_product_display.py:679 | ************************** End Of Test Product Display 014 **************************
+05/28/2025 12:47:52 AM |      INFO | test_product_display.py:650 | ************************** Test Product Display 015 is Start ***************************
+05/28/2025 12:47:55 AM |      INFO | test_product_display.py:652 | Navigating to the base URL
+05/28/2025 12:47:55 AM |      INFO | test_product_display.py:655 | Entering iMac product in the search box
+05/28/2025 12:47:55 AM |      INFO | test_product_display.py:657 | Clicking on the search icon button
+05/28/2025 12:47:56 AM |      INFO | test_product_display.py:660 | Clicking on the product in search results
+05/28/2025 12:47:56 AM |      INFO | test_product_display.py:661 | ************************** Verifying Test Product Display 015 **************************
+05/28/2025 12:47:56 AM |      INFO | test_product_display.py:676 | Total Reviews Extracted: 0
+05/28/2025 12:47:56 AM |      INFO | test_product_display.py:679 | *********** Test Product Display 015 Passed ***********
+05/28/2025 12:47:56 AM |      INFO | test_product_display.py:680 | ************************** End Of Test Product Display 015 **************************
+05/28/2025 12:52:06 AM |      INFO | test_product_display.py:650 | ************************** Test Product Display 015 is Start ***************************
+05/28/2025 12:52:09 AM |      INFO | test_product_display.py:652 | Navigating to the base URL
+05/28/2025 12:52:09 AM |      INFO | test_product_display.py:655 | Entering iMac product in the search box
+05/28/2025 12:52:10 AM |      INFO | test_product_display.py:657 | Clicking on the search icon button
+05/28/2025 12:52:10 AM |      INFO | test_product_display.py:660 | Clicking on the product in search results
+05/28/2025 12:52:10 AM |      INFO | test_product_display.py:661 | ************************** Verifying Test Product Display 015 **************************
+05/28/2025 12:52:10 AM |      INFO | test_product_display.py:675 | Total Reviews Extracted: 0
+05/28/2025 12:55:26 AM |      INFO | test_product_display.py:650 | ************************** Test Product Display 015 is Start ***************************
+05/28/2025 12:55:31 AM |      INFO | test_product_display.py:652 | Navigating to the base URL
+05/28/2025 12:55:31 AM |      INFO | test_product_display.py:655 | Entering iMac product in the search box
+05/28/2025 12:55:32 AM |      INFO | test_product_display.py:657 | Clicking on the search icon button
+05/28/2025 12:55:33 AM |      INFO | test_product_display.py:660 | Clicking on the product in search results
+05/28/2025 12:55:33 AM |      INFO | test_product_display.py:661 | ************************** Verifying Test Product Display 015 **************************
+05/28/2025 12:55:33 AM |      INFO | test_product_display.py:675 | Total Reviews Extracted: 0
+05/28/2025 12:55:33 AM |      INFO | test_product_display.py:678 | *********** Test Product Display 015 Passed ***********
+05/28/2025 12:55:33 AM |      INFO | test_product_display.py:682 | ************************** End Of Test Product Display 015 **************************

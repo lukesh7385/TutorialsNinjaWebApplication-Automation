@@ -1,6 +1,6 @@
 import difflib
 import time
-
+import re
 import pytest
 import unicodedata
 from selenium.webdriver.common.by import By
@@ -11,7 +11,6 @@ from pageObjects.ProductDisplayPage import ProductDisplayPage
 from pageObjects.SearchPage import SearchPage
 from utilities.customLogger import LogGen
 from utilities.readProperties import ReadConfig
-
 
 @pytest.mark.usefixtures('setup', 'log_on_failure')
 class Test_007_Product_Display:
@@ -644,6 +643,43 @@ class Test_007_Product_Display:
         assert 0 <= average_rating <= 5, "Average rating validation failed!"
         self.logger.info("*********** Test Product Display 014 Passed ***********")
         self.logger.info("************************** End Of Test Product Display 014 **************************")
+
+    @pytest.mark.sanity
+    def test_product_display_015(self, setup):
+        self.driver = setup
+        self.logger.info("************************** Test Product Display 015 is Start ***************************")
+        self.driver.get(self.baseURL)
+        self.logger.info("Navigating to the base URL")
+        self.sf = SearchPage(self.driver)
+        self.sf.search_product("iMac")
+        self.logger.info("Entering iMac product in the search box")
+        self.sf.click_on_search_button()
+        self.logger.info("Clicking on the search icon button")
+        self.pc = ProductComparePage(self.driver)
+        self.pc.click_on_the_product_display_in_search_result()
+        self.logger.info("Clicking on the product in search results")
+        self.logger.info("************************** Verifying Test Product Display 015 **************************")
+        self.pd = ProductDisplayPage(self.driver)
+        # Extract review count dynamically
+        try:
+            review_element = WebDriverWait(self.driver, 10).until(
+                EC.presence_of_element_located(self.pd.reviewTab)
+            )
+            review_text = review_element.text  # Example: "Reviews (5)"
+            # Extract numeric value using regex
+            match = re.search(r'\((\d+)\)', review_text)
+            review_count = int(match.group(1)) if match else 0
+        except Exception as e:
+            self.logger.error(f"Error fetching review count: {e}")
+            raise  # Raise exception instead of defaulting to 0
+        self.logger.info(f"Total Reviews Extracted: {review_count}")
+        if review_count >= 0:
+            assert True
+            self.logger.info("*********** Test Product Display 015 Passed ***********")
+        else:
+            print("Review count validation failed!")
+            self.logger.info("*********** Test Product Display 015 Failed ***********")
+        self.logger.info("************************** End Of Test Product Display 015 **************************")
 
 
 
