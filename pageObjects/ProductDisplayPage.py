@@ -1,10 +1,10 @@
+import time
+import pyautogui
 from selenium.common import TimeoutException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.select import Select
 from selenium.webdriver.support.wait import WebDriverWait
-import pyautogui
-import time
 
 
 class ProductDisplayPage:
@@ -281,4 +281,35 @@ class ProductDisplayPage:
             print(f"Error checking review tab selection: {e}")
             return False  # Default to False if an error occurs
 
+    def get_review_count_under_the_add_to_cart_button(self):
+        # Extract review count dynamically
+        try:
+            review_element = WebDriverWait(self.driver, 10, poll_frequency=2).until(
+                EC.presence_of_element_located((By.LINK_TEXT, "0 reviews"))
+            )
+            review_text = review_element.text
+            review_count = int(review_text.split()[0]) if review_text.split()[0].isdigit() else 0
+        except Exception as e:
+            print(f"Error fetching review count: {e}")
+
+    def get_average_rating(self):
+        # Extract average rating dynamically
+        try:
+            stars = self.driver.find_elements(By.CSS_SELECTOR, ".fa-star")
+            half_stars = self.driver.find_elements(By.CSS_SELECTOR, ".fa-star-half-o")
+            average_rating = len(stars) + (0.5 * len(half_stars))
+        except Exception as e:
+            print(f"Error fetching rating: {e}")
+
+
+    def get_review_count_under_review_tab(self):
+        # Extract review count dynamically
+        try:
+            review_element = WebDriverWait(self.driver, 10).until(
+                EC.presence_of_element_located(ProductDisplayPage.reviewTab)
+            )
+            return review_element.text  # Example: "Reviews (5)"
+        except Exception as e:
+            print(f"Error fetching review count: {e}")
+            raise  # Raise exception instead of defaulting to 0
 

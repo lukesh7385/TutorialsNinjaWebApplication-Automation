@@ -12,6 +12,7 @@ from pageObjects.SearchPage import SearchPage
 from utilities.customLogger import LogGen
 from utilities.readProperties import ReadConfig
 
+
 @pytest.mark.usefixtures('setup', 'log_on_failure')
 class Test_007_Product_Display:
     baseURL = ReadConfig.get_application_url()
@@ -458,7 +459,7 @@ class Test_007_Product_Display:
         self.pd.click_on_continue_button_in_review_tab()
         self.logger.info("Clicking on the continue button")
         self.logger.info("*************************** Verifying Test Product Display 010 **************************")
-        exp_success_message =  'Thank you for your review. It has been submitted to the webmaster for approval.'
+        exp_success_message = 'Thank you for your review. It has been submitted to the webmaster for approval.'
         act_success_message = self.pd.get_success_message_in_review_tab()
         if act_success_message == exp_success_message:
             assert True
@@ -489,7 +490,7 @@ class Test_007_Product_Display:
         self.logger.info("Clicking on the zero review tab")
         self.logger.info("*************************** Verifying Test Product Display 011 **************************")
         no_review_message = self.pd.get_no_review_text_message()
-        if no_review_message ==  'There are no reviews for this product.':
+        if no_review_message == 'There are no reviews for this product.':
             assert True
             self.logger.info("************* Test Product Display 011 is Passed ***************")
         else:
@@ -613,17 +614,7 @@ class Test_007_Product_Display:
         self.logger.info("************************** Verifying Test Product Display 014 **************************")
         self.pd = ProductDisplayPage(self.driver)
 
-        # Extract review count dynamically
-        try:
-            review_element = WebDriverWait(self.driver, 10, poll_frequency=2).until(
-                EC.presence_of_element_located((By.LINK_TEXT, "0 reviews"))
-            )
-            review_text = review_element.text
-            review_count = int(review_text.split()[0]) if review_text.split()[0].isdigit() else 0
-        except Exception as e:
-            self.logger.error(f"Error fetching review count: {e}")
-            review_count = 0  # Default when no reviews exist
-
+        review_count = self.pd.get_review_count_under_the_add_to_cart_button() or 0
         self.logger.info(f"Total Reviews Extracted: {review_count}")
         assert review_count >= 0, "Review count validation failed!"
 
@@ -677,19 +668,3 @@ class Test_007_Product_Display:
             print("Review count validation failed!")
             self.logger.info("*********** Test Product Display 015 Failed ***********")
         self.logger.info("************************** End Of Test Product Display 015 **************************")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

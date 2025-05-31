@@ -204,3 +204,49 @@ Just when you thought iMac had everything, now there's even more. More powerful 
 05/28/2025 01:42:33 AM |      INFO | test_product_display.py:672 | Total Reviews Extracted: 0
 05/28/2025 01:42:33 AM |      INFO | test_product_display.py:675 | *********** Test Product Display 015 Passed ***********
 05/28/2025 01:42:33 AM |      INFO | test_product_display.py:679 | ************************** End Of Test Product Display 015 **************************
+05/28/2025 04:29:44 PM |      INFO | test_product_display.py:629 | ************************** Test Product Display 015 is Start ***************************
+05/28/2025 04:29:46 PM |      INFO | test_product_display.py:631 | Navigating to the base URL
+05/28/2025 04:29:46 PM |      INFO | test_product_display.py:634 | Entering iMac product in the search box
+05/28/2025 04:29:47 PM |      INFO | test_product_display.py:636 | Clicking on the search icon button
+05/28/2025 04:29:48 PM |      INFO | test_product_display.py:639 | Clicking on the product in search results
+05/28/2025 04:29:48 PM |      INFO | test_product_display.py:640 | ************************** Verifying Test Product Display 015 **************************
+05/28/2025 04:29:48 PM |      INFO | test_product_display.py:646 | Total Reviews Extracted: 0
+05/28/2025 04:29:48 PM |      INFO | test_product_display.py:649 | *********** Test Product Display 015 Passed ***********
+05/28/2025 04:29:48 PM |      INFO | test_product_display.py:653 | ************************** End Of Test Product Display 015 **************************
+05/28/2025 04:30:08 PM |      INFO | test_product_display.py:602 | ************************** Test Product Display 014 is Start ***************************
+05/28/2025 04:30:10 PM |      INFO | test_product_display.py:604 | Navigating to the base URL
+05/28/2025 04:30:10 PM |      INFO | test_product_display.py:607 | Entering iMac product in the search box
+05/28/2025 04:30:11 PM |      INFO | test_product_display.py:609 | Clicking on the search icon button
+05/28/2025 04:30:11 PM |      INFO | test_product_display.py:612 | Clicking on the product in search results
+05/28/2025 04:30:11 PM |      INFO | test_product_display.py:613 | ************************** Verifying Test Product Display 014 **************************
+05/28/2025 04:30:11 PM |      INFO | test_product_display.py:617 | Total Reviews Extracted: 0
+05/28/2025 04:30:31 PM |      INFO | test_product_display.py:621 | Extracted Average Rating: 0
+05/28/2025 04:30:31 PM |      INFO | test_product_display.py:623 | *********** Test Product Display 014 Passed ***********
+05/28/2025 04:30:31 PM |      INFO | test_product_display.py:624 | ************************** End Of Test Product Display 014 **************************
+05/28/2025 04:44:03 PM |      INFO | test_product_display.py:603 | ************************** Test Product Display 014 is Start ***************************
+05/28/2025 04:44:05 PM |      INFO | test_product_display.py:605 | Navigating to the base URL
+05/28/2025 04:44:05 PM |      INFO | test_product_display.py:608 | Entering iMac product in the search box
+05/28/2025 04:44:06 PM |      INFO | test_product_display.py:610 | Clicking on the search icon button
+05/28/2025 04:44:07 PM |      INFO | test_product_display.py:613 | Clicking on the product in search results
+05/28/2025 04:44:07 PM |      INFO | test_product_display.py:614 | ************************** Verifying Test Product Display 014 **************************
+05/28/2025 04:44:08 PM |      INFO | test_product_display.py:618 | Total Reviews Extracted: 0
+05/28/2025 04:44:28 PM |      INFO | test_product_display.py:630 | Extracted Average Rating: 0.0
+05/28/2025 04:44:28 PM |      INFO | test_product_display.py:632 | *********** Test Product Display 014 Passed ***********
+05/28/2025 04:44:28 PM |      INFO | test_product_display.py:633 | ************************** End Of Test Product Display 014 **************************
+06/01/2025 01:05:24 AM |      INFO | test_add_to_cart.py:17 | ***************************** Test Add To Cart 001 is Start *****************************
+06/01/2025 01:05:27 AM |      INFO | test_add_to_cart.py:19 | Navigating to the base url
+06/01/2025 01:05:27 AM |      INFO | test_add_to_cart.py:22 | Entering iMac product to the search text box field
+06/01/2025 01:05:28 AM |      INFO | test_add_to_cart.py:24 | Clicking on the search icon button
+06/01/2025 01:05:30 AM |      INFO | test_add_to_cart.py:27 | Clicking on the product display in search result
+06/01/2025 01:05:30 AM |      INFO | test_add_to_cart.py:30 | Clicking on the add to cart button
+06/01/2025 01:05:30 AM |      INFO | test_add_to_cart.py:31 | ***************************** Verifying Test Add To Cart 001 *****************************
+06/01/2025 01:05:31 AM |     ERROR | test_add_to_cart.py:46 | ************** Test Add To Cart 001 is Failed **************
+06/01/2025 01:06:42 AM |      INFO | test_add_to_cart.py:17 | ***************************** Test Add To Cart 001 is Start *****************************
+06/01/2025 01:06:45 AM |      INFO | test_add_to_cart.py:19 | Navigating to the base url
+06/01/2025 01:06:45 AM |      INFO | test_add_to_cart.py:22 | Entering iMac product to the search text box field
+06/01/2025 01:06:46 AM |      INFO | test_add_to_cart.py:24 | Clicking on the search icon button
+06/01/2025 01:06:48 AM |      INFO | test_add_to_cart.py:27 | Clicking on the product display in search result
+06/01/2025 01:06:48 AM |      INFO | test_add_to_cart.py:30 | Clicking on the add to cart button
+06/01/2025 01:06:48 AM |      INFO | test_add_to_cart.py:31 | ***************************** Verifying Test Add To Cart 001 *****************************
+06/01/2025 01:06:49 AM |      INFO | test_add_to_cart.py:38 | ************** Test Add To Cart 001 is Passed **************
+06/01/2025 01:06:49 AM |      INFO | test_add_to_cart.py:48 | ***************************** End Of Test Add To Cart 001 *****************************
