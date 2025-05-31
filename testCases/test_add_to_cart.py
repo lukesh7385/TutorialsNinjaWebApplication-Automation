@@ -1,6 +1,5 @@
 import pytest
 from selenium.webdriver.common.by import By
-
 from utilities.customLogger import LogGen
 from utilities.readProperties import ReadConfig
 from pageObjects.SearchPage import SearchPage
