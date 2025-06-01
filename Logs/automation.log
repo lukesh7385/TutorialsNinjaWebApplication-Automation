@@ -250,3 +250,46 @@ Just when you thought iMac had everything, now there's even more. More powerful 
 06/01/2025 01:06:48 AM |      INFO | test_add_to_cart.py:31 | ***************************** Verifying Test Add To Cart 001 *****************************
 06/01/2025 01:06:49 AM |      INFO | test_add_to_cart.py:38 | ************** Test Add To Cart 001 is Passed **************
 06/01/2025 01:06:49 AM |      INFO | test_add_to_cart.py:48 | ***************************** End Of Test Add To Cart 001 *****************************
+06/01/2025 01:05:43 PM |      INFO | test_add_to_cart.py:56 | **************************** Test Add To Cart 002 is Start ****************************
+06/01/2025 01:05:47 PM |      INFO | test_add_to_cart.py:58 | Navigating to the base url
+06/01/2025 01:05:47 PM |      INFO | test_add_to_cart.py:61 | Clicking on my account
+06/01/2025 01:05:48 PM |      INFO | test_add_to_cart.py:63 | Clicking on login link
+06/01/2025 01:05:48 PM |      INFO | test_add_to_cart.py:65 | Entering username
+06/01/2025 01:05:48 PM |      INFO | test_add_to_cart.py:67 | Entering password
+06/01/2025 01:05:48 PM |      INFO | test_add_to_cart.py:69 | Clicking on login button
+06/01/2025 01:05:49 PM |      INFO | test_add_to_cart.py:72 | Entering  iMac product to search text box field
+06/01/2025 01:05:50 PM |      INFO | test_add_to_cart.py:74 | Clicking on the search icon button
+06/01/2025 01:05:50 PM |      INFO | test_add_to_cart.py:77 | adding product to wish list from search result
+06/01/2025 01:09:51 PM |      INFO | test_add_to_cart.py:56 | **************************** Test Add To Cart 002 is Start ****************************
+06/01/2025 01:09:55 PM |      INFO | test_add_to_cart.py:58 | Navigating to the base url
+06/01/2025 01:09:55 PM |      INFO | test_add_to_cart.py:61 | Clicking on my account
+06/01/2025 01:09:55 PM |      INFO | test_add_to_cart.py:63 | Clicking on login link
+06/01/2025 01:09:55 PM |      INFO | test_add_to_cart.py:65 | Entering username
+06/01/2025 01:09:55 PM |      INFO | test_add_to_cart.py:67 | Entering password
+06/01/2025 01:09:55 PM |      INFO | test_add_to_cart.py:69 | Clicking on login button
+06/01/2025 01:10:26 PM |      INFO | test_add_to_cart.py:56 | **************************** Test Add To Cart 002 is Start ****************************
+06/01/2025 01:10:29 PM |      INFO | test_add_to_cart.py:58 | Navigating to the base url
+06/01/2025 01:10:30 PM |      INFO | test_add_to_cart.py:61 | Clicking on my account
+06/01/2025 01:10:30 PM |      INFO | test_add_to_cart.py:63 | Clicking on login link
+06/01/2025 01:10:30 PM |      INFO | test_add_to_cart.py:65 | Entering username
+06/01/2025 01:10:30 PM |      INFO | test_add_to_cart.py:67 | Entering password
+06/01/2025 01:10:34 PM |      INFO | test_add_to_cart.py:69 | Clicking on login button
+06/01/2025 01:10:34 PM |      INFO | test_add_to_cart.py:72 | Entering  iMac product to search text box field
+06/01/2025 01:10:35 PM |      INFO | test_add_to_cart.py:74 | Clicking on the search icon button
+06/01/2025 01:10:35 PM |      INFO | test_add_to_cart.py:77 | adding product to wish list from search result
+06/01/2025 01:12:47 PM |      INFO | test_add_to_cart.py:56 | **************************** Test Add To Cart 002 is Start ****************************
+06/01/2025 01:12:50 PM |      INFO | test_add_to_cart.py:58 | Navigating to the base url
+06/01/2025 01:12:50 PM |      INFO | test_add_to_cart.py:61 | Clicking on my account
+06/01/2025 01:12:51 PM |      INFO | test_add_to_cart.py:63 | Clicking on login link
+06/01/2025 01:12:51 PM |      INFO | test_add_to_cart.py:65 | Entering username
+06/01/2025 01:12:51 PM |      INFO | test_add_to_cart.py:67 | Entering password
+06/01/2025 01:12:53 PM |      INFO | test_add_to_cart.py:69 | Clicking on login button
+06/01/2025 01:12:53 PM |      INFO | test_add_to_cart.py:72 | Entering  iMac product to search text box field
+06/01/2025 01:12:54 PM |      INFO | test_add_to_cart.py:74 | Clicking on the search icon button
+06/01/2025 01:12:54 PM |      INFO | test_add_to_cart.py:77 | adding product to wish list from search result
+06/01/2025 01:12:54 PM |      INFO | test_add_to_cart.py:79 | Clicking on wish list header option
+06/01/2025 01:12:55 PM |      INFO | test_add_to_cart.py:81 | Clicking on the add to cart option from my wish list
+06/01/2025 01:12:55 PM |      INFO | test_add_to_cart.py:82 | **************************** Verifying Test Add To Cart 002 ****************************
+06/01/2025 01:12:56 PM |      INFO | test_add_to_cart.py:86 | Clicking on sopping cart header option
+06/01/2025 01:12:56 PM |      INFO | test_add_to_cart.py:90 | ************* Test Add To Cart 002 is Passed ************
+06/01/2025 01:12:56 PM |      INFO | test_add_to_cart.py:100 | **************************** End Of Test Add To Cart 002 ****************************
