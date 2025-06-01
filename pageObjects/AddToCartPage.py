@@ -1,4 +1,6 @@
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
 
 class AddToCartPage:
@@ -10,6 +12,8 @@ class AddToCartPage:
     addToCartButton = (By.XPATH, "//div[@class='button-group']//i[@class='fa fa-shopping-cart']")
     cartButtonInBlack = (By.XPATH, "//button[@data-loading-text='Loading...']")
     viewCartOption = (By.LINK_TEXT, "View Cart")
+    macSubcategoryOption = (By.XPATH, "//a[3]")
+    addToCartButtonFromFeaturedHomePage = (By.XPATH, "//span[contains(text(), 'Add to Cart')]")
 
     def __init__(self, driver):
         self.driver = driver
@@ -38,3 +42,16 @@ class AddToCartPage:
 
     def click_on_view_cart_option(self):
         self.driver.find_element(*AddToCartPage.viewCartOption).click()
+
+    def click_on_mac_subcategory_option_from_the_left_side_options(self):
+        self.driver.find_element(*AddToCartPage.macSubcategoryOption).click()
+
+    def is_title_of_the_page(self, expected_title):
+        """ Waits until the page title matches the expected title """
+        WebDriverWait(self.driver, 10, poll_frequency=2).until(
+            EC.title_is(expected_title)  # Wait for exact match
+        )
+        return self.driver.title
+
+    def click_on_add_to_cart_button_on_featured_home_page(self):
+        self.driver.find_element(*AddToCartPage.addToCartButtonFromFeaturedHomePage).click()

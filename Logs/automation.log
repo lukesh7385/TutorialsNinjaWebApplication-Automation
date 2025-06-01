@@ -379,3 +379,113 @@ Just when you thought iMac had everything, now there's even more. More powerful 
 06/02/2025 12:26:10 AM |      INFO | test_add_to_cart.py:158 | Clicking on the sopping cart link
 06/02/2025 12:26:15 AM |      INFO | test_add_to_cart.py:163 | ************** Test Add To Cart 004 is Passed **************
 06/02/2025 12:26:15 AM |      INFO | test_add_to_cart.py:173 | **************************** End Of Test Add To Cart 004 ****************************
+06/02/2025 12:49:41 AM |      INFO | test_add_to_cart.py:177 | ******************************* Test Add To Cart 005 is Start *******************************
+06/02/2025 12:52:14 AM |      INFO | test_add_to_cart.py:177 | ******************************* Test Add To Cart 005 is Start *******************************
+06/02/2025 12:52:18 AM |      INFO | test_add_to_cart.py:179 | Navigating to the base url
+06/02/2025 12:52:18 AM |      INFO | test_add_to_cart.py:182 | Hovering on desktop option
+06/02/2025 12:52:18 AM |      INFO | test_add_to_cart.py:184 | Clicking on all desktop option
+06/02/2025 12:55:11 AM |      INFO | test_add_to_cart.py:179 | ******************************* Test Add To Cart 005 is Start *******************************
+06/02/2025 12:55:15 AM |      INFO | test_add_to_cart.py:181 | Navigating to the base url
+06/02/2025 12:55:16 AM |      INFO | test_add_to_cart.py:186 | Hovering on desktop option and Clicking on all desktop option
+06/02/2025 01:00:18 AM |      INFO | test_add_to_cart.py:179 | ******************************* Test Add To Cart 005 is Start *******************************
+06/02/2025 01:00:22 AM |      INFO | test_add_to_cart.py:181 | Navigating to the base url
+06/02/2025 01:00:24 AM |      INFO | test_add_to_cart.py:186 | Hovering on desktop option and Clicking on all desktop option
+06/02/2025 01:00:24 AM |      INFO | test_add_to_cart.py:189 | Clicking on the mac subcategory option
+06/02/2025 01:00:25 AM |      INFO | test_add_to_cart.py:191 | Clicking on add to cart button
+06/02/2025 01:00:25 AM |      INFO | test_add_to_cart.py:192 | ******************************* Verifying Test Add To Cart 005 *******************************
+06/02/2025 01:00:26 AM |      INFO | test_add_to_cart.py:195 | Clicking on the shopping cart link
+06/02/2025 01:00:26 AM |     ERROR | test_add_to_cart.py:201 | ***************** Test Add To Cart 005 is Failed ****************
+06/02/2025 01:03:20 AM |      INFO | test_add_to_cart.py:176 | ******************************* Test Add To Cart 005 is Start *******************************
+06/02/2025 01:03:24 AM |      INFO | test_add_to_cart.py:178 | Navigating to the base url
+06/02/2025 01:03:25 AM |      INFO | test_add_to_cart.py:183 | Hovering on desktop option and Clicking on the all desktop option
+06/02/2025 01:03:26 AM |      INFO | test_add_to_cart.py:186 | Clicking on the mac subcategory option
+06/02/2025 01:03:26 AM |      INFO | test_add_to_cart.py:188 | Clicking on add to cart button
+06/02/2025 01:03:26 AM |      INFO | test_add_to_cart.py:189 | ******************************* Verifying Test Add To Cart 005 *******************************
+06/02/2025 01:03:28 AM |      INFO | test_add_to_cart.py:192 | Clicking on the shopping cart link
+06/02/2025 01:03:28 AM |     ERROR | test_add_to_cart.py:201 | ***************** Test Add To Cart 005 is Failed ****************
+06/02/2025 01:16:09 AM |      INFO | test_add_to_cart.py:179 | ******************************* Test Add To Cart 005 is Start *******************************
+06/02/2025 01:16:12 AM |      INFO | test_add_to_cart.py:181 | Navigating to the base url
+06/02/2025 01:16:14 AM |      INFO | test_add_to_cart.py:186 | Hovering on desktop option and Clicking on the all desktop option
+06/02/2025 01:16:15 AM |      INFO | test_add_to_cart.py:189 | Clicking on the mac subcategory option
+06/02/2025 01:16:15 AM |      INFO | test_add_to_cart.py:191 | Clicking on add to cart button
+06/02/2025 01:16:15 AM |      INFO | test_add_to_cart.py:192 | ******************************* Verifying Test Add To Cart 005 *******************************
+06/02/2025 01:16:16 AM |      INFO | test_add_to_cart.py:195 | Clicking on the shopping cart link
+06/02/2025 01:16:56 AM |      INFO | test_add_to_cart.py:179 | ******************************* Test Add To Cart 005 is Start *******************************
+06/02/2025 01:16:59 AM |      INFO | test_add_to_cart.py:181 | Navigating to the base url
+06/02/2025 01:17:01 AM |      INFO | test_add_to_cart.py:186 | Hovering on desktop option and Clicking on the all desktop option
+06/02/2025 01:17:02 AM |      INFO | test_add_to_cart.py:189 | Clicking on the mac subcategory option
+06/02/2025 01:17:02 AM |      INFO | test_add_to_cart.py:191 | Clicking on add to cart button
+06/02/2025 01:17:02 AM |      INFO | test_add_to_cart.py:192 | ******************************* Verifying Test Add To Cart 005 *******************************
+06/02/2025 01:17:03 AM |      INFO | test_add_to_cart.py:195 | Clicking on the shopping cart link
+06/02/2025 01:18:02 AM |      INFO | test_add_to_cart.py:179 | ******************************* Test Add To Cart 005 is Start *******************************
+06/02/2025 01:18:05 AM |      INFO | test_add_to_cart.py:181 | Navigating to the base url
+06/02/2025 01:18:07 AM |      INFO | test_add_to_cart.py:186 | Hovering on desktop option and Clicking on the all desktop option
+06/02/2025 01:18:07 AM |      INFO | test_add_to_cart.py:189 | Clicking on the mac subcategory option
+06/02/2025 01:18:08 AM |      INFO | test_add_to_cart.py:191 | Clicking on add to cart button
+06/02/2025 01:18:08 AM |      INFO | test_add_to_cart.py:192 | ******************************* Verifying Test Add To Cart 005 *******************************
+06/02/2025 01:18:09 AM |      INFO | test_add_to_cart.py:195 | Clicking on the shopping cart link
+06/02/2025 01:18:09 AM |     ERROR | test_add_to_cart.py:201 | ***************** Test Add To Cart 005 is Failed ****************
+06/02/2025 01:19:28 AM |      INFO | test_add_to_cart.py:179 | ******************************* Test Add To Cart 005 is Start *******************************
+06/02/2025 01:19:31 AM |      INFO | test_add_to_cart.py:181 | Navigating to the base url
+06/02/2025 01:19:33 AM |      INFO | test_add_to_cart.py:186 | Hovering on desktop option and Clicking on the all desktop option
+06/02/2025 01:19:34 AM |      INFO | test_add_to_cart.py:189 | Clicking on the mac subcategory option
+06/02/2025 01:19:34 AM |      INFO | test_add_to_cart.py:191 | Clicking on add to cart button
+06/02/2025 01:19:34 AM |      INFO | test_add_to_cart.py:192 | ******************************* Verifying Test Add To Cart 005 *******************************
+06/02/2025 01:19:34 AM |      INFO | test_add_to_cart.py:194 | success message is passed
+06/02/2025 01:19:35 AM |      INFO | test_add_to_cart.py:196 | Clicking on the shopping cart link
+06/02/2025 01:19:35 AM |      INFO | test_add_to_cart.py:198 | page title is Passed
+06/02/2025 01:19:35 AM |     ERROR | test_add_to_cart.py:203 | ***************** Test Add To Cart 005 is Failed ****************
+06/02/2025 01:20:58 AM |      INFO | test_add_to_cart.py:179 | ******************************* Test Add To Cart 005 is Start *******************************
+06/02/2025 01:21:01 AM |      INFO | test_add_to_cart.py:181 | Navigating to the base url
+06/02/2025 01:21:03 AM |      INFO | test_add_to_cart.py:186 | Hovering on desktop option and Clicking on the all desktop option
+06/02/2025 01:21:04 AM |      INFO | test_add_to_cart.py:189 | Clicking on the mac subcategory option
+06/02/2025 01:21:04 AM |      INFO | test_add_to_cart.py:191 | Clicking on add to cart button
+06/02/2025 01:21:04 AM |      INFO | test_add_to_cart.py:192 | ******************************* Verifying Test Add To Cart 005 *******************************
+06/02/2025 01:21:04 AM |      INFO | test_add_to_cart.py:194 | success message is passed
+06/02/2025 01:21:05 AM |      INFO | test_add_to_cart.py:196 | Clicking on the shopping cart link
+06/02/2025 01:21:05 AM |      INFO | test_add_to_cart.py:198 | page title is Passed
+06/02/2025 01:21:05 AM |     ERROR | test_add_to_cart.py:203 | ***************** Test Add To Cart 005 is Failed ****************
+06/02/2025 01:23:45 AM |      INFO | test_add_to_cart.py:176 | ******************************* Test Add To Cart 005 is Start *******************************
+06/02/2025 01:23:48 AM |      INFO | test_add_to_cart.py:178 | Navigating to the base url
+06/02/2025 01:23:50 AM |      INFO | test_add_to_cart.py:183 | Hovering on desktop option and Clicking on the all desktop option
+06/02/2025 01:23:51 AM |      INFO | test_add_to_cart.py:186 | Clicking on the mac subcategory option
+06/02/2025 01:23:51 AM |      INFO | test_add_to_cart.py:188 | Clicking on add to cart button
+06/02/2025 01:23:51 AM |      INFO | test_add_to_cart.py:189 | ******************************* Verifying Test Add To Cart 005 *******************************
+06/02/2025 01:23:51 AM |      INFO | test_add_to_cart.py:191 | success message is passed
+06/02/2025 01:23:52 AM |      INFO | test_add_to_cart.py:193 | Clicking on the shopping cart link
+06/02/2025 01:23:52 AM |      INFO | test_add_to_cart.py:195 | page title is Passed
+06/02/2025 01:23:52 AM |     ERROR | test_add_to_cart.py:200 | ('xpath', '//body[1]/div[2]/div[2]/div[1]/form[1]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/a[1]')
+06/02/2025 01:23:52 AM |     ERROR | test_add_to_cart.py:201 | ***************** Test Add To Cart 005 is Failed ****************
+06/02/2025 01:26:30 AM |      INFO | test_add_to_cart.py:176 | ******************************* Test Add To Cart 005 is Start *******************************
+06/02/2025 01:26:34 AM |      INFO | test_add_to_cart.py:178 | Navigating to the base url
+06/02/2025 01:26:36 AM |      INFO | test_add_to_cart.py:183 | Hovering on desktop option and Clicking on the all desktop option
+06/02/2025 01:26:37 AM |      INFO | test_add_to_cart.py:186 | Clicking on the mac subcategory option
+06/02/2025 01:26:37 AM |      INFO | test_add_to_cart.py:188 | Clicking on add to cart button
+06/02/2025 01:26:37 AM |      INFO | test_add_to_cart.py:189 | ******************************* Verifying Test Add To Cart 005 *******************************
+06/02/2025 01:26:37 AM |      INFO | test_add_to_cart.py:191 | success message is passed
+06/02/2025 01:26:38 AM |      INFO | test_add_to_cart.py:193 | Clicking on the shopping cart link
+06/02/2025 01:26:38 AM |      INFO | test_add_to_cart.py:195 | page title is Passed
+06/02/2025 01:26:38 AM |     ERROR | test_add_to_cart.py:200 | ('link text', 'iMac')
+06/02/2025 01:26:38 AM |     ERROR | test_add_to_cart.py:201 | ***************** Test Add To Cart 005 is Failed ****************
+06/02/2025 01:27:57 AM |      INFO | test_add_to_cart.py:176 | ******************************* Test Add To Cart 005 is Start *******************************
+06/02/2025 01:28:00 AM |      INFO | test_add_to_cart.py:178 | Navigating to the base url
+06/02/2025 01:28:02 AM |      INFO | test_add_to_cart.py:183 | Hovering on desktop option and Clicking on the all desktop option
+06/02/2025 01:28:03 AM |      INFO | test_add_to_cart.py:186 | Clicking on the mac subcategory option
+06/02/2025 01:28:03 AM |      INFO | test_add_to_cart.py:188 | Clicking on add to cart button
+06/02/2025 01:28:03 AM |      INFO | test_add_to_cart.py:189 | ******************************* Verifying Test Add To Cart 005 *******************************
+06/02/2025 01:28:03 AM |      INFO | test_add_to_cart.py:191 | success message is passed
+06/02/2025 01:28:04 AM |      INFO | test_add_to_cart.py:193 | Clicking on the shopping cart link
+06/02/2025 01:28:04 AM |      INFO | test_add_to_cart.py:195 | page title is Passed
+06/02/2025 01:28:04 AM |      INFO | test_add_to_cart.py:198 | ***************** Test Add To Cart 005 is Passed ****************
+06/02/2025 01:28:04 AM |      INFO | test_add_to_cart.py:209 | ******************************* End Of Test Add To Cart 005 *******************************
+06/02/2025 02:10:45 AM |      INFO | test_add_to_cart.py:214 | **************************** Test Add To Cart 006 is Start ****************************
+06/02/2025 02:10:48 AM |      INFO | test_add_to_cart.py:216 | Navigating to base url
+06/02/2025 02:10:49 AM |      INFO | test_add_to_cart.py:219 | Clicking on the add to cart button on featured home page 
+06/02/2025 02:10:49 AM |      INFO | test_add_to_cart.py:220 | **************************** Verifying Test Add To Cart 006 ****************************
+06/02/2025 02:12:26 AM |      INFO | test_add_to_cart.py:214 | **************************** Test Add To Cart 006 is Start ****************************
+06/02/2025 02:12:29 AM |      INFO | test_add_to_cart.py:216 | Navigating to base url
+06/02/2025 02:12:30 AM |      INFO | test_add_to_cart.py:219 | Clicking on the add to cart button on featured home page 
+06/02/2025 02:12:30 AM |      INFO | test_add_to_cart.py:220 | **************************** Verifying Test Add To Cart 006 ****************************
+06/02/2025 02:12:31 AM |      INFO | test_add_to_cart.py:224 | Clicking on the shopping cart link
+06/02/2025 02:12:31 AM |      INFO | test_add_to_cart.py:228 | ***************** Test Add To Cart 006 is Passed ****************
+06/02/2025 02:12:31 AM |      INFO | test_add_to_cart.py:238 | **************************** End Of Test Add To Cart 006 ****************************
