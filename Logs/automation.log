@@ -361,3 +361,21 @@ Just when you thought iMac had everything, now there's even more. More powerful 
 06/02/2025 12:12:57 AM |      INFO | test_add_to_cart.py:124 | Clicking on the view cart option
 06/02/2025 12:12:59 AM |      INFO | test_add_to_cart.py:129 | ************** Test Add To Cart 003 is Passed **************
 06/02/2025 12:12:59 AM |      INFO | test_add_to_cart.py:139 | **************************** End Of Test Add To Cart 003 ****************************
+06/02/2025 12:25:24 AM |      INFO | test_add_to_cart.py:141 | **************************** Test Add To Cart 004 is Start ****************************
+06/02/2025 12:25:27 AM |      INFO | test_add_to_cart.py:143 | Navigating to the base url
+06/02/2025 12:25:27 AM |      INFO | test_add_to_cart.py:146 | Entering iMac product to search box text field
+06/02/2025 12:25:28 AM |      INFO | test_add_to_cart.py:148 | Clicking on the search icon button
+06/02/2025 12:25:28 AM |      INFO | test_add_to_cart.py:151 | Clicking on the add to cart button
+06/02/2025 12:25:28 AM |      INFO | test_add_to_cart.py:152 | **************************** Verifying Test Add To Cart 004 ****************************
+06/02/2025 12:25:30 AM |      INFO | test_add_to_cart.py:156 | Clicking on the sopping cart link
+06/02/2025 12:25:30 AM |      INFO | test_add_to_cart.py:160 | ************** Test Add To Cart 004 is Passed **************
+06/02/2025 12:25:30 AM |      INFO | test_add_to_cart.py:170 | **************************** End Of Test Add To Cart 004 ****************************
+06/02/2025 12:26:05 AM |      INFO | test_add_to_cart.py:143 | **************************** Test Add To Cart 004 is Start ****************************
+06/02/2025 12:26:08 AM |      INFO | test_add_to_cart.py:145 | Navigating to the base url
+06/02/2025 12:26:08 AM |      INFO | test_add_to_cart.py:148 | Entering iMac product to search box text field
+06/02/2025 12:26:09 AM |      INFO | test_add_to_cart.py:150 | Clicking on the search icon button
+06/02/2025 12:26:09 AM |      INFO | test_add_to_cart.py:153 | Clicking on the add to cart button
+06/02/2025 12:26:09 AM |      INFO | test_add_to_cart.py:154 | **************************** Verifying Test Add To Cart 004 ****************************
+06/02/2025 12:26:10 AM |      INFO | test_add_to_cart.py:158 | Clicking on the sopping cart link
+06/02/2025 12:26:15 AM |      INFO | test_add_to_cart.py:163 | ************** Test Add To Cart 004 is Passed **************
+06/02/2025 12:26:15 AM |      INFO | test_add_to_cart.py:173 | **************************** End Of Test Add To Cart 004 ****************************
