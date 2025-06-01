@@ -7,8 +7,9 @@ class AddToCartPage:
     addToCartIconOption = (By.XPATH, "//button[@class='btn btn-primary']//i[@class='fa fa-shopping-cart']")
     shoppingCartHeaderOption = (By.XPATH, "//span[normalize-space()='Shopping Cart']")
     productName = (By.XPATH, "//body[1]/div[2]/div[2]/div[1]/form[1]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/a[1]")
-
-
+    addToCartButton = (By.XPATH, "//div[@class='button-group']//i[@class='fa fa-shopping-cart']")
+    cartButtonInBlack = (By.XPATH, "//button[@data-loading-text='Loading...']")
+    viewCartOption = (By.LINK_TEXT, "View Cart")
 
     def __init__(self, driver):
         self.driver = driver
@@ -28,3 +29,12 @@ class AddToCartPage:
     def get_product_name(self):
         product_name = self.driver.find_element(*AddToCartPage.productName).text
         return product_name
+
+    def click_on_add_to_cart_button_on_product_in_search_result(self):
+        self.driver.find_element(*AddToCartPage.addToCartButton).click()
+
+    def click_on_cart_button_in_black_color_beside_of_search_icon(self):
+        self.driver.find_element(*AddToCartPage.cartButtonInBlack).click()
+
+    def click_on_view_cart_option(self):
+        self.driver.find_element(*AddToCartPage.viewCartOption).click()

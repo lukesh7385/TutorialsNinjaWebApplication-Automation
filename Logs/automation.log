@@ -293,3 +293,71 @@ Just when you thought iMac had everything, now there's even more. More powerful 
 06/01/2025 01:12:56 PM |      INFO | test_add_to_cart.py:86 | Clicking on sopping cart header option
 06/01/2025 01:12:56 PM |      INFO | test_add_to_cart.py:90 | ************* Test Add To Cart 002 is Passed ************
 06/01/2025 01:12:56 PM |      INFO | test_add_to_cart.py:100 | **************************** End Of Test Add To Cart 002 ****************************
+06/01/2025 11:58:56 PM |      INFO | test_add_to_cart.py:105 | **************************** Test Add To Cart 003 is Start ****************************
+06/01/2025 11:58:59 PM |      INFO | test_add_to_cart.py:107 | Navigating to the base url
+06/01/2025 11:58:59 PM |      INFO | test_add_to_cart.py:110 | Entering iMac product to search box text field
+06/01/2025 11:59:00 PM |      INFO | test_add_to_cart.py:112 | Clicking on the search icon button
+06/02/2025 12:03:52 AM |      INFO | test_add_to_cart.py:105 | **************************** Test Add To Cart 003 is Start ****************************
+06/02/2025 12:03:55 AM |      INFO | test_add_to_cart.py:107 | Navigating to the base url
+06/02/2025 12:03:55 AM |      INFO | test_add_to_cart.py:110 | Entering iMac product to search box text field
+06/02/2025 12:03:56 AM |      INFO | test_add_to_cart.py:112 | Clicking on the search icon button
+06/02/2025 12:03:56 AM |      INFO | test_add_to_cart.py:115 | Clicking on the add to cart button
+06/02/2025 12:03:56 AM |      INFO | test_add_to_cart.py:116 | **************************** Verifying Test Add To Cart 003 ****************************
+06/02/2025 12:03:57 AM |     ERROR | test_add_to_cart.py:134 | ************** Test Add To Cart 003 is Failed **************
+06/02/2025 12:04:48 AM |      INFO | test_add_to_cart.py:105 | **************************** Test Add To Cart 003 is Start ****************************
+06/02/2025 12:04:51 AM |      INFO | test_add_to_cart.py:107 | Navigating to the base url
+06/02/2025 12:04:52 AM |      INFO | test_add_to_cart.py:110 | Entering iMac product to search box text field
+06/02/2025 12:04:52 AM |      INFO | test_add_to_cart.py:112 | Clicking on the search icon button
+06/02/2025 12:04:53 AM |      INFO | test_add_to_cart.py:115 | Clicking on the add to cart button
+06/02/2025 12:04:53 AM |      INFO | test_add_to_cart.py:116 | **************************** Verifying Test Add To Cart 003 ****************************
+06/02/2025 12:06:21 AM |      INFO | test_add_to_cart.py:105 | **************************** Test Add To Cart 003 is Start ****************************
+06/02/2025 12:06:24 AM |      INFO | test_add_to_cart.py:107 | Navigating to the base url
+06/02/2025 12:06:24 AM |      INFO | test_add_to_cart.py:110 | Entering iMac product to search box text field
+06/02/2025 12:06:25 AM |      INFO | test_add_to_cart.py:112 | Clicking on the search icon button
+06/02/2025 12:06:25 AM |      INFO | test_add_to_cart.py:115 | Clicking on the add to cart button
+06/02/2025 12:06:25 AM |      INFO | test_add_to_cart.py:116 | **************************** Verifying Test Add To Cart 003 ****************************
+06/02/2025 12:07:10 AM |      INFO | test_add_to_cart.py:107 | **************************** Test Add To Cart 003 is Start ****************************
+06/02/2025 12:07:13 AM |      INFO | test_add_to_cart.py:109 | Navigating to the base url
+06/02/2025 12:07:14 AM |      INFO | test_add_to_cart.py:112 | Entering iMac product to search box text field
+06/02/2025 12:07:14 AM |      INFO | test_add_to_cart.py:114 | Clicking on the search icon button
+06/02/2025 12:07:15 AM |      INFO | test_add_to_cart.py:117 | Clicking on the add to cart button
+06/02/2025 12:07:15 AM |      INFO | test_add_to_cart.py:118 | **************************** Verifying Test Add To Cart 003 ****************************
+06/02/2025 12:10:38 AM |      INFO | test_add_to_cart.py:107 | **************************** Test Add To Cart 003 is Start ****************************
+06/02/2025 12:10:41 AM |      INFO | test_add_to_cart.py:109 | Navigating to the base url
+06/02/2025 12:10:41 AM |      INFO | test_add_to_cart.py:112 | Entering iMac product to search box text field
+06/02/2025 12:10:42 AM |      INFO | test_add_to_cart.py:114 | Clicking on the search icon button
+06/02/2025 12:10:42 AM |      INFO | test_add_to_cart.py:117 | Clicking on the add to cart button
+06/02/2025 12:10:42 AM |      INFO | test_add_to_cart.py:118 | **************************** Verifying Test Add To Cart 003 ****************************
+06/02/2025 12:10:44 AM |      INFO | test_add_to_cart.py:122 | Clicking on the cart button beside of search icon
+06/02/2025 12:10:50 AM |      INFO | test_add_to_cart.py:125 | Clicking on the view cart option
+06/02/2025 12:10:50 AM |      INFO | test_add_to_cart.py:129 | ************** Test Add To Cart 003 is Passed **************
+06/02/2025 12:10:50 AM |      INFO | test_add_to_cart.py:139 | **************************** End Of Test Add To Cart 003 ****************************
+06/02/2025 12:11:17 AM |      INFO | test_add_to_cart.py:107 | **************************** Test Add To Cart 003 is Start ****************************
+06/02/2025 12:11:20 AM |      INFO | test_add_to_cart.py:109 | Navigating to the base url
+06/02/2025 12:11:20 AM |      INFO | test_add_to_cart.py:112 | Entering iMac product to search box text field
+06/02/2025 12:11:21 AM |      INFO | test_add_to_cart.py:114 | Clicking on the search icon button
+06/02/2025 12:11:21 AM |      INFO | test_add_to_cart.py:117 | Clicking on the add to cart button
+06/02/2025 12:11:21 AM |      INFO | test_add_to_cart.py:118 | **************************** Verifying Test Add To Cart 003 ****************************
+06/02/2025 12:11:22 AM |      INFO | test_add_to_cart.py:122 | Clicking on the cart button beside of search icon
+06/02/2025 12:11:23 AM |      INFO | test_add_to_cart.py:124 | Clicking on the view cart option
+06/02/2025 12:11:23 AM |      INFO | test_add_to_cart.py:128 | ************** Test Add To Cart 003 is Passed **************
+06/02/2025 12:11:23 AM |      INFO | test_add_to_cart.py:138 | **************************** End Of Test Add To Cart 003 ****************************
+06/02/2025 12:12:04 AM |      INFO | test_add_to_cart.py:107 | **************************** Test Add To Cart 003 is Start ****************************
+06/02/2025 12:12:07 AM |      INFO | test_add_to_cart.py:109 | Navigating to the base url
+06/02/2025 12:12:07 AM |      INFO | test_add_to_cart.py:112 | Entering iMac product to search box text field
+06/02/2025 12:12:08 AM |      INFO | test_add_to_cart.py:114 | Clicking on the search icon button
+06/02/2025 12:12:08 AM |      INFO | test_add_to_cart.py:117 | Clicking on the add to cart button
+06/02/2025 12:12:08 AM |      INFO | test_add_to_cart.py:118 | **************************** Verifying Test Add To Cart 003 ****************************
+06/02/2025 12:12:09 AM |      INFO | test_add_to_cart.py:122 | Clicking on the cart button beside of search icon
+06/02/2025 12:12:10 AM |      INFO | test_add_to_cart.py:124 | Clicking on the view cart option
+06/02/2025 12:12:12 AM |     ERROR | test_add_to_cart.py:134 | ************** Test Add To Cart 003 is Failed **************
+06/02/2025 12:12:52 AM |      INFO | test_add_to_cart.py:107 | **************************** Test Add To Cart 003 is Start ****************************
+06/02/2025 12:12:55 AM |      INFO | test_add_to_cart.py:109 | Navigating to the base url
+06/02/2025 12:12:55 AM |      INFO | test_add_to_cart.py:112 | Entering iMac product to search box text field
+06/02/2025 12:12:56 AM |      INFO | test_add_to_cart.py:114 | Clicking on the search icon button
+06/02/2025 12:12:56 AM |      INFO | test_add_to_cart.py:117 | Clicking on the add to cart button
+06/02/2025 12:12:56 AM |      INFO | test_add_to_cart.py:118 | **************************** Verifying Test Add To Cart 003 ****************************
+06/02/2025 12:12:57 AM |      INFO | test_add_to_cart.py:122 | Clicking on the cart button beside of search icon
+06/02/2025 12:12:57 AM |      INFO | test_add_to_cart.py:124 | Clicking on the view cart option
+06/02/2025 12:12:59 AM |      INFO | test_add_to_cart.py:129 | ************** Test Add To Cart 003 is Passed **************
+06/02/2025 12:12:59 AM |      INFO | test_add_to_cart.py:139 | **************************** End Of Test Add To Cart 003 ****************************

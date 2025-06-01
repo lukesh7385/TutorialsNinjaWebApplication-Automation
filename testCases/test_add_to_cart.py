@@ -1,12 +1,12 @@
 import pytest
-from selenium.webdriver.common.by import By
-from utilities.customLogger import LogGen
-from utilities.readProperties import ReadConfig
-from pageObjects.SearchPage import SearchPage
+from pageObjects.AddToCartPage import AddToCartPage
+from pageObjects.LoginPage import LoginPage
 from pageObjects.ProductComparePage import ProductComparePage
 from pageObjects.ProductDisplayPage import ProductDisplayPage
-from pageObjects.LoginPage import LoginPage
-from pageObjects.AddToCartPage import AddToCartPage
+from pageObjects.SearchPage import SearchPage
+from utilities.customLogger import LogGen
+from utilities.readProperties import ReadConfig
+
 
 @pytest.mark.usefixtures("setup", "log_on_failure")
 class Test_008_Add_To_Cart:
@@ -56,7 +56,7 @@ class Test_008_Add_To_Cart:
         self.logger.info("**************************** Test Add To Cart 002 is Start ****************************")
         self.driver.get(self.baseURL)
         self.logger.info("Navigating to the base url")
-        self.lp  = LoginPage(self.driver)
+        self.lp = LoginPage(self.driver)
         self.lp.click_on_my_account()
         self.logger.info("Clicking on my account")
         self.lp.click_on_login_link()
@@ -99,10 +99,38 @@ class Test_008_Add_To_Cart:
             assert False
         self.logger.info("**************************** End Of Test Add To Cart 002 ****************************")
 
-
-
-
-
-
-
-
+    @pytest.mark.sanity
+    def test_add_to_cart_003(self, setup):
+        self.driver = setup
+        self.logger.info("**************************** Test Add To Cart 003 is Start ****************************")
+        self.driver.get(self.baseURL)
+        self.logger.info("Navigating to the base url")
+        self.sf = SearchPage(self.driver)
+        self.sf.search_product("iMac")
+        self.logger.info("Entering iMac product to search box text field")
+        self.sf.click_on_search_button()
+        self.logger.info("Clicking on the search icon button")
+        self.atc = AddToCartPage(self.driver)
+        self.atc.click_on_add_to_cart_button_on_product_in_search_result()
+        self.logger.info("Clicking on the add to cart button")
+        self.logger.info("**************************** Verifying Test Add To Cart 003 ****************************")
+        self.pc = ProductComparePage(self.driver)
+        if self.pc.success_message().__contains__('Success: You have added iMac to your shopping cart!'):
+            self.atc.click_on_cart_button_in_black_color_beside_of_search_icon()
+            self.logger.info("Clicking on the cart button beside of search icon")
+            self.atc.click_on_view_cart_option()
+            self.logger.info("Clicking on the view cart option")
+            if self.driver.title == "Shopping Cart":
+                if self.atc.get_product_name() == "iMac":
+                    assert True
+                    self.logger.info("************** Test Add To Cart 003 is Passed **************")
+                else:
+                    self.logger.error("************** Test Add To Cart 003 is Failed **************")
+                    assert False
+            else:
+                self.logger.error("************** Test Add To Cart 003 is Failed **************")
+                assert False
+        else:
+            self.logger.error("************** Test Add To Cart 003 is Failed **************")
+            assert False
+        self.logger.info("**************************** End Of Test Add To Cart 003 ****************************")
