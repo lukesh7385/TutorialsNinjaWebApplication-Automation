@@ -237,5 +237,46 @@ class Test_008_Add_To_Cart:
             assert False
         self.logger.info("**************************** End Of Test Add To Cart 006 ****************************")
 
+    @pytest.mark.sanity
+    def test_add_to_cart_007(self, setup):
+        self.driver = setup
+        self.logger.info("**************************** Test Add To Cart 007 is Start ****************************")
+        self.driver.get(self.baseURL)
+        self.logger.info("Navigating to base url")
+        self.sf = SearchPage(self.driver)
+        self.sf.search_product("iMac")
+        self.logger.info("Entering iMac product to search text box field")
+        self.sf.click_on_search_button()
+        self.logger.info("Clicking on the search icon button")
+        self.pc = ProductComparePage(self.driver)
+        self.pc.click_on_compare_this_product_option_available_on_the_product()
+        self.logger.info("Clicking on compare this product option")
+        self.pc.click_on_product_comparison_link()
+        self.logger.info("Clicking on product comparison link")
+        self.pc.click_on_add_to_cart_button()
+        self.logger.info("Clicking on add to cart button")
+        self.logger.info("**************************** Verifying Test Add To Cart 007 ****************************")
+        if self.pc.success_message().__contains__('Success: You have added iMac to your shopping cart!'):
+            self.pc.click_on_shopping_cart_link()
+            self.logger.info("Clicking on shopping Cart link")
+            self.atc = AddToCartPage(self.driver)
+            if self.atc.is_title_of_the_page("Shopping Cart"):
+                if self.atc.get_product_name() == "iMac":
+                    assert True
+                    self.logger.info("**************** Test Add To Cart 007 is Passed *****************")
+                else:
+                    self.logger.error("**************** Test Add To Cart 007 is Failed *****************")
+                    assert False
+            else:
+                self.logger.error("**************** Test Add To Cart 007 is Failed *****************")
+                assert False
+        else:
+            self.logger.error("**************** Test Add To Cart 007 is Failed *****************")
+            assert False
+        self.logger.info("**************************** End Of Test Add To Cart 007 ****************************")
+
+
+
+
 
 
