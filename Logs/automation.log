@@ -514,3 +514,63 @@ Just when you thought iMac had everything, now there's even more. More powerful 
 06/04/2025 04:57:21 PM |      INFO | test_add_to_cart.py:306 | Clicking on the shopping cart link
 06/04/2025 04:57:21 PM |      INFO | test_add_to_cart.py:311 | ************** Test Add To Cart is Passed *************
 06/04/2025 04:57:21 PM |      INFO | test_add_to_cart.py:321 | *************************** End Of Test Add To Cart ***************************
+06/05/2025 12:56:07 AM |      INFO | test_add_to_cart.py:326 | ***************************  Test Add To Cart 009 is Start ***************************
+06/05/2025 12:56:10 AM |      INFO | test_add_to_cart.py:329 | Navigating to base URL in chrome
+06/05/2025 12:56:10 AM |      INFO | test_add_to_cart.py:332 | Entering iMac product to search box field
+06/05/2025 12:56:11 AM |      INFO | test_add_to_cart.py:334 | Clicking on the search icon button
+06/05/2025 12:56:13 AM |      INFO | test_add_to_cart.py:337 | Clicking on product display in search result
+06/05/2025 12:56:13 AM |      INFO | test_add_to_cart.py:340 | *************************** Verifying Test Add To Cart 009 ***************************
+06/05/2025 12:56:14 AM |      INFO | test_add_to_cart.py:345 | Clicking on the add to cart button
+06/05/2025 12:56:15 AM |      INFO | test_add_to_cart.py:348 | Clicking on the shopping cart link
+06/05/2025 12:56:15 AM |      INFO | test_add_to_cart.py:353 | ************** Test Add To Cart 009 is Passed *************
+06/05/2025 12:56:15 AM |      INFO | test_add_to_cart.py:363 | *************************** End Of Test Add To Cart 009 ***************************
+06/05/2025 12:56:27 AM |      INFO | test_add_to_cart.py:326 | ***************************  Test Add To Cart 009 is Start ***************************
+06/05/2025 12:56:29 AM |      INFO | test_add_to_cart.py:329 | Navigating to base URL in firefox
+06/05/2025 12:56:30 AM |      INFO | test_add_to_cart.py:332 | Entering iMac product to search box field
+06/05/2025 12:56:30 AM |      INFO | test_add_to_cart.py:334 | Clicking on the search icon button
+06/05/2025 12:56:31 AM |      INFO | test_add_to_cart.py:337 | Clicking on product display in search result
+06/05/2025 12:56:31 AM |      INFO | test_add_to_cart.py:340 | *************************** Verifying Test Add To Cart 009 ***************************
+06/05/2025 12:56:32 AM |      INFO | test_add_to_cart.py:345 | Clicking on the add to cart button
+06/05/2025 12:56:32 AM |      INFO | test_add_to_cart.py:348 | Clicking on the shopping cart link
+06/05/2025 12:56:34 AM |      INFO | test_add_to_cart.py:353 | ************** Test Add To Cart 009 is Passed *************
+06/05/2025 12:56:34 AM |      INFO | test_add_to_cart.py:363 | *************************** End Of Test Add To Cart 009 ***************************
+06/05/2025 12:56:40 AM |      INFO | test_add_to_cart.py:326 | ***************************  Test Add To Cart 009 is Start ***************************
+06/05/2025 12:56:43 AM |      INFO | test_add_to_cart.py:329 | Navigating to base URL in MicrosoftEdge
+06/05/2025 12:56:43 AM |      INFO | test_add_to_cart.py:332 | Entering iMac product to search box field
+06/05/2025 12:56:44 AM |      INFO | test_add_to_cart.py:334 | Clicking on the search icon button
+06/05/2025 12:56:46 AM |      INFO | test_add_to_cart.py:337 | Clicking on product display in search result
+06/05/2025 12:56:46 AM |      INFO | test_add_to_cart.py:340 | *************************** Verifying Test Add To Cart 009 ***************************
+06/05/2025 12:56:47 AM |      INFO | test_add_to_cart.py:345 | Clicking on the add to cart button
+06/05/2025 12:56:48 AM |      INFO | test_add_to_cart.py:348 | Clicking on the shopping cart link
+06/05/2025 12:56:48 AM |      INFO | test_add_to_cart.py:353 | ************** Test Add To Cart 009 is Passed *************
+06/05/2025 12:56:48 AM |      INFO | test_add_to_cart.py:363 | *************************** End Of Test Add To Cart 009 ***************************
+06/05/2025 12:59:41 AM |      INFO | test_add_to_cart.py:325 | ***************************  Test Add To Cart 009 is Start ***************************
+06/05/2025 12:59:45 AM |      INFO | test_add_to_cart.py:328 | Navigating to base URL in chrome
+06/05/2025 12:59:45 AM |      INFO | test_add_to_cart.py:331 | Entering iMac product to search box field
+06/05/2025 12:59:46 AM |      INFO | test_add_to_cart.py:333 | Clicking on the search icon button
+06/05/2025 12:59:47 AM |      INFO | test_add_to_cart.py:336 | Clicking on product display in search result
+06/05/2025 12:59:47 AM |      INFO | test_add_to_cart.py:339 | *************************** Verifying Test Add To Cart 009 ***************************
+06/05/2025 12:59:47 AM |      INFO | test_add_to_cart.py:344 | Clicking on the add to cart button
+06/05/2025 12:59:48 AM |      INFO | test_add_to_cart.py:347 | Clicking on the shopping cart link
+06/05/2025 12:59:48 AM |      INFO | test_add_to_cart.py:352 | ************** Test Add To Cart 009 is Passed *************
+06/05/2025 12:59:48 AM |      INFO | test_add_to_cart.py:362 | *************************** End Of Test Add To Cart 009 ***************************
+06/05/2025 01:00:00 AM |      INFO | test_add_to_cart.py:325 | ***************************  Test Add To Cart 009 is Start ***************************
+06/05/2025 01:00:02 AM |      INFO | test_add_to_cart.py:328 | Navigating to base URL in firefox
+06/05/2025 01:00:02 AM |      INFO | test_add_to_cart.py:331 | Entering iMac product to search box field
+06/05/2025 01:00:03 AM |      INFO | test_add_to_cart.py:333 | Clicking on the search icon button
+06/05/2025 01:00:04 AM |      INFO | test_add_to_cart.py:336 | Clicking on product display in search result
+06/05/2025 01:00:04 AM |      INFO | test_add_to_cart.py:339 | *************************** Verifying Test Add To Cart 009 ***************************
+06/05/2025 01:00:05 AM |      INFO | test_add_to_cart.py:344 | Clicking on the add to cart button
+06/05/2025 01:00:05 AM |      INFO | test_add_to_cart.py:347 | Clicking on the shopping cart link
+06/05/2025 01:00:07 AM |      INFO | test_add_to_cart.py:352 | ************** Test Add To Cart 009 is Passed *************
+06/05/2025 01:00:07 AM |      INFO | test_add_to_cart.py:362 | *************************** End Of Test Add To Cart 009 ***************************
+06/05/2025 01:00:13 AM |      INFO | test_add_to_cart.py:325 | ***************************  Test Add To Cart 009 is Start ***************************
+06/05/2025 01:00:16 AM |      INFO | test_add_to_cart.py:328 | Navigating to base URL in MicrosoftEdge
+06/05/2025 01:00:16 AM |      INFO | test_add_to_cart.py:331 | Entering iMac product to search box field
+06/05/2025 01:00:17 AM |      INFO | test_add_to_cart.py:333 | Clicking on the search icon button
+06/05/2025 01:00:18 AM |      INFO | test_add_to_cart.py:336 | Clicking on product display in search result
+06/05/2025 01:00:18 AM |      INFO | test_add_to_cart.py:339 | *************************** Verifying Test Add To Cart 009 ***************************
+06/05/2025 01:00:18 AM |      INFO | test_add_to_cart.py:344 | Clicking on the add to cart button
+06/05/2025 01:00:20 AM |      INFO | test_add_to_cart.py:347 | Clicking on the shopping cart link
+06/05/2025 01:00:20 AM |      INFO | test_add_to_cart.py:352 | ************** Test Add To Cart 009 is Passed *************
+06/05/2025 01:00:20 AM |      INFO | test_add_to_cart.py:362 | *************************** End Of Test Add To Cart 009 ***************************
