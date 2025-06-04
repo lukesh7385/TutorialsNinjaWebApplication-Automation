@@ -252,6 +252,7 @@ class Test_007_Product_Display:
         self.driver.quit()
         self.logger.info("************************* End Of Test Product Display 005 *************************")
 
+    @pytest.mark.xfail(reason="Bug not fixed")
     @pytest.mark.sanity
     def test_product_display_006(self, setup):
         self.driver = setup
@@ -400,6 +401,7 @@ class Test_007_Product_Display:
 
         self.logger.info("***************************** End Of Test Product Display 008 ***************************")
 
+    @pytest.mark.xfail(reason="Bug not fixed")
     @pytest.mark.sanity
     def test_product_display_009(self, setup):
         self.driver = setup

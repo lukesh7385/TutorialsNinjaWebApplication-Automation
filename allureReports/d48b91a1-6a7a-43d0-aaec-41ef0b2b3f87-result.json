@@ -1,0 +1,1 @@
+{"name": "test_login_params[data_for_login2]", "status": "passed", "parameters": [{"name": "data_for_login", "value": "('adelukesh@gmail.com', '48465', 'Fail')"}], "start": 1749073152505, "stop": 1749073153482, "uuid": "a5c78752-e989-4152-aff4-9daa91ddf34c", "testCaseId": "5fe6fe3249a01c883d8efece63f2c386", "fullName": "test_login_params.TestLoginParams#test_login_params"}

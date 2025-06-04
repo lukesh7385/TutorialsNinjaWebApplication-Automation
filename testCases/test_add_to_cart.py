@@ -40,6 +40,7 @@ class Test_008_Add_To_Cart:
         if self.pc.success_message().__contains__('Success: You have added iMac to your shopping cart!'):
             self.pc.click_on_shopping_cart_link()
             if self.driver.title == "Shopping Cart":
+                self.atc = AddToCartPage(self.driver)
                 if self.atc.get_product_name() == "iMac":
                     assert True
                     self.logger.info("************** Test Add To Cart 001 is Passed **************")
@@ -124,7 +125,7 @@ class Test_008_Add_To_Cart:
             self.logger.info("Clicking on the cart button beside of search icon")
             self.atc.click_on_view_cart_option()
             self.logger.info("Clicking on the view cart option")
-            if self.driver.title == "Shopping Cart":
+            if self.atc.is_title_of_the_page("Shopping Cart"):
                 if self.atc.get_product_name() == "iMac":
                     assert True
                     self.logger.info("************** Test Add To Cart 003 is Passed **************")
@@ -321,7 +322,8 @@ class Test_008_Add_To_Cart:
 
     @pytest.mark.sanity
     @pytest.mark.parametrize("browser", ["chrome", "firefox", "edge"])
-    def test_add_to_cart_009(self, setup, browser):
+    @pytest.mark.run_this_test
+    def test_add_to_cart_009(self, browser, setup):
         self.logger.info("***************************  Test Add To Cart 009 is Start ***************************")
         self.driver = setup
         self.driver.get(self.baseURL)

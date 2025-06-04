@@ -11,7 +11,7 @@ class AddToCartPage:
     productName = (By.XPATH, "//body[1]/div[2]/div[2]/div[1]/form[1]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/a[1]")
     addToCartButton = (By.XPATH, "//div[@class='button-group']//i[@class='fa fa-shopping-cart']")
     cartButtonInBlack = (By.XPATH, "//button[@data-loading-text='Loading...']")
-    viewCartOption = (By.LINK_TEXT, "View Cart")
+    viewCartOption = (By.XPATH, "//strong[contains(text(),'View Cart')]")
     macSubcategoryOption = (By.XPATH, "//a[3]")
     addToCartButtonFromFeaturedHomePage = (By.XPATH, "//span[contains(text(), 'Add to Cart')]")
 
@@ -38,16 +38,29 @@ class AddToCartPage:
         self.driver.find_element(*AddToCartPage.addToCartButton).click()
 
     def click_on_cart_button_in_black_color_beside_of_search_icon(self):
-        self.driver.find_element(*AddToCartPage.cartButtonInBlack).click()
+        try:
+            wait = WebDriverWait(self.driver, 10)
+            cart_button = wait.until(EC.element_to_be_clickable(AddToCartPage.cartButtonInBlack))
+            cart_button.click()
+            print("Successfully clicked on the black cart button beside the search icon.")
+        except Exception as e:
+            print(f"Failed to click on the cart button: {e}")
+            raise
 
     def click_on_view_cart_option(self):
-        self.driver.find_element(*AddToCartPage.viewCartOption).click()
+        try:
+            wait = WebDriverWait(self.driver, 10, poll_frequency=3)
+            view_cart_option = wait.until(EC.element_to_be_clickable(AddToCartPage.viewCartOption))
+            view_cart_option.click()
+            print("Clicked on 'View Cart' option successfully.")
+        except Exception as e:
+            print(f"Failed to click on 'View Cart' option: {e}")
+            raise
 
     def click_on_mac_subcategory_option_from_the_left_side_options(self):
         self.driver.find_element(*AddToCartPage.macSubcategoryOption).click()
 
     def is_title_of_the_page(self, expected_title):
-        """ Waits until the page title matches the expected title """
         WebDriverWait(self.driver, 10, poll_frequency=2).until(
             EC.title_is(expected_title)  # Wait for exact match
         )

@@ -1,0 +1,7 @@
+[32mINFO    [0m Test_008_Add_To_Cart:test_add_to_cart.py:25 ***************************** Test Add To Cart 001 is Start *****************************
+[32mINFO    [0m Test_008_Add_To_Cart:test_add_to_cart.py:27 Navigating to the base url
+[32mINFO    [0m Test_008_Add_To_Cart:test_add_to_cart.py:30 Entering iMac product to the search text box field
+[32mINFO    [0m Test_008_Add_To_Cart:test_add_to_cart.py:32 Clicking on the search icon button
+[32mINFO    [0m Test_008_Add_To_Cart:test_add_to_cart.py:35 Clicking on the product display in search result
+[32mINFO    [0m Test_008_Add_To_Cart:test_add_to_cart.py:38 Clicking on the add to cart button
+[32mINFO    [0m Test_008_Add_To_Cart:test_add_to_cart.py:39 ***************************** Verifying Test Add To Cart 001 *****************************

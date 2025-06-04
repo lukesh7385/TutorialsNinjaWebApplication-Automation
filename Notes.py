@@ -275,3 +275,22 @@ Using Python warnings module in test files:
     warnings.filterwarnings("ignore")
 
 """
+
+
+"""
+import pytest
+
+@pytest.mark.xfail(reason="Bug not fixed")
+def test_known_issue():
+    assert 1 == 2  # Expected to fail
+    
+#----------------------------------------
+
+import pytest
+
+bug_fixed = False  # Simulating a condition
+
+@pytest.mark.xfail(not bug_fixed, reason="Bug still persists")
+def test_bug():
+    assert 1 == 2  # Still failing, but pytest knows it's expected
+"""
