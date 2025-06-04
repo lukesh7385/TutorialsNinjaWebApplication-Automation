@@ -504,3 +504,13 @@ Just when you thought iMac had everything, now there's even more. More powerful 
 06/03/2025 12:02:45 AM |      INFO | test_add_to_cart.py:261 | Clicking on shopping Cart link
 06/03/2025 12:02:45 AM |      INFO | test_add_to_cart.py:266 | **************** Test Add To Cart 007 is Passed *****************
 06/03/2025 12:02:45 AM |      INFO | test_add_to_cart.py:276 | **************************** End Of Test Add To Cart 007 ****************************
+06/04/2025 04:57:14 PM |      INFO | test_add_to_cart.py:283 | *************************** Test Add To Cart is Start ***************************
+06/04/2025 04:57:17 PM |      INFO | test_add_to_cart.py:286 | Navigating to base url
+06/04/2025 04:57:18 PM |      INFO | test_add_to_cart.py:289 | Entering iMac product to the search box field
+06/04/2025 04:57:18 PM |      INFO | test_add_to_cart.py:291 | Clicking on the search icon button
+06/04/2025 04:57:19 PM |      INFO | test_add_to_cart.py:294 | Clicking on product display in search result
+06/04/2025 04:57:20 PM |      INFO | test_add_to_cart.py:298 | *************************** Verifying Test Add To Cart ***************************
+06/04/2025 04:57:20 PM |      INFO | test_add_to_cart.py:303 | Clicking on the add to cart button
+06/04/2025 04:57:21 PM |      INFO | test_add_to_cart.py:306 | Clicking on the shopping cart link
+06/04/2025 04:57:21 PM |      INFO | test_add_to_cart.py:311 | ************** Test Add To Cart is Passed *************
+06/04/2025 04:57:21 PM |      INFO | test_add_to_cart.py:321 | *************************** End Of Test Add To Cart ***************************
