@@ -14,6 +14,7 @@ from selenium.webdriver.edge.service import Service as EdgeService
 @pytest.fixture(scope="function")
 def setup(browser):
     global driver
+
     if browser == "chrome":
         service = Service("C:\\Drivers\\chromedriver.exe")
         options = webdriver.ChromeOptions()
@@ -21,38 +22,56 @@ def setup(browser):
         options.add_argument("--disable-notifications")
         driver = webdriver.Chrome(service=service, options=options)
         print("Launching Chrome browser")
+
     elif browser == "firefox":
         service = FirefoxService("C:\\Drivers\\geckodriver.exe")
         options = webdriver.FirefoxOptions()
         options.binary_location = "C:\\Program Files\\Mozilla Firefox\\firefox.exe"
         driver = webdriver.Firefox(service=service, options=options)
         print("Launching Firefox browser")
+
     elif browser == "edge":
         service = EdgeService("C:\\Drivers\\msedgedriver.exe")
         options = webdriver.EdgeOptions()
         driver = webdriver.Edge(service=service, options=options)
         print("Launching Edge browser")
-    elif browser == "headless":
+
+    elif browser == "headless-chrome":
         service = Service("C:\\Drivers\\chromedriver.exe")
         options = webdriver.ChromeOptions()
-        options.add_argument("--headless=new")  # Updated headless option
+        options.add_argument("--headless=new")
         options.add_argument("--disable-notifications")
         options.add_argument("--disable-gpu")
         options.add_argument("--disable-dev-shm-usage")
+        options.add_argument("--window-size=1920x1080")
         driver = webdriver.Chrome(service=service, options=options)
-        print("Launching Headless mode (Chrome)")
-    else:
-        service = Service("C:\\Drivers\\chromedriver.exe")
-        options = webdriver.ChromeOptions()
-        options.add_experimental_option("detach", True)
+        print("Launching Headless Chrome")
+
+    elif browser == "headless-firefox":
+        service = FirefoxService("C:\\Drivers\\geckodriver.exe")
+        options = webdriver.FirefoxOptions()
+        options.binary_location = "C:\\Program Files\\Mozilla Firefox\\firefox.exe"
+        options.add_argument("--headless")
         options.add_argument("--disable-notifications")
-        driver = webdriver.Chrome(service=service, options=options)
-        print("Launching Chrome browser")
+        options.add_argument("--window-size=1920x1080")
+        driver = webdriver.Firefox(service=service, options=options)
+        print("Launching Headless Firefox")
+
+    elif browser == "headless-edge":
+        service = EdgeService("C:\\Drivers\\msedgedriver.exe")
+        options = webdriver.EdgeOptions()
+        options.add_argument("--headless")
+        options.add_argument("--disable-notifications")
+        options.add_argument("--window-size=1920x1080")
+        driver = webdriver.Edge(service=service, options=options)
+        print("Launching Headless Edge")
+    else:
+        raise ValueError("Invalid browser option provided!")
 
     driver.implicitly_wait(10)
     driver.maximize_window()
     yield driver  # Return the driver instance to the test
-    driver.quit()  # Ensure the browser is closed after the test
+    driver.quit()
 
 
 @pytest.fixture(scope="function")

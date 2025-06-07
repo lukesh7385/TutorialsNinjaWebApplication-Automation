@@ -1,8 +1,0 @@
-[32mINFO    [0m Test_007_Product_Display:test_product_display.py:571 ***************************** Test Product Display 013 is Start ***************************
-[32mINFO    [0m Test_007_Product_Display:test_product_display.py:573 Navigating to the base url
-[32mINFO    [0m Test_007_Product_Display:test_product_display.py:576 Entering iMac product to the search text field
-[32mINFO    [0m Test_007_Product_Display:test_product_display.py:578 Clicking on the search icon button
-[32mINFO    [0m Test_007_Product_Display:test_product_display.py:581 Clicking on the product display in the search result
-[32mINFO    [0m Test_007_Product_Display:test_product_display.py:584 Clicking on the write a review link
-[32mINFO    [0m Test_007_Product_Display:test_product_display.py:585 ***************************** Verifying Test Product Display 013 ***************************
-[32mINFO    [0m Test_007_Product_Display:test_product_display.py:598 ***************************** End Of Test Product Display 013 ***************************

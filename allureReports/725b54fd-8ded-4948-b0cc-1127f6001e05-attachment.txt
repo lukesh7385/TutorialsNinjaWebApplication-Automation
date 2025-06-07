@@ -1,3 +1,0 @@
-[32mINFO    [0m TestLoginParams:test_login_params.py:19 ********** Test Login Params is Started *********
-[32mINFO    [0m TestLoginParams:test_login_params.py:22 Invoking browser
-[32mINFO    [0m TestLoginParams:test_login_params.py:23 Navigating to URL

@@ -6,7 +6,7 @@ from selenium.webdriver.support import expected_conditions as EC
 class AddToCartPage:
     wishListHeaderOption = (By.LINK_TEXT, "Wish List (1)")
     addToWishListOption = (By.XPATH, "//button[@type='button']//i[@class='fa fa-heart']")
-    addToCartIconOption = (By.XPATH, "//button[@class='btn btn-primary']//i[@class='fa fa-shopping-cart']")
+    addToCartIconOption = (By.XPATH, "//button[@class='btn btn-primary']")
     shoppingCartHeaderOption = (By.XPATH, "//span[normalize-space()='Shopping Cart']")
     productName = (By.XPATH, "//body[1]/div[2]/div[2]/div[1]/form[1]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/a[1]")
     addToCartButton = (By.XPATH, "//div[@class='button-group']//i[@class='fa fa-shopping-cart']")
@@ -19,13 +19,28 @@ class AddToCartPage:
         self.driver = driver
 
     def click_on_wish_list_header_option(self):
-        self.driver.find_element(*AddToCartPage.wishListHeaderOption).click()
+        try:
+            wishlist_option = WebDriverWait(self.driver, 10, poll_frequency=2).until(
+                EC.element_to_be_clickable(AddToCartPage.wishListHeaderOption)
+            )
+            wishlist_option.click()
+            print("Wishlist header option clicked successfully!")
+        except Exception as e:
+            print(f"Error clicking wishlist header option: {e}")
 
     def click_on_add_to_wish_list_from_search_result(self):
         self.driver.find_element(*AddToCartPage.addToWishListOption).click()
 
     def click_on_add_to_cart_icon_option_from_my_wish_list(self):
-        self.driver.find_element(*AddToCartPage.addToCartIconOption).click()
+        try:
+            # Wait for the "Add to Cart" icon to be clickable
+            add_to_cart_icon = WebDriverWait(self.driver, 10, poll_frequency=2).until(
+                EC.element_to_be_clickable(AddToCartPage.addToCartIconOption)
+            )
+            add_to_cart_icon.click()
+            print("Add to Cart icon clicked successfully from wishlist!")
+        except Exception as e:
+            print(f"Error clicking Add to Cart icon from wishlist: {e}")
 
     def click_on_sopping_cart_header_option(self):
         self.driver.find_element(*AddToCartPage.shoppingCartHeaderOption).click()

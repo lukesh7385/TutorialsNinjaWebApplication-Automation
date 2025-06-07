@@ -1,8 +1,0 @@
-[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:299 ******************** Test Product Compare 008 Is Start ********************
-[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:301 Navigating to the base url
-[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:304 Entering iMac product to search
-[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:306 Clicking on search button
-[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:309 Clicking on product compare link on search result page
-[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:310 *************** Verifying Test Product Compare 008 ***************
-[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:313 ************ Test Product Compare 008 Is Passed ***********
-[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:318 ********************** End of Test Product Compare 008 ***********************

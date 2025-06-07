@@ -1,0 +1,14 @@
+[32mINFO    [0m Test_008_Add_To_Cart:test_add_to_cart.py:60 **************************** Test Add To Cart 002 is Start ****************************
+[32mINFO    [0m Test_008_Add_To_Cart:test_add_to_cart.py:63 Navigating to the base url
+[32mINFO    [0m Test_008_Add_To_Cart:test_add_to_cart.py:66 Clicking on my account
+[32mINFO    [0m Test_008_Add_To_Cart:test_add_to_cart.py:68 Clicking on login link
+[32mINFO    [0m Test_008_Add_To_Cart:test_add_to_cart.py:70 Entering username
+[32mINFO    [0m Test_008_Add_To_Cart:test_add_to_cart.py:72 Entering password
+[32mINFO    [0m Test_008_Add_To_Cart:test_add_to_cart.py:74 Clicking on login button
+[32mINFO    [0m Test_008_Add_To_Cart:test_add_to_cart.py:77 Entering  iMac product to search text box field
+[32mINFO    [0m Test_008_Add_To_Cart:test_add_to_cart.py:79 Clicking on the search icon button
+[32mINFO    [0m Test_008_Add_To_Cart:test_add_to_cart.py:82 adding product to wish list from search result
+[32mINFO    [0m Test_008_Add_To_Cart:test_add_to_cart.py:84 Clicking on wish list header option
+[32mINFO    [0m Test_008_Add_To_Cart:test_add_to_cart.py:86 Clicking on the add to cart option from my wish list
+[32mINFO    [0m Test_008_Add_To_Cart:test_add_to_cart.py:87 **************************** Verifying Test Add To Cart 002 ****************************
+[31m[1mERROR   [0m Test_008_Add_To_Cart:test_add_to_cart.py:103 ************* Test Add To Cart 002 is Failed ************

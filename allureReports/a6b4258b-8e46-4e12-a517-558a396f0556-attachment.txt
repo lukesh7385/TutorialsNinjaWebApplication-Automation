@@ -1,6 +1,0 @@
-[32mINFO    [0m Test_005_Search_Functionality:test_search.py:72 **************** Test Search Functionality 003 Started ******************
-[32mINFO    [0m Test_005_Search_Functionality:test_search.py:74 Navigating to the URL
-[32mINFO    [0m Test_005_Search_Functionality:test_search.py:77 Clicking on search button
-[32mINFO    [0m Test_005_Search_Functionality:test_search.py:78 *********** Verifying Test Search functionality 003 ************
-[32mINFO    [0m Test_005_Search_Functionality:test_search.py:83 ********** Test Search Functionality 003 is Passed ***********
-[32mINFO    [0m Test_005_Search_Functionality:test_search.py:88 ***************** End Of Test Search Functionality 003 ******************

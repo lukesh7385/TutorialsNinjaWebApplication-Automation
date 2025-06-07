@@ -57,8 +57,8 @@ class Test_008_Add_To_Cart:
 
     @pytest.mark.sanity
     def test_add_to_cart_002(self, setup):
-        self.driver = setup
         self.logger.info("**************************** Test Add To Cart 002 is Start ****************************")
+        self.driver = setup
         self.driver.get(self.baseURL)
         self.logger.info("Navigating to the base url")
         self.lp = LoginPage(self.driver)
@@ -89,7 +89,7 @@ class Test_008_Add_To_Cart:
         if self.pc.success_message().__contains__('Success: You have added iMac to your shopping cart!'):
             self.atc.click_on_sopping_cart_header_option()
             self.logger.info("Clicking on sopping cart header option")
-            if self.driver.title == "Shopping Cart":
+            if self.atc.is_title_of_the_page("Shopping Cart"):
                 if self.atc.get_product_name() == "iMac":
                     assert True
                     self.logger.info("************* Test Add To Cart 002 is Passed ************")
@@ -321,7 +321,7 @@ class Test_008_Add_To_Cart:
             self.logger.info("*************************** End Of Test Add To Cart 008 ***************************")
 
     @pytest.mark.sanity
-    @pytest.mark.parametrize("browser", ["chrome", "firefox", "edge"])
+    @pytest.mark.parametrize("browser", ["headless-chrome", "headless-firefox", "headless-edge"])
     @pytest.mark.run_this_test
     def test_add_to_cart_009(self, browser, setup):
         self.logger.info("***************************  Test Add To Cart 009 is Start ***************************")

@@ -1,3 +1,0 @@
-[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:323 ******************** Test Product Compare 009 Is Start ********************
-[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:325 Navigating to the base url
-[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:330 Hovering mouse on desktop option and Clicking on show all desktop option

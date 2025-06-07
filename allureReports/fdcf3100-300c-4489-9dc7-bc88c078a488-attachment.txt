@@ -1,7 +1,0 @@
-[32mINFO    [0m Test_008_Add_To_Cart:test_add_to_cart.py:60 **************************** Test Add To Cart 002 is Start ****************************
-[32mINFO    [0m Test_008_Add_To_Cart:test_add_to_cart.py:62 Navigating to the base url
-[32mINFO    [0m Test_008_Add_To_Cart:test_add_to_cart.py:65 Clicking on my account
-[32mINFO    [0m Test_008_Add_To_Cart:test_add_to_cart.py:67 Clicking on login link
-[32mINFO    [0m Test_008_Add_To_Cart:test_add_to_cart.py:69 Entering username
-[32mINFO    [0m Test_008_Add_To_Cart:test_add_to_cart.py:71 Entering password
-[32mINFO    [0m Test_008_Add_To_Cart:test_add_to_cart.py:73 Clicking on login button
