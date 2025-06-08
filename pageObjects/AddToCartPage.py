@@ -10,8 +10,8 @@ class AddToCartPage:
     shoppingCartHeaderOption = (By.XPATH, "//span[normalize-space()='Shopping Cart']")
     productName = (By.XPATH, "//body[1]/div[2]/div[2]/div[1]/form[1]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/a[1]")
     addToCartButton = (By.XPATH, "//div[@class='button-group']//i[@class='fa fa-shopping-cart']")
-    cartButtonInBlack = (By.XPATH, "//button[@data-loading-text='Loading...']")
-    viewCartOption = (By.XPATH, "//strong[contains(text(),'View Cart')]")
+    cartButtonInBlack = (By.XPATH, "//button[@type='button' and @data-toggle='dropdown']")
+    viewCartOption = (By.XPATH, "//strong[normalize-space()='View Cart']")
     macSubcategoryOption = (By.XPATH, "//a[3]")
     addToCartButtonFromFeaturedHomePage = (By.XPATH, "//span[contains(text(), 'Add to Cart')]")
 
@@ -54,7 +54,7 @@ class AddToCartPage:
 
     def click_on_cart_button_in_black_color_beside_of_search_icon(self):
         try:
-            wait = WebDriverWait(self.driver, 10)
+            wait = WebDriverWait(self.driver, 10, poll_frequency=2)
             cart_button = wait.until(EC.element_to_be_clickable(AddToCartPage.cartButtonInBlack))
             cart_button.click()
             print("Successfully clicked on the black cart button beside the search icon.")
@@ -64,7 +64,7 @@ class AddToCartPage:
 
     def click_on_view_cart_option(self):
         try:
-            wait = WebDriverWait(self.driver, 10, poll_frequency=3)
+            wait = WebDriverWait(self.driver, 10, poll_frequency=2)
             view_cart_option = wait.until(EC.element_to_be_clickable(AddToCartPage.viewCartOption))
             view_cart_option.click()
             print("Clicked on 'View Cart' option successfully.")

@@ -39,7 +39,7 @@ class Test_003_Logout_Functionality:
         time.sleep(1)
         self.lp.click_on_my_account()
         self.logger.info("clicking on my account")
-        self.loginOption = self.driver.find_element(*LoginPage.link_login_PARTIAL_LINK_TEXT).is_displayed()
+        self.loginOption = self.driver.find_element(*LoginPage.link_login).is_displayed()
         self.logger.info("************ Verifying logout functionality 001 **************")
         if self.loginOption and self.driver.title == "Your Store":
             assert True

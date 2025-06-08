@@ -1,11 +1,10 @@
-import time
 import allure
 import pytest
-from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.wait import WebDriverWait
 from pageObjects.LoginPage import LoginPage
-from utilities.readProperties import ReadConfig
 from utilities.customLogger import LogGen
+from utilities.readProperties import ReadConfig
 
 
 @pytest.mark.usefixtures("setup", "log_on_failure")
@@ -18,19 +17,22 @@ class Test_002_Login_Functionality:
 
     @pytest.mark.regression
     def test_home_page_title(self, setup):
-        self.logger.info("****************** Test_Login_001 ***************")
+        self.logger.info("************************** Test_Login_001 is Start ****************************")
         self.logger.info("***************** Verifying Home Page Title **************")
         self.driver = setup
         self.driver.get(self.baseURL)
-        act_title = self.driver.title
-        if act_title == "Your Store":
+        WebDriverWait(self.driver, 10, poll_frequency=2).until(
+            EC.title_is("Your Store")
+        )
+        self.logger.info("************************** Verifying Test_Login_001 ****************************")
+        if self.driver.title == "Your Store":
             assert True
             self.logger.info("************** Home page title test is passed ************")
         else:
-            self.driver.save_screenshot(".\\Screenshots\\" + "test_home_page_title.png")
             self.logger.error("************** Home page title test is failed ************")
             assert False
-        self.driver.close()
+        self.logger.info("************************** End Of Test_Login_001 ****************************")
+
 
     @pytest.mark.sanity
     @pytest.mark.regression

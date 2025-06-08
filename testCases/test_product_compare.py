@@ -77,6 +77,9 @@ class Test_006_Product_Compare:
             if self.pc.success_message().__contains__("Success: You have added iMac to your product comparison!"):
                 self.pc.click_on_product_comparison_link()
                 self.logger.info("clicking on product comparison link")
+                WebDriverWait(self.driver, 10, poll_frequency=2).until(
+                    EC.title_is("Product Comparison")
+                )
                 if self.driver.title == "Product Comparison":
                     assert True
                     self.logger.info("*********** Test Product Compare 002 is Passed ***********")
