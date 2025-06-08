@@ -1,5 +1,5 @@
 @echo off
-set BROWSER=headless
+set BROWSER=headless-chrome
 @REM set BROWSER=chrome
 rem set BROWSER=edge
 rem set BROWSER=firefox
