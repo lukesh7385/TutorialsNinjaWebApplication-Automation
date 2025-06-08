@@ -164,7 +164,7 @@ def pytest_configure(config):
     """
     from pytest_metadata.plugin import metadata_key
     config.stash[metadata_key]["Project Name"] = "TutorialsNinja Web Application - Automation"
-    config.stash[metadata_key]["Module Name"] = "Register, Login, Logout, Forgot Password, Search, Product Compare"
+    config.stash[metadata_key]["Module Name"] = "Register, Login, Logout, Forgot Password, Search, Product Compare, Add To Cart"
     config.stash[metadata_key]["Tester Name"] = "Lukesh Ade"
 
 
