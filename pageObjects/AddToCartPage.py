@@ -54,7 +54,7 @@ class AddToCartPage:
 
     def click_on_cart_button_in_black_color_beside_of_search_icon(self):
         try:
-            wait = WebDriverWait(self.driver, 10, poll_frequency=2)
+            wait = WebDriverWait(self.driver, 10, poll_frequency=3)
             cart_button = wait.until(EC.element_to_be_clickable(AddToCartPage.cartButtonInBlack))
             cart_button.click()
             print("Successfully clicked on the black cart button beside the search icon.")

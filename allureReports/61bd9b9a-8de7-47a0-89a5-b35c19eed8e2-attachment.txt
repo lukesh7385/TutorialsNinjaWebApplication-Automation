@@ -1,0 +1,2 @@
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:182 ***************** Test Product Compare 005 Is Start *****************
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:184 Navigating to the url

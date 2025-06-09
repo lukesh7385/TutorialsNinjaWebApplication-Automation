@@ -1,0 +1,9 @@
+[32mINFO    [0m Test_007_Product_Display:test_product_display.py:479 *************************** Test Product Display 011 is Start **************************
+[32mINFO    [0m Test_007_Product_Display:test_product_display.py:481 Navigating to the base url
+[32mINFO    [0m Test_007_Product_Display:test_product_display.py:484 Entering iMac product to search text box field
+[32mINFO    [0m Test_007_Product_Display:test_product_display.py:486 Clicking on the search icon button
+[32mINFO    [0m Test_007_Product_Display:test_product_display.py:489 Clicking on the product display in search result
+[32mINFO    [0m Test_007_Product_Display:test_product_display.py:492 Clicking on the zero review tab
+[32mINFO    [0m Test_007_Product_Display:test_product_display.py:493 *************************** Verifying Test Product Display 011 **************************
+[32mINFO    [0m Test_007_Product_Display:test_product_display.py:497 ************* Test Product Display 011 is Passed ***************
+[32mINFO    [0m Test_007_Product_Display:test_product_display.py:502 *************************** End Of Test Product Display 011 **************************

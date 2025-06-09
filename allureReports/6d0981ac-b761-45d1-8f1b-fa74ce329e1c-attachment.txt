@@ -1,0 +1,9 @@
+[32mINFO    [0m Test_007_Product_Display:test_product_display.py:640 ************************** Test Product Display 015 is Start ***************************
+[32mINFO    [0m Test_007_Product_Display:test_product_display.py:642 Navigating to the base URL
+[32mINFO    [0m Test_007_Product_Display:test_product_display.py:645 Entering iMac product in the search box
+[32mINFO    [0m Test_007_Product_Display:test_product_display.py:647 Clicking on the search icon button
+[32mINFO    [0m Test_007_Product_Display:test_product_display.py:650 Clicking on the product in search results
+[32mINFO    [0m Test_007_Product_Display:test_product_display.py:651 ************************** Verifying Test Product Display 015 **************************
+[32mINFO    [0m Test_007_Product_Display:test_product_display.py:665 Total Reviews Extracted: 0
+[32mINFO    [0m Test_007_Product_Display:test_product_display.py:668 *********** Test Product Display 015 Passed ***********
+[32mINFO    [0m Test_007_Product_Display:test_product_display.py:672 ************************** End Of Test Product Display 015 **************************

@@ -1,3 +1,5 @@
+import time
+
 import pytest
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.by import By
@@ -121,6 +123,7 @@ class Test_008_Add_To_Cart:
         self.logger.info("**************************** Verifying Test Add To Cart 003 ****************************")
         self.pc = ProductComparePage(self.driver)
         if self.pc.success_message().__contains__('Success: You have added iMac to your shopping cart!'):
+            time.sleep(1)
             self.atc.click_on_cart_button_in_black_color_beside_of_search_icon()
             self.logger.info("Clicking on the cart button beside of search icon")
             self.atc.click_on_view_cart_option()

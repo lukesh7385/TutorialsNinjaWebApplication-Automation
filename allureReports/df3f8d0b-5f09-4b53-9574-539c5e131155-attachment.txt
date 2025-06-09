@@ -1,0 +1,13 @@
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:102 ***************** Test Product Compare 003 Is Start *****************
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:104 Navigating to the url
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:107 Entering iMac product for search
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:109 clicking on search button
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:112 Clicking on grid view button
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:113 *************** Verifying Test Product Compare 003 ****************
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:118 clicking on compare this product option available on the Product that is displayed in the Search
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:121 clicking on product comparison link
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:125 *********** Test Product Compare 003 is Passed ***********
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:137 ********************* End Test Product Compare 003 *************************
+[33mWARNING [0m urllib3.connectionpool:connectionpool.py:868 Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001977F732E00>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/e34f08fc6877e28a4c9c7b4fda9ef104
+[33mWARNING [0m urllib3.connectionpool:connectionpool.py:868 Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001977F733790>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/e34f08fc6877e28a4c9c7b4fda9ef104
+[33mWARNING [0m urllib3.connectionpool:connectionpool.py:868 Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001977F732690>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/e34f08fc6877e28a4c9c7b4fda9ef104
