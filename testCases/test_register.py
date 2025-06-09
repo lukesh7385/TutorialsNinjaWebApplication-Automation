@@ -1,11 +1,11 @@
-import pytest
 import allure
-from datetime import datetime
+import pytest
 from selenium.webdriver.common.by import By
-from pageObjects.RegisterPage import RegisterPage
-from utilities.readProperties import ReadConfig
-from utilities.customLogger import LogGen
 from pageObjects.LoginPage import LoginPage
+from pageObjects.RegisterPage import RegisterPage
+from utilities.customLogger import LogGen
+from utilities.readProperties import ReadConfig
+
 
 @pytest.mark.usefixtures("setup", "log_on_failure")
 @allure.severity(allure.severity_level.BLOCKER)
@@ -140,7 +140,7 @@ class Test_001_Register_Functionality:
                 else:
                     raise AssertionError(f"❌ Mismatch: {actual_message} != {expected_message}")
             except Exception as e:
-                timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+                # timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
                 # self.driver.save_screenshot(f".\\Screenshots\\test_register_functionality_003_failed_{timestamp}.png")
                 self.logger.error(f"Error during validation: {str(e)}")
                 assert False, f"Test Register Functionality 003 Failed due to: {str(e)}"
