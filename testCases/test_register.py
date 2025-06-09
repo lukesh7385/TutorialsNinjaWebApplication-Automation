@@ -103,6 +103,8 @@ class Test_001_Register_Functionality:
         self.driver.close()
         self.logger.info("********** End Of Test Register Functionality 002 **********")
 
+
+
     @pytest.mark.sanity
     @pytest.mark.regression
     def test_register_functionality_003(self, setup):
@@ -112,41 +114,41 @@ class Test_001_Register_Functionality:
         self.logger.info("Navigating to the url")
         self.lp = LoginPage(self.driver)
         self.lp.click_on_my_account()
-        self.logger.info("clicking on myAccount drop menu")
+        self.logger.info("Clicking on myAccount drop menu")
         self.rf = RegisterPage(self.driver)
         self.rf.click_on_register_link()
-        self.logger.info("clicking on register link")
+        self.logger.info("Clicking on register link")
         self.rf.click_on_continue_button()
-        self.logger.info("clicking on continue button")
+        self.logger.info("Clicking on continue button")
         self.logger.info("*********** Verifying Test Register Functionality 003 ***********")
 
-        self.firstNameWarningMessages = self.driver.find_element(By.XPATH, "//div[contains(text(),'First Name must be between 1 and 32 characters!')]")
-        self.lastNameWarningMessages = self.driver.find_element(By.XPATH, "//div[contains(text(),'Last Name must be between 1 and 32 characters!')]")
-        self.emailWarningMessages = self.driver.find_element(By.XPATH, "//div[contains(text(),'E-Mail Address does not appear to be valid!')]")
-        self.phoneWarningMessages = self.driver.find_element(By.XPATH, "//div[contains(text(),'Telephone must be between 3 and 32 characters!')]")
-        self.passwordWarningMessages = self.driver.find_element(By.XPATH, "//div[contains(text(),'Password must be between 4 and 20 characters!')]")
-        self.privacyPolicyWarningMessages = self.driver.find_element(By.XPATH, "//div[normalize-space()='Warning: You must agree to the Privacy Policy!']")
+        # Using try-except to handle element lookup failures
+        warning_selectors = {
+            "First Name must be between 1 and 32 characters!": "//div[contains(text(),'First Name must be between 1 and 32 characters!')]",
+            "Last Name must be between 1 and 32 characters!": "//div[contains(text(),'Last Name must be between 1 and 32 characters!')]",
+            "E-Mail Address does not appear to be valid!": "//div[contains(text(),'E-Mail Address does not appear to be valid!')]",
+            "Telephone must be between 3 and 32 characters!": "//div[contains(text(),'Telephone must be between 3 and 32 characters!')]",
+            "Password must be between 4 and 20 characters!": "//div[contains(text(),'Password must be between 4 and 20 characters!')]",
+            "Warning: You must agree to the Privacy Policy!": "//div[normalize-space()='Warning: You must agree to the Privacy Policy!']"
+        }
 
-
-        warning_messages = {
-                self.firstNameWarningMessages.text: "First Name must be between 1 and 32 characters!",
-                self.lastNameWarningMessages.text: "Last Name must be between 1 and 32 characters!",
-                self.emailWarningMessages.text: "E-Mail Address does not appear to be valid!",
-                self.phoneWarningMessages.text: "Telephone must be between 3 and 32 characters!",
-                self.passwordWarningMessages.text: "Password must be between 4 and 20 characters!",
-                self.privacyPolicyWarningMessages.text: "Warning: You must agree to the Privacy Policy!"
-            }
-        print(warning_messages)
-        for actual, expected in warning_messages.items():
-            if actual == expected:
-                assert True
-                self.logger.info("Test Register Functionality 003 Passed.")
-            else:
+        # Validating expected messages
+        for expected_message, xpath in warning_selectors.items():
+            try:
+                actual_element = self.driver.find_element(By.XPATH, xpath)
+                actual_message = actual_element.text.strip()  # Clean text
+                if actual_message == expected_message:
+                    self.logger.info(f"✔ Passed: {expected_message}")
+                else:
+                    raise AssertionError(f"❌ Mismatch: {actual_message} != {expected_message}")
+            except Exception as e:
                 timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-                self.driver.save_screenshot(f".\\Screenshots\\test_register_functionality_003_failed_{timestamp}.png")
-                self.logger.info(f"Actual_message: {actual} Expected_message: {expected}")
-                self.logger.error("Test Register Functionality 003 Failed")
-                assert False
+                # self.driver.save_screenshot(f".\\Screenshots\\test_register_functionality_003_failed_{timestamp}.png")
+                self.logger.error(f"Error during validation: {str(e)}")
+                assert False, f"Test Register Functionality 003 Failed due to: {str(e)}"
+
+        self.logger.info("Test Register Functionality 003 Passed.")
+        self.logger.info("******** End Of Test Register Functionality 003 *********")
 
     @pytest.mark.sanity
     @pytest.mark.regression

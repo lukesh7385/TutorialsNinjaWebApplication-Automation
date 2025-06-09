@@ -8300,3 +8300,114 @@ the review text area
 06/09/2025 02:31:04 PM |      INFO | test_add_to_cart.py:202 | page title is Passed
 06/09/2025 02:31:04 PM |      INFO | test_add_to_cart.py:205 | ***************** Test Add To Cart 005 is Passed ****************
 06/09/2025 02:31:04 PM |      INFO | test_add_to_cart.py:216 | ******************************* End Of Test Add To Cart 005 *******************************
+06/10/2025 12:06:52 AM |      INFO | test_wish_list.py:68 | ****************************** Test Wish List 002 is Start ******************************
+06/10/2025 12:06:53 AM |      INFO | test_wish_list.py:71 | Navigating to the base url
+06/10/2025 12:06:53 AM |      INFO | test_wish_list.py:74 | Clicking on my account
+06/10/2025 12:06:54 AM |      INFO | test_wish_list.py:76 | Clicking on login link
+06/10/2025 12:06:54 AM |      INFO | test_wish_list.py:78 | Entering username
+06/10/2025 12:06:54 AM |      INFO | test_wish_list.py:80 | Entering password
+06/10/2025 12:06:54 AM |      INFO | test_wish_list.py:82 | Clicking on the login button
+06/10/2025 12:06:55 AM |      INFO | test_wish_list.py:85 | Entering iMac to the search text box field
+06/10/2025 12:06:55 AM |      INFO | test_wish_list.py:87 | Clicking on the search icon button
+06/10/2025 12:06:56 AM |      INFO | test_wish_list.py:90 | Clicking on the product display in the search result
+06/10/2025 12:06:56 AM |      INFO | test_wish_list.py:93 | Clicking on the wish list option
+06/10/2025 12:06:56 AM |      INFO | test_wish_list.py:94 | ****************************** Verifying Test Wish List 002 ******************************
+06/10/2025 12:06:56 AM |      INFO | test_wish_list.py:97 | Clicking on the wish list link in success message
+06/10/2025 12:06:56 AM |      INFO | test_wish_list.py:100 | *************** Test Wish List 002 is Passed ***************
+06/10/2025 12:06:56 AM |      INFO | test_wish_list.py:107 | ****************************** End Of Test Wish List 002 ******************************
+06/10/2025 12:07:08 AM |      INFO | test_wish_list.py:68 | ****************************** Test Wish List 002 is Start ******************************
+06/10/2025 12:07:08 AM |      INFO | test_wish_list.py:71 | Navigating to the base url
+06/10/2025 12:07:11 AM |      INFO | test_wish_list.py:74 | Clicking on my account
+06/10/2025 12:07:11 AM |      INFO | test_wish_list.py:76 | Clicking on login link
+06/10/2025 12:07:11 AM |      INFO | test_wish_list.py:78 | Entering username
+06/10/2025 12:07:11 AM |      INFO | test_wish_list.py:80 | Entering password
+06/10/2025 12:07:11 AM |      INFO | test_wish_list.py:82 | Clicking on the login button
+06/10/2025 12:07:12 AM |      INFO | test_wish_list.py:85 | Entering iMac to the search text box field
+06/10/2025 12:07:13 AM |      INFO | test_wish_list.py:87 | Clicking on the search icon button
+06/10/2025 12:07:13 AM |      INFO | test_wish_list.py:90 | Clicking on the product display in the search result
+06/10/2025 12:07:13 AM |      INFO | test_wish_list.py:93 | Clicking on the wish list option
+06/10/2025 12:07:13 AM |      INFO | test_wish_list.py:94 | ****************************** Verifying Test Wish List 002 ******************************
+06/10/2025 12:07:14 AM |      INFO | test_wish_list.py:97 | Clicking on the wish list link in success message
+06/10/2025 12:07:14 AM |      INFO | test_wish_list.py:100 | *************** Test Wish List 002 is Passed ***************
+06/10/2025 12:07:14 AM |      INFO | test_wish_list.py:107 | ****************************** End Of Test Wish List 002 ******************************
+06/10/2025 12:11:47 AM |      INFO | test_register.py:154 | ******** Test Register Functionality 004 is Started *********
+06/10/2025 12:11:47 AM |      INFO | test_register.py:156 | Navigating to the url
+06/10/2025 12:11:48 AM |      INFO | test_register.py:159 | clicking on myAccount drop menu
+06/10/2025 12:11:48 AM |      INFO | test_register.py:162 | clicking on register link
+06/10/2025 12:11:48 AM |      INFO | test_register.py:164 | *************** Providing Registration Details ***************
+06/10/2025 12:11:50 AM |      INFO | test_register.py:175 | *************** Verifying Register Functionality 004  ***************
+06/10/2025 12:11:51 AM |      INFO | test_register.py:187 | ******* Test Register Functionality 004 is Passed ********
+06/10/2025 12:11:51 AM |      INFO | test_register.py:207 | ********** End Of Test Register Functionality 004 **********
+06/10/2025 12:12:31 AM |      INFO | test_register.py:109 | ******** Test Register Functionality 003 is Started *********
+06/10/2025 12:12:32 AM |      INFO | test_register.py:112 | Navigating to the url
+06/10/2025 12:12:32 AM |      INFO | test_register.py:115 | clicking on myAccount drop menu
+06/10/2025 12:12:33 AM |      INFO | test_register.py:118 | clicking on register link
+06/10/2025 12:12:33 AM |      INFO | test_register.py:120 | clicking on continue button
+06/10/2025 12:12:33 AM |      INFO | test_register.py:121 | *********** Verifying Test Register Functionality 003 ***********
+06/10/2025 12:12:33 AM |      INFO | test_register.py:143 | Test Register Functionality 003 Passed.
+06/10/2025 12:12:33 AM |      INFO | test_register.py:143 | Test Register Functionality 003 Passed.
+06/10/2025 12:12:33 AM |      INFO | test_register.py:143 | Test Register Functionality 003 Passed.
+06/10/2025 12:12:33 AM |      INFO | test_register.py:143 | Test Register Functionality 003 Passed.
+06/10/2025 12:12:33 AM |      INFO | test_register.py:143 | Test Register Functionality 003 Passed.
+06/10/2025 12:12:33 AM |      INFO | test_register.py:143 | Test Register Functionality 003 Passed.
+06/10/2025 12:18:52 AM |      INFO | test_register.py:111 | ******** Test Register Functionality 003 is Started *********
+06/10/2025 12:18:55 AM |      INFO | test_register.py:114 | Navigating to the url
+06/10/2025 12:18:55 AM |      INFO | test_register.py:118 | Clicking on myAccount drop menu
+06/10/2025 12:18:56 AM |      INFO | test_register.py:122 | Clicking on register link
+06/10/2025 12:18:58 AM |      INFO | test_register.py:125 | Clicking on continue button
+06/10/2025 12:18:58 AM |      INFO | test_register.py:126 | *********** Verifying Test Register Functionality 003 ***********
+06/10/2025 12:18:58 AM |      INFO | test_register.py:153 | Test Register Functionality 003 Passed.
+06/10/2025 12:21:34 AM |      INFO | test_register.py:111 | ******** Test Register Functionality 003 is Started *********
+06/10/2025 12:21:35 AM |      INFO | test_register.py:114 | Navigating to the url
+06/10/2025 12:21:35 AM |      INFO | test_register.py:117 | Clicking on myAccount drop menu
+06/10/2025 12:21:35 AM |      INFO | test_register.py:120 | Clicking on register link
+06/10/2025 12:21:36 AM |      INFO | test_register.py:122 | Clicking on continue button
+06/10/2025 12:21:36 AM |      INFO | test_register.py:123 | *********** Verifying Test Register Functionality 003 ***********
+06/10/2025 12:21:36 AM |      INFO | test_register.py:150 | Test Register Functionality 003 Passed.
+06/10/2025 12:21:36 AM |      INFO | test_register.py:151 | ******** End Of Test Register Functionality 003 *********
+06/10/2025 12:24:44 AM |      INFO | test_register.py:111 | ******** Test Register Functionality 003 is Started *********
+06/10/2025 12:24:47 AM |      INFO | test_register.py:114 | Navigating to the url
+06/10/2025 12:24:47 AM |      INFO | test_register.py:117 | Clicking on myAccount drop menu
+06/10/2025 12:24:48 AM |      INFO | test_register.py:120 | Clicking on register link
+06/10/2025 12:24:48 AM |      INFO | test_register.py:122 | Clicking on continue button
+06/10/2025 12:24:48 AM |      INFO | test_register.py:123 | *********** Verifying Test Register Functionality 003 ***********
+06/10/2025 12:24:48 AM |      INFO | test_register.py:150 | Test Register Functionality 003 Passed.
+06/10/2025 12:24:48 AM |      INFO | test_register.py:151 | ******** End Of Test Register Functionality 003 *********
+06/10/2025 12:26:21 AM |      INFO | test_register.py:111 | ******** Test Register Functionality 003 is Started *********
+06/10/2025 12:26:22 AM |      INFO | test_register.py:114 | Navigating to the url
+06/10/2025 12:26:22 AM |      INFO | test_register.py:117 | Clicking on myAccount drop menu
+06/10/2025 12:26:23 AM |      INFO | test_register.py:120 | Clicking on register link
+06/10/2025 12:26:23 AM |      INFO | test_register.py:122 | Clicking on continue button
+06/10/2025 12:26:23 AM |      INFO | test_register.py:123 | *********** Verifying Test Register Functionality 003 ***********
+06/10/2025 12:30:20 AM |      INFO | test_register.py:111 | ******** Test Register Functionality 003 is Started *********
+06/10/2025 12:30:21 AM |      INFO | test_register.py:114 | Navigating to the url
+06/10/2025 12:30:21 AM |      INFO | test_register.py:117 | Clicking on myAccount drop menu
+06/10/2025 12:30:22 AM |      INFO | test_register.py:120 | Clicking on register link
+06/10/2025 12:30:22 AM |      INFO | test_register.py:122 | Clicking on continue button
+06/10/2025 12:30:22 AM |      INFO | test_register.py:123 | *********** Verifying Test Register Functionality 003 ***********
+06/10/2025 12:32:51 AM |      INFO | test_register.py:111 | ******** Test Register Functionality 003 is Started *********
+06/10/2025 12:32:54 AM |      INFO | test_register.py:114 | Navigating to the url
+06/10/2025 12:32:54 AM |      INFO | test_register.py:117 | Clicking on myAccount drop menu
+06/10/2025 12:32:55 AM |      INFO | test_register.py:120 | Clicking on register link
+06/10/2025 12:32:56 AM |      INFO | test_register.py:122 | Clicking on continue button
+06/10/2025 12:32:56 AM |      INFO | test_register.py:123 | *********** Verifying Test Register Functionality 003 ***********
+06/10/2025 12:33:40 AM |      INFO | test_register.py:111 | ******** Test Register Functionality 003 is Started *********
+06/10/2025 12:33:41 AM |      INFO | test_register.py:114 | Navigating to the url
+06/10/2025 12:33:41 AM |      INFO | test_register.py:117 | Clicking on myAccount drop menu
+06/10/2025 12:33:42 AM |      INFO | test_register.py:120 | Clicking on register link
+06/10/2025 12:33:42 AM |      INFO | test_register.py:122 | Clicking on continue button
+06/10/2025 12:33:42 AM |      INFO | test_register.py:123 | *********** Verifying Test Register Functionality 003 ***********
+06/10/2025 12:33:58 AM |      INFO | test_register.py:111 | ******** Test Register Functionality 003 is Started *********
+06/10/2025 12:34:01 AM |      INFO | test_register.py:114 | Navigating to the url
+06/10/2025 12:34:01 AM |      INFO | test_register.py:117 | Clicking on myAccount drop menu
+06/10/2025 12:34:02 AM |      INFO | test_register.py:120 | Clicking on register link
+06/10/2025 12:34:02 AM |      INFO | test_register.py:122 | Clicking on continue button
+06/10/2025 12:34:02 AM |      INFO | test_register.py:123 | *********** Verifying Test Register Functionality 003 ***********
+06/10/2025 12:35:22 AM |      INFO | test_register.py:111 | ******** Test Register Functionality 003 is Started *********
+06/10/2025 12:35:23 AM |      INFO | test_register.py:114 | Navigating to the url
+06/10/2025 12:35:23 AM |      INFO | test_register.py:117 | Clicking on myAccount drop menu
+06/10/2025 12:35:23 AM |      INFO | test_register.py:120 | Clicking on register link
+06/10/2025 12:35:24 AM |      INFO | test_register.py:122 | Clicking on continue button
+06/10/2025 12:35:24 AM |      INFO | test_register.py:123 | *********** Verifying Test Register Functionality 003 ***********
+06/10/2025 12:35:24 AM |      INFO | test_register.py:150 | Test Register Functionality 003 Passed.
+06/10/2025 12:35:24 AM |      INFO | test_register.py:151 | ******** End Of Test Register Functionality 003 *********

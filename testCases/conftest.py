@@ -112,7 +112,7 @@ def pytest_runtest_makereport(item, call):
             os.makedirs(screenshots_folder, exist_ok=True)
 
             # Generate a full file path
-            file_name = f"{item.name}_{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}.png"
+            file_name = f"{item.name}_failed_{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}.png"
             file_path = os.path.join(screenshots_folder, file_name)
 
             # Save the screenshot using Selenium
