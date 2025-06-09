@@ -103,8 +103,6 @@ class Test_001_Register_Functionality:
         self.driver.close()
         self.logger.info("********** End Of Test Register Functionality 002 **********")
 
-
-
     @pytest.mark.sanity
     @pytest.mark.regression
     def test_register_functionality_003(self, setup):
