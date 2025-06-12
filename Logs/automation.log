@@ -8411,3 +8411,936 @@ the review text area
 06/10/2025 12:35:24 AM |      INFO | test_register.py:123 | *********** Verifying Test Register Functionality 003 ***********
 06/10/2025 12:35:24 AM |      INFO | test_register.py:150 | Test Register Functionality 003 Passed.
 06/10/2025 12:35:24 AM |      INFO | test_register.py:151 | ******** End Of Test Register Functionality 003 *********
+06/11/2025 04:01:01 PM |      INFO | test_wish_list.py:111 | ***************************** Test Wish List 003 *********************************
+06/11/2025 04:01:05 PM |      INFO | test_wish_list.py:114 | Navigating to the base url
+06/11/2025 04:01:05 PM |      INFO | test_wish_list.py:117 | Clicking on my account
+06/11/2025 04:01:06 PM |      INFO | test_wish_list.py:119 | Clicking on login link
+06/11/2025 04:01:06 PM |      INFO | test_wish_list.py:121 | Entering username
+06/11/2025 04:01:07 PM |      INFO | test_wish_list.py:123 | Entering password
+06/11/2025 04:01:08 PM |      INFO | test_wish_list.py:125 | Clicking on the login button
+06/11/2025 04:01:09 PM |      INFO | test_wish_list.py:128 | Clicking on the store logo
+06/11/2025 04:01:09 PM |      INFO | test_wish_list.py:130 | ***************************** Verifying Test Wish List 003 *********************************
+06/11/2025 04:01:09 PM |      INFO | test_wish_list.py:133 | Clicking on the add to wish list on feature page
+06/11/2025 04:03:47 PM |      INFO | test_wish_list.py:111 | ***************************** Test Wish List 003 *********************************
+06/11/2025 04:03:54 PM |      INFO | test_wish_list.py:114 | Navigating to the base url
+06/11/2025 04:03:54 PM |      INFO | test_wish_list.py:117 | Clicking on my account
+06/11/2025 04:03:55 PM |      INFO | test_wish_list.py:119 | Clicking on login link
+06/11/2025 04:03:56 PM |      INFO | test_wish_list.py:121 | Entering username
+06/11/2025 04:03:56 PM |      INFO | test_wish_list.py:123 | Entering password
+06/11/2025 04:03:58 PM |      INFO | test_wish_list.py:125 | Clicking on the login button
+06/11/2025 04:03:59 PM |      INFO | test_wish_list.py:128 | Clicking on the store logo
+06/11/2025 04:03:59 PM |      INFO | test_wish_list.py:130 | ***************************** Verifying Test Wish List 003 *********************************
+06/11/2025 04:03:59 PM |      INFO | test_wish_list.py:133 | Clicking on the add to wish list on feature page
+06/11/2025 04:05:12 PM |      INFO | test_wish_list.py:111 | ***************************** Test Wish List 003 *********************************
+06/11/2025 04:05:22 PM |      INFO | test_wish_list.py:114 | Navigating to the base url
+06/11/2025 04:05:22 PM |      INFO | test_wish_list.py:117 | Clicking on my account
+06/11/2025 04:05:23 PM |      INFO | test_wish_list.py:119 | Clicking on login link
+06/11/2025 04:05:23 PM |      INFO | test_wish_list.py:121 | Entering username
+06/11/2025 04:05:23 PM |      INFO | test_wish_list.py:123 | Entering password
+06/11/2025 04:05:25 PM |      INFO | test_wish_list.py:125 | Clicking on the login button
+06/11/2025 04:05:26 PM |      INFO | test_wish_list.py:128 | Clicking on the store logo
+06/11/2025 04:05:26 PM |      INFO | test_wish_list.py:130 | ***************************** Verifying Test Wish List 003 *********************************
+06/11/2025 04:05:26 PM |      INFO | test_wish_list.py:133 | Clicking on the add to wish list on feature page
+06/11/2025 04:06:36 PM |      INFO | test_wish_list.py:111 | ***************************** Test Wish List 003 *********************************
+06/11/2025 04:06:53 PM |      INFO | test_wish_list.py:114 | Navigating to the base url
+06/11/2025 04:06:53 PM |      INFO | test_wish_list.py:117 | Clicking on my account
+06/11/2025 04:06:54 PM |      INFO | test_wish_list.py:119 | Clicking on login link
+06/11/2025 04:06:54 PM |      INFO | test_wish_list.py:121 | Entering username
+06/11/2025 04:06:54 PM |      INFO | test_wish_list.py:123 | Entering password
+06/11/2025 04:06:55 PM |      INFO | test_wish_list.py:125 | Clicking on the login button
+06/11/2025 04:06:56 PM |      INFO | test_wish_list.py:128 | Clicking on the store logo
+06/11/2025 04:06:56 PM |      INFO | test_wish_list.py:130 | ***************************** Verifying Test Wish List 003 *********************************
+06/11/2025 04:06:56 PM |      INFO | test_wish_list.py:133 | Clicking on the add to wish list on feature page
+06/11/2025 04:08:55 PM |      INFO | test_wish_list.py:111 | ***************************** Test Wish List 003 *********************************
+06/11/2025 04:09:14 PM |      INFO | test_wish_list.py:114 | Navigating to the base url
+06/11/2025 04:09:24 PM |      INFO | test_wish_list.py:117 | Clicking on my account
+06/11/2025 04:09:34 PM |      INFO | test_wish_list.py:119 | Clicking on login link
+06/11/2025 04:09:44 PM |      INFO | test_wish_list.py:121 | Entering username
+06/11/2025 04:09:47 PM |      INFO | test_wish_list.py:123 | Entering password
+06/11/2025 04:09:47 PM |      INFO | test_wish_list.py:125 | Clicking on the login button
+06/11/2025 04:30:12 PM |      INFO | test_wish_list.py:111 | ***************************** Test Wish List 003 *********************************
+06/11/2025 04:30:15 PM |      INFO | test_wish_list.py:114 | Navigating to the base url
+06/11/2025 04:30:16 PM |      INFO | test_wish_list.py:117 | Clicking on my account
+06/11/2025 04:30:16 PM |      INFO | test_wish_list.py:119 | Clicking on login link
+06/11/2025 04:30:17 PM |      INFO | test_wish_list.py:121 | Entering username
+06/11/2025 04:30:17 PM |      INFO | test_wish_list.py:123 | Entering password
+06/11/2025 04:30:18 PM |      INFO | test_wish_list.py:125 | Clicking on the login button
+06/11/2025 04:30:19 PM |      INFO | test_wish_list.py:128 | Clicking on the store logo
+06/11/2025 04:30:19 PM |      INFO | test_wish_list.py:130 | ***************************** Verifying Test Wish List 003 *********************************
+06/11/2025 04:30:19 PM |      INFO | test_wish_list.py:133 | Clicking on the add to wish list on feature page
+06/11/2025 04:33:04 PM |      INFO | test_wish_list.py:111 | ***************************** Test Wish List 003 *********************************
+06/11/2025 04:33:07 PM |      INFO | test_wish_list.py:114 | Navigating to the base url
+06/11/2025 04:33:07 PM |      INFO | test_wish_list.py:117 | Clicking on my account
+06/11/2025 04:33:08 PM |      INFO | test_wish_list.py:119 | Clicking on login link
+06/11/2025 04:33:08 PM |      INFO | test_wish_list.py:121 | Entering username
+06/11/2025 04:33:08 PM |      INFO | test_wish_list.py:123 | Entering password
+06/11/2025 04:33:10 PM |      INFO | test_wish_list.py:125 | Clicking on the login button
+06/11/2025 04:33:11 PM |      INFO | test_wish_list.py:128 | Clicking on the store logo
+06/11/2025 04:33:11 PM |      INFO | test_wish_list.py:130 | ***************************** Verifying Test Wish List 003 *********************************
+06/11/2025 04:33:12 PM |      INFO | test_wish_list.py:133 | Clicking on the add to wish list on feature page
+06/11/2025 04:34:06 PM |      INFO | test_wish_list.py:111 | ***************************** Test Wish List 003 *********************************
+06/11/2025 04:34:11 PM |      INFO | test_wish_list.py:114 | Navigating to the base url
+06/11/2025 04:34:11 PM |      INFO | test_wish_list.py:117 | Clicking on my account
+06/11/2025 04:34:12 PM |      INFO | test_wish_list.py:119 | Clicking on login link
+06/11/2025 04:34:12 PM |      INFO | test_wish_list.py:121 | Entering username
+06/11/2025 04:34:12 PM |      INFO | test_wish_list.py:123 | Entering password
+06/11/2025 04:34:14 PM |      INFO | test_wish_list.py:125 | Clicking on the login button
+06/11/2025 04:34:15 PM |      INFO | test_wish_list.py:128 | Clicking on the store logo
+06/11/2025 04:34:15 PM |      INFO | test_wish_list.py:130 | ***************************** Verifying Test Wish List 003 *********************************
+06/11/2025 04:34:15 PM |      INFO | test_wish_list.py:133 | Clicking on the add to wish list on feature page
+06/11/2025 04:35:02 PM |      INFO | test_wish_list.py:111 | ***************************** Test Wish List 003 *********************************
+06/11/2025 04:35:06 PM |      INFO | test_wish_list.py:114 | Navigating to the base url
+06/11/2025 04:35:06 PM |      INFO | test_wish_list.py:117 | Clicking on my account
+06/11/2025 04:35:07 PM |      INFO | test_wish_list.py:119 | Clicking on login link
+06/11/2025 04:35:07 PM |      INFO | test_wish_list.py:121 | Entering username
+06/11/2025 04:35:07 PM |      INFO | test_wish_list.py:123 | Entering password
+06/11/2025 04:35:09 PM |      INFO | test_wish_list.py:125 | Clicking on the login button
+06/11/2025 04:35:09 PM |      INFO | test_wish_list.py:128 | Clicking on the store logo
+06/11/2025 04:35:09 PM |      INFO | test_wish_list.py:130 | ***************************** Verifying Test Wish List 003 *********************************
+06/11/2025 04:35:10 PM |      INFO | test_wish_list.py:133 | Clicking on the add to wish list on feature page
+06/11/2025 04:38:33 PM |      INFO | test_wish_list.py:111 | ***************************** Test Wish List 003 *********************************
+06/11/2025 04:38:36 PM |      INFO | test_wish_list.py:114 | Navigating to the base url
+06/11/2025 04:38:37 PM |      INFO | test_wish_list.py:117 | Clicking on my account
+06/11/2025 04:38:37 PM |      INFO | test_wish_list.py:119 | Clicking on login link
+06/11/2025 04:38:37 PM |      INFO | test_wish_list.py:121 | Entering username
+06/11/2025 04:38:38 PM |      INFO | test_wish_list.py:123 | Entering password
+06/11/2025 04:38:40 PM |      INFO | test_wish_list.py:125 | Clicking on the login button
+06/11/2025 04:38:41 PM |      INFO | test_wish_list.py:128 | Clicking on the store logo
+06/11/2025 04:38:41 PM |      INFO | test_wish_list.py:130 | ***************************** Verifying Test Wish List 003 *********************************
+06/11/2025 04:38:41 PM |      INFO | test_wish_list.py:133 | Clicking on the add to wish list on feature page
+06/11/2025 04:38:41 PM |      INFO | test_wish_list.py:137 | Clicking on the wish list link
+06/11/2025 04:39:18 PM |      INFO | test_wish_list.py:111 | ***************************** Test Wish List 003 *********************************
+06/11/2025 04:39:25 PM |      INFO | test_wish_list.py:114 | Navigating to the base url
+06/11/2025 04:39:25 PM |      INFO | test_wish_list.py:117 | Clicking on my account
+06/11/2025 04:39:26 PM |      INFO | test_wish_list.py:119 | Clicking on login link
+06/11/2025 04:39:26 PM |      INFO | test_wish_list.py:121 | Entering username
+06/11/2025 04:39:26 PM |      INFO | test_wish_list.py:123 | Entering password
+06/11/2025 04:39:28 PM |      INFO | test_wish_list.py:125 | Clicking on the login button
+06/11/2025 04:39:29 PM |      INFO | test_wish_list.py:128 | Clicking on the store logo
+06/11/2025 04:39:29 PM |      INFO | test_wish_list.py:130 | ***************************** Verifying Test Wish List 003 *********************************
+06/11/2025 04:39:29 PM |      INFO | test_wish_list.py:133 | Clicking on the add to wish list on feature page
+06/11/2025 04:39:29 PM |      INFO | test_wish_list.py:137 | Clicking on the wish list link
+06/11/2025 04:41:33 PM |      INFO | test_wish_list.py:111 | ***************************** Test Wish List 003 *********************************
+06/11/2025 04:41:38 PM |      INFO | test_wish_list.py:114 | Navigating to the base url
+06/11/2025 04:41:38 PM |      INFO | test_wish_list.py:117 | Clicking on my account
+06/11/2025 04:41:39 PM |      INFO | test_wish_list.py:119 | Clicking on login link
+06/11/2025 04:41:39 PM |      INFO | test_wish_list.py:121 | Entering username
+06/11/2025 04:41:39 PM |      INFO | test_wish_list.py:123 | Entering password
+06/11/2025 04:41:40 PM |      INFO | test_wish_list.py:125 | Clicking on the login button
+06/11/2025 04:41:41 PM |      INFO | test_wish_list.py:128 | Clicking on the store logo
+06/11/2025 04:41:41 PM |      INFO | test_wish_list.py:130 | ***************************** Verifying Test Wish List 003 *********************************
+06/11/2025 04:41:41 PM |      INFO | test_wish_list.py:133 | Clicking on the add to wish list on feature page
+06/11/2025 04:41:42 PM |      INFO | test_wish_list.py:137 | Clicking on the wish list link
+06/11/2025 04:43:21 PM |      INFO | test_wish_list.py:111 | ***************************** Test Wish List 003 *********************************
+06/11/2025 04:43:24 PM |      INFO | test_wish_list.py:114 | Navigating to the base url
+06/11/2025 04:43:25 PM |      INFO | test_wish_list.py:117 | Clicking on my account
+06/11/2025 04:43:25 PM |      INFO | test_wish_list.py:119 | Clicking on login link
+06/11/2025 04:43:25 PM |      INFO | test_wish_list.py:121 | Entering username
+06/11/2025 04:43:25 PM |      INFO | test_wish_list.py:123 | Entering password
+06/11/2025 04:43:28 PM |      INFO | test_wish_list.py:125 | Clicking on the login button
+06/11/2025 04:43:28 PM |      INFO | test_wish_list.py:128 | Clicking on the store logo
+06/11/2025 04:43:28 PM |      INFO | test_wish_list.py:130 | ***************************** Verifying Test Wish List 003 *********************************
+06/11/2025 04:43:28 PM |      INFO | test_wish_list.py:133 | Clicking on the add to wish list on feature page
+06/11/2025 04:43:29 PM |      INFO | test_wish_list.py:137 | Clicking on the wish list link
+06/11/2025 04:45:24 PM |      INFO | test_wish_list.py:111 | ***************************** Test Wish List 003 *********************************
+06/11/2025 04:45:27 PM |      INFO | test_wish_list.py:114 | Navigating to the base url
+06/11/2025 04:45:27 PM |      INFO | test_wish_list.py:117 | Clicking on my account
+06/11/2025 04:45:27 PM |      INFO | test_wish_list.py:119 | Clicking on login link
+06/11/2025 04:45:28 PM |      INFO | test_wish_list.py:121 | Entering username
+06/11/2025 04:45:28 PM |      INFO | test_wish_list.py:123 | Entering password
+06/11/2025 04:45:30 PM |      INFO | test_wish_list.py:125 | Clicking on the login button
+06/11/2025 04:45:30 PM |      INFO | test_wish_list.py:128 | Clicking on the store logo
+06/11/2025 04:45:30 PM |      INFO | test_wish_list.py:130 | ***************************** Verifying Test Wish List 003 *********************************
+06/11/2025 04:45:30 PM |      INFO | test_wish_list.py:133 | Clicking on the add to wish list on feature page
+06/11/2025 04:45:31 PM |      INFO | test_wish_list.py:137 | Clicking on the wish list link
+06/11/2025 04:52:33 PM |      INFO | test_wish_list.py:111 | ***************************** Test Wish List 003 *********************************
+06/11/2025 04:52:36 PM |      INFO | test_wish_list.py:114 | Navigating to the base url
+06/11/2025 04:52:37 PM |      INFO | test_wish_list.py:117 | Clicking on my account
+06/11/2025 04:52:37 PM |      INFO | test_wish_list.py:119 | Clicking on login link
+06/11/2025 04:52:37 PM |      INFO | test_wish_list.py:121 | Entering username
+06/11/2025 04:52:38 PM |      INFO | test_wish_list.py:123 | Entering password
+06/11/2025 04:52:40 PM |      INFO | test_wish_list.py:125 | Clicking on the login button
+06/11/2025 04:52:41 PM |      INFO | test_wish_list.py:128 | Clicking on the store logo
+06/11/2025 04:52:41 PM |      INFO | test_wish_list.py:130 | ***************************** Verifying Test Wish List 003 *********************************
+06/11/2025 04:53:10 PM |      INFO | test_wish_list.py:111 | ***************************** Test Wish List 003 *********************************
+06/11/2025 04:53:13 PM |      INFO | test_wish_list.py:114 | Navigating to the base url
+06/11/2025 04:53:13 PM |      INFO | test_wish_list.py:117 | Clicking on my account
+06/11/2025 04:53:14 PM |      INFO | test_wish_list.py:119 | Clicking on login link
+06/11/2025 04:53:14 PM |      INFO | test_wish_list.py:121 | Entering username
+06/11/2025 04:53:14 PM |      INFO | test_wish_list.py:123 | Entering password
+06/11/2025 04:53:16 PM |      INFO | test_wish_list.py:125 | Clicking on the login button
+06/11/2025 04:53:16 PM |      INFO | test_wish_list.py:128 | Clicking on the store logo
+06/11/2025 04:53:16 PM |      INFO | test_wish_list.py:130 | ***************************** Verifying Test Wish List 003 *********************************
+06/11/2025 04:59:55 PM |      INFO | test_wish_list.py:111 | ***************************** Test Wish List 003 *********************************
+06/11/2025 04:59:58 PM |      INFO | test_wish_list.py:114 | Navigating to the base url
+06/11/2025 04:59:58 PM |      INFO | test_wish_list.py:117 | Clicking on my account
+06/11/2025 04:59:59 PM |      INFO | test_wish_list.py:119 | Clicking on login link
+06/11/2025 04:59:59 PM |      INFO | test_wish_list.py:121 | Entering username
+06/11/2025 04:59:59 PM |      INFO | test_wish_list.py:123 | Entering password
+06/11/2025 05:00:00 PM |      INFO | test_wish_list.py:125 | Clicking on the login button
+06/11/2025 05:00:01 PM |      INFO | test_wish_list.py:128 | Clicking on the store logo
+06/11/2025 05:00:01 PM |      INFO | test_wish_list.py:130 | ***************************** Verifying Test Wish List 003 *********************************
+06/11/2025 05:01:25 PM |      INFO | test_wish_list.py:111 | ***************************** Test Wish List 003 *********************************
+06/11/2025 05:01:28 PM |      INFO | test_wish_list.py:114 | Navigating to the base url
+06/11/2025 05:01:28 PM |      INFO | test_wish_list.py:117 | Clicking on my account
+06/11/2025 05:01:29 PM |      INFO | test_wish_list.py:119 | Clicking on login link
+06/11/2025 05:01:29 PM |      INFO | test_wish_list.py:121 | Entering username
+06/11/2025 05:01:29 PM |      INFO | test_wish_list.py:123 | Entering password
+06/11/2025 05:01:31 PM |      INFO | test_wish_list.py:125 | Clicking on the login button
+06/11/2025 05:01:31 PM |      INFO | test_wish_list.py:128 | Clicking on the store logo
+06/11/2025 05:01:31 PM |      INFO | test_wish_list.py:130 | ***************************** Verifying Test Wish List 003 *********************************
+06/11/2025 05:03:09 PM |      INFO | test_wish_list.py:111 | ***************************** Test Wish List 003 *********************************
+06/11/2025 05:03:14 PM |      INFO | test_wish_list.py:114 | Navigating to the base url
+06/11/2025 05:03:14 PM |      INFO | test_wish_list.py:117 | Clicking on my account
+06/11/2025 05:03:16 PM |      INFO | test_wish_list.py:119 | Clicking on login link
+06/11/2025 05:03:16 PM |      INFO | test_wish_list.py:121 | Entering username
+06/11/2025 05:03:16 PM |      INFO | test_wish_list.py:123 | Entering password
+06/11/2025 05:03:18 PM |      INFO | test_wish_list.py:125 | Clicking on the login button
+06/11/2025 05:03:19 PM |      INFO | test_wish_list.py:128 | Clicking on the store logo
+06/11/2025 05:03:19 PM |      INFO | test_wish_list.py:130 | ***************************** Verifying Test Wish List 003 *********************************
+06/11/2025 05:04:12 PM |      INFO | test_wish_list.py:111 | ***************************** Test Wish List 003 *********************************
+06/11/2025 05:04:15 PM |      INFO | test_wish_list.py:114 | Navigating to the base url
+06/11/2025 05:04:15 PM |      INFO | test_wish_list.py:117 | Clicking on my account
+06/11/2025 05:04:15 PM |      INFO | test_wish_list.py:119 | Clicking on login link
+06/11/2025 05:04:16 PM |      INFO | test_wish_list.py:121 | Entering username
+06/11/2025 05:04:16 PM |      INFO | test_wish_list.py:123 | Entering password
+06/11/2025 05:04:17 PM |      INFO | test_wish_list.py:125 | Clicking on the login button
+06/11/2025 05:04:18 PM |      INFO | test_wish_list.py:128 | Clicking on the store logo
+06/11/2025 05:04:18 PM |      INFO | test_wish_list.py:130 | ***************************** Verifying Test Wish List 003 *********************************
+06/11/2025 05:05:45 PM |      INFO | test_wish_list.py:111 | ***************************** Test Wish List 003 *********************************
+06/11/2025 05:05:49 PM |      INFO | test_wish_list.py:114 | Navigating to the base url
+06/11/2025 05:05:49 PM |      INFO | test_wish_list.py:117 | Clicking on my account
+06/11/2025 05:05:50 PM |      INFO | test_wish_list.py:119 | Clicking on login link
+06/11/2025 05:05:50 PM |      INFO | test_wish_list.py:121 | Entering username
+06/11/2025 05:05:50 PM |      INFO | test_wish_list.py:123 | Entering password
+06/11/2025 05:05:52 PM |      INFO | test_wish_list.py:125 | Clicking on the login button
+06/11/2025 05:05:53 PM |      INFO | test_wish_list.py:128 | Clicking on the store logo
+06/11/2025 05:05:53 PM |      INFO | test_wish_list.py:130 | ***************************** Verifying Test Wish List 003 *********************************
+06/11/2025 05:06:58 PM |      INFO | test_wish_list.py:111 | ***************************** Test Wish List 003 *********************************
+06/11/2025 05:07:01 PM |      INFO | test_wish_list.py:114 | Navigating to the base url
+06/11/2025 05:07:01 PM |      INFO | test_wish_list.py:117 | Clicking on my account
+06/11/2025 05:07:02 PM |      INFO | test_wish_list.py:119 | Clicking on login link
+06/11/2025 05:07:02 PM |      INFO | test_wish_list.py:121 | Entering username
+06/11/2025 05:07:02 PM |      INFO | test_wish_list.py:123 | Entering password
+06/11/2025 05:07:04 PM |      INFO | test_wish_list.py:125 | Clicking on the login button
+06/11/2025 05:07:04 PM |      INFO | test_wish_list.py:128 | Clicking on the store logo
+06/11/2025 05:07:04 PM |      INFO | test_wish_list.py:130 | ***************************** Verifying Test Wish List 003 *********************************
+06/11/2025 05:07:54 PM |      INFO | test_wish_list.py:111 | ***************************** Test Wish List 003 *********************************
+06/11/2025 05:07:57 PM |      INFO | test_wish_list.py:114 | Navigating to the base url
+06/11/2025 05:07:58 PM |      INFO | test_wish_list.py:117 | Clicking on my account
+06/11/2025 05:07:58 PM |      INFO | test_wish_list.py:119 | Clicking on login link
+06/11/2025 05:07:58 PM |      INFO | test_wish_list.py:121 | Entering username
+06/11/2025 05:07:58 PM |      INFO | test_wish_list.py:123 | Entering password
+06/11/2025 05:08:01 PM |      INFO | test_wish_list.py:125 | Clicking on the login button
+06/11/2025 05:08:01 PM |      INFO | test_wish_list.py:128 | Clicking on the store logo
+06/11/2025 05:08:01 PM |      INFO | test_wish_list.py:130 | ***************************** Verifying Test Wish List 003 *********************************
+06/11/2025 05:09:23 PM |      INFO | test_wish_list.py:111 | ***************************** Test Wish List 003 *********************************
+06/11/2025 05:09:26 PM |      INFO | test_wish_list.py:114 | Navigating to the base url
+06/11/2025 05:09:26 PM |      INFO | test_wish_list.py:117 | Clicking on my account
+06/11/2025 05:09:27 PM |      INFO | test_wish_list.py:119 | Clicking on login link
+06/11/2025 05:09:27 PM |      INFO | test_wish_list.py:121 | Entering username
+06/11/2025 05:09:27 PM |      INFO | test_wish_list.py:123 | Entering password
+06/11/2025 05:09:29 PM |      INFO | test_wish_list.py:125 | Clicking on the login button
+06/11/2025 05:09:30 PM |      INFO | test_wish_list.py:128 | Clicking on the store logo
+06/11/2025 05:09:30 PM |      INFO | test_wish_list.py:130 | ***************************** Verifying Test Wish List 003 *********************************
+06/11/2025 05:10:57 PM |      INFO | test_wish_list.py:111 | ***************************** Test Wish List 003 *********************************
+06/11/2025 05:11:01 PM |      INFO | test_wish_list.py:114 | Navigating to the base url
+06/11/2025 05:11:01 PM |      INFO | test_wish_list.py:117 | Clicking on my account
+06/11/2025 05:11:02 PM |      INFO | test_wish_list.py:119 | Clicking on login link
+06/11/2025 05:11:02 PM |      INFO | test_wish_list.py:121 | Entering username
+06/11/2025 05:11:02 PM |      INFO | test_wish_list.py:123 | Entering password
+06/11/2025 05:11:04 PM |      INFO | test_wish_list.py:125 | Clicking on the login button
+06/11/2025 05:11:04 PM |      INFO | test_wish_list.py:128 | Clicking on the store logo
+06/11/2025 05:11:04 PM |      INFO | test_wish_list.py:130 | ***************************** Verifying Test Wish List 003 *********************************
+06/11/2025 05:12:58 PM |      INFO | test_wish_list.py:111 | ***************************** Test Wish List 003 *********************************
+06/11/2025 05:13:00 PM |      INFO | test_wish_list.py:114 | Navigating to the base url
+06/11/2025 05:13:01 PM |      INFO | test_wish_list.py:117 | Clicking on my account
+06/11/2025 05:13:01 PM |      INFO | test_wish_list.py:119 | Clicking on login link
+06/11/2025 05:13:01 PM |      INFO | test_wish_list.py:121 | Entering username
+06/11/2025 05:13:02 PM |      INFO | test_wish_list.py:123 | Entering password
+06/11/2025 05:13:03 PM |      INFO | test_wish_list.py:125 | Clicking on the login button
+06/11/2025 05:13:04 PM |      INFO | test_wish_list.py:128 | Clicking on the store logo
+06/11/2025 05:13:04 PM |      INFO | test_wish_list.py:130 | ***************************** Verifying Test Wish List 003 *********************************
+06/11/2025 05:15:57 PM |      INFO | test_wish_list.py:111 | ***************************** Test Wish List 003 *********************************
+06/11/2025 05:16:03 PM |      INFO | test_wish_list.py:114 | Navigating to the base url
+06/11/2025 05:16:04 PM |      INFO | test_wish_list.py:117 | Clicking on my account
+06/11/2025 05:16:04 PM |      INFO | test_wish_list.py:119 | Clicking on login link
+06/11/2025 05:16:05 PM |      INFO | test_wish_list.py:121 | Entering username
+06/11/2025 05:16:05 PM |      INFO | test_wish_list.py:123 | Entering password
+06/11/2025 05:16:06 PM |      INFO | test_wish_list.py:125 | Clicking on the login button
+06/11/2025 05:16:07 PM |      INFO | test_wish_list.py:128 | Clicking on the store logo
+06/11/2025 05:16:07 PM |      INFO | test_wish_list.py:130 | ***************************** Verifying Test Wish List 003 *********************************
+06/11/2025 05:22:09 PM |      INFO | test_wish_list.py:111 | ***************************** Test Wish List 003 *********************************
+06/11/2025 05:22:13 PM |      INFO | test_wish_list.py:114 | Navigating to the base url
+06/11/2025 05:22:13 PM |      INFO | test_wish_list.py:117 | Clicking on my account
+06/11/2025 05:22:13 PM |      INFO | test_wish_list.py:119 | Clicking on login link
+06/11/2025 05:22:14 PM |      INFO | test_wish_list.py:121 | Entering username
+06/11/2025 05:22:14 PM |      INFO | test_wish_list.py:123 | Entering password
+06/11/2025 05:22:14 PM |      INFO | test_wish_list.py:125 | Clicking on the login button
+06/11/2025 05:22:16 PM |      INFO | test_wish_list.py:128 | Clicking on the store logo
+06/11/2025 05:22:16 PM |      INFO | test_wish_list.py:130 | ***************************** Verifying Test Wish List 003 *********************************
+06/11/2025 05:25:19 PM |      INFO | test_wish_list.py:111 | ***************************** Test Wish List 003 *********************************
+06/11/2025 05:25:22 PM |      INFO | test_wish_list.py:114 | Navigating to the base url
+06/11/2025 05:25:23 PM |      INFO | test_wish_list.py:117 | Clicking on my account
+06/11/2025 05:25:23 PM |      INFO | test_wish_list.py:119 | Clicking on login link
+06/11/2025 05:25:23 PM |      INFO | test_wish_list.py:121 | Entering username
+06/11/2025 05:25:24 PM |      INFO | test_wish_list.py:123 | Entering password
+06/11/2025 05:25:25 PM |      INFO | test_wish_list.py:125 | Clicking on the login button
+06/11/2025 05:25:27 PM |      INFO | test_wish_list.py:128 | Clicking on the store logo
+06/11/2025 05:25:27 PM |      INFO | test_wish_list.py:130 | ***************************** Verifying Test Wish List 003 *********************************
+06/11/2025 05:27:20 PM |      INFO | test_wish_list.py:111 | ***************************** Test Wish List 003 *********************************
+06/11/2025 05:27:41 PM |      INFO | test_wish_list.py:114 | Navigating to the base url
+06/11/2025 05:27:41 PM |      INFO | test_wish_list.py:117 | Clicking on my account
+06/11/2025 05:27:42 PM |      INFO | test_wish_list.py:119 | Clicking on login link
+06/11/2025 05:27:42 PM |      INFO | test_wish_list.py:121 | Entering username
+06/11/2025 05:27:42 PM |      INFO | test_wish_list.py:123 | Entering password
+06/11/2025 05:27:44 PM |      INFO | test_wish_list.py:125 | Clicking on the login button
+06/11/2025 05:27:45 PM |      INFO | test_wish_list.py:128 | Clicking on the store logo
+06/11/2025 05:27:45 PM |      INFO | test_wish_list.py:130 | ***************************** Verifying Test Wish List 003 *********************************
+06/11/2025 05:31:31 PM |      INFO | test_wish_list.py:111 | ***************************** Test Wish List 003 *********************************
+06/11/2025 05:31:46 PM |      INFO | test_wish_list.py:114 | Navigating to the base url
+06/11/2025 05:31:46 PM |      INFO | test_wish_list.py:117 | Clicking on my account
+06/11/2025 05:31:50 PM |      INFO | test_wish_list.py:119 | Clicking on login link
+06/11/2025 05:31:50 PM |      INFO | test_wish_list.py:121 | Entering username
+06/11/2025 05:31:50 PM |      INFO | test_wish_list.py:123 | Entering password
+06/11/2025 05:31:52 PM |      INFO | test_wish_list.py:125 | Clicking on the login button
+06/11/2025 05:31:55 PM |      INFO | test_wish_list.py:128 | Clicking on the store logo
+06/11/2025 05:31:55 PM |      INFO | test_wish_list.py:130 | ***************************** Verifying Test Wish List 003 *********************************
+06/11/2025 05:36:15 PM |      INFO | test_wish_list.py:111 | ***************************** Test Wish List 003 *********************************
+06/11/2025 05:36:24 PM |      INFO | test_wish_list.py:114 | Navigating to the base url
+06/11/2025 05:36:25 PM |      INFO | test_wish_list.py:117 | Clicking on my account
+06/11/2025 05:36:25 PM |      INFO | test_wish_list.py:119 | Clicking on login link
+06/11/2025 05:36:25 PM |      INFO | test_wish_list.py:121 | Entering username
+06/11/2025 05:36:26 PM |      INFO | test_wish_list.py:123 | Entering password
+06/11/2025 05:36:27 PM |      INFO | test_wish_list.py:125 | Clicking on the login button
+06/11/2025 05:36:28 PM |      INFO | test_wish_list.py:128 | Clicking on the store logo
+06/11/2025 05:36:28 PM |      INFO | test_wish_list.py:130 | ***************************** Verifying Test Wish List 003 *********************************
+06/11/2025 05:37:58 PM |      INFO | test_wish_list.py:111 | ***************************** Test Wish List 003 *********************************
+06/11/2025 05:38:02 PM |      INFO | test_wish_list.py:114 | Navigating to the base url
+06/11/2025 05:38:03 PM |      INFO | test_wish_list.py:117 | Clicking on my account
+06/11/2025 05:38:03 PM |      INFO | test_wish_list.py:119 | Clicking on login link
+06/11/2025 05:38:04 PM |      INFO | test_wish_list.py:121 | Entering username
+06/11/2025 05:38:04 PM |      INFO | test_wish_list.py:123 | Entering password
+06/11/2025 05:38:05 PM |      INFO | test_wish_list.py:125 | Clicking on the login button
+06/11/2025 05:38:06 PM |      INFO | test_wish_list.py:128 | Clicking on the store logo
+06/11/2025 05:38:06 PM |      INFO | test_wish_list.py:130 | ***************************** Verifying Test Wish List 003 *********************************
+06/11/2025 05:38:06 PM |      INFO | test_wish_list.py:132 | page title is passed
+06/11/2025 05:43:04 PM |      INFO | test_wish_list.py:111 | ***************************** Test Wish List 003 *********************************
+06/11/2025 05:43:07 PM |      INFO | test_wish_list.py:114 | Navigating to the base url
+06/11/2025 05:43:07 PM |      INFO | test_wish_list.py:117 | Clicking on my account
+06/11/2025 05:43:08 PM |      INFO | test_wish_list.py:119 | Clicking on login link
+06/11/2025 05:43:08 PM |      INFO | test_wish_list.py:121 | Entering username
+06/11/2025 05:43:08 PM |      INFO | test_wish_list.py:123 | Entering password
+06/11/2025 05:43:10 PM |      INFO | test_wish_list.py:125 | Clicking on the login button
+06/11/2025 05:43:11 PM |      INFO | test_wish_list.py:128 | Clicking on the store logo
+06/11/2025 05:43:11 PM |      INFO | test_wish_list.py:130 | ***************************** Verifying Test Wish List 003 *********************************
+06/11/2025 05:43:11 PM |      INFO | test_wish_list.py:132 | page title is passed
+06/11/2025 05:44:03 PM |      INFO | test_wish_list.py:111 | ***************************** Test Wish List 003 *********************************
+06/11/2025 05:44:06 PM |      INFO | test_wish_list.py:114 | Navigating to the base url
+06/11/2025 05:44:07 PM |      INFO | test_wish_list.py:117 | Clicking on my account
+06/11/2025 05:44:07 PM |      INFO | test_wish_list.py:119 | Clicking on login link
+06/11/2025 05:44:07 PM |      INFO | test_wish_list.py:121 | Entering username
+06/11/2025 05:44:08 PM |      INFO | test_wish_list.py:123 | Entering password
+06/11/2025 05:44:09 PM |      INFO | test_wish_list.py:125 | Clicking on the login button
+06/11/2025 05:44:10 PM |      INFO | test_wish_list.py:128 | Clicking on the store logo
+06/11/2025 05:44:10 PM |      INFO | test_wish_list.py:130 | ***************************** Verifying Test Wish List 003 *********************************
+06/11/2025 05:44:10 PM |      INFO | test_wish_list.py:132 | page title is passed
+06/12/2025 12:35:06 PM |      INFO | test_wish_list.py:111 | ***************************** Test Wish List 003 *********************************
+06/12/2025 12:35:09 PM |      INFO | test_wish_list.py:114 | Navigating to the base url
+06/12/2025 12:35:09 PM |      INFO | test_wish_list.py:117 | Clicking on my account
+06/12/2025 12:35:10 PM |      INFO | test_wish_list.py:119 | Clicking on login link
+06/12/2025 12:35:10 PM |      INFO | test_wish_list.py:121 | Entering username
+06/12/2025 12:35:10 PM |      INFO | test_wish_list.py:123 | Entering password
+06/12/2025 12:35:11 PM |      INFO | test_wish_list.py:125 | Clicking on the login button
+06/12/2025 12:35:11 PM |      INFO | test_wish_list.py:128 | Clicking on the store logo
+06/12/2025 12:35:11 PM |      INFO | test_wish_list.py:130 | ***************************** Verifying Test Wish List 003 *********************************
+06/12/2025 12:35:11 PM |      INFO | test_wish_list.py:132 | page title is passed
+06/12/2025 12:38:16 PM |      INFO | test_wish_list.py:111 | ***************************** Test Wish List 003 *********************************
+06/12/2025 12:38:27 PM |      INFO | test_wish_list.py:114 | Navigating to the base url
+06/12/2025 12:38:27 PM |      INFO | test_wish_list.py:117 | Clicking on my account
+06/12/2025 12:38:27 PM |      INFO | test_wish_list.py:119 | Clicking on login link
+06/12/2025 12:38:27 PM |      INFO | test_wish_list.py:121 | Entering username
+06/12/2025 12:38:27 PM |      INFO | test_wish_list.py:123 | Entering password
+06/12/2025 12:38:28 PM |      INFO | test_wish_list.py:125 | Clicking on the login button
+06/12/2025 12:38:29 PM |      INFO | test_wish_list.py:128 | Clicking on the store logo
+06/12/2025 12:38:29 PM |      INFO | test_wish_list.py:130 | ***************************** Verifying Test Wish List 003 *********************************
+06/12/2025 12:38:29 PM |      INFO | test_wish_list.py:132 | page title is passed
+06/12/2025 12:40:11 PM |      INFO | test_wish_list.py:111 | ***************************** Test Wish List 003 *********************************
+06/12/2025 12:40:13 PM |      INFO | test_wish_list.py:114 | Navigating to the base url
+06/12/2025 12:40:13 PM |      INFO | test_wish_list.py:117 | Clicking on my account
+06/12/2025 12:40:13 PM |      INFO | test_wish_list.py:119 | Clicking on login link
+06/12/2025 12:40:13 PM |      INFO | test_wish_list.py:121 | Entering username
+06/12/2025 12:40:13 PM |      INFO | test_wish_list.py:123 | Entering password
+06/12/2025 12:40:14 PM |      INFO | test_wish_list.py:125 | Clicking on the login button
+06/12/2025 12:40:15 PM |      INFO | test_wish_list.py:128 | Clicking on the store logo
+06/12/2025 12:40:15 PM |      INFO | test_wish_list.py:130 | ***************************** Verifying Test Wish List 003 *********************************
+06/12/2025 12:40:15 PM |      INFO | test_wish_list.py:132 | page title is passed
+06/12/2025 12:40:15 PM |      INFO | test_wish_list.py:134 | Clicking on the add to wish list option on product display in feature page
+06/12/2025 12:41:01 PM |      INFO | test_wish_list.py:111 | ***************************** Test Wish List 003 *********************************
+06/12/2025 12:41:05 PM |      INFO | test_wish_list.py:114 | Navigating to the base url
+06/12/2025 12:41:05 PM |      INFO | test_wish_list.py:117 | Clicking on my account
+06/12/2025 12:41:05 PM |      INFO | test_wish_list.py:119 | Clicking on login link
+06/12/2025 12:41:05 PM |      INFO | test_wish_list.py:121 | Entering username
+06/12/2025 12:41:05 PM |      INFO | test_wish_list.py:123 | Entering password
+06/12/2025 12:41:06 PM |      INFO | test_wish_list.py:125 | Clicking on the login button
+06/12/2025 12:41:07 PM |      INFO | test_wish_list.py:128 | Clicking on the store logo
+06/12/2025 12:41:07 PM |      INFO | test_wish_list.py:130 | ***************************** Verifying Test Wish List 003 *********************************
+06/12/2025 12:41:07 PM |      INFO | test_wish_list.py:132 | page title is passed
+06/12/2025 12:41:07 PM |      INFO | test_wish_list.py:134 | Clicking on the add to wish list option on product display in feature page
+06/12/2025 12:41:07 PM |      INFO | test_wish_list.py:137 | success message is passed
+06/12/2025 12:43:17 PM |      INFO | test_wish_list.py:111 | ***************************** Test Wish List 003 *********************************
+06/12/2025 12:43:19 PM |      INFO | test_wish_list.py:114 | Navigating to the base url
+06/12/2025 12:43:19 PM |      INFO | test_wish_list.py:117 | Clicking on my account
+06/12/2025 12:43:20 PM |      INFO | test_wish_list.py:119 | Clicking on login link
+06/12/2025 12:43:20 PM |      INFO | test_wish_list.py:121 | Entering username
+06/12/2025 12:43:20 PM |      INFO | test_wish_list.py:123 | Entering password
+06/12/2025 12:43:21 PM |      INFO | test_wish_list.py:125 | Clicking on the login button
+06/12/2025 12:43:21 PM |      INFO | test_wish_list.py:128 | Clicking on the store logo
+06/12/2025 12:43:21 PM |      INFO | test_wish_list.py:130 | ***************************** Verifying Test Wish List 003 *********************************
+06/12/2025 12:43:21 PM |      INFO | test_wish_list.py:132 | page title is passed
+06/12/2025 12:43:21 PM |      INFO | test_wish_list.py:134 | Clicking on the add to wish list option on product display in feature page
+06/12/2025 12:43:21 PM |      INFO | test_wish_list.py:137 | success message is passed
+06/12/2025 12:44:47 PM |      INFO | test_wish_list.py:111 | ***************************** Test Wish List 003 *********************************
+06/12/2025 12:44:52 PM |      INFO | test_wish_list.py:114 | Navigating to the base url
+06/12/2025 12:44:52 PM |      INFO | test_wish_list.py:117 | Clicking on my account
+06/12/2025 12:44:52 PM |      INFO | test_wish_list.py:119 | Clicking on login link
+06/12/2025 12:44:52 PM |      INFO | test_wish_list.py:121 | Entering username
+06/12/2025 12:44:52 PM |      INFO | test_wish_list.py:123 | Entering password
+06/12/2025 12:44:53 PM |      INFO | test_wish_list.py:125 | Clicking on the login button
+06/12/2025 12:44:54 PM |      INFO | test_wish_list.py:128 | Clicking on the store logo
+06/12/2025 12:44:54 PM |      INFO | test_wish_list.py:130 | ***************************** Verifying Test Wish List 003 *********************************
+06/12/2025 12:44:54 PM |      INFO | test_wish_list.py:132 | page title is passed
+06/12/2025 12:44:54 PM |      INFO | test_wish_list.py:134 | Clicking on the add to wish list option on product display in feature page
+06/12/2025 12:44:54 PM |      INFO | test_wish_list.py:137 | success message is passed
+06/12/2025 12:45:29 PM |      INFO | test_wish_list.py:111 | ***************************** Test Wish List 003 *********************************
+06/12/2025 12:45:31 PM |      INFO | test_wish_list.py:114 | Navigating to the base url
+06/12/2025 12:45:31 PM |      INFO | test_wish_list.py:117 | Clicking on my account
+06/12/2025 12:45:32 PM |      INFO | test_wish_list.py:119 | Clicking on login link
+06/12/2025 12:45:32 PM |      INFO | test_wish_list.py:121 | Entering username
+06/12/2025 12:45:32 PM |      INFO | test_wish_list.py:123 | Entering password
+06/12/2025 12:45:33 PM |      INFO | test_wish_list.py:125 | Clicking on the login button
+06/12/2025 12:45:33 PM |      INFO | test_wish_list.py:128 | Clicking on the store logo
+06/12/2025 12:45:33 PM |      INFO | test_wish_list.py:130 | ***************************** Verifying Test Wish List 003 *********************************
+06/12/2025 12:45:33 PM |      INFO | test_wish_list.py:132 | page title is passed
+06/12/2025 12:45:33 PM |      INFO | test_wish_list.py:134 | Clicking on the add to wish list option on product display in feature page
+06/12/2025 12:45:34 PM |      INFO | test_wish_list.py:137 | success message is passed
+06/12/2025 12:47:00 PM |      INFO | test_wish_list.py:111 | ***************************** Test Wish List 003 *********************************
+06/12/2025 12:47:02 PM |      INFO | test_wish_list.py:114 | Navigating to the base url
+06/12/2025 12:47:02 PM |      INFO | test_wish_list.py:117 | Clicking on my account
+06/12/2025 12:47:02 PM |      INFO | test_wish_list.py:119 | Clicking on login link
+06/12/2025 12:47:02 PM |      INFO | test_wish_list.py:121 | Entering username
+06/12/2025 12:47:02 PM |      INFO | test_wish_list.py:123 | Entering password
+06/12/2025 12:47:02 PM |      INFO | test_wish_list.py:125 | Clicking on the login button
+06/12/2025 12:47:04 PM |      INFO | test_wish_list.py:128 | Clicking on the store logo
+06/12/2025 12:47:04 PM |      INFO | test_wish_list.py:130 | ***************************** Verifying Test Wish List 003 *********************************
+06/12/2025 12:47:04 PM |      INFO | test_wish_list.py:132 | page title is passed
+06/12/2025 12:47:04 PM |      INFO | test_wish_list.py:134 | Clicking on the add to wish list option on product display in feature page
+06/12/2025 12:47:04 PM |      INFO | test_wish_list.py:137 | success message is passed
+06/12/2025 12:47:38 PM |      INFO | test_wish_list.py:111 | ***************************** Test Wish List 003 *********************************
+06/12/2025 12:47:40 PM |      INFO | test_wish_list.py:114 | Navigating to the base url
+06/12/2025 12:47:40 PM |      INFO | test_wish_list.py:117 | Clicking on my account
+06/12/2025 12:47:40 PM |      INFO | test_wish_list.py:119 | Clicking on login link
+06/12/2025 12:47:40 PM |      INFO | test_wish_list.py:121 | Entering username
+06/12/2025 12:47:41 PM |      INFO | test_wish_list.py:123 | Entering password
+06/12/2025 12:47:42 PM |      INFO | test_wish_list.py:125 | Clicking on the login button
+06/12/2025 12:47:42 PM |      INFO | test_wish_list.py:128 | Clicking on the store logo
+06/12/2025 12:47:42 PM |      INFO | test_wish_list.py:130 | ***************************** Verifying Test Wish List 003 *********************************
+06/12/2025 12:47:42 PM |      INFO | test_wish_list.py:132 | page title is passed
+06/12/2025 12:47:42 PM |      INFO | test_wish_list.py:134 | Clicking on the add to wish list option on product display in feature page
+06/12/2025 12:47:42 PM |      INFO | test_wish_list.py:137 | success message is passed
+06/12/2025 12:47:43 PM |      INFO | test_wish_list.py:139 | Clicking on the wish list link in success message
+06/12/2025 12:49:54 PM |      INFO | test_wish_list.py:111 | ***************************** Test Wish List 003 *********************************
+06/12/2025 12:49:56 PM |      INFO | test_wish_list.py:114 | Navigating to the base url
+06/12/2025 12:49:56 PM |      INFO | test_wish_list.py:117 | Clicking on my account
+06/12/2025 12:49:57 PM |      INFO | test_wish_list.py:119 | Clicking on login link
+06/12/2025 12:49:57 PM |      INFO | test_wish_list.py:121 | Entering username
+06/12/2025 12:49:57 PM |      INFO | test_wish_list.py:123 | Entering password
+06/12/2025 12:49:58 PM |      INFO | test_wish_list.py:125 | Clicking on the login button
+06/12/2025 12:49:58 PM |      INFO | test_wish_list.py:128 | Clicking on the store logo
+06/12/2025 12:49:58 PM |      INFO | test_wish_list.py:130 | ***************************** Verifying Test Wish List 003 *********************************
+06/12/2025 12:49:58 PM |      INFO | test_wish_list.py:132 | page title is passed
+06/12/2025 12:49:58 PM |      INFO | test_wish_list.py:134 | Clicking on the add to wish list option on product display in feature page
+06/12/2025 12:49:59 PM |      INFO | test_wish_list.py:137 | success message is passed
+06/12/2025 12:49:59 PM |      INFO | test_wish_list.py:139 | Clicking on the wish list link in success message
+06/12/2025 12:50:57 PM |      INFO | test_wish_list.py:111 | ***************************** Test Wish List 003 *********************************
+06/12/2025 12:50:59 PM |      INFO | test_wish_list.py:114 | Navigating to the base url
+06/12/2025 12:50:59 PM |      INFO | test_wish_list.py:117 | Clicking on my account
+06/12/2025 12:50:59 PM |      INFO | test_wish_list.py:119 | Clicking on login link
+06/12/2025 12:50:59 PM |      INFO | test_wish_list.py:121 | Entering username
+06/12/2025 12:50:59 PM |      INFO | test_wish_list.py:123 | Entering password
+06/12/2025 12:51:00 PM |      INFO | test_wish_list.py:125 | Clicking on the login button
+06/12/2025 12:51:01 PM |      INFO | test_wish_list.py:128 | Clicking on the store logo
+06/12/2025 12:51:01 PM |      INFO | test_wish_list.py:130 | ***************************** Verifying Test Wish List 003 *********************************
+06/12/2025 12:51:01 PM |      INFO | test_wish_list.py:132 | page title is passed
+06/12/2025 12:51:01 PM |      INFO | test_wish_list.py:134 | Clicking on the add to wish list option on product display in feature page
+06/12/2025 12:51:01 PM |      INFO | test_wish_list.py:137 | success message is passed
+06/12/2025 12:51:01 PM |      INFO | test_wish_list.py:139 | Clicking on the wish list link in success message
+06/12/2025 12:52:09 PM |      INFO | test_wish_list.py:111 | ***************************** Test Wish List 003 *********************************
+06/12/2025 12:52:10 PM |      INFO | test_wish_list.py:114 | Navigating to the base url
+06/12/2025 12:52:11 PM |      INFO | test_wish_list.py:117 | Clicking on my account
+06/12/2025 12:52:11 PM |      INFO | test_wish_list.py:119 | Clicking on login link
+06/12/2025 12:52:11 PM |      INFO | test_wish_list.py:121 | Entering username
+06/12/2025 12:52:11 PM |      INFO | test_wish_list.py:123 | Entering password
+06/12/2025 12:52:12 PM |      INFO | test_wish_list.py:125 | Clicking on the login button
+06/12/2025 12:52:12 PM |      INFO | test_wish_list.py:128 | Clicking on the store logo
+06/12/2025 12:52:12 PM |      INFO | test_wish_list.py:130 | ***************************** Verifying Test Wish List 003 *********************************
+06/12/2025 12:52:12 PM |      INFO | test_wish_list.py:132 | page title is passed
+06/12/2025 12:52:12 PM |      INFO | test_wish_list.py:134 | Clicking on the add to wish list option on product display in feature page
+06/12/2025 12:52:13 PM |      INFO | test_wish_list.py:137 | success message is passed
+06/12/2025 12:52:43 PM |      INFO | test_wish_list.py:113 | ***************************** Test Wish List 003 *********************************
+06/12/2025 12:52:44 PM |      INFO | test_wish_list.py:116 | Navigating to the base url
+06/12/2025 12:52:45 PM |      INFO | test_wish_list.py:119 | Clicking on my account
+06/12/2025 12:52:45 PM |      INFO | test_wish_list.py:121 | Clicking on login link
+06/12/2025 12:52:45 PM |      INFO | test_wish_list.py:123 | Entering username
+06/12/2025 12:52:45 PM |      INFO | test_wish_list.py:125 | Entering password
+06/12/2025 12:52:46 PM |      INFO | test_wish_list.py:127 | Clicking on the login button
+06/12/2025 12:52:47 PM |      INFO | test_wish_list.py:130 | Clicking on the store logo
+06/12/2025 12:52:47 PM |      INFO | test_wish_list.py:132 | ***************************** Verifying Test Wish List 003 *********************************
+06/12/2025 12:52:47 PM |      INFO | test_wish_list.py:134 | page title is passed
+06/12/2025 12:52:47 PM |      INFO | test_wish_list.py:136 | Clicking on the add to wish list option on product display in feature page
+06/12/2025 12:52:47 PM |      INFO | test_wish_list.py:139 | success message is passed
+06/12/2025 12:53:26 PM |      INFO | test_wish_list.py:113 | ***************************** Test Wish List 003 *********************************
+06/12/2025 12:53:30 PM |      INFO | test_wish_list.py:116 | Navigating to the base url
+06/12/2025 12:53:31 PM |      INFO | test_wish_list.py:119 | Clicking on my account
+06/12/2025 12:53:31 PM |      INFO | test_wish_list.py:121 | Clicking on login link
+06/12/2025 12:53:32 PM |      INFO | test_wish_list.py:123 | Entering username
+06/12/2025 12:53:32 PM |      INFO | test_wish_list.py:125 | Entering password
+06/12/2025 12:53:33 PM |      INFO | test_wish_list.py:127 | Clicking on the login button
+06/12/2025 12:53:33 PM |      INFO | test_wish_list.py:130 | Clicking on the store logo
+06/12/2025 12:53:33 PM |      INFO | test_wish_list.py:132 | ***************************** Verifying Test Wish List 003 *********************************
+06/12/2025 12:53:33 PM |      INFO | test_wish_list.py:134 | page title is passed
+06/12/2025 12:53:33 PM |      INFO | test_wish_list.py:136 | Clicking on the add to wish list option on product display in feature page
+06/12/2025 12:53:33 PM |      INFO | test_wish_list.py:139 | success message is passed
+06/12/2025 12:53:57 PM |      INFO | test_wish_list.py:113 | ***************************** Test Wish List 003 *********************************
+06/12/2025 12:54:41 PM |      INFO | test_wish_list.py:116 | Navigating to the base url
+06/12/2025 12:54:41 PM |      INFO | test_wish_list.py:119 | Clicking on my account
+06/12/2025 12:54:42 PM |      INFO | test_wish_list.py:121 | Clicking on login link
+06/12/2025 12:54:42 PM |      INFO | test_wish_list.py:123 | Entering username
+06/12/2025 12:54:42 PM |      INFO | test_wish_list.py:125 | Entering password
+06/12/2025 12:54:44 PM |      INFO | test_wish_list.py:127 | Clicking on the login button
+06/12/2025 12:54:45 PM |      INFO | test_wish_list.py:130 | Clicking on the store logo
+06/12/2025 12:54:45 PM |      INFO | test_wish_list.py:132 | ***************************** Verifying Test Wish List 003 *********************************
+06/12/2025 12:54:45 PM |      INFO | test_wish_list.py:134 | page title is passed
+06/12/2025 12:54:45 PM |      INFO | test_wish_list.py:136 | Clicking on the add to wish list option on product display in feature page
+06/12/2025 12:54:46 PM |      INFO | test_wish_list.py:139 | success message is passed
+06/12/2025 12:55:14 PM |      INFO | test_wish_list.py:141 | Clicking on the wish list link in success message
+06/12/2025 12:56:40 PM |      INFO | test_wish_list.py:113 | ***************************** Test Wish List 003 *********************************
+06/12/2025 12:56:42 PM |      INFO | test_wish_list.py:116 | Navigating to the base url
+06/12/2025 12:56:42 PM |      INFO | test_wish_list.py:119 | Clicking on my account
+06/12/2025 12:56:43 PM |      INFO | test_wish_list.py:121 | Clicking on login link
+06/12/2025 12:56:43 PM |      INFO | test_wish_list.py:123 | Entering username
+06/12/2025 12:56:43 PM |      INFO | test_wish_list.py:125 | Entering password
+06/12/2025 12:56:44 PM |      INFO | test_wish_list.py:127 | Clicking on the login button
+06/12/2025 12:56:44 PM |      INFO | test_wish_list.py:130 | Clicking on the store logo
+06/12/2025 12:56:44 PM |      INFO | test_wish_list.py:132 | ***************************** Verifying Test Wish List 003 *********************************
+06/12/2025 12:56:44 PM |      INFO | test_wish_list.py:134 | page title is passed
+06/12/2025 12:56:44 PM |      INFO | test_wish_list.py:136 | Clicking on the add to wish list option on product display in feature page
+06/12/2025 12:56:45 PM |      INFO | test_wish_list.py:139 | success message is passed
+06/12/2025 12:56:45 PM |      INFO | test_wish_list.py:141 | Clicking on the wish list link in success message
+06/12/2025 12:57:38 PM |      INFO | test_wish_list.py:113 | ***************************** Test Wish List 003 *********************************
+06/12/2025 12:57:40 PM |      INFO | test_wish_list.py:116 | Navigating to the base url
+06/12/2025 12:57:40 PM |      INFO | test_wish_list.py:119 | Clicking on my account
+06/12/2025 12:57:41 PM |      INFO | test_wish_list.py:121 | Clicking on login link
+06/12/2025 12:57:41 PM |      INFO | test_wish_list.py:123 | Entering username
+06/12/2025 12:57:41 PM |      INFO | test_wish_list.py:125 | Entering password
+06/12/2025 12:57:42 PM |      INFO | test_wish_list.py:127 | Clicking on the login button
+06/12/2025 12:57:42 PM |      INFO | test_wish_list.py:130 | Clicking on the store logo
+06/12/2025 12:57:42 PM |      INFO | test_wish_list.py:132 | ***************************** Verifying Test Wish List 003 *********************************
+06/12/2025 12:57:42 PM |      INFO | test_wish_list.py:134 | page title is passed
+06/12/2025 12:57:42 PM |      INFO | test_wish_list.py:136 | Clicking on the add to wish list option on product display in feature page
+06/12/2025 12:57:43 PM |      INFO | test_wish_list.py:139 | success message is passed
+06/12/2025 12:57:43 PM |      INFO | test_wish_list.py:141 | Clicking on the wish list link in success message
+06/12/2025 01:00:14 PM |      INFO | test_wish_list.py:113 | ***************************** Test Wish List 003 *********************************
+06/12/2025 01:00:16 PM |      INFO | test_wish_list.py:116 | Navigating to the base url
+06/12/2025 01:00:16 PM |      INFO | test_wish_list.py:119 | Clicking on my account
+06/12/2025 01:00:16 PM |      INFO | test_wish_list.py:121 | Clicking on login link
+06/12/2025 01:00:16 PM |      INFO | test_wish_list.py:123 | Entering username
+06/12/2025 01:00:16 PM |      INFO | test_wish_list.py:125 | Entering password
+06/12/2025 01:00:17 PM |      INFO | test_wish_list.py:127 | Clicking on the login button
+06/12/2025 01:00:18 PM |      INFO | test_wish_list.py:130 | Clicking on the store logo
+06/12/2025 01:00:18 PM |      INFO | test_wish_list.py:132 | ***************************** Verifying Test Wish List 003 *********************************
+06/12/2025 01:00:18 PM |      INFO | test_wish_list.py:134 | page title is passed
+06/12/2025 01:00:18 PM |      INFO | test_wish_list.py:136 | Clicking on the add to wish list option on product display in feature page
+06/12/2025 01:00:18 PM |      INFO | test_wish_list.py:139 | success message is passed
+06/12/2025 01:00:19 PM |      INFO | test_wish_list.py:141 | Clicking on the wish list link in success message
+06/12/2025 01:00:24 PM |      INFO | test_wish_list.py:144 | Expected product is display
+06/12/2025 01:00:24 PM |      INFO | test_wish_list.py:146 | ****************** Test Wish List 003 is Passed ****************
+06/12/2025 01:00:24 PM |      INFO | test_wish_list.py:156 | ***************************** End Of Test Wish List 003 *********************************
+06/12/2025 01:00:32 PM |      INFO | test_wish_list.py:113 | ***************************** Test Wish List 003 *********************************
+06/12/2025 01:00:35 PM |      INFO | test_wish_list.py:116 | Navigating to the base url
+06/12/2025 01:00:35 PM |      INFO | test_wish_list.py:119 | Clicking on my account
+06/12/2025 01:00:35 PM |      INFO | test_wish_list.py:121 | Clicking on login link
+06/12/2025 01:00:35 PM |      INFO | test_wish_list.py:123 | Entering username
+06/12/2025 01:00:35 PM |      INFO | test_wish_list.py:125 | Entering password
+06/12/2025 01:00:36 PM |      INFO | test_wish_list.py:127 | Clicking on the login button
+06/12/2025 01:00:37 PM |      INFO | test_wish_list.py:130 | Clicking on the store logo
+06/12/2025 01:00:37 PM |      INFO | test_wish_list.py:132 | ***************************** Verifying Test Wish List 003 *********************************
+06/12/2025 01:00:37 PM |      INFO | test_wish_list.py:134 | page title is passed
+06/12/2025 01:00:37 PM |      INFO | test_wish_list.py:136 | Clicking on the add to wish list option on product display in feature page
+06/12/2025 01:00:37 PM |      INFO | test_wish_list.py:139 | success message is passed
+06/12/2025 01:24:22 PM |      INFO | test_wish_list.py:113 | ***************************** Test Wish List 003 is Start *********************************
+06/12/2025 01:24:25 PM |      INFO | test_wish_list.py:116 | Navigating to the base url
+06/12/2025 01:24:25 PM |      INFO | test_wish_list.py:119 | Clicking on my account
+06/12/2025 01:24:25 PM |      INFO | test_wish_list.py:121 | Clicking on login link
+06/12/2025 01:24:26 PM |      INFO | test_wish_list.py:123 | Entering username
+06/12/2025 01:24:26 PM |      INFO | test_wish_list.py:125 | Entering password
+06/12/2025 01:24:27 PM |      INFO | test_wish_list.py:127 | Clicking on the login button
+06/12/2025 01:24:27 PM |      INFO | test_wish_list.py:130 | Clicking on the store logo
+06/12/2025 01:24:27 PM |      INFO | test_wish_list.py:132 | ***************************** Verifying Test Wish List 003 *********************************
+06/12/2025 01:24:27 PM |      INFO | test_wish_list.py:134 | page title is passed
+06/12/2025 01:24:27 PM |      INFO | test_wish_list.py:136 | Clicking on the add to wish list option on product display in feature page
+06/12/2025 01:24:27 PM |      INFO | test_wish_list.py:139 | success message is passed
+06/12/2025 01:25:04 PM |      INFO | test_wish_list.py:111 | ***************************** Test Wish List 003 is Start *********************************
+06/12/2025 01:25:05 PM |      INFO | test_wish_list.py:114 | Navigating to the base url
+06/12/2025 01:25:05 PM |      INFO | test_wish_list.py:117 | Clicking on my account
+06/12/2025 01:25:06 PM |      INFO | test_wish_list.py:119 | Clicking on login link
+06/12/2025 01:25:06 PM |      INFO | test_wish_list.py:121 | Entering username
+06/12/2025 01:25:06 PM |      INFO | test_wish_list.py:123 | Entering password
+06/12/2025 01:25:06 PM |      INFO | test_wish_list.py:125 | Clicking on the login button
+06/12/2025 01:25:30 PM |      INFO | test_wish_list.py:111 | ***************************** Test Wish List 003 is Start *********************************
+06/12/2025 01:25:32 PM |      INFO | test_wish_list.py:114 | Navigating to the base url
+06/12/2025 01:25:32 PM |      INFO | test_wish_list.py:117 | Clicking on my account
+06/12/2025 01:25:33 PM |      INFO | test_wish_list.py:119 | Clicking on login link
+06/12/2025 01:25:33 PM |      INFO | test_wish_list.py:121 | Entering username
+06/12/2025 01:25:33 PM |      INFO | test_wish_list.py:123 | Entering password
+06/12/2025 01:25:34 PM |      INFO | test_wish_list.py:125 | Clicking on the login button
+06/12/2025 01:25:34 PM |      INFO | test_wish_list.py:128 | Clicking on the store logo
+06/12/2025 01:25:34 PM |      INFO | test_wish_list.py:130 | ***************************** Verifying Test Wish List 003 *********************************
+06/12/2025 01:25:34 PM |      INFO | test_wish_list.py:132 | page title is passed
+06/12/2025 01:25:34 PM |      INFO | test_wish_list.py:134 | Clicking on the add to wish list option on product display in feature page
+06/12/2025 01:25:35 PM |      INFO | test_wish_list.py:137 | success message is passed
+06/12/2025 01:28:00 PM |      INFO | test_wish_list.py:111 | ***************************** Test Wish List 003 is Start *********************************
+06/12/2025 01:28:02 PM |      INFO | test_wish_list.py:114 | Navigating to the base url
+06/12/2025 01:28:02 PM |      INFO | test_wish_list.py:117 | Clicking on my account
+06/12/2025 01:28:03 PM |      INFO | test_wish_list.py:119 | Clicking on login link
+06/12/2025 01:28:03 PM |      INFO | test_wish_list.py:121 | Entering username
+06/12/2025 01:28:03 PM |      INFO | test_wish_list.py:123 | Entering password
+06/12/2025 01:28:04 PM |      INFO | test_wish_list.py:125 | Clicking on the login button
+06/12/2025 01:28:05 PM |      INFO | test_wish_list.py:128 | Clicking on the store logo
+06/12/2025 01:28:05 PM |      INFO | test_wish_list.py:130 | ***************************** Verifying Test Wish List 003 *********************************
+06/12/2025 01:28:05 PM |      INFO | test_wish_list.py:132 | page title is passed
+06/12/2025 01:28:05 PM |      INFO | test_wish_list.py:134 | Clicking on the add to wish list option on product display in feature page
+06/12/2025 01:28:05 PM |      INFO | test_wish_list.py:137 | success message is passed
+06/12/2025 01:29:48 PM |      INFO | test_wish_list.py:111 | ***************************** Test Wish List 003 is Start *********************************
+06/12/2025 01:29:49 PM |      INFO | test_wish_list.py:114 | Navigating to the base url
+06/12/2025 01:29:50 PM |      INFO | test_wish_list.py:117 | Clicking on my account
+06/12/2025 01:29:50 PM |      INFO | test_wish_list.py:119 | Clicking on login link
+06/12/2025 01:29:50 PM |      INFO | test_wish_list.py:121 | Entering username
+06/12/2025 01:29:50 PM |      INFO | test_wish_list.py:123 | Entering password
+06/12/2025 01:29:51 PM |      INFO | test_wish_list.py:125 | Clicking on the login button
+06/12/2025 01:30:13 PM |      INFO | test_wish_list.py:111 | ***************************** Test Wish List 003 is Start *********************************
+06/12/2025 01:30:14 PM |      INFO | test_wish_list.py:114 | Navigating to the base url
+06/12/2025 01:30:14 PM |      INFO | test_wish_list.py:117 | Clicking on my account
+06/12/2025 01:30:15 PM |      INFO | test_wish_list.py:119 | Clicking on login link
+06/12/2025 01:30:15 PM |      INFO | test_wish_list.py:121 | Entering username
+06/12/2025 01:30:15 PM |      INFO | test_wish_list.py:123 | Entering password
+06/12/2025 01:30:15 PM |      INFO | test_wish_list.py:125 | Clicking on the login button
+06/12/2025 01:31:17 PM |      INFO | test_wish_list.py:111 | ***************************** Test Wish List 003 is Start *********************************
+06/12/2025 01:31:18 PM |      INFO | test_wish_list.py:114 | Navigating to the base url
+06/12/2025 01:31:18 PM |      INFO | test_wish_list.py:117 | Clicking on my account
+06/12/2025 01:31:19 PM |      INFO | test_wish_list.py:119 | Clicking on login link
+06/12/2025 01:31:19 PM |      INFO | test_wish_list.py:121 | Entering username
+06/12/2025 01:31:19 PM |      INFO | test_wish_list.py:123 | Entering password
+06/12/2025 01:31:19 PM |      INFO | test_wish_list.py:125 | Clicking on the login button
+06/12/2025 01:31:48 PM |      INFO | test_wish_list.py:111 | ***************************** Test Wish List 003 is Start *********************************
+06/12/2025 01:31:49 PM |      INFO | test_wish_list.py:114 | Navigating to the base url
+06/12/2025 01:31:49 PM |      INFO | test_wish_list.py:117 | Clicking on my account
+06/12/2025 01:31:50 PM |      INFO | test_wish_list.py:119 | Clicking on login link
+06/12/2025 01:31:50 PM |      INFO | test_wish_list.py:121 | Entering username
+06/12/2025 01:31:50 PM |      INFO | test_wish_list.py:123 | Entering password
+06/12/2025 01:31:50 PM |      INFO | test_wish_list.py:125 | Clicking on the login button
+06/12/2025 01:36:08 PM |      INFO | test_wish_list.py:111 | ***************************** Test Wish List 003 is Start *********************************
+06/12/2025 01:36:11 PM |      INFO | test_wish_list.py:114 | Navigating to the base url
+06/12/2025 01:36:11 PM |      INFO | test_wish_list.py:117 | Clicking on my account
+06/12/2025 01:36:11 PM |      INFO | test_wish_list.py:119 | Clicking on login link
+06/12/2025 01:36:12 PM |      INFO | test_wish_list.py:121 | Entering username
+06/12/2025 01:36:12 PM |      INFO | test_wish_list.py:123 | Entering password
+06/12/2025 01:36:13 PM |      INFO | test_wish_list.py:125 | Clicking on the login button
+06/12/2025 01:36:13 PM |      INFO | test_wish_list.py:128 | Clicking on the store logo
+06/12/2025 01:36:13 PM |      INFO | test_wish_list.py:130 | ***************************** Verifying Test Wish List 003 *********************************
+06/12/2025 01:36:59 PM |      INFO | test_wish_list.py:111 | ***************************** Test Wish List 003 is Start *********************************
+06/12/2025 01:37:00 PM |      INFO | test_wish_list.py:114 | Navigating to the base url
+06/12/2025 01:37:00 PM |      INFO | test_wish_list.py:117 | Clicking on my account
+06/12/2025 01:37:01 PM |      INFO | test_wish_list.py:119 | Clicking on login link
+06/12/2025 01:37:01 PM |      INFO | test_wish_list.py:121 | Entering username
+06/12/2025 01:37:01 PM |      INFO | test_wish_list.py:123 | Entering password
+06/12/2025 01:37:02 PM |      INFO | test_wish_list.py:125 | Clicking on the login button
+06/12/2025 01:37:02 PM |      INFO | test_wish_list.py:128 | Clicking on the store logo
+06/12/2025 01:37:02 PM |      INFO | test_wish_list.py:130 | ***************************** Verifying Test Wish List 003 *********************************
+06/12/2025 01:38:02 PM |      INFO | test_wish_list.py:111 | ***************************** Test Wish List 003 is Start *********************************
+06/12/2025 01:38:04 PM |      INFO | test_wish_list.py:114 | Navigating to the base url
+06/12/2025 01:38:07 PM |      INFO | test_wish_list.py:117 | Clicking on my account
+06/12/2025 01:38:08 PM |      INFO | test_wish_list.py:119 | Clicking on login link
+06/12/2025 01:38:08 PM |      INFO | test_wish_list.py:121 | Entering username
+06/12/2025 01:38:08 PM |      INFO | test_wish_list.py:123 | Entering password
+06/12/2025 01:38:09 PM |      INFO | test_wish_list.py:125 | Clicking on the login button
+06/12/2025 01:38:09 PM |      INFO | test_wish_list.py:128 | Clicking on the store logo
+06/12/2025 01:38:09 PM |      INFO | test_wish_list.py:130 | ***************************** Verifying Test Wish List 003 *********************************
+06/12/2025 01:50:58 PM |      INFO | test_wish_list.py:111 | ***************************** Test Wish List 003 is Start *********************************
+06/12/2025 01:50:59 PM |      INFO | test_wish_list.py:114 | Navigating to the base url
+06/12/2025 01:50:59 PM |      INFO | test_wish_list.py:117 | Clicking on my account
+06/12/2025 01:50:59 PM |      INFO | test_wish_list.py:119 | Clicking on login link
+06/12/2025 01:50:59 PM |      INFO | test_wish_list.py:121 | Entering username
+06/12/2025 01:51:00 PM |      INFO | test_wish_list.py:123 | Entering password
+06/12/2025 01:51:00 PM |      INFO | test_wish_list.py:125 | Clicking on the login button
+06/12/2025 01:51:00 PM |      INFO | test_wish_list.py:128 | Clicking on the store logo
+06/12/2025 01:51:00 PM |      INFO | test_wish_list.py:130 | ***************************** Verifying Test Wish List 003 *********************************
+06/12/2025 01:51:43 PM |      INFO | test_wish_list.py:111 | ***************************** Test Wish List 003 is Start *********************************
+06/12/2025 01:51:45 PM |      INFO | test_wish_list.py:114 | Navigating to the base url
+06/12/2025 01:51:46 PM |      INFO | test_wish_list.py:117 | Clicking on my account
+06/12/2025 01:51:46 PM |      INFO | test_wish_list.py:119 | Clicking on login link
+06/12/2025 01:51:46 PM |      INFO | test_wish_list.py:121 | Entering username
+06/12/2025 01:51:46 PM |      INFO | test_wish_list.py:123 | Entering password
+06/12/2025 01:51:46 PM |      INFO | test_wish_list.py:125 | Clicking on the login button
+06/12/2025 01:51:47 PM |      INFO | test_wish_list.py:128 | Clicking on the store logo
+06/12/2025 01:51:47 PM |      INFO | test_wish_list.py:130 | ***************************** Verifying Test Wish List 003 *********************************
+06/12/2025 01:53:00 PM |      INFO | test_wish_list.py:111 | ***************************** Test Wish List 003 is Start *********************************
+06/12/2025 01:53:01 PM |      INFO | test_wish_list.py:114 | Navigating to the base url
+06/12/2025 01:53:01 PM |      INFO | test_wish_list.py:117 | Clicking on my account
+06/12/2025 01:53:02 PM |      INFO | test_wish_list.py:119 | Clicking on login link
+06/12/2025 01:53:02 PM |      INFO | test_wish_list.py:121 | Entering username
+06/12/2025 01:53:02 PM |      INFO | test_wish_list.py:123 | Entering password
+06/12/2025 01:53:02 PM |      INFO | test_wish_list.py:125 | Clicking on the login button
+06/12/2025 01:53:02 PM |      INFO | test_wish_list.py:128 | Clicking on the store logo
+06/12/2025 01:53:02 PM |      INFO | test_wish_list.py:130 | ***************************** Verifying Test Wish List 003 *********************************
+06/12/2025 01:54:27 PM |      INFO | test_wish_list.py:111 | ***************************** Test Wish List 003 is Start *********************************
+06/12/2025 01:54:28 PM |      INFO | test_wish_list.py:114 | Navigating to the base url
+06/12/2025 01:54:28 PM |      INFO | test_wish_list.py:117 | Clicking on my account
+06/12/2025 01:54:29 PM |      INFO | test_wish_list.py:119 | Clicking on login link
+06/12/2025 01:54:29 PM |      INFO | test_wish_list.py:121 | Entering username
+06/12/2025 01:54:29 PM |      INFO | test_wish_list.py:123 | Entering password
+06/12/2025 01:54:29 PM |      INFO | test_wish_list.py:125 | Clicking on the login button
+06/12/2025 01:54:50 PM |      INFO | test_wish_list.py:111 | ***************************** Test Wish List 003 is Start *********************************
+06/12/2025 01:54:52 PM |      INFO | test_wish_list.py:114 | Navigating to the base url
+06/12/2025 01:54:52 PM |      INFO | test_wish_list.py:117 | Clicking on my account
+06/12/2025 01:54:52 PM |      INFO | test_wish_list.py:119 | Clicking on login link
+06/12/2025 01:54:53 PM |      INFO | test_wish_list.py:121 | Entering username
+06/12/2025 01:54:53 PM |      INFO | test_wish_list.py:123 | Entering password
+06/12/2025 01:54:54 PM |      INFO | test_wish_list.py:125 | Clicking on the login button
+06/12/2025 01:55:12 PM |      INFO | test_wish_list.py:111 | ***************************** Test Wish List 003 is Start *********************************
+06/12/2025 01:55:14 PM |      INFO | test_wish_list.py:114 | Navigating to the base url
+06/12/2025 01:55:14 PM |      INFO | test_wish_list.py:117 | Clicking on my account
+06/12/2025 01:55:15 PM |      INFO | test_wish_list.py:119 | Clicking on login link
+06/12/2025 01:55:15 PM |      INFO | test_wish_list.py:121 | Entering username
+06/12/2025 01:55:15 PM |      INFO | test_wish_list.py:123 | Entering password
+06/12/2025 01:55:16 PM |      INFO | test_wish_list.py:125 | Clicking on the login button
+06/12/2025 01:55:17 PM |      INFO | test_wish_list.py:128 | Clicking on the store logo
+06/12/2025 01:55:17 PM |      INFO | test_wish_list.py:130 | ***************************** Verifying Test Wish List 003 *********************************
+06/12/2025 01:55:17 PM |      INFO | test_wish_list.py:132 | page title is passed
+06/12/2025 01:55:17 PM |      INFO | test_wish_list.py:134 | Clicking on the add to wish list option on product display in feature page
+06/12/2025 01:55:17 PM |      INFO | test_wish_list.py:137 | success message is passed
+06/12/2025 01:55:46 PM |      INFO | test_wish_list.py:111 | ***************************** Test Wish List 003 is Start *********************************
+06/12/2025 01:55:47 PM |      INFO | test_wish_list.py:114 | Navigating to the base url
+06/12/2025 01:55:47 PM |      INFO | test_wish_list.py:117 | Clicking on my account
+06/12/2025 01:55:48 PM |      INFO | test_wish_list.py:119 | Clicking on login link
+06/12/2025 01:55:48 PM |      INFO | test_wish_list.py:121 | Entering username
+06/12/2025 01:55:48 PM |      INFO | test_wish_list.py:123 | Entering password
+06/12/2025 01:55:48 PM |      INFO | test_wish_list.py:125 | Clicking on the login button
+06/12/2025 01:56:42 PM |      INFO | test_wish_list.py:111 | ***************************** Test Wish List 003 is Start *********************************
+06/12/2025 01:56:44 PM |      INFO | test_wish_list.py:114 | Navigating to the base url
+06/12/2025 01:56:44 PM |      INFO | test_wish_list.py:117 | Clicking on my account
+06/12/2025 01:56:45 PM |      INFO | test_wish_list.py:119 | Clicking on login link
+06/12/2025 01:56:45 PM |      INFO | test_wish_list.py:121 | Entering username
+06/12/2025 01:56:45 PM |      INFO | test_wish_list.py:123 | Entering password
+06/12/2025 01:56:46 PM |      INFO | test_wish_list.py:125 | Clicking on the login button
+06/12/2025 01:56:47 PM |      INFO | test_wish_list.py:128 | Clicking on the store logo
+06/12/2025 01:56:47 PM |      INFO | test_wish_list.py:130 | ***************************** Verifying Test Wish List 003 *********************************
+06/12/2025 01:56:47 PM |      INFO | test_wish_list.py:132 | page title is passed
+06/12/2025 01:56:47 PM |      INFO | test_wish_list.py:134 | Clicking on the add to wish list option on product display in feature page
+06/12/2025 01:56:47 PM |      INFO | test_wish_list.py:137 | success message is passed
+06/12/2025 01:58:07 PM |      INFO | test_wish_list.py:111 | ***************************** Test Wish List 003 is Start *********************************
+06/12/2025 01:58:09 PM |      INFO | test_wish_list.py:114 | Navigating to the base url
+06/12/2025 01:58:09 PM |      INFO | test_wish_list.py:117 | Clicking on my account
+06/12/2025 01:58:09 PM |      INFO | test_wish_list.py:119 | Clicking on login link
+06/12/2025 01:58:10 PM |      INFO | test_wish_list.py:121 | Entering username
+06/12/2025 01:58:10 PM |      INFO | test_wish_list.py:123 | Entering password
+06/12/2025 01:58:11 PM |      INFO | test_wish_list.py:125 | Clicking on the login button
+06/12/2025 01:58:12 PM |      INFO | test_wish_list.py:128 | Clicking on the store logo
+06/12/2025 01:58:12 PM |      INFO | test_wish_list.py:130 | ***************************** Verifying Test Wish List 003 *********************************
+06/12/2025 01:58:12 PM |      INFO | test_wish_list.py:132 | page title is passed
+06/12/2025 01:58:12 PM |      INFO | test_wish_list.py:134 | Clicking on the add to wish list option on product display in feature page
+06/12/2025 01:58:12 PM |      INFO | test_wish_list.py:137 | success message is passed
+06/12/2025 01:59:07 PM |      INFO | test_wish_list.py:111 | ***************************** Test Wish List 003 is Start *********************************
+06/12/2025 01:59:09 PM |      INFO | test_wish_list.py:114 | Navigating to the base url
+06/12/2025 01:59:09 PM |      INFO | test_wish_list.py:117 | Clicking on my account
+06/12/2025 01:59:09 PM |      INFO | test_wish_list.py:119 | Clicking on login link
+06/12/2025 01:59:10 PM |      INFO | test_wish_list.py:121 | Entering username
+06/12/2025 01:59:10 PM |      INFO | test_wish_list.py:123 | Entering password
+06/12/2025 01:59:11 PM |      INFO | test_wish_list.py:125 | Clicking on the login button
+06/12/2025 01:59:11 PM |      INFO | test_wish_list.py:128 | Clicking on the store logo
+06/12/2025 01:59:11 PM |      INFO | test_wish_list.py:130 | ***************************** Verifying Test Wish List 003 *********************************
+06/12/2025 01:59:11 PM |      INFO | test_wish_list.py:132 | page title is passed
+06/12/2025 01:59:11 PM |      INFO | test_wish_list.py:134 | Clicking on the add to wish list option on product display in feature page
+06/12/2025 01:59:11 PM |      INFO | test_wish_list.py:137 | success message is passed
+06/12/2025 01:59:12 PM |      INFO | test_wish_list.py:139 | Clicking on the wish list link in success message
+06/12/2025 01:59:12 PM |      INFO | test_wish_list.py:141 | Expected product is display
+06/12/2025 01:59:12 PM |      INFO | test_wish_list.py:143 | ****************** Test Wish List 003 is Passed ****************
+06/12/2025 01:59:12 PM |      INFO | test_wish_list.py:153 | ***************************** End Of Test Wish List 003 *********************************
+06/12/2025 01:59:21 PM |      INFO | test_wish_list.py:111 | ***************************** Test Wish List 003 is Start *********************************
+06/12/2025 01:59:24 PM |      INFO | test_wish_list.py:114 | Navigating to the base url
+06/12/2025 01:59:24 PM |      INFO | test_wish_list.py:117 | Clicking on my account
+06/12/2025 01:59:24 PM |      INFO | test_wish_list.py:119 | Clicking on login link
+06/12/2025 01:59:25 PM |      INFO | test_wish_list.py:121 | Entering username
+06/12/2025 01:59:25 PM |      INFO | test_wish_list.py:123 | Entering password
+06/12/2025 01:59:26 PM |      INFO | test_wish_list.py:125 | Clicking on the login button
+06/12/2025 01:59:26 PM |      INFO | test_wish_list.py:128 | Clicking on the store logo
+06/12/2025 01:59:26 PM |      INFO | test_wish_list.py:130 | ***************************** Verifying Test Wish List 003 *********************************
+06/12/2025 01:59:26 PM |      INFO | test_wish_list.py:132 | page title is passed
+06/12/2025 01:59:27 PM |      INFO | test_wish_list.py:134 | Clicking on the add to wish list option on product display in feature page
+06/12/2025 01:59:27 PM |      INFO | test_wish_list.py:137 | success message is passed
+06/12/2025 01:59:27 PM |      INFO | test_wish_list.py:139 | Clicking on the wish list link in success message
+06/12/2025 02:00:04 PM |      INFO | test_wish_list.py:111 | ***************************** Test Wish List 003 is Start *********************************
+06/12/2025 02:00:06 PM |      INFO | test_wish_list.py:114 | Navigating to the base url
+06/12/2025 02:00:06 PM |      INFO | test_wish_list.py:117 | Clicking on my account
+06/12/2025 02:00:06 PM |      INFO | test_wish_list.py:119 | Clicking on login link
+06/12/2025 02:00:07 PM |      INFO | test_wish_list.py:121 | Entering username
+06/12/2025 02:00:07 PM |      INFO | test_wish_list.py:123 | Entering password
+06/12/2025 02:00:08 PM |      INFO | test_wish_list.py:125 | Clicking on the login button
+06/12/2025 02:00:09 PM |      INFO | test_wish_list.py:128 | Clicking on the store logo
+06/12/2025 02:00:09 PM |      INFO | test_wish_list.py:130 | ***************************** Verifying Test Wish List 003 *********************************
+06/12/2025 02:00:09 PM |      INFO | test_wish_list.py:132 | page title is passed
+06/12/2025 02:00:09 PM |      INFO | test_wish_list.py:134 | Clicking on the add to wish list option on product display in feature page
+06/12/2025 02:00:09 PM |      INFO | test_wish_list.py:137 | success message is passed
+06/12/2025 02:00:22 PM |      INFO | test_wish_list.py:111 | ***************************** Test Wish List 003 is Start *********************************
+06/12/2025 02:00:24 PM |      INFO | test_wish_list.py:114 | Navigating to the base url
+06/12/2025 02:00:24 PM |      INFO | test_wish_list.py:117 | Clicking on my account
+06/12/2025 02:00:24 PM |      INFO | test_wish_list.py:119 | Clicking on login link
+06/12/2025 02:00:24 PM |      INFO | test_wish_list.py:121 | Entering username
+06/12/2025 02:00:25 PM |      INFO | test_wish_list.py:123 | Entering password
+06/12/2025 02:00:26 PM |      INFO | test_wish_list.py:125 | Clicking on the login button
+06/12/2025 02:00:26 PM |      INFO | test_wish_list.py:128 | Clicking on the store logo
+06/12/2025 02:00:26 PM |      INFO | test_wish_list.py:130 | ***************************** Verifying Test Wish List 003 *********************************
+06/12/2025 02:00:26 PM |      INFO | test_wish_list.py:132 | page title is passed
+06/12/2025 02:00:27 PM |      INFO | test_wish_list.py:134 | Clicking on the add to wish list option on product display in feature page
+06/12/2025 02:00:27 PM |      INFO | test_wish_list.py:137 | success message is passed
+06/12/2025 02:00:55 PM |      INFO | test_wish_list.py:111 | ***************************** Test Wish List 003 is Start *********************************
+06/12/2025 02:00:57 PM |      INFO | test_wish_list.py:114 | Navigating to the base url
+06/12/2025 02:00:58 PM |      INFO | test_wish_list.py:117 | Clicking on my account
+06/12/2025 02:00:58 PM |      INFO | test_wish_list.py:119 | Clicking on login link
+06/12/2025 02:00:58 PM |      INFO | test_wish_list.py:121 | Entering username
+06/12/2025 02:00:58 PM |      INFO | test_wish_list.py:123 | Entering password
+06/12/2025 02:00:59 PM |      INFO | test_wish_list.py:125 | Clicking on the login button
+06/12/2025 02:01:00 PM |      INFO | test_wish_list.py:128 | Clicking on the store logo
+06/12/2025 02:01:00 PM |      INFO | test_wish_list.py:130 | ***************************** Verifying Test Wish List 003 *********************************
+06/12/2025 02:01:00 PM |      INFO | test_wish_list.py:132 | page title is passed
+06/12/2025 02:01:00 PM |      INFO | test_wish_list.py:134 | Clicking on the add to wish list option on product display in feature page
+06/12/2025 02:01:00 PM |      INFO | test_wish_list.py:137 | success message is passed
+06/12/2025 02:02:27 PM |      INFO | test_wish_list.py:111 | ***************************** Test Wish List 003 is Start *********************************
+06/12/2025 02:02:30 PM |      INFO | test_wish_list.py:114 | Navigating to the base url
+06/12/2025 02:02:30 PM |      INFO | test_wish_list.py:117 | Clicking on my account
+06/12/2025 02:02:31 PM |      INFO | test_wish_list.py:119 | Clicking on login link
+06/12/2025 02:02:31 PM |      INFO | test_wish_list.py:121 | Entering username
+06/12/2025 02:02:31 PM |      INFO | test_wish_list.py:123 | Entering password
+06/12/2025 02:02:32 PM |      INFO | test_wish_list.py:125 | Clicking on the login button
+06/12/2025 02:02:33 PM |      INFO | test_wish_list.py:128 | Clicking on the store logo
+06/12/2025 02:02:33 PM |      INFO | test_wish_list.py:130 | ***************************** Verifying Test Wish List 003 *********************************
+06/12/2025 02:02:33 PM |      INFO | test_wish_list.py:132 | page title is passed
+06/12/2025 02:02:33 PM |      INFO | test_wish_list.py:134 | Clicking on the add to wish list option on product display in feature page
+06/12/2025 02:02:33 PM |      INFO | test_wish_list.py:137 | success message is passed
+06/12/2025 02:03:20 PM |      INFO | test_wish_list.py:111 | ***************************** Test Wish List 003 is Start *********************************
+06/12/2025 02:03:22 PM |      INFO | test_wish_list.py:114 | Navigating to the base url
+06/12/2025 02:03:22 PM |      INFO | test_wish_list.py:117 | Clicking on my account
+06/12/2025 02:03:23 PM |      INFO | test_wish_list.py:119 | Clicking on login link
+06/12/2025 02:03:23 PM |      INFO | test_wish_list.py:121 | Entering username
+06/12/2025 02:03:23 PM |      INFO | test_wish_list.py:123 | Entering password
+06/12/2025 02:03:24 PM |      INFO | test_wish_list.py:125 | Clicking on the login button
+06/12/2025 02:03:24 PM |      INFO | test_wish_list.py:128 | Clicking on the store logo
+06/12/2025 02:03:24 PM |      INFO | test_wish_list.py:130 | ***************************** Verifying Test Wish List 003 *********************************
+06/12/2025 02:03:24 PM |      INFO | test_wish_list.py:132 | page title is passed
+06/12/2025 02:03:25 PM |      INFO | test_wish_list.py:134 | Clicking on the add to wish list option on product display in feature page
+06/12/2025 02:03:25 PM |      INFO | test_wish_list.py:137 | success message is passed
+06/12/2025 02:03:25 PM |      INFO | test_wish_list.py:139 | Clicking on the wish list link in success message
+06/12/2025 02:04:13 PM |      INFO | test_wish_list.py:113 | ***************************** Test Wish List 003 is Start *********************************
+06/12/2025 02:04:18 PM |      INFO | test_wish_list.py:116 | Navigating to the base url
+06/12/2025 02:04:18 PM |      INFO | test_wish_list.py:119 | Clicking on my account
+06/12/2025 02:04:18 PM |      INFO | test_wish_list.py:121 | Clicking on login link
+06/12/2025 02:04:19 PM |      INFO | test_wish_list.py:123 | Entering username
+06/12/2025 02:04:19 PM |      INFO | test_wish_list.py:125 | Entering password
+06/12/2025 02:04:20 PM |      INFO | test_wish_list.py:127 | Clicking on the login button
+06/12/2025 02:04:20 PM |      INFO | test_wish_list.py:130 | Clicking on the store logo
+06/12/2025 02:04:20 PM |      INFO | test_wish_list.py:132 | ***************************** Verifying Test Wish List 003 *********************************
+06/12/2025 02:04:20 PM |      INFO | test_wish_list.py:134 | page title is passed
+06/12/2025 02:04:20 PM |      INFO | test_wish_list.py:136 | Clicking on the add to wish list option on product display in feature page
+06/12/2025 02:04:21 PM |      INFO | test_wish_list.py:139 | success message is passed
+06/12/2025 02:04:23 PM |      INFO | test_wish_list.py:142 | Clicking on the wish list link in success message
+06/12/2025 02:04:23 PM |      INFO | test_wish_list.py:144 | Expected product is display
+06/12/2025 02:04:23 PM |      INFO | test_wish_list.py:146 | ****************** Test Wish List 003 is Passed ****************
+06/12/2025 02:04:23 PM |      INFO | test_wish_list.py:156 | ***************************** End Of Test Wish List 003 *********************************
+06/12/2025 02:04:32 PM |      INFO | test_wish_list.py:113 | ***************************** Test Wish List 003 is Start *********************************
+06/12/2025 02:04:34 PM |      INFO | test_wish_list.py:116 | Navigating to the base url
+06/12/2025 02:04:35 PM |      INFO | test_wish_list.py:119 | Clicking on my account
+06/12/2025 02:04:35 PM |      INFO | test_wish_list.py:121 | Clicking on login link
+06/12/2025 02:04:35 PM |      INFO | test_wish_list.py:123 | Entering username
+06/12/2025 02:04:35 PM |      INFO | test_wish_list.py:125 | Entering password
+06/12/2025 02:04:36 PM |      INFO | test_wish_list.py:127 | Clicking on the login button
+06/12/2025 02:04:37 PM |      INFO | test_wish_list.py:130 | Clicking on the store logo
+06/12/2025 02:04:37 PM |      INFO | test_wish_list.py:132 | ***************************** Verifying Test Wish List 003 *********************************
+06/12/2025 02:04:37 PM |      INFO | test_wish_list.py:134 | page title is passed
+06/12/2025 02:04:37 PM |      INFO | test_wish_list.py:136 | Clicking on the add to wish list option on product display in feature page
+06/12/2025 02:04:37 PM |      INFO | test_wish_list.py:139 | success message is passed
+06/12/2025 02:04:40 PM |      INFO | test_wish_list.py:142 | Clicking on the wish list link in success message
+06/12/2025 02:04:40 PM |      INFO | test_wish_list.py:144 | Expected product is display
+06/12/2025 02:04:40 PM |      INFO | test_wish_list.py:146 | ****************** Test Wish List 003 is Passed ****************
+06/12/2025 02:04:40 PM |      INFO | test_wish_list.py:156 | ***************************** End Of Test Wish List 003 *********************************
+06/12/2025 02:04:57 PM |      INFO | test_wish_list.py:113 | ***************************** Test Wish List 003 is Start *********************************
+06/12/2025 02:04:58 PM |      INFO | test_wish_list.py:116 | Navigating to the base url
+06/12/2025 02:04:59 PM |      INFO | test_wish_list.py:119 | Clicking on my account
+06/12/2025 02:04:59 PM |      INFO | test_wish_list.py:121 | Clicking on login link
+06/12/2025 02:04:59 PM |      INFO | test_wish_list.py:123 | Entering username
+06/12/2025 02:04:59 PM |      INFO | test_wish_list.py:125 | Entering password
+06/12/2025 02:04:59 PM |      INFO | test_wish_list.py:127 | Clicking on the login button
+06/12/2025 02:05:15 PM |      INFO | test_wish_list.py:113 | ***************************** Test Wish List 003 is Start *********************************
+06/12/2025 02:05:16 PM |      INFO | test_wish_list.py:116 | Navigating to the base url
+06/12/2025 02:05:16 PM |      INFO | test_wish_list.py:119 | Clicking on my account
+06/12/2025 02:05:17 PM |      INFO | test_wish_list.py:121 | Clicking on login link
+06/12/2025 02:05:17 PM |      INFO | test_wish_list.py:123 | Entering username
+06/12/2025 02:05:17 PM |      INFO | test_wish_list.py:125 | Entering password
+06/12/2025 02:05:17 PM |      INFO | test_wish_list.py:127 | Clicking on the login button
+06/12/2025 02:05:27 PM |      INFO | test_wish_list.py:113 | ***************************** Test Wish List 003 is Start *********************************
+06/12/2025 02:05:28 PM |      INFO | test_wish_list.py:116 | Navigating to the base url
+06/12/2025 02:05:29 PM |      INFO | test_wish_list.py:119 | Clicking on my account
+06/12/2025 02:05:29 PM |      INFO | test_wish_list.py:121 | Clicking on login link
+06/12/2025 02:05:29 PM |      INFO | test_wish_list.py:123 | Entering username
+06/12/2025 02:05:29 PM |      INFO | test_wish_list.py:125 | Entering password
+06/12/2025 02:05:30 PM |      INFO | test_wish_list.py:127 | Clicking on the login button
+06/12/2025 02:05:31 PM |      INFO | test_wish_list.py:130 | Clicking on the store logo
+06/12/2025 02:05:31 PM |      INFO | test_wish_list.py:132 | ***************************** Verifying Test Wish List 003 *********************************
+06/12/2025 02:05:31 PM |      INFO | test_wish_list.py:134 | page title is passed
+06/12/2025 02:05:31 PM |      INFO | test_wish_list.py:136 | Clicking on the add to wish list option on product display in feature page
+06/12/2025 02:05:31 PM |      INFO | test_wish_list.py:139 | success message is passed
+06/12/2025 02:05:34 PM |      INFO | test_wish_list.py:142 | Clicking on the wish list link in success message
+06/12/2025 02:05:34 PM |      INFO | test_wish_list.py:144 | Expected product is display
+06/12/2025 02:05:34 PM |      INFO | test_wish_list.py:146 | ****************** Test Wish List 003 is Passed ****************
+06/12/2025 02:05:34 PM |      INFO | test_wish_list.py:156 | ***************************** End Of Test Wish List 003 *********************************
+06/12/2025 02:05:42 PM |      INFO | test_wish_list.py:113 | ***************************** Test Wish List 003 is Start *********************************
+06/12/2025 02:05:45 PM |      INFO | test_wish_list.py:116 | Navigating to the base url
+06/12/2025 02:05:45 PM |      INFO | test_wish_list.py:119 | Clicking on my account
+06/12/2025 02:05:45 PM |      INFO | test_wish_list.py:121 | Clicking on login link
+06/12/2025 02:05:46 PM |      INFO | test_wish_list.py:123 | Entering username
+06/12/2025 02:05:46 PM |      INFO | test_wish_list.py:125 | Entering password
+06/12/2025 02:05:47 PM |      INFO | test_wish_list.py:127 | Clicking on the login button
+06/12/2025 02:05:47 PM |      INFO | test_wish_list.py:130 | Clicking on the store logo
+06/12/2025 02:05:47 PM |      INFO | test_wish_list.py:132 | ***************************** Verifying Test Wish List 003 *********************************
+06/12/2025 02:05:47 PM |      INFO | test_wish_list.py:134 | page title is passed
+06/12/2025 02:05:47 PM |      INFO | test_wish_list.py:136 | Clicking on the add to wish list option on product display in feature page
+06/12/2025 02:05:48 PM |      INFO | test_wish_list.py:139 | success message is passed
+06/12/2025 02:05:50 PM |      INFO | test_wish_list.py:142 | Clicking on the wish list link in success message
+06/12/2025 02:05:50 PM |      INFO | test_wish_list.py:144 | Expected product is display
+06/12/2025 02:05:50 PM |      INFO | test_wish_list.py:146 | ****************** Test Wish List 003 is Passed ****************
+06/12/2025 02:05:50 PM |      INFO | test_wish_list.py:156 | ***************************** End Of Test Wish List 003 *********************************
+06/12/2025 02:06:31 PM |      INFO | test_wish_list.py:113 | ***************************** Test Wish List 003 is Start *********************************
+06/12/2025 02:06:33 PM |      INFO | test_wish_list.py:116 | Navigating to the base url
+06/12/2025 02:06:33 PM |      INFO | test_wish_list.py:119 | Clicking on my account
+06/12/2025 02:06:34 PM |      INFO | test_wish_list.py:121 | Clicking on login link
+06/12/2025 02:06:34 PM |      INFO | test_wish_list.py:123 | Entering username
+06/12/2025 02:06:34 PM |      INFO | test_wish_list.py:125 | Entering password
+06/12/2025 02:06:35 PM |      INFO | test_wish_list.py:127 | Clicking on the login button
+06/12/2025 02:06:35 PM |      INFO | test_wish_list.py:130 | Clicking on the store logo
+06/12/2025 02:06:35 PM |      INFO | test_wish_list.py:132 | ***************************** Verifying Test Wish List 003 *********************************
+06/12/2025 02:06:36 PM |      INFO | test_wish_list.py:134 | page title is passed
+06/12/2025 02:06:36 PM |      INFO | test_wish_list.py:136 | Clicking on the add to wish list option on product display in feature page
+06/12/2025 02:06:36 PM |      INFO | test_wish_list.py:139 | success message is passed
+06/12/2025 02:06:39 PM |      INFO | test_wish_list.py:142 | Clicking on the wish list link in success message
+06/12/2025 02:06:39 PM |      INFO | test_wish_list.py:144 | Expected product is display
+06/12/2025 02:06:39 PM |      INFO | test_wish_list.py:146 | ****************** Test Wish List 003 is Passed ****************
+06/12/2025 02:06:39 PM |      INFO | test_wish_list.py:156 | ***************************** End Of Test Wish List 003 *********************************
