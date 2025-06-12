@@ -11,6 +11,7 @@ class WishListPage:
     storeLogo = (By.LINK_TEXT, "Qafox.com")
     macSubcategoryOption = (By.XPATH, "//a[3]")
     addToWishListOptionFromMacSubcategoryOption = (By.XPATH, "//button[@type='button']//i[@class='fa fa-heart']")
+    addToWishListOptionInSearchResultPage = (By.XPATH, "//button[@type='button']//i[@class='fa fa-heart']")
 
     def __init__(self, driver):
         self.driver = driver
@@ -56,3 +57,9 @@ class WishListPage:
             EC.element_to_be_clickable(WishListPage.addToWishListOptionFromMacSubcategoryOption)
         )
         mac_option.click()
+
+    def click_on_add_to_wish_list_option_display_in_search_result(self):
+        wish_list_option = WebDriverWait(self.driver, 10, poll_frequency=2).until(
+            EC.element_to_be_clickable(WishListPage.addToWishListOptionInSearchResultPage)
+        )
+        wish_list_option.click()
