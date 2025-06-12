@@ -144,7 +144,7 @@ class Test_006_Product_Compare:
         self.logger.info("Navigating to the url")
         self.pc = ProductComparePage(self.driver)
         act = ActionChains(self.driver)
-        act.move_to_element(self.pc.hover_on_desktops_option()).move_to_element(self.pc.clicking_on_show_all_desktops_option()).click().perform()
+        act.move_to_element(self.pc.desktops_option()).move_to_element(self.pc.show_all_desktops_option()).click().perform()
         self.logger.info("hovering on desktops option and clicking on show all desktops option")
         self.pc.click_on_list_view_button()
         self.logger.info("Clicking on list view button")
@@ -184,8 +184,8 @@ class Test_006_Product_Compare:
         self.logger.info("Navigating to the url")
         self.pc = ProductComparePage(self.driver)
         act = ActionChains(self.driver)
-        act.move_to_element(self.pc.hover_on_desktops_option()).move_to_element(
-            self.pc.clicking_on_show_all_desktops_option()).click().perform()
+        act.move_to_element(self.pc.desktops_option()).move_to_element(
+            self.pc.show_all_desktops_option()).click().perform()
         self.logger.info("hovering on desktops option and clicking on show all desktops option")
         self.pc.click_on_grid_view_button()
         self.logger.info("Clicking on grid view button")
@@ -328,8 +328,8 @@ class Test_006_Product_Compare:
         self.logger.info("Navigating to the base url")
         self.pc = ProductComparePage(self.driver)
         act = ActionChains(self.driver)
-        act.move_to_element(self.pc.hover_on_desktops_option()).move_to_element(
-            self.pc.clicking_on_show_all_desktops_option()).click().perform()
+        act.move_to_element(self.pc.desktops_option()).move_to_element(
+            self.pc.show_all_desktops_option()).click().perform()
         self.logger.info("Hovering mouse on desktop option and Clicking on show all desktop option")
         self.pc.click_on_product_compare_link_on_search_result_page()
         self.logger.info("Clicking on product compare link on search result page")
@@ -351,8 +351,8 @@ class Test_006_Product_Compare:
         self.logger.info("Navigating to the base url")
         self.pc = ProductComparePage(self.driver)
         act = ActionChains(self.driver)
-        act.move_to_element(self.pc.hover_on_desktops_option()).move_to_element(
-            self.pc.clicking_on_show_all_desktops_option()).click().perform()
+        act.move_to_element(self.pc.desktops_option()).move_to_element(
+            self.pc.show_all_desktops_option()).click().perform()
         self.logger.info("Hovering mouse on desktop option and Clicking on show all desktop option")
         self.pc.click_on_product_compare_link_on_search_result_page()
         self.logger.info("Clicking on product compare link on search result page")
@@ -375,8 +375,8 @@ class Test_006_Product_Compare:
         self.logger.info("Navigating to the base url")
         self.pc = ProductComparePage(self.driver)
         act = ActionChains(self.driver)
-        act.move_to_element(self.pc.hover_on_desktops_option()).move_to_element(
-            self.pc.clicking_on_show_all_desktops_option()).click().perform()
+        act.move_to_element(self.pc.desktops_option()).move_to_element(
+            self.pc.show_all_desktops_option()).click().perform()
         self.logger.info("Hovering on the desktop option and clicking on the show all desktop option")
         self.pc.click_on_product_compare_link_on_search_result_page()
         self.logger.info("Clicking on the product compare link on search result page")
@@ -400,8 +400,8 @@ class Test_006_Product_Compare:
         self.logger.info("Navigating to the base url")
         self.pc = ProductComparePage(self.driver)
         act = ActionChains(self.driver)
-        act.move_to_element(self.pc.hover_on_desktops_option()).move_to_element(
-            self.pc.clicking_on_show_all_desktops_option()
+        act.move_to_element(self.pc.desktops_option()).move_to_element(
+            self.pc.show_all_desktops_option()
         ).click().perform()
         self.logger.info("Hovering on the desktop option and Clicking on the show all desktop option")
         self.pc.click_on_product_compare_link_on_search_result_page()

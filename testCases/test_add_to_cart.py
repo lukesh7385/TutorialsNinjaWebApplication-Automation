@@ -185,8 +185,8 @@ class Test_008_Add_To_Cart:
         self.logger.info("Navigating to the base url")
         self.pc = ProductComparePage(self.driver)
         act = ActionChains(self.driver)
-        act.move_to_element(self.pc.hover_on_desktops_option()).move_to_element(
-        self.pc.clicking_on_show_all_desktops_option()).click().perform()
+        act.move_to_element(self.pc.desktops_option()).move_to_element(
+        self.pc.show_all_desktops_option()).click().perform()
         self.logger.info("Hovering on desktop option and Clicking on the all desktop option")
         self.atc = AddToCartPage(self.driver)
         self.atc.click_on_mac_subcategory_option_from_the_left_side_options()

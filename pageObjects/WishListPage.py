@@ -9,6 +9,8 @@ class WishListPage:
     productName = (By.XPATH, "/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/a[1]")
     wishListOptionFromFeaturePage = (By.XPATH, "//div[@id='content']//div[1]//div[1]//div[3]//button[2]//i[1]")
     storeLogo = (By.LINK_TEXT, "Qafox.com")
+    macSubcategoryOption = (By.XPATH, "//a[3]")
+    addToWishListOptionFromMacSubcategoryOption = (By.XPATH, "//button[@type='button']//i[@class='fa fa-heart']")
 
     def __init__(self, driver):
         self.driver = driver
@@ -42,3 +44,15 @@ class WishListPage:
             EC.element_to_be_clickable(WishListPage.storeLogo)
         )
         logo.click()
+
+    def click_on_mac_subcategory_option(self):
+        mac_option = WebDriverWait(self.driver, 10, poll_frequency=2).until(
+            EC.element_to_be_clickable(WishListPage.macSubcategoryOption)
+        )
+        mac_option.click()
+
+    def click_on_add_to_wish_list_option_from_mac_subcategory_option(self):
+        mac_option = WebDriverWait(self.driver, 10, poll_frequency=2).until(
+            EC.element_to_be_clickable(WishListPage.addToWishListOptionFromMacSubcategoryOption)
+        )
+        mac_option.click()

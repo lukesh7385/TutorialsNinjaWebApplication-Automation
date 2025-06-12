@@ -59,10 +59,10 @@ class ProductComparePage:
     def click_on_compare_this_product_option_available_on_the_product(self):
         self.driver.find_element(*ProductComparePage.compareThisProductOptionOnProduct).click()
 
-    def hover_on_desktops_option(self):
+    def desktops_option(self):
         return self.driver.find_element(*ProductComparePage.desktopsOption)
 
-    def clicking_on_show_all_desktops_option(self):
+    def show_all_desktops_option(self):
         return self.driver.find_element(*ProductComparePage.showAllDesktopsOption)
 
     def click_on_compare_this_option_of_product_displayed_in_the_featured_section_of_home_page(self):
