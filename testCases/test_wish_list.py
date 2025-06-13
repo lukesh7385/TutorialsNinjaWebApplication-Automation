@@ -34,6 +34,7 @@ class Test_009_Wish_List:
         self.logger.info("Entering password")
         self.lp.click_on_login_button()
         self.logger.info("Clicking on the login button")
+        time.sleep(0.2)
         self.sf = SearchPage(self.driver)
         self.sf.search_product("iMac")
         self.logger.info("Entering iMac product to search text box field")
@@ -51,7 +52,7 @@ class Test_009_Wish_List:
             self.logger.info("Clicking on the wish list link on the success message")
             self.atc = AddToCartPage(self.driver)
             if self.atc.is_title_of_the_page("My Wish List"):
-                if self.wl.get_product_name_from_my_wish_list_page() == "iMac":
+                if self.wl.is_product_name_from_my_wish_list_page("iMac"):
                     assert True
                     self.logger.info("**************** Test wish list 001 is Passed ****************")
                 else:
@@ -97,7 +98,7 @@ class Test_009_Wish_List:
         if 'Success: You have added iMac to your wish list!' in self.pc.success_message():
             self.wl.click_on_wish_list_link_in_success_message()
             self.logger.info("Clicking on the wish list link in success message")
-            if self.wl.get_product_name_from_my_wish_list_page() == "iMac":
+            if self.wl.is_product_name_from_my_wish_list_page("iMac"):
                 assert True
                 self.logger.info("*************** Test Wish List 002 is Passed ***************")
             else:
@@ -137,10 +138,9 @@ class Test_009_Wish_List:
             self.pc = ProductComparePage(self.driver)
             if 'Success: You have added MacBook to your wish list!' in self.pc.success_message():
                 self.logger.info("success message is passed")
-                time.sleep(2)
                 self.wl.click_on_wish_list_link_in_success_message()
                 self.logger.info("Clicking on the wish list link in success message")
-                if self.wl.get_product_name_from_my_wish_list_page() == "MacBook":
+                if self.wl.is_product_name_from_my_wish_list_page("MacBook"):
                     self.logger.info("Expected product is display")
                     assert True
                     self.logger.info("****************** Test Wish List 003 is Passed ****************")
@@ -186,7 +186,7 @@ class Test_009_Wish_List:
         if  'Success: You have added iMac to your wish list!' in self.pc.success_message():
             self.wl.click_on_wish_list_link_in_success_message()
             self.logger.info("Clicking on the wish list link in success message")
-            if self.wl.get_product_name_from_my_wish_list_page() == "iMac":
+            if self.wl.is_product_name_from_my_wish_list_page("iMac"):
                 assert True
                 self.logger.info("*************** Test Wish List 004 is Passed **************")
             else:
@@ -215,6 +215,7 @@ class Test_009_Wish_List:
         self.lp.click_on_login_button()
         self.logger.info("Clicking on the login button")
         self.sf = SearchPage(self.driver)
+        time.sleep(0.2)
         self.sf.search_product("iMac")
         self.logger.info("Entering iMac product name to search text box field")
         self.sf.click_on_search_button()
@@ -227,7 +228,7 @@ class Test_009_Wish_List:
         if 'Success: You have added iMac to your wish list!' in self.pc.success_message():
             self.wl.click_on_wish_list_link_in_success_message()
             self.logger.info("Clicking on the wish list link in success message")
-            if self.wl.get_product_name_from_my_wish_list_page() == "iMac":
+            if self.wl.is_product_name_from_my_wish_list_page("iMac"):
                 assert True
                 self.logger.info("***************** Test Wish List 005 is Passed ****************")
             else:
@@ -237,6 +238,49 @@ class Test_009_Wish_List:
             self.logger.error("***************** Test Wish List 005 is Failed ****************")
             assert False
         self.logger.info("*************************** End Of Test Wish List 005 ****************************")
+
+    @pytest.mark.sanity
+    def test_wish_list_006(self, setup):
+        self.logger.info("************************* Test Wish List 006 is Start ****************************")
+        self.driver = setup
+        self.driver.get(self.baseURL)
+        self.logger.info("Navigating to the base url")
+        self.lp = LoginPage(self.driver)
+        self.lp.click_on_my_account()
+        self.logger.info("Clicking on the my account link")
+        self.lp.click_on_login_link()
+        self.logger.info("Clicking on the login link")
+        self.lp.set_username(self.username)
+        self.logger.info("Entering username")
+        self.lp.set_password(self.password)
+        self.logger.info("Entering password")
+        self.lp.click_on_login_button()
+        self.logger.info("Clicking on the login button")
+        self.sf = SearchPage(self.driver)
+        self.sf.search_product("iMac")
+        self.logger.info("Entering iMac product name to search text box field")
+        self.sf.click_on_search_button()
+        self.logger.info("Clicking on the search icon button")
+        self.pc = ProductComparePage(self.driver)
+        self.pc.click_on_the_product_display_in_search_result()
+        self.logger.info("Clicking on the product display in search result")
+        self.wl = WishListPage(self.driver)
+        self.wl.click_on_add_to_wish_list_option_displayed_in_product_display_page()
+        self.logger.info("Clicking on the add to wish list option in product display page")
+        self.wl.click_on_wish_list_link_in_success_message()
+        self.logger.info("Clicking on the wish list link in success message")
+        self.logger.info("************************* Verifying Test Wish List 006 ****************************")
+        self.atc = AddToCartPage(self.driver)
+        if self.atc.is_title_of_the_page("My Wish List"):
+            assert True
+            self.logger.info("*************** Test Wish List 006 is Passed ***************")
+        else:
+            self.logger.error("*************** Test Wish List 006 is Failed ***************")
+            assert False
+        self.logger.info("************************* End Of Test Wish List 006 ****************************")
+
+
+
 
 
 

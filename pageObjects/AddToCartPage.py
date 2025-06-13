@@ -4,7 +4,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 
 class AddToCartPage:
-    wishListHeaderOption = (By.LINK_TEXT, "Wish List (1)")
+    wishListHeaderOption = (By.XPATH, "//*[@id='wishlist-total']/span")
     addToWishListOption = (By.XPATH, "//button[@type='button']//i[@class='fa fa-heart']")
     addToCartIconOption = (By.XPATH, "//button[@class='btn btn-primary']")
     shoppingCartHeaderOption = (By.XPATH, "//span[normalize-space()='Shopping Cart']")
@@ -23,7 +23,7 @@ class AddToCartPage:
             wishlist_option = WebDriverWait(self.driver, 10, poll_frequency=2).until(
                 EC.element_to_be_clickable(AddToCartPage.wishListHeaderOption)
             )
-            wishlist_option.click()
+            self.driver.execute_script("arguments[0].click();", wishlist_option)
             print("Wishlist header option clicked successfully!")
         except Exception as e:
             print(f"Error clicking wishlist header option: {e}")
@@ -43,7 +43,10 @@ class AddToCartPage:
             print(f"Error clicking Add to Cart icon from wishlist: {e}")
 
     def click_on_sopping_cart_header_option(self):
-        self.driver.find_element(*AddToCartPage.shoppingCartHeaderOption).click()
+       shopping_cart_header_option = WebDriverWait(self.driver, 10, poll_frequency=2).until(
+           EC.element_to_be_clickable(AddToCartPage.shoppingCartHeaderOption)
+       )
+       self.driver.execute_script("arguments[0].click();", shopping_cart_header_option)
 
     def get_product_name(self):
         product_name = self.driver.find_element(*AddToCartPage.productName).text

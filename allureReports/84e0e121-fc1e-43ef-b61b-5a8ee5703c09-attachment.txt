@@ -1,0 +1,14 @@
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:113 ***************************** Test Wish List 003 is Start *********************************
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:116 Navigating to the base url
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:119 Clicking on my account
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:121 Clicking on login link
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:123 Entering username
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:125 Entering password
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:127 Clicking on the login button
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:130 Clicking on the store logo
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:132 ***************************** Verifying Test Wish List 003 *********************************
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:134 page title is passed
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:136 Clicking on the add to wish list option on product display in feature page
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:139 success message is passed
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:142 Clicking on the wish list link in success message
+[1m[31mERROR   [0m Test_009_Wish_List:test_wish_list.py:148 ****************** Test Wish List 003 is Failed ****************
