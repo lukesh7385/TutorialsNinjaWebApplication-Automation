@@ -1,7 +1,0 @@
-[32mINFO    [0m Test_008_Add_To_Cart:test_add_to_cart.py:221 **************************** Test Add To Cart 006 is Start ****************************
-[32mINFO    [0m Test_008_Add_To_Cart:test_add_to_cart.py:223 Navigating to base url
-[32mINFO    [0m Test_008_Add_To_Cart:test_add_to_cart.py:226 Clicking on the add to cart button on featured home page 
-[32mINFO    [0m Test_008_Add_To_Cart:test_add_to_cart.py:227 **************************** Verifying Test Add To Cart 006 ****************************
-[32mINFO    [0m Test_008_Add_To_Cart:test_add_to_cart.py:231 Clicking on the shopping cart link
-[32mINFO    [0m Test_008_Add_To_Cart:test_add_to_cart.py:235 ***************** Test Add To Cart 006 is Passed ****************
-[32mINFO    [0m Test_008_Add_To_Cart:test_add_to_cart.py:245 **************************** End Of Test Add To Cart 006 ****************************

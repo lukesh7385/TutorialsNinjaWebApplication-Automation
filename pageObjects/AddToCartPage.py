@@ -81,4 +81,7 @@ class AddToCartPage:
         return self.driver.title
 
     def click_on_add_to_cart_button_on_featured_home_page(self):
-        self.driver.find_element(*AddToCartPage.addToCartButtonFromFeaturedHomePage).click()
+        add_to_cart_button = WebDriverWait(self.driver, 10, poll_frequency=2).until(
+            EC.presence_of_element_located(AddToCartPage.addToCartButtonFromFeaturedHomePage)
+        )
+        self.driver.execute_script("arguments[0].click();", add_to_cart_button)

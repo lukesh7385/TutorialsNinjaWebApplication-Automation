@@ -1,1 +1,0 @@
-[32mINFO    [0m Test_008_Add_To_Cart:test_add_to_cart.py:110 **************************** Test Add To Cart 003 is Start ****************************

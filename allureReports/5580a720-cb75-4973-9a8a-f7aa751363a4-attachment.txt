@@ -1,2 +1,0 @@
-[32mINFO    [0m Test_008_Add_To_Cart:test_add_to_cart.py:221 **************************** Test Add To Cart 006 is Start ****************************
-[32mINFO    [0m Test_008_Add_To_Cart:test_add_to_cart.py:223 Navigating to base url

@@ -1,9 +1,0 @@
-[32mINFO    [0m Test_008_Add_To_Cart:test_add_to_cart.py:146 **************************** Test Add To Cart 004 is Start ****************************
-[32mINFO    [0m Test_008_Add_To_Cart:test_add_to_cart.py:148 Navigating to the base url
-[32mINFO    [0m Test_008_Add_To_Cart:test_add_to_cart.py:151 Entering iMac product to search box text field
-[32mINFO    [0m Test_008_Add_To_Cart:test_add_to_cart.py:153 Clicking on the search icon button
-[32mINFO    [0m Test_008_Add_To_Cart:test_add_to_cart.py:156 Clicking on the add to cart button
-[32mINFO    [0m Test_008_Add_To_Cart:test_add_to_cart.py:157 **************************** Verifying Test Add To Cart 004 ****************************
-[32mINFO    [0m Test_008_Add_To_Cart:test_add_to_cart.py:161 Clicking on the sopping cart link
-[32mINFO    [0m Test_008_Add_To_Cart:test_add_to_cart.py:165 ************** Test Add To Cart 004 is Passed **************
-[32mINFO    [0m Test_008_Add_To_Cart:test_add_to_cart.py:175 **************************** End Of Test Add To Cart 004 ****************************

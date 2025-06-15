@@ -1,8 +1,0 @@
-[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:496 ******************************* Test Wish List 013 is Start ********************************
-[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:499 Navigating to the base url
-[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:506 Login successful
-[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:509 Clicking on the modify your wish list option
-[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:511 Wish list is empty or cleared successfully
-[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:514 Clicking on continue button
-[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:517 **************** Test Wish List 013 is Passed ***************
-[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:527 ****************************** End Of Test Wish List 013 *******************************

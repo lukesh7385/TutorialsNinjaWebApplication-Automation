@@ -1,8 +1,0 @@
-[32mINFO    [0m Test_007_Product_Display:test_product_display.py:357 ***************************** Test Product Display 008 is Start ***************************
-[32mINFO    [0m Test_007_Product_Display:test_product_display.py:359 Navigating to base url
-[32mINFO    [0m Test_007_Product_Display:test_product_display.py:362 Entering 'iMac' into the search box
-[32mINFO    [0m Test_007_Product_Display:test_product_display.py:364 Clicking the search button
-[32mINFO    [0m Test_007_Product_Display:test_product_display.py:367 Clicking on the displayed product in search results
-[32mINFO    [0m Test_007_Product_Display:test_product_display.py:368 ***************************** Verifying Test Product Display 008 ***************************
-[32mINFO    [0m Test_007_Product_Display:test_product_display.py:396 ************** Test Product Display 008 is Passed ************
-[32mINFO    [0m Test_007_Product_Display:test_product_display.py:402 ***************************** End Of Test Product Display 008 ***************************
