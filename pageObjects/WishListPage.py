@@ -1,3 +1,6 @@
+import time
+
+from selenium.common import TimeoutException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
@@ -12,6 +15,9 @@ class WishListPage:
     macSubcategoryOption = (By.XPATH, "//a[3]")
     addToWishListOptionFromMacSubcategoryOption = (By.XPATH, "//button[@type='button']//i[@class='fa fa-heart']")
     addToWishListOptionInSearchResultPage = (By.XPATH, "//button[@type='button']//i[@class='fa fa-heart']")
+    wishListOptionFromRightColumn = (By.XPATH, "//a[@class='list-group-item'][normalize-space()='Wish List']")
+    modifyYourWishListOption = (By.XPATH, "//a[normalize-space()='Modify your wish list']")
+    wishListLinkFromFooterOption = (By.XPATH, "//ul[@class='list-unstyled']//a[normalize-space()='Wish List']")
 
     def __init__(self, driver):
         self.driver = driver
@@ -66,3 +72,55 @@ class WishListPage:
             EC.element_to_be_clickable(WishListPage.addToWishListOptionInSearchResultPage)
         )
         wish_list_option.click()
+
+    def click_on_wish_list_option_from_right_column(self):
+        wish_list_option_from_right_column = WebDriverWait(self.driver, 10, poll_frequency=2).until(
+            EC.element_to_be_clickable(WishListPage.wishListOptionFromRightColumn)
+        )
+        self.driver.execute_script("arguments[0].click();", wish_list_option_from_right_column)
+
+    def click_on_modify_your_wish_list_option(self):
+        modify_your_wish_list_option = WebDriverWait(self.driver, 10, poll_frequency=2).until(
+            EC.element_to_be_clickable(WishListPage.modifyYourWishListOption)
+        )
+        self.driver.execute_script("arguments[0].click();", modify_your_wish_list_option)
+
+    def click_on_wish_list_link_from_footer_option(self):
+       wish_list_from_footer_option = WebDriverWait(self.driver, 10, poll_frequency=2).until(
+            EC.element_to_be_clickable(WishListPage.wishListLinkFromFooterOption)
+        )
+       self.driver.execute_script("arguments[0].click();", wish_list_from_footer_option)
+
+    def clear_wishlist_if_not_empty(self):
+        try:
+            WebDriverWait(self.driver, 5, poll_frequency=1).until(
+                EC.presence_of_element_located((By.XPATH, "//*[@id='content']/div[1]/table"))
+            )
+            print("Wishlist table found.")
+
+            while True:
+                remove_buttons = self.driver.find_elements(By.XPATH, "//table//td[6]/a")
+                if not remove_buttons:
+                    print("No more items to remove.")
+                    break
+
+                print(f"Clicking remove button ({len(remove_buttons)} items left)...")
+                remove_buttons[0].click()
+                WebDriverWait(self.driver, 5, poll_frequency=1).until(EC.staleness_of(remove_buttons[0]))
+                time.sleep(0.3)
+
+            WebDriverWait(self.driver, 5, poll_frequency=1).until(
+                EC.text_to_be_present_in_element(
+                    (By.CSS_SELECTOR, "div[id='content'] p"),
+                    "Your wish list is empty."
+                )
+            )
+            print("Wishlist successfully cleared.")
+            return True
+
+        except TimeoutException:
+            print("No wishlist found. It might already be empty.")
+            return True
+        except Exception as e:
+            print(f"Error while clearing wishlist: {e}")
+            return False

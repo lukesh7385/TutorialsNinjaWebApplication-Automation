@@ -49,13 +49,13 @@ class Test_002_DDT_Login:
                     self.logger.info("*** Passed")
                     self.lp.click_on_my_account()
                     self.lg.click_on_logout_link()
-                    self.lg.click_on_logout_continue()
+                    self.lg.click_on_continue_button()
                     lst_status.append("Pass")
                 elif self.exp == "Fail":
                     self.logger.info("*** Passed")
                     self.lp.click_on_my_account()
                     self.lg.click_on_logout_link()
-                    self.lg.click_on_logout_continue()
+                    self.lg.click_on_continue_button()
                     lst_status.append("Fail")
             elif act_title != exp_title:
                 if self.exp == "Pass":

@@ -12,5 +12,5 @@ class LogoutPage:
     def click_on_logout_link(self):
         self.driver.find_element(*LogoutPage.link_logout_LinkText).click()
 
-    def click_on_logout_continue(self):
+    def click_on_continue_button(self):
         self.driver.find_element(*LogoutPage.button_logout_continue_linkText).click()
