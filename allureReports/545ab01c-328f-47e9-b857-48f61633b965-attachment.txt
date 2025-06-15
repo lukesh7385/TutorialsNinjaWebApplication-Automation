@@ -1,0 +1,9 @@
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:720 ***************************** Test Product Compare 018 is Start ***************************
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:722 Navigating to the base url
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:725 Entering iMac product to the search
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:727 Clicking on the search button
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:730 Clicking on the compare this option
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:732 Entering iphone product to the search
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:734 Clicking on the search button
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:736 Clicking on the compare this option
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:738 Entering MacBook Air product to the search

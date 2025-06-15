@@ -1,0 +1,11 @@
+[32mINFO    [0m Test_008_Add_To_Cart:test_add_to_cart.py:184 ******************************* Test Add To Cart 005 is Start *******************************
+[32mINFO    [0m Test_008_Add_To_Cart:test_add_to_cart.py:186 Navigating to the base url
+[32mINFO    [0m Test_008_Add_To_Cart:test_add_to_cart.py:191 Hovering on desktop option and Clicking on the all desktop option
+[32mINFO    [0m Test_008_Add_To_Cart:test_add_to_cart.py:194 Clicking on the mac subcategory option
+[32mINFO    [0m Test_008_Add_To_Cart:test_add_to_cart.py:196 Clicking on add to cart button
+[32mINFO    [0m Test_008_Add_To_Cart:test_add_to_cart.py:197 ******************************* Verifying Test Add To Cart 005 *******************************
+[32mINFO    [0m Test_008_Add_To_Cart:test_add_to_cart.py:199 success message is passed
+[32mINFO    [0m Test_008_Add_To_Cart:test_add_to_cart.py:201 Clicking on the shopping cart link
+[32mINFO    [0m Test_008_Add_To_Cart:test_add_to_cart.py:203 page title is Passed
+[32mINFO    [0m Test_008_Add_To_Cart:test_add_to_cart.py:206 ***************** Test Add To Cart 005 is Passed ****************
+[32mINFO    [0m Test_008_Add_To_Cart:test_add_to_cart.py:217 ******************************* End Of Test Add To Cart 005 *******************************

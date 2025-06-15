@@ -1,0 +1,11 @@
+[32mINFO    [0m Test_008_Add_To_Cart:test_add_to_cart.py:250 **************************** Test Add To Cart 007 is Start ****************************
+[32mINFO    [0m Test_008_Add_To_Cart:test_add_to_cart.py:252 Navigating to base url
+[32mINFO    [0m Test_008_Add_To_Cart:test_add_to_cart.py:255 Entering iMac product to search text box field
+[32mINFO    [0m Test_008_Add_To_Cart:test_add_to_cart.py:257 Clicking on the search icon button
+[32mINFO    [0m Test_008_Add_To_Cart:test_add_to_cart.py:260 Clicking on compare this product option
+[32mINFO    [0m Test_008_Add_To_Cart:test_add_to_cart.py:262 Clicking on product comparison link
+[32mINFO    [0m Test_008_Add_To_Cart:test_add_to_cart.py:264 Clicking on add to cart button
+[32mINFO    [0m Test_008_Add_To_Cart:test_add_to_cart.py:265 **************************** Verifying Test Add To Cart 007 ****************************
+[32mINFO    [0m Test_008_Add_To_Cart:test_add_to_cart.py:268 Clicking on shopping Cart link
+[32mINFO    [0m Test_008_Add_To_Cart:test_add_to_cart.py:273 **************** Test Add To Cart 007 is Passed *****************
+[32mINFO    [0m Test_008_Add_To_Cart:test_add_to_cart.py:283 **************************** End Of Test Add To Cart 007 ****************************

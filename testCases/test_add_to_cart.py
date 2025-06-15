@@ -89,6 +89,7 @@ class Test_008_Add_To_Cart:
         self.logger.info("**************************** Verifying Test Add To Cart 002 ****************************")
         self.pc = ProductComparePage(self.driver)
         if self.pc.success_message().__contains__('Success: You have added iMac to your shopping cart!'):
+            time.sleep(2)
             self.atc.click_on_sopping_cart_header_option()
             self.logger.info("Clicking on sopping cart header option")
             if self.atc.is_title_of_the_page("Shopping Cart"):

@@ -51,7 +51,7 @@ class WishListPage:
 
     def click_on_store_logo(self):
         logo = WebDriverWait(self.driver, 10, poll_frequency=2).until(
-            EC.visibility_of_element_located(WishListPage.storeLogo)
+            EC.presence_of_element_located(WishListPage.storeLogo)
         )
         self.driver.execute_script("arguments[0].click();", logo)
 

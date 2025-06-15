@@ -1,13 +1,13 @@
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.wait import WebDriverWait
 
 
 class AddToCartPage:
-    wishListHeaderOption = (By.XPATH, "//*[@id='wishlist-total']/span")
+    wishListHeaderOption = (By.CSS_SELECTOR, "a[id='wishlist-total'] span[class='hidden-xs hidden-sm hidden-md']")
     addToWishListOption = (By.XPATH, "//button[@type='button']//i[@class='fa fa-heart']")
     addToCartIconOption = (By.XPATH, "//button[@class='btn btn-primary']")
-    shoppingCartHeaderOption = (By.XPATH, "//span[normalize-space()='Shopping Cart']")
+    shoppingCartHeaderOption = (By.XPATH, "(//span[normalize-space()='Shopping Cart'])[1]")
     productName = (By.XPATH, "//body[1]/div[2]/div[2]/div[1]/form[1]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/a[1]")
     addToCartButton = (By.XPATH, "//div[@class='button-group']//i[@class='fa fa-shopping-cart']")
     cartButtonInBlack = (By.XPATH, "//button[@type='button' and @data-toggle='dropdown']")
@@ -19,14 +19,10 @@ class AddToCartPage:
         self.driver = driver
 
     def click_on_wish_list_header_option(self):
-        try:
-            wishlist_option = WebDriverWait(self.driver, 10, poll_frequency=2).until(
-                EC.element_to_be_clickable(AddToCartPage.wishListHeaderOption)
-            )
-            self.driver.execute_script("arguments[0].click();", wishlist_option)
-            print("Wishlist header option clicked successfully!")
-        except Exception as e:
-            print(f"Error clicking wishlist header option: {e}")
+        wishlist_option = WebDriverWait(self.driver, 10, poll_frequency=2).until(
+            EC.presence_of_element_located(AddToCartPage.wishListHeaderOption)
+        )
+        self.driver.execute_script("arguments[0].click();", wishlist_option)
 
     def click_on_add_to_wish_list_from_search_result(self):
         self.driver.find_element(*AddToCartPage.addToWishListOption).click()
@@ -44,7 +40,7 @@ class AddToCartPage:
 
     def click_on_sopping_cart_header_option(self):
        shopping_cart_header_option = WebDriverWait(self.driver, 10, poll_frequency=2).until(
-           EC.element_to_be_clickable(AddToCartPage.shoppingCartHeaderOption)
+           EC.presence_of_element_located(AddToCartPage.shoppingCartHeaderOption)
        )
        self.driver.execute_script("arguments[0].click();", shopping_cart_header_option)
 

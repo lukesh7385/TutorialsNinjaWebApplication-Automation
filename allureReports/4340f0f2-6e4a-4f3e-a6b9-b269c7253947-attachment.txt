@@ -1,0 +1,5 @@
+[32mINFO    [0m Test_002_Login_Functionality:test_login.py:20 ************************** Test_Login_001 is Start ****************************
+[32mINFO    [0m Test_002_Login_Functionality:test_login.py:21 ***************** Verifying Home Page Title **************
+[32mINFO    [0m Test_002_Login_Functionality:test_login.py:27 ************************** Verifying Test_Login_001 ****************************
+[32mINFO    [0m Test_002_Login_Functionality:test_login.py:30 ************** Home page title test is passed ************
+[32mINFO    [0m Test_002_Login_Functionality:test_login.py:34 ************************** End Of Test_Login_001 ****************************
