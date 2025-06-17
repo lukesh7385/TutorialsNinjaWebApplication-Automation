@@ -18,6 +18,7 @@ class WishListPage:
     wishListOptionFromRightColumn = (By.XPATH, "//a[@class='list-group-item'][normalize-space()='Wish List']")
     modifyYourWishListOption = (By.XPATH, "//a[normalize-space()='Modify your wish list']")
     wishListLinkFromFooterOption = (By.XPATH, "//ul[@class='list-unstyled']//a[normalize-space()='Wish List']")
+    searchBreadcrumbOption = (By.LINK_TEXT, "Search")
 
     def __init__(self, driver):
         self.driver = driver
@@ -67,7 +68,7 @@ class WishListPage:
         )
         mac_option.click()
 
-    def click_on_add_to_wish_list_option_display_in_search_result(self):
+    def click_on_add_to_wish_list_option_on_the_product_display_in_search_result(self):
         wish_list_option = WebDriverWait(self.driver, 10, poll_frequency=2).until(
             EC.element_to_be_clickable(WishListPage.addToWishListOptionInSearchResultPage)
         )
@@ -124,3 +125,9 @@ class WishListPage:
         except Exception as e:
             print(f"Error while clearing wishlist: {e}")
             return False
+
+    def click_on_search_breadcrumb_option(self):
+        search_breadcrumb_option = WebDriverWait(self.driver, 10, poll_frequency=2).until(
+            EC.presence_of_element_located(WishListPage.searchBreadcrumbOption)
+        )
+        self.driver.execute_script("arguments[0].click();", search_breadcrumb_option)

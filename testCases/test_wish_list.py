@@ -2,15 +2,14 @@ import time
 import pytest
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.by import By
-
 from pageObjects.AddToCartPage import AddToCartPage
 from pageObjects.LoginPage import LoginPage
+from pageObjects.LogoutPage import LogoutPage
 from pageObjects.ProductComparePage import ProductComparePage
 from pageObjects.SearchPage import SearchPage
 from pageObjects.WishListPage import WishListPage
 from utilities.customLogger import LogGen
 from utilities.readProperties import ReadConfig
-from pageObjects.LogoutPage import LogoutPage
 
 
 @pytest.mark.usefixtures('setup', 'log_on_failure')
@@ -224,7 +223,7 @@ class Test_009_Wish_List:
         self.sf.click_on_search_button()
         self.logger.info("Clicking on the search icon button")
         self.wl = WishListPage(self.driver)
-        self.wl.click_on_add_to_wish_list_option_display_in_search_result()
+        self.wl.click_on_add_to_wish_list_option_on_the_product_display_in_search_result()
         self.logger.info("Clicking on the add wish list option display in search result page")
         self.logger.info("*************************** Verifying Test Wish List 005 ****************************")
         self.pc = ProductComparePage(self.driver)
@@ -525,6 +524,139 @@ class Test_009_Wish_List:
             self.logger.error("**************** Test Wish List 013 is Failed ***************")
             assert False
         self.logger.info("****************************** End Of Test Wish List 013 *******************************")
+
+    @pytest.mark.sanity
+    def test_wish_list_014(self, setup):
+        self.logger.info("**************************** Test Wish List 014 is Start *****************************")
+        self.driver = setup
+        self.driver.get(self.baseURL)
+        self.logger.info("Navigating to the base url")
+        self.lp = LoginPage(self.driver)
+        self.lp.click_on_my_account()
+        self.lp.click_on_login_link()
+        self.lp.set_username(self.username)
+        self.lp.set_password(self.password)
+        self.lp.click_on_login_button()
+        self.logger.info("Login successful")
+        self.atc = AddToCartPage(self.driver)
+        self.atc.click_on_wish_list_header_option()
+        self.logger.info("Clicking on the wish list header option")
+        self.wl = WishListPage(self.driver)
+        self.wl.clear_wishlist_if_not_empty()
+        self.logger.info("Clearing wish list if not empty")
+        self.lo = LogoutPage(self.driver)
+        self.lo.click_on_continue_button()
+        self.logger.info("Clicking on the continue button")
+        self.sf = SearchPage(self.driver)
+        self.sf.search_product("iMac")
+        self.logger.info("Entering iMac product name to the search text box field")
+        self.sf.click_on_search_button()
+        self.logger.info("Clicking on the search icon button")
+        self.wl.click_on_add_to_wish_list_option_on_the_product_display_in_search_result()
+        self.logger.info("Clicking on the add to wish list option display in search result")
+        self.wl.click_on_search_breadcrumb_option()
+        self.logger.info("Clicking on the search breadcrumb option")
+        self.driver.back()
+        self.logger.info("Clicking on the back arrow on the browser")
+        self.wl.click_on_modify_your_wish_list_option()
+        self.logger.info("Clicking on the modify your wish list option")
+        self.logger.info("**************************** Verifying Test Wish List 014 *****************************")
+        l = []
+        exp_list = ['iMac', 'Product 14', 'Out Of Stock', '$122.00']
+        data = self.driver.find_elements(By.XPATH, "//body[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr/td")
+        for item in data:
+            # if data[0] == item:
+            #     item.is_displayed()
+            #     self.logger.info("Image is display")
+            #
+            # if data[5] == item:
+            #     item.is_displayed()
+            #     self.logger.info("Action buttons is display")
+
+            l.append(item.text)
+        cleaned_data_list = [item for item in l if item.strip()]
+        image = self.driver.find_element(By.XPATH, "(//img[@title='iMac'])[2]")
+        action_buttons = self.driver.find_element(By.XPATH, "(//td)[25]")
+        if image.is_displayed():
+            self.logger.info("Product image is display")
+            if action_buttons.is_displayed():
+                self.logger.info("Action buttons is display")
+                if cleaned_data_list == exp_list:
+                    assert True
+                    self.logger.info("Proper details are display")
+                    self.logger.info("*************** Test Wish List 014 is Passed **************")
+                else:
+                    self.logger.info("Proper details is not display")
+                    self.logger.error("*************** Test Wish List 014 is Failed **************")
+                    assert False
+            else:
+                self.logger.info("Action buttons is not display")
+                self.logger.error("*************** Test Wish List 014 is Failed **************")
+                assert False
+        else:
+            self.logger.info("Image is not display")
+            self.logger.error("*************** Test Wish List 014 is Failed **************")
+            assert False
+        self.logger.info("**************************** End Of Test Wish List 014 *****************************")
+
+    @pytest.mark.sanity
+    def test_wish_list_015(self, setup):
+        self.logger.info("**************************** Test Wish List 015 is Start *****************************")
+        self.driver = setup
+        self.driver.get(self.baseURL)
+        self.logger.info("Navigating to the base url")
+        self.sf = SearchPage(self.driver)
+        self.sf.search_product("iMac")
+        self.logger.info("Entering iMac product name to the search text box field")
+        self.sf.click_on_search_button()
+        self.logger.info("Clicking on the search icon button")
+        self.wl = WishListPage(self.driver)
+        self.wl.click_on_add_to_wish_list_option_on_the_product_display_in_search_result()
+        self.logger.info("Clicking on the add to wish list option")
+        self.lp = LoginPage(self.driver)
+        self.lp.click_on_my_account()
+        self.lp.click_on_login_link()
+        self.lp.set_username(self.username)
+        self.lp.set_password(self.password)
+        self.lp.click_on_login_button()
+        self.logger.info("Login successful")
+        self.wl.click_on_modify_your_wish_list_option()
+        self.logger.info("Clicking on the modify your wish list option")
+        self.wl.clear_wishlist_if_not_empty()
+        self.logger.info("Clearing wish list if not empty")
+        self.logger.info("**************************** Verifying Test Wish List 015 *****************************")
+        text_message = self.driver.find_element(By.XPATH, "//p[normalize-space()='Your wish list is empty.']").text
+        self.pc = ProductComparePage(self.driver)
+        if self.pc.success_message().__contains__('Success: You have modified your wish list!'):
+            if text_message == 'Your wish list is empty.':
+                assert True
+                self.logger.info("************** Test Wish List 015 is Passed ************")
+            else:
+                self.logger.error("************** Test Wish List 015 is Failed ************")
+                assert False
+        else:
+            self.logger.error("************** Test Wish List 015 is Failed ************")
+            assert False
+        self.logger.info("**************************** End Of Test Wish List 015 *****************************")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
