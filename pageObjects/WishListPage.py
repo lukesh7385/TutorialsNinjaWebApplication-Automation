@@ -19,6 +19,7 @@ class WishListPage:
     modifyYourWishListOption = (By.XPATH, "//a[normalize-space()='Modify your wish list']")
     wishListLinkFromFooterOption = (By.XPATH, "//ul[@class='list-unstyled']//a[normalize-space()='Wish List']")
     searchBreadcrumbOption = (By.LINK_TEXT, "Search")
+    addToCartButtonFromWishList = (By.XPATH, "//button[@class='btn btn-primary']//i[@class='fa fa-shopping-cart']")
 
     def __init__(self, driver):
         self.driver = driver
@@ -131,3 +132,9 @@ class WishListPage:
             EC.presence_of_element_located(WishListPage.searchBreadcrumbOption)
         )
         self.driver.execute_script("arguments[0].click();", search_breadcrumb_option)
+
+    def click_on_add_to_cart_button_in_wish_list(self):
+        add_to_cart_button = WebDriverWait(self.driver, 10, poll_frequency=2).until(
+            EC.presence_of_element_located(WishListPage.addToCartButtonFromWishList)
+        )
+        self.driver.execute_script("arguments[0].click();", add_to_cart_button)
