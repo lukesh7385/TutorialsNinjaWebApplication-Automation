@@ -178,14 +178,14 @@ class Test_009_Wish_List:
         time.sleep(1)
         act = ActionChains(self.driver)
         act.move_to_element(self.pc.desktops_option()
-        ).move_to_element(self.pc.show_all_desktops_option()).click().perform()
+                            ).move_to_element(self.pc.show_all_desktops_option()).click().perform()
         self.wl = WishListPage(self.driver)
         self.wl.click_on_mac_subcategory_option()
         self.logger.info("Clicking on the mac subcategory option")
         self.wl.click_on_add_to_wish_list_option_from_mac_subcategory_option()
         self.logger.info("Clicking on the add to wish list option available in mac subcategory option")
         self.logger.info("*************************** Verifying Test Wish List 004 ****************************")
-        if  'Success: You have added iMac to your wish list!' in self.pc.success_message():
+        if 'Success: You have added iMac to your wish list!' in self.pc.success_message():
             self.wl.click_on_wish_list_link_in_success_message()
             self.logger.info("Clicking on the wish list link in success message")
             if self.wl.is_product_name_from_my_wish_list_page("iMac"):
@@ -341,7 +341,8 @@ class Test_009_Wish_List:
         self.wl = WishListPage(self.driver)
         self.wl.click_on_wish_list_option_from_right_column()
         self.logger.info("Clicking on the wish list option from right column")
-        self.logger.info("******************************* Verifying Test Wish List 008 ********************************")
+        self.logger.info(
+            "******************************* Verifying Test Wish List 008 ********************************")
         self.atc = AddToCartPage(self.driver)
         if self.atc.is_title_of_the_page("My Wish List"):
             assert True
@@ -434,8 +435,8 @@ class Test_009_Wish_List:
         self.wl.click_on_modify_your_wish_list_option()
         self.logger.info("Clicking on the  wish list link from footer option")
         self.logger.info("****************************** Verifying Test Wish List 011 *******************************")
-        account_breadcrumb =self.driver.find_element(By.LINK_TEXT, "Account")
-        my_wish_list_breadcrumb =self.driver.find_element(By.LINK_TEXT, "My Wish List")
+        account_breadcrumb = self.driver.find_element(By.LINK_TEXT, "Account")
+        my_wish_list_breadcrumb = self.driver.find_element(By.LINK_TEXT, "My Wish List")
         if account_breadcrumb.is_displayed() and my_wish_list_breadcrumb.is_displayed():
             self.atc = AddToCartPage(self.driver)
             if self.atc.is_title_of_the_page("My Wish List"):
@@ -694,10 +695,28 @@ class Test_009_Wish_List:
         self.driver = setup
         self.driver.get(self.baseURL)
         self.logger.info("Navigating to the base url")
+
+        self.lp = LoginPage(self.driver)
+        self.lp.click_on_my_account()
+        self.lp.click_on_login_link()
+        self.lp.set_username(self.username)
+        self.lp.set_password(self.password)
+        self.lp.click_on_login_button()
+        self.logger.info("Login is successful")
+
+        self.wl = WishListPage(self.driver)
+        self.wl.click_on_modify_your_wish_list_option()
+        self.logger.info("Clicking on the modify your wish list option")
+        self.wl.clear_wishlist_if_not_empty()
+        self.logger.info("Clearing all my wish list")
+
+        self.driver.back()
+        self.wl.click_on_account_breadcrumb_option()
+        self.logger.info("Clicking on the account breadcrumb option")
+
         self.sf = SearchPage(self.driver)
         self.sf.search_product("iMac")
         self.sf.click_on_search_button()
-        self.wl = WishListPage(self.driver)
         self.wl.click_on_add_to_wish_list_option_on_the_product_display_in_search_result()
         self.sf.search_product("iphone")
         self.sf.click_on_search_button()
@@ -709,30 +728,22 @@ class Test_009_Wish_List:
         self.sf.click_on_search_button()
         self.wl.click_on_add_to_wish_list_option_on_the_product_display_in_search_result()
         self.logger.info("adding multiple product to my wish list")
-        self.lp = LoginPage(self.driver)
-        self.lp.click_on_my_account()
-        self.lp.click_on_login_link()
-        self.lp.set_username(self.username)
-        self.lp.set_password(self.password)
-        self.lp.click_on_login_button()
-        self.logger.info("Login is successful")
-        self.wl.click_on_modify_your_wish_list_option()
-        self.logger.info("Clicking on the modify your wish list option")
+        self.wl.click_on_wish_list_link_in_success_message()
+        self.logger.info("Clicking on wish list link in success message")
         self.logger.info("*************************** Verifying Test Wish List 017 ****************************")
         self.atc = AddToCartPage(self.driver)
         l = []
-        exp_list = ['iPhone', 'product 11', 'Out Of Stock', '$123.20',
-                    'iMac', 'Product 14', 'Out Of Stock', '$122.00',
-                    'MacBook', 'Product 16', 'Out Of Stock', '$602.00',
-                    'MacBook Air', 'Product 17', 'Out Of Stock', '$1,202.00',
-                    'MacBook Pro', 'Product 18', 'Out Of Stock', '$2,000.00']
-
+        exp_list = ['iPhone', 'product 11', 'Out Of Stock', '$123.20', 'iMac', 'Product 14', 'Out Of Stock', '$122.00',
+                    'MacBook', 'Product 16', 'Out Of Stock', '$602.00', 'MacBook Air', 'Product 17', 'Out Of Stock',
+                    '$1,202.00']
         if self.atc.is_title_of_the_page("My Wish List"):
-            all_images = self.driver.find_elements(By.XPATH, "//table[@class='table table-bordered table-hover']/tbody/tr/td[1]")
+            all_images = self.driver.find_elements(By.XPATH,
+                                                   "//table[@class='table table-bordered table-hover']/tbody/tr/td[1]")
             for image in all_images:
                 image.is_displayed()
             self.logger.info("All the images of the product are display and its works as expected")
-            all_product_name = self.driver.find_elements(By.XPATH, "//table[@class='table table-bordered table-hover']/tbody/tr/td[2]")
+            all_product_name = self.driver.find_elements(By.XPATH,
+                                                         "//table[@class='table table-bordered table-hover']/tbody/tr/td[2]")
             for product_name in all_product_name:
                 product_name.is_displayed()
             self.logger.info("All the product name are display, and it works as expected")
@@ -767,6 +778,14 @@ class Test_009_Wish_List:
         self.lp.set_password(self.password)
         self.lp.click_on_login_button()
         self.logger.info("Login is Successful")
+        self.wl = WishListPage(self.driver)
+        self.wl.click_on_modify_your_wish_list_option()
+        self.logger.info("Clicking on the modify your wish list option")
+        self.wl.clear_wishlist_if_not_empty()
+        self.logger.info("Clearing all my wish list")
+        self.driver.back()
+        self.wl.click_on_account_breadcrumb_option()
+        self.logger.info("Clicking on the account breadcrumb option")
         self.sf = SearchPage(self.driver)
         self.sf.search_product("iMac")
         self.logger.info("Entering iMac product to search text box field")
@@ -804,53 +823,3 @@ class Test_009_Wish_List:
             self.logger.error("*************** Test Wish List 018 is Failed ***************")
             assert False
         self.logger.info("************************** End Of Test Wish List 018 ****************************")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

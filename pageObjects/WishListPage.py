@@ -1,4 +1,5 @@
 import time
+
 from selenium.common import TimeoutException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
@@ -7,7 +8,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 
 class WishListPage:
     wishListOption = (By.XPATH, "//div[@id='product-product']//div[@class='btn-group']//button[1]")
-    wishListLink = (By.XPATH, "//*[@id='product-search']/div[1]/a[2]")
+    wishListLink = (By.CSS_SELECTOR, "div[class='alert alert-success alert-dismissible'] a:nth-child(3)")
     productName = (By.XPATH, "//*[@id='content']/div[1]/table/tbody/tr/td[2]/a")
     wishListOptionFromFeaturePage = (By.XPATH, "//div[@id='content']//div[1]//div[1]//div[3]//button[2]//i[1]")
     storeLogo = (By.LINK_TEXT, "Qafox.com")
@@ -19,6 +20,7 @@ class WishListPage:
     wishListLinkFromFooterOption = (By.XPATH, "//ul[@class='list-unstyled']//a[normalize-space()='Wish List']")
     searchBreadcrumbOption = (By.LINK_TEXT, "Search")
     addToCartButtonFromWishList = (By.XPATH, "//button[@class='btn btn-primary']//i[@class='fa fa-shopping-cart']")
+    accountBreadcrumbOption = (By.LINK_TEXT, "Account")
 
     def __init__(self, driver):
         self.driver = driver
@@ -88,16 +90,15 @@ class WishListPage:
         self.driver.execute_script("arguments[0].click();", modify_your_wish_list_option)
 
     def click_on_wish_list_link_from_footer_option(self):
-        wish_list_from_footer_option = WebDriverWait(self.driver, 10, poll_frequency=2).until(
+       wish_list_from_footer_option = WebDriverWait(self.driver, 10, poll_frequency=2).until(
             EC.element_to_be_clickable(WishListPage.wishListLinkFromFooterOption)
         )
-        self.driver.execute_script("arguments[0].click();", wish_list_from_footer_option)
+       self.driver.execute_script("arguments[0].click();", wish_list_from_footer_option)
 
     def clear_wishlist_if_not_empty(self):
         try:
-            WebDriverWait(self.driver, 5, poll_frequency=1).until(
-                EC.presence_of_element_located((By.XPATH, "//*[@id='content']/div[1]/table"))
-            )
+            wait = WebDriverWait(self.driver, 5, poll_frequency=1)
+            wait.until(EC.presence_of_element_located((By.XPATH, "//*[@id='content']/div[1]/table")))
             print("Wishlist table found.")
 
             while True:
@@ -106,12 +107,16 @@ class WishListPage:
                     print("No more items to remove.")
                     break
 
-                print(f"Clicking remove button ({len(remove_buttons)} items left)...")
-                remove_buttons[0].click()
-                WebDriverWait(self.driver, 5, poll_frequency=1).until(EC.staleness_of(remove_buttons[0]))
-                time.sleep(0.3)
+                try:
+                    remove_buttons[0].click()
+                    wait.until(EC.staleness_of(remove_buttons[0]))
+                    print(f"Removed item. {len(remove_buttons) - 1} left...")
+                except Exception as click_err:
+                    print(f"Click failed: {click_err}")
+                    break
 
-            WebDriverWait(self.driver, 5, poll_frequency=1).until(
+            # Final confirmation
+            wait.until(
                 EC.text_to_be_present_in_element(
                     (By.CSS_SELECTOR, "div[id='content'] p"),
                     "Your wish list is empty."
@@ -121,7 +126,7 @@ class WishListPage:
             return True
 
         except TimeoutException:
-            print("No wishlist found. It might already be empty.")
+            print("No wishlist found or it might already be empty.")
             return True
         except Exception as e:
             print(f"Error while clearing wishlist: {e}")
@@ -138,3 +143,9 @@ class WishListPage:
             EC.presence_of_element_located(WishListPage.addToCartButtonFromWishList)
         )
         self.driver.execute_script("arguments[0].click();", add_to_cart_button)
+
+    def click_on_account_breadcrumb_option(self):
+        account_breadcrumb_option = WebDriverWait(self.driver, 10, poll_frequency=2).until(
+            EC.presence_of_element_located(WishListPage.accountBreadcrumbOption)
+        )
+        self.driver.execute_script("arguments[0].click();", account_breadcrumb_option)
