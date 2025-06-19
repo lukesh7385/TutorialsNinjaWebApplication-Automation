@@ -1,5 +1,4 @@
 import time
-
 from selenium.common import TimeoutException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
@@ -8,7 +7,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 
 class WishListPage:
     wishListOption = (By.XPATH, "//div[@id='product-product']//div[@class='btn-group']//button[1]")
-    wishListLink = (By.CSS_SELECTOR, "div[class='alert alert-success alert-dismissible'] a:nth-child(3)")
+    wishListLink = (By.XPATH, "//*[@id='product-search']/div[1]/a[2]")
     productName = (By.XPATH, "//*[@id='content']/div[1]/table/tbody/tr/td[2]/a")
     wishListOptionFromFeaturePage = (By.XPATH, "//div[@id='content']//div[1]//div[1]//div[3]//button[2]//i[1]")
     storeLogo = (By.LINK_TEXT, "Qafox.com")
@@ -73,6 +72,7 @@ class WishListPage:
         wish_list_option = WebDriverWait(self.driver, 10, poll_frequency=2).until(
             EC.element_to_be_clickable(WishListPage.addToWishListOptionInSearchResultPage)
         )
+        time.sleep(1)
         wish_list_option.click()
 
     def click_on_wish_list_option_from_right_column(self):
@@ -88,10 +88,10 @@ class WishListPage:
         self.driver.execute_script("arguments[0].click();", modify_your_wish_list_option)
 
     def click_on_wish_list_link_from_footer_option(self):
-       wish_list_from_footer_option = WebDriverWait(self.driver, 10, poll_frequency=2).until(
+        wish_list_from_footer_option = WebDriverWait(self.driver, 10, poll_frequency=2).until(
             EC.element_to_be_clickable(WishListPage.wishListLinkFromFooterOption)
         )
-       self.driver.execute_script("arguments[0].click();", wish_list_from_footer_option)
+        self.driver.execute_script("arguments[0].click();", wish_list_from_footer_option)
 
     def clear_wishlist_if_not_empty(self):
         try:
