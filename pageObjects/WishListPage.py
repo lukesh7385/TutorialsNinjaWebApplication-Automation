@@ -21,6 +21,7 @@ class WishListPage:
     searchBreadcrumbOption = (By.LINK_TEXT, "Search")
     addToCartButtonFromWishList = (By.XPATH, "//button[@class='btn btn-primary']//i[@class='fa fa-shopping-cart']")
     accountBreadcrumbOption = (By.LINK_TEXT, "Account")
+    myWishListBreadcrumbOption = (By.LINK_TEXT, "My Wish List")
 
     def __init__(self, driver):
         self.driver = driver
@@ -149,3 +150,9 @@ class WishListPage:
             EC.presence_of_element_located(WishListPage.accountBreadcrumbOption)
         )
         self.driver.execute_script("arguments[0].click();", account_breadcrumb_option)
+
+    def is_enable_and_is_display(self, locator):
+        web_element = WebDriverWait(self.driver, 10, poll_frequency=2).until(
+            EC.presence_of_element_located(locator)
+        )
+        return web_element.is_displayed() and web_element.is_enabled()

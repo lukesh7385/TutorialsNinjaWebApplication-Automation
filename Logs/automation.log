@@ -2705,3 +2705,344 @@
 06/20/2025 01:21:16 AM |      INFO | test_wish_list.py:814 | Length of product is: 1
 06/20/2025 01:21:16 AM |      INFO | test_wish_list.py:815 | *************** Test Wish List 018 is Passed ***************
 06/20/2025 01:21:16 AM |      INFO | test_wish_list.py:825 | ************************** End Of Test Wish List 018 ****************************
+06/21/2025 12:49:22 PM |      INFO | test_wish_list.py:24 | *************************** Test Wish List 001 is Start ***************************
+06/21/2025 12:50:29 PM |      INFO | test_wish_list.py:27 | Navigating to base url
+06/21/2025 12:50:29 PM |      INFO | test_wish_list.py:30 | Clicking on the my account
+06/21/2025 12:50:29 PM |      INFO | test_wish_list.py:32 | Clicking on the login link
+06/21/2025 12:50:30 PM |      INFO | test_wish_list.py:34 | Entering username
+06/21/2025 12:50:30 PM |      INFO | test_wish_list.py:36 | Entering password
+06/21/2025 12:50:30 PM |      INFO | test_wish_list.py:38 | Clicking on the login button
+06/21/2025 12:50:31 PM |      INFO | test_wish_list.py:42 | Entering iMac product to search text box field
+06/21/2025 12:50:31 PM |      INFO | test_wish_list.py:44 | Clicking on the search icon button
+06/21/2025 12:50:32 PM |      INFO | test_wish_list.py:47 | Clicking on the product display in search result
+06/21/2025 12:50:32 PM |      INFO | test_wish_list.py:50 | Clicking on the wish list option in displayed on the product display page
+06/21/2025 12:50:32 PM |      INFO | test_wish_list.py:51 | *************************** Verifying Test Wish List 001 ***************************
+06/21/2025 12:50:33 PM |      INFO | test_wish_list.py:54 | Clicking on the wish list link on the success message
+06/21/2025 12:50:33 PM |      INFO | test_wish_list.py:59 | **************** Test wish list 001 is Passed ****************
+06/21/2025 12:50:33 PM |      INFO | test_wish_list.py:69 | *************************** End Of Test Wish List 001 ***************************
+06/21/2025 12:50:36 PM |      INFO | test_wish_list.py:73 | ****************************** Test Wish List 002 is Start ******************************
+06/21/2025 12:50:37 PM |      INFO | test_wish_list.py:76 | Navigating to the base url
+06/21/2025 12:50:37 PM |      INFO | test_wish_list.py:79 | Clicking on my account
+06/21/2025 12:50:37 PM |      INFO | test_wish_list.py:81 | Clicking on login link
+06/21/2025 12:50:37 PM |      INFO | test_wish_list.py:83 | Entering username
+06/21/2025 12:50:37 PM |      INFO | test_wish_list.py:85 | Entering password
+06/21/2025 12:50:37 PM |      INFO | test_wish_list.py:87 | Clicking on the login button
+06/21/2025 12:50:38 PM |      INFO | test_wish_list.py:90 | Entering iMac to the search text box field
+06/21/2025 12:50:39 PM |      INFO | test_wish_list.py:92 | Clicking on the search icon button
+06/21/2025 12:50:39 PM |      INFO | test_wish_list.py:95 | Clicking on the product display in the search result
+06/21/2025 12:50:39 PM |      INFO | test_wish_list.py:98 | Clicking on the wish list option
+06/21/2025 12:50:39 PM |      INFO | test_wish_list.py:99 | ****************************** Verifying Test Wish List 002 ******************************
+06/21/2025 12:50:39 PM |      INFO | test_wish_list.py:102 | Clicking on the wish list link in success message
+06/21/2025 12:50:39 PM |      INFO | test_wish_list.py:105 | *************** Test Wish List 002 is Passed ***************
+06/21/2025 12:50:39 PM |      INFO | test_wish_list.py:112 | ****************************** End Of Test Wish List 002 ******************************
+06/21/2025 12:50:43 PM |      INFO | test_wish_list.py:116 | ***************************** Test Wish List 003 is Start *********************************
+06/21/2025 12:50:44 PM |      INFO | test_wish_list.py:119 | Navigating to the base url
+06/21/2025 12:50:44 PM |      INFO | test_wish_list.py:122 | Clicking on my account
+06/21/2025 12:50:44 PM |      INFO | test_wish_list.py:124 | Clicking on login link
+06/21/2025 12:50:44 PM |      INFO | test_wish_list.py:126 | Entering username
+06/21/2025 12:50:44 PM |      INFO | test_wish_list.py:128 | Entering password
+06/21/2025 12:50:45 PM |      INFO | test_wish_list.py:130 | Clicking on the login button
+06/21/2025 12:50:45 PM |      INFO | test_wish_list.py:133 | Clicking on the store logo
+06/21/2025 12:50:45 PM |      INFO | test_wish_list.py:135 | ***************************** Verifying Test Wish List 003 *********************************
+06/21/2025 12:50:45 PM |      INFO | test_wish_list.py:137 | page title is passed
+06/21/2025 12:50:46 PM |      INFO | test_wish_list.py:139 | Clicking on the add to wish list option on product display in feature page
+06/21/2025 12:50:46 PM |      INFO | test_wish_list.py:142 | success message is passed
+06/21/2025 12:50:46 PM |      INFO | test_wish_list.py:144 | Clicking on the wish list link in success message
+06/21/2025 12:50:46 PM |      INFO | test_wish_list.py:146 | Expected product is display
+06/21/2025 12:50:46 PM |      INFO | test_wish_list.py:148 | ****************** Test Wish List 003 is Passed ****************
+06/21/2025 12:50:46 PM |      INFO | test_wish_list.py:158 | ***************************** End Of Test Wish List 003 *********************************
+06/21/2025 12:50:49 PM |      INFO | test_wish_list.py:162 | *************************** Test Wish List 004 is Start ****************************
+06/21/2025 12:50:50 PM |      INFO | test_wish_list.py:165 | Navigating to the base url
+06/21/2025 12:50:50 PM |      INFO | test_wish_list.py:168 | Clicking on the my account link
+06/21/2025 12:50:51 PM |      INFO | test_wish_list.py:170 | Clicking on the login link
+06/21/2025 12:50:51 PM |      INFO | test_wish_list.py:172 | Entering username
+06/21/2025 12:50:51 PM |      INFO | test_wish_list.py:174 | Entering password
+06/21/2025 12:50:51 PM |      INFO | test_wish_list.py:176 | Clicking on the login button
+06/21/2025 12:50:53 PM |      INFO | test_wish_list.py:184 | Clicking on the mac subcategory option
+06/21/2025 12:50:53 PM |      INFO | test_wish_list.py:186 | Clicking on the add to wish list option available in mac subcategory option
+06/21/2025 12:50:53 PM |      INFO | test_wish_list.py:187 | *************************** Verifying Test Wish List 004 ****************************
+06/21/2025 12:50:54 PM |      INFO | test_wish_list.py:190 | Clicking on the wish list link in success message
+06/21/2025 12:50:54 PM |      INFO | test_wish_list.py:193 | *************** Test Wish List 004 is Passed **************
+06/21/2025 12:50:54 PM |      INFO | test_wish_list.py:200 | *************************** End Of Test Wish List 004 ****************************
+06/21/2025 12:50:57 PM |      INFO | test_wish_list.py:204 | *************************** Test Wish List 005 is Start ****************************
+06/21/2025 12:51:00 PM |      INFO | test_wish_list.py:207 | Navigating to the base url
+06/21/2025 12:51:00 PM |      INFO | test_wish_list.py:210 | Clicking on the my account link
+06/21/2025 12:51:00 PM |      INFO | test_wish_list.py:212 | Clicking on the login link
+06/21/2025 12:51:00 PM |      INFO | test_wish_list.py:214 | Entering username
+06/21/2025 12:51:00 PM |      INFO | test_wish_list.py:216 | Entering password
+06/21/2025 12:51:00 PM |      INFO | test_wish_list.py:218 | Clicking on the login button
+06/21/2025 12:51:01 PM |      INFO | test_wish_list.py:222 | Entering iMac product name to search text box field
+06/21/2025 12:51:01 PM |      INFO | test_wish_list.py:224 | Clicking on the search icon button
+06/21/2025 12:51:02 PM |      INFO | test_wish_list.py:227 | Clicking on the add wish list option display in search result page
+06/21/2025 12:51:02 PM |      INFO | test_wish_list.py:228 | *************************** Verifying Test Wish List 005 ****************************
+06/21/2025 12:51:03 PM |      INFO | test_wish_list.py:232 | Clicking on the wish list link in success message
+06/21/2025 12:51:03 PM |      INFO | test_wish_list.py:235 | ***************** Test Wish List 005 is Passed ****************
+06/21/2025 12:51:03 PM |      INFO | test_wish_list.py:242 | *************************** End Of Test Wish List 005 ****************************
+06/21/2025 12:51:06 PM |      INFO | test_wish_list.py:246 | ************************* Test Wish List 006 is Start ****************************
+06/21/2025 12:51:07 PM |      INFO | test_wish_list.py:249 | Navigating to the base url
+06/21/2025 12:51:07 PM |      INFO | test_wish_list.py:252 | Clicking on the my account link
+06/21/2025 12:51:08 PM |      INFO | test_wish_list.py:254 | Clicking on the login link
+06/21/2025 12:51:08 PM |      INFO | test_wish_list.py:256 | Entering username
+06/21/2025 12:51:08 PM |      INFO | test_wish_list.py:258 | Entering password
+06/21/2025 12:51:08 PM |      INFO | test_wish_list.py:260 | Clicking on the login button
+06/21/2025 12:51:09 PM |      INFO | test_wish_list.py:263 | Entering iMac product name to search text box field
+06/21/2025 12:51:09 PM |      INFO | test_wish_list.py:265 | Clicking on the search icon button
+06/21/2025 12:51:09 PM |      INFO | test_wish_list.py:268 | Clicking on the product display in search result
+06/21/2025 12:51:09 PM |      INFO | test_wish_list.py:271 | Clicking on the add to wish list option in product display page
+06/21/2025 12:51:10 PM |      INFO | test_wish_list.py:273 | Clicking on the wish list link in success message
+06/21/2025 12:51:10 PM |      INFO | test_wish_list.py:274 | ************************* Verifying Test Wish List 006 ****************************
+06/21/2025 12:51:10 PM |      INFO | test_wish_list.py:278 | *************** Test Wish List 006 is Passed ***************
+06/21/2025 12:51:10 PM |      INFO | test_wish_list.py:282 | ************************* End Of Test Wish List 006 ****************************
+06/21/2025 12:51:13 PM |      INFO | test_wish_list.py:286 | *************************** Test Wish List 007 is Start ***************************
+06/21/2025 12:51:14 PM |      INFO | test_wish_list.py:289 | Navigating to the base url
+06/21/2025 12:51:14 PM |      INFO | test_wish_list.py:292 | Clicking on the my account link
+06/21/2025 12:51:14 PM |      INFO | test_wish_list.py:294 | Clicking on the login link
+06/21/2025 12:51:14 PM |      INFO | test_wish_list.py:296 | Entering username
+06/21/2025 12:51:15 PM |      INFO | test_wish_list.py:298 | Entering password
+06/21/2025 12:51:15 PM |      INFO | test_wish_list.py:300 | Clicking on the login button
+06/21/2025 12:51:16 PM |      INFO | test_wish_list.py:303 | Entering the iMac product name to search text box field
+06/21/2025 12:51:16 PM |      INFO | test_wish_list.py:305 | Clicking on the search icon button
+06/21/2025 12:51:16 PM |      INFO | test_wish_list.py:308 | Clicking on the product display in search result
+06/21/2025 12:51:16 PM |      INFO | test_wish_list.py:311 | Clicking on the add to wish list option in product display page
+06/21/2025 12:51:17 PM |      INFO | test_wish_list.py:314 | Clicking on the wish list header option
+06/21/2025 12:51:17 PM |      INFO | test_wish_list.py:315 | *************************** Verifying Test Wish List 007 ***************************
+06/21/2025 12:51:17 PM |      INFO | test_wish_list.py:318 | ***************** Test Wish List 007 is Passed ****************
+06/21/2025 12:51:17 PM |      INFO | test_wish_list.py:322 | *************************** End Of Test Wish List 007 ***************************
+06/21/2025 12:51:20 PM |      INFO | test_wish_list.py:326 | ******************************* Test Wish List 008 is Start ********************************
+06/21/2025 12:51:21 PM |      INFO | test_wish_list.py:329 | Navigating to the base url
+06/21/2025 12:51:21 PM |      INFO | test_wish_list.py:332 | Clicking on the my account link
+06/21/2025 12:51:21 PM |      INFO | test_wish_list.py:334 | Clicking on the login link
+06/21/2025 12:51:21 PM |      INFO | test_wish_list.py:336 | Entering username
+06/21/2025 12:51:21 PM |      INFO | test_wish_list.py:338 | Entering password
+06/21/2025 12:51:22 PM |      INFO | test_wish_list.py:340 | Clicking on the login button
+06/21/2025 12:51:22 PM |      INFO | test_wish_list.py:343 | Clicking on the wish list option from right column
+06/21/2025 12:51:22 PM |      INFO | test_wish_list.py:344 | ******************************* Verifying Test Wish List 008 ********************************
+06/21/2025 12:51:22 PM |      INFO | test_wish_list.py:349 | **************** Test Wish List 008 is Passed ****************
+06/21/2025 12:51:22 PM |      INFO | test_wish_list.py:353 | ******************************* End Of Test Wish List 008 ********************************
+06/21/2025 12:51:25 PM |      INFO | test_wish_list.py:357 | ******************************* Test Wish List 009 is Start ********************************
+06/21/2025 12:51:26 PM |      INFO | test_wish_list.py:360 | Navigating to the base url
+06/21/2025 12:51:26 PM |      INFO | test_wish_list.py:363 | Clicking on the my account link
+06/21/2025 12:51:27 PM |      INFO | test_wish_list.py:365 | Clicking on the login link
+06/21/2025 12:51:27 PM |      INFO | test_wish_list.py:367 | Entering username
+06/21/2025 12:51:27 PM |      INFO | test_wish_list.py:369 | Entering password
+06/21/2025 12:51:27 PM |      INFO | test_wish_list.py:371 | Clicking on the login button
+06/21/2025 12:51:28 PM |      INFO | test_wish_list.py:374 | Clicking on the modify your wish list option
+06/21/2025 12:51:28 PM |      INFO | test_wish_list.py:375 | ******************************* Verifying Test Wish List 009 ********************************
+06/21/2025 12:51:28 PM |      INFO | test_wish_list.py:380 | **************** Test Wish List 009 is Passed ****************
+06/21/2025 12:51:28 PM |      INFO | test_wish_list.py:384 | ******************************* End Of Test Wish List 009 ********************************
+06/21/2025 12:51:31 PM |      INFO | test_wish_list.py:388 | ******************************* Test Wish List 010 is Start ********************************
+06/21/2025 12:51:32 PM |      INFO | test_wish_list.py:391 | Navigating to the base url
+06/21/2025 12:51:32 PM |      INFO | test_wish_list.py:394 | Clicking on the my account link
+06/21/2025 12:51:33 PM |      INFO | test_wish_list.py:396 | Clicking on the login link
+06/21/2025 12:51:33 PM |      INFO | test_wish_list.py:398 | Entering username
+06/21/2025 12:51:33 PM |      INFO | test_wish_list.py:400 | Entering password
+06/21/2025 12:51:33 PM |      INFO | test_wish_list.py:402 | Clicking on the login button
+06/21/2025 12:51:34 PM |      INFO | test_wish_list.py:405 | Clicking on the  wish list link from footer option
+06/21/2025 12:51:34 PM |      INFO | test_wish_list.py:406 | ******************************* Verifying Test Wish List 010 ********************************
+06/21/2025 12:51:34 PM |      INFO | test_wish_list.py:411 | **************** Test Wish List 010 is Passed ****************
+06/21/2025 12:51:34 PM |      INFO | test_wish_list.py:415 | ******************************* End Of Test Wish List 010 ********************************
+06/21/2025 12:51:37 PM |      INFO | test_wish_list.py:419 | ******************************* Test Wish List 011 is Start ********************************
+06/21/2025 12:51:38 PM |      INFO | test_wish_list.py:422 | Navigating to the base url
+06/21/2025 12:51:38 PM |      INFO | test_wish_list.py:425 | Clicking on the my account link
+06/21/2025 12:51:38 PM |      INFO | test_wish_list.py:427 | Clicking on the login link
+06/21/2025 12:51:38 PM |      INFO | test_wish_list.py:429 | Entering username
+06/21/2025 12:51:39 PM |      INFO | test_wish_list.py:431 | Entering password
+06/21/2025 12:51:39 PM |      INFO | test_wish_list.py:433 | Clicking on the login button
+06/21/2025 12:51:40 PM |      INFO | test_wish_list.py:436 | Clicking on the  wish list link from footer option
+06/21/2025 12:51:40 PM |      INFO | test_wish_list.py:437 | ****************************** Verifying Test Wish List 011 *******************************
+06/21/2025 12:51:40 PM |      INFO | test_wish_list.py:446 | **************** Test Wish List 011 is Passed ***************
+06/21/2025 12:51:40 PM |      INFO | test_wish_list.py:453 | ****************************** End Of Test Wish List 011 *******************************
+06/21/2025 12:51:43 PM |      INFO | test_wish_list.py:457 | ******************************* Test Wish List 012 is Start ********************************
+06/21/2025 12:51:44 PM |      INFO | test_wish_list.py:460 | Navigating to the base url
+06/21/2025 12:51:44 PM |      INFO | test_wish_list.py:463 | Clicking on the my account link
+06/21/2025 12:51:45 PM |      INFO | test_wish_list.py:465 | Clicking on the login link
+06/21/2025 12:51:45 PM |      INFO | test_wish_list.py:467 | Entering username
+06/21/2025 12:51:45 PM |      INFO | test_wish_list.py:469 | Entering password
+06/21/2025 12:51:46 PM |      INFO | test_wish_list.py:471 | Clicking on the login button
+06/21/2025 12:51:46 PM |      INFO | test_wish_list.py:474 | Clicking on the  wish list link from footer option
+06/21/2025 12:51:46 PM |      INFO | test_wish_list.py:475 | ****************************** Verifying Test Wish List 012 *******************************
+06/21/2025 12:51:46 PM |      INFO | test_wish_list.py:482 | ***************** Test Wish List 012 is Passed *****************
+06/21/2025 12:51:46 PM |      INFO | test_wish_list.py:492 | ****************************** End Of Test Wish List 012 *******************************
+06/21/2025 12:51:49 PM |      INFO | test_wish_list.py:496 | ******************************* Test Wish List 013 is Start ********************************
+06/21/2025 12:51:50 PM |      INFO | test_wish_list.py:499 | Navigating to the base url
+06/21/2025 12:51:52 PM |      INFO | test_wish_list.py:506 | Login successful
+06/21/2025 12:51:52 PM |      INFO | test_wish_list.py:509 | Clicking on the modify your wish list option
+06/21/2025 12:52:03 PM |      INFO | test_wish_list.py:511 | Wish list is empty or cleared successfully
+06/21/2025 12:52:04 PM |      INFO | test_wish_list.py:514 | Clicking on continue button
+06/21/2025 12:52:04 PM |      INFO | test_wish_list.py:517 | **************** Test Wish List 013 is Passed ***************
+06/21/2025 12:52:04 PM |      INFO | test_wish_list.py:527 | ****************************** End Of Test Wish List 013 *******************************
+06/21/2025 12:52:07 PM |      INFO | test_wish_list.py:531 | **************************** Test Wish List 014 is Start *****************************
+06/21/2025 12:52:08 PM |      INFO | test_wish_list.py:534 | Navigating to the base url
+06/21/2025 12:52:09 PM |      INFO | test_wish_list.py:541 | Login successful
+06/21/2025 12:52:10 PM |      INFO | test_wish_list.py:544 | Clicking on the wish list header option
+06/21/2025 12:52:20 PM |      INFO | test_wish_list.py:547 | Clearing wish list if not empty
+06/21/2025 12:52:20 PM |      INFO | test_wish_list.py:550 | Clicking on the continue button
+06/21/2025 12:52:20 PM |      INFO | test_wish_list.py:553 | Entering iMac product name to the search text box field
+06/21/2025 12:52:20 PM |      INFO | test_wish_list.py:555 | Clicking on the search icon button
+06/21/2025 12:52:22 PM |      INFO | test_wish_list.py:557 | Clicking on the add to wish list option display in search result
+06/21/2025 12:52:22 PM |      INFO | test_wish_list.py:559 | Clicking on the search breadcrumb option
+06/21/2025 12:52:22 PM |      INFO | test_wish_list.py:561 | Clicking on the back arrow on the browser
+06/21/2025 12:52:22 PM |      INFO | test_wish_list.py:563 | Clicking on the modify your wish list option
+06/21/2025 12:52:22 PM |      INFO | test_wish_list.py:564 | **************************** Verifying Test Wish List 014 *****************************
+06/21/2025 12:52:22 PM |      INFO | test_wish_list.py:582 | Product image is display
+06/21/2025 12:52:22 PM |      INFO | test_wish_list.py:584 | Action buttons is display
+06/21/2025 12:52:22 PM |      INFO | test_wish_list.py:586 | Proper details are display
+06/21/2025 12:52:23 PM |      INFO | test_wish_list.py:588 | Clicking on the image
+06/21/2025 12:52:23 PM |      INFO | test_wish_list.py:594 | Clicking on the continue button
+06/21/2025 12:52:23 PM |      INFO | test_wish_list.py:597 | *************** Test Wish List 014 is Passed **************
+06/21/2025 12:52:23 PM |      INFO | test_wish_list.py:618 | **************************** End Of Test Wish List 014 *****************************
+06/21/2025 12:52:26 PM |      INFO | test_wish_list.py:622 | **************************** Test Wish List 015 is Start *****************************
+06/21/2025 12:52:27 PM |      INFO | test_wish_list.py:625 | Navigating to the base url
+06/21/2025 12:52:27 PM |      INFO | test_wish_list.py:628 | Entering iMac product name to the search text box field
+06/21/2025 12:52:28 PM |      INFO | test_wish_list.py:630 | Clicking on the search icon button
+06/21/2025 12:52:29 PM |      INFO | test_wish_list.py:633 | Clicking on the add to wish list option
+06/21/2025 12:52:29 PM |      INFO | test_wish_list.py:640 | Login successful
+06/21/2025 12:52:30 PM |      INFO | test_wish_list.py:642 | Clicking on the modify your wish list option
+06/21/2025 12:52:41 PM |      INFO | test_wish_list.py:644 | Clearing wish list if not empty
+06/21/2025 12:52:41 PM |      INFO | test_wish_list.py:645 | **************************** Verifying Test Wish List 015 *****************************
+06/21/2025 12:52:41 PM |      INFO | test_wish_list.py:651 | ************** Test Wish List 015 is Passed ************
+06/21/2025 12:52:41 PM |      INFO | test_wish_list.py:658 | **************************** End Of Test Wish List 015 *****************************
+06/21/2025 12:52:44 PM |      INFO | test_wish_list.py:662 | *************************** Test Wish List 016 is Start ****************************
+06/21/2025 12:52:46 PM |      INFO | test_wish_list.py:665 | Navigating to the base url
+06/21/2025 12:52:47 PM |      INFO | test_wish_list.py:671 | adding product to my wish list
+06/21/2025 12:52:48 PM |      INFO | test_wish_list.py:678 | Login is successful
+06/21/2025 12:52:49 PM |      INFO | test_wish_list.py:680 | Clicking on the modify your wish list option
+06/21/2025 12:52:49 PM |      INFO | test_wish_list.py:683 | Clicking on the add to cart button
+06/21/2025 12:52:49 PM |      INFO | test_wish_list.py:684 | *************************** Verifying Test Wish List 016 ****************************
+06/21/2025 12:52:49 PM |      INFO | test_wish_list.py:687 | *************** Test Wish List 016 is Passed ***************
+06/21/2025 12:52:49 PM |      INFO | test_wish_list.py:690 | *************************** End Of Test Wish List 016 ****************************
+06/21/2025 12:52:52 PM |      INFO | test_wish_list.py:694 | *************************** Test Wish List 017 is Start ****************************
+06/21/2025 12:52:56 PM |      INFO | test_wish_list.py:697 | Navigating to the base url
+06/21/2025 12:52:57 PM |      INFO | test_wish_list.py:705 | Login is successful
+06/21/2025 12:52:58 PM |      INFO | test_wish_list.py:709 | Clicking on the modify your wish list option
+06/21/2025 12:53:08 PM |      INFO | test_wish_list.py:711 | Clearing all my wish list
+06/21/2025 12:53:08 PM |      INFO | test_wish_list.py:715 | Clicking on the account breadcrumb option
+06/21/2025 12:53:14 PM |      INFO | test_wish_list.py:730 | adding multiple product to my wish list
+06/21/2025 12:53:15 PM |      INFO | test_wish_list.py:732 | Clicking on wish list link in success message
+06/21/2025 12:53:15 PM |      INFO | test_wish_list.py:733 | *************************** Verifying Test Wish List 017 ****************************
+06/21/2025 12:53:15 PM |      INFO | test_wish_list.py:744 | All the images of the product are display and its works as expected
+06/21/2025 12:53:15 PM |      INFO | test_wish_list.py:749 | All the product name are display, and it works as expected
+06/21/2025 12:53:15 PM |      INFO | test_wish_list.py:757 | ************** Test Wish List 017 is Passed **************
+06/21/2025 12:53:15 PM |      INFO | test_wish_list.py:766 | *************************** End Of Test Wish List 017 ****************************
+06/21/2025 12:53:18 PM |      INFO | test_wish_list.py:770 | ************************** Test Wish List 018 is Start ****************************
+06/21/2025 12:53:19 PM |      INFO | test_wish_list.py:773 | Navigating to the base url
+06/21/2025 12:53:20 PM |      INFO | test_wish_list.py:780 | Login is Successful
+06/21/2025 12:53:21 PM |      INFO | test_wish_list.py:783 | Clicking on the modify your wish list option
+06/21/2025 12:53:32 PM |      INFO | test_wish_list.py:785 | Clearing all my wish list
+06/21/2025 12:53:33 PM |      INFO | test_wish_list.py:788 | Clicking on the account breadcrumb option
+06/21/2025 12:53:33 PM |      INFO | test_wish_list.py:791 | Entering iMac product to search text box field
+06/21/2025 12:53:33 PM |      INFO | test_wish_list.py:793 | Clicking on the search icon button
+06/21/2025 12:53:34 PM |      INFO | test_wish_list.py:796 | Clicking on the add to wish list option
+06/21/2025 12:53:35 PM |      INFO | test_wish_list.py:798 | Clicking on the add to wish list option
+06/21/2025 12:53:36 PM |      INFO | test_wish_list.py:800 | Clicking on the add to wish list option
+06/21/2025 12:53:37 PM |      INFO | test_wish_list.py:802 | Clicking on the add to wish list option
+06/21/2025 12:53:37 PM |      INFO | test_wish_list.py:804 | Clicking on the wish list link in success message
+06/21/2025 12:53:37 PM |      INFO | test_wish_list.py:805 | ************************** Verifying Test Wish List 018 ****************************
+06/21/2025 12:53:37 PM |      INFO | test_wish_list.py:808 | Page title is passed
+06/21/2025 12:53:37 PM |      INFO | test_wish_list.py:810 | Product name is passed
+06/21/2025 12:53:37 PM |      INFO | test_wish_list.py:814 | Length of product is: 1
+06/21/2025 12:53:37 PM |      INFO | test_wish_list.py:815 | *************** Test Wish List 018 is Passed ***************
+06/21/2025 12:53:37 PM |      INFO | test_wish_list.py:825 | ************************** End Of Test Wish List 018 ****************************
+06/21/2025 02:08:59 PM |      INFO | test_wish_list.py:829 | ***************************** Test Wish List 019 is Start *******************************
+06/21/2025 02:09:58 PM |      INFO | test_wish_list.py:829 | ***************************** Test Wish List 019 is Start *******************************
+06/21/2025 02:10:00 PM |      INFO | test_wish_list.py:832 | Navigating to the base url
+06/21/2025 02:11:32 PM |      INFO | test_wish_list.py:829 | ***************************** Test Wish List 019 is Start *******************************
+06/21/2025 02:11:34 PM |      INFO | test_wish_list.py:832 | Navigating to the base url
+06/21/2025 02:12:46 PM |      INFO | test_wish_list.py:829 | ***************************** Test Wish List 019 is Start *******************************
+06/21/2025 02:12:48 PM |      INFO | test_wish_list.py:832 | Navigating to the base url
+06/21/2025 02:21:39 PM |      INFO | test_wish_list.py:829 | ***************************** Test Wish List 019 is Start *******************************
+06/21/2025 02:21:40 PM |      INFO | test_wish_list.py:832 | Navigating to the base url
+06/21/2025 02:23:49 PM |      INFO | test_wish_list.py:829 | ***************************** Test Wish List 019 is Start *******************************
+06/21/2025 02:23:51 PM |      INFO | test_wish_list.py:832 | Navigating to the base url
+06/21/2025 02:29:34 PM |      INFO | test_wish_list.py:829 | ***************************** Test Wish List 019 is Start *******************************
+06/21/2025 02:29:36 PM |      INFO | test_wish_list.py:832 | Navigating to the base url
+06/21/2025 02:29:36 PM |      INFO | WishListPage.py:158 | Waiting for element: ('css selector', "a[id='wishlist-total'] span[class='hidden-xs hidden-sm hidden-md']")
+06/21/2025 02:29:36 PM |      INFO | WishListPage.py:164 | Element ('css selector', "a[id='wishlist-total'] span[class='hidden-xs hidden-sm hidden-md']") is displayed and enabled.
+06/21/2025 02:29:36 PM |      INFO | WishListPage.py:158 | Waiting for element: ('xpath', "//div[@id='content']//div[1]//div[1]//div[3]//button[2]//i[1]")
+06/21/2025 02:29:36 PM |      INFO | WishListPage.py:164 | Element ('xpath', "//div[@id='content']//div[1]//div[1]//div[3]//button[2]//i[1]") is displayed and enabled.
+06/21/2025 02:29:36 PM |      INFO | WishListPage.py:158 | Waiting for element: ('xpath', "//ul[@class='list-unstyled']//a[normalize-space()='Wish List']")
+06/21/2025 02:29:36 PM |      INFO | WishListPage.py:164 | Element ('xpath', "//ul[@class='list-unstyled']//a[normalize-space()='Wish List']") is displayed and enabled.
+06/21/2025 02:29:36 PM |      INFO | WishListPage.py:158 | Waiting for element: ('xpath', "//a[normalize-space()='Modify your wish list']")
+06/21/2025 02:29:46 PM |     ERROR | WishListPage.py:173 | Element ('xpath', "//a[normalize-space()='Modify your wish list']") not found within the timeout.
+06/21/2025 02:29:47 PM |      INFO | WishListPage.py:158 | Waiting for element: ('xpath', "//a[@class='list-group-item'][normalize-space()='Wish List']")
+06/21/2025 02:29:57 PM |     ERROR | WishListPage.py:173 | Element ('xpath', "//a[@class='list-group-item'][normalize-space()='Wish List']") not found within the timeout.
+06/21/2025 02:29:57 PM |      INFO | WishListPage.py:158 | Waiting for element: ('link text', 'My Wish List')
+06/21/2025 02:30:07 PM |     ERROR | WishListPage.py:173 | Element ('link text', 'My Wish List') not found within the timeout.
+06/21/2025 02:30:07 PM |      INFO | WishListPage.py:158 | Waiting for element: ('link text', 'My Wish List')
+06/21/2025 02:30:17 PM |     ERROR | WishListPage.py:173 | Element ('link text', 'My Wish List') not found within the timeout.
+06/21/2025 02:30:17 PM |      INFO | WishListPage.py:158 | Waiting for element: ('css selector', "div[class='alert alert-success alert-dismissible'] a:nth-child(3)")
+06/21/2025 02:30:27 PM |     ERROR | WishListPage.py:173 | Element ('css selector', "div[class='alert alert-success alert-dismissible'] a:nth-child(3)") not found within the timeout.
+06/21/2025 02:30:27 PM |      INFO | test_wish_list.py:843 | ***************************** Verifying Test Wish List 019 *******************************
+06/21/2025 02:30:30 PM |      INFO | test_wish_list.py:853 | Login is Successful
+06/21/2025 02:30:30 PM |     ERROR | test_wish_list.py:883 | *************** Test Wish List 019 is Failed ***************
+06/21/2025 02:33:31 PM |      INFO | test_wish_list.py:829 | ***************************** Test Wish List 019 is Start *******************************
+06/21/2025 02:33:32 PM |      INFO | test_wish_list.py:832 | Navigating to the base url
+06/21/2025 02:33:32 PM |      INFO | WishListPage.py:158 | Waiting for element: ('css selector', "a[id='wishlist-total'] span[class='hidden-xs hidden-sm hidden-md']")
+06/21/2025 02:33:33 PM |      INFO | WishListPage.py:164 | Element ('css selector', "a[id='wishlist-total'] span[class='hidden-xs hidden-sm hidden-md']") is displayed and enabled.
+06/21/2025 02:33:33 PM |      INFO | test_wish_list.py:836 | ***************************** Verifying Test Wish List 019 *******************************
+06/21/2025 02:33:33 PM |      INFO | WishListPage.py:158 | Waiting for element: ('xpath', "//div[@id='content']//div[1]//div[1]//div[3]//button[2]//i[1]")
+06/21/2025 02:33:33 PM |      INFO | WishListPage.py:164 | Element ('xpath', "//div[@id='content']//div[1]//div[1]//div[3]//button[2]//i[1]") is displayed and enabled.
+06/21/2025 02:33:33 PM |      INFO | WishListPage.py:158 | Waiting for element: ('xpath', "//ul[@class='list-unstyled']//a[normalize-space()='Wish List']")
+06/21/2025 02:33:33 PM |      INFO | WishListPage.py:164 | Element ('xpath', "//ul[@class='list-unstyled']//a[normalize-space()='Wish List']") is displayed and enabled.
+06/21/2025 02:33:34 PM |      INFO | test_wish_list.py:848 | Login is Successful
+06/21/2025 02:33:34 PM |      INFO | WishListPage.py:158 | Waiting for element: ('xpath', "//a[normalize-space()='Modify your wish list']")
+06/21/2025 02:33:35 PM |      INFO | WishListPage.py:164 | Element ('xpath', "//a[normalize-space()='Modify your wish list']") is displayed and enabled.
+06/21/2025 02:33:35 PM |      INFO | WishListPage.py:158 | Waiting for element: ('xpath', "//a[@class='list-group-item'][normalize-space()='Wish List']")
+06/21/2025 02:33:35 PM |      INFO | WishListPage.py:164 | Element ('xpath', "//a[@class='list-group-item'][normalize-space()='Wish List']") is displayed and enabled.
+06/21/2025 02:33:35 PM |      INFO | test_wish_list.py:855 | Clicking on modify your wish list option
+06/21/2025 02:33:35 PM |      INFO | WishListPage.py:158 | Waiting for element: ('link text', 'My Wish List')
+06/21/2025 02:33:35 PM |      INFO | WishListPage.py:164 | Element ('link text', 'My Wish List') is displayed and enabled.
+06/21/2025 02:33:35 PM |      INFO | test_wish_list.py:861 | Entering iMac to search text box field
+06/21/2025 02:33:36 PM |      INFO | test_wish_list.py:863 | Clicking on the search icon button
+06/21/2025 02:33:36 PM |      INFO | WishListPage.py:158 | Waiting for element: ('link text', 'My Wish List')
+06/21/2025 02:33:46 PM |     ERROR | WishListPage.py:173 | Element ('link text', 'My Wish List') not found within the timeout.
+06/21/2025 02:33:46 PM |     ERROR | test_wish_list.py:878 | *************** Test Wish List 019 is Failed ***************
+06/21/2025 02:37:13 PM |      INFO | test_wish_list.py:829 | ***************************** Test Wish List 019 is Start *******************************
+06/21/2025 02:37:15 PM |      INFO | test_wish_list.py:832 | Navigating to the base url
+06/21/2025 02:37:15 PM |      INFO | WishListPage.py:158 | Waiting for element: ('css selector', "a[id='wishlist-total'] span[class='hidden-xs hidden-sm hidden-md']")
+06/21/2025 02:37:15 PM |      INFO | WishListPage.py:164 | Element ('css selector', "a[id='wishlist-total'] span[class='hidden-xs hidden-sm hidden-md']") is displayed and enabled.
+06/21/2025 02:37:15 PM |      INFO | test_wish_list.py:836 | ***************************** Verifying Test Wish List 019 *******************************
+06/21/2025 02:37:15 PM |      INFO | WishListPage.py:158 | Waiting for element: ('xpath', "//div[@id='content']//div[1]//div[1]//div[3]//button[2]//i[1]")
+06/21/2025 02:37:15 PM |      INFO | WishListPage.py:164 | Element ('xpath', "//div[@id='content']//div[1]//div[1]//div[3]//button[2]//i[1]") is displayed and enabled.
+06/21/2025 02:37:15 PM |      INFO | WishListPage.py:158 | Waiting for element: ('xpath', "//ul[@class='list-unstyled']//a[normalize-space()='Wish List']")
+06/21/2025 02:37:15 PM |      INFO | WishListPage.py:164 | Element ('xpath', "//ul[@class='list-unstyled']//a[normalize-space()='Wish List']") is displayed and enabled.
+06/21/2025 02:37:17 PM |      INFO | test_wish_list.py:848 | Login is Successful
+06/21/2025 02:37:17 PM |      INFO | WishListPage.py:158 | Waiting for element: ('xpath', "//a[normalize-space()='Modify your wish list']")
+06/21/2025 02:37:17 PM |      INFO | WishListPage.py:164 | Element ('xpath', "//a[normalize-space()='Modify your wish list']") is displayed and enabled.
+06/21/2025 02:37:17 PM |      INFO | WishListPage.py:158 | Waiting for element: ('xpath', "//a[@class='list-group-item'][normalize-space()='Wish List']")
+06/21/2025 02:37:17 PM |      INFO | WishListPage.py:164 | Element ('xpath', "//a[@class='list-group-item'][normalize-space()='Wish List']") is displayed and enabled.
+06/21/2025 02:37:17 PM |      INFO | test_wish_list.py:855 | Clicking on modify your wish list option
+06/21/2025 02:37:17 PM |      INFO | WishListPage.py:158 | Waiting for element: ('link text', 'My Wish List')
+06/21/2025 02:37:17 PM |      INFO | WishListPage.py:164 | Element ('link text', 'My Wish List') is displayed and enabled.
+06/21/2025 02:37:18 PM |      INFO | test_wish_list.py:861 | Entering iMac to search text box field
+06/21/2025 02:37:18 PM |      INFO | test_wish_list.py:863 | Clicking on the search icon button
+06/21/2025 02:37:18 PM |      INFO | WishListPage.py:158 | Waiting for element: ('link text', 'My Wish List')
+06/21/2025 02:37:28 PM |     ERROR | WishListPage.py:173 | Element ('link text', 'My Wish List') not found within the timeout.
+06/21/2025 02:37:28 PM |     ERROR | test_wish_list.py:878 | *************** Test Wish List 019 is Failed ***************
+06/21/2025 02:38:54 PM |      INFO | test_wish_list.py:829 | ***************************** Test Wish List 019 is Start *******************************
+06/21/2025 02:38:57 PM |      INFO | test_wish_list.py:832 | Navigating to the base url
+06/21/2025 02:38:57 PM |      INFO | test_wish_list.py:836 | ***************************** Verifying Test Wish List 019 *******************************
+06/21/2025 02:39:00 PM |      INFO | test_wish_list.py:848 | Login is Successful
+06/21/2025 02:39:00 PM |      INFO | test_wish_list.py:855 | Clicking on modify your wish list option
+06/21/2025 02:39:00 PM |      INFO | test_wish_list.py:861 | Entering iMac to search text box field
+06/21/2025 02:39:01 PM |      INFO | test_wish_list.py:863 | Clicking on the search icon button
+06/21/2025 02:41:54 PM |      INFO | test_wish_list.py:829 | ***************************** Test Wish List 019 is Start *******************************
+06/21/2025 02:42:17 PM |      INFO | test_wish_list.py:832 | Navigating to the base url
+06/21/2025 02:42:18 PM |      INFO | test_wish_list.py:836 | ***************************** Verifying Test Wish List 019 *******************************
+06/21/2025 02:42:20 PM |      INFO | test_wish_list.py:848 | Login is Successful
+06/21/2025 02:42:20 PM |      INFO | test_wish_list.py:855 | Clicking on modify your wish list option
+06/21/2025 02:42:21 PM |      INFO | test_wish_list.py:861 | Entering iMac to search text box field
+06/21/2025 02:42:21 PM |      INFO | test_wish_list.py:863 | Clicking on the search icon button
+06/21/2025 02:42:22 PM |      INFO | test_wish_list.py:868 | Clicking on the add to wish list option search result
+06/21/2025 02:42:23 PM |      INFO | test_wish_list.py:873 | *************** Test Wish List 019 is Passed ***************
+06/21/2025 02:42:23 PM |      INFO | test_wish_list.py:898 | ***************************** End Of Test Wish List 019 *******************************
+06/21/2025 02:42:33 PM |      INFO | test_wish_list.py:829 | ***************************** Test Wish List 019 is Start *******************************
+06/21/2025 02:42:36 PM |      INFO | test_wish_list.py:832 | Navigating to the base url
+06/21/2025 02:42:36 PM |      INFO | test_wish_list.py:836 | ***************************** Verifying Test Wish List 019 *******************************
+06/21/2025 02:42:38 PM |      INFO | test_wish_list.py:848 | Login is Successful
+06/21/2025 02:42:39 PM |      INFO | test_wish_list.py:855 | Clicking on modify your wish list option
+06/21/2025 02:42:39 PM |      INFO | test_wish_list.py:861 | Entering iMac to search text box field
+06/21/2025 02:42:39 PM |      INFO | test_wish_list.py:863 | Clicking on the search icon button
+06/21/2025 02:42:41 PM |      INFO | test_wish_list.py:868 | Clicking on the add to wish list option search result
+06/21/2025 02:42:41 PM |      INFO | test_wish_list.py:873 | *************** Test Wish List 019 is Passed ***************
+06/21/2025 02:42:41 PM |      INFO | test_wish_list.py:898 | ***************************** End Of Test Wish List 019 *******************************

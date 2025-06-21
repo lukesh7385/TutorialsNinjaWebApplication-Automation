@@ -823,3 +823,82 @@ class Test_009_Wish_List:
             self.logger.error("*************** Test Wish List 018 is Failed ***************")
             assert False
         self.logger.info("************************** End Of Test Wish List 018 ****************************")
+
+    @pytest.mark.sanity
+    def test_wish_list_019(self, setup):
+        self.logger.info("***************************** Test Wish List 019 is Start *******************************")
+        self.driver = setup
+        self.driver.get(self.baseURL)
+        self.logger.info("Navigating to the base url")
+        self.wl = WishListPage(self.driver)
+        self.atc = AddToCartPage(self.driver)
+        wish_list_header_option = self.wl.is_enable_and_is_display(self.atc.wishListHeaderOption)
+        self.logger.info("***************************** Verifying Test Wish List 019 *******************************")
+        if wish_list_header_option:
+            add_to_wish_list_option_feature = self.wl.is_enable_and_is_display(self.wl.wishListOptionFromFeaturePage)
+            if add_to_wish_list_option_feature:
+                wish_list_link_footer = self.wl.is_enable_and_is_display(self.wl.wishListLinkFromFooterOption)
+                if wish_list_link_footer:
+                    self.lp = LoginPage(self.driver)
+                    self.lp.click_on_my_account()
+                    self.lp.click_on_login_link()
+                    self.lp.set_username(self.username)
+                    self.lp.set_password(self.password)
+                    self.lp.click_on_login_button()
+                    self.logger.info("Login is Successful")
+                    modify_your_wish_list_option = self.wl.is_enable_and_is_display(self.wl.modifyYourWishListOption)
+                    if modify_your_wish_list_option:
+                        wish_list_option_from_right_column = self.wl.is_enable_and_is_display(
+                            self.wl.wishListOptionFromRightColumn)
+                        if wish_list_option_from_right_column:
+                            self.wl.click_on_modify_your_wish_list_option()
+                            self.logger.info("Clicking on modify your wish list option")
+                            my_wish_list_breadcrumb_option = self.wl.is_enable_and_is_display(
+                                self.wl.myWishListBreadcrumbOption)
+                            if my_wish_list_breadcrumb_option:
+                                self.sf = SearchPage(self.driver)
+                                self.sf.search_product("iMac")
+                                self.logger.info("Entering iMac to search text box field")
+                                self.sf.click_on_search_button()
+                                self.logger.info("Clicking on the search icon button")
+                                add_to_wish_list_option_product_display_search_result = self.wl.is_enable_and_is_display(
+                                    self.wl.addToWishListOptionInSearchResultPage)
+                                if add_to_wish_list_option_product_display_search_result:
+                                    self.wl.click_on_add_to_wish_list_option_on_the_product_display_in_search_result()
+                                    self.logger.info("Clicking on the add to wish list option search result")
+                                    wish_list_link_in_success_message = self.wl.is_enable_and_is_display(
+                                        self.wl.wishListLink)
+                                    if wish_list_link_in_success_message:
+                                        assert True
+                                        self.logger.info("*************** Test Wish List 019 is Passed ***************")
+                                    else:
+                                        self.logger.error("*************** Test Wish List 019 is Failed ***************")
+                                        assert False
+                                else:
+                                    self.logger.error("*************** Test Wish List 019 is Failed ***************")
+                                    assert False
+                            else:
+                                self.logger.error("*************** Test Wish List 019 is Failed ***************")
+                                assert False
+                        else:
+                            self.logger.error("*************** Test Wish List 019 is Failed ***************")
+                            assert False
+                    else:
+                        self.logger.error("*************** Test Wish List 019 is Failed ***************")
+                        assert False
+                else:
+                    self.logger.error("*************** Test Wish List 019 is Failed ***************")
+                    assert False
+            else:
+                self.logger.error("*************** Test Wish List 019 is Failed ***************")
+                assert False
+        else:
+            self.logger.error("*************** Test Wish List 019 is Failed ***************")
+            assert False
+        self.logger.info("***************************** End Of Test Wish List 019 *******************************")
+
+
+
+
+
+
