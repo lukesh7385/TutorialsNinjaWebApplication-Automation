@@ -3046,3 +3046,33 @@
 06/21/2025 02:42:41 PM |      INFO | test_wish_list.py:868 | Clicking on the add to wish list option search result
 06/21/2025 02:42:41 PM |      INFO | test_wish_list.py:873 | *************** Test Wish List 019 is Passed ***************
 06/21/2025 02:42:41 PM |      INFO | test_wish_list.py:898 | ***************************** End Of Test Wish List 019 *******************************
+06/29/2025 11:45:57 PM |      INFO | test_wish_list.py:829 | ***************************** Test Wish List 019 is Start *******************************
+06/29/2025 11:46:00 PM |      INFO | test_wish_list.py:832 | Navigating to the base url
+06/29/2025 11:46:00 PM |      INFO | test_wish_list.py:836 | ***************************** Verifying Test Wish List 019 *******************************
+06/29/2025 11:46:02 PM |      INFO | test_wish_list.py:848 | Login is Successful
+06/29/2025 11:46:03 PM |      INFO | test_wish_list.py:855 | Clicking on modify your wish list option
+06/29/2025 11:46:03 PM |      INFO | test_wish_list.py:861 | Entering iMac to search text box field
+06/29/2025 11:46:04 PM |      INFO | test_wish_list.py:863 | Clicking on the search icon button
+06/29/2025 11:46:05 PM |      INFO | test_wish_list.py:868 | Clicking on the add to wish list option search result
+06/29/2025 11:46:05 PM |      INFO | test_wish_list.py:873 | *************** Test Wish List 019 is Passed ***************
+06/29/2025 11:46:05 PM |      INFO | test_wish_list.py:898 | ***************************** End Of Test Wish List 019 *******************************
+07/02/2025 02:00:46 PM |      INFO | test_shopping_cart.py:16 | *************************** Test Shopping Cart 001 is Start ***************************
+07/02/2025 02:00:47 PM |      INFO | test_shopping_cart.py:19 | Navigating to the base url
+07/02/2025 02:00:48 PM |      INFO | test_shopping_cart.py:22 | Entering the iMac to the search text box field
+07/02/2025 02:00:48 PM |      INFO | test_shopping_cart.py:24 | Clicking on the search icon button
+07/02/2025 02:00:48 PM |      INFO | test_shopping_cart.py:27 | Clicking on the product display in the search result
+07/02/2025 02:00:49 PM |      INFO | test_shopping_cart.py:30 | Clicking on the add to cart button on product display page
+07/02/2025 02:00:49 PM |      INFO | test_shopping_cart.py:32 | Clicking on the shopping cart link in success message
+07/02/2025 02:00:49 PM |      INFO | test_shopping_cart.py:33 | *************************** Verifying Test Shopping Cart 001 ***************************
+07/02/2025 02:00:49 PM |      INFO | test_shopping_cart.py:36 | ************** Test Shopping Cart 001 is Passed **************
+07/02/2025 02:00:49 PM |      INFO | test_shopping_cart.py:40 | *************************** End Of Test Shopping Cart 001 ***************************
+07/02/2025 02:01:03 PM |      INFO | test_shopping_cart.py:16 | *************************** Test Shopping Cart 001 is Start ***************************
+07/02/2025 02:01:04 PM |      INFO | test_shopping_cart.py:19 | Navigating to the base url
+07/02/2025 02:01:04 PM |      INFO | test_shopping_cart.py:22 | Entering the iMac to the search text box field
+07/02/2025 02:01:05 PM |      INFO | test_shopping_cart.py:24 | Clicking on the search icon button
+07/02/2025 02:01:05 PM |      INFO | test_shopping_cart.py:27 | Clicking on the product display in the search result
+07/02/2025 02:01:05 PM |      INFO | test_shopping_cart.py:30 | Clicking on the add to cart button on product display page
+07/02/2025 02:01:06 PM |      INFO | test_shopping_cart.py:32 | Clicking on the shopping cart link in success message
+07/02/2025 02:01:06 PM |      INFO | test_shopping_cart.py:33 | *************************** Verifying Test Shopping Cart 001 ***************************
+07/02/2025 02:01:06 PM |      INFO | test_shopping_cart.py:36 | ************** Test Shopping Cart 001 is Passed **************
+07/02/2025 02:01:06 PM |      INFO | test_shopping_cart.py:40 | *************************** End Of Test Shopping Cart 001 ***************************

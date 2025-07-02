@@ -1,0 +1,4 @@
+
+
+class ShoppingCartPage:
+    pass
