@@ -3085,3 +3085,123 @@
 07/04/2025 02:00:00 PM |      INFO | test_shopping_cart.py:60 | *************************** Verifying Test Shopping Cart 002 ****************************
 07/04/2025 02:00:00 PM |      INFO | test_shopping_cart.py:63 | ****************** Test Shopping Cart 002 is Passed *****************
 07/04/2025 02:00:00 PM |      INFO | test_shopping_cart.py:67 | *************************** End Of Test Shopping Cart 002 ****************************
+07/04/2025 02:08:08 PM |      INFO | test_shopping_cart.py:45 | *************************** Test Shopping Cart 002 is Start ****************************
+07/04/2025 02:08:11 PM |      INFO | test_shopping_cart.py:48 | Navigating to the base url
+07/04/2025 02:08:11 PM |      INFO | test_shopping_cart.py:51 | Entering iMac to the search text box field
+07/04/2025 02:08:12 PM |      INFO | test_shopping_cart.py:53 | Clicking on the search icon button
+07/04/2025 02:08:13 PM |      INFO | test_shopping_cart.py:56 | Clicking on the product display in search result
+07/04/2025 02:08:14 PM |      INFO | test_shopping_cart.py:59 | Clicking on the shopping cart header option
+07/04/2025 02:08:14 PM |      INFO | test_shopping_cart.py:60 | *************************** Verifying Test Shopping Cart 002 ****************************
+07/04/2025 02:08:14 PM |     ERROR | test_shopping_cart.py:65 | Actual Title is: Shopping Cart
+07/04/2025 02:08:14 PM |     ERROR | test_shopping_cart.py:66 | ****************** Test Shopping Cart 002 is Passed *****************
+07/04/2025 02:10:01 PM |      INFO | test_shopping_cart.py:45 | *************************** Test Shopping Cart 002 is Start ****************************
+07/04/2025 02:10:03 PM |      INFO | test_shopping_cart.py:48 | Navigating to the base url
+07/04/2025 02:10:03 PM |      INFO | test_shopping_cart.py:51 | Entering iMac to the search text box field
+07/04/2025 02:10:04 PM |      INFO | test_shopping_cart.py:53 | Clicking on the search icon button
+07/04/2025 02:10:05 PM |      INFO | test_shopping_cart.py:56 | Clicking on the product display in search result
+07/04/2025 02:10:06 PM |      INFO | test_shopping_cart.py:59 | Clicking on the shopping cart header option
+07/04/2025 02:10:06 PM |      INFO | test_shopping_cart.py:60 | *************************** Verifying Test Shopping Cart 002 ****************************
+07/04/2025 02:10:06 PM |      INFO | test_shopping_cart.py:63 | ****************** Test Shopping Cart 002 is Passed *****************
+07/04/2025 02:10:06 PM |      INFO | test_shopping_cart.py:68 | *************************** End Of Test Shopping Cart 002 ****************************
+07/04/2025 02:10:25 PM |      INFO | test_shopping_cart.py:45 | *************************** Test Shopping Cart 002 is Start ****************************
+07/04/2025 02:10:28 PM |      INFO | test_shopping_cart.py:48 | Navigating to the base url
+07/04/2025 02:10:28 PM |      INFO | test_shopping_cart.py:51 | Entering iMac to the search text box field
+07/04/2025 02:10:29 PM |      INFO | test_shopping_cart.py:53 | Clicking on the search icon button
+07/04/2025 02:10:30 PM |      INFO | test_shopping_cart.py:56 | Clicking on the product display in search result
+07/04/2025 02:10:31 PM |      INFO | test_shopping_cart.py:59 | Clicking on the shopping cart header option
+07/04/2025 02:10:31 PM |      INFO | test_shopping_cart.py:60 | *************************** Verifying Test Shopping Cart 002 ****************************
+07/04/2025 02:10:31 PM |      INFO | test_shopping_cart.py:63 | ****************** Test Shopping Cart 002 is Passed *****************
+07/04/2025 02:10:31 PM |      INFO | test_shopping_cart.py:68 | *************************** End Of Test Shopping Cart 002 ****************************
+07/04/2025 02:10:56 PM |      INFO | test_shopping_cart.py:45 | *************************** Test Shopping Cart 002 is Start ****************************
+07/04/2025 02:10:58 PM |      INFO | test_shopping_cart.py:48 | Navigating to the base url
+07/04/2025 02:10:58 PM |      INFO | test_shopping_cart.py:51 | Entering iMac to the search text box field
+07/04/2025 02:10:59 PM |      INFO | test_shopping_cart.py:53 | Clicking on the search icon button
+07/04/2025 02:11:00 PM |      INFO | test_shopping_cart.py:56 | Clicking on the product display in search result
+07/04/2025 02:11:01 PM |      INFO | test_shopping_cart.py:59 | Clicking on the shopping cart header option
+07/04/2025 02:11:01 PM |      INFO | test_shopping_cart.py:60 | *************************** Verifying Test Shopping Cart 002 ****************************
+07/04/2025 02:11:01 PM |      INFO | test_shopping_cart.py:63 | ****************** Test Shopping Cart 002 is Passed *****************
+07/04/2025 02:11:01 PM |      INFO | test_shopping_cart.py:68 | *************************** End Of Test Shopping Cart 002 ****************************
+07/04/2025 02:17:29 PM |      INFO | test_shopping_cart.py:47 | *************************** Test Shopping Cart 002 is Start ****************************
+07/04/2025 02:17:34 PM |      INFO | test_shopping_cart.py:50 | Navigating to the base url
+07/04/2025 02:17:35 PM |      INFO | test_shopping_cart.py:53 | Entering iMac to the search text box field
+07/04/2025 02:17:35 PM |      INFO | test_shopping_cart.py:55 | Clicking on the search icon button
+07/04/2025 02:17:36 PM |      INFO | test_shopping_cart.py:58 | Clicking on the add to cart button on product display in search result
+07/04/2025 02:17:36 PM |      INFO | test_shopping_cart.py:61 | Clicking on the shopping cart header option
+07/04/2025 02:17:36 PM |      INFO | test_shopping_cart.py:62 | *************************** Verifying Test Shopping Cart 002 ****************************
+07/04/2025 02:17:36 PM |      INFO | test_shopping_cart.py:65 | ****************** Test Shopping Cart 002 is Passed *****************
+07/04/2025 02:17:36 PM |      INFO | test_shopping_cart.py:70 | *************************** End Of Test Shopping Cart 002 ****************************
+07/04/2025 02:38:35 PM |      INFO | test_shopping_cart.py:74 | *************************** Test Shopping Cart 003 is Start ****************************
+07/04/2025 02:38:39 PM |      INFO | test_shopping_cart.py:77 | Navigating to the base url
+07/04/2025 02:38:39 PM |      INFO | test_shopping_cart.py:80 | Entering iMac to the search text box field
+07/04/2025 02:38:40 PM |      INFO | test_shopping_cart.py:82 | Clicking on the search icon button
+07/04/2025 02:38:40 PM |      INFO | test_shopping_cart.py:85 | Clicking on the add to cart button on product display in search result
+07/04/2025 02:40:01 PM |      INFO | test_shopping_cart.py:74 | *************************** Test Shopping Cart 003 is Start ****************************
+07/04/2025 02:40:04 PM |      INFO | test_shopping_cart.py:77 | Navigating to the base url
+07/04/2025 02:40:04 PM |      INFO | test_shopping_cart.py:80 | Entering iMac to the search text box field
+07/04/2025 02:40:05 PM |      INFO | test_shopping_cart.py:82 | Clicking on the search icon button
+07/04/2025 02:40:05 PM |      INFO | test_shopping_cart.py:85 | Clicking on the add to cart button on product display in search result
+07/04/2025 02:40:06 PM |      INFO | test_shopping_cart.py:88 | Clicking on the site map footer option
+07/04/2025 02:40:06 PM |      INFO | test_shopping_cart.py:90 | Clicking on the shopping cart link
+07/04/2025 02:40:06 PM |      INFO | test_shopping_cart.py:91 | *************************** Verifying Test Shopping Cart 003 ****************************
+07/04/2025 02:40:06 PM |      INFO | test_shopping_cart.py:94 | **************** Test Shopping Cart 003 is Passed ***************
+07/04/2025 02:40:06 PM |      INFO | test_shopping_cart.py:98 | *************************** End Of Test Shopping Cart 003 ****************************
+07/04/2025 02:40:33 PM |      INFO | test_shopping_cart.py:74 | *************************** Test Shopping Cart 003 is Start ****************************
+07/04/2025 02:40:36 PM |      INFO | test_shopping_cart.py:77 | Navigating to the base url
+07/04/2025 02:40:37 PM |      INFO | test_shopping_cart.py:80 | Entering iMac to the search text box field
+07/04/2025 02:40:37 PM |      INFO | test_shopping_cart.py:82 | Clicking on the search icon button
+07/04/2025 02:40:37 PM |      INFO | test_shopping_cart.py:85 | Clicking on the add to cart button on product display in search result
+07/04/2025 02:40:38 PM |      INFO | test_shopping_cart.py:88 | Clicking on the site map footer option
+07/04/2025 02:40:39 PM |      INFO | test_shopping_cart.py:90 | Clicking on the shopping cart link
+07/04/2025 02:40:39 PM |      INFO | test_shopping_cart.py:91 | *************************** Verifying Test Shopping Cart 003 ****************************
+07/04/2025 02:40:39 PM |      INFO | test_shopping_cart.py:94 | **************** Test Shopping Cart 003 is Passed ***************
+07/04/2025 02:40:39 PM |      INFO | test_shopping_cart.py:98 | *************************** End Of Test Shopping Cart 003 ****************************
+07/04/2025 02:42:49 PM |      INFO | test_shopping_cart.py:74 | *************************** Test Shopping Cart 003 is Start ****************************
+07/04/2025 02:42:51 PM |      INFO | test_shopping_cart.py:77 | Navigating to the base url
+07/04/2025 02:42:51 PM |      INFO | test_shopping_cart.py:80 | Entering iMac to the search text box field
+07/04/2025 02:42:52 PM |      INFO | test_shopping_cart.py:82 | Clicking on the search icon button
+07/04/2025 02:42:52 PM |      INFO | test_shopping_cart.py:85 | Clicking on the add to cart button on product display in search result
+07/04/2025 02:42:53 PM |      INFO | test_shopping_cart.py:88 | Clicking on the site map footer option
+07/04/2025 02:42:54 PM |      INFO | test_shopping_cart.py:90 | Clicking on the shopping cart link
+07/04/2025 02:42:54 PM |      INFO | test_shopping_cart.py:91 | *************************** Verifying Test Shopping Cart 003 ****************************
+07/04/2025 02:42:54 PM |      INFO | test_shopping_cart.py:94 | **************** Test Shopping Cart 003 is Passed ***************
+07/04/2025 02:42:54 PM |      INFO | test_shopping_cart.py:98 | *************************** End Of Test Shopping Cart 003 ****************************
+07/04/2025 02:43:02 PM |      INFO | test_shopping_cart.py:74 | *************************** Test Shopping Cart 003 is Start ****************************
+07/04/2025 02:43:05 PM |      INFO | test_shopping_cart.py:77 | Navigating to the base url
+07/04/2025 02:43:05 PM |      INFO | test_shopping_cart.py:80 | Entering iMac to the search text box field
+07/04/2025 02:43:06 PM |      INFO | test_shopping_cart.py:82 | Clicking on the search icon button
+07/04/2025 02:43:06 PM |      INFO | test_shopping_cart.py:85 | Clicking on the add to cart button on product display in search result
+07/04/2025 02:43:07 PM |      INFO | test_shopping_cart.py:88 | Clicking on the site map footer option
+07/04/2025 02:43:07 PM |      INFO | test_shopping_cart.py:90 | Clicking on the shopping cart link
+07/04/2025 02:43:07 PM |      INFO | test_shopping_cart.py:91 | *************************** Verifying Test Shopping Cart 003 ****************************
+07/04/2025 02:43:07 PM |      INFO | test_shopping_cart.py:94 | **************** Test Shopping Cart 003 is Passed ***************
+07/04/2025 02:43:07 PM |      INFO | test_shopping_cart.py:98 | *************************** End Of Test Shopping Cart 003 ****************************
+07/04/2025 02:43:14 PM |      INFO | test_shopping_cart.py:74 | *************************** Test Shopping Cart 003 is Start ****************************
+07/04/2025 02:43:17 PM |      INFO | test_shopping_cart.py:77 | Navigating to the base url
+07/04/2025 02:43:17 PM |      INFO | test_shopping_cart.py:80 | Entering iMac to the search text box field
+07/04/2025 02:43:18 PM |      INFO | test_shopping_cart.py:82 | Clicking on the search icon button
+07/04/2025 02:43:18 PM |      INFO | test_shopping_cart.py:85 | Clicking on the add to cart button on product display in search result
+07/04/2025 02:43:19 PM |      INFO | test_shopping_cart.py:88 | Clicking on the site map footer option
+07/04/2025 02:43:19 PM |      INFO | test_shopping_cart.py:90 | Clicking on the shopping cart link
+07/04/2025 02:43:19 PM |      INFO | test_shopping_cart.py:91 | *************************** Verifying Test Shopping Cart 003 ****************************
+07/04/2025 02:43:19 PM |      INFO | test_shopping_cart.py:94 | **************** Test Shopping Cart 003 is Passed ***************
+07/04/2025 02:43:19 PM |      INFO | test_shopping_cart.py:98 | *************************** End Of Test Shopping Cart 003 ****************************
+07/04/2025 02:43:29 PM |      INFO | test_shopping_cart.py:74 | *************************** Test Shopping Cart 003 is Start ****************************
+07/04/2025 02:43:32 PM |      INFO | test_shopping_cart.py:77 | Navigating to the base url
+07/04/2025 02:43:32 PM |      INFO | test_shopping_cart.py:80 | Entering iMac to the search text box field
+07/04/2025 02:43:33 PM |      INFO | test_shopping_cart.py:82 | Clicking on the search icon button
+07/04/2025 02:43:33 PM |      INFO | test_shopping_cart.py:85 | Clicking on the add to cart button on product display in search result
+07/04/2025 02:43:34 PM |      INFO | test_shopping_cart.py:88 | Clicking on the site map footer option
+07/04/2025 02:43:34 PM |      INFO | test_shopping_cart.py:90 | Clicking on the shopping cart link
+07/04/2025 02:43:34 PM |      INFO | test_shopping_cart.py:91 | *************************** Verifying Test Shopping Cart 003 ****************************
+07/04/2025 02:43:34 PM |      INFO | test_shopping_cart.py:94 | **************** Test Shopping Cart 003 is Passed ***************
+07/04/2025 02:43:34 PM |      INFO | test_shopping_cart.py:98 | *************************** End Of Test Shopping Cart 003 ****************************
+07/04/2025 02:43:46 PM |      INFO | test_shopping_cart.py:74 | *************************** Test Shopping Cart 003 is Start ****************************
+07/04/2025 02:43:48 PM |      INFO | test_shopping_cart.py:77 | Navigating to the base url
+07/04/2025 02:43:48 PM |      INFO | test_shopping_cart.py:80 | Entering iMac to the search text box field
+07/04/2025 02:43:49 PM |      INFO | test_shopping_cart.py:82 | Clicking on the search icon button
+07/04/2025 02:43:49 PM |      INFO | test_shopping_cart.py:85 | Clicking on the add to cart button on product display in search result
+07/04/2025 02:43:50 PM |      INFO | test_shopping_cart.py:88 | Clicking on the site map footer option
+07/04/2025 02:43:50 PM |      INFO | test_shopping_cart.py:90 | Clicking on the shopping cart link
+07/04/2025 02:43:50 PM |      INFO | test_shopping_cart.py:91 | *************************** Verifying Test Shopping Cart 003 ****************************
+07/04/2025 02:43:50 PM |      INFO | test_shopping_cart.py:94 | **************** Test Shopping Cart 003 is Passed ***************
+07/04/2025 02:43:50 PM |      INFO | test_shopping_cart.py:98 | *************************** End Of Test Shopping Cart 003 ****************************

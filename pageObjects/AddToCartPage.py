@@ -48,7 +48,7 @@ class AddToCartPage:
         product_name = self.driver.find_element(*AddToCartPage.productName).text
         return product_name
 
-    def click_on_add_to_cart_button_on_product_in_search_result(self):
+    def click_on_add_to_cart_button_on_product_display_in_search_result(self):
         self.driver.find_element(*AddToCartPage.addToCartButton).click()
 
     def click_on_cart_button_in_black_color_beside_of_search_icon(self):

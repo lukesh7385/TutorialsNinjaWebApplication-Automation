@@ -1,8 +1,0 @@
-[32mINFO    [0m Test_007_Product_Display:test_product_display.py:408 *************************** Test Product Display 009 is Start **************************
-[32mINFO    [0m Test_007_Product_Display:test_product_display.py:410 Navigating to the base url
-[32mINFO    [0m Test_007_Product_Display:test_product_display.py:413 Entering Apple Cinema 30 to search text box field
-[32mINFO    [0m Test_007_Product_Display:test_product_display.py:415 Clicking on the search icon button
-[32mINFO    [0m Test_007_Product_Display:test_product_display.py:418 Clicking on the product display in search result
-[32mINFO    [0m Test_007_Product_Display:test_product_display.py:421 *************************** Verifying Test Product Display 009 **************************
-[32mINFO    [0m Test_007_Product_Display:test_product_display.py:433 Expected: 'clock speed' but Actual: 'Clockspeed
-[31m[1mERROR   [0m Test_007_Product_Display:test_product_display.py:434 *************** Test Product Display 009 is Failed **************
