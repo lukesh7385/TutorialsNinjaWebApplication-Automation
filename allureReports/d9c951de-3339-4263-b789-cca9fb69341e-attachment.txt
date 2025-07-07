@@ -1,0 +1,19 @@
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:770 ************************** Test Wish List 018 is Start ****************************
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:773 Navigating to the base url
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:780 Login is Successful
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:783 Clicking on the modify your wish list option
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:785 Clearing all my wish list
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:788 Clicking on the account breadcrumb option
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:791 Entering iMac product to search text box field
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:793 Clicking on the search icon button
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:796 Clicking on the add to wish list option
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:798 Clicking on the add to wish list option
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:800 Clicking on the add to wish list option
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:802 Clicking on the add to wish list option
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:804 Clicking on the wish list link in success message
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:805 ************************** Verifying Test Wish List 018 ****************************
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:808 Page title is passed
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:810 Product name is passed
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:814 Length of product is: 1
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:815 *************** Test Wish List 018 is Passed ***************
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:825 ************************** End Of Test Wish List 018 ****************************

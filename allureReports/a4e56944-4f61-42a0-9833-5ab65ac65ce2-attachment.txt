@@ -1,0 +1,15 @@
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:286 *************************** Test Wish List 007 is Start ***************************
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:289 Navigating to the base url
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:292 Clicking on the my account link
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:294 Clicking on the login link
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:296 Entering username
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:298 Entering password
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:300 Clicking on the login button
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:303 Entering the iMac product name to search text box field
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:305 Clicking on the search icon button
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:308 Clicking on the product display in search result
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:311 Clicking on the add to wish list option in product display page
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:314 Clicking on the wish list header option
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:315 *************************** Verifying Test Wish List 007 ***************************
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:318 ***************** Test Wish List 007 is Passed ****************
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:322 *************************** End Of Test Wish List 007 ***************************

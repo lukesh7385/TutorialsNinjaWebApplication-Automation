@@ -1,0 +1,7 @@
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:326 ******************************* Test Wish List 008 is Start ********************************
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:329 Navigating to the base url
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:332 Clicking on the my account link
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:334 Clicking on the login link
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:336 Entering username
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:338 Entering password
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:340 Clicking on the login button

@@ -1,0 +1,18 @@
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:650 ***************************** Test Product Compare 017 is Start ***************************
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:652 Navigating to the base url
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:655 Entering iMac product to the search
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:657 Clicking on the search button
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:660 Clicking on the compare this option
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:662 Entering iMac product to the search
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:664 Clicking on the search button
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:666 Clicking on the compare this option
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:668 Entering iMac product to the search
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:670 Clicking on the search button
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:672 Clicking on the compare this option
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:674 Clicking on the product comparison link
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:675 ***************************** Verifying Test Product Compare 017 ***************************
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:699 ********* Test Product Compare 017 is Passed *********
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:715 *************************** End Test Product Compare 017 *****************************
+[33mWARNING [0m urllib3.connectionpool:connectionpool.py:868 Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002BE22F345A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/712ac608c9b701ae2c0dbbc19960fbe0
+[33mWARNING [0m urllib3.connectionpool:connectionpool.py:868 Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002BE22F348D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/712ac608c9b701ae2c0dbbc19960fbe0
+[33mWARNING [0m urllib3.connectionpool:connectionpool.py:868 Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002BE22F34D10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/712ac608c9b701ae2c0dbbc19960fbe0

@@ -1,12 +1,12 @@
 import pytest
 
 from pageObjects.AddToCartPage import AddToCartPage
-from utilities.customLogger import LogGen
-from utilities.readProperties import ReadConfig
-from pageObjects.SearchPage import SearchPage
 from pageObjects.ProductComparePage import ProductComparePage
 from pageObjects.ProductDisplayPage import ProductDisplayPage
+from pageObjects.SearchPage import SearchPage
 from pageObjects.ShoppingCartPage import ShoppingCartPage
+from utilities.customLogger import LogGen
+from utilities.readProperties import ReadConfig
 
 
 @pytest.mark.usefixtures("setup", "log_on_failure")
@@ -93,6 +93,7 @@ class Test_010_Shopping_Cart:
             assert True
             self.logger.info("**************** Test Shopping Cart 003 is Passed ***************")
         else:
+            self.logger.info(f"Actual title is: {self.driver.title}")
             self.logger.error("**************** Test Shopping Cart 003 is Failed ***************")
             assert False
         self.logger.info("*************************** End Of Test Shopping Cart 003 ****************************")

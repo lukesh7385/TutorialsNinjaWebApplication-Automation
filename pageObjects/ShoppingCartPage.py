@@ -4,7 +4,7 @@ from selenium.webdriver.support import expected_conditions  as EC
 
 
 class ShoppingCartPage:
-    shoppingCartHeaderOption = (By.XPATH, "//span[normalize-space()='Shopping Cart']")
+    shoppingCartHeaderOption = (By.XPATH, "//span[contains(text(),'Shopping Cart')]")
     siteMapFooterOption = (By.LINK_TEXT, "Site Map")
     shoppingCartLink = (By.LINK_TEXT, "Shopping Cart")
 
@@ -14,9 +14,9 @@ class ShoppingCartPage:
 
     def click_on_shopping_cart_header_option(self):
         shopping_cart_header_option = WebDriverWait(self.driver, 10, poll_frequency=2).until(
-            EC.element_to_be_clickable(ShoppingCartPage.shoppingCartHeaderOption)
+            EC.presence_of_element_located(ShoppingCartPage.shoppingCartHeaderOption)
         )
-        shopping_cart_header_option.click()
+        self.driver.execute_script("arguments[0].click();", shopping_cart_header_option)
 
     def click_on_site_map_footer_option(self):
         site_map_footer_option = WebDriverWait(self.driver, 10, poll_frequency=2).until(
