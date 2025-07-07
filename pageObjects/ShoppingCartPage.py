@@ -1,3 +1,4 @@
+from jinja2.nodes import Continue
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions  as EC
@@ -6,7 +7,8 @@ from selenium.webdriver.support import expected_conditions  as EC
 class ShoppingCartPage:
     shoppingCartHeaderOption = (By.XPATH, "//span[contains(text(),'Shopping Cart')]")
     siteMapFooterOption = (By.LINK_TEXT, "Site Map")
-    shoppingCartLink = (By.LINK_TEXT, "Shopping Cart")
+    shoppingCartLink = (By.XPATH, "//a[contains(text(),'Shopping Cart')]")
+    removeButton = (By.XPATH, "//i[@class='fa fa-times']")
 
 
     def __init__(self, driver):
@@ -29,3 +31,13 @@ class ShoppingCartPage:
             EC.element_to_be_clickable(ShoppingCartPage.shoppingCartLink)
         )
         self.driver.execute_script("arguments[0].click();", shopping_cart_link)
+
+    def click_on_remove_button(self):
+        remove_button = WebDriverWait(self.driver, 10, poll_frequency=2).until(
+            EC.presence_of_element_located(ShoppingCartPage.removeButton)
+        )
+        if remove_button:
+            remove_button.click()
+        else:
+            Continue
+

@@ -1,4 +1,5 @@
 import pytest
+from selenium.webdriver.common.by import By
 
 from pageObjects.AddToCartPage import AddToCartPage
 from pageObjects.ProductComparePage import ProductComparePage
@@ -91,12 +92,70 @@ class Test_010_Shopping_Cart:
         self.logger.info("*************************** Verifying Test Shopping Cart 003 ****************************")
         if self.driver.title == "Shopping Cart":
             assert True
+            self.logger.info(f"Actual title is: {self.driver.title}")
             self.logger.info("**************** Test Shopping Cart 003 is Passed ***************")
         else:
             self.logger.info(f"Actual title is: {self.driver.title}")
             self.logger.error("**************** Test Shopping Cart 003 is Failed ***************")
             assert False
         self.logger.info("*************************** End Of Test Shopping Cart 003 ****************************")
+
+    @pytest.mark.sanity
+    def test_shopping_cart_004(self, setup):
+        self.logger.info("*************************** Test Shopping Cart 004 is Start *************************")
+        self.driver = setup
+        self.driver.get(self.baseURL)
+        self.logger.info("Navigating to the base url")
+        self.atc = AddToCartPage(self.driver)
+        self.atc.click_on_cart_button_in_black_color_beside_of_search_icon()
+        self.logger.info("Clicking on the cart button")
+        act_text_message = self.driver.find_element(By.XPATH, "//p[@class='text-center']")
+        self.logger.info("*************************** Verifying Test Shopping Cart 004 *************************")
+        if act_text_message.text == "Your shopping cart is empty!":
+            act_text_message.click()
+            if self.driver.title == "Your Store":
+                assert True
+                self.logger.info("***************** Test Shopping Cart 004 is Passed ***************")
+            else:
+                self.logger.error("***************** Test Shopping Cart 004 is Failed ***************")
+                assert False
+        else:
+            self.logger.error("***************** Test Shopping Cart 004 is Failed ***************")
+            assert False
+        self.logger.info("*************************** End Of Test Shopping Cart 004 *************************")
+
+    @pytest.mark.sanity
+    def test_shopping_cart_005(self, setup):
+        self.logger.info("**************************** Test Shopping Cart 005 is Start *****************************")
+        self.driver = setup
+        self.driver.get(self.baseURL)
+        self.logger.info("Navigating to the base url")
+        self.sf = SearchPage(self.driver)
+        self.sf.search_product("iMac")
+        self.logger.info("Entering iMac to the search text box field")
+        self.sf.click_on_search_button()
+        self.logger.info("Clicking on the search icon button")
+        self.atc = AddToCartPage(self.driver)
+        self.atc.click_on_add_to_cart_button_on_product_display_in_search_result()
+        self.logger.info("Clicking on the add to cart button")
+        self.atc.click_on_cart_button_in_black_color_beside_of_search_icon()
+        self.logger.info("Clicking on the cart button beside of search icon")
+        self.atc.click_on_view_cart_option()
+        self.logger.info("Clicking on the view cart option")
+        self.logger.info("**************************** Verifying Test Shopping Cart 005 *****************************")
+        if self.driver.title == "Shopping Cart":
+            assert True
+            self.logger.info("**************** Test Shopping Cart is Passed! ***************")
+        else:
+            self.logger.error("**************** Test Shopping Cart is Failed! ***************")
+            assert False
+        self.logger.info("**************************** End Of Test Shopping Cart 005 *****************************")
+
+
+
+
+
+
 
 
 
