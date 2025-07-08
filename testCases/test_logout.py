@@ -85,7 +85,7 @@ class Test_003_Logout_Functionality:
 
     @pytest.mark.sanity
     @pytest.mark.regression
-    def test_logout_functionality_004(self, setup):
+    def test_logout_functionality_003(self, setup):
         self.logger.info("*************** Logout Functionality 004 Test Start ****************")
         self.driver = setup
         self.driver.get(self.baseURL)
