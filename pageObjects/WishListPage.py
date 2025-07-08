@@ -1,5 +1,3 @@
-import time
-
 from selenium.common import TimeoutException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
@@ -75,8 +73,7 @@ class WishListPage:
         wish_list_option = WebDriverWait(self.driver, 10, poll_frequency=2).until(
             EC.element_to_be_clickable(WishListPage.addToWishListOptionInSearchResultPage)
         )
-        time.sleep(1)
-        wish_list_option.click()
+        self.driver.execute_script("arguments[0].click();", wish_list_option)
 
     def click_on_wish_list_option_from_right_column(self):
         wish_list_option_from_right_column = WebDriverWait(self.driver, 10, poll_frequency=2).until(

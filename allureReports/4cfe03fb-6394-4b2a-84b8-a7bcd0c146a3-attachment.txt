@@ -1,0 +1,16 @@
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:116 ***************************** Test Wish List 003 is Start *********************************
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:119 Navigating to the base url
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:122 Clicking on my account
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:124 Clicking on login link
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:126 Entering username
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:128 Entering password
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:130 Clicking on the login button
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:133 Clicking on the store logo
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:135 ***************************** Verifying Test Wish List 003 *********************************
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:137 page title is passed
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:139 Clicking on the add to wish list option on product display in feature page
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:142 success message is passed
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:144 Clicking on the wish list link in success message
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:146 Expected product is display
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:148 ****************** Test Wish List 003 is Passed ****************
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:158 ***************************** End Of Test Wish List 003 *********************************

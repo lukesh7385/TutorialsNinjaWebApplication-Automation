@@ -1,0 +1,9 @@
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:662 *************************** Test Wish List 016 is Start ****************************
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:665 Navigating to the base url
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:671 adding product to my wish list
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:678 Login is successful
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:680 Clicking on the modify your wish list option
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:683 Clicking on the add to cart button
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:684 *************************** Verifying Test Wish List 016 ****************************
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:687 *************** Test Wish List 016 is Passed ***************
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:690 *************************** End Of Test Wish List 016 ****************************

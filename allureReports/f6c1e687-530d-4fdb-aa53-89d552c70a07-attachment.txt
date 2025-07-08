@@ -1,0 +1,4 @@
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:829 ***************************** Test Wish List 019 is Start *******************************
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:832 Navigating to the base url
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:836 ***************************** Verifying Test Wish List 019 *******************************
+[1m[31mERROR   [0m Test_009_Wish_List:test_wish_list.py:896 *************** Test Wish List 019 is Failed ***************
