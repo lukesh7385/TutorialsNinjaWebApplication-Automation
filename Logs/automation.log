@@ -6751,3 +6751,20 @@
 07/08/2025 03:39:03 PM |      INFO | test_add_to_cart.py:353 | Clicking on the shopping cart link
 07/08/2025 03:39:03 PM |      INFO | test_add_to_cart.py:358 | ************** Test Add To Cart 009 is Passed *************
 07/08/2025 03:39:03 PM |      INFO | test_add_to_cart.py:368 | *************************** End Of Test Add To Cart 009 ***************************
+07/11/2025 02:03:08 PM |      INFO | test_shopping_cart.py:156 | **************************** Test Shopping Cart 006 is Start ****************************
+07/11/2025 02:03:13 PM |      INFO | test_shopping_cart.py:159 | Navigating to the base url
+07/11/2025 02:03:13 PM |      INFO | test_shopping_cart.py:162 | Entering iMac to the search text box field
+07/11/2025 02:03:14 PM |      INFO | test_shopping_cart.py:164 | Clicking on the search icon button
+07/11/2025 02:03:15 PM |      INFO | test_shopping_cart.py:167 | Clicking on the product display in search result
+07/11/2025 02:03:15 PM |      INFO | test_shopping_cart.py:170 | Clicking on the add to cart button on product display page
+07/11/2025 02:03:16 PM |      INFO | test_shopping_cart.py:172 | Clicking on the shopping cart link
+07/11/2025 02:10:56 PM |      INFO | test_shopping_cart.py:157 | **************************** Test Shopping Cart 006 is Start ****************************
+07/11/2025 02:10:59 PM |      INFO | test_shopping_cart.py:160 | Navigating to the base url
+07/11/2025 02:10:59 PM |      INFO | test_shopping_cart.py:163 | Entering iMac to the search text box field
+07/11/2025 02:10:59 PM |      INFO | test_shopping_cart.py:165 | Clicking on the search icon button
+07/11/2025 02:11:00 PM |      INFO | test_shopping_cart.py:168 | Clicking on the product display in search result
+07/11/2025 02:11:00 PM |      INFO | test_shopping_cart.py:171 | Clicking on the add to cart button on product display page
+07/11/2025 02:11:01 PM |      INFO | test_shopping_cart.py:173 | Clicking on the shopping cart link
+07/11/2025 02:11:01 PM |      INFO | test_shopping_cart.py:174 | **************************** Verifying Test Shopping Cart 006 ****************************
+07/11/2025 02:11:01 PM |      INFO | test_shopping_cart.py:177 | ************** Test Shopping Cart 006 is Passed *************
+07/11/2025 02:11:01 PM |      INFO | test_shopping_cart.py:181 | **************************** End Of Test Shopping Cart 006 ****************************
