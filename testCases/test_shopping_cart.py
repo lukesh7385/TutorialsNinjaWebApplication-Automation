@@ -1,6 +1,5 @@
 import pytest
 from selenium.webdriver.common.by import By
-
 from pageObjects.AddToCartPage import AddToCartPage
 from pageObjects.ProductComparePage import ProductComparePage
 from pageObjects.ProductDisplayPage import ProductDisplayPage
@@ -179,6 +178,64 @@ class Test_010_Shopping_Cart:
             self.logger.error("************** Test Shopping Cart 006 is Failed *************")
             assert False
         self.logger.info("**************************** End Of Test Shopping Cart 006 ****************************")
+
+    @pytest.mark.sanity
+    def test_shopping_cart_007(self, setup):
+        self.logger.info("*************************** Test Shopping Cart 007 is Start ***************************")
+        self.driver = setup
+        self.driver.get(self.baseURL)
+        self.logger.info("Navigating to the base url")
+        self.sf = SearchPage(self.driver)
+        self.sf.search_product("iMac")
+        self.logger.info("Entering the iMac to the search text box field")
+        self.sf.click_on_search_button()
+        self.logger.info("Clicking on the search icon button")
+        self.pc = ProductComparePage(self.driver)
+        self.pc.click_on_the_product_display_in_search_result()
+        self.logger.info("Clicking on the product display in search result")
+        self.pd = ProductDisplayPage(self.driver)
+        self.pd.click_on_add_to_cart_button_on_product_display_page()
+        self.logger.info("Clicking on the add to cart button")
+        self.pc.click_on_shopping_cart_link()
+        self.logger.info("Clicking on the shopping cart link in success message")
+        self.logger.info("*************************** Verifying Test Shopping Cart 007 ***************************")
+        xpath = "//body[1]/div[2]/div[2]/div[1]/form[1]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/a[1]/img[1]"
+        image = self.driver.find_element(By.XPATH, xpath)
+        product_name = self.driver.find_element(By.LINK_TEXT, "iMac").text
+        model = self.driver.find_element(By.XPATH, "//td[normalize-space()='Product 14']").text
+        quantity = self.driver.find_element(By.XPATH, "//*[@id='content']/form/div/table/tbody/tr/td[4]/div/input")
+        unit_price = self.driver.find_element(By.XPATH, "//body[1]/div[2]/div[2]/div[1]/form[1]/div[1]/table[1]/tbody[1]/tr[1]/td[5]").text
+        total = self.driver.find_element(By.XPATH, "//body[1]/div[2]/div[2]/div[1]/form[1]/div[1]/table[1]/tbody[1]/tr[1]/td[6]").text
+        if image.is_displayed():
+            if product_name == "iMac":
+                if model == "Product 14":
+                    if quantity.get_attribute("size") == '1':
+                        if unit_price == "$122.00":
+                            if total == "$122.00":
+                                assert True
+                                self.logger.info("**************** Test Shopping Cart 007 is Passed ***************")
+                            else:
+                                self.logger.error("**************** Test Shopping Cart 007 is Failed ***************")
+                                assert False
+                        else:
+                            self.logger.error("**************** Test Shopping Cart 007 is Failed ***************")
+                            assert False
+                    else:
+                        self.logger.error("**************** Test Shopping Cart 007 is Failed ***************")
+                        assert False
+                else:
+                    self.logger.error("**************** Test Shopping Cart 007 is Failed ***************")
+                    assert False
+            else:
+                self.logger.error("**************** Test Shopping Cart 007 is Failed ***************")
+                assert False
+        else:
+            self.logger.error("**************** Test Shopping Cart 007 is Failed ***************")
+            assert False
+        self.logger.info("*************************** End Of Test Shopping Cart 007 ***************************")
+
+
+
 
 
 
