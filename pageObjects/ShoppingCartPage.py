@@ -9,6 +9,8 @@ class ShoppingCartPage:
     siteMapFooterOption = (By.LINK_TEXT, "Site Map")
     shoppingCartLink = (By.XPATH, "//a[contains(text(),'Shopping Cart')]")
     removeButton = (By.XPATH, "//i[@class='fa fa-times']")
+    quantityField = (By.CSS_SELECTOR, "input[value='1']")
+    updateButton = (By.XPATH, "//button[@type='submit']")
 
 
     def __init__(self, driver):
@@ -40,4 +42,15 @@ class ShoppingCartPage:
             remove_button.click()
         else:
             Continue
+
+    def set_quantity_of_the_product(self, quantity):
+        quantity_field = self.driver.find_element(*ShoppingCartPage.quantityField)
+        quantity_field.clear()
+        quantity_field.send_keys(quantity)
+
+    def clicking_on_update_quantity_button(self):
+        update_button = WebDriverWait(self.driver, 10, poll_frequency=2).until(
+            EC.presence_of_element_located(ShoppingCartPage.updateButton)
+        )
+        update_button.click()
 

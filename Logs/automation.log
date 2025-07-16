@@ -6830,3 +6830,38 @@
 07/12/2025 01:08:42 PM |      INFO | test_shopping_cart.py:202 | *************************** Verifying Test Shopping Cart 007 ***************************
 07/12/2025 01:08:42 PM |      INFO | test_shopping_cart.py:217 | **************** Test Shopping Cart 007 is Passed ***************
 07/12/2025 01:08:42 PM |      INFO | test_shopping_cart.py:236 | *************************** End Of Test Shopping Cart 007 ***************************
+07/16/2025 02:14:05 PM |      INFO | test_shopping_cart.py:239 | ************************* Test Shopping Cart 008 is Start *************************
+07/16/2025 02:14:06 PM |      INFO | test_shopping_cart.py:242 | Navigating to the base url
+07/16/2025 02:14:07 PM |      INFO | test_shopping_cart.py:245 | Entering the iMac to the search text box field
+07/16/2025 02:14:07 PM |      INFO | test_shopping_cart.py:247 | Clicking on the button having search icon
+07/16/2025 02:14:08 PM |      INFO | test_shopping_cart.py:250 | Clicking on the product display in search result
+07/16/2025 02:14:08 PM |      INFO | test_shopping_cart.py:253 | Clicking on the add to cart button on product display page
+07/16/2025 02:14:08 PM |      INFO | test_shopping_cart.py:255 | Clicking on the shopping cart link in success message
+07/16/2025 02:14:09 PM |      INFO | test_shopping_cart.py:258 | Entering the Updated quantity of the product
+07/16/2025 02:14:09 PM |      INFO | test_shopping_cart.py:260 | Clicking on the update quantity button
+07/16/2025 02:14:09 PM |      INFO | test_shopping_cart.py:261 | ***************************** Verifying Test Shopping Cart 008 *****************************
+07/16/2025 02:14:09 PM |     ERROR | test_shopping_cart.py:266 | ************ Test Shopping Cart 008 is Failed
+07/16/2025 02:15:02 PM |      INFO | test_shopping_cart.py:239 | ************************* Test Shopping Cart 008 is Start *************************
+07/16/2025 02:15:03 PM |      INFO | test_shopping_cart.py:242 | Navigating to the base url
+07/16/2025 02:15:04 PM |      INFO | test_shopping_cart.py:245 | Entering the iMac to the search text box field
+07/16/2025 02:15:04 PM |      INFO | test_shopping_cart.py:247 | Clicking on the button having search icon
+07/16/2025 02:15:05 PM |      INFO | test_shopping_cart.py:250 | Clicking on the product display in search result
+07/16/2025 02:15:05 PM |      INFO | test_shopping_cart.py:253 | Clicking on the add to cart button on product display page
+07/16/2025 02:15:05 PM |      INFO | test_shopping_cart.py:255 | Clicking on the shopping cart link in success message
+07/16/2025 02:15:05 PM |      INFO | test_shopping_cart.py:258 | Entering the Updated quantity of the product
+07/16/2025 02:15:06 PM |      INFO | test_shopping_cart.py:260 | Clicking on the update quantity button
+07/16/2025 02:15:06 PM |      INFO | test_shopping_cart.py:261 | ***************************** Verifying Test Shopping Cart 008 *****************************
+07/16/2025 02:15:06 PM |      INFO | test_shopping_cart.py:266 | Success: You have modified your shopping cart!
+07/16/2025 02:15:06 PM |     ERROR | test_shopping_cart.py:267 | ************ Test Shopping Cart 008 is Failed
+07/16/2025 02:17:10 PM |      INFO | test_shopping_cart.py:239 | ************************* Test Shopping Cart 008 is Start *************************
+07/16/2025 02:17:11 PM |      INFO | test_shopping_cart.py:242 | Navigating to the base url
+07/16/2025 02:17:11 PM |      INFO | test_shopping_cart.py:245 | Entering the iMac to the search text box field
+07/16/2025 02:17:12 PM |      INFO | test_shopping_cart.py:247 | Clicking on the button having search icon
+07/16/2025 02:17:12 PM |      INFO | test_shopping_cart.py:250 | Clicking on the product display in search result
+07/16/2025 02:17:12 PM |      INFO | test_shopping_cart.py:253 | Clicking on the add to cart button on product display page
+07/16/2025 02:17:13 PM |      INFO | test_shopping_cart.py:255 | Clicking on the shopping cart link in success message
+07/16/2025 02:17:13 PM |      INFO | test_shopping_cart.py:258 | Entering the Updated quantity of the product
+07/16/2025 02:17:13 PM |      INFO | test_shopping_cart.py:260 | Clicking on the update quantity button
+07/16/2025 02:17:13 PM |      INFO | test_shopping_cart.py:261 | ***************************** Verifying Test Shopping Cart 008 *****************************
+07/16/2025 02:17:13 PM |      INFO | test_shopping_cart.py:264 | ************ Test Shopping Cart 008 is Passed ************
+07/16/2025 02:17:13 PM |      INFO | test_shopping_cart.py:269 | ***************************** End Of Test Shopping Cart 008 *****************************
