@@ -1,5 +1,5 @@
 # Selenium Hybrid Framework
-# (Python, Selenium, Pytest, Page Object Model, HTML Reports)
+# (Python, Selenium, Pytest, Page Object Model, HTML Reports, Allure Reports)
 #-----------------------------------------------------------
 """
 What is a framework?
