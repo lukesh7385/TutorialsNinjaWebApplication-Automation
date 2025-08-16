@@ -1,0 +1,10 @@
+[32mINFO    [0m Test_010_Shopping_Cart:test_shopping_cart.py:74 *************************** Test Shopping Cart 003 is Start ****************************
+[32mINFO    [0m Test_010_Shopping_Cart:test_shopping_cart.py:77 Navigating to the base url
+[32mINFO    [0m Test_010_Shopping_Cart:test_shopping_cart.py:80 Entering iMac to the search text box field
+[32mINFO    [0m Test_010_Shopping_Cart:test_shopping_cart.py:82 Clicking on the search icon button
+[32mINFO    [0m Test_010_Shopping_Cart:test_shopping_cart.py:85 Clicking on the add to cart button on product display in search result
+[32mINFO    [0m Test_010_Shopping_Cart:test_shopping_cart.py:88 Clicking on the site map footer option
+[32mINFO    [0m Test_010_Shopping_Cart:test_shopping_cart.py:90 Clicking on the shopping cart link
+[32mINFO    [0m Test_010_Shopping_Cart:test_shopping_cart.py:91 *************************** Verifying Test Shopping Cart 003 ****************************
+[32mINFO    [0m Test_010_Shopping_Cart:test_shopping_cart.py:97 Actual title is: Account Login
+[31m[1mERROR   [0m Test_010_Shopping_Cart:test_shopping_cart.py:98 **************** Test Shopping Cart 003 is Failed ***************

@@ -1,0 +1,14 @@
+[32mINFO    [0m Test_001_Register_Functionality:test_register.py:109 ******** Test Register Functionality 003 is Started *********
+[32mINFO    [0m Test_001_Register_Functionality:test_register.py:112 Navigating to the url
+[32mINFO    [0m Test_001_Register_Functionality:test_register.py:115 Clicking on myAccount drop menu
+[32mINFO    [0m Test_001_Register_Functionality:test_register.py:118 Clicking on register link
+[32mINFO    [0m Test_001_Register_Functionality:test_register.py:120 Clicking on continue button
+[32mINFO    [0m Test_001_Register_Functionality:test_register.py:121 *********** Verifying Test Register Functionality 003 ***********
+[32mINFO    [0m Test_001_Register_Functionality:test_register.py:139 ✔ Passed: First Name must be between 1 and 32 characters!
+[32mINFO    [0m Test_001_Register_Functionality:test_register.py:139 ✔ Passed: Last Name must be between 1 and 32 characters!
+[32mINFO    [0m Test_001_Register_Functionality:test_register.py:139 ✔ Passed: E-Mail Address does not appear to be valid!
+[32mINFO    [0m Test_001_Register_Functionality:test_register.py:139 ✔ Passed: Telephone must be between 3 and 32 characters!
+[32mINFO    [0m Test_001_Register_Functionality:test_register.py:139 ✔ Passed: Password must be between 4 and 20 characters!
+[32mINFO    [0m Test_001_Register_Functionality:test_register.py:139 ✔ Passed: Warning: You must agree to the Privacy Policy!
+[32mINFO    [0m Test_001_Register_Functionality:test_register.py:148 Test Register Functionality 003 Passed.
+[32mINFO    [0m Test_001_Register_Functionality:test_register.py:149 ******** End Of Test Register Functionality 003 *********

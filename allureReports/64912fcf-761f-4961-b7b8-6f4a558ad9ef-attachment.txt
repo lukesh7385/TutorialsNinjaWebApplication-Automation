@@ -1,0 +1,6 @@
+[32mINFO    [0m Test_003_Logout_Functionality:test_logout.py:57 *************** Logout Functionality 002 Test Start ****************
+[32mINFO    [0m Test_003_Logout_Functionality:test_logout.py:66 **************** Login is Successful ******************
+[32mINFO    [0m Test_003_Logout_Functionality:test_logout.py:71 ************ Logout is successful *****************
+[32mINFO    [0m Test_003_Logout_Functionality:test_logout.py:72 ************ Verifying logout functionality **************
+[32mINFO    [0m Test_003_Logout_Functionality:test_logout.py:77 **************** Test Logout Functionality is Passed ****************
+[32mINFO    [0m Test_003_Logout_Functionality:test_logout.py:84 ***************** End of Logout Functionality 002 ********************

@@ -1,0 +1,13 @@
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:162 *************************** Test Wish List 004 is Start ****************************
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:165 Navigating to the base url
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:168 Clicking on the my account link
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:170 Clicking on the login link
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:172 Entering username
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:174 Entering password
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:176 Clicking on the login button
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:184 Clicking on the mac subcategory option
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:186 Clicking on the add to wish list option available in mac subcategory option
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:187 *************************** Verifying Test Wish List 004 ****************************
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:190 Clicking on the wish list link in success message
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:193 *************** Test Wish List 004 is Passed **************
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:200 *************************** End Of Test Wish List 004 ****************************
