@@ -8123,3 +8123,25 @@
 08/17/2025 04:21:04 PM |      INFO | test_shopping_cart.py:334 | **************************** Verifying Test Shopping Cart 010 ***************************
 08/17/2025 04:21:04 PM |      INFO | test_shopping_cart.py:338 | ************** Test Shopping Cart 010 is Passed ***************
 08/17/2025 04:21:04 PM |      INFO | test_shopping_cart.py:343 | **************************** End Of Test Shopping Cart 010 ***************************
+08/17/2025 04:27:58 PM |      INFO | test_shopping_cart.py:310 | **************************** Test Shopping Cart 010 is Start ***************************
+08/17/2025 04:28:01 PM |      INFO | test_shopping_cart.py:313 | Navigating to the base url
+08/17/2025 04:28:01 PM |      INFO | test_shopping_cart.py:316 | Entering iMac to the search text box field
+08/17/2025 04:28:04 PM |      INFO | test_shopping_cart.py:318 | Clicking on the search icon button
+08/17/2025 04:28:05 PM |      INFO | test_shopping_cart.py:321 | Clicking on the product display in search result
+08/17/2025 04:28:05 PM |      INFO | test_shopping_cart.py:324 | Clicking on the product in product display page
+08/17/2025 04:28:06 PM |      INFO | test_shopping_cart.py:326 | Clicking on the shopping cart link display in success message
+08/17/2025 04:28:06 PM |      INFO | test_shopping_cart.py:329 | Clicking on the remove icon option
+08/17/2025 04:28:06 PM |      INFO | test_shopping_cart.py:330 | **************************** Verifying Test Shopping Cart 010 ***************************
+08/17/2025 04:28:07 PM |      INFO | test_shopping_cart.py:333 | ************** Test Shopping Cart 010 is Passed ***************
+08/17/2025 04:28:07 PM |      INFO | test_shopping_cart.py:338 | **************************** End Of Test Shopping Cart 010 ***************************
+08/17/2025 04:28:31 PM |      INFO | test_shopping_cart.py:310 | **************************** Test Shopping Cart 010 is Start ***************************
+08/17/2025 04:28:32 PM |      INFO | test_shopping_cart.py:313 | Navigating to the base url
+08/17/2025 04:28:32 PM |      INFO | test_shopping_cart.py:316 | Entering iMac to the search text box field
+08/17/2025 04:28:32 PM |      INFO | test_shopping_cart.py:318 | Clicking on the search icon button
+08/17/2025 04:28:33 PM |      INFO | test_shopping_cart.py:321 | Clicking on the product display in search result
+08/17/2025 04:28:33 PM |      INFO | test_shopping_cart.py:324 | Clicking on the product in product display page
+08/17/2025 04:28:33 PM |      INFO | test_shopping_cart.py:326 | Clicking on the shopping cart link display in success message
+08/17/2025 04:28:33 PM |      INFO | test_shopping_cart.py:329 | Clicking on the remove icon option
+08/17/2025 04:28:33 PM |      INFO | test_shopping_cart.py:330 | **************************** Verifying Test Shopping Cart 010 ***************************
+08/17/2025 04:28:34 PM |      INFO | test_shopping_cart.py:333 | ************** Test Shopping Cart 010 is Passed ***************
+08/17/2025 04:28:34 PM |      INFO | test_shopping_cart.py:338 | **************************** End Of Test Shopping Cart 010 ***************************
