@@ -8145,3 +8145,9 @@
 08/17/2025 04:28:33 PM |      INFO | test_shopping_cart.py:330 | **************************** Verifying Test Shopping Cart 010 ***************************
 08/17/2025 04:28:34 PM |      INFO | test_shopping_cart.py:333 | ************** Test Shopping Cart 010 is Passed ***************
 08/17/2025 04:28:34 PM |      INFO | test_shopping_cart.py:338 | **************************** End Of Test Shopping Cart 010 ***************************
+08/17/2025 04:38:44 PM |      INFO | test_shopping_cart.py:104 | *************************** Test Shopping Cart 004 is Start *************************
+08/17/2025 04:38:45 PM |      INFO | test_shopping_cart.py:107 | Navigating to the base url
+08/17/2025 04:38:45 PM |      INFO | test_shopping_cart.py:110 | Clicking on the cart button
+08/17/2025 04:38:45 PM |      INFO | test_shopping_cart.py:112 | *************************** Verifying Test Shopping Cart 004 *************************
+08/17/2025 04:38:45 PM |      INFO | test_shopping_cart.py:117 | ***************** Test Shopping Cart 004 is Passed ***************
+08/17/2025 04:38:45 PM |      INFO | test_shopping_cart.py:124 | *************************** End Of Test Shopping Cart 004 *************************

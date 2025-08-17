@@ -1,7 +1,7 @@
-from jinja2.nodes import Continue
+from selenium.common import TimeoutException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
-from selenium.webdriver.support import expected_conditions  as EC
+from selenium.webdriver.support import expected_conditions as EC
 
 
 class ShoppingCartPage:
@@ -13,7 +13,6 @@ class ShoppingCartPage:
     updateButton = (By.XPATH, "//button[@type='submit']")
     removeIcon = (By.XPATH, "//button[@class='btn btn-danger']")
     emptyShoppingCartMessage = (By.XPATH, "//div[@id='content']//p[contains(text(),'Your shopping cart is empty!')]")
-
 
     def __init__(self, driver):
         self.driver = driver
@@ -37,13 +36,15 @@ class ShoppingCartPage:
         self.driver.execute_script("arguments[0].click();", shopping_cart_link)
 
     def click_on_remove_button(self):
-        remove_button = WebDriverWait(self.driver, 3, poll_frequency=1).until(
-            EC.presence_of_element_located(ShoppingCartPage.removeButton)
-        )
-        if remove_button:
+        try:
+            remove_button = WebDriverWait(self.driver, 3, poll_frequency=1).until(
+                EC.presence_of_element_located(ShoppingCartPage.removeButton)
+            )
             remove_button.click()
-        else:
-            Continue
+        except TimeoutException:
+            # Optionally log or handle the absence of the button
+            print("Remove button not found within timeout.")
+            pass  # or raise, depending on your framework's flow
 
     def set_quantity_of_the_product(self, quantity):
         quantity_field = self.driver.find_element(*ShoppingCartPage.quantityField)
@@ -67,4 +68,3 @@ class ShoppingCartPage:
             EC.presence_of_element_located(ShoppingCartPage.emptyShoppingCartMessage)
         )
         return text_message.text
-
