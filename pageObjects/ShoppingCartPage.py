@@ -11,6 +11,8 @@ class ShoppingCartPage:
     removeButton = (By.XPATH, "//i[@class='fa fa-times']")
     quantityField = (By.CSS_SELECTOR, "input[value='1']")
     updateButton = (By.XPATH, "//button[@type='submit']")
+    removeIcon = (By.XPATH, "//button[@class='btn btn-danger']")
+    emptyShoppingCartMessage = (By.XPATH, "//div[@id='content']//p[contains(text(),'Your shopping cart is empty!')]")
 
 
     def __init__(self, driver):
@@ -35,7 +37,7 @@ class ShoppingCartPage:
         self.driver.execute_script("arguments[0].click();", shopping_cart_link)
 
     def click_on_remove_button(self):
-        remove_button = WebDriverWait(self.driver, 10, poll_frequency=2).until(
+        remove_button = WebDriverWait(self.driver, 3, poll_frequency=1).until(
             EC.presence_of_element_located(ShoppingCartPage.removeButton)
         )
         if remove_button:
@@ -48,9 +50,21 @@ class ShoppingCartPage:
         quantity_field.clear()
         quantity_field.send_keys(quantity)
 
-    def clicking_on_update_quantity_button(self):
+    def click_on_update_quantity_button(self):
         update_button = WebDriverWait(self.driver, 10, poll_frequency=2).until(
             EC.presence_of_element_located(ShoppingCartPage.updateButton)
         )
         update_button.click()
+
+    def click_on_remove_icon(self):
+        remove_icon = WebDriverWait(self.driver, 10, poll_frequency=2).until(
+            EC.presence_of_element_located(ShoppingCartPage.removeIcon)
+        )
+        self.driver.execute_script("arguments[0].click();", remove_icon)
+
+    def get_empty_shopping_cart_message(self):
+        text_message = WebDriverWait(self.driver, 10, poll_frequency=2).until(
+            EC.presence_of_element_located(ShoppingCartPage.emptyShoppingCartMessage)
+        )
+        return text_message.text
 

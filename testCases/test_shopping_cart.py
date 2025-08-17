@@ -204,8 +204,10 @@ class Test_010_Shopping_Cart:
         product_name = self.driver.find_element(By.LINK_TEXT, "iMac").text
         model = self.driver.find_element(By.XPATH, "//td[normalize-space()='Product 14']").text
         quantity = self.driver.find_element(By.XPATH, "//*[@id='content']/form/div/table/tbody/tr/td[4]/div/input")
-        unit_price = self.driver.find_element(By.XPATH, "//body[1]/div[2]/div[2]/div[1]/form[1]/div[1]/table[1]/tbody[1]/tr[1]/td[5]").text
-        total = self.driver.find_element(By.XPATH, "//body[1]/div[2]/div[2]/div[1]/form[1]/div[1]/table[1]/tbody[1]/tr[1]/td[6]").text
+        unit_price = self.driver.find_element(By.XPATH,
+                                              "//body[1]/div[2]/div[2]/div[1]/form[1]/div[1]/table[1]/tbody[1]/tr[1]/td[5]").text
+        total = self.driver.find_element(By.XPATH,
+                                         "//body[1]/div[2]/div[2]/div[1]/form[1]/div[1]/table[1]/tbody[1]/tr[1]/td[6]").text
         if image.is_displayed():
             if product_name == "iMac":
                 if model == "Product 14":
@@ -256,10 +258,10 @@ class Test_010_Shopping_Cart:
         self.sc = ShoppingCartPage(self.driver)
         self.sc.set_quantity_of_the_product("2")
         self.logger.info("Entering the Updated quantity of the product")
-        self.sc.clicking_on_update_quantity_button()
+        self.sc.click_on_update_quantity_button()
         self.logger.info("Clicking on the update quantity button")
         self.logger.info("***************************** Verifying Test Shopping Cart 008 *****************************")
-        if  'Success: You have modified your shopping cart!' in self.pc.success_message():
+        if 'Success: You have modified your shopping cart!' in self.pc.success_message():
             assert True
             self.logger.info("************ Test Shopping Cart 008 is Passed ************")
         else:
@@ -291,7 +293,7 @@ class Test_010_Shopping_Cart:
         self.sc = ShoppingCartPage(self.driver)
         self.sc.set_quantity_of_the_product("-1")
         self.logger.info("Entering the Updated quantity of the product")
-        self.sc.clicking_on_update_quantity_button()
+        self.sc.click_on_update_quantity_button()
         self.logger.info("Clicking on the update quantity button")
         self.logger.info("***************************** Verifying Test Shopping Cart 009 *****************************")
         if 'Warning: provide a positive numerical value' in self.pc.success_message():
@@ -303,27 +305,35 @@ class Test_010_Shopping_Cart:
             assert False
         self.logger.info("***************************** End Of Test Shopping Cart 009 *****************************")
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    @pytest.mark.sanity
+    def test_shopping_cart_010(self, setup):
+        self.logger.info("**************************** Test Shopping Cart 010 is Start ***************************")
+        self.driver = setup
+        self.driver.get(self.baseURL)
+        self.logger.info("Navigating to the base url")
+        self.sf = SearchPage(self.driver)
+        self.sf.search_product("iMac")
+        self.logger.info("Entering iMac to the search text box field")
+        self.sf.click_on_search_button()
+        self.logger.info("Clicking on the search icon button")
+        self.pc = ProductComparePage(self.driver)
+        self.pc.click_on_the_product_display_in_search_result()
+        self.logger.info("Clicking on the product display in search result")
+        self.pd = ProductDisplayPage(self.driver)
+        self.pd.click_on_add_to_cart_button_on_product_display_page()
+        self.logger.info("Clicking on the product in product display page")
+        self.pc.click_on_shopping_cart_link()
+        self.logger.info("Clicking on the shopping cart link display in success message")
+        self.sc = ShoppingCartPage(self.driver)
+        self.sc.click_on_remove_icon()
+        self.logger.info("Clicking on the remove icon option")
+        self.logger.info("**************************** Verifying Test Shopping Cart 010 ***************************")
+        if self.sc.get_empty_shopping_cart_message() == "Your shopping cart is empty!":
+            assert True
+            self.logger.info("************** Test Shopping Cart 010 is Passed ***************")
+        else:
+            self.logger.error(f"Actual message: {self.sc.get_empty_shopping_cart_message()}")
+            self.logger.error("************** Test Shopping Cart 010 is Failed ***************")
+            assert False
+        self.logger.info("**************************** End Of Test Shopping Cart 010 ***************************")
 
