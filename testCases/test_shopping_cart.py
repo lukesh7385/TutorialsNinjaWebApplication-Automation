@@ -337,3 +337,42 @@ class Test_010_Shopping_Cart:
             assert False
         self.logger.info("**************************** End Of Test Shopping Cart 010 ***************************")
 
+    @pytest.mark.sanity
+    def test_shopping_cart_011(self, setup):
+        self.logger.info("***************************** Test Shopping Cart 011 is Start *****************************")
+        self.driver = setup
+        self.driver.get(self.baseURL)
+        self.logger.info("Navigating to the base url")
+        self.sf = SearchPage(self.driver)
+        self.sf.search_product("iMac")
+        self.logger.info("Entering iMac to the search text box field")
+        self.sf.click_on_search_button()
+        self.logger.info("Clicking on the search icon button")
+        self.pc = ProductComparePage(self.driver)
+        self.pc.click_on_the_product_display_in_search_result()
+        self.logger.info("Clicking on the product display in search page")
+        self.pd = ProductDisplayPage(self.driver)
+        self.pd.click_on_add_to_cart_button_on_product_display_page()
+        self.logger.info("Clicking on the add to cart button on product display page")
+        self.pc.click_on_shopping_cart_link()
+        self.logger.info("Clicking on the shopping cart link display in success message")
+        self.logger.info("***************************** Verifying Test Shopping Cart 011 *****************************")
+        heading = self.driver.find_element(By.XPATH, "//h1[contains(text(),'Shopping Cart')]").text
+        if "Shopping Cart" in heading:
+            if self.driver.title == "Shopping Cart":
+                if "cart" in self.driver.current_url:
+                    assert True
+                    self.logger.info("*************** Test Shopping Cart 011 is Passed ****************")
+                else:
+                    self.logger.error("*************** Test Shopping Cart 011 is Failed ****************")
+                    assert False
+            else:
+                self.logger.error("*************** Test Shopping Cart 011 is Failed ****************")
+                assert False
+        else:
+            self.logger.error("*************** Test Shopping Cart 011 is Failed ****************")
+            assert False
+        self.logger.info("***************************** End Of Test Shopping Cart 011 *****************************")
+
+
+
