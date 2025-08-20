@@ -7,6 +7,7 @@ from pageObjects.SearchPage import SearchPage
 from pageObjects.ShoppingCartPage import ShoppingCartPage
 from utilities.customLogger import LogGen
 from utilities.readProperties import ReadConfig
+from pageObjects.WishListPage import WishListPage
 
 
 @pytest.mark.usefixtures("setup", "log_on_failure")
@@ -373,6 +374,47 @@ class Test_010_Shopping_Cart:
             self.logger.error("*************** Test Shopping Cart 011 is Failed ****************")
             assert False
         self.logger.info("***************************** End Of Test Shopping Cart 011 *****************************")
+
+    @pytest.mark.sanity
+    def test_shopping_cart_012(self, setup):
+        self.logger.info("*************************** Test Shopping Cart 012 is Start ****************************")
+        self.driver = setup
+        self.driver.get(self.baseURL)
+        self.logger.info("Navigating to the base url")
+        self.sf = SearchPage(self.driver)
+        self.sf.search_product("iMac")
+        self.logger.info("Entering iMac product to the search text box field")
+        self.sf.click_on_search_button()
+        self.logger.info("Clicking on the search icon button")
+        self.pc = ProductComparePage(self.driver)
+        self.pc.click_on_the_product_display_in_search_result()
+        self.logger.info("Clicking on the product display in search result")
+        self.pd = ProductDisplayPage(self.driver)
+        self.pd.click_on_add_to_cart_button_on_product_display_page()
+        self.logger.info("Clicking on the add to cart button")
+        self.pc.click_on_shopping_cart_link()
+        self.logger.info("Clicking on the shopping cart link")
+        self.logger.info("************************** Verifying Test Shopping Cart 012 **************************")
+        self.wl = WishListPage(self.driver)
+        self.sc = ShoppingCartPage(self.driver)
+        if self.wl.is_enable_and_is_display(self.sc.homeBreadcrumb):
+            self.sc.click_on_home_breadcrumb()
+            self.logger.info("Clicking on the home breadcrumb option")
+            if self.driver.title == "Your Store":
+                assert True
+                self.logger.info("*************** Test Shopping Cart 012 is Passed **************")
+            else:
+                self.logger.error("*************** Test Shopping Cart 012 is Failed **************")
+                assert False
+        else:
+            self.logger.error("*************** Test Shopping Cart 012 is Failed **************")
+            assert False
+        self.logger.info("************************** End Of Test Shopping Cart 012 **************************")
+
+
+
+
+
 
 
 

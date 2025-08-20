@@ -21,6 +21,7 @@ class WishListPage:
     accountBreadcrumbOption = (By.LINK_TEXT, "Account")
     myWishListBreadcrumbOption = (By.LINK_TEXT, "My Wish List")
 
+
     def __init__(self, driver):
         self.driver = driver
 
@@ -153,3 +154,6 @@ class WishListPage:
             EC.presence_of_element_located(locator)
         )
         return web_element.is_displayed() and web_element.is_enabled()
+
+    def click_on_home_breadcrumb(self):
+        self.driver.find_element

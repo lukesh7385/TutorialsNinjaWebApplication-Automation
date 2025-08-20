@@ -13,6 +13,8 @@ class ShoppingCartPage:
     updateButton = (By.XPATH, "//button[@type='submit']")
     removeIcon = (By.XPATH, "//button[@class='btn btn-danger']")
     emptyShoppingCartMessage = (By.XPATH, "//div[@id='content']//p[contains(text(),'Your shopping cart is empty!')]")
+    shoppingCartBreadcrumb = (By.LINK_TEXT, "Shopping Cart")
+    homeBreadcrumb = (By.XPATH, "//*[@id='checkout-cart']/ul/li[1]/a")
 
     def __init__(self, driver):
         self.driver = driver
@@ -68,3 +70,9 @@ class ShoppingCartPage:
             EC.presence_of_element_located(ShoppingCartPage.emptyShoppingCartMessage)
         )
         return text_message.text
+
+    def click_on_home_breadcrumb(self):
+        home = WebDriverWait(self.driver, 10, poll_frequency= 2).until(
+            EC.presence_of_element_located(ShoppingCartPage.homeBreadcrumb)
+        )
+        self.driver.execute_script("arguments[0].click();", home)
