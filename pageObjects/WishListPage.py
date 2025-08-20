@@ -155,5 +155,3 @@ class WishListPage:
         )
         return web_element.is_displayed() and web_element.is_enabled()
 
-    def click_on_home_breadcrumb(self):
-        self.driver.find_element
