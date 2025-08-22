@@ -8289,3 +8289,42 @@
 08/20/2025 03:38:04 PM |      INFO | test_shopping_cart.py:402 | Clicking on the home breadcrumb option
 08/20/2025 03:38:04 PM |      INFO | test_shopping_cart.py:405 | *************** Test Shopping Cart 012 is Passed **************
 08/20/2025 03:38:04 PM |      INFO | test_shopping_cart.py:412 | ************************** End Of Test Shopping Cart 012 **************************
+08/23/2025 02:01:30 AM |      INFO | test_home_page.py:17 | ************************* Test Home Page 001 is Start *************************
+08/23/2025 02:01:34 AM |      INFO | test_home_page.py:20 | Navigating to the base url
+08/23/2025 02:01:34 AM |      INFO | test_home_page.py:23 | Entering iMac to the search text box field
+08/23/2025 02:01:34 AM |      INFO | test_home_page.py:25 | Clicking on the search icon button
+08/23/2025 02:01:34 AM |      INFO | test_home_page.py:28 | Clicking on the add to cart button
+08/23/2025 02:01:35 AM |      INFO | test_home_page.py:31 | Clicking on the shopping cart link in success message
+08/23/2025 02:01:35 AM |      INFO | test_home_page.py:34 | Clicking on the continue shopping button
+08/23/2025 02:01:35 AM |      INFO | test_home_page.py:35 | ************************* Verifying Test Home Page 001 *************************
+08/23/2025 02:01:35 AM |      INFO | test_home_page.py:38 | ************* Test Home Page 001 is Passed *************
+08/23/2025 02:01:35 AM |      INFO | test_home_page.py:42 | ************************* End Of Test Home Page 001 *************************
+08/23/2025 02:02:27 AM |      INFO | test_home_page.py:17 | ************************* Test Home Page 001 is Start *************************
+08/23/2025 02:02:29 AM |      INFO | test_home_page.py:20 | Navigating to the base url
+08/23/2025 02:02:29 AM |      INFO | test_home_page.py:23 | Entering iMac to the search text box field
+08/23/2025 02:02:29 AM |      INFO | test_home_page.py:25 | Clicking on the search icon button
+08/23/2025 02:02:29 AM |      INFO | test_home_page.py:28 | Clicking on the add to cart button
+08/23/2025 02:02:29 AM |      INFO | test_home_page.py:31 | Clicking on the shopping cart link in success message
+08/23/2025 02:02:30 AM |      INFO | test_home_page.py:34 | Clicking on the continue shopping button
+08/23/2025 02:02:30 AM |      INFO | test_home_page.py:35 | ************************* Verifying Test Home Page 001 *************************
+08/23/2025 02:02:30 AM |     ERROR | test_home_page.py:40 | ************* Test Home Page 001 is Failed *************
+08/23/2025 02:04:08 AM |      INFO | test_home_page.py:17 | ************************* Test Home Page 001 is Start *************************
+08/23/2025 02:04:09 AM |      INFO | test_home_page.py:20 | Navigating to the base url
+08/23/2025 02:04:10 AM |      INFO | test_home_page.py:23 | Entering iMac to the search text box field
+08/23/2025 02:04:10 AM |      INFO | test_home_page.py:25 | Clicking on the search icon button
+08/23/2025 02:04:10 AM |      INFO | test_home_page.py:28 | Clicking on the add to cart button
+08/23/2025 02:04:10 AM |      INFO | test_home_page.py:31 | Clicking on the shopping cart link in success message
+08/23/2025 02:04:11 AM |      INFO | test_home_page.py:34 | Clicking on the continue shopping button
+08/23/2025 02:04:11 AM |      INFO | test_home_page.py:35 | ************************* Verifying Test Home Page 001 *************************
+08/23/2025 02:04:11 AM |     ERROR | test_home_page.py:40 | Actual title: Your Store  Expected title: Your Store
+08/23/2025 02:04:11 AM |     ERROR | test_home_page.py:41 | ************* Test Home Page 001 is Failed *************
+08/23/2025 02:04:55 AM |      INFO | test_home_page.py:17 | ************************* Test Home Page 001 is Start *************************
+08/23/2025 02:04:59 AM |      INFO | test_home_page.py:20 | Navigating to the base url
+08/23/2025 02:04:59 AM |      INFO | test_home_page.py:23 | Entering iMac to the search text box field
+08/23/2025 02:04:59 AM |      INFO | test_home_page.py:25 | Clicking on the search icon button
+08/23/2025 02:04:59 AM |      INFO | test_home_page.py:28 | Clicking on the add to cart button
+08/23/2025 02:05:00 AM |      INFO | test_home_page.py:31 | Clicking on the shopping cart link in success message
+08/23/2025 02:05:00 AM |      INFO | test_home_page.py:34 | Clicking on the continue shopping button
+08/23/2025 02:05:00 AM |      INFO | test_home_page.py:35 | ************************* Verifying Test Home Page 001 *************************
+08/23/2025 02:05:00 AM |      INFO | test_home_page.py:38 | ************* Test Home Page 001 is Passed *************
+08/23/2025 02:05:00 AM |      INFO | test_home_page.py:43 | ************************* End Of Test Home Page 001 *************************
