@@ -8328,3 +8328,25 @@
 08/23/2025 02:05:00 AM |      INFO | test_home_page.py:35 | ************************* Verifying Test Home Page 001 *************************
 08/23/2025 02:05:00 AM |      INFO | test_home_page.py:38 | ************* Test Home Page 001 is Passed *************
 08/23/2025 02:05:00 AM |      INFO | test_home_page.py:43 | ************************* End Of Test Home Page 001 *************************
+09/09/2025 10:56:46 AM |      INFO | test_shopping_cart.py:380 | *************************** Test Shopping Cart 012 is Start ****************************
+09/09/2025 10:56:47 AM |      INFO | test_shopping_cart.py:383 | Navigating to the base url
+09/09/2025 10:56:47 AM |      INFO | test_shopping_cart.py:386 | Entering iMac product to the search text box field
+09/09/2025 10:56:47 AM |      INFO | test_shopping_cart.py:388 | Clicking on the search icon button
+09/09/2025 10:56:48 AM |      INFO | test_shopping_cart.py:391 | Clicking on the product display in search result
+09/09/2025 10:56:48 AM |      INFO | test_shopping_cart.py:394 | Clicking on the add to cart button
+09/09/2025 10:56:48 AM |      INFO | test_shopping_cart.py:396 | Clicking on the shopping cart link
+09/09/2025 10:56:48 AM |      INFO | test_shopping_cart.py:397 | ************************** Verifying Test Shopping Cart 012 **************************
+09/09/2025 10:56:48 AM |      INFO | test_shopping_cart.py:402 | Clicking on the home breadcrumb option
+09/09/2025 10:56:48 AM |      INFO | test_shopping_cart.py:405 | *************** Test Shopping Cart 012 is Passed **************
+09/09/2025 10:56:48 AM |      INFO | test_shopping_cart.py:412 | ************************** End Of Test Shopping Cart 012 **************************
+09/09/2025 10:56:58 AM |      INFO | test_shopping_cart.py:380 | *************************** Test Shopping Cart 012 is Start ****************************
+09/09/2025 10:56:59 AM |      INFO | test_shopping_cart.py:383 | Navigating to the base url
+09/09/2025 10:56:59 AM |      INFO | test_shopping_cart.py:386 | Entering iMac product to the search text box field
+09/09/2025 10:56:59 AM |      INFO | test_shopping_cart.py:388 | Clicking on the search icon button
+09/09/2025 10:57:00 AM |      INFO | test_shopping_cart.py:391 | Clicking on the product display in search result
+09/09/2025 10:57:00 AM |      INFO | test_shopping_cart.py:394 | Clicking on the add to cart button
+09/09/2025 10:57:00 AM |      INFO | test_shopping_cart.py:396 | Clicking on the shopping cart link
+09/09/2025 10:57:00 AM |      INFO | test_shopping_cart.py:397 | ************************** Verifying Test Shopping Cart 012 **************************
+09/09/2025 10:57:01 AM |      INFO | test_shopping_cart.py:402 | Clicking on the home breadcrumb option
+09/09/2025 10:57:01 AM |      INFO | test_shopping_cart.py:405 | *************** Test Shopping Cart 012 is Passed **************
+09/09/2025 10:57:01 AM |      INFO | test_shopping_cart.py:412 | ************************** End Of Test Shopping Cart 012 **************************
