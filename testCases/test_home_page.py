@@ -5,6 +5,7 @@ from pageObjects.SearchPage import SearchPage
 from utilities.readProperties import ReadConfig
 from pageObjects.AddToCartPage import AddToCartPage
 from pageObjects.ProductComparePage import ProductComparePage
+from pageObjects.WishListPage import WishListPage
 from pageObjects.HomePage import HomePage
 
 @pytest.mark.usefixtures("setup", "log_on_failure")
@@ -41,6 +42,34 @@ class Test_011_Home_Page:
             self.logger.error("************* Test Home Page 001 is Failed *************")
             assert False
         self.logger.info("************************* End Of Test Home Page 001 *************************")
+
+    @pytest.mark.skip("order success page is not available yet")
+    @pytest.mark.sanity
+    def test_home_page_002(self, setup):
+        pass
+
+    @pytest.mark.sanity
+    def test_home_page_003(self, setup):
+        self.logger.info("************************* Test Home Page 003 is Start *************************")
+        self.driver = setup
+        self.driver.get(self.baseURL)
+        self.logger.info("Navigating to the base url")
+        self.wl = WishListPage(self.driver)
+        self.wl.click_on_wish_list_link_from_footer_option()
+        self.logger.info("Clicking on the wish list footer option")
+        self.wl.click_on_store_logo()
+        self.logger.info("Clicking on the store logo")
+        self.logger.info("************************* Verifying Test Home Page 003 *************************")
+        if self.driver.title == "Your Store":
+            assert True
+            self.logger.info("**************** Test Home Page 003 is Passed ***************")
+        else:
+            self.logger.error("**************** Test Home Page 003 is Failed ***************")
+            assert False
+        self.logger.info("************************* End Of Test Home Page 003 *************************")
+
+
+
 
 
 

@@ -8350,3 +8350,10 @@
 09/09/2025 10:57:01 AM |      INFO | test_shopping_cart.py:402 | Clicking on the home breadcrumb option
 09/09/2025 10:57:01 AM |      INFO | test_shopping_cart.py:405 | *************** Test Shopping Cart 012 is Passed **************
 09/09/2025 10:57:01 AM |      INFO | test_shopping_cart.py:412 | ************************** End Of Test Shopping Cart 012 **************************
+09/16/2025 03:46:58 PM |      INFO | test_home_page.py:53 | ************************* Test Home Page 003 is Start *************************
+09/16/2025 03:47:02 PM |      INFO | test_home_page.py:56 | Navigating to the base url
+09/16/2025 03:47:03 PM |      INFO | test_home_page.py:59 | Clicking on the wish list footer option
+09/16/2025 03:47:04 PM |      INFO | test_home_page.py:61 | Clicking on the store logo
+09/16/2025 03:47:04 PM |      INFO | test_home_page.py:62 | ************************* Verifying Test Home Page 003 *************************
+09/16/2025 03:47:04 PM |      INFO | test_home_page.py:65 | **************** Test Home Page 003 is Passed ***************
+09/16/2025 03:47:04 PM |      INFO | test_home_page.py:69 | ************************* End Of Test Home Page 003 *************************
