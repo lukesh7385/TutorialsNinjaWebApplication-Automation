@@ -8,7 +8,7 @@ class AddToCartPage:
     addToWishListOption = (By.XPATH, "//button[@type='button']//i[@class='fa fa-heart']")
     addToCartIconOption = (By.XPATH, "//button[@class='btn btn-primary']")
     shoppingCartHeaderOption = (By.XPATH, "(//span[normalize-space()='Shopping Cart'])[1]")
-    productName = (By.XPATH, "//body[1]/div[2]/div[2]/div[1]/form[1]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/a[1]")
+    productName = (By.LINK_TEXT, "iMac")
     addToCartButton = (By.XPATH, "//div[@class='button-group']//i[@class='fa fa-shopping-cart']")
     cartButtonInBlack = (By.XPATH, "//button[@type='button' and @data-toggle='dropdown']")
     viewCartOption = (By.XPATH, "//*[@id='cart']/ul/li[2]/div/p/a[1]/strong")

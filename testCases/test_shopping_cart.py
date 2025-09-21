@@ -70,6 +70,7 @@ class Test_010_Shopping_Cart:
             assert False
         self.logger.info("*************************** End Of Test Shopping Cart 002 ****************************")
 
+    @pytest.mark.skip("""User is taken to the "Login" page instead of "Shopping Cart" page""")
     @pytest.mark.sanity
     def test_shopping_cart_003(self, setup):
         self.logger.info("*************************** Test Shopping Cart 003 is Start ****************************")

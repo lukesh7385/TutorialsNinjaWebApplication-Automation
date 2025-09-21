@@ -92,7 +92,7 @@ class Test_008_Add_To_Cart:
             time.sleep(2)
             self.atc.click_on_sopping_cart_header_option()
             self.logger.info("Clicking on sopping cart header option")
-            if self.atc.is_title_of_the_page("Shopping Cart"):
+            if self.driver.title == "Shopping Cart":
                 if self.atc.get_product_name() == "iMac":
                     assert True
                     self.logger.info("************* Test Add To Cart 002 is Passed ************")

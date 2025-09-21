@@ -1,3 +1,5 @@
+import time
+
 from selenium.common import TimeoutException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
@@ -35,6 +37,7 @@ class ShoppingCartPage:
         shopping_cart_link = WebDriverWait(self.driver, 10, poll_frequency=2).until(
             EC.element_to_be_clickable(ShoppingCartPage.shoppingCartLink)
         )
+        time.sleep(2)
         self.driver.execute_script("arguments[0].click();", shopping_cart_link)
 
     def click_on_remove_button(self):
