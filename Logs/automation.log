@@ -9758,3 +9758,113 @@
 09/21/2025 05:38:24 PM |      INFO | test_add_to_cart.py:353 | Clicking on the shopping cart link
 09/21/2025 05:38:24 PM |      INFO | test_add_to_cart.py:358 | ************** Test Add To Cart 009 is Passed *************
 09/21/2025 05:38:24 PM |      INFO | test_add_to_cart.py:368 | *************************** End Of Test Add To Cart 009 ***************************
+10/06/2025 12:28:00 PM |      INFO | test_home_page.py:18 | ************************* Test Home Page 001 is Start *************************
+10/06/2025 12:28:01 PM |      INFO | test_home_page.py:21 | Navigating to the base url
+10/06/2025 12:28:01 PM |      INFO | test_home_page.py:24 | Entering iMac to the search text box field
+10/06/2025 12:28:01 PM |      INFO | test_home_page.py:26 | Clicking on the search icon button
+10/06/2025 12:28:01 PM |      INFO | test_home_page.py:29 | Clicking on the add to cart button
+10/06/2025 12:28:02 PM |      INFO | test_home_page.py:32 | Clicking on the shopping cart link in success message
+10/06/2025 12:28:02 PM |      INFO | test_home_page.py:35 | Clicking on the continue shopping button
+10/06/2025 12:28:02 PM |      INFO | test_home_page.py:36 | ************************* Verifying Test Home Page 001 *************************
+10/06/2025 12:28:02 PM |      INFO | test_home_page.py:39 | ************* Test Home Page 001 is Passed *************
+10/06/2025 12:28:02 PM |      INFO | test_home_page.py:44 | ************************* End Of Test Home Page 001 *************************
+10/06/2025 12:28:29 PM |      INFO | test_home_page.py:18 | ************************* Test Home Page 001 is Start *************************
+10/06/2025 12:28:30 PM |      INFO | test_home_page.py:21 | Navigating to the base url
+10/06/2025 12:28:30 PM |      INFO | test_home_page.py:24 | Entering iMac to the search text box field
+10/06/2025 12:28:31 PM |      INFO | test_home_page.py:26 | Clicking on the search icon button
+10/06/2025 12:28:31 PM |      INFO | test_home_page.py:29 | Clicking on the add to cart button
+10/06/2025 12:28:31 PM |      INFO | test_home_page.py:32 | Clicking on the shopping cart link in success message
+10/06/2025 12:28:31 PM |      INFO | test_home_page.py:35 | Clicking on the continue shopping button
+10/06/2025 12:28:31 PM |      INFO | test_home_page.py:36 | ************************* Verifying Test Home Page 001 *************************
+10/06/2025 12:28:31 PM |      INFO | test_home_page.py:39 | ************* Test Home Page 001 is Passed *************
+10/06/2025 12:28:31 PM |      INFO | test_home_page.py:44 | ************************* End Of Test Home Page 001 *************************
+10/06/2025 12:28:35 PM |      INFO | test_home_page.py:53 | ************************* Test Home Page 003 is Start *************************
+10/06/2025 12:28:35 PM |      INFO | test_home_page.py:56 | Navigating to the base url
+10/06/2025 12:28:36 PM |      INFO | test_home_page.py:59 | Clicking on the wish list footer option
+10/06/2025 12:28:36 PM |      INFO | test_home_page.py:61 | Clicking on the store logo
+10/06/2025 12:28:36 PM |      INFO | test_home_page.py:62 | ************************* Verifying Test Home Page 003 *************************
+10/06/2025 12:28:36 PM |      INFO | test_home_page.py:65 | **************** Test Home Page 003 is Passed ***************
+10/06/2025 12:28:36 PM |      INFO | test_home_page.py:69 | ************************* End Of Test Home Page 003 *************************
+10/06/2025 12:52:16 PM |      INFO | test_home_page.py:74 | *************************** Test Home Page 004 is Start *******************************
+10/06/2025 12:52:17 PM |      INFO | test_home_page.py:77 | Navigating to the base url
+10/06/2025 12:54:12 PM |      INFO | test_home_page.py:74 | *************************** Test Home Page 004 is Start *******************************
+10/06/2025 12:54:13 PM |      INFO | test_home_page.py:77 | Navigating to the base url
+10/06/2025 12:55:46 PM |      INFO | test_home_page.py:74 | *************************** Test Home Page 004 is Start *******************************
+10/06/2025 12:55:47 PM |      INFO | test_home_page.py:77 | Navigating to the base url
+10/06/2025 12:58:14 PM |      INFO | test_home_page.py:74 | *************************** Test Home Page 004 is Start *******************************
+10/06/2025 12:58:15 PM |      INFO | test_home_page.py:77 | Navigating to the base url
+10/06/2025 12:58:19 PM |      INFO | test_home_page.py:85 | Clicking on the pc zero product option
+10/06/2025 12:58:30 PM |      INFO | test_home_page.py:74 | *************************** Test Home Page 004 is Start *******************************
+10/06/2025 12:58:31 PM |      INFO | test_home_page.py:77 | Navigating to the base url
+10/06/2025 01:01:28 PM |      INFO | test_home_page.py:74 | *************************** Test Home Page 004 is Start *******************************
+10/06/2025 01:01:29 PM |      INFO | test_home_page.py:77 | Navigating to the base url
+10/06/2025 01:01:35 PM |      INFO | test_home_page.py:85 | Clicking on the pc zero product option
+10/06/2025 01:02:34 PM |      INFO | test_product_compare.py:142 | ***************** Test Product Compare 004 Is Start *****************
+10/06/2025 01:02:35 PM |      INFO | test_product_compare.py:144 | Navigating to the url
+10/06/2025 01:02:37 PM |      INFO | test_product_compare.py:148 | hovering on desktops option and clicking on show all desktops option
+10/06/2025 01:02:38 PM |      INFO | test_product_compare.py:150 | Clicking on list view button
+10/06/2025 01:02:38 PM |      INFO | test_product_compare.py:151 | *************** Verifying Test Product Compare 004 ****************
+10/06/2025 01:02:38 PM |      INFO | test_product_compare.py:156 | clicking on compare this product option available on the Product that is displayed in the Product Category page
+10/06/2025 01:02:38 PM |      INFO | test_product_compare.py:160 | clicking on product comparison link
+10/06/2025 01:02:38 PM |      INFO | test_product_compare.py:163 | *********** Test Product Compare 004 is Passed ***********
+10/06/2025 01:02:41 PM |      INFO | test_product_compare.py:177 | ********************* End Test Product Compare 004 *************************
+10/06/2025 01:03:43 PM |      INFO | test_home_page.py:74 | *************************** Test Home Page 004 is Start *******************************
+10/06/2025 01:03:44 PM |      INFO | test_home_page.py:77 | Navigating to the base url
+10/06/2025 01:05:42 PM |      INFO | test_home_page.py:74 | *************************** Test Home Page 004 is Start *******************************
+10/06/2025 01:05:43 PM |      INFO | test_home_page.py:77 | Navigating to the base url
+10/06/2025 01:05:47 PM |      INFO | test_home_page.py:86 | Clicking on the pc zero product option
+10/06/2025 01:06:47 PM |      INFO | test_home_page.py:74 | *************************** Test Home Page 004 is Start *******************************
+10/06/2025 01:06:48 PM |      INFO | test_home_page.py:77 | Navigating to the base url
+10/06/2025 01:06:54 PM |      INFO | test_home_page.py:85 | Clicking on the pc zero product option
+10/06/2025 01:07:13 PM |      INFO | test_home_page.py:74 | *************************** Test Home Page 004 is Start *******************************
+10/06/2025 01:07:14 PM |      INFO | test_home_page.py:77 | Navigating to the base url
+10/06/2025 01:08:00 PM |      INFO | test_home_page.py:74 | *************************** Test Home Page 004 is Start *******************************
+10/06/2025 01:08:01 PM |      INFO | test_home_page.py:77 | Navigating to the base url
+10/06/2025 01:09:01 PM |      INFO | test_home_page.py:74 | *************************** Test Home Page 004 is Start *******************************
+10/06/2025 01:09:01 PM |      INFO | test_home_page.py:77 | Navigating to the base url
+10/06/2025 01:10:04 PM |      INFO | test_home_page.py:74 | *************************** Test Home Page 004 is Start *******************************
+10/06/2025 01:10:05 PM |      INFO | test_home_page.py:77 | Navigating to the base url
+10/06/2025 01:10:38 PM |      INFO | test_home_page.py:74 | *************************** Test Home Page 004 is Start *******************************
+10/06/2025 01:10:39 PM |      INFO | test_home_page.py:77 | Navigating to the base url
+10/06/2025 01:12:04 PM |      INFO | test_home_page.py:74 | *************************** Test Home Page 004 is Start *******************************
+10/06/2025 01:12:05 PM |      INFO | test_home_page.py:77 | Navigating to the base url
+10/06/2025 01:15:33 PM |      INFO | test_home_page.py:74 | *************************** Test Home Page 004 is Start *******************************
+10/06/2025 01:15:33 PM |      INFO | test_home_page.py:77 | Navigating to the base url
+10/06/2025 01:17:03 PM |      INFO | test_home_page.py:74 | *************************** Test Home Page 004 is Start *******************************
+10/06/2025 01:17:04 PM |      INFO | test_home_page.py:77 | Navigating to the base url
+10/06/2025 01:17:22 PM |      INFO | test_home_page.py:74 | *************************** Test Home Page 004 is Start *******************************
+10/06/2025 01:17:23 PM |      INFO | test_home_page.py:77 | Navigating to the base url
+10/06/2025 01:21:18 PM |      INFO | test_home_page.py:74 | *************************** Test Home Page 004 is Start *******************************
+10/06/2025 01:21:19 PM |      INFO | test_home_page.py:77 | Navigating to the base url
+10/06/2025 01:32:30 PM |      INFO | test_home_page.py:75 | *************************** Test Home Page 004 is Start *******************************
+10/06/2025 01:32:31 PM |      INFO | test_home_page.py:78 | Navigating to the base url
+10/06/2025 01:32:32 PM |      INFO | test_home_page.py:82 | hovering on desktop option
+10/06/2025 01:32:32 PM |      INFO | test_home_page.py:85 | Clicking on zero product option
+10/06/2025 01:32:33 PM |      INFO | test_home_page.py:88 | Clicking on continue button
+10/06/2025 01:32:33 PM |      INFO | test_home_page.py:89 | ************************* Verifying Test Home Page 004 ***************************
+10/06/2025 01:32:33 PM |      INFO | test_home_page.py:92 | ************ Test Home Page 004 Passed ************
+10/06/2025 01:32:33 PM |      INFO | test_home_page.py:96 | ************************* End of Test Home Page 004 ***************************
+10/06/2025 01:42:29 PM |      INFO | test_home_page.py:75 | *************************** Test Home Page 004 is Start *******************************
+10/06/2025 01:42:30 PM |      INFO | test_home_page.py:78 | Navigating to the base url
+10/06/2025 01:42:31 PM |      INFO | test_home_page.py:82 | hovering on desktop option
+10/06/2025 01:42:32 PM |      INFO | test_home_page.py:85 | Clicking on zero product option
+10/06/2025 01:42:32 PM |      INFO | test_home_page.py:88 | Clicking on continue button
+10/06/2025 01:42:32 PM |      INFO | test_home_page.py:89 | ************************* Verifying Test Home Page 004 ***************************
+10/06/2025 01:42:32 PM |      INFO | test_home_page.py:92 | ************ Test Home Page 004 Passed ************
+10/06/2025 01:42:32 PM |      INFO | test_home_page.py:96 | ************************* End of Test Home Page 004 ***************************
+10/06/2025 01:42:44 PM |      INFO | test_home_page.py:75 | *************************** Test Home Page 004 is Start *******************************
+10/06/2025 01:42:45 PM |      INFO | test_home_page.py:78 | Navigating to the base url
+10/06/2025 01:42:46 PM |      INFO | test_home_page.py:82 | hovering on desktop option
+10/06/2025 01:42:47 PM |      INFO | test_home_page.py:85 | Clicking on zero product option
+10/06/2025 01:42:47 PM |      INFO | test_home_page.py:88 | Clicking on continue button
+10/06/2025 01:42:47 PM |      INFO | test_home_page.py:89 | ************************* Verifying Test Home Page 004 ***************************
+10/06/2025 01:42:47 PM |      INFO | test_home_page.py:92 | ************ Test Home Page 004 Passed ************
+10/06/2025 01:42:47 PM |      INFO | test_home_page.py:96 | ************************* End of Test Home Page 004 ***************************
+10/06/2025 01:42:58 PM |      INFO | test_home_page.py:75 | *************************** Test Home Page 004 is Start *******************************
+10/06/2025 01:42:59 PM |      INFO | test_home_page.py:78 | Navigating to the base url
+10/06/2025 01:43:00 PM |      INFO | test_home_page.py:82 | hovering on desktop option
+10/06/2025 01:43:00 PM |      INFO | test_home_page.py:85 | Clicking on zero product option
+10/06/2025 01:43:01 PM |      INFO | test_home_page.py:88 | Clicking on continue button
+10/06/2025 01:43:01 PM |      INFO | test_home_page.py:89 | ************************* Verifying Test Home Page 004 ***************************
+10/06/2025 01:43:01 PM |      INFO | test_home_page.py:92 | ************ Test Home Page 004 Passed ************
+10/06/2025 01:43:01 PM |      INFO | test_home_page.py:96 | ************************* End of Test Home Page 004 ***************************

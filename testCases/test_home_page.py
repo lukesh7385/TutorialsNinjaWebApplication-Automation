@@ -1,4 +1,5 @@
 import pytest
+from selenium.webdriver import ActionChains
 
 from utilities.customLogger import LogGen
 from pageObjects.SearchPage import SearchPage
@@ -7,6 +8,7 @@ from pageObjects.AddToCartPage import AddToCartPage
 from pageObjects.ProductComparePage import ProductComparePage
 from pageObjects.WishListPage import WishListPage
 from pageObjects.HomePage import HomePage
+from pageObjects.LogoutPage import LogoutPage
 
 @pytest.mark.usefixtures("setup", "log_on_failure")
 class Test_011_Home_Page:
@@ -68,7 +70,30 @@ class Test_011_Home_Page:
             assert False
         self.logger.info("************************* End Of Test Home Page 003 *************************")
 
-
+    @pytest.mark.sanity
+    def test_home_page_004(self, setup):
+        self.logger.info("*************************** Test Home Page 004 is Start *******************************")
+        self.driver = setup
+        self.driver.get(self.baseURL)
+        self.logger.info("Navigating to the base url")
+        self.pc = ProductComparePage(self.driver)
+        act = ActionChains(self.driver)
+        act.move_to_element(self.pc.desktops_option()).perform()
+        self.logger.info("hovering on desktop option")
+        self.hp = HomePage(self.driver)
+        self.hp.pc_zero_product_option()
+        self.logger.info("Clicking on zero product option")
+        self.lo = LogoutPage(self.driver)
+        self.lo.click_on_continue_button()
+        self.logger.info("Clicking on continue button")
+        self.logger.info("************************* Verifying Test Home Page 004 ***************************")
+        if self.driver.title == "Your Store":
+            assert True
+            self.logger.info("************ Test Home Page 004 Passed ************")
+        else:
+            self.logger.error("************ Test Home Page 004 Failed ************")
+            assert False
+        self.logger.info("************************* End of Test Home Page 004 ***************************")
 
 
 
