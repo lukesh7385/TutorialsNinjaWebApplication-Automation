@@ -1,14 +1,14 @@
 import pytest
 from selenium.webdriver import ActionChains
-
-from utilities.customLogger import LogGen
-from pageObjects.SearchPage import SearchPage
-from utilities.readProperties import ReadConfig
 from pageObjects.AddToCartPage import AddToCartPage
-from pageObjects.ProductComparePage import ProductComparePage
-from pageObjects.WishListPage import WishListPage
 from pageObjects.HomePage import HomePage
 from pageObjects.LogoutPage import LogoutPage
+from pageObjects.ProductComparePage import ProductComparePage
+from pageObjects.SearchPage import SearchPage
+from pageObjects.WishListPage import WishListPage
+from utilities.customLogger import LogGen
+from utilities.readProperties import ReadConfig
+
 
 @pytest.mark.usefixtures("setup", "log_on_failure")
 class Test_011_Home_Page:
@@ -95,9 +95,40 @@ class Test_011_Home_Page:
             assert False
         self.logger.info("************************* End of Test Home Page 004 ***************************")
 
-
-
-
-
-
-
+    @pytest.mark.sanity
+    def test_home_page_005(self, setup):
+        self.logger.info("************************** Test Home Page 005 is Start *************************")
+        self.driver = setup
+        self.driver.get(self.baseURL)
+        self.logger.info("Navigating to the base url")
+        self.logger.info("*********************** Verifying Home Page 005 ************************")
+        self.hm = HomePage(self.driver)
+        if self.hm.is_any_active_hero_image_visible():
+            self.logger.info("Hero image is display")
+            if self.hm.are_hero_images_auto_sliding(self.hm.heroImages):
+                self.logger.info("hero images auto sliding are working")
+                self.hm.hover_on_swiper_pagination_bullet_button()
+                self.logger.info("Hovering on bullet button")
+                self.hm.click_on_prev_arrow_button_on_the_hero_image()
+                self.logger.info("Clicking on the preview arrow button")
+                self.hm.click_on_back_arrow_button_on_the_hero_image()
+                self.logger.info("Clicking on the back arrow button")
+                self.hm.click_on_swiper_pagination_bullet_button()
+                self.logger.info("Clicking on the swiper pagination bullet button")
+                if self.hm.drag_swiper_image():
+                    assert True
+                    self.logger.info("holding and sliding the Hero images")
+                    self.logger.info("************* Test Home Page 005 is Passed ************")
+                else:
+                    self.logger.error("Not holding and sliding the Hero images")
+                    self.logger.error("************* Test Home Page 005 is Failed ************")
+                    assert False
+            else:
+                self.logger.info("hero images auto sliding are not working")
+                self.logger.error("************* Test Home Page 005 is Failed ************")
+                assert False
+        else:
+            self.logger.error("************* Test Home Page 005 is Failed ************")
+            self.logger.info("Hero image is not display")
+            assert False
+        self.logger.info("*********************** End Of Home Page 005 ************************")

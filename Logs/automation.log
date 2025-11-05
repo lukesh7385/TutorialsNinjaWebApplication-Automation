@@ -9868,3 +9868,533 @@
 10/06/2025 01:43:01 PM |      INFO | test_home_page.py:89 | ************************* Verifying Test Home Page 004 ***************************
 10/06/2025 01:43:01 PM |      INFO | test_home_page.py:92 | ************ Test Home Page 004 Passed ************
 10/06/2025 01:43:01 PM |      INFO | test_home_page.py:96 | ************************* End of Test Home Page 004 ***************************
+10/26/2025 02:44:07 PM |      INFO | test_home_page.py:75 | *************************** Test Home Page 004 is Start *******************************
+10/26/2025 02:44:07 PM |      INFO | test_home_page.py:78 | Navigating to the base url
+10/26/2025 02:44:08 PM |      INFO | test_home_page.py:82 | hovering on desktop option
+10/26/2025 02:44:08 PM |      INFO | test_home_page.py:85 | Clicking on zero product option
+10/26/2025 02:44:09 PM |      INFO | test_home_page.py:88 | Clicking on continue button
+10/26/2025 02:44:09 PM |      INFO | test_home_page.py:89 | ************************* Verifying Test Home Page 004 ***************************
+10/26/2025 02:44:09 PM |      INFO | test_home_page.py:92 | ************ Test Home Page 004 Passed ************
+10/26/2025 02:44:09 PM |      INFO | test_home_page.py:96 | ************************* End of Test Home Page 004 ***************************
+10/26/2025 04:14:57 PM |      INFO | test_home_page.py:100 | ************************** Test Home Page 005 is Start *************************
+10/26/2025 04:14:58 PM |      INFO | test_home_page.py:103 | Navigating to the base url
+10/26/2025 04:14:58 PM |      INFO | test_home_page.py:104 | *********************** Verifying Home Page 005 ************************
+10/26/2025 04:16:10 PM |      INFO | test_home_page.py:100 | ************************** Test Home Page 005 is Start *************************
+10/26/2025 04:16:10 PM |      INFO | test_home_page.py:103 | Navigating to the base url
+10/26/2025 04:16:10 PM |      INFO | test_home_page.py:104 | *********************** Verifying Home Page 005 ************************
+10/26/2025 04:16:52 PM |      INFO | test_home_page.py:100 | ************************** Test Home Page 005 is Start *************************
+10/26/2025 04:16:53 PM |      INFO | test_home_page.py:103 | Navigating to the base url
+10/26/2025 04:16:53 PM |      INFO | test_home_page.py:104 | *********************** Verifying Home Page 005 ************************
+10/26/2025 04:17:14 PM |      INFO | test_home_page.py:100 | ************************** Test Home Page 005 is Start *************************
+10/26/2025 04:17:15 PM |      INFO | test_home_page.py:103 | Navigating to the base url
+10/26/2025 04:17:15 PM |      INFO | test_home_page.py:104 | *********************** Verifying Home Page 005 ************************
+10/26/2025 04:19:43 PM |      INFO | test_home_page.py:100 | ************************** Test Home Page 005 is Start *************************
+10/26/2025 04:19:44 PM |      INFO | test_home_page.py:103 | Navigating to the base url
+10/26/2025 04:19:44 PM |      INFO | test_home_page.py:104 | *********************** Verifying Home Page 005 ************************
+10/26/2025 04:22:51 PM |      INFO | test_home_page.py:100 | ************************** Test Home Page 005 is Start *************************
+10/26/2025 04:22:52 PM |      INFO | test_home_page.py:103 | Navigating to the base url
+10/26/2025 04:22:52 PM |      INFO | test_home_page.py:104 | *********************** Verifying Home Page 005 ************************
+10/26/2025 04:22:52 PM |      INFO | test_home_page.py:107 | Hero image is display
+10/26/2025 04:24:47 PM |      INFO | test_home_page.py:100 | ************************** Test Home Page 005 is Start *************************
+10/26/2025 04:24:48 PM |      INFO | test_home_page.py:103 | Navigating to the base url
+10/26/2025 04:24:48 PM |      INFO | test_home_page.py:104 | *********************** Verifying Home Page 005 ************************
+10/26/2025 04:24:48 PM |      INFO | test_home_page.py:107 | Hero image is display
+10/26/2025 04:27:48 PM |      INFO | test_home_page.py:100 | ************************** Test Home Page 005 is Start *************************
+10/26/2025 04:27:49 PM |      INFO | test_home_page.py:103 | Navigating to the base url
+10/26/2025 04:27:49 PM |      INFO | test_home_page.py:104 | *********************** Verifying Home Page 005 ************************
+10/26/2025 04:27:49 PM |      INFO | test_home_page.py:107 | Hero image is display
+10/26/2025 04:31:02 PM |      INFO | test_home_page.py:100 | ************************** Test Home Page 005 is Start *************************
+10/26/2025 04:31:03 PM |      INFO | test_home_page.py:103 | Navigating to the base url
+10/26/2025 04:31:03 PM |      INFO | test_home_page.py:104 | *********************** Verifying Home Page 005 ************************
+10/26/2025 04:31:03 PM |      INFO | test_home_page.py:107 | Hero image is display
+10/26/2025 04:31:09 PM |     ERROR | test_home_page.py:123 | ************* Test Home Page 005 is Failed ************
+10/26/2025 04:36:21 PM |      INFO | test_home_page.py:100 | ************************** Test Home Page 005 is Start *************************
+10/26/2025 04:36:22 PM |      INFO | test_home_page.py:103 | Navigating to the base url
+10/26/2025 04:36:22 PM |      INFO | test_home_page.py:104 | *********************** Verifying Home Page 005 ************************
+10/26/2025 04:36:22 PM |      INFO | test_home_page.py:107 | Hero image is display
+10/26/2025 04:36:28 PM |      INFO | test_home_page.py:125 | Image auto sliding is not working
+10/26/2025 04:36:28 PM |     ERROR | test_home_page.py:126 | ************* Test Home Page 005 is Failed ************
+10/26/2025 04:38:01 PM |      INFO | test_home_page.py:100 | ************************** Test Home Page 005 is Start *************************
+10/26/2025 04:38:02 PM |      INFO | test_home_page.py:103 | Navigating to the base url
+10/26/2025 04:38:02 PM |      INFO | test_home_page.py:104 | *********************** Verifying Home Page 005 ************************
+10/26/2025 04:38:02 PM |      INFO | test_home_page.py:107 | Hero image is display
+10/26/2025 04:38:08 PM |      INFO | test_home_page.py:125 | Image auto sliding is not working
+10/26/2025 04:38:08 PM |     ERROR | test_home_page.py:126 | ************* Test Home Page 005 is Failed ************
+10/26/2025 04:44:48 PM |      INFO | test_home_page.py:100 | ************************** Test Home Page 005 is Start *************************
+10/26/2025 04:44:49 PM |      INFO | test_home_page.py:103 | Navigating to the base url
+10/26/2025 04:44:49 PM |      INFO | test_home_page.py:104 | *********************** Verifying Home Page 005 ************************
+10/26/2025 04:44:49 PM |      INFO | test_home_page.py:107 | Hero image is display
+10/26/2025 04:52:13 PM |      INFO | test_home_page.py:100 | ************************** Test Home Page 005 is Start *************************
+10/26/2025 04:52:14 PM |      INFO | test_home_page.py:103 | Navigating to the base url
+10/26/2025 04:52:14 PM |      INFO | test_home_page.py:104 | *********************** Verifying Home Page 005 ************************
+10/26/2025 04:52:14 PM |      INFO | test_home_page.py:107 | Hero image is display
+10/26/2025 04:59:03 PM |      INFO | test_home_page.py:100 | ************************** Test Home Page 005 is Start *************************
+10/26/2025 04:59:04 PM |      INFO | test_home_page.py:103 | Navigating to the base url
+10/26/2025 04:59:04 PM |      INFO | test_home_page.py:104 | *********************** Verifying Home Page 005 ************************
+10/26/2025 04:59:04 PM |      INFO | test_home_page.py:107 | Hero image is display
+10/26/2025 04:59:04 PM |      INFO | test_home_page.py:125 | Image auto sliding is not working
+10/26/2025 04:59:04 PM |     ERROR | test_home_page.py:126 | ************* Test Home Page 005 is Failed ************
+10/26/2025 05:00:53 PM |      INFO | test_home_page.py:100 | ************************** Test Home Page 005 is Start *************************
+10/26/2025 05:00:54 PM |      INFO | test_home_page.py:103 | Navigating to the base url
+10/26/2025 05:00:54 PM |      INFO | test_home_page.py:104 | *********************** Verifying Home Page 005 ************************
+10/26/2025 05:00:54 PM |      INFO | test_home_page.py:107 | Hero image is display
+10/26/2025 05:00:54 PM |      INFO | test_home_page.py:125 | Image auto sliding is not working
+10/26/2025 05:00:54 PM |     ERROR | test_home_page.py:126 | ************* Test Home Page 005 is Failed ************
+10/26/2025 05:03:36 PM |      INFO | test_home_page.py:100 | ************************** Test Home Page 005 is Start *************************
+10/26/2025 05:03:37 PM |      INFO | test_home_page.py:103 | Navigating to the base url
+10/26/2025 05:03:37 PM |      INFO | test_home_page.py:104 | *********************** Verifying Home Page 005 ************************
+10/26/2025 05:03:37 PM |      INFO | test_home_page.py:107 | Hero image is display
+10/26/2025 05:03:43 PM |      INFO | test_home_page.py:125 | Image auto sliding is not working
+10/26/2025 05:03:43 PM |     ERROR | test_home_page.py:126 | ************* Test Home Page 005 is Failed ************
+10/26/2025 05:07:43 PM |      INFO | test_home_page.py:100 | ************************** Test Home Page 005 is Start *************************
+10/26/2025 05:07:44 PM |      INFO | test_home_page.py:103 | Navigating to the base url
+10/26/2025 05:07:44 PM |      INFO | test_home_page.py:104 | *********************** Verifying Home Page 005 ************************
+10/26/2025 05:07:44 PM |      INFO | test_home_page.py:107 | Hero image is display
+10/26/2025 05:07:50 PM |      INFO | test_home_page.py:125 | Image auto sliding is not working
+10/26/2025 05:07:50 PM |     ERROR | test_home_page.py:126 | ************* Test Home Page 005 is Failed ************
+10/26/2025 05:29:38 PM |      INFO | test_home_page.py:100 | ************************** Test Home Page 005 is Start *************************
+10/26/2025 05:29:39 PM |      INFO | test_home_page.py:103 | Navigating to the base url
+10/26/2025 05:29:39 PM |      INFO | test_home_page.py:104 | *********************** Verifying Home Page 005 ************************
+10/26/2025 05:29:39 PM |      INFO | test_home_page.py:107 | Hero image is display
+10/26/2025 05:30:59 PM |      INFO | test_home_page.py:100 | ************************** Test Home Page 005 is Start *************************
+10/26/2025 05:31:00 PM |      INFO | test_home_page.py:103 | Navigating to the base url
+10/26/2025 05:31:00 PM |      INFO | test_home_page.py:104 | *********************** Verifying Home Page 005 ************************
+10/26/2025 05:31:00 PM |      INFO | test_home_page.py:107 | Hero image is display
+10/26/2025 05:31:00 PM |      INFO | test_home_page.py:126 | Clicking on the slider arrow button
+10/26/2025 05:31:00 PM |     ERROR | test_home_page.py:127 | ************* Test Home Page 005 is Failed ************
+10/26/2025 09:11:50 PM |      INFO | test_home_page.py:100 | ************************** Test Home Page 005 is Start *************************
+10/26/2025 09:11:51 PM |      INFO | test_home_page.py:103 | Navigating to the base url
+10/26/2025 09:11:51 PM |      INFO | test_home_page.py:104 | *********************** Verifying Home Page 005 ************************
+10/26/2025 09:11:57 PM |      INFO | test_home_page.py:107 | Hero image is display
+10/26/2025 09:12:13 PM |      INFO | test_home_page.py:125 | hero images auto sliding are not working
+10/26/2025 09:12:13 PM |     ERROR | test_home_page.py:126 | ************* Test Home Page 005 is Failed ************
+10/26/2025 09:14:38 PM |      INFO | test_home_page.py:100 | ************************** Test Home Page 005 is Start *************************
+10/26/2025 09:14:39 PM |      INFO | test_home_page.py:103 | Navigating to the base url
+10/26/2025 09:14:39 PM |      INFO | test_home_page.py:104 | *********************** Verifying Home Page 005 ************************
+10/26/2025 09:14:45 PM |      INFO | test_home_page.py:107 | Hero image is display
+10/26/2025 09:15:01 PM |      INFO | test_home_page.py:125 | hero images auto sliding are not working
+10/26/2025 09:15:01 PM |     ERROR | test_home_page.py:126 | ************* Test Home Page 005 is Failed ************
+10/26/2025 09:18:51 PM |      INFO | test_home_page.py:100 | ************************** Test Home Page 005 is Start *************************
+10/26/2025 09:18:52 PM |      INFO | test_home_page.py:103 | Navigating to the base url
+10/26/2025 09:18:52 PM |      INFO | test_home_page.py:104 | *********************** Verifying Home Page 005 ************************
+10/26/2025 09:18:52 PM |      INFO | test_home_page.py:107 | Hero image is display
+10/26/2025 09:19:07 PM |      INFO | test_home_page.py:109 | hero images auto sliding are working
+10/26/2025 09:19:08 PM |      INFO | test_home_page.py:121 | Clicking on the slider arrow button
+10/26/2025 09:19:08 PM |     ERROR | test_home_page.py:122 | ************* Test Home Page 005 is Failed ************
+10/26/2025 09:30:58 PM |      INFO | test_home_page.py:100 | ************************** Test Home Page 005 is Start *************************
+10/26/2025 09:31:02 PM |      INFO | test_home_page.py:103 | Navigating to the base url
+10/26/2025 09:31:02 PM |      INFO | test_home_page.py:104 | *********************** Verifying Home Page 005 ************************
+10/26/2025 09:31:02 PM |      INFO | test_home_page.py:107 | Hero image is display
+10/26/2025 09:31:17 PM |      INFO | test_home_page.py:109 | hero images auto sliding are working
+10/26/2025 09:32:38 PM |      INFO | test_home_page.py:100 | ************************** Test Home Page 005 is Start *************************
+10/26/2025 09:32:42 PM |      INFO | test_home_page.py:103 | Navigating to the base url
+10/26/2025 09:32:42 PM |      INFO | test_home_page.py:104 | *********************** Verifying Home Page 005 ************************
+10/26/2025 09:32:42 PM |      INFO | test_home_page.py:107 | Hero image is display
+10/26/2025 09:32:57 PM |      INFO | test_home_page.py:109 | hero images auto sliding are working
+10/26/2025 09:34:26 PM |      INFO | test_home_page.py:100 | ************************** Test Home Page 005 is Start *************************
+10/26/2025 09:34:27 PM |      INFO | test_home_page.py:103 | Navigating to the base url
+10/26/2025 09:34:27 PM |      INFO | test_home_page.py:104 | *********************** Verifying Home Page 005 ************************
+10/26/2025 09:34:27 PM |      INFO | test_home_page.py:107 | Hero image is display
+10/26/2025 09:34:42 PM |      INFO | test_home_page.py:109 | hero images auto sliding are working
+10/26/2025 09:37:21 PM |      INFO | test_home_page.py:100 | ************************** Test Home Page 005 is Start *************************
+10/26/2025 09:37:23 PM |      INFO | test_home_page.py:103 | Navigating to the base url
+10/26/2025 09:37:23 PM |      INFO | test_home_page.py:104 | *********************** Verifying Home Page 005 ************************
+10/26/2025 09:37:23 PM |      INFO | test_home_page.py:107 | Hero image is display
+10/26/2025 09:37:38 PM |      INFO | test_home_page.py:109 | hero images auto sliding are working
+10/26/2025 09:38:29 PM |      INFO | test_home_page.py:100 | ************************** Test Home Page 005 is Start *************************
+10/26/2025 09:38:29 PM |      INFO | test_home_page.py:103 | Navigating to the base url
+10/26/2025 09:38:29 PM |      INFO | test_home_page.py:104 | *********************** Verifying Home Page 005 ************************
+10/26/2025 09:38:29 PM |      INFO | test_home_page.py:107 | Hero image is display
+10/26/2025 09:38:45 PM |      INFO | test_home_page.py:109 | hero images auto sliding are working
+10/26/2025 09:38:45 PM |      INFO | test_home_page.py:121 | Clicking on the slider arrow button
+10/26/2025 09:38:45 PM |     ERROR | test_home_page.py:122 | ************* Test Home Page 005 is Failed ************
+10/26/2025 09:46:02 PM |      INFO | test_home_page.py:100 | ************************** Test Home Page 005 is Start *************************
+10/26/2025 09:46:03 PM |      INFO | test_home_page.py:103 | Navigating to the base url
+10/26/2025 09:46:03 PM |      INFO | test_home_page.py:104 | *********************** Verifying Home Page 005 ************************
+10/26/2025 09:46:03 PM |      INFO | test_home_page.py:107 | Hero image is display
+10/26/2025 09:46:18 PM |      INFO | test_home_page.py:109 | hero images auto sliding are working
+10/26/2025 09:46:18 PM |      INFO | test_home_page.py:121 | Clicking on the slider arrow button
+10/26/2025 09:46:18 PM |     ERROR | test_home_page.py:122 | ************* Test Home Page 005 is Failed ************
+10/26/2025 09:47:53 PM |      INFO | test_home_page.py:100 | ************************** Test Home Page 005 is Start *************************
+10/26/2025 09:47:55 PM |      INFO | test_home_page.py:103 | Navigating to the base url
+10/26/2025 09:47:55 PM |      INFO | test_home_page.py:104 | *********************** Verifying Home Page 005 ************************
+10/26/2025 09:47:55 PM |      INFO | test_home_page.py:107 | Hero image is display
+10/26/2025 09:48:10 PM |      INFO | test_home_page.py:109 | hero images auto sliding are working
+10/26/2025 09:48:10 PM |      INFO | test_home_page.py:121 | Clicking on the slider arrow button
+10/26/2025 09:48:10 PM |     ERROR | test_home_page.py:122 | ************* Test Home Page 005 is Failed ************
+10/26/2025 09:51:58 PM |      INFO | test_home_page.py:100 | ************************** Test Home Page 005 is Start *************************
+10/26/2025 09:51:58 PM |      INFO | test_home_page.py:103 | Navigating to the base url
+10/26/2025 09:51:58 PM |      INFO | test_home_page.py:104 | *********************** Verifying Home Page 005 ************************
+10/26/2025 09:51:58 PM |      INFO | test_home_page.py:107 | Hero image is display
+10/26/2025 09:52:14 PM |      INFO | test_home_page.py:109 | hero images auto sliding are working
+10/26/2025 09:52:14 PM |      INFO | test_home_page.py:121 | Not clicking on the slider arrow button
+10/26/2025 09:52:14 PM |     ERROR | test_home_page.py:122 | ************* Test Home Page 005 is Failed ************
+10/26/2025 09:59:26 PM |      INFO | test_home_page.py:100 | ************************** Test Home Page 005 is Start *************************
+10/26/2025 09:59:29 PM |      INFO | test_home_page.py:103 | Navigating to the base url
+10/26/2025 09:59:29 PM |      INFO | test_home_page.py:104 | *********************** Verifying Home Page 005 ************************
+10/26/2025 09:59:29 PM |      INFO | test_home_page.py:107 | Hero image is display
+10/26/2025 09:59:44 PM |      INFO | test_home_page.py:109 | hero images auto sliding are working
+10/26/2025 09:59:44 PM |      INFO | test_home_page.py:121 | Not clicking on the slider arrow button
+10/26/2025 09:59:44 PM |     ERROR | test_home_page.py:122 | ************* Test Home Page 005 is Failed ************
+11/04/2025 11:44:55 AM |      INFO | test_home_page.py:100 | ************************** Test Home Page 005 is Start *************************
+11/04/2025 11:44:56 AM |      INFO | test_home_page.py:103 | Navigating to the base url
+11/04/2025 11:44:56 AM |      INFO | test_home_page.py:104 | *********************** Verifying Home Page 005 ************************
+11/04/2025 11:44:56 AM |      INFO | test_home_page.py:107 | Hero image is display
+11/04/2025 11:45:11 AM |      INFO | test_home_page.py:109 | hero images auto sliding are working
+11/04/2025 11:45:11 AM |      INFO | test_home_page.py:121 | Not clicking on the slider arrow button
+11/04/2025 11:45:11 AM |     ERROR | test_home_page.py:122 | ************* Test Home Page 005 is Failed ************
+11/04/2025 11:52:02 AM |      INFO | test_home_page.py:100 | ************************** Test Home Page 005 is Start *************************
+11/04/2025 11:52:03 AM |      INFO | test_home_page.py:103 | Navigating to the base url
+11/04/2025 11:52:03 AM |      INFO | test_home_page.py:104 | *********************** Verifying Home Page 005 ************************
+11/04/2025 11:52:03 AM |      INFO | test_home_page.py:107 | Hero image is display
+11/04/2025 11:52:18 AM |      INFO | test_home_page.py:109 | hero images auto sliding are working
+11/04/2025 11:54:15 AM |      INFO | test_home_page.py:100 | ************************** Test Home Page 005 is Start *************************
+11/04/2025 11:54:16 AM |      INFO | test_home_page.py:103 | Navigating to the base url
+11/04/2025 11:54:16 AM |      INFO | test_home_page.py:104 | *********************** Verifying Home Page 005 ************************
+11/04/2025 11:54:16 AM |      INFO | test_home_page.py:107 | Hero image is display
+11/04/2025 11:54:32 AM |      INFO | test_home_page.py:109 | hero images auto sliding are working
+11/04/2025 12:03:31 PM |      INFO | test_home_page.py:101 | ************************** Test Home Page 005 is Start *************************
+11/04/2025 12:03:32 PM |      INFO | test_home_page.py:104 | Navigating to the base url
+11/04/2025 12:03:32 PM |      INFO | test_home_page.py:105 | *********************** Verifying Home Page 005 ************************
+11/04/2025 12:03:32 PM |      INFO | test_home_page.py:108 | Hero image is display
+11/04/2025 12:03:47 PM |      INFO | test_home_page.py:110 | hero images auto sliding are working
+11/04/2025 12:03:48 PM |      INFO | test_home_page.py:113 | Hovering on bullet button
+11/04/2025 12:03:48 PM |      INFO | test_home_page.py:125 | Not clicking on the slider arrow button
+11/04/2025 12:03:48 PM |     ERROR | test_home_page.py:126 | ************* Test Home Page 005 is Failed ************
+11/04/2025 12:28:31 PM |      INFO | test_home_page.py:101 | ************************** Test Home Page 005 is Start *************************
+11/04/2025 12:28:32 PM |      INFO | test_home_page.py:104 | Navigating to the base url
+11/04/2025 12:28:32 PM |      INFO | test_home_page.py:105 | *********************** Verifying Home Page 005 ************************
+11/04/2025 12:28:32 PM |      INFO | test_home_page.py:108 | Hero image is display
+11/04/2025 12:28:47 PM |      INFO | test_home_page.py:110 | hero images auto sliding are working
+11/04/2025 12:28:47 PM |      INFO | test_home_page.py:112 | Clicking on the preview arrow button
+11/04/2025 12:28:47 PM |      INFO | test_home_page.py:114 | Clicking on the back arrow button
+11/04/2025 12:28:47 PM |      INFO | test_home_page.py:117 | Hovering on bullet button
+11/04/2025 12:28:47 PM |      INFO | test_home_page.py:123 | Clicking on the bullet button
+11/04/2025 12:28:47 PM |     ERROR | test_home_page.py:124 | ************* Test Home Page 005 is Failed ************
+11/04/2025 12:29:10 PM |      INFO | test_home_page.py:101 | ************************** Test Home Page 005 is Start *************************
+11/04/2025 12:29:12 PM |      INFO | test_home_page.py:104 | Navigating to the base url
+11/04/2025 12:29:12 PM |      INFO | test_home_page.py:105 | *********************** Verifying Home Page 005 ************************
+11/04/2025 12:29:12 PM |      INFO | test_home_page.py:108 | Hero image is display
+11/04/2025 12:29:27 PM |      INFO | test_home_page.py:110 | hero images auto sliding are working
+11/04/2025 12:29:27 PM |      INFO | test_home_page.py:113 | Hovering on bullet button
+11/04/2025 12:29:28 PM |      INFO | test_home_page.py:115 | Clicking on the preview arrow button
+11/04/2025 12:29:28 PM |      INFO | test_home_page.py:117 | Clicking on the back arrow button
+11/04/2025 12:29:28 PM |      INFO | test_home_page.py:123 | Clicking on the bullet button
+11/04/2025 12:29:28 PM |     ERROR | test_home_page.py:124 | ************* Test Home Page 005 is Failed ************
+11/04/2025 12:30:51 PM |      INFO | test_home_page.py:101 | ************************** Test Home Page 005 is Start *************************
+11/04/2025 12:30:52 PM |      INFO | test_home_page.py:104 | Navigating to the base url
+11/04/2025 12:30:52 PM |      INFO | test_home_page.py:105 | *********************** Verifying Home Page 005 ************************
+11/04/2025 12:30:52 PM |      INFO | test_home_page.py:108 | Hero image is display
+11/04/2025 12:31:07 PM |      INFO | test_home_page.py:110 | hero images auto sliding are working
+11/04/2025 12:31:07 PM |      INFO | test_home_page.py:113 | Hovering on bullet button
+11/04/2025 12:31:07 PM |      INFO | test_home_page.py:115 | Clicking on the preview arrow button
+11/04/2025 12:31:07 PM |      INFO | test_home_page.py:117 | Clicking on the back arrow button
+11/04/2025 12:31:07 PM |      INFO | test_home_page.py:123 | Not Clicking no the bullet button
+11/04/2025 12:31:07 PM |     ERROR | test_home_page.py:124 | ************* Test Home Page 005 is Failed ************
+11/04/2025 12:33:07 PM |      INFO | test_home_page.py:101 | ************************** Test Home Page 005 is Start *************************
+11/04/2025 12:33:07 PM |      INFO | test_home_page.py:104 | Navigating to the base url
+11/04/2025 12:33:07 PM |      INFO | test_home_page.py:105 | *********************** Verifying Home Page 005 ************************
+11/04/2025 12:33:07 PM |      INFO | test_home_page.py:108 | Hero image is display
+11/04/2025 12:33:22 PM |      INFO | test_home_page.py:110 | hero images auto sliding are working
+11/04/2025 12:33:23 PM |      INFO | test_home_page.py:113 | Hovering on bullet button
+11/04/2025 12:33:23 PM |      INFO | test_home_page.py:115 | Clicking on the preview arrow button
+11/04/2025 12:33:23 PM |      INFO | test_home_page.py:117 | Clicking on the back arrow button
+11/04/2025 12:33:23 PM |      INFO | test_home_page.py:123 | Not Clicking no the bullet button
+11/04/2025 12:33:23 PM |     ERROR | test_home_page.py:124 | ************* Test Home Page 005 is Failed ************
+11/04/2025 12:34:54 PM |      INFO | test_home_page.py:101 | ************************** Test Home Page 005 is Start *************************
+11/04/2025 12:34:55 PM |      INFO | test_home_page.py:104 | Navigating to the base url
+11/04/2025 12:34:55 PM |      INFO | test_home_page.py:105 | *********************** Verifying Home Page 005 ************************
+11/04/2025 12:34:55 PM |      INFO | test_home_page.py:108 | Hero image is display
+11/04/2025 12:35:10 PM |      INFO | test_home_page.py:110 | hero images auto sliding are working
+11/04/2025 12:35:10 PM |      INFO | test_home_page.py:113 | Hovering on bullet button
+11/04/2025 12:35:10 PM |      INFO | test_home_page.py:115 | Clicking on the preview arrow button
+11/04/2025 12:35:10 PM |      INFO | test_home_page.py:117 | Clicking on the back arrow button
+11/04/2025 12:35:11 PM |      INFO | test_home_page.py:123 | Not Clicking no the bullet button
+11/04/2025 12:35:11 PM |     ERROR | test_home_page.py:124 | ************* Test Home Page 005 is Failed ************
+11/04/2025 12:36:24 PM |      INFO | test_home_page.py:101 | ************************** Test Home Page 005 is Start *************************
+11/04/2025 12:36:25 PM |      INFO | test_home_page.py:104 | Navigating to the base url
+11/04/2025 12:36:25 PM |      INFO | test_home_page.py:105 | *********************** Verifying Home Page 005 ************************
+11/04/2025 12:36:25 PM |      INFO | test_home_page.py:108 | Hero image is display
+11/04/2025 12:36:40 PM |      INFO | test_home_page.py:110 | hero images auto sliding are working
+11/04/2025 12:36:40 PM |      INFO | test_home_page.py:113 | Hovering on bullet button
+11/04/2025 12:36:40 PM |      INFO | test_home_page.py:115 | Clicking on the preview arrow button
+11/04/2025 12:36:40 PM |      INFO | test_home_page.py:117 | Clicking on the back arrow button
+11/04/2025 12:36:40 PM |      INFO | test_home_page.py:123 | Not Clicking no the bullet button
+11/04/2025 12:36:40 PM |     ERROR | test_home_page.py:124 | ************* Test Home Page 005 is Failed ************
+11/04/2025 12:39:06 PM |      INFO | test_home_page.py:101 | ************************** Test Home Page 005 is Start *************************
+11/04/2025 12:39:07 PM |      INFO | test_home_page.py:104 | Navigating to the base url
+11/04/2025 12:39:07 PM |      INFO | test_home_page.py:105 | *********************** Verifying Home Page 005 ************************
+11/04/2025 12:39:07 PM |      INFO | test_home_page.py:108 | Hero image is display
+11/04/2025 12:39:22 PM |      INFO | test_home_page.py:110 | hero images auto sliding are working
+11/04/2025 12:39:22 PM |      INFO | test_home_page.py:113 | Hovering on bullet button
+11/04/2025 12:39:22 PM |      INFO | test_home_page.py:115 | Clicking on the preview arrow button
+11/04/2025 12:39:22 PM |      INFO | test_home_page.py:117 | Clicking on the back arrow button
+11/04/2025 12:39:22 PM |      INFO | test_home_page.py:119 | Clicking on the bullet button
+11/04/2025 12:39:22 PM |      INFO | test_home_page.py:128 | *********************** End Of Home Page 005 ************************
+11/04/2025 12:41:27 PM |      INFO | test_home_page.py:101 | ************************** Test Home Page 005 is Start *************************
+11/04/2025 12:41:28 PM |      INFO | test_home_page.py:104 | Navigating to the base url
+11/04/2025 12:41:28 PM |      INFO | test_home_page.py:105 | *********************** Verifying Home Page 005 ************************
+11/04/2025 12:41:28 PM |      INFO | test_home_page.py:108 | Hero image is display
+11/04/2025 12:41:43 PM |      INFO | test_home_page.py:110 | hero images auto sliding are working
+11/04/2025 12:41:43 PM |      INFO | test_home_page.py:113 | Hovering on bullet button
+11/04/2025 12:41:43 PM |      INFO | test_home_page.py:115 | Clicking on the preview arrow button
+11/04/2025 12:41:43 PM |      INFO | test_home_page.py:117 | Clicking on the back arrow button
+11/04/2025 12:41:43 PM |      INFO | test_home_page.py:119 | Clicking on the bullet button
+11/04/2025 12:41:43 PM |      INFO | test_home_page.py:120 | ************* Test Home Page 005 is Passed ************
+11/04/2025 12:41:43 PM |      INFO | test_home_page.py:129 | *********************** End Of Home Page 005 ************************
+11/04/2025 12:46:13 PM |      INFO | test_home_page.py:101 | ************************** Test Home Page 005 is Start *************************
+11/04/2025 12:46:13 PM |      INFO | test_home_page.py:104 | Navigating to the base url
+11/04/2025 12:46:13 PM |      INFO | test_home_page.py:105 | *********************** Verifying Home Page 005 ************************
+11/04/2025 12:46:13 PM |      INFO | test_home_page.py:108 | Hero image is display
+11/04/2025 12:46:28 PM |      INFO | test_home_page.py:110 | hero images auto sliding are working
+11/04/2025 12:47:17 PM |      INFO | test_home_page.py:101 | ************************** Test Home Page 005 is Start *************************
+11/04/2025 12:47:18 PM |      INFO | test_home_page.py:104 | Navigating to the base url
+11/04/2025 12:47:18 PM |      INFO | test_home_page.py:105 | *********************** Verifying Home Page 005 ************************
+11/04/2025 12:47:18 PM |      INFO | test_home_page.py:108 | Hero image is display
+11/04/2025 12:47:33 PM |      INFO | test_home_page.py:110 | hero images auto sliding are working
+11/04/2025 12:47:33 PM |      INFO | test_home_page.py:113 | Hovering on bullet button
+11/04/2025 12:47:33 PM |      INFO | test_home_page.py:115 | Clicking on the preview arrow button
+11/04/2025 12:47:33 PM |      INFO | test_home_page.py:117 | Clicking on the back arrow button
+11/04/2025 12:47:33 PM |      INFO | test_home_page.py:119 | Clicking on the bullet button
+11/04/2025 12:47:33 PM |      INFO | test_home_page.py:120 | ************* Test Home Page 005 is Passed ************
+11/04/2025 12:47:33 PM |      INFO | test_home_page.py:129 | *********************** End Of Home Page 005 ************************
+11/04/2025 12:52:41 PM |      INFO | test_home_page.py:101 | ************************** Test Home Page 005 is Start *************************
+11/04/2025 12:52:42 PM |      INFO | test_home_page.py:104 | Navigating to the base url
+11/04/2025 12:52:42 PM |      INFO | test_home_page.py:105 | *********************** Verifying Home Page 005 ************************
+11/04/2025 12:52:42 PM |      INFO | test_home_page.py:108 | Hero image is display
+11/04/2025 12:52:57 PM |      INFO | test_home_page.py:110 | hero images auto sliding are working
+11/04/2025 12:52:58 PM |      INFO | test_home_page.py:112 | Hovering on bullet button
+11/04/2025 12:52:58 PM |      INFO | test_home_page.py:114 | Clicking on the preview arrow button
+11/04/2025 12:52:58 PM |      INFO | test_home_page.py:116 | Clicking on the back arrow button
+11/04/2025 12:52:58 PM |      INFO | test_home_page.py:118 | Clicking on the bullet button
+11/04/2025 12:52:58 PM |      INFO | test_home_page.py:119 | ************* Test Home Page 005 is Passed ************
+11/04/2025 12:52:58 PM |      INFO | test_home_page.py:128 | *********************** End Of Home Page 005 ************************
+11/04/2025 12:54:34 PM |      INFO | test_home_page.py:101 | ************************** Test Home Page 005 is Start *************************
+11/04/2025 12:54:34 PM |      INFO | test_home_page.py:104 | Navigating to the base url
+11/04/2025 12:54:34 PM |      INFO | test_home_page.py:105 | *********************** Verifying Home Page 005 ************************
+11/04/2025 12:54:35 PM |      INFO | test_home_page.py:108 | Hero image is display
+11/04/2025 12:54:50 PM |      INFO | test_home_page.py:110 | hero images auto sliding are working
+11/04/2025 12:54:50 PM |      INFO | test_home_page.py:112 | Hovering on bullet button
+11/04/2025 12:54:50 PM |      INFO | test_home_page.py:114 | Clicking on the preview arrow button
+11/04/2025 12:54:50 PM |      INFO | test_home_page.py:116 | Clicking on the back arrow button
+11/04/2025 12:54:50 PM |      INFO | test_home_page.py:118 | Clicking on the bullet button
+11/04/2025 12:54:50 PM |      INFO | test_home_page.py:119 | ************* Test Home Page 005 is Passed ************
+11/04/2025 12:54:50 PM |      INFO | test_home_page.py:128 | *********************** End Of Home Page 005 ************************
+11/04/2025 12:57:04 PM |      INFO | test_home_page.py:101 | ************************** Test Home Page 005 is Start *************************
+11/04/2025 12:57:05 PM |      INFO | test_home_page.py:104 | Navigating to the base url
+11/04/2025 12:57:05 PM |      INFO | test_home_page.py:105 | *********************** Verifying Home Page 005 ************************
+11/04/2025 12:57:05 PM |      INFO | test_home_page.py:108 | Hero image is display
+11/04/2025 12:57:20 PM |      INFO | test_home_page.py:110 | hero images auto sliding are working
+11/04/2025 12:57:20 PM |      INFO | test_home_page.py:112 | Hovering on bullet button
+11/04/2025 12:57:20 PM |      INFO | test_home_page.py:114 | Clicking on the preview arrow button
+11/04/2025 12:57:20 PM |      INFO | test_home_page.py:116 | Clicking on the back arrow button
+11/04/2025 12:57:20 PM |      INFO | test_home_page.py:118 | Clicking on the swiper pagination bullet button
+11/04/2025 12:57:20 PM |      INFO | test_home_page.py:120 | ************* Test Home Page 005 is Passed ************
+11/04/2025 12:57:20 PM |      INFO | test_home_page.py:129 | *********************** End Of Home Page 005 ************************
+11/04/2025 12:58:13 PM |      INFO | test_home_page.py:101 | ************************** Test Home Page 005 is Start *************************
+11/04/2025 12:58:14 PM |      INFO | test_home_page.py:104 | Navigating to the base url
+11/04/2025 12:58:14 PM |      INFO | test_home_page.py:105 | *********************** Verifying Home Page 005 ************************
+11/04/2025 12:58:14 PM |      INFO | test_home_page.py:108 | Hero image is display
+11/04/2025 12:58:29 PM |      INFO | test_home_page.py:110 | hero images auto sliding are working
+11/04/2025 12:58:29 PM |      INFO | test_home_page.py:112 | Hovering on bullet button
+11/04/2025 12:58:29 PM |      INFO | test_home_page.py:114 | Clicking on the preview arrow button
+11/04/2025 12:58:29 PM |      INFO | test_home_page.py:116 | Clicking on the back arrow button
+11/04/2025 12:58:29 PM |      INFO | test_home_page.py:118 | Clicking on the swiper pagination bullet button
+11/04/2025 12:58:29 PM |      INFO | test_home_page.py:120 | ************* Test Home Page 005 is Passed ************
+11/04/2025 12:58:29 PM |      INFO | test_home_page.py:129 | *********************** End Of Home Page 005 ************************
+11/04/2025 01:17:05 PM |      INFO | test_home_page.py:100 | ************************** Test Home Page 005 is Start *************************
+11/04/2025 01:17:06 PM |      INFO | test_home_page.py:103 | Navigating to the base url
+11/04/2025 01:17:06 PM |      INFO | test_home_page.py:104 | *********************** Verifying Home Page 005 ************************
+11/04/2025 01:17:06 PM |      INFO | test_home_page.py:107 | Hero image is display
+11/04/2025 01:17:21 PM |      INFO | test_home_page.py:109 | hero images auto sliding are working
+11/04/2025 01:17:21 PM |      INFO | test_home_page.py:111 | Hovering on bullet button
+11/04/2025 01:17:21 PM |      INFO | test_home_page.py:113 | Clicking on the preview arrow button
+11/04/2025 01:17:21 PM |      INFO | test_home_page.py:115 | Clicking on the back arrow button
+11/04/2025 01:17:21 PM |      INFO | test_home_page.py:117 | Clicking on the swiper pagination bullet button
+11/04/2025 01:17:21 PM |     ERROR | test_home_page.py:122 | ************* Test Home Page 005 is Failed ************
+11/04/2025 01:39:42 PM |      INFO | test_home_page.py:100 | ************************** Test Home Page 005 is Start *************************
+11/04/2025 01:39:43 PM |      INFO | test_home_page.py:103 | Navigating to the base url
+11/04/2025 01:39:43 PM |      INFO | test_home_page.py:104 | *********************** Verifying Home Page 005 ************************
+11/04/2025 01:39:43 PM |      INFO | test_home_page.py:107 | Hero image is display
+11/04/2025 01:39:58 PM |      INFO | test_home_page.py:109 | hero images auto sliding are working
+11/04/2025 01:39:59 PM |      INFO | test_home_page.py:111 | Hovering on bullet button
+11/04/2025 01:39:59 PM |      INFO | test_home_page.py:113 | Clicking on the preview arrow button
+11/04/2025 01:39:59 PM |      INFO | test_home_page.py:115 | Clicking on the back arrow button
+11/04/2025 01:39:59 PM |      INFO | test_home_page.py:117 | Clicking on the swiper pagination bullet button
+11/04/2025 01:40:09 PM |     ERROR | test_home_page.py:122 | ************* Test Home Page 005 is Failed ************
+11/04/2025 01:41:07 PM |      INFO | test_home_page.py:100 | ************************** Test Home Page 005 is Start *************************
+11/04/2025 01:41:10 PM |      INFO | test_home_page.py:103 | Navigating to the base url
+11/04/2025 01:41:10 PM |      INFO | test_home_page.py:104 | *********************** Verifying Home Page 005 ************************
+11/04/2025 01:41:10 PM |      INFO | test_home_page.py:107 | Hero image is display
+11/04/2025 01:41:25 PM |      INFO | test_home_page.py:109 | hero images auto sliding are working
+11/04/2025 01:41:25 PM |      INFO | test_home_page.py:111 | Hovering on bullet button
+11/04/2025 01:41:26 PM |      INFO | test_home_page.py:113 | Clicking on the preview arrow button
+11/04/2025 01:41:26 PM |      INFO | test_home_page.py:115 | Clicking on the back arrow button
+11/04/2025 01:41:26 PM |      INFO | test_home_page.py:117 | Clicking on the swiper pagination bullet button
+11/04/2025 01:41:36 PM |     ERROR | test_home_page.py:122 | ************* Test Home Page 005 is Failed ************
+11/04/2025 01:44:10 PM |      INFO | test_home_page.py:100 | ************************** Test Home Page 005 is Start *************************
+11/04/2025 01:44:12 PM |      INFO | test_home_page.py:103 | Navigating to the base url
+11/04/2025 01:44:12 PM |      INFO | test_home_page.py:104 | *********************** Verifying Home Page 005 ************************
+11/04/2025 01:44:12 PM |      INFO | test_home_page.py:107 | Hero image is display
+11/04/2025 01:44:27 PM |      INFO | test_home_page.py:109 | hero images auto sliding are working
+11/04/2025 01:44:28 PM |      INFO | test_home_page.py:111 | Hovering on bullet button
+11/04/2025 01:44:28 PM |      INFO | test_home_page.py:113 | Clicking on the preview arrow button
+11/04/2025 01:44:28 PM |      INFO | test_home_page.py:115 | Clicking on the back arrow button
+11/04/2025 01:44:28 PM |      INFO | test_home_page.py:117 | Clicking on the swiper pagination bullet button
+11/04/2025 01:44:38 PM |     ERROR | test_home_page.py:122 | ************* Test Home Page 005 is Failed ************
+11/04/2025 01:47:30 PM |      INFO | test_home_page.py:100 | ************************** Test Home Page 005 is Start *************************
+11/04/2025 01:47:31 PM |      INFO | test_home_page.py:103 | Navigating to the base url
+11/04/2025 01:47:31 PM |      INFO | test_home_page.py:104 | *********************** Verifying Home Page 005 ************************
+11/04/2025 01:47:31 PM |      INFO | test_home_page.py:107 | Hero image is display
+11/04/2025 01:47:46 PM |      INFO | test_home_page.py:109 | hero images auto sliding are working
+11/04/2025 01:47:46 PM |      INFO | test_home_page.py:111 | Hovering on bullet button
+11/04/2025 01:47:47 PM |      INFO | test_home_page.py:113 | Clicking on the preview arrow button
+11/04/2025 01:47:47 PM |      INFO | test_home_page.py:115 | Clicking on the back arrow button
+11/04/2025 01:47:47 PM |      INFO | test_home_page.py:117 | Clicking on the swiper pagination bullet button
+11/04/2025 01:47:57 PM |     ERROR | test_home_page.py:123 | Not holding and sliding the Hero images
+11/04/2025 01:47:57 PM |     ERROR | test_home_page.py:124 | ************* Test Home Page 005 is Failed ************
+11/04/2025 01:50:37 PM |      INFO | test_home_page.py:100 | ************************** Test Home Page 005 is Start *************************
+11/04/2025 01:50:39 PM |      INFO | test_home_page.py:103 | Navigating to the base url
+11/04/2025 01:50:39 PM |      INFO | test_home_page.py:104 | *********************** Verifying Home Page 005 ************************
+11/04/2025 01:50:39 PM |      INFO | test_home_page.py:107 | Hero image is display
+11/04/2025 01:50:54 PM |      INFO | test_home_page.py:109 | hero images auto sliding are working
+11/04/2025 01:50:55 PM |      INFO | test_home_page.py:111 | Hovering on bullet button
+11/04/2025 01:50:55 PM |      INFO | test_home_page.py:113 | Clicking on the preview arrow button
+11/04/2025 01:50:55 PM |      INFO | test_home_page.py:115 | Clicking on the back arrow button
+11/04/2025 01:50:55 PM |      INFO | test_home_page.py:117 | Clicking on the swiper pagination bullet button
+11/04/2025 01:50:55 PM |     ERROR | test_home_page.py:123 | Not holding and sliding the Hero images
+11/04/2025 01:50:55 PM |     ERROR | test_home_page.py:124 | ************* Test Home Page 005 is Failed ************
+11/04/2025 01:59:25 PM |      INFO | test_home_page.py:100 | ************************** Test Home Page 005 is Start *************************
+11/04/2025 01:59:26 PM |      INFO | test_home_page.py:103 | Navigating to the base url
+11/04/2025 01:59:26 PM |      INFO | test_home_page.py:104 | *********************** Verifying Home Page 005 ************************
+11/04/2025 01:59:26 PM |      INFO | test_home_page.py:107 | Hero image is display
+11/04/2025 01:59:41 PM |      INFO | test_home_page.py:109 | hero images auto sliding are working
+11/04/2025 01:59:42 PM |      INFO | test_home_page.py:111 | Hovering on bullet button
+11/04/2025 01:59:42 PM |      INFO | test_home_page.py:113 | Clicking on the preview arrow button
+11/04/2025 01:59:42 PM |      INFO | test_home_page.py:115 | Clicking on the back arrow button
+11/04/2025 01:59:42 PM |      INFO | test_home_page.py:117 | Clicking on the swiper pagination bullet button
+11/04/2025 01:59:42 PM |     ERROR | test_home_page.py:123 | Not holding and sliding the Hero images
+11/04/2025 01:59:42 PM |     ERROR | test_home_page.py:124 | ************* Test Home Page 005 is Failed ************
+11/04/2025 02:01:23 PM |      INFO | test_home_page.py:102 | ************************** Test Home Page 005 is Start *************************
+11/04/2025 02:01:24 PM |      INFO | test_home_page.py:105 | Navigating to the base url
+11/04/2025 02:01:24 PM |      INFO | test_home_page.py:106 | *********************** Verifying Home Page 005 ************************
+11/04/2025 02:01:24 PM |      INFO | test_home_page.py:109 | Hero image is display
+11/04/2025 02:01:39 PM |      INFO | test_home_page.py:111 | hero images auto sliding are working
+11/04/2025 02:01:39 PM |      INFO | test_home_page.py:113 | Hovering on bullet button
+11/04/2025 02:01:40 PM |      INFO | test_home_page.py:115 | Clicking on the preview arrow button
+11/04/2025 02:01:40 PM |      INFO | test_home_page.py:117 | Clicking on the back arrow button
+11/04/2025 02:01:40 PM |      INFO | test_home_page.py:119 | Clicking on the swiper pagination bullet button
+11/04/2025 02:01:43 PM |     ERROR | test_home_page.py:126 | Not holding and sliding the Hero images
+11/04/2025 02:01:43 PM |     ERROR | test_home_page.py:127 | ************* Test Home Page 005 is Failed ************
+11/04/2025 02:03:05 PM |      INFO | test_home_page.py:102 | ************************** Test Home Page 005 is Start *************************
+11/04/2025 02:03:06 PM |      INFO | test_home_page.py:105 | Navigating to the base url
+11/04/2025 02:03:06 PM |      INFO | test_home_page.py:106 | *********************** Verifying Home Page 005 ************************
+11/04/2025 02:03:06 PM |      INFO | test_home_page.py:109 | Hero image is display
+11/04/2025 02:03:21 PM |      INFO | test_home_page.py:111 | hero images auto sliding are working
+11/04/2025 02:03:22 PM |      INFO | test_home_page.py:113 | Hovering on bullet button
+11/04/2025 02:03:22 PM |      INFO | test_home_page.py:115 | Clicking on the preview arrow button
+11/04/2025 02:03:22 PM |      INFO | test_home_page.py:117 | Clicking on the back arrow button
+11/04/2025 02:03:22 PM |      INFO | test_home_page.py:119 | Clicking on the swiper pagination bullet button
+11/04/2025 02:03:26 PM |     ERROR | test_home_page.py:126 | Not holding and sliding the Hero images
+11/04/2025 02:03:26 PM |     ERROR | test_home_page.py:127 | ************* Test Home Page 005 is Failed ************
+11/04/2025 02:06:02 PM |      INFO | test_home_page.py:102 | ************************** Test Home Page 005 is Start *************************
+11/04/2025 02:06:03 PM |      INFO | test_home_page.py:105 | Navigating to the base url
+11/04/2025 02:06:03 PM |      INFO | test_home_page.py:106 | *********************** Verifying Home Page 005 ************************
+11/04/2025 02:06:03 PM |      INFO | test_home_page.py:109 | Hero image is display
+11/04/2025 02:06:18 PM |      INFO | test_home_page.py:111 | hero images auto sliding are working
+11/04/2025 02:06:19 PM |      INFO | test_home_page.py:113 | Hovering on bullet button
+11/04/2025 02:06:19 PM |      INFO | test_home_page.py:115 | Clicking on the preview arrow button
+11/04/2025 02:06:19 PM |      INFO | test_home_page.py:117 | Clicking on the back arrow button
+11/04/2025 02:06:19 PM |      INFO | test_home_page.py:119 | Clicking on the swiper pagination bullet button
+11/04/2025 02:06:23 PM |     ERROR | test_home_page.py:126 | Not holding and sliding the Hero images
+11/04/2025 02:06:23 PM |     ERROR | test_home_page.py:127 | ************* Test Home Page 005 is Failed ************
+11/04/2025 02:08:23 PM |      INFO | test_home_page.py:102 | ************************** Test Home Page 005 is Start *************************
+11/04/2025 02:08:24 PM |      INFO | test_home_page.py:105 | Navigating to the base url
+11/04/2025 02:08:24 PM |      INFO | test_home_page.py:106 | *********************** Verifying Home Page 005 ************************
+11/04/2025 02:08:24 PM |      INFO | test_home_page.py:109 | Hero image is display
+11/04/2025 02:08:39 PM |      INFO | test_home_page.py:111 | hero images auto sliding are working
+11/04/2025 02:08:39 PM |      INFO | test_home_page.py:113 | Hovering on bullet button
+11/04/2025 02:08:39 PM |      INFO | test_home_page.py:115 | Clicking on the preview arrow button
+11/04/2025 02:08:39 PM |      INFO | test_home_page.py:117 | Clicking on the back arrow button
+11/04/2025 02:08:39 PM |      INFO | test_home_page.py:119 | Clicking on the swiper pagination bullet button
+11/04/2025 02:08:43 PM |     ERROR | test_home_page.py:127 | Not holding and sliding the Hero images
+11/04/2025 02:08:43 PM |     ERROR | test_home_page.py:128 | ************* Test Home Page 005 is Failed ************
+11/05/2025 12:23:12 PM |      INFO | test_home_page.py:102 | ************************** Test Home Page 005 is Start *************************
+11/05/2025 12:23:13 PM |      INFO | test_home_page.py:105 | Navigating to the base url
+11/05/2025 12:23:13 PM |      INFO | test_home_page.py:106 | *********************** Verifying Home Page 005 ************************
+11/05/2025 12:23:14 PM |      INFO | test_home_page.py:109 | Hero image is display
+11/05/2025 12:23:29 PM |      INFO | test_home_page.py:111 | hero images auto sliding are working
+11/05/2025 12:23:29 PM |      INFO | test_home_page.py:113 | Hovering on bullet button
+11/05/2025 12:23:29 PM |      INFO | test_home_page.py:115 | Clicking on the preview arrow button
+11/05/2025 12:23:30 PM |      INFO | test_home_page.py:117 | Clicking on the back arrow button
+11/05/2025 12:23:30 PM |      INFO | test_home_page.py:119 | Clicking on the swiper pagination bullet button
+11/05/2025 12:23:33 PM |     ERROR | test_home_page.py:127 | Not holding and sliding the Hero images
+11/05/2025 12:23:33 PM |     ERROR | test_home_page.py:128 | ************* Test Home Page 005 is Failed ************
+11/05/2025 12:47:56 PM |      INFO | test_home_page.py:102 | ************************** Test Home Page 005 is Start *************************
+11/05/2025 12:47:57 PM |      INFO | test_home_page.py:105 | Navigating to the base url
+11/05/2025 12:47:57 PM |      INFO | test_home_page.py:106 | *********************** Verifying Home Page 005 ************************
+11/05/2025 12:47:57 PM |      INFO | test_home_page.py:109 | Hero image is display
+11/05/2025 12:48:13 PM |      INFO | test_home_page.py:111 | hero images auto sliding are working
+11/05/2025 12:48:13 PM |      INFO | test_home_page.py:113 | Hovering on bullet button
+11/05/2025 12:48:13 PM |      INFO | test_home_page.py:115 | Clicking on the preview arrow button
+11/05/2025 12:48:13 PM |      INFO | test_home_page.py:117 | Clicking on the back arrow button
+11/05/2025 12:48:13 PM |      INFO | test_home_page.py:119 | Clicking on the swiper pagination bullet button
+11/05/2025 12:48:17 PM |     ERROR | test_home_page.py:127 | Not holding and sliding the Hero images
+11/05/2025 12:48:17 PM |     ERROR | test_home_page.py:128 | ************* Test Home Page 005 is Failed ************
+11/05/2025 12:49:09 PM |      INFO | test_home_page.py:102 | ************************** Test Home Page 005 is Start *************************
+11/05/2025 12:49:10 PM |      INFO | test_home_page.py:105 | Navigating to the base url
+11/05/2025 12:49:10 PM |      INFO | test_home_page.py:106 | *********************** Verifying Home Page 005 ************************
+11/05/2025 12:49:10 PM |      INFO | test_home_page.py:109 | Hero image is display
+11/05/2025 12:49:25 PM |      INFO | test_home_page.py:111 | hero images auto sliding are working
+11/05/2025 12:49:25 PM |      INFO | test_home_page.py:113 | Hovering on bullet button
+11/05/2025 12:49:25 PM |      INFO | test_home_page.py:115 | Clicking on the preview arrow button
+11/05/2025 12:49:26 PM |      INFO | test_home_page.py:117 | Clicking on the back arrow button
+11/05/2025 12:49:26 PM |      INFO | test_home_page.py:119 | Clicking on the swiper pagination bullet button
+11/05/2025 12:49:29 PM |     ERROR | test_home_page.py:127 | Not holding and sliding the Hero images
+11/05/2025 12:49:29 PM |     ERROR | test_home_page.py:128 | ************* Test Home Page 005 is Failed ************
+11/05/2025 12:50:23 PM |      INFO | test_home_page.py:102 | ************************** Test Home Page 005 is Start *************************
+11/05/2025 12:50:24 PM |      INFO | test_home_page.py:105 | Navigating to the base url
+11/05/2025 12:50:24 PM |      INFO | test_home_page.py:106 | *********************** Verifying Home Page 005 ************************
+11/05/2025 12:50:24 PM |      INFO | test_home_page.py:109 | Hero image is display
+11/05/2025 12:50:39 PM |      INFO | test_home_page.py:111 | hero images auto sliding are working
+11/05/2025 12:50:39 PM |      INFO | test_home_page.py:113 | Hovering on bullet button
+11/05/2025 12:50:39 PM |      INFO | test_home_page.py:115 | Clicking on the preview arrow button
+11/05/2025 12:50:39 PM |      INFO | test_home_page.py:117 | Clicking on the back arrow button
+11/05/2025 12:50:40 PM |      INFO | test_home_page.py:119 | Clicking on the swiper pagination bullet button
+11/05/2025 12:50:40 PM |     ERROR | test_home_page.py:126 | Not holding and sliding the Hero images
+11/05/2025 12:50:40 PM |     ERROR | test_home_page.py:127 | ************* Test Home Page 005 is Failed ************
+11/05/2025 12:55:43 PM |      INFO | test_home_page.py:102 | ************************** Test Home Page 005 is Start *************************
+11/05/2025 12:55:44 PM |      INFO | test_home_page.py:105 | Navigating to the base url
+11/05/2025 12:55:44 PM |      INFO | test_home_page.py:106 | *********************** Verifying Home Page 005 ************************
+11/05/2025 12:55:44 PM |      INFO | test_home_page.py:109 | Hero image is display
+11/05/2025 12:55:59 PM |      INFO | test_home_page.py:111 | hero images auto sliding are working
+11/05/2025 12:55:59 PM |      INFO | test_home_page.py:113 | Hovering on bullet button
+11/05/2025 12:56:00 PM |      INFO | test_home_page.py:115 | Clicking on the preview arrow button
+11/05/2025 12:56:00 PM |      INFO | test_home_page.py:117 | Clicking on the back arrow button
+11/05/2025 12:56:00 PM |      INFO | test_home_page.py:119 | Clicking on the swiper pagination bullet button
+11/05/2025 12:56:01 PM |     ERROR | test_home_page.py:125 | Not holding and sliding the Hero images
+11/05/2025 12:56:01 PM |     ERROR | test_home_page.py:126 | ************* Test Home Page 005 is Failed ************
+11/05/2025 12:57:44 PM |      INFO | test_home_page.py:102 | ************************** Test Home Page 005 is Start *************************
+11/05/2025 12:57:45 PM |      INFO | test_home_page.py:105 | Navigating to the base url
+11/05/2025 12:57:45 PM |      INFO | test_home_page.py:106 | *********************** Verifying Home Page 005 ************************
+11/05/2025 12:57:45 PM |      INFO | test_home_page.py:109 | Hero image is display
+11/05/2025 12:58:00 PM |      INFO | test_home_page.py:111 | hero images auto sliding are working
+11/05/2025 12:58:00 PM |      INFO | test_home_page.py:113 | Hovering on bullet button
+11/05/2025 12:58:01 PM |      INFO | test_home_page.py:115 | Clicking on the preview arrow button
+11/05/2025 12:58:01 PM |      INFO | test_home_page.py:117 | Clicking on the back arrow button
+11/05/2025 12:58:01 PM |      INFO | test_home_page.py:119 | Clicking on the swiper pagination bullet button
+11/05/2025 12:58:01 PM |      INFO | test_home_page.py:122 | holding and sliding the Hero images
+11/05/2025 12:58:01 PM |      INFO | test_home_page.py:123 | ************* Test Home Page 005 is Passed ************
+11/05/2025 12:58:01 PM |      INFO | test_home_page.py:136 | *********************** End Of Home Page 005 ************************
+11/05/2025 01:08:30 PM |      INFO | test_home_page.py:102 | ************************** Test Home Page 005 is Start *************************
+11/05/2025 01:08:31 PM |      INFO | test_home_page.py:105 | Navigating to the base url
+11/05/2025 01:08:31 PM |      INFO | test_home_page.py:106 | *********************** Verifying Home Page 005 ************************
+11/05/2025 01:08:31 PM |      INFO | test_home_page.py:109 | Hero image is display
+11/05/2025 01:08:46 PM |      INFO | test_home_page.py:111 | hero images auto sliding are working
+11/05/2025 01:08:46 PM |      INFO | test_home_page.py:113 | Hovering on bullet button
+11/05/2025 01:08:46 PM |      INFO | test_home_page.py:115 | Clicking on the preview arrow button
+11/05/2025 01:08:46 PM |      INFO | test_home_page.py:117 | Clicking on the back arrow button
+11/05/2025 01:08:47 PM |      INFO | test_home_page.py:119 | Clicking on the swiper pagination bullet button
+11/05/2025 01:08:47 PM |      INFO | test_home_page.py:122 | holding and sliding the Hero images
+11/05/2025 01:08:47 PM |      INFO | test_home_page.py:123 | ************* Test Home Page 005 is Passed ************
+11/05/2025 01:08:47 PM |      INFO | test_home_page.py:136 | *********************** End Of Home Page 005 ************************
