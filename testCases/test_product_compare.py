@@ -413,12 +413,12 @@ class Test_006_Product_Compare:
             WebDriverWait(self.driver, 10, poll_frequency=2).until(lambda driver: "Your Store" in driver.title)
             if self.driver.title == "Your Store":
                 assert True
-                self.logger.error("********** Test Product Compare 012 Is Passed **********")
+                self.logger.info("********** Test Product Compare 012 Is Passed **********")
             else:
                 self.logger.error("********** Test Product Compare 012 Is Failed **********")
                 assert False
         else:
-            self.logger.info("********** Test Product Compare 012 Is Failed **********")
+            self.logger.error("********** Test Product Compare 012 Is Failed **********")
             assert False
         self.driver.quit()
         self.logger.info("************************ End Of Test Product Compare 012 **************************")

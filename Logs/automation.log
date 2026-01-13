@@ -11953,3 +11953,36 @@
 01/14/2026 02:33:11 AM |      INFO | test_wish_list.py:749 | All the product name are display, and it works as expected
 01/14/2026 02:33:12 AM |      INFO | test_wish_list.py:757 | ************** Test Wish List 017 is Passed **************
 01/14/2026 02:33:12 AM |      INFO | test_wish_list.py:766 | *************************** End Of Test Wish List 017 ****************************
+01/14/2026 03:17:43 AM |      INFO | test_product_compare.py:398 | ************************ Test Product Compare 012 Is Start **************************
+01/14/2026 03:17:44 AM |      INFO | test_product_compare.py:400 | Navigating to the base url
+01/14/2026 03:17:46 AM |      INFO | test_product_compare.py:406 | Hovering on the desktop option and Clicking on the show all desktop option
+01/14/2026 03:17:46 AM |      INFO | test_product_compare.py:408 | Clicking on the product compare link on the search result page
+01/14/2026 03:17:46 AM |      INFO | test_product_compare.py:409 | ************************* Verifying Test Product Compare 012 ****************************
+01/14/2026 03:17:46 AM |      INFO | test_product_compare.py:412 | Clicking on the home page link available on the breadcrumb
+01/14/2026 03:17:46 AM |      INFO | test_product_compare.py:416 | ********** Test Product Compare 012 Is Passed **********
+01/14/2026 03:17:48 AM |      INFO | test_product_compare.py:424 | ************************ End Of Test Product Compare 012 **************************
+01/14/2026 03:29:54 AM |      INFO | test_home_page.py:20 | ************************* Test Home Page 001 is Start *************************
+01/14/2026 03:29:55 AM |      INFO | test_home_page.py:23 | Navigating to the base url
+01/14/2026 03:29:56 AM |      INFO | test_home_page.py:26 | Entering iMac to the search text box field
+01/14/2026 03:29:56 AM |      INFO | test_home_page.py:28 | Clicking on the search icon button
+01/14/2026 03:29:56 AM |      INFO | test_home_page.py:31 | Clicking on the add to cart button
+01/14/2026 03:29:57 AM |      INFO | test_home_page.py:34 | Clicking on the shopping cart link in success message
+01/14/2026 03:29:57 AM |      INFO | test_home_page.py:37 | Clicking on the continue shopping button
+01/14/2026 03:29:57 AM |      INFO | test_home_page.py:38 | ************************* Verifying Test Home Page 001 *************************
+01/14/2026 03:29:57 AM |      INFO | test_home_page.py:41 | ************* Test Home Page 001 is Passed *************
+01/14/2026 03:29:57 AM |      INFO | test_home_page.py:46 | ************************* End Of Test Home Page 001 *************************
+01/14/2026 03:30:01 AM |      INFO | test_home_page.py:55 | ************************* Test Home Page 003 is Start *************************
+01/14/2026 03:30:02 AM |      INFO | test_home_page.py:58 | Navigating to the base url
+01/14/2026 03:30:02 AM |      INFO | test_home_page.py:61 | Clicking on the wish list footer option
+01/14/2026 03:30:03 AM |      INFO | test_home_page.py:63 | Clicking on the store logo
+01/14/2026 03:30:03 AM |      INFO | test_home_page.py:64 | ************************* Verifying Test Home Page 003 *************************
+01/14/2026 03:30:03 AM |      INFO | test_home_page.py:67 | **************** Test Home Page 003 is Passed ***************
+01/14/2026 03:30:03 AM |      INFO | test_home_page.py:71 | ************************* End Of Test Home Page 003 *************************
+01/14/2026 03:30:06 AM |      INFO | test_home_page.py:75 | *************************** Test Home Page 004 is Start *******************************
+01/14/2026 03:30:07 AM |      INFO | test_home_page.py:78 | Navigating to the base url
+01/14/2026 03:30:08 AM |      INFO | test_home_page.py:82 | hovering on desktop option
+01/14/2026 03:30:08 AM |      INFO | test_home_page.py:85 | Clicking on zero product option
+01/14/2026 03:30:09 AM |      INFO | test_home_page.py:88 | Clicking on continue button
+01/14/2026 03:30:09 AM |      INFO | test_home_page.py:89 | ************************* Verifying Test Home Page 004 ***************************
+01/14/2026 03:30:09 AM |      INFO | test_home_page.py:92 | ************ Test Home Page 004 Passed ************
+01/14/2026 03:30:09 AM |      INFO | test_home_page.py:96 | ************************* End of Test Home Page 004 ***************************
