@@ -41,8 +41,15 @@ class ProductComparePage:
         compare_this_product_option.click()
 
     def success_message(self):
-        success_message = self.driver.find_element(*ProductComparePage.successMessage).text
-        return success_message
+        try:
+            wait = WebDriverWait(self.driver, 10)
+            message_element = wait.until(EC.visibility_of_element_located(ProductComparePage.successMessage))
+            success_text = message_element.text.strip()
+            print(f"Success message captured: '{success_text}'")
+            return success_text
+        except Exception as e:
+            print(f"Failed to retrieve success message: {e}")
+            return None
 
     def click_on_product_comparison_link(self):
         product_comparison_link = WebDriverWait(self.driver, 10, poll_frequency=2).until(

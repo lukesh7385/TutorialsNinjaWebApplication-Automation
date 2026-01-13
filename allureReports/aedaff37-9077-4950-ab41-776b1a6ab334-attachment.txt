@@ -1,0 +1,10 @@
+[32mINFO    [0m Test_010_Shopping_Cart:test_shopping_cart.py:344 ***************************** Test Shopping Cart 011 is Start *****************************
+[32mINFO    [0m Test_010_Shopping_Cart:test_shopping_cart.py:347 Navigating to the base url
+[32mINFO    [0m Test_010_Shopping_Cart:test_shopping_cart.py:350 Entering iMac to the search text box field
+[32mINFO    [0m Test_010_Shopping_Cart:test_shopping_cart.py:352 Clicking on the search icon button
+[32mINFO    [0m Test_010_Shopping_Cart:test_shopping_cart.py:355 Clicking on the product display in search page
+[32mINFO    [0m Test_010_Shopping_Cart:test_shopping_cart.py:358 Clicking on the add to cart button on product display page
+[32mINFO    [0m Test_010_Shopping_Cart:test_shopping_cart.py:360 Clicking on the shopping cart link display in success message
+[32mINFO    [0m Test_010_Shopping_Cart:test_shopping_cart.py:361 ***************************** Verifying Test Shopping Cart 011 *****************************
+[32mINFO    [0m Test_010_Shopping_Cart:test_shopping_cart.py:367 *************** Test Shopping Cart 011 is Passed ****************
+[32mINFO    [0m Test_010_Shopping_Cart:test_shopping_cart.py:377 ***************************** End Of Test Shopping Cart 011 *****************************

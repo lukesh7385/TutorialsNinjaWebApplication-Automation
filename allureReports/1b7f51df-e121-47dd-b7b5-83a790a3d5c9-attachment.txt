@@ -1,0 +1,13 @@
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:694 *************************** Test Wish List 017 is Start ****************************
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:697 Navigating to the base url
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:705 Login is successful
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:709 Clicking on the modify your wish list option
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:711 Clearing all my wish list
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:715 Clicking on the account breadcrumb option
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:730 adding multiple product to my wish list
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:732 Clicking on wish list link in success message
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:733 *************************** Verifying Test Wish List 017 ****************************
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:744 All the images of the product are display and its works as expected
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:749 All the product name are display, and it works as expected
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:757 ************** Test Wish List 017 is Passed **************
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:766 *************************** End Of Test Wish List 017 ****************************

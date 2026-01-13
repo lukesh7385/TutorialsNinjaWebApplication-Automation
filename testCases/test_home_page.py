@@ -102,20 +102,20 @@ class Test_011_Home_Page:
         self.driver.get(self.baseURL)
         self.logger.info("Navigating to the base url")
         self.logger.info("*********************** Verifying Home Page 005 ************************")
-        self.hm = HomePage(self.driver)
-        if self.hm.is_any_active_hero_image_visible():
+        self.hp = HomePage(self.driver)
+        if self.hp.is_any_active_hero_image_visible():
             self.logger.info("Hero image is display")
-            if self.hm.are_hero_images_auto_sliding(self.hm.heroImages):
+            if self.hp.are_hero_images_auto_sliding(self.hp.heroImages):
                 self.logger.info("hero images auto sliding are working")
-                self.hm.hover_on_swiper_pagination_bullet_button()
+                self.hp.hover_on_swiper_pagination_bullet_button()
                 self.logger.info("Hovering on bullet button")
-                self.hm.click_on_prev_arrow_button_on_the_hero_image()
+                self.hp.click_on_prev_arrow_button_on_the_hero_image()
                 self.logger.info("Clicking on the preview arrow button")
-                self.hm.click_on_back_arrow_button_on_the_hero_image()
+                self.hp.click_on_back_arrow_button_on_the_hero_image()
                 self.logger.info("Clicking on the back arrow button")
-                self.hm.click_on_swiper_pagination_bullet_button()
+                self.hp.click_on_swiper_pagination_bullet_button()
                 self.logger.info("Clicking on the swiper pagination bullet button")
-                if self.hm.drag_swiper_image():
+                if self.hp.drag_swiper_image():
                     assert True
                     self.logger.info("holding and sliding the Hero images")
                     self.logger.info("************* Test Home Page 005 is Passed ************")
@@ -132,3 +132,14 @@ class Test_011_Home_Page:
             self.logger.info("Hero image is not display")
             assert False
         self.logger.info("*********************** End Of Home Page 005 ************************")
+
+    @pytest.mark.sanity
+    def test_home_page_006(self, setup):
+        pass
+
+
+
+
+
+
+

@@ -1,0 +1,3 @@
+[32mINFO    [0m Test_011_Home_Page:test_home_page.py:75 *************************** Test Home Page 004 is Start *******************************
+[32mINFO    [0m Test_011_Home_Page:test_home_page.py:78 Navigating to the base url
+[32mINFO    [0m Test_011_Home_Page:test_home_page.py:82 hovering on desktop option

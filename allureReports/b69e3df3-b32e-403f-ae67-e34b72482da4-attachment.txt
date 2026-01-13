@@ -1,0 +1,11 @@
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:622 **************************** Test Wish List 015 is Start *****************************
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:625 Navigating to the base url
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:628 Entering iMac product name to the search text box field
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:630 Clicking on the search icon button
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:633 Clicking on the add to wish list option
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:640 Login successful
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:642 Clicking on the modify your wish list option
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:644 Clearing wish list if not empty
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:645 **************************** Verifying Test Wish List 015 *****************************
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:651 ************** Test Wish List 015 is Passed ************
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:658 **************************** End Of Test Wish List 015 *****************************

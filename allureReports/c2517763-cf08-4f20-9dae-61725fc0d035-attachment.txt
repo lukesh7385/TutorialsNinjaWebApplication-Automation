@@ -1,0 +1,20 @@
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:531 **************************** Test Wish List 014 is Start *****************************
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:534 Navigating to the base url
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:541 Login successful
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:544 Clicking on the wish list header option
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:547 Clearing wish list if not empty
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:550 Clicking on the continue button
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:553 Entering iMac product name to the search text box field
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:555 Clicking on the search icon button
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:557 Clicking on the add to wish list option display in search result
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:559 Clicking on the search breadcrumb option
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:561 Clicking on the back arrow on the browser
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:563 Clicking on the modify your wish list option
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:564 **************************** Verifying Test Wish List 014 *****************************
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:582 Product image is display
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:584 Action buttons is display
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:586 Proper details are display
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:588 Clicking on the image
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:594 Clicking on the continue button
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:597 *************** Test Wish List 014 is Passed **************
+[32mINFO    [0m Test_009_Wish_List:test_wish_list.py:618 **************************** End Of Test Wish List 014 *****************************

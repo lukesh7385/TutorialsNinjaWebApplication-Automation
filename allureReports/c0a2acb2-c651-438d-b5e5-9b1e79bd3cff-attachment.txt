@@ -1,0 +1,3 @@
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:142 ***************** Test Product Compare 004 Is Start *****************
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:144 Navigating to the url
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:148 hovering on desktops option and clicking on show all desktops option

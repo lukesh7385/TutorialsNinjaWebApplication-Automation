@@ -1,0 +1,7 @@
+[32mINFO    [0m Test_011_Home_Page:test_home_page.py:55 ************************* Test Home Page 003 is Start *************************
+[32mINFO    [0m Test_011_Home_Page:test_home_page.py:58 Navigating to the base url
+[32mINFO    [0m Test_011_Home_Page:test_home_page.py:61 Clicking on the wish list footer option
+[32mINFO    [0m Test_011_Home_Page:test_home_page.py:63 Clicking on the store logo
+[32mINFO    [0m Test_011_Home_Page:test_home_page.py:64 ************************* Verifying Test Home Page 003 *************************
+[32mINFO    [0m Test_011_Home_Page:test_home_page.py:67 **************** Test Home Page 003 is Passed ***************
+[32mINFO    [0m Test_011_Home_Page:test_home_page.py:71 ************************* End Of Test Home Page 003 *************************

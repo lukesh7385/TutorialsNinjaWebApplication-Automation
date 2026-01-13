@@ -15,6 +15,18 @@ class HomePage:
     swipingPropagationBulletButton = (By.XPATH,
                                       "//div[@class='swiper-pagination slideshow0 swiper-pagination-clickable swiper-pagination-bullets']//span[@class='swiper-pagination-bullet']")
     image_xpath = (By.XPATH, "//body/div[@id='common-home']/div[@class='row']/div[@id='content']/div[1]")
+    fourFeaturedProducts = (By.XPATH, "//div[@class='product-layout col-lg-3 col-md-3 col-sm-6 col-xs-12']/div/div[2]/h4/a")
+    macbookProductAddToCartOption = (By.XPATH, "(//span[contains(text(),'Add to Cart')])[1]")
+    iPhoneProductAddToCartOption = (By.XPATH, "//*[@id='content']/div[2]/div[2]/div/div[3]/button[1]/span")
+    appleCinema30ProductAddToCartOption = (By.XPATH, "/html[1]/body[1]/div[2]/div[1]/div[1]/div[2]/div[3]/div[1]/div[3]/button[1]/span[1]")
+    canonEOS5DProductAddToCartOption = (By.XPATH, "//*[@id='content']/div[2]/div[4]/div/div[3]/button[1]/span")
+    wishlistButton1 = (By.XPATH, "//*[@id='content']/div[2]/div[1]/div/div[3]/button[2]")
+    wishlistButton2 = (By.XPATH, "//*[@id='content']/div[2]/div[2]/div/div[3]/button[2]")
+    wishlistButton3 = (By.XPATH, "//*[@id='content']/div[2]/div[3]/div/div[3]/button[2]")
+    wishlistButton4 = (By.XPATH, "//*[@id='content']/div[2]/div[4]/div/div[3]/button[2]")
+
+
+
 
     def __init__(self, driver):
         self.driver = driver
@@ -119,3 +131,84 @@ class HomePage:
         except Exception as e:
             print(f"❌ Error dragging image: {e}")
             return False
+
+    def is_four_featured_product_display(self):
+        featured_elements = self.driver.find_elements(*HomePage.fourFeaturedProducts)
+        expected_products = ["MacBook", "iPhone", 'Apple Cinema 30"', "Canon EOS 5D"]
+        actual_products = [element.text.strip() for element in featured_elements]
+
+        missing = [product for product in expected_products if product not in actual_products]
+        if missing:
+            print(f"Missing featured products: {missing}")
+            return False
+        return True
+
+    def click_on_macbook_add_to_cart_button(self):
+        try:
+            button = WebDriverWait(self.driver, 10, poll_frequency=2).until(
+                EC.presence_of_element_located(HomePage.macbookProductAddToCartOption)
+            )
+            time.sleep(2)
+            self.driver.execute_script("arguments[0].click();", button)
+            print("Clicked 'Add to Cart' for MacBook")
+        except Exception as e:
+            print(f"Failed to click MacBook Add to Cart button: {e}")
+
+    def click_on_iphone_add_to_cart_button(self):
+        try:
+            button = WebDriverWait(self.driver, 10, poll_frequency=2).until(
+                EC.presence_of_element_located(HomePage.iPhoneProductAddToCartOption)
+            )
+            time.sleep(2)
+            self.driver.execute_script("arguments[0].click();", button)
+            print("Clicked 'Add to Cart' for iPhone")
+        except Exception as e:
+            print(f"Failed to click iPhone Add to Cart button: {e}")
+
+    def click_on_apple_cinema_30_add_to_cart_button(self):
+        try:
+            button = WebDriverWait(self.driver, 10, poll_frequency=2).until(
+                EC.presence_of_element_located(HomePage.appleCinema30ProductAddToCartOption)
+            )
+            time.sleep(3)
+            self.driver.execute_script("arguments[0].click();", button)
+            print("Clicked 'Add to Cart' for Apple Cinema 30")
+        except Exception as e:
+            print(f"Failed to click Apple Cinema 30 Add to Cart button: {e}")
+
+
+    def click_on_canon_eos_5d_add_to_cart_button(self):
+        try:
+            button = WebDriverWait(self.driver, 10, poll_frequency=2).until(
+                EC.element_to_be_clickable(HomePage.canonEOS5DProductAddToCartOption)
+            )
+            time.sleep(2)
+            self.driver.execute_script("arguments[0].click();", button)
+            print("Clicked 'Add to Cart' for Canon EOS 5D")
+        except Exception as e:
+            print(f"Failed to click Canon EOS 5D Add to Cart button: {e}")
+
+    def click_on_add_to_wish_list_for_macbook(self):
+        wish_list_button = WebDriverWait(self.driver, 10, poll_frequency=2).until(
+            EC.element_to_be_clickable(HomePage.wishlistButton1)
+        )
+        wish_list_button.click()
+
+    def click_on_add_to_wish_list_for_iphone(self):
+        wish_list_button = WebDriverWait(self.driver, 10, poll_frequency=2).until(
+            EC.element_to_be_clickable(HomePage.wishlistButton2)
+        )
+        wish_list_button.click()
+
+    def click_on_add_to_wish_list_for_apple_cinema_30(self):
+        wish_list_button = WebDriverWait(self.driver, 10, poll_frequency=2).until(
+            EC.element_to_be_clickable(HomePage.wishlistButton3)
+        )
+        wish_list_button.click()
+
+    def click_on_add_to_wish_list_for_canon_eos_5d(self):
+        wish_list_button = WebDriverWait(self.driver, 10, poll_frequency=2).until(
+            EC.element_to_be_clickable(HomePage.wishlistButton4)
+        )
+        wish_list_button.click()
+

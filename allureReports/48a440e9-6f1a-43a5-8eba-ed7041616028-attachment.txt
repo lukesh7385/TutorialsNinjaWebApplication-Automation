@@ -1,0 +1,11 @@
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:302 ******************** Test Product Compare 008 Is Start ********************
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:304 Navigating to the base url
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:307 Entering iMac product to search
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:309 Clicking on search button
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:312 Clicking on product compare link on search result page
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:313 *************** Verifying Test Product Compare 008 ***************
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:316 ************ Test Product Compare 008 Is Passed ***********
+[32mINFO    [0m Test_006_Product_Compare:test_product_compare.py:321 ********************** End of Test Product Compare 008 ***********************
+[33mWARNING [0m urllib3.connectionpool:connectionpool.py:868 Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E2125A0C00>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/08f04569ef6969d58441de1792a2cd19
+[33mWARNING [0m urllib3.connectionpool:connectionpool.py:868 Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E2125A1370>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/08f04569ef6969d58441de1792a2cd19
+[33mWARNING [0m urllib3.connectionpool:connectionpool.py:868 Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E2125A3240>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/08f04569ef6969d58441de1792a2cd19

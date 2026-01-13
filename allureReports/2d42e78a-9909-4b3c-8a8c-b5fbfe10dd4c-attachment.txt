@@ -1,0 +1,6 @@
+[32mINFO    [0m Test_010_Shopping_Cart:test_shopping_cart.py:106 *************************** Test Shopping Cart 004 is Start *************************
+[32mINFO    [0m Test_010_Shopping_Cart:test_shopping_cart.py:109 Navigating to the base url
+[32mINFO    [0m Test_010_Shopping_Cart:test_shopping_cart.py:112 Clicking on the cart button
+[32mINFO    [0m Test_010_Shopping_Cart:test_shopping_cart.py:114 *************************** Verifying Test Shopping Cart 004 *************************
+[32mINFO    [0m Test_010_Shopping_Cart:test_shopping_cart.py:119 ***************** Test Shopping Cart 004 is Passed ***************
+[32mINFO    [0m Test_010_Shopping_Cart:test_shopping_cart.py:126 *************************** End Of Test Shopping Cart 004 *************************

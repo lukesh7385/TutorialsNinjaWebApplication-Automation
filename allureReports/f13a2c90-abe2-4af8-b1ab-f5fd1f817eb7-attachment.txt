@@ -1,0 +1,12 @@
+[32mINFO    [0m Test_011_Home_Page:test_home_page.py:100 ************************** Test Home Page 005 is Start *************************
+[32mINFO    [0m Test_011_Home_Page:test_home_page.py:103 Navigating to the base url
+[32mINFO    [0m Test_011_Home_Page:test_home_page.py:104 *********************** Verifying Home Page 005 ************************
+[32mINFO    [0m Test_011_Home_Page:test_home_page.py:107 Hero image is display
+[32mINFO    [0m Test_011_Home_Page:test_home_page.py:109 hero images auto sliding are working
+[32mINFO    [0m Test_011_Home_Page:test_home_page.py:111 Hovering on bullet button
+[32mINFO    [0m Test_011_Home_Page:test_home_page.py:113 Clicking on the preview arrow button
+[32mINFO    [0m Test_011_Home_Page:test_home_page.py:115 Clicking on the back arrow button
+[32mINFO    [0m Test_011_Home_Page:test_home_page.py:117 Clicking on the swiper pagination bullet button
+[32mINFO    [0m Test_011_Home_Page:test_home_page.py:120 holding and sliding the Hero images
+[32mINFO    [0m Test_011_Home_Page:test_home_page.py:121 ************* Test Home Page 005 is Passed ************
+[32mINFO    [0m Test_011_Home_Page:test_home_page.py:134 *********************** End Of Home Page 005 ************************
